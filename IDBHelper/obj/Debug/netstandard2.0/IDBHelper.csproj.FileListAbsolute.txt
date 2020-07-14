@@ -1,0 +1,9 @@
+E:\学习不止\IDBHelper\bin\Debug\netstandard2.0\IDBHelper.deps.json
+E:\学习不止\IDBHelper\bin\Debug\netstandard2.0\IDBHelper.dll
+E:\学习不止\IDBHelper\bin\Debug\netstandard2.0\IDBHelper.pdb
+E:\学习不止\IDBHelper\obj\Debug\netstandard2.0\IDBHelper.csproj.CoreCompileInputs.cache
+E:\学习不止\IDBHelper\obj\Debug\netstandard2.0\IDBHelper.AssemblyInfoInputs.cache
+E:\学习不止\IDBHelper\obj\Debug\netstandard2.0\IDBHelper.AssemblyInfo.cs
+E:\学习不止\IDBHelper\obj\Debug\netstandard2.0\IDBHelper.dll
+E:\学习不止\IDBHelper\obj\Debug\netstandard2.0\IDBHelper.pdb
+E:\学习不止\IDBHelper\obj\Debug\netstandard2.0\IDBHelper.csprojAssemblyReference.cache

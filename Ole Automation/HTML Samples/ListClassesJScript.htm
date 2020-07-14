@@ -1,0 +1,202 @@
+<html xmlns="http://www.w3.org/TR/REC-html40">
+
+<body bgcolor="#ccffff">
+
+<head>
+
+<script language="JavaScript"  Runat="Client">
+//
+// This JavaScript shows how to display properties of classes defined the the model and subpackages
+// in the output window for the current active OOM.
+// It also shows how to convert RTF description into ASCII text.
+//
+
+// Define the PdOOM constants
+// For other constants, see the VBScriptConstants.vbs file
+var PdOOM_Model                                   = 403775584;      // Object-Oriented Model
+var PdOOM_Class                                   = 403775587;      // Class
+var PdOOM_Attribute                               = 403775589;      // Attribute
+var PdOOM_Operation                               = 403775590;      // Operation
+
+function ListClasses()
+{
+    // PowerDesigner server connection
+    //  (it must not be reset until client is over)
+
+    // Get Application object
+    var PD = new ActiveXObject("PowerDesigner.Application.16.5");
+    if (PD != null)
+    {
+       // Get the current active model
+       var model = PD.ActiveModel;
+       if (model == null)
+       {
+          window.alert("There is no active model in PowerDesigner.");
+       }
+       else if (model.IsKindOf(PdOOM_Model))
+       {
+          // Display number of Classes
+          PD.Output("The model '" + model.Name + "' contains " + model.Classes.Count.toString() + " classe(s).");
+          PD.Output("");
+
+           // Display classes properties
+          ShowProperties(PD, model);
+
+          window.alert("The OOM model '" + model.name + "' properties has been successfully displayed in the PowerDesigner output window.");
+       }
+       else
+       {
+          window.alert("The current model '" + model.Name + "' is not an OOM.");
+       }
+
+       // Clean Up
+       PD = null;
+    }
+    else
+    {
+       window.alert("Cannot create PowerDesigner Application object.  Please verify that PowerDesigner is installed properly.");
+    }
+}
+
+// Show properties of classes
+function ShowProperties(PD, package)
+{
+   PD.Output("================================");
+   PD.Output("Package " + package.Name + ":");
+   PD.Output("================================");
+
+   // Show classes of the current model/package
+   PD.Output("Classes of the model");
+   var cls = null;
+   var noClass = 1;
+   // For each class
+   var classes = new Enumerator(package.Classes);
+   for (classes.moveFirst(); !classes.atEnd(); classes.moveNext())
+   {
+      cls = classes.item();
+      ShowClass(PD, cls, noClass);
+      noClass += 1;
+      if (noClass >= 5)
+         break;
+   }
+
+   // Show classes in the sub-packages
+   if (package.Packages.Count > 0)
+   {
+      PD.Output("Classes in packages:");
+      var subpackage = null;
+      var packages = new Enumerator(package.Packages);
+      for (packages.moveFirst(); !packages.atEnd(); packages.moveNext())
+      {
+         subpackage = packages.item();
+         ShowProperties(PD, subpackage);
+      }
+   }
+}
+
+// Show class properties
+function ShowClass(PD, cls, noClass)
+{
+   // Show properties
+   PD.Output("================================");
+   PD.Output("Class " + noClass.toString() + ":");
+   PD.Output("================================");
+   PD.Output("ObjectID: " + cls.ObjectID);
+   PD.Output("Name: " + cls.Name);
+   PD.Output("Code: " + cls.Code);
+   if (cls.parent != null)
+      PD.Output("Parent: " + cls.parent.Name);
+   else
+      PD.Output("Parent: " + "<None>");
+   PD.Output("DisplayName: " + cls.DisplayName);
+   PD.Output("ObjectType: " + cls.ObjectType);
+   var date;
+   date = new Date(cls.CreationDate)
+   PD.Output("CreationDate: " + date.toString());
+   PD.Output("Creator: " + cls.Creator);
+   date = new Date(cls.ModificationDate)
+   PD.Output("ModificationDate: " + date.toString());
+   PD.Output("Modifier: " + cls.Modifier);
+   PD.Output("Comment: " + cls.Comment);
+   PD.Output("Description: " + PD.Rtf2Ascii(cls.Description));
+   PD.Output("");
+
+   // Show attributes
+   ShowAttributes(PD, cls);
+
+   // Show operations
+   ShowOperations(PD, cls);
+}
+
+// Show class attributes
+function ShowAttributes(PD, cls)
+{
+   var attr = null;
+   var noAttr = 1;
+   var attributes = new Enumerator(cls.Attributes);
+   for (attributes.moveFirst(); !attributes.atEnd(); attributes.moveNext())
+   {
+      attr = attributes.item();
+      PD.Output( "   Attribute " + noAttr.toString() + ":");
+      PD.Output( "   --------------------------------");
+      PD.Output( "   Name: " + attr.Name);
+      PD.Output( "   Code: " + attr.Code);
+      if (attr.parent != null)
+         PD.Output( "   Parent: " + attr.parent.Name);
+      else
+         PD.Output( "   Parent: " + "<None>");
+      PD.Output( "   DateType: " + attr.DataType);
+      PD.Output( "   Persistent: " + attr.Persistent.toString());
+      PD.Output( "   PersistentDataType: " + attr.PersistentDataType);
+      PD.Output( "   PersistentLength: " + attr.PersistentLength.toString());
+      PD.Output( "   Comment: " + attr.Comment);
+      PD.Output( "   Description: " + PD.Rtf2Ascii(attr.Description));
+      PD.Output( "");
+      noAttr += 1;
+   }
+}
+
+// Show class operations
+function ShowOperations(PD, cls)
+{
+   var oper= null;
+   var noOper = 1;
+   var operations = new Enumerator(cls.Operations);
+   for (operations.moveFirst(); !operations.atEnd(); operations.moveNext())
+   {
+      oper = operations.item();
+      PD.Output( "   Operation " + noOper.toString() + ":");
+      PD.Output( "   --------------------------------");
+      PD.Output( "   Name: " + oper.Name);
+      PD.Output( "   Code: " + oper.Code);
+      if (oper.parent != null)
+         PD.Output( "   Parent: " + oper.parent.Name);
+      else
+         PD.Output( "   Parent: " + "<None>");
+      PD.Output( "   Visibility: " + oper.Visibility);
+      PD.Output( "   RetunType: " + oper.ReturnType);
+      PD.Output( "   Signature: " + oper.Signature);
+      PD.Output( "   Body: " + oper.body);
+      PD.Output( "   Comment: " + oper.Comment);
+      PD.Output( "   Description: " + PD.Rtf2Ascii(oper.Description));
+      PD.Output( "");
+      noOper += 1;
+   }
+}
+</script>
+
+</head>
+
+<h1>PowerDesigner OLE Automation Using JavaScript in a HTML Page</h1>
+
+<p>This page uses a <b>JavaScript</b> function and the <b>OLE automation</b> feature of <b>PowerDesigner</b> to display
+ the properties of the first five classes defined in the active OOM model and subpackages in the output window of PowerDesigner.</p>
+<p>Click on this button to show the classes properties in PowerDesigner output window:</p>
+
+<form method=Get enctype="application/x-www-form-urlencoded">
+<input type="SUBMIT" value="Show Properties" id=showProp onclick="ListClasses()"></p>
+</form>
+
+</body>
+
+</html>

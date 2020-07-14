@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TYDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="DS_TCategory">
+    <Key>
+      <PropertyRef Name="CategoryID" />
+    </Key>
+    <Property Name="CategoryID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CategoryName" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="QCount" Type="Int32" />
+    <Property Name="Show1" Type="Int32" />
+    <Property Name="Description" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityContainer Name="TYDBEntities2" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="DS_TCategory" EntityType="Self.DS_TCategory" />
+    <EntitySet Name="ModelFIrsts" EntityType="TYDBModel.ModelFIrst" />
+    <EntitySet Name="ModelFirstTwoes" EntityType="TYDBModel.ModelFirstTwo" />
+    <AssociationSet Name="ModelFIrstModelFirstTwo" Association="TYDBModel.ModelFIrstModelFirstTwo">
+      <End Role="ModelFIrst" EntitySet="ModelFIrsts" />
+      <End Role="ModelFirstTwo" EntitySet="ModelFirstTwoes" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="ModelFIrst">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="true" MaxLength="32" />
+    <Property Name="Time1" Type="Time" Nullable="false" />
+    <NavigationProperty Name="ModelFirstTwoes" Relationship="TYDBModel.ModelFIrstModelFirstTwo" FromRole="ModelFIrst" ToRole="ModelFirstTwo" />
+  </EntityType>
+  <EntityType Name="ModelFirstTwo">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <NavigationProperty Name="ModelFIrst" Relationship="TYDBModel.ModelFIrstModelFirstTwo" FromRole="ModelFirstTwo" ToRole="ModelFIrst" />
+    <Property Name="ModelFIrstId" Type="Int32" Nullable="false" />
+  </EntityType>
+  <Association Name="ModelFIrstModelFirstTwo">
+    <End Type="TYDBModel.ModelFIrst" Role="ModelFIrst" Multiplicity="1" />
+    <End Type="TYDBModel.ModelFirstTwo" Role="ModelFirstTwo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ModelFIrst">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ModelFirstTwo">
+        <PropertyRef Name="ModelFIrstId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

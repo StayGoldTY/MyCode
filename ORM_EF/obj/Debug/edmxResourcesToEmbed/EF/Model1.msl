@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="TYDBModelStoreContainer" CdmEntityContainer="TYDBEntities2">
+    <EntitySetMapping Name="DS_TCategory">
+      <EntityTypeMapping TypeName="IsTypeOf(TYDBModel.DS_TCategory)">
+        <MappingFragment StoreEntitySet="DS_TCategory">
+          <ScalarProperty Name="CategoryID" ColumnName="CategoryID" />
+          <ScalarProperty Name="CategoryName" ColumnName="CategoryName" />
+          <ScalarProperty Name="QCount" ColumnName="QCount" />
+          <ScalarProperty Name="Show1" ColumnName="Show1" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ModelFIrsts">
+      <EntityTypeMapping TypeName="IsTypeOf(TYDBModel.ModelFIrst)">
+        <MappingFragment StoreEntitySet="ModelFIrsts">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Time1" ColumnName="Time1" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ModelFirstTwoes">
+      <EntityTypeMapping TypeName="IsTypeOf(TYDBModel.ModelFirstTwo)">
+        <MappingFragment StoreEntitySet="ModelFirstTwoes">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ModelFIrstId" ColumnName="ModelFIrstId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

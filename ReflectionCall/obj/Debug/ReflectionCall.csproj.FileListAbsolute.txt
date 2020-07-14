@@ -1,0 +1,11 @@
+E:\学习不止\ReflectionCall\bin\Debug\ReflectionCall.exe.config
+E:\学习不止\ReflectionCall\bin\Debug\ReflectionCall.exe
+E:\学习不止\ReflectionCall\bin\Debug\ReflectionCall.pdb
+E:\学习不止\ReflectionCall\obj\Debug\ReflectionCall.csprojAssemblyReference.cache
+E:\学习不止\ReflectionCall\obj\Debug\ReflectionCall.csproj.CoreCompileInputs.cache
+E:\学习不止\ReflectionCall\obj\Debug\ReflectionCall.exe
+E:\学习不止\ReflectionCall\obj\Debug\ReflectionCall.pdb
+E:\学习不止\DesignPatterns\bin\Debug\ReflectionCall.exe.config
+E:\学习不止\DesignPatterns\bin\Debug\ReflectionCall.exe
+E:\学习不止\DesignPatterns\bin\Debug\ReflectionCall.pdb
+E:\学习不止\ReflectionCall\obj\Debug\ReflectionCall.csproj.CopyComplete

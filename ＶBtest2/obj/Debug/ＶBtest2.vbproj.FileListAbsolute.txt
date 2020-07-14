@@ -1,0 +1,10 @@
+E:\学习不止\ＶBtest2\bin\Debug\ＶBtest2.exe
+E:\学习不止\ＶBtest2\bin\Debug\ＶBtest2.pdb
+E:\学习不止\ＶBtest2\bin\Debug\ＶBtest2.xml
+E:\学习不止\ＶBtest2\obj\Debug\ＶBtest2.vbprojAssemblyReference.cache
+E:\学习不止\ＶBtest2\obj\Debug\ＶBtest2.Resources.resources
+E:\学习不止\ＶBtest2\obj\Debug\ＶBtest2.vbproj.GenerateResource.cache
+E:\学习不止\ＶBtest2\obj\Debug\ＶBtest2.exe
+E:\学习不止\ＶBtest2\obj\Debug\ＶBtest2.xml
+E:\学习不止\ＶBtest2\obj\Debug\ＶBtest2.pdb
+E:\学习不止\ＶBtest2\obj\Debug\ＶBtest2.vbproj.CoreCompileInputs.cache

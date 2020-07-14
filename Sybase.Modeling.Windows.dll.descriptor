@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Module Id="Sybase.Modeling.Windows">
+  <AssemblyName>Sybase.Modeling.Windows, Version=1.6.5.0, Culture=neutral, PublicKeyToken=65afb196693a8d18</AssemblyName>
+  <RelativePath>Sybase.Modeling.Windows.dll</RelativePath>
+  <Extensions>
+    <ExtensionPoint Id="Sybase.Core.Windows.ExtensionPoints.EditingSupport">
+      <EditingSupport Class="Sybase.Modeling.Windows.EditingSupportProvider">
+        <AssemblyNames>
+          <string>Sybase.Modeling.Data</string>
+          <string>Sybase.Modeling.Language.Templating</string>
+        </AssemblyNames>
+      </EditingSupport>
+    </ExtensionPoint>
+  </Extensions>
+  <Configurations />
+</Module>

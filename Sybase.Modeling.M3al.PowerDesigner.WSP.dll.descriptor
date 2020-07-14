@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Module Id="Sybase.Modeling.M3al.PowerDesigner.WSP">
+  <AssemblyName>Sybase.Modeling.M3al.PowerDesigner.WSP, Version=16.5.5.4734, Culture=neutral, PublicKeyToken=65afb196693a8d18</AssemblyName>
+  <RelativePath>Sybase.Modeling.M3al.PowerDesigner.WSP.dll</RelativePath>
+  <Extensions>
+    <ExtensionPoint Id="Sybase.Modeling.M3al.Internal.ExternalProxyAssembly">
+      <ExternalProxyAssembly Class="Sybase.Modeling.M3al.PowerDesigner.WSP.__ProxyAssembly" />
+    </ExtensionPoint>
+  </Extensions>
+  <Configurations />
+</Module>

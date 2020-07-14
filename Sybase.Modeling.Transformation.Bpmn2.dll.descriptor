@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Module Id="Sybase.Modeling.Transformation.Bpmn2">
+  <AssemblyName>Sybase.Modeling.Transformation.Bpmn2, Version=16.5.5.4734, Culture=neutral, PublicKeyToken=null</AssemblyName>
+  <RelativePath>Sybase.Modeling.Transformation.Bpmn2.dll</RelativePath>
+  <Extensions>
+    <ExtensionPoint Id="Sybase.Modeling.Transformation.ExtensionPoints.PDExportAdapter">
+      <PDExportAdapter Class="Sybase.Modeling.Transformation.Bpmn2.PdToBpmn2Exporter">
+        <Code>bpmn2</Code>
+      </PDExportAdapter>
+    </ExtensionPoint>
+    <ExtensionPoint Id="Sybase.Modeling.Transformation.ExtensionPoints.PDImportAdapter">
+      <PDImportAdapter Class="Sybase.Modeling.Transformation.Bpmn2.Bpmn2ToPdImporter">
+        <Code>bpmn2</Code>
+      </PDImportAdapter>
+    </ExtensionPoint>
+  </Extensions>
+  <Configurations />
+</Module>

@@ -1,0 +1,31 @@
+.oraportletheader
+	{
+	font-size:12pt;
+	font-family:Arial;
+	color:#336699;
+	font-weight:bold;
+	line-height: 28px;
+}
+.title2
+	{
+	font-size:18pt;
+	font-family:Geneva, Arial, Helvetica, sans-serif;
+	color:black;
+	font-weight:bold;
+	font-style: normal;
+	line-height: normal;
+}
+.Section1
+	{page:Section1;}
+.link {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 20px;
+}
+.descr {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	color: #000000;
+}

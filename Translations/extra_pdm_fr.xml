@@ -1,0 +1,6087 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Translations lang="fr" extended="yes">
+  <Translation>
+    <Name>&amp;amp;Apply To Connection String</Name>
+    <LocalName>&amp;amp;Appliquer à la chaîne de connexion</LocalName>
+  </Translation>
+  <Translation>
+    <Name>&amp;amp;Dimensional Type</Name>
+    <LocalName>&amp;amp;Type dimensionnel</LocalName>
+  </Translation>
+  <Translation>
+    <Name>&amp;amp;Generate</Name>
+    <LocalName>&amp;amp;Générer</LocalName>
+  </Translation>
+  <Translation>
+    <Name>&amp;amp;Input parameter type:</Name>
+    <LocalName>&amp;amp;Type de paramètre d'entrée :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>&amp;amp;Test Connection</Name>
+    <LocalName>&amp;amp;Tester la connexion</LocalName>
+  </Translation>
+  <Translation>
+    <Name>&amp;amp;Usage</Name>
+    <LocalName>&amp;amp;Utilisation</LocalName>
+  </Translation>
+  <Translation>
+    <Name>-- Last Updated</Name>
+    <LocalName>-- Dernière mise à jour</LocalName>
+  </Translation>
+  <Translation>
+    <Name>-- Last Updated Time</Name>
+    <LocalName>-- Heure de dernière mise à jour</LocalName>
+  </Translation>
+  <Translation>
+    <Name>-- Object Name</Name>
+    <LocalName>-- Nom d'objet</LocalName>
+  </Translation>
+  <Translation>
+    <Name>-- Object Package</Name>
+    <LocalName>-- Package d'objet</LocalName>
+  </Translation>
+  <Translation>
+    <Name>-- Object Version</Name>
+    <LocalName>-- Version d'objet</LocalName>
+  </Translation>
+  <Translation>
+    <Name>-- Object XML</Name>
+    <LocalName>-- Objet XML</LocalName>
+  </Translation>
+  <Translation>
+    <Name>.NET Framework Data Provider for OLE DB</Name>
+    <LocalName>Fournisseur de données .NET Framework pour OLE DB</LocalName>
+  </Translation>
+  <Translation>
+    <Name>A column with the ROWID data type must have the Mandatory check box selected.</Name>
+    <LocalName>La case Obligatoire doit être cochée pour chaque colonne ayant le type de données ROWID.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Abstract:</Name>
+    <LocalName>Abstrait :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Accent sensitivity</Name>
+    <LocalName>Prise en compte des accents</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Access account</Name>
+    <LocalName>Compte d'accès</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Access time</Name>
+    <LocalName>Heure d'accès</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Account</Name>
+    <LocalName>Compte</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Account lock</Name>
+    <LocalName>Verrouillage du compte</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Accounting string</Name>
+    <LocalName>Chaîne comptable</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Activate LDAP server after creation</Name>
+    <LocalName>Activer le serveur LDAP après la création</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Active for begin dialog</Name>
+    <LocalName>Active pour begin_dialog</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Active statement</Name>
+    <LocalName>Instruction active</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Adapter</Name>
+    <LocalName>Adaptateur</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Add</Name>
+    <LocalName>Ajouter</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Add for logical coordinator membership</Name>
+    <LocalName>Ajouter le coordinateur</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Add serially_reusable pragma on package body</Name>
+    <LocalName>Ajouter un serially_reusable pragma sur le corps du package</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Add serially_reusable pragma on package specification</Name>
+    <LocalName>Ajouter un serially_reusable pragma sur la spécification du package</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Additional options</Name>
+    <LocalName>Options supplémentaires</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Additional\noptions</Name>
+    <LocalName>Options\nsupplémentaires</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Address</Name>
+    <LocalName>Adresse</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Admin roles</Name>
+    <LocalName>Rôles admin</LocalName>
+  </Translation>
+  <Translation>
+    <Name>After journal</Name>
+    <LocalName>Après journal</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Aggregate</Name>
+    <LocalName>Agrégat</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Aggregate All Nodes</Name>
+    <LocalName>Agréger tous les noeuds</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Aggregates</Name>
+    <LocalName>Agrégats</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Algorithm</Name>
+    <LocalName>Algorithme</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Algorithm:</Name>
+    <LocalName>Algorithme :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Alignment</Name>
+    <LocalName>Alignement</LocalName>
+  </Translation>
+  <Translation>
+    <Name>All</Name>
+    <LocalName>Tout</LocalName>
+  </Translation>
+  <Translation>
+    <Name>All but</Name>
+    <LocalName>Tout sauf</LocalName>
+  </Translation>
+  <Translation>
+    <Name>All dimension and fact attributes and measures in a cube must have unique codes.</Name>
+    <LocalName>Tous les attributs de dimension et de fait et toutes les mesures d'un cube doivent avoir un code unique.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>All partitions</Name>
+    <LocalName>Toutes les partitions</LocalName>
+  </Translation>
+  <Translation>
+    <Name>AllEncryptionKeys</Name>
+    <LocalName>Toutes les clés de cryptage</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Allow Zero Length</Name>
+    <LocalName>Permettre une longueur égale à zéro</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Allow coordinator as member</Name>
+    <LocalName>Permettre au coordinateur d'être membre</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Allow cross join</Name>
+    <LocalName>Permettre les jointures croisées</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Allow page lock</Name>
+    <LocalName>Permettre les verrouillages de page</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Allow page locks</Name>
+    <LocalName>Permettre les verrouillages de page</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Allow row lock</Name>
+    <LocalName>Permettre les verrouillages de ligne</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Allow row locks</Name>
+    <LocalName>Permettre les verrouillages de ligne</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Alternate parent</Name>
+    <LocalName>Parent alternatif</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Always generate value</Name>
+    <LocalName>Toujours générer la valeur</LocalName>
+  </Translation>
+  <Translation>
+    <Name>An Edition cannot be its parent edition.</Name>
+    <LocalName>Une édition ne peut pas être sa propre édition parent.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>An edition can have only one child edition.</Name>
+    <LocalName>Une édition ne peut comporter qu'une seule édition enfant.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>An error table cannot apply on a table that already has an error table attached.</Name>
+    <LocalName>Une table d'erreurs ne peut pas être appliquée à une table à laquelle une table d'erreur est déjà associée.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>And not like</Name>
+    <LocalName>Et différent de</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Angular unit of measure</Name>
+    <LocalName>Unité de mesure angulaire</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Anonymous</Name>
+    <LocalName>Anonyme</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Append only</Name>
+    <LocalName>Ajout uniquement</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Applies on</Name>
+    <LocalName>S'applique sur</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Apply To Connection String</Name>
+    <LocalName>Appliquer à la chaîne de connexion</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Archive model file path</Name>
+    <LocalName>Chemin du modèle archivé</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Array Element type</Name>
+    <LocalName>Type d'élément de tableau</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Array delimiter</Name>
+    <LocalName>Délimiteur de tableau</LocalName>
+  </Translation>
+  <Translation>
+    <Name>As</Name>
+    <LocalName>En tant que</LocalName>
+  </Translation>
+  <Translation>
+    <Name>As locator</Name>
+    <LocalName>AS LOCATOR</LocalName>
+  </Translation>
+  <Translation>
+    <Name>As object owner</Name>
+    <LocalName>Comme propriétaire de l'objet</LocalName>
+  </Translation>
+  <Translation>
+    <Name>As row change timestamp</Name>
+    <LocalName>Comme horodatage de modification de ligne</LocalName>
+  </Translation>
+  <Translation>
+    <Name>As security label</Name>
+    <LocalName>Comme libellé de sécurité</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Assembly file</Name>
+    <LocalName>Fichier d'assembly</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Assembly file:</Name>
+    <LocalName>Fichier d'assembly :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Assembly:</Name>
+    <LocalName>Assembly :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Asymmetric Key</Name>
+    <LocalName>Clé asymétrique</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Asymmetric Keys</Name>
+    <LocalName>Clés asymétriques</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Asymmetric key source</Name>
+    <LocalName>Source de clé asymétrique</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Asymmetric key:</Name>
+    <LocalName>Clé asymétrique :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>At (databases)</Name>
+    <LocalName>Dans (bases de données)</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Attach</Name>
+    <LocalName>Attacher</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Attach a database file</Name>
+    <LocalName>Attacher un fichier de base de données</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Attach rebuild log</Name>
+    <LocalName>Attacher le journal régénéré</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Attribute</Name>
+    <LocalName>Attribut</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Attribute Hierarchy Active</Name>
+    <LocalName>Hiérarchie d'attributs active</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Attribute code uniqueness</Name>
+    <LocalName>Unicité de code d'attribut</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Attribute hierarchy active</Name>
+    <LocalName>Hiérarchie d'attributs active</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Attributes</Name>
+    <LocalName>Attributs</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Audit category</Name>
+    <LocalName>Catégorie d'audit</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Authenticated user name</Name>
+    <LocalName>Nom d'utilisateur authentifié</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Authentication</Name>
+    <LocalName>Authentification</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Authentication URL</Name>
+    <LocalName>URL d'authentification</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Authentication password</Name>
+    <LocalName>Mot de passe d'authentification</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Author:</Name>
+    <LocalName>Auteur :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Authorization</Name>
+    <LocalName>Autorisation</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Authorization:</Name>
+    <LocalName>Autorisation :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Auto compress</Name>
+    <LocalName>Compression auto</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Auto failback period</Name>
+    <LocalName>Délai de rebasculement auto</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Auto increment key</Name>
+    <LocalName>Clé à incrément automatique</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Auto referencing edition</Name>
+    <LocalName>Edition qui fait référence à elle-même</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Auto resize</Name>
+    <LocalName>Redimensionnement automatique</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Auto unlock time</Name>
+    <LocalName>Délai de déverrouillage</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Auto-Merge</Name>
+    <LocalName>Fusion auto</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Auto-login</Name>
+    <LocalName>Connexion automatique</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Auxiliary Table</Name>
+    <LocalName>Table auxiliaire</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Auxiliary Tables</Name>
+    <LocalName>Tables auxiliaires</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Average Length:</Name>
+    <LocalName>Longueur moyenne :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Axis order</Name>
+    <LocalName>Ordre des axes</LocalName>
+  </Translation>
+  <Translation>
+    <Name>B-Tree index column data type</Name>
+    <LocalName>Type de données de colonne d'index B-Tree</LocalName>
+  </Translation>
+  <Translation>
+    <Name>B-Tree index on multiple columns</Name>
+    <LocalName>Index B-Tree sur plusieurs colonnes</LocalName>
+  </Translation>
+  <Translation>
+    <Name>B-Tree key column data type</Name>
+    <LocalName>Type de données de colonne de clé B-Tree</LocalName>
+  </Translation>
+  <Translation>
+    <Name>B-Tree key on multiple columns</Name>
+    <LocalName>Clé B-Tree sur plusieurs colonnes</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Backup</Name>
+    <LocalName>Sauvegarde</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Backup identifier</Name>
+    <LocalName>Identifiant de sauvegarde</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Base Object:</Name>
+    <LocalName>Objet de base :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Base Table</Name>
+    <LocalName>Table de base</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Base on</Name>
+    <LocalName>Basé sur</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Basic file</Name>
+    <LocalName>BasicFile</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Bequeath</Name>
+    <LocalName>Léguer</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Binary Index Type</Name>
+    <LocalName>Type d'index Binary</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Bit Index Type</Name>
+    <LocalName>Type d'index Bit</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Blank padding</Name>
+    <LocalName>Remplissage des blancs</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Block size</Name>
+    <LocalName>Taille de bloc</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Blocked</Name>
+    <LocalName>Bloqué</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Blocksize</Name>
+    <LocalName>Taille de bloc</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Boundary values:</Name>
+    <LocalName>Valeurs limites :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Bounded Latitude</Name>
+    <LocalName>Latitude (limitée)</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Bounded Longitude</Name>
+    <LocalName>Longitude (limitée)</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Bounded M</Name>
+    <LocalName>M (limité)</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Bounded X</Name>
+    <LocalName>X (limité)</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Bounded Y</Name>
+    <LocalName>Y (limité)</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Bounded Z</Name>
+    <LocalName>Z (limité)</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Bounding box</Name>
+    <LocalName>Boîte de délimitation</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Bounding box definition</Name>
+    <LocalName>Définition de boîte de délimitation</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Broker instance</Name>
+    <LocalName>Instance de Service Broker</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Browse source</Name>
+    <LocalName>Parcourir la source</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Browse...</Name>
+    <LocalName>Parcourir...</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Buffer pool</Name>
+    <LocalName>Pool de buffers</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Buffer size</Name>
+    <LocalName>Taille de mémoire tampon</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Business_time without overlaps</Name>
+    <LocalName>BUSINESS_TIME WITHOUT OVERLAPS</LocalName>
+  </Translation>
+  <Translation>
+    <Name>By Value</Name>
+    <LocalName>Par valeur</LocalName>
+  </Translation>
+  <Translation>
+    <Name>By columns</Name>
+    <LocalName>Par colonnes</LocalName>
+  </Translation>
+  <Translation>
+    <Name>By quantity</Name>
+    <LocalName>Par quantité</LocalName>
+  </Translation>
+  <Translation>
+    <Name>By range:</Name>
+    <LocalName>Par plage :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>C&amp;amp;omment</Name>
+    <LocalName>C&amp;amp;ommentaire</LocalName>
+  </Translation>
+  <Translation>
+    <Name>CPU percent: Min</Name>
+    <LocalName>Pourcentage UC : Min</LocalName>
+  </Translation>
+  <Translation>
+    <Name>CPU ratio</Name>
+    <LocalName>Ratio processeur</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Calculated attribute</Name>
+    <LocalName>Attribut calculé</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Calculated measure</Name>
+    <LocalName>Mesure calculée</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Can create</Name>
+    <LocalName>Création possible</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Cannot Modify:</Name>
+    <LocalName>Non modifiable :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Cannot create index with column Bit data type</Name>
+    <LocalName>Impossible de créer un index sur une colonne dont le type de données est Bit</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Cannot create join index with table(s) having column(s) of datatype long varchar.</Name>
+    <LocalName>Ne peut pas créer de join index avec des tables comportant une ou plusieurs colonnes dont le type de données est long varchar.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Cardinality</Name>
+    <LocalName>Cardinalité</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Case</Name>
+    <LocalName>Casse</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Case expression</Name>
+    <LocalName>Expression CASE</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Case specific</Name>
+    <LocalName>Prise en compte de la casse</LocalName>
+  </Translation>
+  <Translation>
+    <Name>CaseSpecific only for char data type</Name>
+    <LocalName>CaseSpecific uniquement pour le type de données CHAR</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Cast (ref as source) function</Name>
+    <LocalName>Fonction Cast (REF AS SOURCE)</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Cast (source as ref) function</Name>
+    <LocalName>Fonction Cast (SOURCE AS REF)</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Cast data type</Name>
+    <LocalName>Type de données de diffusion</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Catalog store</Name>
+    <LocalName>Catalog Store</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Catalog store hidden</Name>
+    <LocalName>Catalog Store caché</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Catalog table</Name>
+    <LocalName>Table de catalogue</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Catalog tables</Name>
+    <LocalName>Tables de catalogue</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Catalog:</Name>
+    <LocalName>Catalogue :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Categories</Name>
+    <LocalName>Catégories</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Cells per object</Name>
+    <LocalName>Cellules par objet</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Certificate</Name>
+    <LocalName>Certificat</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Certificate:</Name>
+    <LocalName>Certificat :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Certificates</Name>
+    <LocalName>Certificats</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Change password dual control</Name>
+    <LocalName>Double contrôle de changement de mot de passe</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Change tracking</Name>
+    <LocalName>Suivi des modifications</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Change tracking element</Name>
+    <LocalName>Elément de suivi des modifications</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Change tracking:</Name>
+    <LocalName>Suivi des modifications :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Char subtype</Name>
+    <LocalName>Sous-type de car.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Character case</Name>
+    <LocalName>Casse des caractères</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Character set</Name>
+    <LocalName>Jeu de caractères</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Character subtype</Name>
+    <LocalName>Sous-type de caractère</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Characteristics</Name>
+    <LocalName>Caractéristiques</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Characters</Name>
+    <LocalName>Caractères</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Check Column Encryption</Name>
+    <LocalName>Vérification du cryptage de colonne</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Check Column Expression</Name>
+    <LocalName>Vérification de l'expression de colonne</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Check constraint</Name>
+    <LocalName>Contrainte de vérification</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Check deferrable</Name>
+    <LocalName>Vérification différable</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Check existence of MappedTo column</Name>
+    <LocalName>Vérifie l'existence d'une colonne Correspond à</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Check existence of MappedTo table</Name>
+    <LocalName>Vérifie l'existence d'une table Correspond à</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Check existence of base measure</Name>
+    <LocalName>Vérifie l'existence d'une mesure de base</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Check existence of calculated attribute formula</Name>
+    <LocalName>Vérifie l'existence d'une formule d'attribut calculé</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Check existence of calculated measure formula</Name>
+    <LocalName>Vérifie l'existence d'une formule de mesure calculée</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Check expression</Name>
+    <LocalName>Expression de vérification</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Check initially deferred</Name>
+    <LocalName>Vérification initialement différée</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Check option</Name>
+    <LocalName>Option de vérification</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Check that configuration is at least set to default</Name>
+    <LocalName>Vérifie que la configuration est au moins définie à sa valeur par défaut</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Check that minimum and maximum term length values are consistent</Name>
+    <LocalName>Vérifie que les valeurs de longueur minimum et maximum de terme sont cohérentes</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Check time</Name>
+    <LocalName>Moment de vérification</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Checking that physical options are correct for the database. An error occurs when both tablespace and database options are used by the same table.</Name>
+    <LocalName>Vérifie que la validité des options physiques pour la base de données. Une erreur se produit lorsque les options de tablespace et de base de données sont utilisées par la même table.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Checksum</Name>
+    <LocalName>Total de contrôle</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Child Attribute</Name>
+    <LocalName>Attribut enfant</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Child Role</Name>
+    <LocalName>Rôle enfant</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Child Role:</Name>
+    <LocalName>Rôle enfant :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Child Table</Name>
+    <LocalName>Table enfant</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Child Table:</Name>
+    <LocalName>Table enfant :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Child role</Name>
+    <LocalName>Rôle enfant</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Child table</Name>
+    <LocalName>Table enfant</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Child uniqueness</Name>
+    <LocalName>Unicité d'enfant</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Choose here the name of the language that the function is implemented in.</Name>
+    <LocalName>Choisissez ici le nom du langage dans lequel la fonction est mise en oeuvre.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Class</Name>
+    <LocalName>Classe</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Class name:</Name>
+    <LocalName>Nom de classe :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Class or library</Name>
+    <LocalName>Classe ou bibliothèque</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Class:</Name>
+    <LocalName>Classe :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Click on the check box to switch multiple / single partition mode:</Name>
+    <LocalName>Cliquez sur la case pour commuter du mode de partition unique à multiple :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Client port</Name>
+    <LocalName>Port client</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Cluster column</Name>
+    <LocalName>Colonne cluster</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Cluster columns</Name>
+    <LocalName>Colonnes cluster</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Cluster index</Name>
+    <LocalName>Index cluster</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Cluster indexes</Name>
+    <LocalName>Index cluster</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Clustering columns</Name>
+    <LocalName>Colonnes de Clustering</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Code page</Name>
+    <LocalName>Page de codes</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Code uniqueness</Name>
+    <LocalName>Unicité du code</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Cohorts</Name>
+    <LocalName>Cohortes</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Collating sequence</Name>
+    <LocalName>Séquence de classement</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Collation</Name>
+    <LocalName>Classement</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Collation name</Name>
+    <LocalName>Nom de collation</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Collation name:</Name>
+    <LocalName>Nom du classement :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Collect history</Name>
+    <LocalName>Collecte d'historique</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Column</Name>
+    <LocalName>Colonne</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Column default</Name>
+    <LocalName>Valeur par défaut de colonne</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Column delimiter</Name>
+    <LocalName>Délimiteur de colonne</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Column fill parameters</Name>
+    <LocalName>Paramètres de remplissage de colonne</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Column is compressed</Name>
+    <LocalName>Colonne compressée</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Column list</Name>
+    <LocalName>Liste des colonnes</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Column list:</Name>
+    <LocalName>Liste des colonnes :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Column partition</Name>
+    <LocalName>Partition de colonne</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Column store tables</Name>
+    <LocalName>Tables à stockage par colonnes</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Column stored data type</Name>
+    <LocalName>Type de données stocké de colonne</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Column(s)</Name>
+    <LocalName>Colonne(s)</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Column:</Name>
+    <LocalName>Colonne :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Columns</Name>
+    <LocalName>Colonnes</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Columns are already indexed by the primary key</Name>
+    <LocalName>Les colonnes sont déjà indexées par la clé primaire</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Columns list:</Name>
+    <LocalName>Liste des colonnes :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Command</Name>
+    <LocalName>Commande</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Command(s)</Name>
+    <LocalName>Commande(s)</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Comment</Name>
+    <LocalName>Commentaire</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Comment:</Name>
+    <LocalName>Commentaire :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Commit SCN</Name>
+    <LocalName>Numéro SCN de validation</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Commit each</Name>
+    <LocalName>Valider tous les</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Commit row action</Name>
+    <LocalName>Action de validation de ligne</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Communication rate</Name>
+    <LocalName>Débit de communication</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Comparison</Name>
+    <LocalName>Comparaison</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Complete:</Name>
+    <LocalName>Complet :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Component</Name>
+    <LocalName>Composant</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Component type</Name>
+    <LocalName>Type de composant</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Components</Name>
+    <LocalName>Composants</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Compress</Name>
+    <LocalName>Compression</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Compress using</Name>
+    <LocalName>Compresser avec</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Compressed</Name>
+    <LocalName>Compressé</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Compression level</Name>
+    <LocalName>Niveau de compression</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Compression type</Name>
+    <LocalName>Type de compression</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Computed</Name>
+    <LocalName>Calculé</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Computed column is materialized</Name>
+    <LocalName>La colonne calculée est matérialisée</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Computed expression</Name>
+    <LocalName>Expression calculée</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Concurrent sessions</Name>
+    <LocalName>Sessions simultanées</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Connect to</Name>
+    <LocalName>Connecter à</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Connection</Name>
+    <LocalName>Connexion</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Connection info</Name>
+    <LocalName>Informations de connexion</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Connection limit</Name>
+    <LocalName>Nbre maxi de connexions</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Connection retries</Name>
+    <LocalName>Tentatives de reconnexion</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Connection string</Name>
+    <LocalName>Chaîne de connexion</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Connection timeout</Name>
+    <LocalName>Délai de connexion</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Constant list</Name>
+    <LocalName>Liste constante</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Constants</Name>
+    <LocalName>Constantes</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Constraint</Name>
+    <LocalName>Contrainte</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Constraint Name</Name>
+    <LocalName>Nom de contrainte</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Constraint name</Name>
+    <LocalName>Nom de contrainte</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Constraint names</Name>
+    <LocalName>Noms de contrainte</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Constraint state</Name>
+    <LocalName>Etat de contrainte</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Constraints</Name>
+    <LocalName>Contraintes</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Container</Name>
+    <LocalName>Conteneur</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ContainerType</Name>
+    <LocalName>Type de conteneur</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Contains filestream</Name>
+    <LocalName>Contient des données Filestream</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Content type:</Name>
+    <LocalName>Type de contenu :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Content:</Name>
+    <LocalName>Contenu :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Contract</Name>
+    <LocalName>Contrat</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Contracts</Name>
+    <LocalName>Contrats</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Conversion factor</Name>
+    <LocalName>Facteur de conversion</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Coordinate</Name>
+    <LocalName>Coordonnées</LocalName>
+  </Translation>
+  <Translation>
+    <Name>CopyPassword</Name>
+    <LocalName>Copie du mot de passe</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Correctness of partition key setting</Name>
+    <LocalName>Validité du paramètre de clé de partition</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Correlation name</Name>
+    <LocalName>Nom de corrélation</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Cost overcommit</Name>
+    <LocalName>Dépassement de coût admis</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Create</Name>
+    <LocalName>Création</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Create database</Name>
+    <LocalName>Création d'une base de données</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Create disposition</Name>
+    <LocalName>Créer une disposition</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Create extended storage</Name>
+    <LocalName>Créer un stockage étendu</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Create external table</Name>
+    <LocalName>Création de table externe</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Create role</Name>
+    <LocalName>Création de rôle</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Create user</Name>
+    <LocalName>Création d'un utilisateur</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Credential type</Name>
+    <LocalName>Type d'informations d'identification</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Credentials</Name>
+    <LocalName>Informations d'identification</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Criterion</Name>
+    <LocalName>Critère</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Cycle</Name>
+    <LocalName>Boucler</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DATE index only supports Date data type</Name>
+    <LocalName>Un index DATE ne prend en charge qu'un type de données Date</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DB2 does not allow creating reflexive reference with delete restrict referential integrity.</Name>
+    <LocalName>DB2 ne permet pas de créer de référence réflexive avec une intégrité référentielle de type Restrict on delete.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DB2_Fenced</Name>
+    <LocalName>Protégé</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DBA password</Name>
+    <LocalName>Mot de passe DBA</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DBA user</Name>
+    <LocalName>Utilisateur DBA</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DBMS</Name>
+    <LocalName>SGBD</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DBMS:</Name>
+    <LocalName>SGBD :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DDIC data type</Name>
+    <LocalName>Type de données DDIC</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DEBUG</Name>
+    <LocalName>DEBOGAGE</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DQP enabled</Name>
+    <LocalName>DQP Activé</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DTTM index only supports Datetime or Timestamp data type</Name>
+    <LocalName>Un index DTTM ne prend en charge que le type de données Datetime ou Timestamp</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data</Name>
+    <LocalName>Données</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data Source:</Name>
+    <LocalName>Source de données :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data Type</Name>
+    <LocalName>Type de données</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data Type:</Name>
+    <LocalName>Type de données :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data compression</Name>
+    <LocalName>Compression des données</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data definition</Name>
+    <LocalName>Définition de données</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data provider</Name>
+    <LocalName>Fournisseur de données</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data providers</Name>
+    <LocalName>Fournisseurs de données</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data source</Name>
+    <LocalName>Source de données</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data source specification</Name>
+    <LocalName>Spécification de source de données</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data source:</Name>
+    <LocalName>Source de données :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data table</Name>
+    <LocalName>Table de données</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data table uniqueness</Name>
+    <LocalName>Unicité de table de données</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data to collect</Name>
+    <LocalName>Données à collecter</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data type</Name>
+    <LocalName>Type de données</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data type attributes</Name>
+    <LocalName>Attributs de type de données</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data type consistency</Name>
+    <LocalName>Cohérence des types de données</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Database</Name>
+    <LocalName>Base de données</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Database File</Name>
+    <LocalName>Fichier de base de données</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Database Partition Group</Name>
+    <LocalName>Groupe de partitions de base de données</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Database Partition Groups</Name>
+    <LocalName>Groupes de partitions de base de données</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Database chaining</Name>
+    <LocalName>Chaînage des bases de données</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Database connection options</Name>
+    <LocalName>Options de connexion à la base de données</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Database link</Name>
+    <LocalName>Lien de base de données</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Database links</Name>
+    <LocalName>Liens de base de données</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Database name</Name>
+    <LocalName>Nom de la base de données</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Database partition</Name>
+    <LocalName>Partition de base de données</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Database partitions</Name>
+    <LocalName>Partitions de base de données</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Database properties</Name>
+    <LocalName>Propriétés de base de données</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Database type</Name>
+    <LocalName>Type de la base de données</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Databases</Name>
+    <LocalName>Bases de données</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Datatype</Name>
+    <LocalName>Type de données</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Datatype attributes</Name>
+    <LocalName>Attributs de type de données</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Date Index Type</Name>
+    <LocalName>Type d'index Date</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Date compatibility</Name>
+    <LocalName>Compatibilité de date</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Date format</Name>
+    <LocalName>Format de date</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DateTime Index Type</Name>
+    <LocalName>Type d'index DateTime</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Day</Name>
+    <LocalName>Jour</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Deadlocks details</Name>
+    <LocalName>Détails des blocages</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Declare REF</Name>
+    <LocalName>Déclarer REF</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Decompress using</Name>
+    <LocalName>Décompresser avec</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Decryption password:</Name>
+    <LocalName>Mot de passe de décryptage :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default</Name>
+    <LocalName>Défaut</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default Client</Name>
+    <LocalName>Client par défaut</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default Diagram:</Name>
+    <LocalName>Diagramme par défaut :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default Member</Name>
+    <LocalName>Membre par défaut</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default client</Name>
+    <LocalName>Client par défaut</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default constraint name</Name>
+    <LocalName>Nom de contrainte par défaut</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default decrypt value</Name>
+    <LocalName>Valeur de décryptage par défaut</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default encryption key</Name>
+    <LocalName>Clé de cryptage par défaut</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default group</Name>
+    <LocalName>Groupe par défaut</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default journal table</Name>
+    <LocalName>Table de journal par défaut</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default logical server</Name>
+    <LocalName>Serveur logique par défaut</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default logical server (hidden)</Name>
+    <LocalName>Serveur logique par défaut (caché)</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default member</Name>
+    <LocalName>Membre par défaut</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default on null</Name>
+    <LocalName>DEFAULT pour NULL</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default priority</Name>
+    <LocalName>Priorité par défaut</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default role</Name>
+    <LocalName>Rôle par défaut</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default schema</Name>
+    <LocalName>Schéma par défaut</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default security label</Name>
+    <LocalName>Libellé de sécurité par défaut</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default table</Name>
+    <LocalName>Table par défaut</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default tablespace</Name>
+    <LocalName>Tablespace par défaut</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default:</Name>
+    <LocalName>Défaut :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DefaultConfiguration</Name>
+    <LocalName>Configuration par défaut</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Defaults</Name>
+    <LocalName>Défauts</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Deferrable</Name>
+    <LocalName>Temporisable</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Deferred option</Name>
+    <LocalName>Option de report</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Deferred option of check constraint</Name>
+    <LocalName>Option de temporisation pour la contrainte de vérification</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Deferred option of not null constraint</Name>
+    <LocalName>Option de temporisation pour la contrainte non-null</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Deferred refresh</Name>
+    <LocalName>Réactualisation différée</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Define interval</Name>
+    <LocalName>Définir l'intervalle</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Definition</Name>
+    <LocalName>Définition</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Definition of spatial index</Name>
+    <LocalName>Définition d'index spatial</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Definition of table partitions</Name>
+    <LocalName>Définition de partitions de table.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Definition of type</Name>
+    <LocalName>Définition du type</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Definition only</Name>
+    <LocalName>Définition uniquement</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Degree</Name>
+    <LocalName>Degré</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Delete</Name>
+    <LocalName>Supprimer</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Delete extended storage</Name>
+    <LocalName>Supprimer le stockage étendu</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Delimited by</Name>
+    <LocalName>Délimité par</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Delimiter</Name>
+    <LocalName>Délimiteur</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Deny point</Name>
+    <LocalName>Point de refus</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Deny point end</Name>
+    <LocalName>Fin de point de refus</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Descending</Name>
+    <LocalName>Descendant</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Descending:</Name>
+    <LocalName>Descendant :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Destination encoding</Name>
+    <LocalName>Codage de destination</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Detail</Name>
+    <LocalName>Détails</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Details</Name>
+    <LocalName>Détails</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Deterministic</Name>
+    <LocalName>Déterministe</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Device</Name>
+    <LocalName>Périphérique</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Dimension must be defined under HANA package</Name>
+    <LocalName>La dimension doit être définie sous un package HANA</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Dimensional Type:</Name>
+    <LocalName>Type dimensionnel :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Dimensional type</Name>
+    <LocalName>Type dimensionnel</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Dimensional type:</Name>
+    <LocalName>Type dimensionnel :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Disable</Name>
+    <LocalName>Désactiver</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Disk full threshold</Name>
+    <LocalName>Seuil de remplissage de disque</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Disk pool</Name>
+    <LocalName>Pool de disques</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Display type properties</Name>
+    <LocalName>Propriétés du type d'affichage</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Displayed:</Name>
+    <LocalName>Affichée :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Distinct Values:</Name>
+    <LocalName>Valeurs distinctes :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Distinguished name</Name>
+    <LocalName>Nom distinctif</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Distributed by</Name>
+    <LocalName>Distribuée par</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Distributed columns</Name>
+    <LocalName>Colonnes distribuées</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Distribution key</Name>
+    <LocalName>Clé de distribution</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Distribution type</Name>
+    <LocalName>Type de distribution</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Do not recompute statistics</Name>
+    <LocalName>Ne pas recalculer les statistiques</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Do not validate check constraints during replication</Name>
+    <LocalName>Ne pas valider les contraintes de vérification lors de la réplication</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Do not validate foreign key constraint during replication</Name>
+    <LocalName>Ne valide pas les contraintes de clé étrangère lors de la réplication</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Domain missing default object</Name>
+    <LocalName>Domaine dépourvu d'objet défaut</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Domain:</Name>
+    <LocalName>Domaine :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Drill Down Enabled</Name>
+    <LocalName>Décomposition activée</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Drill down enabled</Name>
+    <LocalName>Décomposition activée</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Drop existing</Name>
+    <LocalName>Supprimer l'existant</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Drop if exist</Name>
+    <LocalName>Supprime si existe déjà</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Dual control</Name>
+    <LocalName>Contrôle double</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Duplicate row control</Name>
+    <LocalName>Contrôle des lignes en double</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Editionable</Name>
+    <LocalName>Editionnable</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Editioning</Name>
+    <LocalName>Editionnement</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Element</Name>
+    <LocalName>Elément</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Element:</Name>
+    <LocalName>Elément :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Elements</Name>
+    <LocalName>Eléments</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Ellipsoid axis length: Semi-major</Name>
+    <LocalName>Longueur de l'axe d'ellipsoïde : Demi-grand</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Empty Device Name</Name>
+    <LocalName>Nom de périphérique vide</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Enable</Name>
+    <LocalName>Activer</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Enable history</Name>
+    <LocalName>Activer l'historique</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Enable mirroring</Name>
+    <LocalName>Activer la mise en miroir</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Enable plan hints</Name>
+    <LocalName>Activer les algorithmes doptimisation de plan</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Enable query optimization</Name>
+    <LocalName>Activer l'optimisation de requête</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Enable system</Name>
+    <LocalName>Activer le système</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Enabled</Name>
+    <LocalName>Activé</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Encoding</Name>
+    <LocalName>Codage</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Encoding value list</Name>
+    <LocalName>Liste des valeurs de codage</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Encrypt connection string:</Name>
+    <LocalName>Cryptage de la chaîne de connexion :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Encryptable</Name>
+    <LocalName>Cryptable</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Encrypted</Name>
+    <LocalName>Crypté</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Encrypted off</Name>
+    <LocalName>Cryptage désactivé</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Encrypted password</Name>
+    <LocalName>Mot de passe crypté</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Encrypting Mechanism</Name>
+    <LocalName>Mécanisme de cryptage</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Encryption</Name>
+    <LocalName>Cryptage</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Encryption &amp;amp;password:</Name>
+    <LocalName>Mot de &amp;amp;passe de décryptage :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Encryption Password existence</Name>
+    <LocalName>Existence de mot de passe crypté</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Encryption algorithm</Name>
+    <LocalName>Algorithme de cryptage</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Encryption key</Name>
+    <LocalName>Clé de cryptage</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Encryption keys</Name>
+    <LocalName>Clés de cryptage</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Encryption password</Name>
+    <LocalName>Mot de passe de cryptage</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Encryption password:</Name>
+    <LocalName>Mot de passe de cryptage :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>End Point</Name>
+    <LocalName>Point de fin</LocalName>
+  </Translation>
+  <Translation>
+    <Name>End Points</Name>
+    <LocalName>Points de fin</LocalName>
+  </Translation>
+  <Translation>
+    <Name>End time column</Name>
+    <LocalName>Colonne de fin</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Enforce savepoint</Name>
+    <LocalName>Imposer les points de sauvegarde</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Enforced</Name>
+    <LocalName>Imposé</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Ensure that temporary table name starts with #</Name>
+    <LocalName>Assurez-vous que le nom de la table temporaire commence par #</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Enter a server or file name</Name>
+    <LocalName>Nom de serveur ou de fichier</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Error log table</Name>
+    <LocalName>Table de consignation des erreurs</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Error tables</Name>
+    <LocalName>Tables d'erreur</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Escape character</Name>
+    <LocalName>Caractère d'échappement</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Event</Name>
+    <LocalName>Evénement</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Event Notification</Name>
+    <LocalName>Notification d'événement</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Event Notifications</Name>
+    <LocalName>Notifications d'événement</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Event condition</Name>
+    <LocalName>Condition d'événement</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Event is scheduled</Name>
+    <LocalName>L'événement est planifié</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Event is triggered</Name>
+    <LocalName>L'événement est déclenché</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Event monitor</Name>
+    <LocalName>Moniteur d'événements</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Event monitor group</Name>
+    <LocalName>Groupe de moniteurs d'événement</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Event monitor groups</Name>
+    <LocalName>Groupes de moniteurs d'événement</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Event monitors</Name>
+    <LocalName>Moniteurs d'événements</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Event type</Name>
+    <LocalName>Type d'événement</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Event:</Name>
+    <LocalName>Evénement :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Events</Name>
+    <LocalName>Evénements</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Exceptions into</Name>
+    <LocalName>Exceptions dans</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Executable</Name>
+    <LocalName>Exécutable</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Execute as</Name>
+    <LocalName>Exécuter comme</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Existence of Base Measure</Name>
+    <LocalName>Existence de mesure de base</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Existence of Data Type</Name>
+    <LocalName>Existence de type de données</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Existence of Formula</Name>
+    <LocalName>Existence de formule</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Existence of Key Attribute</Name>
+    <LocalName>Existence d'attribut de clé</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Existence of Mapped Column</Name>
+    <LocalName>Existence de colonne mise en correspondance</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Existence of Mapped Table</Name>
+    <LocalName>Existence de table mise en correspondance</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Existence of user when authorization is disabled</Name>
+    <LocalName>Existence de l'utilisateur lorsque l'autorisation est désactivée</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Existing Key</Name>
+    <LocalName>Clé existante</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Existing Table</Name>
+    <LocalName>Table existante</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Existing table</Name>
+    <LocalName>Table existante</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Expiration date</Name>
+    <LocalName>Date d'expiration</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Expiry date:</Name>
+    <LocalName>Date d'expiration :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Expression Based Index</Name>
+    <LocalName>Index basé sur une expression</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Extend</Name>
+    <LocalName>Extension</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Extended storage</Name>
+    <LocalName>Stockage étendu</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Extended storages</Name>
+    <LocalName>Stockages étendus</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Extents</Name>
+    <LocalName>Etend</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Extents:</Name>
+    <LocalName>Etend :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>External</Name>
+    <LocalName>Externe</LocalName>
+  </Translation>
+  <Translation>
+    <Name>External login</Name>
+    <LocalName>Nom d'utilisateur externe</LocalName>
+  </Translation>
+  <Translation>
+    <Name>External logins</Name>
+    <LocalName>Noms d'utilisateur externes</LocalName>
+  </Translation>
+  <Translation>
+    <Name>External name</Name>
+    <LocalName>Nom externe</LocalName>
+  </Translation>
+  <Translation>
+    <Name>External password</Name>
+    <LocalName>Mot de passe externe</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Fact must be defined under HANA package</Name>
+    <LocalName>Le fait doit être défini sous un package HANA</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Failover</Name>
+    <LocalName>De secours</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Failover to standard</Name>
+    <LocalName>Rebasculement en standard</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Failover to standard authentication</Name>
+    <LocalName>Rebasculement vers l'authentification standard</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Fast pre-process</Name>
+    <LocalName>Prétraitement rapide</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Fenced</Name>
+    <LocalName>Protégé</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Field procedure name</Name>
+    <LocalName>Nom de procédure de champ</LocalName>
+  </Translation>
+  <Translation>
+    <Name>File</Name>
+    <LocalName>Fichier</LocalName>
+  </Translation>
+  <Translation>
+    <Name>File group</Name>
+    <LocalName>Groupe de fichiers</LocalName>
+  </Translation>
+  <Translation>
+    <Name>File group:</Name>
+    <LocalName>Groupe de fichiers :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>File groups</Name>
+    <LocalName>Groupes de fichiers</LocalName>
+  </Translation>
+  <Translation>
+    <Name>File groups:</Name>
+    <LocalName>Groupes de fichiers :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>File growth:</Name>
+    <LocalName>Croissance du fichier :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>File name</Name>
+    <LocalName>Nom de fichier</LocalName>
+  </Translation>
+  <Translation>
+    <Name>File name:</Name>
+    <LocalName>Nom de fichier :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>File options</Name>
+    <LocalName>Options de fichier</LocalName>
+  </Translation>
+  <Translation>
+    <Name>File path</Name>
+    <LocalName>Chemin du fichier</LocalName>
+  </Translation>
+  <Translation>
+    <Name>File:</Name>
+    <LocalName>Fichier :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Filegroup:</Name>
+    <LocalName>Groupe de fichiers :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Files</Name>
+    <LocalName>Fichiers</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Filespace</Name>
+    <LocalName>Espace de fichier</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Filestream partition scheme</Name>
+    <LocalName>Schéma de partition Filestream</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Fill factor</Name>
+    <LocalName>Facteur de remplissage</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Fill factor:</Name>
+    <LocalName>Taux de remplissage :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Filter predicate</Name>
+    <LocalName>Prédicat de filtre</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Final function</Name>
+    <LocalName>Fonction finale</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Final:</Name>
+    <LocalName>Final :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>First partition</Name>
+    <LocalName>Première partition</LocalName>
+  </Translation>
+  <Translation>
+    <Name>First partition scheme</Name>
+    <LocalName>Premier schéma de partition</LocalName>
+  </Translation>
+  <Translation>
+    <Name>First value</Name>
+    <LocalName>Première valeur</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Flat Hierarchy Default Member</Name>
+    <LocalName>Membre par défaut de hiérarchie plate</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Float Index Type</Name>
+    <LocalName>Type d'index Float</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Flush after</Name>
+    <LocalName>Vidage après</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Flush after (documents)</Name>
+    <LocalName>Vidage après (documents)</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Flush every</Name>
+    <LocalName>Vidage toutes les</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Flush every (minutes)</Name>
+    <LocalName>Vidage toutes les (minutes)</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Fold login</Name>
+    <LocalName>Casse de l'ID utilisateur</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Fold password</Name>
+    <LocalName>Casse du mot de passe</LocalName>
+  </Translation>
+  <Translation>
+    <Name>For bit data</Name>
+    <LocalName>Données de type bit</LocalName>
+  </Translation>
+  <Translation>
+    <Name>For column partitions, you can set a list of columns here</Name>
+    <LocalName>Pour les partitions de colonne, vous pouvez définir une liste de colonnes ici</LocalName>
+  </Translation>
+  <Translation>
+    <Name>For database encryption</Name>
+    <LocalName>Pour cryptage de base de données</LocalName>
+  </Translation>
+  <Translation>
+    <Name>For each</Name>
+    <LocalName>Pour chaque</LocalName>
+  </Translation>
+  <Translation>
+    <Name>For example, an 8x8 grid (which produces 64 cells),</Name>
+    <LocalName>Par exemple, une grille 8x8 (qui produit 64 cellules),</LocalName>
+  </Translation>
+  <Translation>
+    <Name>For primary</Name>
+    <LocalName>Pour le serveur principal</LocalName>
+  </Translation>
+  <Translation>
+    <Name>For:</Name>
+    <LocalName>Pour :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Force</Name>
+    <LocalName>Forcer</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Force change</Name>
+    <LocalName>Imposer le changement</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Force password change</Name>
+    <LocalName>Forcer le changement de mot de passe</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Foreign Key:</Name>
+    <LocalName>Clé étrangère :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Foreign key constraint deferred</Name>
+    <LocalName>Contrainte de clé étrangère temporisée</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Format:</Name>
+    <LocalName>Format :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Free list groups</Name>
+    <LocalName>Groupes de listes libres</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Free lists</Name>
+    <LocalName>Listes libres</LocalName>
+  </Translation>
+  <Translation>
+    <Name>From configuration</Name>
+    <LocalName>A partir de la configuration</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Full Text Catalog</Name>
+    <LocalName>Catalogue de texte intégral</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Full Text Catalogs</Name>
+    <LocalName>Catalogues de texte intégral</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Full-Text</Name>
+    <LocalName>Texte intégral</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Full-text index</Name>
+    <LocalName>Index de type Full-text</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Fulltext indexes validity</Name>
+    <LocalName>Validité des index Fulltext</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Function name</Name>
+    <LocalName>Nom de fonction</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Fuzzy search index</Name>
+    <LocalName>Recherche d'index floue</LocalName>
+  </Translation>
+  <Translation>
+    <Name>General</Name>
+    <LocalName>Général</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Generate</Name>
+    <LocalName>Générer</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Generate name</Name>
+    <LocalName>Générer un nom</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Generate new Key</Name>
+    <LocalName>Générer une nouvelle clé</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Generate:</Name>
+    <LocalName>Générer :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Generated</Name>
+    <LocalName>Générée</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Generated as</Name>
+    <LocalName>Généré comme</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Generated column</Name>
+    <LocalName>Colonne générée</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Generated value</Name>
+    <LocalName>Valeur générée</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Generated values</Name>
+    <LocalName>Valeurs générées</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Generation type</Name>
+    <LocalName>Type de génération</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Global ID</Name>
+    <LocalName>ID global</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Global temporary table</Name>
+    <LocalName>Table temporaire globale</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Global visibility</Name>
+    <LocalName>Visibilité globale</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Glop Set</Name>
+    <LocalName>Jeu Glop</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Glop set</Name>
+    <LocalName>Jeu Glop</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Glop sets</Name>
+    <LocalName>Jeux Glop</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Grid density is defined on a per-level basis.</Name>
+    <LocalName>La densité de grille est définie niveau par niveau.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Grid size</Name>
+    <LocalName>Taille de grille</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Grids</Name>
+    <LocalName>Grilles</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Grids definition</Name>
+    <LocalName>Définition de grilles</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Group</Name>
+    <LocalName>Groupe</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Group identifier (id)</Name>
+    <LocalName>Identificateur de groupe (id)</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Group list</Name>
+    <LocalName>Liste de groupes</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Group options</Name>
+    <LocalName>Options de groupe</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Groups</Name>
+    <LocalName>Groupes</LocalName>
+  </Translation>
+  <Translation>
+    <Name>HANA Join Properties</Name>
+    <LocalName>Propriétés de jointure HANA</LocalName>
+  </Translation>
+  <Translation>
+    <Name>HANA Language Column</Name>
+    <LocalName>Colonne de langue HANA</LocalName>
+  </Translation>
+  <Translation>
+    <Name>HANA Package</Name>
+    <LocalName>Package HANA</LocalName>
+  </Translation>
+  <Translation>
+    <Name>HANA Packages</Name>
+    <LocalName>Packages HANA</LocalName>
+  </Translation>
+  <Translation>
+    <Name>HANA attributes</Name>
+    <LocalName>Attributs HANA</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Handler</Name>
+    <LocalName>Gestionnaire</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Has partition</Name>
+    <LocalName>A une partition</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Hash cluster</Name>
+    <LocalName>Cluster hash</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Hash cluster index</Name>
+    <LocalName>Index de cluster hash</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Hash column</Name>
+    <LocalName>Colonne Hash</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Hash expression</Name>
+    <LocalName>Expression Hash</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Hash index</Name>
+    <LocalName>Index Hash</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Hash indexes</Name>
+    <LocalName>Index Hash</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Hash key</Name>
+    <LocalName>Clé Hash</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Hash partition</Name>
+    <LocalName>Partition Hash</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Hash space unit</Name>
+    <LocalName>Unité d'espace Hash</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Header</Name>
+    <LocalName>En-tête</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Hidden</Name>
+    <LocalName>Caché</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Hidden file list</Name>
+    <LocalName>Liste de fichiers cachés</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Hierarchy Type</Name>
+    <LocalName>Type de hiérarchie</LocalName>
+  </Translation>
+  <Translation>
+    <Name>History configuration</Name>
+    <LocalName>Configuration d'historique</LocalName>
+  </Translation>
+  <Translation>
+    <Name>History configurations</Name>
+    <LocalName>Configurations d'historique</LocalName>
+  </Translation>
+  <Translation>
+    <Name>History type</Name>
+    <LocalName>Type d'historique</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Host port list</Name>
+    <LocalName>Liste des ports hôte</LocalName>
+  </Translation>
+  <Translation>
+    <Name>IO ratio</Name>
+    <LocalName>Ratio E/S</LocalName>
+  </Translation>
+  <Translation>
+    <Name>IQ page size</Name>
+    <LocalName>Taille de page IQ</LocalName>
+  </Translation>
+  <Translation>
+    <Name>IQ path</Name>
+    <LocalName>Chemin IQ</LocalName>
+  </Translation>
+  <Translation>
+    <Name>IQ reserve</Name>
+    <LocalName>Réserve IQ</LocalName>
+  </Translation>
+  <Translation>
+    <Name>IQ size</Name>
+    <LocalName>Taille IQ</LocalName>
+  </Translation>
+  <Translation>
+    <Name>IQ storage</Name>
+    <LocalName>Espace disque IQ</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Identification type</Name>
+    <LocalName>Type d'identification</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Identified By Password</Name>
+    <LocalName>Identifié par mot de passe</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Identifier</Name>
+    <LocalName>Identificateur</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Identifier column</Name>
+    <LocalName>Colonne identifiante</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Identity</Name>
+    <LocalName>Identité</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Identity Seed and Increment validity</Name>
+    <LocalName>Validité de Seed et Increment pour une colonne Identity</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Identity column</Name>
+    <LocalName>Colonne Identity</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Identity column check</Name>
+    <LocalName>Vérification de colonne d'identité</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Identity seed and increment</Name>
+    <LocalName>Racine et incrément de colonne Identity</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Identity value not replicated</Name>
+    <LocalName>Valeur de colonne Identity non répliquée</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Identity value:</Name>
+    <LocalName>Valeur d'identité :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>If a value is not specified, the login policy uses the corresponding option value from the root policy.</Name>
+    <LocalName>Si aucune valeur n'est spécifiée, la politique de connexion utilise la valeur d'option correspondante de la politique racine.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Ignore</Name>
+    <LocalName>Ignorer</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Ignore dup key</Name>
+    <LocalName>Ignorer la clé en double</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Ignore user data types</Name>
+    <LocalName>Ignorer les types de données utilisateur</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Immediate refresh</Name>
+    <LocalName>Réactualisation immédiate</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Implicit schema</Name>
+    <LocalName>Schéma implicite</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Implicitly hidden</Name>
+    <LocalName>Cachée de façon implicite</LocalName>
+  </Translation>
+  <Translation>
+    <Name>In</Name>
+    <LocalName>Entrée</LocalName>
+  </Translation>
+  <Translation>
+    <Name>In roles</Name>
+    <LocalName>Dans les rôles</LocalName>
+  </Translation>
+  <Translation>
+    <Name>In the SQL SERVER family, you set a default value to a domain using a default object. This check ensures that all domains with a default use a default object.</Name>
+    <LocalName>Dans la famille SQL SERVER, vous définissez une valeur de défaut pour un domaine en utilisant un objet défaut. Cette vérification s'assure que tous les domaines dotés d'un défaut utilisent un objet défaut.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Include</Name>
+    <LocalName>Inclusion</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Included columns</Name>
+    <LocalName>Colonnes incluses</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Included columns:</Name>
+    <LocalName>Colonnes incluses :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Includes</Name>
+    <LocalName>Inclure</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Including admin</Name>
+    <LocalName>Admin inclus</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Inclusion criteria</Name>
+    <LocalName>Critère d'inclusion</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Increase</Name>
+    <LocalName>Augmenter</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Increase by (%)</Name>
+    <LocalName>Augmenter de (%)</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Increment</Name>
+    <LocalName>Incrément</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Increment by</Name>
+    <LocalName>Incrément</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Increment value</Name>
+    <LocalName>Valeur d'incrément</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Index Column Length</Name>
+    <LocalName>Longueur de colonne d'index</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Index Extension</Name>
+    <LocalName>Extension d'index</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Index Extensions</Name>
+    <LocalName>Extensions d'index</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Index Physical Options</Name>
+    <LocalName>Options physiques d'index</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Index Restricted Datatype</Name>
+    <LocalName>Type de données Restricted d'index</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Index cluster</Name>
+    <LocalName>Cluster d'index</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Index compression</Name>
+    <LocalName>Compression d'index</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Index expression enclosed in parenthesis</Name>
+    <LocalName>Expression d'index entre parenthèses</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Index has name</Name>
+    <LocalName>Index nommé</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Index options</Name>
+    <LocalName>Options relatives aux index</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Index padding</Name>
+    <LocalName>Remplissage d'index</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Indexed column</Name>
+    <LocalName>Colonne indexée</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Info Object</Name>
+    <LocalName>Objet info</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Info object</Name>
+    <LocalName>Objet Info</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Inherit</Name>
+    <LocalName>Hériter</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Inherit isolation level</Name>
+    <LocalName>Héritage du niveau d'isolation</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Initial catalog</Name>
+    <LocalName>Catalogue initial</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Initial condition</Name>
+    <LocalName>Condition initiale</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Initial size</Name>
+    <LocalName>Taille initiale</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Initialization vector</Name>
+    <LocalName>Vecteur d'initialisation</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Initialize</Name>
+    <LocalName>Initialiser</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Initially deferred</Name>
+    <LocalName>INITIALLY DEFERRED</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Inline length</Name>
+    <LocalName>Longueur en ligne</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Input data types</Name>
+    <LocalName>Types de données d'entrée</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Input function</Name>
+    <LocalName>Fonction d'entrée</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Internal label</Name>
+    <LocalName>Libellé interne</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Internal length</Name>
+    <LocalName>Longueur interne</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Interval</Name>
+    <LocalName>Intervalle</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Interval side:</Name>
+    <LocalName>Côté de l'intervalle :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid local temporary table code</Name>
+    <LocalName>Code de table temporaire locale invalide</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid values</Name>
+    <LocalName>Valeurs invalides</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Inverse flattening</Name>
+    <LocalName>Aplatissement inverse</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Is schema</Name>
+    <LocalName>Est un schéma</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Java Data:</Name>
+    <LocalName>Données Java :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Java class</Name>
+    <LocalName>Classe Java</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Job maximum</Name>
+    <LocalName>Nombre maxi de travaux</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Join Index Namespace</Name>
+    <LocalName>Espace de noms du join index</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Join Type</Name>
+    <LocalName>Type de jointure</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Join index</Name>
+    <LocalName>Index de jointure</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Join indexes</Name>
+    <LocalName>Index de jointure</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Join type</Name>
+    <LocalName>Type de jointure</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Key</Name>
+    <LocalName>Clé</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Key Attribute</Name>
+    <LocalName>Attribut clé</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Key Options</Name>
+    <LocalName>Options de clé</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Key attribute</Name>
+    <LocalName>Attribut clé</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Key column</Name>
+    <LocalName>Colonne de clé</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Key compression</Name>
+    <LocalName>Compression de clé</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Key copies</Name>
+    <LocalName>Copies de clé</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Key copy</Name>
+    <LocalName>Copie de clé</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Key generation function</Name>
+    <LocalName>Fonction de génération de clé</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Key index existence</Name>
+    <LocalName>Existence de clé d'index</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Key index is descending</Name>
+    <LocalName>Index de clé descendant</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Key length</Name>
+    <LocalName>Longueur de clé</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Key source:</Name>
+    <LocalName>Source de clé :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Key store</Name>
+    <LocalName>Keystore</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Key store password</Name>
+    <LocalName>Mot de passe de keystore</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Key stores</Name>
+    <LocalName>Keystores</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Key type</Name>
+    <LocalName>Type de clé</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Keywords</Name>
+    <LocalName>Mots clés</LocalName>
+  </Translation>
+  <Translation>
+    <Name>LDAP Server</Name>
+    <LocalName>Serveur LDAP</LocalName>
+  </Translation>
+  <Translation>
+    <Name>LDAP Servers</Name>
+    <LocalName>Serveurs LDAP</LocalName>
+  </Translation>
+  <Translation>
+    <Name>LDAP servers</Name>
+    <LocalName>Serveurs LDAP</LocalName>
+  </Translation>
+  <Translation>
+    <Name>LDAP user authentication options</Name>
+    <LocalName>Options d'authentification d'utilisateur LDAP</LocalName>
+  </Translation>
+  <Translation>
+    <Name>LOB parameters</Name>
+    <LocalName>Paramètres LOB</LocalName>
+  </Translation>
+  <Translation>
+    <Name>LOB segment name</Name>
+    <LocalName>Nom de segment LOB</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Label</Name>
+    <LocalName>Libellé</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Language</Name>
+    <LocalName>Langage</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Language Column</Name>
+    <LocalName>Colonne de langue</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Language column</Name>
+    <LocalName>Colonne de langue</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Language detection</Name>
+    <LocalName>Détection de langue</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Languages</Name>
+    <LocalName>Langages</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Large Objects Management Compliance</Name>
+    <LocalName>Conformité avec la gestion des objets de grand taille</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Last Updated</Name>
+    <LocalName>Dernière mise à jour</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Last Updated Time</Name>
+    <LocalName>Heure de dernière mise à jour</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Last updated date:</Name>
+    <LocalName>Date de dernière mise à jour :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Latitude\tBounded\tUnbounded</Name>
+    <LocalName>Latitude\tLimitée\tNon limitée</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Length</Name>
+    <LocalName>Longueur</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Length / Precision</Name>
+    <LocalName>Longueur / Précision</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Length:</Name>
+    <LocalName>Longueur :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Level</Name>
+    <LocalName>Niveau</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Level 1</Name>
+    <LocalName>Niveau 1</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Level 2</Name>
+    <LocalName>Niveau 2</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Level 3</Name>
+    <LocalName>Niveau 3</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Level 4</Name>
+    <LocalName>Niveau 4</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Level2 pctfree</Name>
+    <LocalName>Pctfree niveau 2</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Levels</Name>
+    <LocalName>Niveaux</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Library</Name>
+    <LocalName>Bibliothèque</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Lifecycle/Table Matrices</Name>
+    <LocalName>Matrices cycles de vie/tables</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Lifecycle/Table Matrix</Name>
+    <LocalName>Matrice cycles de vie/tables</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Lifetime</Name>
+    <LocalName>Durée de vie</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Like clause</Name>
+    <LocalName>Clause Like</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Like table</Name>
+    <LocalName>Copie de table</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Limit values</Name>
+    <LocalName>Valeurs limite</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Limiting security label</Name>
+    <LocalName>Limitation du libellé de sécurité</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Limits</Name>
+    <LocalName>Limites</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Line interpretation</Name>
+    <LocalName>Interprétation de ligne</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Linear unit of measure</Name>
+    <LocalName>Unité de mesure linéaire</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Linked to a valid reference</Name>
+    <LocalName>Liée à une référence valide</LocalName>
+  </Translation>
+  <Translation>
+    <Name>List</Name>
+    <LocalName>Liste</LocalName>
+  </Translation>
+  <Translation>
+    <Name>List of Values:</Name>
+    <LocalName>Liste des valeurs :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>List of partitions</Name>
+    <LocalName>Liste des partitions</LocalName>
+  </Translation>
+  <Translation>
+    <Name>List of table</Name>
+    <LocalName>List des tables</LocalName>
+  </Translation>
+  <Translation>
+    <Name>List of values</Name>
+    <LocalName>Liste des valeurs</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Load interval</Name>
+    <LocalName>Intervalle de chargement</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Load retry</Name>
+    <LocalName>Tentatives supplémentaires de chargement</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Lob options</Name>
+    <LocalName>Options LOB</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Local login</Name>
+    <LocalName>Nom d'utilisateur local</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Location</Name>
+    <LocalName>Emplacement</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Lock</Name>
+    <LocalName>Verrou</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Lock type</Name>
+    <LocalName>Type de verrou</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Locked</Name>
+    <LocalName>Verrouillé</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Locked object</Name>
+    <LocalName>Objet verrouillé</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Locked object class</Name>
+    <LocalName>Classe d'objet verrouillé</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Log</Name>
+    <LocalName>Journal</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Log file</Name>
+    <LocalName>Fichier journal</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Log on to the server</Name>
+    <LocalName>Connexion au serveur</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Log on:</Name>
+    <LocalName>Consigner sur :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Logged</Name>
+    <LocalName>Consigné</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Logging</Name>
+    <LocalName>Consignation</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Logical name</Name>
+    <LocalName>Nom logique</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Logical server</Name>
+    <LocalName>Serveur logique</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Logical server policies</Name>
+    <LocalName>Politiques de serveur logique</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Logical server policy</Name>
+    <LocalName>Politique de serveur logique</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Logical server policy options</Name>
+    <LocalName>Options de politique de serveur logique</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Logical servers</Name>
+    <LocalName>Serveurs logiques</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Login</Name>
+    <LocalName>Connexion</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Login Policies</Name>
+    <LocalName>Politiques de connexion</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Login Policy</Name>
+    <LocalName>Politique de connexion</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Login information</Name>
+    <LocalName>Information de connexion</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Login policies</Name>
+    <LocalName>Politiques de connexion</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Login policy</Name>
+    <LocalName>Politique de connexion</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Login redirection</Name>
+    <LocalName>Redirection de connexion</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Login timeout</Name>
+    <LocalName>Délai d'attente de connexion</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Logon must be unique trigger event</Name>
+    <LocalName>Logon doit être un événement de trigger unique</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Longitude\tBounded\tUnbounded</Name>
+    <LocalName>Longitude\tLimitée\tNon limitée</LocalName>
+  </Translation>
+  <Translation>
+    <Name>MIME type</Name>
+    <LocalName>Type MIME</LocalName>
+  </Translation>
+  <Translation>
+    <Name>MIME-type column</Name>
+    <LocalName>Colonne de type MIME</LocalName>
+  </Translation>
+  <Translation>
+    <Name>M\tBounded\tUnbounded</Name>
+    <LocalName>M\\tLimité\tNon limité</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Macro type</Name>
+    <LocalName>Type de macro</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Maintained by</Name>
+    <LocalName>Maintenu par</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Mandatory</Name>
+    <LocalName>Obligatoire</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Mandatory ROWID column</Name>
+    <LocalName>Colonne ROWID obligatoire</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Mandatory Tablespace Location</Name>
+    <LocalName>Emplacement de tablespace obligatoire</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Mandatory columns</Name>
+    <LocalName>Colonnes obligatoires</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Mandatory:</Name>
+    <LocalName>Obligatoire :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Mask</Name>
+    <LocalName>Masque</LocalName>
+  </Translation>
+  <Translation>
+    <Name>MaskColumnName</Name>
+    <LocalName>NomColonneMasque</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Masks</Name>
+    <LocalName>Masques</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Master table</Name>
+    <LocalName>Table maître</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Match type</Name>
+    <LocalName>Type de correspondance</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Materialized View Group</Name>
+    <LocalName>Groupe de vues matérialisées</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Materialized query table</Name>
+    <LocalName>Table de requête matérialisée</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Materialized query tables</Name>
+    <LocalName>Tables de requête matérialisées</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Materialized view</Name>
+    <LocalName>Vue matérialisée</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Materialized view groups</Name>
+    <LocalName>Groupes de vues matérialisées</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Materialized view log</Name>
+    <LocalName>Journal de vue matérialisée</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Materialized view logs</Name>
+    <LocalName>Journaux de vue matérialisée</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Materialized view only</Name>
+    <LocalName>Vue matérialisée uniquement</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Materialized views</Name>
+    <LocalName>Vues matérialisées</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Max</Name>
+    <LocalName>Maxi</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Max CPU percent</Name>
+    <LocalName>Pourcentage de ressources CPU maxi</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Max cost</Name>
+    <LocalName>Coût maxi</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Max degree of parallelism</Name>
+    <LocalName>Degré maximal de parallélisme</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Max files</Name>
+    <LocalName>Fichiers maxi</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Max memory percent</Name>
+    <LocalName>Pourcentage de mémoire maxi</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Max size</Name>
+    <LocalName>Taille maxi</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Max value</Name>
+    <LocalName>Valeur maxi</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Maximum connections</Name>
+    <LocalName>Nombre maximum de connexions</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Maximum days since login</Name>
+    <LocalName>Nombre maximum de jours depuis la connexion</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Maximum degree of parallelism</Name>
+    <LocalName>Degré maximal de parallélisme</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Maximum extents</Name>
+    <LocalName>Extensions maximum</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Maximum failed logins</Name>
+    <LocalName>Nombre maximum d'échec de connexion</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Maximum file size</Name>
+    <LocalName>Taille maximum de fichier</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Maximum non-dba connections</Name>
+    <LocalName>Nombre maximum de connexions non-dba</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Maximum number of partitions</Name>
+    <LocalName>Nombre maximum de partitions</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Maximum partition size</Name>
+    <LocalName>Taille maximum de partition</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Maximum priority</Name>
+    <LocalName>Priorité maximum</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Maximum requests</Name>
+    <LocalName>Nombre maxi de demandes</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Maximum resource</Name>
+    <LocalName>Ressource maximum</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Maximum size</Name>
+    <LocalName>Taille maximale</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Maximum size:</Name>
+    <LocalName>Taille maximum :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Maximum term length</Name>
+    <LocalName>Longueur maximum du terme</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Maximum threshold</Name>
+    <LocalName>Seuil maximum</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Maximum value</Name>
+    <LocalName>Valeur maximum</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Maximum:</Name>
+    <LocalName>Maximum :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Maxvalue</Name>
+    <LocalName>Valeur maxi</LocalName>
+  </Translation>
+  <Translation>
+    <Name>May be SQL, C, internal, or the name of a user-defined procedural language.</Name>
+    <LocalName>Peut-être SQL, C, un langage interne ou le nom d'un langage procédural défini par l'utilisateur.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Measure type</Name>
+    <LocalName>Type de mesure</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Member attributes</Name>
+    <LocalName>Attributs de membre</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Member roles</Name>
+    <LocalName>Rôle membre</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Members</Name>
+    <LocalName>Membres</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Membership</Name>
+    <LocalName>Appartenance à un serveur logique</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Memory grant request timeout</Name>
+    <LocalName>Dépassement de délai pour octroi de mémoire</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Memory limit</Name>
+    <LocalName>Mémoire maxi</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Memory percent: Min</Name>
+    <LocalName>Pourcentage de mémoire : Min</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Message Contract</Name>
+    <LocalName>Contrat de message</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Message Contracts</Name>
+    <LocalName>Contrats de message</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Message Type</Name>
+    <LocalName>Type de message</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Message Types</Name>
+    <LocalName>Type de message</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Message path</Name>
+    <LocalName>Chemin de message</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Message type</Name>
+    <LocalName>Type de message</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Method is external</Name>
+    <LocalName>Méthode externe</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Method:</Name>
+    <LocalName>Méthode :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Microsoft SQL Server Database File (SqlClient)</Name>
+    <LocalName>Fichier de base de données Microsoft SQL Server (SqlClient)</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Min CPU percent</Name>
+    <LocalName>Pourcentage de ressources CPU mini</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Min cost</Name>
+    <LocalName>Coût mini</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Min memory percent</Name>
+    <LocalName>Pourcentage de mémoire mini</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Min value</Name>
+    <LocalName>Valeur mini</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Minimum extents</Name>
+    <LocalName>Extensions minimum</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Minimum number of attributes</Name>
+    <LocalName>Nombre minimum d'attributs</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Minimum resource</Name>
+    <LocalName>Ressource minimum</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Minimum term length</Name>
+    <LocalName>Longueur minimum du terme</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Minimum threshold</Name>
+    <LocalName>Seuil minimum</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Minimum value</Name>
+    <LocalName>Valeur minimum</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Minimum:</Name>
+    <LocalName>Minimum :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Minvalue</Name>
+    <LocalName>Valeur mini</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Mirror</Name>
+    <LocalName>Miroir</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Mirror Server</Name>
+    <LocalName>Serveur miroir</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Mirror Servers</Name>
+    <LocalName>Serveurs miroirs</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Mirror address</Name>
+    <LocalName>Adresse miroir</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Mirror on</Name>
+    <LocalName>Miroir activé</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Mirroring</Name>
+    <LocalName>Mise en miroir</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing connectivity settings</Name>
+    <LocalName>Paramètres de connectivité absents</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing data movement settings (lifecycle)</Name>
+    <LocalName>Paramètres de mouvements de données manquants (cycle de vie)</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Model</Name>
+    <LocalName>Modèle</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Multi-value compression</Name>
+    <LocalName>Compression multivaleur</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Multi-value compression ?</Name>
+    <LocalName>Compression multivaleur ?</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Multi-value compression syntax</Name>
+    <LocalName>Syntaxe de compression multivaleur</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Multidimensional Reporting</Name>
+    <LocalName>Rapport multidimensionnel</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Multidimensional reporting</Name>
+    <LocalName>Rapport multidimensionnel</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Multiple Column Type</Name>
+    <LocalName>Type de colonne Multiple</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Multiple dimension attributes mapped to same column</Name>
+    <LocalName>Plusieurs attributs de dimension mis en correspondance avec la même colonne</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Multiple fact attributes mapped to same column</Name>
+    <LocalName>Plusieurs attributs de fait mis en correspondance avec la même colonne</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Multiplex server</Name>
+    <LocalName>Serveur Multiplex</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Multiplex servers</Name>
+    <LocalName>Serveurs Multiplex</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Name</Name>
+    <LocalName>Nom</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Name of not null constraint</Name>
+    <LocalName>Nom de contrainte non-null</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Name prefix (dish services only)</Name>
+    <LocalName>Préfixe de nom (services dish uniquement)</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Name:</Name>
+    <LocalName>Nom :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Namespace</Name>
+    <LocalName>Espace nom</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Namespaces</Name>
+    <LocalName>Espaces de noms</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Need quote</Name>
+    <LocalName>Apostrophe ou guillemet nécessaire</LocalName>
+  </Translation>
+  <Translation>
+    <Name>New type</Name>
+    <LocalName>Nouveau type</LocalName>
+  </Translation>
+  <Translation>
+    <Name>New values</Name>
+    <LocalName>Nouvelles valeurs</LocalName>
+  </Translation>
+  <Translation>
+    <Name>New...</Name>
+    <LocalName>Nouveau...</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Next size</Name>
+    <LocalName>Taille suivante</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Nickname</Name>
+    <LocalName>Pseudonyme</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Nicknames</Name>
+    <LocalName>Pseudonymes</LocalName>
+  </Translation>
+  <Translation>
+    <Name>No Cache</Name>
+    <LocalName>Pas de mise en cache</LocalName>
+  </Translation>
+  <Translation>
+    <Name>No LF, WD, HNG, DATE, TIME or DTTM indexes may be created with multiple columns.</Name>
+    <LocalName>Aucun index LF, WD, HNG, DATE, TIME ou DTTM ne peut être créé sur plusieurs colonnes.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>No cache</Name>
+    <LocalName>Pas de mise en cache</LocalName>
+  </Translation>
+  <Translation>
+    <Name>No column allowed</Name>
+    <LocalName>Aucune colonne admise</LocalName>
+  </Translation>
+  <Translation>
+    <Name>No empty string</Name>
+    <LocalName>Pas de chaîne vide</LocalName>
+  </Translation>
+  <Translation>
+    <Name>No max value</Name>
+    <LocalName>Pas de valeur maxi</LocalName>
+  </Translation>
+  <Translation>
+    <Name>No max.</Name>
+    <LocalName>Pas de maxi.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>No maximum</Name>
+    <LocalName>Pas de maximum</LocalName>
+  </Translation>
+  <Translation>
+    <Name>No min value</Name>
+    <LocalName>Pas de valeur mini</LocalName>
+  </Translation>
+  <Translation>
+    <Name>No min.</Name>
+    <LocalName>Pas de mini.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>No minimum</Name>
+    <LocalName>Pas de minimum</LocalName>
+  </Translation>
+  <Translation>
+    <Name>No parallel</Name>
+    <LocalName>Pas de parallèle</LocalName>
+  </Translation>
+  <Translation>
+    <Name>No partition</Name>
+    <LocalName>Pas de partition</LocalName>
+  </Translation>
+  <Translation>
+    <Name>No populate</Name>
+    <LocalName>Pas de remplissage</LocalName>
+  </Translation>
+  <Translation>
+    <Name>No space:</Name>
+    <LocalName>Sans espace :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>No trailing blanks</Name>
+    <LocalName>Pas de blancs de fin</LocalName>
+  </Translation>
+  <Translation>
+    <Name>No wait</Name>
+    <LocalName>Sans attente</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Node</Name>
+    <LocalName>Noeud</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Not like clause</Name>
+    <LocalName>Clause Not like</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Not null</Name>
+    <LocalName>Non nul</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Not null constraint name</Name>
+    <LocalName>Nom de contrainte non-null</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Not null deferrable</Name>
+    <LocalName>DEFERRABLE non-null</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Not null initially deferred</Name>
+    <LocalName>INITIALLY DEFERRED non-null</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Not transactional</Name>
+    <LocalName>Non transactionnelle</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Not transactional:</Name>
+    <LocalName>Non transactionnelle :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Notify</Name>
+    <LocalName>Notifier</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Null values</Name>
+    <LocalName>Valeurs nulles</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Nullable</Name>
+    <LocalName>Nul possible</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Nullify</Name>
+    <LocalName>Nul</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Nulls not distinct</Name>
+    <LocalName>Nuls non distincts</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Number</Name>
+    <LocalName>Nombre</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Number of distinct values (Iq unique)</Name>
+    <LocalName>Nombre de valeurs distinctes (Iq unique)</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Number of hash values</Name>
+    <LocalName>Nombre de valeurs hash</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Number of partitions</Name>
+    <LocalName>Nombre de partitions</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Number of records</Name>
+    <LocalName>Nombre d'enregistrements</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Number of transactions</Name>
+    <LocalName>Nombre de transactions</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Number:</Name>
+    <LocalName>Nombre :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Numeric string</Name>
+    <LocalName>Chaîne numérique</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Numerics</Name>
+    <LocalName>Numériques</LocalName>
+  </Translation>
+  <Translation>
+    <Name>O&amp;amp;wner</Name>
+    <LocalName>&amp;amp;Propriétaire</LocalName>
+  </Translation>
+  <Translation>
+    <Name>OIDs</Name>
+    <LocalName>OIDs (ID d'objet)</LocalName>
+  </Translation>
+  <Translation>
+    <Name>OLE DB Provider:</Name>
+    <LocalName>Fournisseur OLE DB:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Object</Name>
+    <LocalName>Objet</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Object ID</Name>
+    <LocalName>ID d'objet</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Object Name</Name>
+    <LocalName>Nom d'objet</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Object Package</Name>
+    <LocalName>Package d'objet</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Object Version</Name>
+    <LocalName>Version d'objet</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Object kind</Name>
+    <LocalName>Type d'objet</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Object properties</Name>
+    <LocalName>Propriétés d'objet</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Object view key</Name>
+    <LocalName>Clé de vue objet</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Object view type</Name>
+    <LocalName>Type de vue objet</LocalName>
+  </Translation>
+  <Translation>
+    <Name>On commit</Name>
+    <LocalName>Sur validation</LocalName>
+  </Translation>
+  <Translation>
+    <Name>On commit:</Name>
+    <LocalName>A la validation :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Online</Name>
+    <LocalName>En ligne</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Operators</Name>
+    <LocalName>Opérateurs</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Option type</Name>
+    <LocalName>Type d'option</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Options Index Type</Name>
+    <LocalName>Type d'index Options</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Options definition</Name>
+    <LocalName>Définition des options</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Options text</Name>
+    <LocalName>Texte des options</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Oracle Database (OracleClient)</Name>
+    <LocalName>Base de données Oracle (OracleClient)</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Order</Name>
+    <LocalName>Ordre</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Order by columns</Name>
+    <LocalName>Tri par colonnes</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Ordered</Name>
+    <LocalName>Trié</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Ordering clause</Name>
+    <LocalName>Clause de tri</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Ordering type</Name>
+    <LocalName>Type de tri</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Organization</Name>
+    <LocalName>Organisation</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Organization coordinate reference system ID</Name>
+    <LocalName>ID du système de référence de l'organisation</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Organize on</Name>
+    <LocalName>Organisation activée</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Original values</Name>
+    <LocalName>Valeurs d'origine</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Other options</Name>
+    <LocalName>Autres options</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Output</Name>
+    <LocalName>Sortie</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Output function</Name>
+    <LocalName>Fonction de sortie</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Overflow</Name>
+    <LocalName>Dépassement de capacité</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Override</Name>
+    <LocalName>Remplacement</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Owner</Name>
+    <LocalName>Propriétaire</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Owner required</Name>
+    <LocalName>Propriétaire requis</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Owner:</Name>
+    <LocalName>Propriétaire :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Owning database</Name>
+    <LocalName>Base de données propriétaire</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Package:</Name>
+    <LocalName>Package :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Packet size</Name>
+    <LocalName>Taille de paquet</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Padding of datatypes</Name>
+    <LocalName>Complément des types de données</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Page size</Name>
+    <LocalName>Taille de page</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Page split</Name>
+    <LocalName>Saut de page</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Parallel</Name>
+    <LocalName>Parallèle</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Parallel option</Name>
+    <LocalName>Option parallèle</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Parameter</Name>
+    <LocalName>Paramètre</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Parameter name</Name>
+    <LocalName>Nom de paramètre</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Parameter name:</Name>
+    <LocalName>Nom de paramètre :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Parameter style</Name>
+    <LocalName>Style de paramètre</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Parameters</Name>
+    <LocalName>Paramètres</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Parameters Definition</Name>
+    <LocalName>Définition de paramètres</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Parent Attribute</Name>
+    <LocalName>Attribut parent</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Parent Role</Name>
+    <LocalName>Rôle parent</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Parent Role:</Name>
+    <LocalName>Rôle parent :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Parent Table</Name>
+    <LocalName>Table parent</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Parent Table:</Name>
+    <LocalName>Table parent :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Parent cohort</Name>
+    <LocalName>Cohorte parent</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Parent edition</Name>
+    <LocalName>Edition parent</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Parent role</Name>
+    <LocalName>Rôle parent</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Parent table</Name>
+    <LocalName>Table parent</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Partition Function</Name>
+    <LocalName>Fonction de partition</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Partition Functions</Name>
+    <LocalName>Fonctions de partition</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Partition Scheme</Name>
+    <LocalName>Schéma de partition</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Partition Schemes</Name>
+    <LocalName>Schémas de partition</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Partition by</Name>
+    <LocalName>Partition par</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Partition by reference</Name>
+    <LocalName>Partition par référence</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Partition clause</Name>
+    <LocalName>Clause de partition</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Partition columns</Name>
+    <LocalName>Colonnes de partition</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Partition definition</Name>
+    <LocalName>Définition de partition</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Partition detail</Name>
+    <LocalName>Détail de partition</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Partition expression</Name>
+    <LocalName>Expression de partition</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Partition function:</Name>
+    <LocalName>Fonction de partition :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Partition key</Name>
+    <LocalName>Clé de partition</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Partition keys</Name>
+    <LocalName>Clés de partition</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Partition number</Name>
+    <LocalName>Nombre de partitions</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Partition quantity</Name>
+    <LocalName>Quantité de partition</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Partition scheme</Name>
+    <LocalName>Schéma de partition</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Partition scheme:</Name>
+    <LocalName>Schéma de partition :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Partition specification</Name>
+    <LocalName>Spécification de partition</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Partition sql</Name>
+    <LocalName>Partition SQL</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Partition type</Name>
+    <LocalName>Type de partition</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Partition values</Name>
+    <LocalName>Valeurs de partition</LocalName>
+  </Translation>
+  <Translation>
+    <Name>PartitionValues</Name>
+    <LocalName>ValeursPartition</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Partitioned column</Name>
+    <LocalName>Colonne partitionnée</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Partitioning</Name>
+    <LocalName>Partitionnement</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Partitioning column</Name>
+    <LocalName>Colonne de partitionnement</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Partitioning columns</Name>
+    <LocalName>Colonnes de partitionnement</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Partitioning keys</Name>
+    <LocalName>Clés de partitionnement</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Partitions number:</Name>
+    <LocalName>Nombre de partitions :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Partner</Name>
+    <LocalName>Partenaire</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Passed by value</Name>
+    <LocalName>Passé par valeur</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Password</Name>
+    <LocalName>Mot de passe</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Password Encryption</Name>
+    <LocalName>Cryptage de mot de passe</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Password expire</Name>
+    <LocalName>Expiration du mot de passe</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Password expires</Name>
+    <LocalName>Expiration de mot de passe</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Password expiry</Name>
+    <LocalName>Expiration du mot de passe</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Password grace time</Name>
+    <LocalName>Délai de grâce pour le mot de passe</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Password life time</Name>
+    <LocalName>Durée de vie du mot de passe</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Password phrase</Name>
+    <LocalName>Phrase de mot de passe</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Password:</Name>
+    <LocalName>Mot de passe :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Path</Name>
+    <LocalName>Chemin</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Path:</Name>
+    <LocalName>Chemin :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Pattern</Name>
+    <LocalName>Motif</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Patterns</Name>
+    <LocalName>Motifs</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Period</Name>
+    <LocalName>Période</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Period Column</Name>
+    <LocalName>Colonne de période</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Permission set:</Name>
+    <LocalName>Jeu de partitions :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Persist security info</Name>
+    <LocalName>Persistance des informations de sécurité</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Persisted</Name>
+    <LocalName>Persistant</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Phrase index ratio</Name>
+    <LocalName>Ratio d'index de phrase</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Physical Option Conflict</Name>
+    <LocalName>Conflit d'options physiques</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Physical data model</Name>
+    <LocalName>Modèle Physique de Données</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Physical options</Name>
+    <LocalName>Options physiques</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Physical options check</Name>
+    <LocalName>Vérification des options physiques</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Pipe name</Name>
+    <LocalName>Nom de pipe</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Policy</Name>
+    <LocalName>Politique</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Polygon format</Name>
+    <LocalName>Format de polygone</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Port number</Name>
+    <LocalName>Numéro de port</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Prec</Name>
+    <LocalName>Préc</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Precision</Name>
+    <LocalName>Précision</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Precision:</Name>
+    <LocalName>Précision :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Predefined data type</Name>
+    <LocalName>Type de données prédéfini</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Predicate</Name>
+    <LocalName>Prédicat</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Preferred</Name>
+    <LocalName>Préféré</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Preliminary aggregation function</Name>
+    <LocalName>Fonction d'agrégation préliminaire</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Primary</Name>
+    <LocalName>Primaire</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Primary index</Name>
+    <LocalName>Index primaire</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Primary index ?</Name>
+    <LocalName>Index principal ?</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Primary index:</Name>
+    <LocalName>Index primaire :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Primary key</Name>
+    <LocalName>Clé primaire</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Primary server</Name>
+    <LocalName>Serveur principal</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Priority</Name>
+    <LocalName>Priorité</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Private Key</Name>
+    <LocalName>Clé privée</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Procedure</Name>
+    <LocalName>Procédure</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Profile name</Name>
+    <LocalName>Nom de profil</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Properties</Name>
+    <LocalName>Propriétés</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Protocol</Name>
+    <LocalName>Protocole</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Provider</Name>
+    <LocalName>Fournisseur</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Provider identity</Name>
+    <LocalName>Identité du fournisseur</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Provider key name</Name>
+    <LocalName>Nom de clé de fournisseur</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Push down</Name>
+    <LocalName>Evaluation</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Quantity</Name>
+    <LocalName>Quantité</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Query</Name>
+    <LocalName>Requête</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Query optimization</Name>
+    <LocalName>Optimisation de requête</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Query timeout</Name>
+    <LocalName>Dépassement de délai de requête</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Queue</Name>
+    <LocalName>File d'attente</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Queues</Name>
+    <LocalName>Files d'attente</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Quota definition</Name>
+    <LocalName>Définition de quota</LocalName>
+  </Translation>
+  <Translation>
+    <Name>RLV Store</Name>
+    <LocalName>Magasin RLV</LocalName>
+  </Translation>
+  <Translation>
+    <Name>RLV store</Name>
+    <LocalName>Magasin RLV</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Range</Name>
+    <LocalName>Plage</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Range / Composite</Name>
+    <LocalName>Plage / Composite</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Range key</Name>
+    <LocalName>Clé de plage</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Range specifier</Name>
+    <LocalName>Spécificateur de plage</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Read-only</Name>
+    <LocalName>Lecture seule</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Receive function</Name>
+    <LocalName>Fonction de réception</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Record LDAP DN refresh time</Name>
+    <LocalName>Mise à jour de l'heure ldap_refresh_dn</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Redirection waiters threshold</Name>
+    <LocalName>Seuil de redirection des connexions en attente</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Ref using</Name>
+    <LocalName>REF USING</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Reference</Name>
+    <LocalName>Référence</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Reference match type</Name>
+    <LocalName>Type de correspondance de référence</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Reference name</Name>
+    <LocalName>Nom de référence</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Reflexive and restrict on delete reference</Name>
+    <LocalName>Référence réflexive avec une contrainte Restrict on delete</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Refresh DN</Name>
+    <LocalName>Réactualisation DN</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Refresh type</Name>
+    <LocalName>Type de réactualisation</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Relational Definition</Name>
+    <LocalName>Définition relationnelle</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Relational definition</Name>
+    <LocalName>Définition relationnelle</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Rely</Name>
+    <LocalName>Imposer</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Rely reference on Rely primary key</Name>
+    <LocalName>Référence Rely sur une clé primaire Rely</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Remote Service Binding</Name>
+    <LocalName>Lien de service distant</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Remote Service Bindings</Name>
+    <LocalName>Liens de service distant</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Remote database</Name>
+    <LocalName>Base de données distante</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Remote database name</Name>
+    <LocalName>Nom de base de données distante</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Remote identifier</Name>
+    <LocalName>Identifiant distant</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Remote location</Name>
+    <LocalName>Emplacement distant</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Remote location:</Name>
+    <LocalName>Emplacement distant :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Remote login</Name>
+    <LocalName>Nom d'utilisateur distant</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Remote object</Name>
+    <LocalName>Objet distant</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Remote owner</Name>
+    <LocalName>Propriétaire distant</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Remote password</Name>
+    <LocalName>Mot de passe distant</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Remote schema</Name>
+    <LocalName>Schéma distant</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Remote server</Name>
+    <LocalName>Serveur distant</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Remote server name</Name>
+    <LocalName>Nom de serveur distant</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Remote servers</Name>
+    <LocalName>Serveurs distants</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Remote service</Name>
+    <LocalName>Service distant</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Remote source</Name>
+    <LocalName>Source distante</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Remote sources</Name>
+    <LocalName>Sources distantes</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Remote table</Name>
+    <LocalName>Table distante</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Remote user ID</Name>
+    <LocalName>ID utilisateur distant</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Renamed HANA package</Name>
+    <LocalName>Package HANA renommé</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Replication</Name>
+    <LocalName>Réplication</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Replication Group</Name>
+    <LocalName>Groupe de réplications</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Replication Rule Set</Name>
+    <LocalName>Jeu de règles de réplication</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Replication group</Name>
+    <LocalName>Groupe de réplications</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Replication groups</Name>
+    <LocalName>Groupes de réplications</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Replication rule</Name>
+    <LocalName>Règle de réplication</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Replication rule sets</Name>
+    <LocalName>Jeux de règles de réplication</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Replication rules</Name>
+    <LocalName>Règles de réplication</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Repository:</Name>
+    <LocalName>Référentiel :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Request maximum CPU</Name>
+    <LocalName>Ressources maxi par demande</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Request maximum memory</Name>
+    <LocalName>Mémoire maxi par demande</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Reserve</Name>
+    <LocalName>Réserver</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Reserve unit</Name>
+    <LocalName>Unité de réserve</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Resource allocation</Name>
+    <LocalName>Allocation de ressources</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Resource group</Name>
+    <LocalName>Groupe de ressources</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Resource pool</Name>
+    <LocalName>Pool de ressources</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Resource pools</Name>
+    <LocalName>Pools de ressource</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Resource queue</Name>
+    <LocalName>File d'attente de ressource</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Resource queues</Name>
+    <LocalName>Files d'attente de ressource</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Restrict Not Authorized Write Security Label</Name>
+    <LocalName>Restreindre l'écriture non autorisée de libellé de sécurité</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Result table</Name>
+    <LocalName>Table de résultats</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Retention</Name>
+    <LocalName>Rétention</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Retention period</Name>
+    <LocalName>Période de rétention</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Retrieve with leading zeros</Name>
+    <LocalName>Extraire avec des zéros à gauche</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Return clause</Name>
+    <LocalName>Clause de résultat</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Return data type</Name>
+    <LocalName>Type de données de résultat</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Return type:</Name>
+    <LocalName>Type de résultat :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Returns null on null input</Name>
+    <LocalName>Renvoie null sur une entrée null</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Reverse data type</Name>
+    <LocalName>Type de données inverse</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Reversed partition</Name>
+    <LocalName>Partition inversées</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ReversedContracts:</Name>
+    <LocalName>Contrats inversés :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Role</Name>
+    <LocalName>Rôle</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Roles</Name>
+    <LocalName>Rôles</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Root auto unlock time</Name>
+    <LocalName>Délai de déverrouillage auto racine</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Roundrobin</Name>
+    <LocalName>Round-robin</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Routine characteristics</Name>
+    <LocalName>Caractéristiques de la routine</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Row</Name>
+    <LocalName>Ligne</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Row GUID</Name>
+    <LocalName>GUID de ligne</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Row ID</Name>
+    <LocalName>ID de ligne</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Row dependency</Name>
+    <LocalName>Dépendance de ligne</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Row global unique identifier</Name>
+    <LocalName>Identificateur unique globale de ligne</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Row growth rate (per year)</Name>
+    <LocalName>Taux de croissance annuel de ligne</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Row permission</Name>
+    <LocalName>Permission de ligne</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Row permissions</Name>
+    <LocalName>Permissions de ligne</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Row security</Name>
+    <LocalName>Sécurité de ligne</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Row sort</Name>
+    <LocalName>Tri des lignes</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Row-level versioning</Name>
+    <LocalName>Versionnement de niveau ligne</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Rowid</Name>
+    <LocalName>ID de ligne</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Rowset limit</Name>
+    <LocalName>Limite de jeu de lignes</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Rule</Name>
+    <LocalName>Règle</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Rule text</Name>
+    <LocalName>Texte de règle</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Rules</Name>
+    <LocalName>Règles</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Rules is that the first column of an unique index (or key) must contains the auto_increment column.</Name>
+    <LocalName>La règle exige que la première colonne d'un index unique (ou d'une clé) doit contenir la colonne auto_increment.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>SAP Data type implementation</Name>
+    <LocalName>Mise en oeuvre de type de données SAP</LocalName>
+  </Translation>
+  <Translation>
+    <Name>SOAP action</Name>
+    <LocalName>Action SOAP</LocalName>
+  </Translation>
+  <Translation>
+    <Name>SQL Text</Name>
+    <LocalName>Texte SQL</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Same as</Name>
+    <LocalName>Identique à</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Scale</Name>
+    <LocalName>Echelle</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Schedule definition</Name>
+    <LocalName>Définition de planification</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Scheduler rule</Name>
+    <LocalName>Règle de planification</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Scheduler rules</Name>
+    <LocalName>Règles de planification</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Schema</Name>
+    <LocalName>Schéma</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Schema flexibility</Name>
+    <LocalName>Flexibilité de schéma</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Schema:</Name>
+    <LocalName>Schéma :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Schemas</Name>
+    <LocalName>Schémas</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Search DN</Name>
+    <LocalName>DN de recherche</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Search URL</Name>
+    <LocalName>URL de recherche</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Search condition</Name>
+    <LocalName>Condition de recherche</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Search methods</Name>
+    <LocalName>Méthodes de recherche</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Search only</Name>
+    <LocalName>Recherche uniquement</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Second partition scheme</Name>
+    <LocalName>Second schéma de partition</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Secondary XML index type:</Name>
+    <LocalName>Type d'index XML secondaire :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Secondary server</Name>
+    <LocalName>Serveur secondaire</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Secure</Name>
+    <LocalName>Sécurité</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Secure file</Name>
+    <LocalName>SecureFile</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Security</Name>
+    <LocalName>Sécurité</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Security category</Name>
+    <LocalName>Catégorie de sécurité</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Security cohort</Name>
+    <LocalName>Cohorte de sécurité</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Security label</Name>
+    <LocalName>Libellé de sécurité</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Security label component</Name>
+    <LocalName>Composant du libellé de sécurité</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Security label components</Name>
+    <LocalName>Composants du libellé de sécurité</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Security labels</Name>
+    <LocalName>Libellés de sécurité</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Security level</Name>
+    <LocalName>Niveau de sécurité</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Security policies</Name>
+    <LocalName>Politiques de sécurité</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Seed</Name>
+    <LocalName>Racine</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Select data to collect:</Name>
+    <LocalName>Sélectionnez les données à collecter :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Self as result</Name>
+    <LocalName>SELF AS RESULT</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Semi-major axis length</Name>
+    <LocalName>Longueur de demi-grand axe</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Semi-minor</Name>
+    <LocalName>Demi-petit</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Send function</Name>
+    <LocalName>Fonction d'envoi</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Sent by</Name>
+    <LocalName>Envoyé par</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Sequence:</Name>
+    <LocalName>Séquence :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Serial start</Name>
+    <LocalName>Première valeur</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Server</Name>
+    <LocalName>Serveur</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Server class</Name>
+    <LocalName>Classe de serveur</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Server name</Name>
+    <LocalName>Nom de serveur</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Server name:</Name>
+    <LocalName>Nom de serveur :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Servers</Name>
+    <LocalName>Serveurs</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Service name</Name>
+    <LocalName>Nom de service</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Session idle timeout</Name>
+    <LocalName>Durée d'inactivité de session</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Session priority</Name>
+    <LocalName>Priorité de session</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Set</Name>
+    <LocalName>SET</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Set partitions by quantity</Name>
+    <LocalName>Définition de partitions par quantité</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Settings</Name>
+    <LocalName>Paramètres</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Shared</Name>
+    <LocalName>Partagé</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Single table</Name>
+    <LocalName>Table unique</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Size</Name>
+    <LocalName>Taille</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Size or type</Name>
+    <LocalName>Taille ou type</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Size specification</Name>
+    <LocalName>Spécification de la taille</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Size:</Name>
+    <LocalName>Taille :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Snapshot of:</Name>
+    <LocalName>Snapshot de :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Soap header</Name>
+    <LocalName>En-tête SOAP</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Sort</Name>
+    <LocalName>Tri</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Sort in tempdb</Name>
+    <LocalName>Tri dans tempdb</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Sort operator</Name>
+    <LocalName>Opérateur de tri</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Sorted</Name>
+    <LocalName>Trié</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Source encoding</Name>
+    <LocalName>Codage source</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Source key parameters</Name>
+    <LocalName>Paramètres clé source</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Source type</Name>
+    <LocalName>Type de source</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Space</Name>
+    <LocalName>Espace</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Space usage</Name>
+    <LocalName>Utilisation d'espace</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Spaces</Name>
+    <LocalName>Espaces</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Sparse</Name>
+    <LocalName>Fragmentée</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Spatial Reference System</Name>
+    <LocalName>Système de référence spatiale</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Spatial Reference Systems</Name>
+    <LocalName>Systèmes de référence spatiale</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Spatial Unit of Measure</Name>
+    <LocalName>Unité de mesure spatiale</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Spatial Units of Measure</Name>
+    <LocalName>Unités de mesure spatiales</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Spatial options</Name>
+    <LocalName>Options spatiale</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Spatial reference system identifier</Name>
+    <LocalName>Identificateur de système de référence spatiale</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Special permission</Name>
+    <LocalName>Permission spéciale</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Specific</Name>
+    <LocalName>Spécifique</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Specific method name</Name>
+    <LocalName>Nom de méthode spécifique</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Specification</Name>
+    <LocalName>Spécification</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Specifies attributes of search DN</Name>
+    <LocalName>Spécifie les attributs du DN de recherche</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Specifies attributes of the LDAP server</Name>
+    <LocalName>Spécifie les attributs du serveur LDAP</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Sql</Name>
+    <LocalName>SQL</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Sql security</Name>
+    <LocalName>Sécurité SQL</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Standard Checks</Name>
+    <LocalName>Contrôles standard</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Standard attribute</Name>
+    <LocalName>Attribut standard</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Start</Name>
+    <LocalName>Debut</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Start / Between</Name>
+    <LocalName>Début / Entre</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Start date</Name>
+    <LocalName>Date de début</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Start date:</Name>
+    <LocalName>Date de début :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Start time column</Name>
+    <LocalName>Colonne de début</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Start value</Name>
+    <LocalName>Valeur initiale</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Start with</Name>
+    <LocalName>Commencer avec</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Startup string</Name>
+    <LocalName>Chaîne de démarrage</LocalName>
+  </Translation>
+  <Translation>
+    <Name>State</Name>
+    <LocalName>Etat</LocalName>
+  </Translation>
+  <Translation>
+    <Name>State data type</Name>
+    <LocalName>Type de données d'état</LocalName>
+  </Translation>
+  <Translation>
+    <Name>State file</Name>
+    <LocalName>Fichier d'état</LocalName>
+  </Translation>
+  <Translation>
+    <Name>State transition function</Name>
+    <LocalName>Fonction de transition d'état</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Statistics no recompute</Name>
+    <LocalName>Statistiques non recalculées</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Status</Name>
+    <LocalName>Etat</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Stereotype</Name>
+    <LocalName>Stéréotype</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Stereotype:</Name>
+    <LocalName>Stéréotype :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Stoplist</Name>
+    <LocalName>Liste d'arrêt</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Storage</Name>
+    <LocalName>Stockage</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Storage Mode</Name>
+    <LocalName>Mode de stockage</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Storage format</Name>
+    <LocalName>Format de stockage</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Storage limit</Name>
+    <LocalName>Limite de stockage</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Storage management</Name>
+    <LocalName>Gestion des storages</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Storage mode</Name>
+    <LocalName>Mode de stockage</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Storage requires a database.</Name>
+    <LocalName>Les storages requièrent une base de données.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Storage strategy</Name>
+    <LocalName>Stratégie de stockage</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Storage type</Name>
+    <LocalName>Type de stockage</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Store</Name>
+    <LocalName>Magasin</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Store Java-SQL column in row</Name>
+    <LocalName>Stocker une colonne Java-SQL dans une ligne</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Store in tablespace:</Name>
+    <LocalName>Stocker dans le tablespace :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Store sort result</Name>
+    <LocalName>Stocker les résultats de tri</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Stored key Attribute</Name>
+    <LocalName>Attribut de clé stockée</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Stores</Name>
+    <LocalName>Magasins</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Streaming</Name>
+    <LocalName>Continu</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Stripe size (in kb)</Name>
+    <LocalName>Taille de stripe (Ko)</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Structural</Name>
+    <LocalName>Structurel</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Structure package</Name>
+    <LocalName>Package structurel</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Structured type</Name>
+    <LocalName>Type structuré</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Subject:</Name>
+    <LocalName>Sujet :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Super user</Name>
+    <LocalName>Super utilisateur</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Super view</Name>
+    <LocalName>Supervue</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Super view object</Name>
+    <LocalName>Vue objet parent</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Supertype:</Name>
+    <LocalName>Supertype :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Sybase OCI path</Name>
+    <LocalName>Chemin Sybase OCI</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Symmetric Key</Name>
+    <LocalName>Clé symétrique</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Symmetric Keys</Name>
+    <LocalName>Clés symétriques</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Symmetric key:</Name>
+    <LocalName>Clé symétrique :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Synchronous refresh</Name>
+    <LocalName>Réactualisation synchrone</LocalName>
+  </Translation>
+  <Translation>
+    <Name>System</Name>
+    <LocalName>Système</LocalName>
+  </Translation>
+  <Translation>
+    <Name>System Procedure As Definer</Name>
+    <LocalName>Procédure système exécutée sous le nom</LocalName>
+  </Translation>
+  <Translation>
+    <Name>TIME index only supports Time data type</Name>
+    <LocalName>Un index TIME ne prend en charge que le type de données Time</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Table As</Name>
+    <LocalName>Table instantanée</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Table Timestamp Uniqueness</Name>
+    <LocalName>Unicité de Timestamp pour une table</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Table Type</Name>
+    <LocalName>Type de table</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Table compression</Name>
+    <LocalName>Compression de table</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Table correlation name</Name>
+    <LocalName>Nom de corrélation de table</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Table is partitioned</Name>
+    <LocalName>Table partitionnée</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Table options</Name>
+    <LocalName>Options de table</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Table owner</Name>
+    <LocalName>Propriétaire de la table</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Table space</Name>
+    <LocalName>Tablespace</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Table storage type</Name>
+    <LocalName>Type de storage de table</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Table:</Name>
+    <LocalName>Table :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Tables As</Name>
+    <LocalName>Tables instantanées</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Tablespace Undo and Temporary</Name>
+    <LocalName>Tablespace d'annulation et temporaire</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Tablespace files</Name>
+    <LocalName>Fichiers de tablespace</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Tag</Name>
+    <LocalName>Balise</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Target key parameters</Name>
+    <LocalName>Paramètres clé cible</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Temp data in shared temp</Name>
+    <LocalName>Données temporaires dans magasin temp partagé</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Template hidden</Name>
+    <LocalName>Template masqué</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Temporary</Name>
+    <LocalName>Temporaire</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Temporary object storage</Name>
+    <LocalName>Stockage d'objet temporaire</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Temporary path</Name>
+    <LocalName>Chemin temporaire</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Temporary reserve</Name>
+    <LocalName>Réserve temporaire</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Temporary size</Name>
+    <LocalName>Taille temporaire</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Temporary state</Name>
+    <LocalName>Etat Temporary</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Temporary table</Name>
+    <LocalName>Table temporaire</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Temporary table scope</Name>
+    <LocalName>Portée de la taille temporaire</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Temporary table:</Name>
+    <LocalName>Table temporaire :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Temporary tablespace</Name>
+    <LocalName>Tablespace temporaire</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Term breaker</Name>
+    <LocalName>Séparateur de termes</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Term length</Name>
+    <LocalName>Longueur de terme</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Tessellation scheme</Name>
+    <LocalName>Schéma de tessellation</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Test data parameters</Name>
+    <LocalName>Paramètres de données de test</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Text</Name>
+    <LocalName>Texte</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Text Configuration</Name>
+    <LocalName>Configuration de texte</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Text Configurations</Name>
+    <LocalName>Configurations de texte</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Text analysis</Name>
+    <LocalName>Analyse de texte</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Text configurations</Name>
+    <LocalName>Configurations de texte</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Text index</Name>
+    <LocalName>Index de texte</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Text index options</Name>
+    <LocalName>Options relatives aux index de texte</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Text/Image</Name>
+    <LocalName>Texte/Image</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Text/Image on:</Name>
+    <LocalName>Texte/Image sur :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>The "delimited by" and "limit" physical options clause can only be used with WD index type</Name>
+    <LocalName>La clause d'options physiques "delimited by" et "limit" ne peut être utilisée que sur un index de type WD</LocalName>
+  </Translation>
+  <Translation>
+    <Name>The device name defined in the physical options is mandatory for the sp_addsegment procedure.</Name>
+    <LocalName>Le nom de périphérique défini dans les options physiques est obligatoire pour la procédure sp_addsegment.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>The number of cells along the axes of a grid</Name>
+    <LocalName>Nombre de cellules le long des axes d'une grille</LocalName>
+  </Translation>
+  <Translation>
+    <Name>The options define the rules for a login policy. For each option, you can choose whether to specify a value.</Name>
+    <LocalName>Les options définissent les règles pour une politique de connexion. Pour chaque option, vous pouvez choisir de spécifier ou non une valeur.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>This check ensures that tables are not defined under a HANA package.</Name>
+    <LocalName>Cette vérification s'assure que les tables ne sont pas définies sous un package HANA.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>This check ensures that the data movement settings for lifecycle management are completed.</Name>
+    <LocalName>Cette vérification s'assure que les paramètres de mouvement des données pour la gestion de cycle de vie sont complets.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>This check ensures that the database connection settings for lifecycle management are completed.</Name>
+    <LocalName>Cette vérification s'assure que les paramètres de connexion à la base de données sont complets.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>This check ensures that the model has a defined database in order to create storages.</Name>
+    <LocalName>Cette vérification s'assure que le modèle a une base de données définie afin de pouvoir créer des storages.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Time</Name>
+    <LocalName>Temps</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Time Index Type</Name>
+    <LocalName>Type d'index Time</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Time zone</Name>
+    <LocalName>Fuseau horaire</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Time-out</Name>
+    <LocalName>Dépassement de délai</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Timeout</Name>
+    <LocalName>Délai d'attente</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Token separators</Name>
+    <LocalName>Séparateurs de jetons</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Tolerance</Name>
+    <LocalName>Tolérance</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Transaction log</Name>
+    <LocalName>Journal de transactions</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Transaction timestamp time</Name>
+    <LocalName>Heure d'horodatage de la transaction</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Transaction:</Name>
+    <LocalName>Transaction :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Transform Group</Name>
+    <LocalName>Groupe de transformation</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Transform Groups</Name>
+    <LocalName>Groupes de transformation</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Transform definition</Name>
+    <LocalName>Définition de transformation</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Transform group</Name>
+    <LocalName>Groupe de transformation</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Trigger condition</Name>
+    <LocalName>Condition de déclenchement</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Trigger event with inappropriate time</Name>
+    <LocalName>Evénement de trigger avec un moment inapproprié</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Triggers associated with Logon event have not to be associated to any other event</Name>
+    <LocalName>Les triggers associés à un événement Logon ne doivent être associés à aucun autre événement</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Trust worthy</Name>
+    <LocalName>Digne de confiance</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Trusted Context</Name>
+    <LocalName>Contexte sécurisé</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Trusted Contexts</Name>
+    <LocalName>Contextes sécurisés</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Type of certificate source</Name>
+    <LocalName>Type de source de certificat</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Type of check option</Name>
+    <LocalName>Type d'option de vérification</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Type:</Name>
+    <LocalName>Type :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>URL:</Name>
+    <LocalName>URL :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Unchecked</Name>
+    <LocalName>Non vérifiée</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Unchecked data</Name>
+    <LocalName>Données non vérifiées</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Undo tablespace</Name>
+    <LocalName>Tablespace d'annulation</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Unique Index Type</Name>
+    <LocalName>Type d'index Unique</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Unique Indexes Partitioning Key</Name>
+    <LocalName>Clé de partitionnement d'index uniques</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Unique central table with key attributes</Name>
+    <LocalName>Table centrale unique avec des attributs de clé</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Unique key</Name>
+    <LocalName>Clé unique</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Unique table for measures</Name>
+    <LocalName>Table unique pour les mesures</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Unit</Name>
+    <LocalName>Unité</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Unit:</Name>
+    <LocalName>Unité :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Unlimited</Name>
+    <LocalName>Illimitée</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Unlimited extents</Name>
+    <LocalName>Extensions illimitées</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Unload priority</Name>
+    <LocalName>Priorité de déchargement</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Unsigned</Name>
+    <LocalName>Non signé</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Upshift</Name>
+    <LocalName>Décalage vers le haut</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Usage</Name>
+    <LocalName>Utilisation</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Usage:</Name>
+    <LocalName>Usage :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Use TLS protocol on LDAP connections</Name>
+    <LocalName>Utiliser le protocole TLS sur les connexion LDAP</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Use Windows NT Integrated Security</Name>
+    <LocalName>Utiliser la sécurité intégrée Windows NT</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Use group authorization</Name>
+    <LocalName>Utiliser l'autorisation de groupe</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Use name at generation</Name>
+    <LocalName>Utiliser le nom lors de la génération</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Use role authorization</Name>
+    <LocalName>Utiliser l'autorisation de rôle</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Use trusted context</Name>
+    <LocalName>Utiliser un contexte sécurisé</LocalName>
+  </Translation>
+  <Translation>
+    <Name>User</Name>
+    <LocalName>Utilisateur</LocalName>
+  </Translation>
+  <Translation>
+    <Name>User can belong to only one group</Name>
+    <LocalName>Un utilisateur ne peut pas appartenir à plusieurs groupes</LocalName>
+  </Translation>
+  <Translation>
+    <Name>User cannot create index for a hash cluster</Name>
+    <LocalName>Un utilisateur ne peut pas créer un index pour un cluster hash</LocalName>
+  </Translation>
+  <Translation>
+    <Name>User identifier (id)</Name>
+    <LocalName>Identificateur d'utilisateur (id)</LocalName>
+  </Translation>
+  <Translation>
+    <Name>User list</Name>
+    <LocalName>Liste d'utilisateurs</LocalName>
+  </Translation>
+  <Translation>
+    <Name>User mapping</Name>
+    <LocalName>Correspondance utilisateur</LocalName>
+  </Translation>
+  <Translation>
+    <Name>User mapping plug-in</Name>
+    <LocalName>Plugin de correspondance utilisateur</LocalName>
+  </Translation>
+  <Translation>
+    <Name>User mappings</Name>
+    <LocalName>Correspondances utilisateur</LocalName>
+  </Translation>
+  <Translation>
+    <Name>User name</Name>
+    <LocalName>Nom d'utilisateur</LocalName>
+  </Translation>
+  <Translation>
+    <Name>User name:</Name>
+    <LocalName>Nom d'utilisateur :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>User-defined</Name>
+    <LocalName>Défini par l'utilisateur</LocalName>
+  </Translation>
+  <Translation>
+    <Name>User-defined SQL</Name>
+    <LocalName>SQL utilisateur</LocalName>
+  </Translation>
+  <Translation>
+    <Name>User/Group</Name>
+    <LocalName>Utilisateur/Groupe</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Users</Name>
+    <LocalName>Utilisateurs</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Using</Name>
+    <LocalName>Utilisation</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Using auto parent</Name>
+    <LocalName>Utilisation de parent auto</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Using extended storage</Name>
+    <LocalName>Utilisation de stockage étendu</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Valid maximum number of readers.</Name>
+    <LocalName>Nombre de lecteurs valide.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Valid until</Name>
+    <LocalName>Valide jusqu'à</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Validate</Name>
+    <LocalName>Valider</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Validate data file</Name>
+    <LocalName>Validation du fichier de données</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Validity</Name>
+    <LocalName>Validité</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Value</Name>
+    <LocalName>Valeur</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Value Data Type</Name>
+    <LocalName>Type de données valeur</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Value data type</Name>
+    <LocalName>Type de données valeur</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Values</Name>
+    <LocalName>Valeurs</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Varchar Index Type</Name>
+    <LocalName>Type d'index Varchar</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Version:</Name>
+    <LocalName>Version :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>View columns</Name>
+    <LocalName>Colonnes de vue</LocalName>
+  </Translation>
+  <Translation>
+    <Name>View is based on a type</Name>
+    <LocalName>Vue basée sur un type</LocalName>
+  </Translation>
+  <Translation>
+    <Name>View properties</Name>
+    <LocalName>Propriétés de la vue</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Virtual index</Name>
+    <LocalName>Index virtuel</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Virtual index:</Name>
+    <LocalName>Index virtuel :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Virtual table</Name>
+    <LocalName>Table virtuelle</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Virtual tables</Name>
+    <LocalName>Tables virtuelles</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Visibility \tPublic\tPrivate</Name>
+    <LocalName>Visibilité \tPublic\tPrivate</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Visibility:</Name>
+    <LocalName>Visibilité :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>WITH clause</Name>
+    <LocalName>Clause WITH</LocalName>
+  </Translation>
+  <Translation>
+    <Name>When schema is not allowed, the code must be unique in the model, whatever object owner is specified in the object property.</Name>
+    <LocalName>Lorsqu'un schéma n'est pas admis, le code doit être utile dans le modèle et ce, quel que soit le propriétaire d'objet spécifié dans la propriété d'objet.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>With Default</Name>
+    <LocalName>Avec défaut</LocalName>
+  </Translation>
+  <Translation>
+    <Name>With Default:</Name>
+    <LocalName>With Default :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>With activate</Name>
+    <LocalName>Avec activation</LocalName>
+  </Translation>
+  <Translation>
+    <Name>With fan in</Name>
+    <LocalName>WITH FAN_IN</LocalName>
+  </Translation>
+  <Translation>
+    <Name>With function access</Name>
+    <LocalName>WITH FUNCTION ACCESS</LocalName>
+  </Translation>
+  <Translation>
+    <Name>With nulls not distinct</Name>
+    <LocalName>Valeurs nulles non distinctes</LocalName>
+  </Translation>
+  <Translation>
+    <Name>With row movement</Name>
+    <LocalName>Avec mouvement de ligne</LocalName>
+  </Translation>
+  <Translation>
+    <Name>With salt</Name>
+    <LocalName>Avec Salt</LocalName>
+  </Translation>
+  <Translation>
+    <Name>With stop server</Name>
+    <LocalName>Avec arrêt serveur</LocalName>
+  </Translation>
+  <Translation>
+    <Name>With use for</Name>
+    <LocalName>A utiliser pour</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Without comparison</Name>
+    <LocalName>Sans comparaison</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Witness</Name>
+    <LocalName>Témoin</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Word length</Name>
+    <LocalName>Longueur de mot</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Workload group</Name>
+    <LocalName>Groupe de charges de travail</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Workload groups</Name>
+    <LocalName>Groupes de charges de travail</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Workload management event monitor</Name>
+    <LocalName>Moniteur d'événements de gestion de la charge de travail</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Wrapper</Name>
+    <LocalName>Encapsuleur</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Wrappers</Name>
+    <LocalName>Encapsuleurs</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Writable</Name>
+    <LocalName>Ecriture possible</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Write to</Name>
+    <LocalName>Ecrire dans</LocalName>
+  </Translation>
+  <Translation>
+    <Name>X Max</Name>
+    <LocalName>X maxi</LocalName>
+  </Translation>
+  <Translation>
+    <Name>X Min</Name>
+    <LocalName>X mini</LocalName>
+  </Translation>
+  <Translation>
+    <Name>XML Schema Collection</Name>
+    <LocalName>Collection de schémas XML</LocalName>
+  </Translation>
+  <Translation>
+    <Name>XML Schema Collections</Name>
+    <LocalName>Collections de schémas XML</LocalName>
+  </Translation>
+  <Translation>
+    <Name>XML Type Modifier</Name>
+    <LocalName>Modificateur de type XML</LocalName>
+  </Translation>
+  <Translation>
+    <Name>XML Virtual column</Name>
+    <LocalName>Colonne virtuelle XML</LocalName>
+  </Translation>
+  <Translation>
+    <Name>XML Virtual columns</Name>
+    <LocalName>Colonnes virtuelles XML</LocalName>
+  </Translation>
+  <Translation>
+    <Name>XML data type</Name>
+    <LocalName>Types de données XML</LocalName>
+  </Translation>
+  <Translation>
+    <Name>XML index specific checks</Name>
+    <LocalName>Vérifications spécifiques à l'index XML</LocalName>
+  </Translation>
+  <Translation>
+    <Name>XML model:</Name>
+    <LocalName>Modèle XML :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>XML properties</Name>
+    <LocalName>Propriétés XML</LocalName>
+  </Translation>
+  <Translation>
+    <Name>XML root</Name>
+    <LocalName>Racine XML</LocalName>
+  </Translation>
+  <Translation>
+    <Name>XML schema collection:</Name>
+    <LocalName>Collection de schémas XML :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>XML virtual columns</Name>
+    <LocalName>Colonnes virtuelles XML</LocalName>
+  </Translation>
+  <Translation>
+    <Name>X\tBounded\tUnbounded</Name>
+    <LocalName>X\tLimité\tNon limité</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Y Max</Name>
+    <LocalName>Y maxi</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Y Min</Name>
+    <LocalName>Y mini</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Y\tBounded\tUnbounded</Name>
+    <LocalName>Y\tLimité\tNon limité</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Z\tBounded\tUnbounded</Name>
+    <LocalName>Z\tLimité\tNon limité</LocalName>
+  </Translation>
+  <Translation>
+    <Name>and</Name>
+    <LocalName>et</LocalName>
+  </Translation>
+  <Translation>
+    <Name>and east</Name>
+    <LocalName>et est</LocalName>
+  </Translation>
+  <Translation>
+    <Name>and maximum</Name>
+    <LocalName>et au maximum</LocalName>
+  </Translation>
+  <Translation>
+    <Name>and south</Name>
+    <LocalName>et sud</LocalName>
+  </Translation>
+  <Translation>
+    <Name>at</Name>
+    <LocalName>à</LocalName>
+  </Translation>
+  <Translation>
+    <Name>between minimum</Name>
+    <LocalName>entre au minimum</LocalName>
+  </Translation>
+  <Translation>
+    <Name>between north</Name>
+    <LocalName>entre nord</LocalName>
+  </Translation>
+  <Translation>
+    <Name>between west</Name>
+    <LocalName>entre ouest</LocalName>
+  </Translation>
+  <Translation>
+    <Name>cannot create a HNG and LF index on column with BINARY or VARBINARY data type</Name>
+    <LocalName>Impossible de créer un index HNG et sur une colonne dont le type de données est LF BINARY ou VARBINARY</LocalName>
+  </Translation>
+  <Translation>
+    <Name>cannot create an LF, HG, CMP, or HNG index for varchar columns longer than 255 characters</Name>
+    <LocalName>Impossible de créer un index LF, HG, CMP ou HNG pour des colonnes de type Varchar de plus de 255 caractères</LocalName>
+  </Translation>
+  <Translation>
+    <Name>cannot specify the UNIQUE attribute with the DATE, TIME, DTTM, CMP, HNG or WD index types</Name>
+    <LocalName>Impossible de spécifier l'attribut UNIQUE avec un type d'index DATE, TIME, DTTM, CMP, HNG ou WD</LocalName>
+  </Translation>
+  <Translation>
+    <Name>determines its density:</Name>
+    <LocalName>détermine sa densité :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>hidden</Name>
+    <LocalName>Masqué</LocalName>
+  </Translation>
+  <Translation>
+    <Name>is denser than a 4x4 grid (which produces 16 cells).</Name>
+    <LocalName>est plus dense qu'une grille 4x4 (qui produit 16 cellules).</LocalName>
+  </Translation>
+  <Translation>
+    <Name>organization SRS id</Name>
+    <LocalName>ID de SRS de l'organisation</LocalName>
+  </Translation>
+  <Translation>
+    <Name>owner</Name>
+    <LocalName>propriétaire</LocalName>
+  </Translation>
+  <Translation>
+    <Name>parallel</Name>
+    <LocalName>parallèle</LocalName>
+  </Translation>
+  <Translation>
+    <Name>partition clause</Name>
+    <LocalName>Clause de partition</LocalName>
+  </Translation>
+  <Translation>
+    <Name>password life time</Name>
+    <LocalName>Durée de vie du mot de passe</LocalName>
+  </Translation>
+  <Translation>
+    <Name>store data type</Name>
+    <LocalName>Type de données de stockage</LocalName>
+  </Translation>
+  <Translation>
+    <Name>the larger the number, the denser the grid.</Name>
+    <LocalName>plus le nombre est élevé, plus la grille est dense.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>to</Name>
+    <LocalName>avec</LocalName>
+  </Translation>
+  <Translation>
+    <Name>when :</Name>
+    <LocalName>quand :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>with:</Name>
+    <LocalName>avec :</LocalName>
+  </Translation>
+</Translations>

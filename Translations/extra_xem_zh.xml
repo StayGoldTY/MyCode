@@ -1,0 +1,4717 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Translations lang="zh" extended="yes">
+  <Translation>
+    <Name>&amp;amp;Test Connection</Name>
+    <LocalName>测试连接(&amp;amp;T)</LocalName>
+  </Translation>
+  <Translation>
+    <Name>.NET Framework Data Provider for ODBC</Name>
+    <LocalName>ODBC 的 .NET Framework 数据提供程序</LocalName>
+  </Translation>
+  <Translation>
+    <Name>.NET Framework Data Provider for OLE DB</Name>
+    <LocalName>OLE DB 的 .NET Framework 数据提供程序</LocalName>
+  </Translation>
+  <Translation>
+    <Name>A Boundary object cannot communicate with another Boundary object. Boundary objects are reserved for external uses (Actors)</Name>
+    <LocalName>边界对象无法与其他边界对象通信。 边界对象保留供外部使用（操作者）</LocalName>
+  </Translation>
+  <Translation>
+    <Name>A Web Service Component has no Web Method operation</Name>
+    <LocalName>Web 服务组件不含 Web 方法操作</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ABAP Application Components</Name>
+    <LocalName>ABAP 应用程序组件</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ABAP Component</Name>
+    <LocalName>ABAP 组件</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ABAP Package</Name>
+    <LocalName>ABAP 包</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ABAP Packages</Name>
+    <LocalName>ABAP 包</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ABAP data type</Name>
+    <LocalName>ABAP 数据类型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ABAP form name</Name>
+    <LocalName>ABAP 表单名称</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ABAP structure</Name>
+    <LocalName>ABAP 结构</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ABAP table</Name>
+    <LocalName>ABAP 表</LocalName>
+  </Translation>
+  <Translation>
+    <Name>AS Anywhere database file:</Name>
+    <LocalName>AS Anywhere 数据库文件：</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ASE version</Name>
+    <LocalName>ASE 版本</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Absence of O/R Mapping support</Name>
+    <LocalName>缺少 O/R 映射支持</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Abstract class</Name>
+    <LocalName>抽象类</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Access</Name>
+    <LocalName>访问</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Access strategy</Name>
+    <LocalName>访问策略</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Actors or Boundary objects cannot access directly to an Entity object.
+It requires an intermediate Control object.
+Entity to entity access is also forbidden.</Name>
+    <LocalName>操作者或边界对象无法直接访问实体对象。
+需要中间控制对象。
+此外还禁止实体对实体的访问。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Add Dali support</Name>
+    <LocalName>添加 Dali 支持</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Add Specific Column Mapping</Name>
+    <LocalName>添加特定列映射</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Add queue</Name>
+    <LocalName>添加队列</LocalName>
+  </Translation>
+  <Translation>
+    <Name>All Extended Attributes</Name>
+    <LocalName>所有扩展属性</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Allow saving password</Name>
+    <LocalName>允许保存口令</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Allowed roles</Name>
+    <LocalName>允许的角色</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Alter replication definition options</Name>
+    <LocalName>更改复制定义选项</LocalName>
+  </Translation>
+  <Translation>
+    <Name>An Actor cannot access directly to a Control or Entity object.
+It requires an intermediate Boundary object.</Name>
+    <LocalName>操作者无法直接访问控制或者实体对象。
+需要中间边界对象。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Append structure</Name>
+    <LocalName>附加结构</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Application Server System</Name>
+    <LocalName>应用程序服务器系统</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Application component</Name>
+    <LocalName>应用程序组件</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Application component ID</Name>
+    <LocalName>应用程序组件 ID</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Apply To Connection String</Name>
+    <LocalName>应用于连接字符串</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Article &amp;&amp; Replication Definition</Name>
+    <LocalName>项目 &amp;&amp; 复制定义</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Article:</Name>
+    <LocalName>项目：</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Articles &amp;&amp; Function Replication Definitions</Name>
+    <LocalName>项目 &amp;&amp; 函数复制定义</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Articles &amp;&amp; Replication Definitions</Name>
+    <LocalName>项目 &amp;&amp; 复制定义</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Articles &amp;amp;&amp;amp; Function Replication Definitions</Name>
+    <LocalName>项目 &amp;amp;&amp;amp; 函数复制定义</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Articles &amp;amp;&amp;amp; Replication Definitions</Name>
+    <LocalName>项目 &amp;amp;&amp;amp; 复制定义</LocalName>
+  </Translation>
+  <Translation>
+    <Name>As</Name>
+    <LocalName>作为</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Association Mapping has not been defined</Name>
+    <LocalName>尚未定义关联映射</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Association Mapping is not correct</Name>
+    <LocalName>关联映射不正确</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Association between Class and Interface is not supported</Name>
+    <LocalName>不支持类与接口之间的关联</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Association class mapping is not defined</Name>
+    <LocalName>尚未定义关联类映射</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Association mapping is not correct</Name>
+    <LocalName>关联映射不正确</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Association mapping is not defined</Name>
+    <LocalName>尚未定义关联映射</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Association mapping is repeated or not used or target PDM has not been opened</Name>
+    <LocalName>关联映射重复或未使用或者目标 PDM 尚未打开</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Association options</Name>
+    <LocalName>关联选项</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Association should be mapped to references and joined table</Name>
+    <LocalName>关联应映射到引用及连接表</LocalName>
+  </Translation>
+  <Translation>
+    <Name>AssociationClass Mapping has not been defined</Name>
+    <LocalName>尚未定义 AssociationClass 映射</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Attach a database file</Name>
+    <LocalName>附加数据库文件</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Attribute</Name>
+    <LocalName>属性</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Attribute mapping is not correct</Name>
+    <LocalName>属性映射不正确</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Attribute should be public for NHibernate access strategy</Name>
+    <LocalName>属性应对 NHibernate 访问策略公开</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Authentication type:</Name>
+    <LocalName>验证类型：</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Auto import</Name>
+    <LocalName>自动导入</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Auto schema export</Name>
+    <LocalName>自动模式导出</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Auto-map columns to properties</Name>
+    <LocalName>将列自动映射至属性</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Available data type</Name>
+    <LocalName>可用数据类型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Available number</Name>
+    <LocalName>可用数字</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Average time</Name>
+    <LocalName>平均时间</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Axis custom descriptor</Name>
+    <LocalName>轴自定义描述符</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Axis custom namespaces</Name>
+    <LocalName>轴自定义命名空间</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Axis deserializer class</Name>
+    <LocalName>轴反序列化器类</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Axis serializer class</Name>
+    <LocalName>轴序列化器类</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Base domain</Name>
+    <LocalName>基本域</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Base domain code</Name>
+    <LocalName>基本域代码</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Base field</Name>
+    <LocalName>基本字段</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Base field code</Name>
+    <LocalName>基本字段代码</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Base table</Name>
+    <LocalName>基本表</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Base table code</Name>
+    <LocalName>基本表代码</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Batch</Name>
+    <LocalName>批处理</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Batch begin</Name>
+    <LocalName>批处理开始</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Batch size</Name>
+    <LocalName>批处理大小</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Bound Procedures</Name>
+    <LocalName>绑定过程</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Bound Tables</Name>
+    <LocalName>绑定表</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Browse...</Name>
+    <LocalName>浏览...</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Business description</Name>
+    <LocalName>业务描述</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Business key</Name>
+    <LocalName>业务键</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Business name</Name>
+    <LocalName>业务名称</LocalName>
+  </Translation>
+  <Translation>
+    <Name>CSS style</Name>
+    <LocalName>CSS 样式</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Cache size</Name>
+    <LocalName>高速缓存大小</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Callback type</Name>
+    <LocalName>回调类型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Capacity</Name>
+    <LocalName>容量</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Capital cost</Name>
+    <LocalName>资本成本</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Capital cost by unit</Name>
+    <LocalName>按单位的资本成本</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Cascade</Name>
+    <LocalName>级联</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Cascade persist</Name>
+    <LocalName>级联保持</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Catalog</Name>
+    <LocalName>目录</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Catalog name</Name>
+    <LocalName>目录名称</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Change data type to</Name>
+    <LocalName>将数据类型更改为</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Changed by</Name>
+    <LocalName>更改者</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Changed on date</Name>
+    <LocalName>更改日期</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Changed on time</Name>
+    <LocalName>更改时间</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Character convert</Name>
+    <LocalName>字符转换</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Check</Name>
+    <LocalName>检查</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Check SQL Statement configure</Name>
+    <LocalName>检查 SQL 语句配置</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Check data integrity</Name>
+    <LocalName>检查数据完整性</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Check flag</Name>
+    <LocalName>检查标志</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Check locks interval</Name>
+    <LocalName>检查锁间隔</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Check locks times</Name>
+    <LocalName>检查锁次数</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Check the dedicated route is from the primary replication server.</Name>
+    <LocalName>检查专用路由是否来自主复制服务器。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Check the default data connection is unique.</Name>
+    <LocalName>检查缺省数据连接是否唯一。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Check there is only one shared route between two replication processes.</Name>
+    <LocalName>检查在两个复制进程之间是否仅有一个共享路由。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Check threshold for database replication definition</Name>
+    <LocalName>检查数据库复制定义的阈值</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Check threshold for replication definition</Name>
+    <LocalName>检查复制定义的阈值</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Check whether the primary connection is defined for the subscription.</Name>
+    <LocalName>检查主连接是否为预订定义。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Check whether the table defined in the replication definition is bound to the primary connection of the subscription.</Name>
+    <LocalName>检查复制定义中定义的表是否与预订的主连接绑定。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Check whether there is a shared route connected for the dedicated route.</Name>
+    <LocalName>检查是否已为专用路由连接共享路由。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Checks if database type of PDM supported in Data Services.</Name>
+    <LocalName>检查数据服务中是否支持 PDM 的数据库类型。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Child table cardinality</Name>
+    <LocalName>子表基数</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Class Mapping does not match with PDM</Name>
+    <LocalName>类映射与 PDM 不匹配</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Class Name</Name>
+    <LocalName>类名称</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Class Options</Name>
+    <LocalName>类选项</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Class options</Name>
+    <LocalName>类选项</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Class tag options</Name>
+    <LocalName>类标记选项</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Cluster table</Name>
+    <LocalName>簇表</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Code</Name>
+    <LocalName>代码</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Collection options</Name>
+    <LocalName>集合选项</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Collection type</Name>
+    <LocalName>集合类型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Color</Name>
+    <LocalName>颜色</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Column</Name>
+    <LocalName>列</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Column Mapping</Name>
+    <LocalName>列映射</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Column Mappings</Name>
+    <LocalName>列映射</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Column cannot be flag identity</Name>
+    <LocalName>列不能是标志标识</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Column header</Name>
+    <LocalName>列标题</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Column height</Name>
+    <LocalName>列高度</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Column height in cm</Name>
+    <LocalName>列高度 (cm)</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Column label</Name>
+    <LocalName>列标签</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Column mapped by attribute should not be &quot;Mandatory&quot; in subclass inheritance hierarchy.</Name>
+    <LocalName>属性映射的列在子类继承层次中不应为“强制”。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Column mapped by attribute should not be mandatory in subclass inheritance hierarchy.</Name>
+    <LocalName>属性映射的列在子类继承层次中不应为强制。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Column mapping to the attribute should not be &quot;Mandatory&quot; in subclass inheritance hierarchy.</Name>
+    <LocalName>映射到属性的列在子类继承层次中不应为“强制”。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Column name</Name>
+    <LocalName>列名称</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Column replication type</Name>
+    <LocalName>列复制类型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Column width</Name>
+    <LocalName>列宽度</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Column width in cm</Name>
+    <LocalName>列宽度 (cm)</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Columns</Name>
+    <LocalName>列</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Command batch size</Name>
+    <LocalName>命令批处理大小</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Command retry</Name>
+    <LocalName>命令重试</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Command separator</Name>
+    <LocalName>命令分隔符</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Comment</Name>
+    <LocalName>注释</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Comment:</Name>
+    <LocalName>注释：</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Commit control</Name>
+    <LocalName>提交控制</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ComponentID options</Name>
+    <LocalName>ComponentID 选项</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Composite id unsaved value</Name>
+    <LocalName>复合 ID 未保存值</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Connection</Name>
+    <LocalName>连接</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Connection Options</Name>
+    <LocalName>连接选项</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Connection Profile</Name>
+    <LocalName>连接配置文件</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Connection Profile Version</Name>
+    <LocalName>连接配置文件版本</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Connection URL</Name>
+    <LocalName>连接 URL</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Connection option</Name>
+    <LocalName>连接选项</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Connection pool size</Name>
+    <LocalName>连接池大小</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Connection profile</Name>
+    <LocalName>连接配置文件</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Connection profile version</Name>
+    <LocalName>连接配置文件版本</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Connection string</Name>
+    <LocalName>连接字符串</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Connection string (using)</Name>
+    <LocalName>连接字符串（正在使用）</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Connection string:</Name>
+    <LocalName>连接字符串：</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Connection to a database</Name>
+    <LocalName>到数据库的连接</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Connection type:</Name>
+    <LocalName>连接类型：</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Contain the private attribute in value type class</Name>
+    <LocalName>在值类型类中包含私有属性</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Contain the private primary key attribute</Name>
+    <LocalName>包含私有主键属性</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Control Type:</Name>
+    <LocalName>控制类型：</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Control type</Name>
+    <LocalName>控制类型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Conversion routine</Name>
+    <LocalName>转换例程</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Correctness of attribute mapping</Name>
+    <LocalName>属性映射的正确性</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Correctness of joined table mapping</Name>
+    <LocalName>连接表映射的正确性</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Correctness of optimistic lock mapping</Name>
+    <LocalName>优化锁映射的正确性</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Correctness of table mapping</Name>
+    <LocalName>表映射的正确性</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Cost by time unit</Name>
+    <LocalName>按时间单位的开销</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Cost by time unit and by unit</Name>
+    <LocalName>按时间单位和按单位的开销</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Cost by unit</Name>
+    <LocalName>按单位的开销</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Create LTL character parameter automatically</Name>
+    <LocalName>自动创建 LTL 字符参数</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Create Symbols</Name>
+    <LocalName>创建符号</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Create associated objects if not found</Name>
+    <LocalName>未找到关联对象时创建关联对象</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Create if not exist</Name>
+    <LocalName>不存在时创建</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Create symbols in active diagram</Name>
+    <LocalName>在活动图中创建符号</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Created by</Name>
+    <LocalName>创建者</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Created on date</Name>
+    <LocalName>创建日期</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Created on time</Name>
+    <LocalName>创建时间</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Currency code</Name>
+    <LocalName>货币代码</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Currency symbol</Name>
+    <LocalName>货币符号</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Current language is not Java 5.0</Name>
+    <LocalName>当前语言不是 Java 5.0</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Current object language should be C# 2.0 or Visual Basic 2005</Name>
+    <LocalName>当前对象语言应为 C# 2.0 或者 Visual Basic 2005</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Custom descriptor</Name>
+    <LocalName>自定义描述符</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Customized by</Name>
+    <LocalName>自定义者</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DAL Container</Name>
+    <LocalName>DAL 容器</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DAL container</Name>
+    <LocalName>DAL 容器</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DAL container:</Name>
+    <LocalName>DAL 容器：</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DAO options</Name>
+    <LocalName>DAO 选项</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DB include exclude</Name>
+    <LocalName>DB 包括排除</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DB index name</Name>
+    <LocalName>DB 索引名称</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DBMS</Name>
+    <LocalName>DBMS</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DDL Password</Name>
+    <LocalName>DDL 口令</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DDL User Name</Name>
+    <LocalName>DDL 用户名</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DSI bulk copy</Name>
+    <LocalName>DSI 批量复制</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DSI bulk threshold</Name>
+    <LocalName>DSI 批量阈值</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DSI command convert</Name>
+    <LocalName>DSI 命令转换</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DSI compile enable</Name>
+    <LocalName>DSI 编译启用</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DSI compile max cmds</Name>
+    <LocalName>DSI 编辑最大命令数</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DSI connector type</Name>
+    <LocalName>DSI 连接器类型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DSI dataserver make</Name>
+    <LocalName>DSI dataserver make</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DSI isolation level</Name>
+    <LocalName>DSI 隔离级别</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data Connection:</Name>
+    <LocalName>数据连接：</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data Connections</Name>
+    <LocalName>数据连接</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data Connections between same Database and Server</Name>
+    <LocalName>相同数据库与服务器之间的数据连接</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data Dictionary</Name>
+    <LocalName>数据字典</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data Elements</Name>
+    <LocalName>数据元素</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data Source</Name>
+    <LocalName>数据源</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data Source:</Name>
+    <LocalName>数据源：</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data Type Mapping</Name>
+    <LocalName>数据类型映射</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data Type Mappings</Name>
+    <LocalName>数据类型映射</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data Type:</Name>
+    <LocalName>数据类型：</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data dictionary data type</Name>
+    <LocalName>数据字典数据类型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data element</Name>
+    <LocalName>数据元素</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data element code</Name>
+    <LocalName>数据元素代码</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data font</Name>
+    <LocalName>数据字体</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data justify</Name>
+    <LocalName>数据对齐</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data movement mode</Name>
+    <LocalName>数据移动模式</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data operation options</Name>
+    <LocalName>数据操作选项</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data provider list:</Name>
+    <LocalName>数据提供程序列表：</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data provider:</Name>
+    <LocalName>数据提供程序：</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data source</Name>
+    <LocalName>数据源</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data source name</Name>
+    <LocalName>数据源名称</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data source specification</Name>
+    <LocalName>数据源说明</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data source:</Name>
+    <LocalName>数据源：</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data type</Name>
+    <LocalName>数据类型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data types mapping table</Name>
+    <LocalName>数据类型映射表</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DataElement</Name>
+    <LocalName>数据元素</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DataType</Name>
+    <LocalName>数据类型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Database Connection</Name>
+    <LocalName>数据库连接</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Database Options</Name>
+    <LocalName>数据库选项</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Database code</Name>
+    <LocalName>数据库代码</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Database connection options</Name>
+    <LocalName>数据库连接选项</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Database file name:</Name>
+    <LocalName>数据库文件名：</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Database name</Name>
+    <LocalName>数据库名称</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Database name:</Name>
+    <LocalName>数据库名称：</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Database type</Name>
+    <LocalName>数据库类型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Database type:</Name>
+    <LocalName>数据库类型：</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Databases</Name>
+    <LocalName>数据库</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DatatypeMappings</Name>
+    <LocalName>数据类型映射</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Date and time pattern</Name>
+    <LocalName>日期与时间模式</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Date display pattern</Name>
+    <LocalName>日期显示模式</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Date format</Name>
+    <LocalName>日期格式</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Dedicated Route Setter</Name>
+    <LocalName>专用路由设置器</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default Column Mapping</Name>
+    <LocalName>缺省列映射</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default access</Name>
+    <LocalName>缺省访问</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default access type</Name>
+    <LocalName>缺省访问类型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default access:</Name>
+    <LocalName>缺省访问：</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default cascade</Name>
+    <LocalName>缺省级联</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default cascade type</Name>
+    <LocalName>缺省级联类型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default cascade:</Name>
+    <LocalName>缺省级联：</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default command type</Name>
+    <LocalName>缺省命令类型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default command type:</Name>
+    <LocalName>缺省命令类型：</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default connection</Name>
+    <LocalName>缺省连接</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default data connection uniqueness</Name>
+    <LocalName>缺省数据连接唯一性</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default data type</Name>
+    <LocalName>缺省数据类型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default name</Name>
+    <LocalName>缺省名称</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default options</Name>
+    <LocalName>缺省选项</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Delete procedure code</Name>
+    <LocalName>删除过程代码</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Delete table code</Name>
+    <LocalName>删除表代码</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Delivery class</Name>
+    <LocalName>传递类</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Dependency factor</Name>
+    <LocalName>依赖性因子</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Deployment options</Name>
+    <LocalName>部署选项</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Destination DBMS</Name>
+    <LocalName>目标 DBMS</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Diagram scale</Name>
+    <LocalName>图比例</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Dialect</Name>
+    <LocalName>方言</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Direct connection</Name>
+    <LocalName>直接连接</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Discriminator column</Name>
+    <LocalName>鉴别器列</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Discriminator column defined does not exist</Name>
+    <LocalName>定义的鉴别器列不存在</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Discriminator options</Name>
+    <LocalName>鉴别器选项</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Discriminator type</Name>
+    <LocalName>鉴别器类型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Discriminator value</Name>
+    <LocalName>鉴别器值</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Disk affinity</Name>
+    <LocalName>磁盘关联</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Display as foreign key label</Name>
+    <LocalName>显示为外键标签</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Display format pattern</Name>
+    <LocalName>显示格式模式</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Distribution</Name>
+    <LocalName>分布</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Distributor write request limit</Name>
+    <LocalName>分配器写入请求限制</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Do not use discriminator in insert</Name>
+    <LocalName>在插入中不使用鉴别器</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Domain code</Name>
+    <LocalName>域代码</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Driver class</Name>
+    <LocalName>驱动程序类</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Dump file directory</Name>
+    <LocalName>转储文件目录</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Dump file name</Name>
+    <LocalName>转储文件名</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Dump load</Name>
+    <LocalName>转储装载</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Dump marker</Name>
+    <LocalName>转储标记</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Duplicated shared routes</Name>
+    <LocalName>重复共享路由</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Dynamic SQL</Name>
+    <LocalName>动态 SQL</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Dynamic Web module</Name>
+    <LocalName>动态 Web 模块</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Dynamic insert</Name>
+    <LocalName>动态插入</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Dynamic sql</Name>
+    <LocalName>动态 SQL</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Dynamic sql cache management</Name>
+    <LocalName>动态 SQL 高速缓存管理</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Dynamic sql cache size</Name>
+    <LocalName>动态 SQL 高速缓存大小</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Dynamic update</Name>
+    <LocalName>动态更新</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Edit style code</Name>
+    <LocalName>编辑样式代码</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Empty Web Service</Name>
+    <LocalName>空 Web 服务</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Enable remote admin</Name>
+    <LocalName>启用远程管理</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Enable replication</Name>
+    <LocalName>启用复制</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Encoding</Name>
+    <LocalName>编码</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Encrypt connection string:</Name>
+    <LocalName>加密连接字符串：</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Enter a server or file name</Name>
+    <LocalName>输入服务器或文件名</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Entity name</Name>
+    <LocalName>实体名称</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Error string class</Name>
+    <LocalName>错误字符串类</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Example</Name>
+    <LocalName>示例</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Excel</Name>
+    <LocalName>Excel</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Excel Column Mappings</Name>
+    <LocalName>Excel 列映射</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Excel File</Name>
+    <LocalName>Excel 文件</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Excel Import</Name>
+    <LocalName>Excel 导入</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Excel Import Wizard</Name>
+    <LocalName>Excel 导入向导</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Excel Imports</Name>
+    <LocalName>Excel 导入</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Existence of abstract class</Name>
+    <LocalName>存在抽象类</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Existence of connectivity information</Name>
+    <LocalName>存在连接信息</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Existence of data connection for ODBC</Name>
+    <LocalName>存在 ODBC 数据连接</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Existence of data source for Proxy</Name>
+    <LocalName>存在代理数据源</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Existence of data source mapping</Name>
+    <LocalName>存在数据源映射</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Existence of discriminator for subclass inheritance mapping</Name>
+    <LocalName>存在子类继承映射鉴别器</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Existence of duplicate column mapping</Name>
+    <LocalName>存在重复列映射</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Existence of duplicated column mapping</Name>
+    <LocalName>存在重复列映射</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Existence of master source table</Name>
+    <LocalName>存在主源表</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Existence of non-primary-identifier attribute</Name>
+    <LocalName>存在非主标识符属性</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Existence of persistence support</Name>
+    <LocalName>存在持久性支持</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Existence of persistent attribute in primary identifier</Name>
+    <LocalName>主标识符中存在持久属性</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Existence of primary identifier</Name>
+    <LocalName>存在主标识符</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Existence of reflexive reference in PDM</Name>
+    <LocalName>PDM 中存在反身引用</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Existence of unknown attribute</Name>
+    <LocalName>存在未知属性</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Existence of value type class in the association relationship</Name>
+    <LocalName>关联关系中存在值类型类</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Existence the illegal keywords</Name>
+    <LocalName>存在非法关键字</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Extension</Name>
+    <LocalName>扩展</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Extension Index</Name>
+    <LocalName>扩展索引</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Extensions file\nfor new extended attributes</Name>
+    <LocalName>新扩展属性的\n扩展文件</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Fade out time</Name>
+    <LocalName>自动关闭时间</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Fetch</Name>
+    <LocalName>读取</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Fetch type</Name>
+    <LocalName>读取类型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Field code</Name>
+    <LocalName>字段代码</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Field delimiter</Name>
+    <LocalName>字段分隔符</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Field type</Name>
+    <LocalName>字段类型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Files and libraries</Name>
+    <LocalName>文件和库</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Finance</Name>
+    <LocalName>财务</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Finance capital cost</Name>
+    <LocalName>财务资本成本</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Finance cost by time unit</Name>
+    <LocalName>按时间单位的财务成本</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Finance currency symbol</Name>
+    <LocalName>财务货币符号</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Finance overhead cost</Name>
+    <LocalName>财务间接成本</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Finance overhead revenue</Name>
+    <LocalName>财务间接收入</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Fixed values</Name>
+    <LocalName>固定值</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Footer JSP file</Name>
+    <LocalName>页脚 JSP 文件</LocalName>
+  </Translation>
+  <Translation>
+    <Name>For an Xcolumn mapping, source table of root element must be flagged not generated.</Name>
+    <LocalName>对于 Xcolumn 映射，根元素的源表必须标记为未生成。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>For new articles</Name>
+    <LocalName>对于新项目</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Force usage of discriminator</Name>
+    <LocalName>强制使用鉴别器</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Form Options</Name>
+    <LocalName>表单选项</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Form control width</Name>
+    <LocalName>表单控件宽度</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Form label width</Name>
+    <LocalName>表单标签宽度</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Format mask code</Name>
+    <LocalName>格式掩码</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Format mask text</Name>
+    <LocalName>格式掩码文本</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Full message service</Name>
+    <LocalName>完整消息服务</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Function Replication Definition</Name>
+    <LocalName>函数复制定义</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Function Replication Definitions</Name>
+    <LocalName>函数复制定义</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Function String</Name>
+    <LocalName>函数字符串</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Function String Options</Name>
+    <LocalName>函数字符串选项</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Function Strings</Name>
+    <LocalName>函数字符串</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Function replication definition name</Name>
+    <LocalName>函数复制定义名称</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Function string class</Name>
+    <LocalName>函数字符串类</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Function string class name</Name>
+    <LocalName>函数字符串类名称</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Function string name</Name>
+    <LocalName>函数字符串名称</LocalName>
+  </Translation>
+  <Translation>
+    <Name>General</Name>
+    <LocalName>常规</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Generate</Name>
+    <LocalName>生成</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Generate Test Method</Name>
+    <LocalName>生成测试方法</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Generate finder</Name>
+    <LocalName>生成查找程序</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Generate finder function</Name>
+    <LocalName>生成查找程序函数</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Generate test method</Name>
+    <LocalName>生成测试方法</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Generated function name</Name>
+    <LocalName>生成的函数名称</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Generator allocation size</Name>
+    <LocalName>生成器分配大小</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Generator class</Name>
+    <LocalName>生成器类</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Generator class (idbag)</Name>
+    <LocalName>生成器类 (idbag)</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Generator initial value</Name>
+    <LocalName>生成器初始值</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Generator params</Name>
+    <LocalName>生成器参数</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Generator params (idbag)</Name>
+    <LocalName>生成器参数 (idbag)</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Generic Import</Name>
+    <LocalName>通用导入</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Global options</Name>
+    <LocalName>全局选项</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Group size</Name>
+    <LocalName>组大小</LocalName>
+  </Translation>
+  <Translation>
+    <Name>HTTP get port type</Name>
+    <LocalName>HTTP get 端口类型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>HTTP post port type</Name>
+    <LocalName>HTTP post 端口类型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Halt simulation at limit</Name>
+    <LocalName>达到限制时停止模拟</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Has bitmap</Name>
+    <LocalName>有位图</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Header JSP file</Name>
+    <LocalName>页眉 JSP 文件</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Header font</Name>
+    <LocalName>页眉字体</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Header justify</Name>
+    <LocalName>页眉对齐</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Hibernate type</Name>
+    <LocalName>Hibernate 类型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Hidden</Name>
+    <LocalName>隐藏</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Homogeneous Routes</Name>
+    <LocalName>同类路由</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Host name</Name>
+    <LocalName>主机名称</LocalName>
+  </Translation>
+  <Translation>
+    <Name>IP Address</Name>
+    <LocalName>IP 地址</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Id unsaved value</Name>
+    <LocalName>ID 未保存值</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Identifier options</Name>
+    <LocalName>标识符选项</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Identity</Name>
+    <LocalName>标识</LocalName>
+  </Translation>
+  <Translation>
+    <Name>If message show, it means that you have not map class into table or association into reference</Name>
+    <LocalName>如果显示消息，说明您尚未将类映射至表或者尚未将关联映射至引用</LocalName>
+  </Translation>
+  <Translation>
+    <Name>If the message is shown, it means that you have not mapped class with table, or association with reference</Name>
+    <LocalName>如果显示消息，说明您尚未将类与表映射或者尚未将关联与引用映射</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Ignore underscore name</Name>
+    <LocalName>忽略下划线名称</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Import</Name>
+    <LocalName>导入</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Import Column</Name>
+    <LocalName>导入列</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Import Options</Name>
+    <LocalName>导入选项</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Import Table</Name>
+    <LocalName>导入表</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Import as</Name>
+    <LocalName>导入为</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Import column</Name>
+    <LocalName>导入列</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Import table</Name>
+    <LocalName>导入表</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Imported Kind</Name>
+    <LocalName>导入的种类</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Imported Stereotype</Name>
+    <LocalName>导入的构造型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Imported Type</Name>
+    <LocalName>导入类型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Imported class name</Name>
+    <LocalName>导入的类名称</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Imported file</Name>
+    <LocalName>导入的文件</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Include structure</Name>
+    <LocalName>包含结构</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Include structure code</Name>
+    <LocalName>包含结构代码</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Inconsistent inputs</Name>
+    <LocalName>不一致输入</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Inconsistent with inputs</Name>
+    <LocalName>与输入不一致</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Incorrect Actor Association</Name>
+    <LocalName>操作者关联不正确</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Incorrect Actor Collaboration</Name>
+    <LocalName>操作者协作不正确</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Incorrect Boundary to Boundary Link</Name>
+    <LocalName>边界到边界的链接不正确</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Incorrect Entity Access</Name>
+    <LocalName>实体访问不正确</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Incorrectness of column type</Name>
+    <LocalName>列类型不正确</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Index column</Name>
+    <LocalName>索引列</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Initial catalog:</Name>
+    <LocalName>初始目录：</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Initial item count</Name>
+    <LocalName>初始项目计数</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Initial value</Name>
+    <LocalName>初始值</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Inner class can be instantiated</Name>
+    <LocalName>内部类可实例化</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Input HTTP get message name</Name>
+    <LocalName>输入 HTTP get 消息名称</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Input HTTP post message name</Name>
+    <LocalName>输入 HTTP post 消息名称</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Input SOAP body parts</Name>
+    <LocalName>输入 SOAP 主体部分</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Input SOAP body use</Name>
+    <LocalName>输入 SOAP 主体使用</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Input SOAP message name</Name>
+    <LocalName>输入 SOAP 消息名称</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Input help</Name>
+    <LocalName>输入帮助</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Insert</Name>
+    <LocalName>插入</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Insert procedure code</Name>
+    <LocalName>插入过程代码</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Insert table code</Name>
+    <LocalName>输入表代码</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Insertable</Name>
+    <LocalName>可插入</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Inter-arrival time</Name>
+    <LocalName>到达间隔时间</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Internal classification</Name>
+    <LocalName>内部分类</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid &quot;or&quot; in lookup script</Name>
+    <LocalName>查找脚本中的 &quot;or&quot; 无效</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid &quot;|&quot; in source expression</Name>
+    <LocalName>源表达式中的 &quot;|&quot; 无效</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid Group by clause in lookup script</Name>
+    <LocalName>查找脚本中的 Group by 子句无效</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid Mapping of DAD</Name>
+    <LocalName>DAD 映射无效</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid XSD file</Name>
+    <LocalName>无效 XSD 文件</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid bound procedures</Name>
+    <LocalName>无效绑定过程</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid bound tables</Name>
+    <LocalName>无效绑定表</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid data connections</Name>
+    <LocalName>无效数据连接</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid data structure columns</Name>
+    <LocalName>无效数据结构列</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid dedicated route</Name>
+    <LocalName>无效专用路由</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid default logical connection</Name>
+    <LocalName>无效缺省逻辑连接</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid kind of data type</Name>
+    <LocalName>数据类型种类无效</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid lookup column</Name>
+    <LocalName>无效查找列</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid lookup mode</Name>
+    <LocalName>无效查找模式</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid non-&quot;select&quot; statement in lookup script</Name>
+    <LocalName>查找脚本中的非 &quot;select&quot; 语句无效</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid placement of data structure column in Where clause</Name>
+    <LocalName>数据结构列在 Where 子句中的位置无效</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid placement of lookup table column in Where clause</Name>
+    <LocalName>查找表列在 Where 子句中的位置无效</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid placement of lookup table in Where clause</Name>
+    <LocalName>查找表在 Where 子句中的位置无效</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid primary logical connection</Name>
+    <LocalName>无效主逻辑连接</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Inverse collection</Name>
+    <LocalName>反转集合</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Inverse side</Name>
+    <LocalName>对方端</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Is element from DTD</Name>
+    <LocalName>是 DTD 中的元素</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Is extended</Name>
+    <LocalName>已扩展</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Is key</Name>
+    <LocalName>是键</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Is sub-object</Name>
+    <LocalName>是子对象</LocalName>
+  </Translation>
+  <Translation>
+    <Name>JDBC driver Jar</Name>
+    <LocalName>JDBC 驱动程序 Jar</LocalName>
+  </Translation>
+  <Translation>
+    <Name>JDBC driver class</Name>
+    <LocalName>JDBC 驱动程序类</LocalName>
+  </Translation>
+  <Translation>
+    <Name>JSF configuration</Name>
+    <LocalName>JSF 配置</LocalName>
+  </Translation>
+  <Translation>
+    <Name>JSF runtime</Name>
+    <LocalName>JSF 运行时</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Joined table mapping is not correct</Name>
+    <LocalName>连接表映射不正确</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Keep triggers</Name>
+    <LocalName>保留触发器</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Key access</Name>
+    <LocalName>键访问</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Key column should be defined for ordered collection</Name>
+    <LocalName>应为有序集合定义键列</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Key generation mode</Name>
+    <LocalName>键生成模式</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Key in Collection has not been defined</Name>
+    <LocalName>尚未定义集合中的键</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Keywords</Name>
+    <LocalName>关键字</LocalName>
+  </Translation>
+  <Translation>
+    <Name>LTI write request limit</Name>
+    <LocalName>LTI 写入请求限制</LocalName>
+  </Translation>
+  <Translation>
+    <Name>LTL character case</Name>
+    <LocalName>LTL 字符大小写</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Label font</Name>
+    <LocalName>标签字体</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Label justify</Name>
+    <LocalName>标签对齐</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Large message</Name>
+    <LocalName>大消息</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Lazy</Name>
+    <LocalName>延迟</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Lazy loading</Name>
+    <LocalName>延迟装载</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Length</Name>
+    <LocalName>长度</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Length:</Name>
+    <LocalName>长度：</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Limit</Name>
+    <LocalName>限制</LocalName>
+  </Translation>
+  <Translation>
+    <Name>List Separator</Name>
+    <LocalName>列表分隔符</LocalName>
+  </Translation>
+  <Translation>
+    <Name>List name</Name>
+    <LocalName>列表名称</LocalName>
+  </Translation>
+  <Translation>
+    <Name>List of database system 1</Name>
+    <LocalName>数据库系统列表 1</LocalName>
+  </Translation>
+  <Translation>
+    <Name>List of database system 2</Name>
+    <LocalName>数据库系统列表 2</LocalName>
+  </Translation>
+  <Translation>
+    <Name>List of database system 3</Name>
+    <LocalName>数据库系统列表 3</LocalName>
+  </Translation>
+  <Translation>
+    <Name>List of database system 4</Name>
+    <LocalName>数据库系统列表 4</LocalName>
+  </Translation>
+  <Translation>
+    <Name>List of extended sub-objects</Name>
+    <LocalName>扩展子对象列表</LocalName>
+  </Translation>
+  <Translation>
+    <Name>List of instantiable classes</Name>
+    <LocalName>可实例化类列表</LocalName>
+  </Translation>
+  <Translation>
+    <Name>List of objects</Name>
+    <LocalName>对象列表</LocalName>
+  </Translation>
+  <Translation>
+    <Name>List value separator</Name>
+    <LocalName>列表值分隔符</LocalName>
+  </Translation>
+  <Translation>
+    <Name>List values method</Name>
+    <LocalName>列表值方法</LocalName>
+  </Translation>
+  <Translation>
+    <Name>List-index column for ListCollection is not defined</Name>
+    <LocalName>ListCollection 的列表索引列未定义</LocalName>
+  </Translation>
+  <Translation>
+    <Name>List-index column in ListCollection has not been defined</Name>
+    <LocalName>ListCollection 中的列表索引列尚未定义</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Load file directory</Name>
+    <LocalName>装载文件目录</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Local user name</Name>
+    <LocalName>本地用户名</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Locale</Name>
+    <LocalName>区域设置</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Location of output on device:</Name>
+    <LocalName>输出在设备上的位置：</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Location:</Name>
+    <LocalName>位置：</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Lock mode</Name>
+    <LocalName>锁模式</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Log on to the server</Name>
+    <LocalName>登录至服务器</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Log type</Name>
+    <LocalName>日志类型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Logging File</Name>
+    <LocalName>日志记录文件</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Logging Options</Name>
+    <LocalName>日志记录选项</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Logging Type</Name>
+    <LocalName>日志记录类型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Logging type:</Name>
+    <LocalName>日志记录类型：</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Logical Connection</Name>
+    <LocalName>逻辑连接</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Logical Connections</Name>
+    <LocalName>逻辑连接</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Logical Path</Name>
+    <LocalName>逻辑路径</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Logical Path Setter</Name>
+    <LocalName>逻辑路径设置器</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Logical Paths</Name>
+    <LocalName>逻辑路径</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Logical name</Name>
+    <LocalName>逻辑名称</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Logical name:</Name>
+    <LocalName>逻辑名称：</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Logical_Path</Name>
+    <LocalName>Logical_Path</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Login Information</Name>
+    <LocalName>登录信息</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Login information</Name>
+    <LocalName>登录信息</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Login:</Name>
+    <LocalName>登录：</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Lookup table</Name>
+    <LocalName>查找表</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Lookup table code</Name>
+    <LocalName>查找表代码</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Lower bound</Name>
+    <LocalName>下限</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Lower bound time</Name>
+    <LocalName>下限时间</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Lowercase</Name>
+    <LocalName>小写</LocalName>
+  </Translation>
+  <Translation>
+    <Name>MSSQL mobile database file:</Name>
+    <LocalName>MSSQL 移动数据库文件：</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Main package</Name>
+    <LocalName>主包</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Maintenance status</Name>
+    <LocalName>维护状态</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Maintenance user should not be a DDL User</Name>
+    <LocalName>维护用户不应为 DDL 用户</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Maintenance user should not be a Replication Agent User</Name>
+    <LocalName>维护用户不应为复制代理用户</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Mandatory</Name>
+    <LocalName>强制</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Manufacturer</Name>
+    <LocalName>制造商</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Many-to-Many association must have the middle table in PDM</Name>
+    <LocalName>多对多关联必须在 PDM 中有中间表</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Many-to-Many operation side</Name>
+    <LocalName>多对多操作端</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Many-to-Many self association is not supported by Hibernate</Name>
+    <LocalName>Hibernate 不支持多对多自关联</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Many-to-Many self association is not supported by NHibernate</Name>
+    <LocalName>NHibernate 不支持多对多自关联</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Map data type from</Name>
+    <LocalName>映射数据类型自</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Mapped by default to:</Name>
+    <LocalName>缺省情况下映射至：</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Mapping</Name>
+    <LocalName>映射</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Mapping Description</Name>
+    <LocalName>映射描述</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Mapping definition type</Name>
+    <LocalName>映射定义类型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Mapping description</Name>
+    <LocalName>映射描述</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Mapping for association with association class is not supported</Name>
+    <LocalName>不支持具有关联类的关联映射</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Mapping specific column</Name>
+    <LocalName>映射特定列</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Mapping type</Name>
+    <LocalName>映射类型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Mappings</Name>
+    <LocalName>映射</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Materialization</Name>
+    <LocalName>实现</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Materialization save interval</Name>
+    <LocalName>实现保存间隔</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Max check locks times</Name>
+    <LocalName>最大检查锁次数</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Maximum Number of resources</Name>
+    <LocalName>最大资源数</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Maximum image or text size</Name>
+    <LocalName>最大图像或文本大小</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Maximum length</Name>
+    <LocalName>最大长度</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Maximum length for parameter name</Name>
+    <LocalName>参数名称的最大长度</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Memory</Name>
+    <LocalName>内存</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Message confidentiality</Name>
+    <LocalName>消息保密性</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Message integrity</Name>
+    <LocalName>消息完整性</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Message origin check</Name>
+    <LocalName>消息来源检查</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Message replay detection</Name>
+    <LocalName>消息重放检测</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Message sequence check</Name>
+    <LocalName>消息序列检查</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Message service URL</Name>
+    <LocalName>消息服务 URL</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Method of persistence entity class must not be final</Name>
+    <LocalName>持久性实体类方法不得为最终状态</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Microsoft SQL Server Database File (SqlClient)</Name>
+    <LocalName>Microsoft SQL Server 数据库文件 (SqlClient)</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Microsoft SQL Server Mobile Edition (.NET Framework Data Provider for SQL Server CE)</Name>
+    <LocalName>Microsoft SQL Server 移动版（SQL Server CE 的 .NET Framework 数据提供程序）</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Minimum Number of resources</Name>
+    <LocalName>最小资源数</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Minimum length</Name>
+    <LocalName>最小长度</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Minimum wait time</Name>
+    <LocalName>最小等待时间</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing ODBC connection information</Name>
+    <LocalName>缺少 ODBC 连接信息</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing XML file or XSD file</Name>
+    <LocalName>缺少 XML 文件或 XSD 文件</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing data connection</Name>
+    <LocalName>缺少数据连接</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing data mapping</Name>
+    <LocalName>缺少数据映射</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing data type</Name>
+    <LocalName>缺少数据类型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing direct connection username</Name>
+    <LocalName>缺少直接连接用户名</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing output column data mapping</Name>
+    <LocalName>缺少输出列数据映射</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing output table primary key data mapping</Name>
+    <LocalName>缺少输出表主键数据映射</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing shared route for dedicated route</Name>
+    <LocalName>专用路由缺少共享路由</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing source expression</Name>
+    <LocalName>缺少源表达式</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing target object</Name>
+    <LocalName>缺少目标对象</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing the column length</Name>
+    <LocalName>缺少列长度</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Mobile type:</Name>
+    <LocalName>移动类型：</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Modify the default data type mapping for this column.</Name>
+    <LocalName>修改此列的缺省数据类型映射。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Modify the default mapping for this data type.</Name>
+    <LocalName>修改此数据类型的缺省映射。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Modify the default mappings of data types between the current and target DBMS</Name>
+    <LocalName>修改当前与目标 DBMS 之间的数据类型缺省映射</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Multiple data connection groups</Name>
+    <LocalName>多个数据连接组</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Multiple owner</Name>
+    <LocalName>多重所有者</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must not have unreachable data model in data source</Name>
+    <LocalName>数据源中不得含有无法访问的数据模型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Mutable</Name>
+    <LocalName>可变</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Mutual authorization</Name>
+    <LocalName>相互授权</LocalName>
+  </Translation>
+  <Translation>
+    <Name>NHibernate type</Name>
+    <LocalName>NHibernate 类型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Name</Name>
+    <LocalName>名称</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Namespace</Name>
+    <LocalName>命名空间</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Namespaces</Name>
+    <LocalName>命名空间</LocalName>
+  </Translation>
+  <Translation>
+    <Name>New Attribute</Name>
+    <LocalName>新属性</LocalName>
+  </Translation>
+  <Translation>
+    <Name>New Object List</Name>
+    <LocalName>新对象列表</LocalName>
+  </Translation>
+  <Translation>
+    <Name>New Object Type</Name>
+    <LocalName>新对象类型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>New object type...</Name>
+    <LocalName>新对象类型...</LocalName>
+  </Translation>
+  <Translation>
+    <Name>New...</Name>
+    <LocalName>新建...</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Next site</Name>
+    <LocalName>下一站点</LocalName>
+  </Translation>
+  <Translation>
+    <Name>No inherit</Name>
+    <LocalName>无继承</LocalName>
+  </Translation>
+  <Translation>
+    <Name>No reference table in association</Name>
+    <LocalName>关联中无引用表</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Not defined mandatory on foreign-key when value type collection</Name>
+    <LocalName>值类型收集时未对外键定义强制</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Not found</Name>
+    <LocalName>未找到</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Not supported Association Class</Name>
+    <LocalName>不支持的关联类</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Not supported index column collection on multiple side</Name>
+    <LocalName>不支持多个端上的索引列集合</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Not supported user-defined collection type</Name>
+    <LocalName>不支持的用户定义集合类型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Number</Name>
+    <LocalName>数量</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Number of bytes in log</Name>
+    <LocalName>日志中的字节数</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Number of commands in log</Name>
+    <LocalName>日志中的命令数</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Number of commands per timeslide</Name>
+    <LocalName>每次时间滑动的命令数</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Number of data connections</Name>
+    <LocalName>数据连接数</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Number of lines</Name>
+    <LocalName>行数</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Number of parallel threads</Name>
+    <LocalName>并行线程数</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Number of rows in DataGridView</Name>
+    <LocalName>DataGridView 中的行数</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Number of rows in table</Name>
+    <LocalName>表中的行数</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Number of threads</Name>
+    <LocalName>线程数</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Number of transactions in group</Name>
+    <LocalName>组中的事务数</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Number of transactions in log</Name>
+    <LocalName>日志中的事务数</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Number of visible characters</Name>
+    <LocalName>可见字符数</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ODBC</Name>
+    <LocalName>ODBC</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ODBC source name:</Name>
+    <LocalName>ODBC 源名称：</LocalName>
+  </Translation>
+  <Translation>
+    <Name>OLE DB Provider:</Name>
+    <LocalName>OLE DB 提供程序：</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Object</Name>
+    <LocalName>对象</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Object Binding Setter</Name>
+    <LocalName>对象绑定设置器</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Object type</Name>
+    <LocalName>对象类型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>One-to-many association is mapped to reference with incorrect direction</Name>
+    <LocalName>一对多关联映射至方向不正确的引用</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Operating System</Name>
+    <LocalName>操作系统</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Operation options</Name>
+    <LocalName>操作选项</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Optimistic lock</Name>
+    <LocalName>优化锁</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Optimistic lock mapping is not correct</Name>
+    <LocalName>优化锁映射不正确</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Optimistic lock options</Name>
+    <LocalName>优化锁选项</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Options</Name>
+    <LocalName>选项</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Options...</Name>
+    <LocalName>选项...</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Oracle Database (OracleClient)</Name>
+    <LocalName>Oracle 数据库 (OracleClient)</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Order by</Name>
+    <LocalName>排序条件</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Original data type</Name>
+    <LocalName>原始数据类型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Original language</Name>
+    <LocalName>原始语言</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Original type</Name>
+    <LocalName>原始类型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Other options</Name>
+    <LocalName>其他选项</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Outer join</Name>
+    <LocalName>外部连接</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Output HTTP get message name</Name>
+    <LocalName>输出 HTTP get 消息名称</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Output HTTP post message name</Name>
+    <LocalName>输出 HTTP post 消息名称</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Output SOAP body parts</Name>
+    <LocalName>输出 SOAP 主体部分</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Output SOAP body use</Name>
+    <LocalName>输出 SOAP 主体使用</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Output SOAP message name</Name>
+    <LocalName>输出 SOAP 消息名称</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Output file folder:</Name>
+    <LocalName>输出文件文件夹：</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Output length</Name>
+    <LocalName>输出长度</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Overwrite function class</Name>
+    <LocalName>覆盖函数类</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Owner</Name>
+    <LocalName>所有者</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Owner of extended attribute system tables</Name>
+    <LocalName>扩展属性系统表的所有者</LocalName>
+  </Translation>
+  <Translation>
+    <Name>PDM does not match with inheritance requirements of NHibernate</Name>
+    <LocalName>PDM 与 NHibernate 的继承要求不匹配</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Package code</Name>
+    <LocalName>包代码</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Package options</Name>
+    <LocalName>包选项</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Package prefix</Name>
+    <LocalName>包前缀</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Packet size</Name>
+    <LocalName>包大小</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Page options</Name>
+    <LocalName>页面选项</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Parallel DSI</Name>
+    <LocalName>并行 DSI</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Parameter support</Name>
+    <LocalName>参数支持</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Parent</Name>
+    <LocalName>父项</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Parent entity</Name>
+    <LocalName>父实体</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Parent package</Name>
+    <LocalName>父包</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Parent table cardinality</Name>
+    <LocalName>父表基数</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Partitioning rule</Name>
+    <LocalName>分区规则</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Password</Name>
+    <LocalName>口令</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Password:</Name>
+    <LocalName>口令：</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Path:</Name>
+    <LocalName>路径：</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Permission</Name>
+    <LocalName>权限</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Persistence entity class should be mapped to table</Name>
+    <LocalName>持久性实体类应映射至表</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Persistence provider</Name>
+    <LocalName>持久性提供程序</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Persistent Data Source</Name>
+    <LocalName>持久数据源</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Persistent association should be mapped</Name>
+    <LocalName>应映射持久关联</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Persistent attribute should not be final</Name>
+    <LocalName>持久属性不应为最终状态</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Persistent class in default package</Name>
+    <LocalName>缺省包中的持久类</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Persistent class should not be defined in default package</Name>
+    <LocalName>不应在缺省包中定义持久类</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Persistent entity class should be top level class</Name>
+    <LocalName>持久实体类应为顶级类</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Persistent entity class should not be final</Name>
+    <LocalName>持久实体类不应为最终状态</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Persister class</Name>
+    <LocalName>持久程序类</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Persister class name</Name>
+    <LocalName>持久程序类名称</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Phone number</Name>
+    <LocalName>电话号码</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Physical Table</Name>
+    <LocalName>物理表</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Physical table</Name>
+    <LocalName>物理表</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Physical table code</Name>
+    <LocalName>物理表代码</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Physical tables</Name>
+    <LocalName>物理表</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Picture library path</Name>
+    <LocalName>图片库路径</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Plural</Name>
+    <LocalName>复数</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Plural name</Name>
+    <LocalName>复数名称</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Polymorphism</Name>
+    <LocalName>多态性</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Pooled table</Name>
+    <LocalName>池表</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Port number</Name>
+    <LocalName>端口号</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Port type</Name>
+    <LocalName>端口类型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Port type name</Name>
+    <LocalName>端口类型名称</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Port:</Name>
+    <LocalName>端口：</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Post condition</Name>
+    <LocalName>后条件</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Pre condition</Name>
+    <LocalName>前提条件</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Precision</Name>
+    <LocalName>精度</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Precision:</Name>
+    <LocalName>精度：</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Primary Connection</Name>
+    <LocalName>主连接</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Primary Connection Object</Name>
+    <LocalName>主连接对象</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Primary Data Connections</Name>
+    <LocalName>主数据连接</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Primary Logical Connection</Name>
+    <LocalName>主逻辑连接</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Primary Logical Connection Object</Name>
+    <LocalName>主逻辑连接对象</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Primary database password</Name>
+    <LocalName>主数据库口令</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Primary database port number</Name>
+    <LocalName>主数据库端口号</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Primary database user name</Name>
+    <LocalName>主数据库用户名</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Primary identifier must be defined</Name>
+    <LocalName>必须定义主标识符</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Primary identifier must contain persistent attribute</Name>
+    <LocalName>主标识符必须包含持久属性</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Primary key</Name>
+    <LocalName>主键</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Primary key join does not exist</Name>
+    <LocalName>不存在主键连接</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Primary procedure name</Name>
+    <LocalName>主过程名</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Primary table name</Name>
+    <LocalName>主表名</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Priority</Name>
+    <LocalName>优先级</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Procedure Binding Matrix</Name>
+    <LocalName>过程绑定矩阵</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Procedure lacks of owner information</Name>
+    <LocalName>缺少所有者信息的过程</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Procedure option</Name>
+    <LocalName>过程选项</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ProcedureBindingMatrix</Name>
+    <LocalName>过程绑定矩阵</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Procedures</Name>
+    <LocalName>过程</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Process:</Name>
+    <LocalName>流程：</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Processors</Name>
+    <LocalName>处理器</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Properties</Name>
+    <LocalName>属性</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Property access</Name>
+    <LocalName>属性访问</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Property attribute cannot be mapped to column</Name>
+    <LocalName>无法将属性映射至列</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Provider style</Name>
+    <LocalName>提供程序样式</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Proxy Server Connection Information</Name>
+    <LocalName>代理服务器连接信息</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Proxy name</Name>
+    <LocalName>代理名称</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Proxy table is child of reference</Name>
+    <LocalName>代理表是引用的子项</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Publication:</Name>
+    <LocalName>发布：</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Publications &amp;&amp; Replication Definitions</Name>
+    <LocalName>发布 &amp;&amp; 复制定义</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Publications &amp;amp;&amp;amp; Replication Definitions</Name>
+    <LocalName>发布 &amp;amp;&amp;amp; 复制定义</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Qualified Separator</Name>
+    <LocalName>限定分隔符</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Qualified name separator</Name>
+    <LocalName>限定名称分隔符</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Queue</Name>
+    <LocalName>队列</LocalName>
+  </Translation>
+  <Translation>
+    <Name>RSI batch size</Name>
+    <LocalName>RSI 批处理大小</LocalName>
+  </Translation>
+  <Translation>
+    <Name>RSI fadeout time</Name>
+    <LocalName>RSI 自动关闭时间</LocalName>
+  </Translation>
+  <Translation>
+    <Name>RSI packet size</Name>
+    <LocalName>RSI 包大小</LocalName>
+  </Translation>
+  <Translation>
+    <Name>RSI synchronize interval</Name>
+    <LocalName>RSI 同步间隔</LocalName>
+  </Translation>
+  <Translation>
+    <Name>RSSD character set</Name>
+    <LocalName>RSSD 字符集</LocalName>
+  </Translation>
+  <Translation>
+    <Name>RSSD character set is blank</Name>
+    <LocalName>RSSD 字符集为空</LocalName>
+  </Translation>
+  <Translation>
+    <Name>RSSD database options</Name>
+    <LocalName>RSSD 数据库选项</LocalName>
+  </Translation>
+  <Translation>
+    <Name>RSSD password</Name>
+    <LocalName>RSSD 口令</LocalName>
+  </Translation>
+  <Translation>
+    <Name>RSSD user name</Name>
+    <LocalName>RSSD 用户名</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Read-only Name</Name>
+    <LocalName>只读名称</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Redundant flow</Name>
+    <LocalName>冗余流</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Reference associated objects by</Name>
+    <LocalName>引用关联对象的方式</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Reference field</Name>
+    <LocalName>引用字段</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Reference field code</Name>
+    <LocalName>引用字段代码</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Reference kind</Name>
+    <LocalName>引用种类</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Reference table</Name>
+    <LocalName>引用表</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Reference table code</Name>
+    <LocalName>引用表代码</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Referenced Attribute</Name>
+    <LocalName>引用的属性</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Referenced class name</Name>
+    <LocalName>引用类名称</LocalName>
+  </Translation>
+  <Translation>
+    <Name>References</Name>
+    <LocalName>引用</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Release</Name>
+    <LocalName>释放</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Release notes by</Name>
+    <LocalName>发行说明创建者</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Released</Name>
+    <LocalName>已释放</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Remote Column:</Name>
+    <LocalName>远程列：</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Remote data type</Name>
+    <LocalName>远程数据类型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Remote database name</Name>
+    <LocalName>远程数据库名称</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Remote server directory</Name>
+    <LocalName>远程服务器目录</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Remote server name</Name>
+    <LocalName>远程服务器名称</LocalName>
+  </Translation>
+  <Translation>
+    <Name>RepAgent</Name>
+    <LocalName>RepAgent</LocalName>
+  </Translation>
+  <Translation>
+    <Name>RepAgent Options</Name>
+    <LocalName>RepAgent 选项</LocalName>
+  </Translation>
+  <Translation>
+    <Name>RepAgent name</Name>
+    <LocalName>RepAgent 名称</LocalName>
+  </Translation>
+  <Translation>
+    <Name>RepAgent password</Name>
+    <LocalName>RepAgent 口令</LocalName>
+  </Translation>
+  <Translation>
+    <Name>RepAgent port number</Name>
+    <LocalName>RepAgent 端口号</LocalName>
+  </Translation>
+  <Translation>
+    <Name>RepAgent type</Name>
+    <LocalName>RepAgent 类型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>RepAgent user name</Name>
+    <LocalName>RepAgent 用户名</LocalName>
+  </Translation>
+  <Translation>
+    <Name>RepServer Connection</Name>
+    <LocalName>RepServer 连接</LocalName>
+  </Translation>
+  <Translation>
+    <Name>RepServer Options</Name>
+    <LocalName>RepServer 选项</LocalName>
+  </Translation>
+  <Translation>
+    <Name>RepServer character set</Name>
+    <LocalName>RepServer 字符集</LocalName>
+  </Translation>
+  <Translation>
+    <Name>RepServer character set is blank</Name>
+    <LocalName>RepServer 字符集为空</LocalName>
+  </Translation>
+  <Translation>
+    <Name>RepServer password</Name>
+    <LocalName>RepServer 口令</LocalName>
+  </Translation>
+  <Translation>
+    <Name>RepServer user name</Name>
+    <LocalName>RepServer 用户名</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Replicate</Name>
+    <LocalName>复制</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Replicate DDL</Name>
+    <LocalName>复制 DDL</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Replicate DDL requires same type of database</Name>
+    <LocalName>复制 DDL 需要相同类型的数据库</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Replicate SQLDML</Name>
+    <LocalName>复制 SQLDML</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Replicate Table</Name>
+    <LocalName>复制表</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Replicate Tables</Name>
+    <LocalName>复制表</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Replicate connection</Name>
+    <LocalName>复制连接</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Replicate function</Name>
+    <LocalName>复制函数</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Replicate minimal columns</Name>
+    <LocalName>复制最少列</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Replicate system procedure</Name>
+    <LocalName>复制系统过程</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Replicate table</Name>
+    <LocalName>复制表</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Replicate transaction</Name>
+    <LocalName>复制事务</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Replication</Name>
+    <LocalName>复制</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Replication DDL</Name>
+    <LocalName>复制 DDL</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Replication Definition</Name>
+    <LocalName>复制定义</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Replication Definition name uniqueness</Name>
+    <LocalName>复制定义名称的唯一性</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Replication Definitions</Name>
+    <LocalName>复制定义</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Replication Server connection options</Name>
+    <LocalName>Replication Server 连接选项</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Replication definition name</Name>
+    <LocalName>复制定义名称</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Replication minimum columns</Name>
+    <LocalName>复制最少列</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Request</Name>
+    <LocalName>请求</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Request alter from primary database</Name>
+    <LocalName>从主数据库请求更改</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Request stored procedure</Name>
+    <LocalName>请求存储过程</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Required resource</Name>
+    <LocalName>所需资源</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Resolution</Name>
+    <LocalName>解决</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Resource</Name>
+    <LocalName>资源</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ResultColumn support</Name>
+    <LocalName>ResultColumn 支持</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Return MIME type</Name>
+    <LocalName>返回 MIME 类型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Return name</Name>
+    <LocalName>返回名称</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Revenue per unit</Name>
+    <LocalName>每单位的收入</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Role A cascade</Name>
+    <LocalName>角色 A 级联</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Role A fetch</Name>
+    <LocalName>角色 A 读取</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Role A order by</Name>
+    <LocalName>角色 A order by</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Role B cascade</Name>
+    <LocalName>角色 B 级联</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Role B fetch</Name>
+    <LocalName>角色 B 读取</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Role B order by</Name>
+    <LocalName>角色 B order by</LocalName>
+  </Translation>
+  <Translation>
+    <Name>RoleA options</Name>
+    <LocalName>角色 A 选项</LocalName>
+  </Translation>
+  <Translation>
+    <Name>RoleB options</Name>
+    <LocalName>角色 B 选项</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Root table</Name>
+    <LocalName>根表</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Root table code</Name>
+    <LocalName>根表代码</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Route Options</Name>
+    <LocalName>路由选项</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Routing Out Percent</Name>
+    <LocalName>路由传出百分比</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Row delimiter</Name>
+    <LocalName>行分隔符</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Row id</Name>
+    <LocalName>行 id</LocalName>
+  </Translation>
+  <Translation>
+    <Name>SOAP Binding Style</Name>
+    <LocalName>SOAP 绑定样式</LocalName>
+  </Translation>
+  <Translation>
+    <Name>SOAP action</Name>
+    <LocalName>SOAP 操作</LocalName>
+  </Translation>
+  <Translation>
+    <Name>SOAP binding style</Name>
+    <LocalName>SOAP 绑定样式</LocalName>
+  </Translation>
+  <Translation>
+    <Name>SOAP binding transport</Name>
+    <LocalName>SOAP 绑定传输</LocalName>
+  </Translation>
+  <Translation>
+    <Name>SOAP body namespace</Name>
+    <LocalName>SOAP 主体命名空间</LocalName>
+  </Translation>
+  <Translation>
+    <Name>SOAP operation style</Name>
+    <LocalName>SOAP 操作样式</LocalName>
+  </Translation>
+  <Translation>
+    <Name>SOAP port type</Name>
+    <LocalName>SOAP 端口类型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>SQL Anywhere version</Name>
+    <LocalName>SQL Anywhere 版本</LocalName>
+  </Translation>
+  <Translation>
+    <Name>SQL data style</Name>
+    <LocalName>SQL 数据样式</LocalName>
+  </Translation>
+  <Translation>
+    <Name>SQL type consistency among complex types</Name>
+    <LocalName>复杂类型中 SQL 类型的一致性</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Same maintenance user for all connections</Name>
+    <LocalName>所有连接的维护用户相同</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Save interval</Name>
+    <LocalName>保存间隔</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Scan template</Name>
+    <LocalName>扫描模板</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Schema</Name>
+    <LocalName>模式</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Schema name</Name>
+    <LocalName>模式名称</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Schema namespace</Name>
+    <LocalName>模式命名空间</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Script output type</Name>
+    <LocalName>脚本输出类型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Search for referenced objects in other models</Name>
+    <LocalName>搜索在其他模型中引用的对象</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Searchable</Name>
+    <LocalName>可搜索</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Secondary table must have reference key referring to primary table</Name>
+    <LocalName>辅助表必须具有引用主表的引用键</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Security</Name>
+    <LocalName>安全性</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Security mechanism</Name>
+    <LocalName>安全机制</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Select File</Name>
+    <LocalName>选择文件</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Select before update</Name>
+    <LocalName>更新前选择</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Select the PowerDesigner attribute or list that is contained in this column.\nFor lists or attributes that reference other objects,\nyou must also specify the associated PowerDesigner object.</Name>
+    <LocalName>选择包含在此列中的 PowerDesigner 属性或列表。\n对于引用其他对象的列表或者属性，\n您还必须指定关联的 PowerDesigner 对象。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Select the data source to import:</Name>
+    <LocalName>选择要导入的数据源：</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Selected</Name>
+    <LocalName>已选择</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Send standby columns</Name>
+    <LocalName>发送备用列</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Send trucate table</Name>
+    <LocalName>发送截断表</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Serialization method</Name>
+    <LocalName>序列化方法</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Server class</Name>
+    <LocalName>服务器类</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Server code</Name>
+    <LocalName>服务器代码</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Server must be defined</Name>
+    <LocalName>必须定义服务器</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Server name</Name>
+    <LocalName>服务器名称</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Server name:</Name>
+    <LocalName>服务器名称：</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Server or file name:</Name>
+    <LocalName>服务器或者文件名：</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Service description</Name>
+    <LocalName>服务描述</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Service key</Name>
+    <LocalName>服务键</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Service name</Name>
+    <LocalName>服务名称</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Service port name</Name>
+    <LocalName>服务端口名称</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Service scope</Name>
+    <LocalName>服务范围</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Show SQL</Name>
+    <LocalName>显示 SQL</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Signed</Name>
+    <LocalName>有符号</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Simulation Running Time</Name>
+    <LocalName>模拟运行时间</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Simulation limit</Name>
+    <LocalName>模拟限制</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Single Data Connection with read access type</Name>
+    <LocalName>具有读取访问类型的单个数据连接</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Skip Import</Name>
+    <LocalName>跳过导入</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Soap binding transport</Name>
+    <LocalName>SOAP 绑定传输</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Soap body namespace</Name>
+    <LocalName>SOAP 主体命名空间</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Software component</Name>
+    <LocalName>软件组件</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Sort</Name>
+    <LocalName>排序</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Source Column:</Name>
+    <LocalName>源列：</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Source table</Name>
+    <LocalName>源表</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Source tables flagged &quot;generated&quot;</Name>
+    <LocalName>标记为“已生成”的源表</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Specific column</Name>
+    <LocalName>特定列</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Specify DDL User and Password for Replication Agent</Name>
+    <LocalName>为复制代理指定 DDL 用户和口令</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Specify a name and a data type for your attribute,\nalong with the kind of PowerDesigner object if the data type is object.</Name>
+    <LocalName>为属性指定名称和数据类型，\n如果数据类型为对象，还可指定 PowerDesigner 对象的种类。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Specify a name and plural name for your new object type.</Name>
+    <LocalName>为新对象类型指定名称和复数名称。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Specify a name for your list, along with the kind of PowerDesigner object it will contain.</Name>
+    <LocalName>为列表指定名称以及列表将包含的 PowerDesigner 对象的种类。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Standard attribute</Name>
+    <LocalName>标准属性</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Standard deviation</Name>
+    <LocalName>标准偏差</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Standard deviation for timing distribution</Name>
+    <LocalName>时间分布的标准偏差</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Standby type</Name>
+    <LocalName>备用类型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Status</Name>
+    <LocalName>状态</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Stereotype</Name>
+    <LocalName>构造型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Stereotype:</Name>
+    <LocalName>构造型：</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Stop unsupported commands</Name>
+    <LocalName>停止不支持的命令</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Stored procedure option</Name>
+    <LocalName>存储过程选项</LocalName>
+  </Translation>
+  <Translation>
+    <Name>String for &#39;True&#39; value</Name>
+    <LocalName>&#39;True&#39; 值的字符串</LocalName>
+  </Translation>
+  <Translation>
+    <Name>String literal for &#39;True&#39; value</Name>
+    <LocalName>&#39;True&#39; 值的字符串文字</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Structure class</Name>
+    <LocalName>结构类</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Structures</Name>
+    <LocalName>结构</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Stylesheet CSS file</Name>
+    <LocalName>样式表 CSS 文件</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Subdirectory:</Name>
+    <LocalName>子目录：</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Subscribe for truncated tables</Name>
+    <LocalName>预订截断表</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Subscription name length</Name>
+    <LocalName>预订名称长度</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Subscription name uniqueness</Name>
+    <LocalName>预订名称唯一性</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Subscription of request procedure</Name>
+    <LocalName>请求过程预订</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Subscription write request limit</Name>
+    <LocalName>预订写入请求限制</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Subscriptions</Name>
+    <LocalName>预订</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Subselect</Name>
+    <LocalName>子选择</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Support desktop</Name>
+    <LocalName>支持桌面</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Support update in Sybase IQ</Name>
+    <LocalName>支持在 Sybase IQ 中更新</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Support web</Name>
+    <LocalName>支持 web</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Suspend replication</Name>
+    <LocalName>挂起复制</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Sybase SQL Anywhere Database (AsaClient)</Name>
+    <LocalName>Sybase SQL Anywhere 数据库 (AsaClient)</LocalName>
+  </Translation>
+  <Translation>
+    <Name>System procedure</Name>
+    <LocalName>系统过程</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Table</Name>
+    <LocalName>表</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Table Binding Matrix</Name>
+    <LocalName>表绑定矩阵</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Table Mapping</Name>
+    <LocalName>表映射</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Table Mappings</Name>
+    <LocalName>表映射</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Table class</Name>
+    <LocalName>表类</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Table column width</Name>
+    <LocalName>表列宽度</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Table generation mode</Name>
+    <LocalName>表生成模式</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Table not bound to primary connection</Name>
+    <LocalName>未与主连接绑定的表</LocalName>
+  </Translation>
+  <Translation>
+    <Name>TableBindingMatrix</Name>
+    <LocalName>表绑定矩阵</LocalName>
+  </Translation>
+  <Translation>
+    <Name>TableColumn is not defined in Association Mapping</Name>
+    <LocalName>在关联映射中未定义 TableColumn</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Tables</Name>
+    <LocalName>表</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Target IDE</Name>
+    <LocalName>目标 IDE</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Target data type</Name>
+    <LocalName>目标数据类型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Target device:</Name>
+    <LocalName>目标设备：</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Target runtime</Name>
+    <LocalName>目标运行时</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Test Connection</Name>
+    <LocalName>测试连接</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Test method</Name>
+    <LocalName>测试方法</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Text convert multiplier</Name>
+    <LocalName>测试转换乘数</LocalName>
+  </Translation>
+  <Translation>
+    <Name>The column is selected from generation source model</Name>
+    <LocalName>从生成源模型中选择列</LocalName>
+  </Translation>
+  <Translation>
+    <Name>The name of package conflicts with the name of namespace</Name>
+    <LocalName>包名称与命名空间名称冲突</LocalName>
+  </Translation>
+  <Translation>
+    <Name>The primary key attribute should be public</Name>
+    <LocalName>主键属性应为公开</LocalName>
+  </Translation>
+  <Translation>
+    <Name>The user name, password, server name or data source name is not specified.
+To defined user name and password, open the data source properties, select ODBC page.
+To defined server name and data source name, open the data source properties, select Data Movement page.</Name>
+    <LocalName>未指定用户名、口令、服务器名称或者数据源名称。
+要定义用户名和口令，可打开数据源属性，然后选择 ODBC 页面。
+要定义服务器名称和数据源名称，可打开数据源属性，然后选择“数据移动”页面。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>The value of database parameter dsi_compile_max_cmds should not be less than 100.</Name>
+    <LocalName>数据库参数 dsi_compile_max_cmds 的值不应小于 100。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>The wizard has found a table to import. Select the kind of\nPowerDesigner object you want to create for each table row.</Name>
+    <LocalName>向导已找到要导入的表。 选择要为每个表行\n创建的 PowerDesigner 对象的种类。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>This check ensures that in a warm standby environment all logical connections in a group agree on which of them is the primary logical connection.</Name>
+    <LocalName>此检查确保在热备用环境中组中的所有逻辑连接对于哪个逻辑连接是主逻辑连接达成一致。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>This check ensures that the data connections of the logical path are linked to correct data store.</Name>
+    <LocalName>此检查确保逻辑路径的数据连接链接到正确的数据存储。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>This check ensures that the data source mapping is defined.</Name>
+    <LocalName>此检查确保已定义数据源映射。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>This check ensures that the primary logical connection is correct.</Name>
+    <LocalName>此检查确保主逻辑连接正确。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Threshold</Name>
+    <LocalName>阈值</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Time</Name>
+    <LocalName>时间</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Time display pattern</Name>
+    <LocalName>时间显示模式</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Time distribution type</Name>
+    <LocalName>时间分布类型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Time format</Name>
+    <LocalName>时间格式</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Time unit</Name>
+    <LocalName>时间单位</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Time zone</Name>
+    <LocalName>时区</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Timing</Name>
+    <LocalName>计时</LocalName>
+  </Translation>
+  <Translation>
+    <Name>To set a data type for an individual column, click the Add Specific Column Mapping button.</Name>
+    <LocalName>要设置单个列的数据类型，单击“添加特定列映射”按钮。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Too few inputs</Name>
+    <LocalName>输入过少</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Too many data mappings</Name>
+    <LocalName>数据映射过多</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Too many lookup columns</Name>
+    <LocalName>查找列过多</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Too many lookup tables</Name>
+    <LocalName>查找表过多</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Transaction Options</Name>
+    <LocalName>事务选项</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Transaction set</Name>
+    <LocalName>事务集</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Transaction type</Name>
+    <LocalName>事务类型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Transparent table</Name>
+    <LocalName>透明表</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Type</Name>
+    <LocalName>类型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>UDDI operator URL</Name>
+    <LocalName>UDDI 运算符 URL</LocalName>
+  </Translation>
+  <Translation>
+    <Name>UltraLite database file:</Name>
+    <LocalName>UltraLite 数据库文件：</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Undefined default connection</Name>
+    <LocalName>未定义缺省连接</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Undefined primary connection</Name>
+    <LocalName>未定义主连接</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Undefined separator</Name>
+    <LocalName>未定义分隔符</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Undefined user name</Name>
+    <LocalName>未定义用户名</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Unidirectional one-to-one association is mapped to reference with incorrect direction</Name>
+    <LocalName>单向一对一关联映射至方向不正确的引用</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Unified login</Name>
+    <LocalName>统一登录</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Unknown container type in RoleA</Name>
+    <LocalName>角色 A 中的容器类型未知</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Unknown container type in RoleB</Name>
+    <LocalName>角色 B 中的容器类型未知</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Unsaved value</Name>
+    <LocalName>未保存值</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Unsupported Web service input</Name>
+    <LocalName>不支持 Web 服务输入</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Unsupported direct connection</Name>
+    <LocalName>不支持直接连接</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Unsupported nested element</Name>
+    <LocalName>不支持嵌套元素</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Unsupported object language</Name>
+    <LocalName>不支持的对象语言</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Unsupported xs:NOTATION element</Name>
+    <LocalName>不支持 xs:NOTATION 元素</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Updatable</Name>
+    <LocalName>可更新</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Update</Name>
+    <LocalName>更新</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Update procedure code</Name>
+    <LocalName>更新过程代码</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Update table code</Name>
+    <LocalName>更新表代码</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Upper bound</Name>
+    <LocalName>上限</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Upper bound time</Name>
+    <LocalName>上限时间</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Use NT integrated security</Name>
+    <LocalName>使用 NT 集成安全性</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Use Windows NT integrated security</Name>
+    <LocalName>使用 Windows NT 集成安全性</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Use batch markers</Name>
+    <LocalName>使用批处理标记</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Use insert table in Sybase IQ</Name>
+    <LocalName>在 Sybase IQ 中使用插入表</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Use master-detail page</Name>
+    <LocalName>使用主详细信息页面</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Use replication agent</Name>
+    <LocalName>使用复制代理</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Use resource bundle</Name>
+    <LocalName>使用资源包</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Use security services</Name>
+    <LocalName>使用安全服务</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Use stored procedure for function strings</Name>
+    <LocalName>将存储过程用于函数字符串</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Use this attribute as foreign key label</Name>
+    <LocalName>将此属性用作外键标签</LocalName>
+  </Translation>
+  <Translation>
+    <Name>User name</Name>
+    <LocalName>用户名</LocalName>
+  </Translation>
+  <Translation>
+    <Name>User name:</Name>
+    <LocalName>用户名：</LocalName>
+  </Translation>
+  <Translation>
+    <Name>User-defined collection type is not supported</Name>
+    <LocalName>不支持用户定义集合类型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>User-defined mapping</Name>
+    <LocalName>用户定义映射</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Validation rule</Name>
+    <LocalName>验证规则</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Validation rule code</Name>
+    <LocalName>验证规则代码</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Validation rule error message</Name>
+    <LocalName>验证规则错误消息</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Validation rule text</Name>
+    <LocalName>验证规则文本</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Value table</Name>
+    <LocalName>值表</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Value table code</Name>
+    <LocalName>值表代码</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Verify that each data connection is only attached to one data connection group.</Name>
+    <LocalName>验证每个数据连接仅附加到一个数据连接组。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Verify that the bound procedures are from the primary databases.</Name>
+    <LocalName>验证绑定过程来自主数据库。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Verify that the bound tables are from the primary databases.</Name>
+    <LocalName>验证绑定表来自主数据库。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Verify the bound procedures are from the primary databases.</Name>
+    <LocalName>验证绑定过程来自主数据库。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Verify the bound tables are from the primary databases.</Name>
+    <LocalName>验证绑定表来自主数据库。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Version attribute</Name>
+    <LocalName>版本属性</LocalName>
+  </Translation>
+  <Translation>
+    <Name>View structure</Name>
+    <LocalName>视图结构</LocalName>
+  </Translation>
+  <Translation>
+    <Name>View type</Name>
+    <LocalName>视图类型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Visible</Name>
+    <LocalName>可见</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Web method type</Name>
+    <LocalName>Web 方法类型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Welcome to the Excel Import Wizard. This wizard guides you\nthrough importing tables of objects defined in an Excel spreadsheet.\nTo get started, select an Excel file to import.</Name>
+    <LocalName>欢迎使用 Excel 导入向导。 此向导可引导您导入在 Excel 电子表格中定义的对象表。\n首先，选择要导入的 Excel 文件。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>What would be generated</Name>
+    <LocalName>将生成的内容</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Where clause</Name>
+    <LocalName>Where 子句</LocalName>
+  </Translation>
+  <Translation>
+    <Name>XML</Name>
+    <LocalName>XML</LocalName>
+  </Translation>
+  <Translation>
+    <Name>XML Generation</Name>
+    <LocalName>XML 生成</LocalName>
+  </Translation>
+  <Translation>
+    <Name>XML generation mode</Name>
+    <LocalName>XML 生成模式</LocalName>
+  </Translation>
+  <Translation>
+    <Name>by selecting new types in the Target data type column.</Name>
+    <LocalName>通过在目标数据类型列中选择新类型。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>caption</Name>
+    <LocalName>标题</LocalName>
+  </Translation>
+  <Translation>
+    <Name>delete</Name>
+    <LocalName>删除</LocalName>
+  </Translation>
+  <Translation>
+    <Name>dsi_compile_max_cmds should not be less than 100</Name>
+    <LocalName>dsi_compile_max_cmds 不应小于 100</LocalName>
+  </Translation>
+  <Translation>
+    <Name>function string</Name>
+    <LocalName>函数字符串</LocalName>
+  </Translation>
+  <Translation>
+    <Name>insert select</Name>
+    <LocalName>插入选择</LocalName>
+  </Translation>
+  <Translation>
+    <Name>label</Name>
+    <LocalName>标签</LocalName>
+  </Translation>
+  <Translation>
+    <Name>of table</Name>
+    <LocalName>表</LocalName>
+  </Translation>
+  <Translation>
+    <Name>on</Name>
+    <LocalName>于</LocalName>
+  </Translation>
+  <Translation>
+    <Name>select into</Name>
+    <LocalName>选择至</LocalName>
+  </Translation>
+  <Translation>
+    <Name>tModel URL</Name>
+    <LocalName>tModel URL</LocalName>
+  </Translation>
+  <Translation>
+    <Name>tModel key</Name>
+    <LocalName>tModel 键</LocalName>
+  </Translation>
+  <Translation>
+    <Name>tModel name</Name>
+    <LocalName>tModel 名称</LocalName>
+  </Translation>
+  <Translation>
+    <Name>table=uid_table,column=next_hi_value_column</Name>
+    <LocalName>table=uid_table,column=next_hi_value_column</LocalName>
+  </Translation>
+  <Translation>
+    <Name>to</Name>
+    <LocalName>至</LocalName>
+  </Translation>
+  <Translation>
+    <Name>update</Name>
+    <LocalName>更新</LocalName>
+  </Translation>
+  <Translation>
+    <Name>with DSI_suspended</Name>
+    <LocalName>with DSI_suspended</LocalName>
+  </Translation>
+  <Translation>
+    <Name>A value must be defined for attribute Name</Name>
+    <LocalName>必须为属性“名称”定义值</LocalName>
+  </Translation>
+  <Translation>
+    <Name>A value must be defined for attribute Title</Name>
+    <LocalName>必须为属性“标题”定义值</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Activities and intermediate events must not have more than one default outgoing flow.</Name>
+    <LocalName>活动和中间事件不能有多个缺省传出流。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Activities/processes cannot be implemented by an activity/process that is, itself, implemented.</Name>
+    <LocalName>活动/流程不能通过自我实现的活动/流程实现。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Activities/processes must have at least one incoming flow.</Name>
+    <LocalName>活动/流程必须至少有一个传入流。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>All the message flows associated with a single conversation node must specify the same correlation key as the node.</Name>
+    <LocalName>与单个会话节点关联的所有消息流都必须指定相同相关键作为节点。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>An activity/process must have at least one outgoing flow.</Name>
+    <LocalName>活动/流程必须至少有一个传出流。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Call activities must have an implementation type of Reuse process.</Name>
+    <LocalName>调用活动必须具有重用流程的实现类型。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Compensation activities must not have incoming sequence flows that are not of type Compensation.</Name>
+    <LocalName>补偿活动不能有类型不是“补偿”的传入顺序流。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Compensation activities must not have outgoing sequence flows.</Name>
+    <LocalName>补偿活动不能有传出顺序流。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Correlation Key name uniqueness</Name>
+    <LocalName>相关键名称唯一性</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Correlation keys must be used by a correlated conversation node.</Name>
+    <LocalName>相关键必须由相关会话节点使用。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Correlation keys must be used by an input correlated process.</Name>
+    <LocalName>相关键必须由输入相关流程使用。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Correlation keys must be used by an output correlated process.</Name>
+    <LocalName>相关键必须由输出相关流程使用。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Correlation keys must contain at least one variable.</Name>
+    <LocalName>相关键必须至少包含一个变量。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data associations with a transformation type of Input must specify an item-aware element (of type Data Input) from among those defined on their target activity, which will be transferred to the activity from the data.</Name>
+    <LocalName>具有“输入”转换类型的数据关联必须指定在其目标活动上定义的元素中的项目感知元素（类型为数据输入），该元素将从数据传输到活动。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data associations with a transformation type of Output must specify an item-aware element (of type Data Output) from among those defined on their source activity, which will be transferred from the activity to the data.</Name>
+    <LocalName>具有“输出”转换类型的数据关联必须指定在其源活动上定义的元素中的项目感知元素（类型为数据输出），该元素将从活动传输到数据。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data associations/resource flows must go from an activity/process or from a data object/resource.</Name>
+    <LocalName>数据关联/资源流必须来自活动/流程或数据对象/资源。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data associations/resource flows must point to (have as a destination) an activity/process or a data object/resource.</Name>
+    <LocalName>数据关联/资源流必须指向（将其作为目标）活动/流程或数据对象/资源。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data object references are not permitted in tasks or events</Name>
+    <LocalName>数据对象引用不允许出现在任务或事件中</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data object references must reference valid data objects.</Name>
+    <LocalName>数据对象引用必须引用有效的数据对象。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data object references must specify the data object to which they are a reference.</Name>
+    <LocalName>数据对象引用必须指定将其作为引用的数据对象。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data objects are not permitted in tasks or events</Name>
+    <LocalName>数据对象不允许出现在任务或事件中</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data objects/resources must be linked to at least one activity/process.</Name>
+    <LocalName>数据对象/资源必须至少链接到一个活动/流程。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data transformations must specify a target variable to receive the result of the transformation.</Name>
+    <LocalName>数据转换必须指定要接收转换结果的目标变量。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data transformations must specify an XPath or XSLT transformation expression.</Name>
+    <LocalName>数据转换必须指定 XPath 或 XSLT 转换表达式。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Decision name uniqueness</Name>
+    <LocalName>决策名称唯一性</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Duplicate definition</Name>
+    <LocalName>重复定义</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Each activity or intermediate event must not have more than one default flow.</Name>
+    <LocalName>每个活动或中间事件不能有多个缺省流。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Each choreography task must not have more than one default flow.</Name>
+    <LocalName>每个设计任务不能有多个缺省流。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Each gateway must not have more than one default flow.</Name>
+    <LocalName>每个网关不能有多个缺省流。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>End events of type Cancel are not permitted at the top level or in event sub-processes. They are only permitted in transactions.</Name>
+    <LocalName>类型为“取消”的结束事件不允许出现在顶级或事件子流程中。 只允许出现在事务中。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>End name uniqueness</Name>
+    <LocalName>结束名称唯一性</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Ends must have at least one input flow.</Name>
+    <LocalName>结束必须至少有一个输入流。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Event name uniqueness</Name>
+    <LocalName>事件名称唯一性</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Event sub-processes must have exactly one start event.</Name>
+    <LocalName>事件子流程必须只有一个开始事件。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Event sub-processes must not have any incoming flows.</Name>
+    <LocalName>事件子流程不能有任何传入流。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Event sub-processes must not have any outgoing flows.</Name>
+    <LocalName>事件子流程不能有任何传出流。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Events and tasks must only contain item-aware objects of type Data Input or Data Output.</Name>
+    <LocalName>事件和任务必须仅包含类型为“数据输入”或“数据输出”的项目感知对象。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Events must bear a stereotype to define what type of event it is.</Name>
+    <LocalName>事件必须具有构造型以定义其事件类型。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Events must not be decomposed. They must not contain other objects.</Name>
+    <LocalName>事件不得分解。 不得包含其他对象。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Events must not be specified as reusable.</Name>
+    <LocalName>事件不能指定为可重用。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Flow name uniqueness</Name>
+    <LocalName>流名称唯一性</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Flows must either specify a message format or have their message format set to &lt;None&gt;.</Name>
+    <LocalName>流必须指定消息格式或将其消息格式设置为 &lt;无&gt;。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Flows must have both a source and a destination object.</Name>
+    <LocalName>流必须同时具有源和目标对象。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Gateways must not have more than one default outgoing flow.</Name>
+    <LocalName>网关不能有多个缺省传出流。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Gateways/decisions must have more than one output flow to represent a split (conditional branch) or more than one input flow to represent a merge.</Name>
+    <LocalName>网关/决策必须有多个输出流以表示拆分（条件分支），或者有多个输入流以表示合并。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Inconsistent correlation keys</Name>
+    <LocalName>不一致相关键</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Initiating and return messages must share the same correlation property of the same correlation key.</Name>
+    <LocalName>启动消息和返回消息必须共享相同相关键的相同相关属性。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Initiating and return messages with inconsistent correlation settings</Name>
+    <LocalName>相关设置不一致的启动和返回消息</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Initiating message not message flow</Name>
+    <LocalName>启动消息不是消息流</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Initiating messages must be of stereotype &quot;Message Flow&quot;.</Name>
+    <LocalName>启动消息的构造型必须为“消息流”。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Interfaces must contain at least one operation.</Name>
+    <LocalName>接口必须至少包含一个操作。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid correlation properties</Name>
+    <LocalName>无效相关属性</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid correlation property</Name>
+    <LocalName>无效相关属性</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid data object</Name>
+    <LocalName>无效数据对象</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid decomposition</Name>
+    <LocalName>无效分解</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid destination</Name>
+    <LocalName>无效目标</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid event definitions</Name>
+    <LocalName>无效事件定义</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid for export</Name>
+    <LocalName>对于导出无效</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid implementation</Name>
+    <LocalName>无效实现</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid implementation type</Name>
+    <LocalName>无效实现类型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid incoming flows</Name>
+    <LocalName>无效传入流</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid item-aware elements</Name>
+    <LocalName>无效项目感知元素</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid message format</Name>
+    <LocalName>无效消息格式</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid outgoing flows</Name>
+    <LocalName>无效传出流</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid reusability</Name>
+    <LocalName>无效可重用性</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid source</Name>
+    <LocalName>无效源</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid source item</Name>
+    <LocalName>无效源项目</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid target item</Name>
+    <LocalName>无效目标项目</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Item-aware elements of type Data Input are not permitted in intermediate catch events.</Name>
+    <LocalName>类型为“数据输入”的项目感知元素不允许出现在中间捕获事件中。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Item-aware elements of type Data Input are not permitted in message start events.</Name>
+    <LocalName>类型为“数据输入”的项目感知元素不允许出现在消息开始事件中。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Item-aware elements of type Data Output are not permitted in intermediate throw events.</Name>
+    <LocalName>类型为“数据输出”的项目感知元素不允许出现在中间抛出事件中。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Item-aware elements of type Data Output are not permitted in message end events.</Name>
+    <LocalName>类型为“数据输出”的项目感知元素不允许出现在消息结束事件中。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Manual tasks cannot be exported to a NetWeaver BPMN2 file.</Name>
+    <LocalName>手动任务无法导出到 NetWeaver BPMN2 文件。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Message Format name uniqueness</Name>
+    <LocalName>消息格式名称唯一性</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Message flows can only go from (have as sources) activities, pools, throwing message intermediate events, or message end events.</Name>
+    <LocalName>消息流只能来自（将其作为源）活动、池、抛出消息中间事件或消息结束事件。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Message flows can only point to (have as destinations) activities, pools, catching message intermediate events, or  message start events.</Name>
+    <LocalName>消息流只能指向（将其作为目标）活动、池、捕获消息中间事件或消息开始事件。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Message flows can only point to (have as destinations) activities, pools, catching message intermediate events, or message start events.</Name>
+    <LocalName>消息流只能指向（将其作为目标）活动、池、捕获消息中间事件或消息开始事件。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Message flows must be connected to a maximum of one (not reusable) initiating and one return choreography task.</Name>
+    <LocalName>消息流必须至多连接到一个（不可重用）启动和一个返回设计任务。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Message flows must specify a correlation property from among those defined in their correlation key.</Name>
+    <LocalName>消息流必须指定在其相关键中定义的相关属性。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Message formats must not have the same definition as another message format.</Name>
+    <LocalName>消息格式的定义不能彼此相同。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing assigned variable</Name>
+    <LocalName>缺少已分配变量</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing data object</Name>
+    <LocalName>缺少数据对象</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing destination</Name>
+    <LocalName>缺少目标</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing end</Name>
+    <LocalName>缺少结束</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing incoming flow</Name>
+    <LocalName>缺少传入流</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing input message (One-Way)</Name>
+    <LocalName>缺少输入消息（单向）</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing input message (Request-Response)</Name>
+    <LocalName>缺少输入消息（请求响应）</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing input message (Solicit Response)</Name>
+    <LocalName>缺少输入消息（征求响应）</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing interfaces</Name>
+    <LocalName>缺少接口</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing operations</Name>
+    <LocalName>缺少操作</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing outgoing flow</Name>
+    <LocalName>缺少传出流</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing output message (Notification)</Name>
+    <LocalName>缺少输出消息（通知）</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing output message (Request-Response)</Name>
+    <LocalName>缺少输出消息（请求响应）</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing output message (Solicit Response)</Name>
+    <LocalName>缺少输出消息（征求响应）</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing source</Name>
+    <LocalName>缺少源</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing source item</Name>
+    <LocalName>缺少源项目</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing start</Name>
+    <LocalName>缺少开始</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing stereotype</Name>
+    <LocalName>缺少构造型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing target item</Name>
+    <LocalName>缺少目标项目</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing transformation expression</Name>
+    <LocalName>缺少转换表达式</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing variables</Name>
+    <LocalName>缺少变量</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Multiple end events can only contain Message, Error, Escalation, Cancel, Compensation, Signal, and Terminate event definitions.</Name>
+    <LocalName>多重结束事件只能包含消息、错误、升级、取消、补偿、信号和终止事件定义。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Multiple events must contain at least two event definitions.</Name>
+    <LocalName>多重事件必须至少包含两个事件定义。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Multiple intermediate catching events can only contain Message, Timer, Conditional, Link, and Signal event definitions.</Name>
+    <LocalName>多重中间捕获事件只能包含消息、计时器、条件、链接和信号事件定义。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Multiple intermediate throwing events can only contain Message, Escalation, Link, Compensation, and Signal event definitions.</Name>
+    <LocalName>多重中间抛出事件只能包含消息、升级、链接、补偿和信号事件定义。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Not permitted at top level</Name>
+    <LocalName>不允许在顶级</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Not permitted in ad-hoc sub-process</Name>
+    <LocalName>不允许在即席子流程中</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Not permitted in event sub-process</Name>
+    <LocalName>不允许在事件子流程中</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Not permitted in intermediate catch events</Name>
+    <LocalName>不允许在中间捕获事件中</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Not permitted in intermediate throw events</Name>
+    <LocalName>不允许在中间抛出事件中</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Not permitted in message end events</Name>
+    <LocalName>不允许在消息结束事件中</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Not permitted in message start events</Name>
+    <LocalName>不允许在消息开始事件中</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Not permitted in sub-process</Name>
+    <LocalName>不允许在子流程中</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Not permitted in tasks or events</Name>
+    <LocalName>不允许在任务或事件中</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Notification operations must specify an output message.</Name>
+    <LocalName>通知操作必须指定输出消息。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Object names and codes must be unique for objects of the same type in the namespace.</Name>
+    <LocalName>对于命名空间中类型相同的对象，对象名和代码必须唯一。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>One-way operations must specify an input message.</Name>
+    <LocalName>单向操作必须指定输入消息。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Only permitted in transactions</Name>
+    <LocalName>仅允许在事务中</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Operation name uniqueness</Name>
+    <LocalName>操作名称唯一性</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Organization Unit name uniqueness</Name>
+    <LocalName>组织单位名称唯一性</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Parallel multiple intermediate catching events can only contain Message, Timer, Conditional, Link, and Signal event definitions.</Name>
+    <LocalName>并行多重中间捕获事件只能包含消息、计时器、条件、链接和信号事件定义。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Process name uniqueness</Name>
+    <LocalName>流程名称唯一性</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Request-response operations must specify both an input and an output message.</Name>
+    <LocalName>请求响应操作必须同时指定输入和输出消息。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Resource Flow name uniqueness</Name>
+    <LocalName>资源流名称唯一性</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Resource flows must specify one or more CRUD (Create, Read, Update, or Delete) access modes to show how the resource will be used.</Name>
+    <LocalName>资源流必须指定一个或多个 CRUD（创建、读取、更新或删除）访问模式以显示资源的使用方式。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Resource name uniqueness</Name>
+    <LocalName>资源名称唯一性</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Return message not message flow</Name>
+    <LocalName>返回消息不是消息流</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Return messages must be of stereotype &quot;Message Flow&quot;.</Name>
+    <LocalName>返回消息的构造型必须为“消息流”。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Sequence flows must not have message formats attached to them.</Name>
+    <LocalName>顺序流不能附加消息格式。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Service Interface name uniqueness</Name>
+    <LocalName>服务接口名称唯一性</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Service Provider name uniqueness</Name>
+    <LocalName>服务提供程序名称唯一性</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Service providers must contain at least one interface.</Name>
+    <LocalName>服务提供程序必须至少包含一个接口。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Solicit response operations must specify both an input and an output message.</Name>
+    <LocalName>征求响应操作必须同时指定输入和输出消息。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Start and end events are not permitted in ad-hoc sub-processes.</Name>
+    <LocalName>开始事件和结束事件不允许出现在即席子流程中。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Start events of type Compensation are only permitted in event sub-processes.</Name>
+    <LocalName>类型为“补偿”的开始事件只允许出现在事件子流程中。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Start events of type Error are only permitted in event sub-processes.</Name>
+    <LocalName>类型为“错误”的开始事件只允许出现在事件子流程中。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Start events of type Escalation are only permitted in event sub-processes.</Name>
+    <LocalName>类型为“升级”的开始事件只允许出现在事件子流程中。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Start events of type Standard are not permitted in event sub-processes.</Name>
+    <LocalName>类型为“标准”的开始事件不允许出现在事件子流程中。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Start events that are not of type Standard are not permitted in sub-processes.</Name>
+    <LocalName>类型不是“标准”的开始事件不允许出现在子流程中。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Start name uniqueness</Name>
+    <LocalName>开始名称唯一性</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Starts must have at least one output flow.</Name>
+    <LocalName>开始必须至少有一个输出流。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Sub-processes/composite processes must have at least one end.</Name>
+    <LocalName>子流程/复合流程必须至少有一个结束。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Sub-processes/composite processes must have at least one start.</Name>
+    <LocalName>子流程/复合流程必须至少有一个开始。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Tasks must not contain other objects. Only sub-processes and other composite activities can contain other objects.</Name>
+    <LocalName>任务不得包含其他对象。 只有子流程和其他复合活动可以包含其他对象。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>This check ensures that all properties have a stereotype &quot;Correlation Property&quot;</Name>
+    <LocalName>此检查确保所有属性均具有构造型“相关属性”</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Too few event definitions</Name>
+    <LocalName>事件定义过少</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Too few input or output flows</Name>
+    <LocalName>输入或输出流过少</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Too many choreography tasks</Name>
+    <LocalName>设计任务过多</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Too many default flows</Name>
+    <LocalName>缺省流过多</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Too many start events</Name>
+    <LocalName>开始事件过多</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Undefined access mode</Name>
+    <LocalName>未定义访问模式</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Undefined message format</Name>
+    <LocalName>未定义消息格式</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Unused correlation key in correlated conversation nodes</Name>
+    <LocalName>在相关会话节点中未使用相关键</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Unused correlation key in input correlated processes</Name>
+    <LocalName>在输入相关流程中未使用相关键</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Unused correlation key in output correlated processes</Name>
+    <LocalName>在输出相关流程中未使用相关键</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Unused resource</Name>
+    <LocalName>未使用资源</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Variable name uniqueness</Name>
+    <LocalName>变量名称唯一性</LocalName>
+  </Translation>
+</Translations>

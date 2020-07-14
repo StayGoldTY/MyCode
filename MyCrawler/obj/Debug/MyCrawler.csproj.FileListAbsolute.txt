@@ -1,0 +1,12 @@
+E:\学习不止\MyCrawler\bin\Debug\MyCrawler.exe.config
+E:\学习不止\MyCrawler\bin\Debug\MyCrawler.exe
+E:\学习不止\MyCrawler\bin\Debug\MyCrawler.pdb
+E:\学习不止\MyCrawler\bin\Debug\My.NetFramework.dll
+E:\学习不止\MyCrawler\bin\Debug\log4net.dll
+E:\学习不止\MyCrawler\bin\Debug\My.NetFramework.pdb
+E:\学习不止\MyCrawler\bin\Debug\log4net.xml
+E:\学习不止\MyCrawler\obj\Debug\MyCrawler.csprojAssemblyReference.cache
+E:\学习不止\MyCrawler\obj\Debug\MyCrawler.csproj.CoreCompileInputs.cache
+E:\学习不止\MyCrawler\obj\Debug\MyCrawler.csproj.CopyComplete
+E:\学习不止\MyCrawler\obj\Debug\MyCrawler.exe
+E:\学习不止\MyCrawler\obj\Debug\MyCrawler.pdb

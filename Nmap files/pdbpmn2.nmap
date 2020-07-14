@@ -1,0 +1,3651 @@
+﻿////////////////////////////////////////////////////////////////////////////////////////////
+// In this file, a string with '$VariableName$' format is used for specific config of bpmn2 
+// exporting feature, these strings will be replace with their actual value in preprocess
+////////////////////////////////////////////////////////////////////////////////////////////
+
+using bpmn2 = m3al(Metamodels={ 'urn:emf:http://www.eclipse.org/emf/2002/Ecore', 'urn:emf:http://www.omg.org/spec/DD/20100524/DC', 'urn:emf:http://www.omg.org/spec/DD/20100524/DI', 'urn:emf:http://www.omg.org/spec/BPMN/20100524/DI', 'urn:emf:http://www.omg.org/spec/BPMN/20100524/MODEL' });
+
+src_model : 'pd::PdBPM' => dst_model : 'bpmn2'
+{
+    declare rule_Process(src_container, dst_Definition)
+   {
+      src_Process : src_container.ForEach('Process').Where( Stereotype:Equals('Process') ) =>   dst_Process : 'Process' [%ObjectID%]
+      (
+         dst_Definition.rootElements
+      ,   name = Name
+      ,   ?Comment? (documentation += new 'Documentation' (dst_Process.documentation , text = Comment)) : ()   
+      )
+      {
+         matchonce
+         {
+             _ => 'LaneSet'
+            {
+               invoke rule_OrganizationUnit_Lane (src_Process);
+               
+               src_Process.ForEach('OrganizationUnit').Where(!isHaveLanes) => 'Lane'
+               (
+                  name = 'Default lane'
+               );
+            }
+            
+            _ => dst_spec : 'InputOutputSpecification'
+            {
+               invoke rule_Variable_DataInput(dst_spec);
+            
+               invoke rule_Variable_DataOutput(dst_spec);               
+            }
+            
+            invoke rule_Variable_Property(dst_Process);
+            
+            invoke rule_AllElement(dst_Process, dst_Definition);
+                                          
+            //symbols
+            invoke rule_BusinessProcessDiagram_BPMNDiagram_Process(dst_Definition);
+         }         
+      }
+   }
+   ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+   // Normal Elements
+   ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+   //event definition
+   declare rule_EventDefinition(src_container, dst_container)
+   {
+      src_container.ForEach('EventDefinitions+').Where(Stereotype:Equals('Cancel Event Definition')) => 'CancelEventDefinition'
+      (
+         dst_container.eventDefinitions   
+      );
+         
+      src_container.ForEach('EventDefinitions+').Where(Stereotype:Equals('Compensation Event Definition')) => 'CompensateEventDefinition'
+      (
+         dst_container.eventDefinitions
+      );
+         
+      src_container.ForEach('EventDefinitions+').Where(Stereotype:Equals('Conditional Event Definition')) => 'ConditionalEventDefinition'
+      (
+         dst_container.eventDefinitions   
+      );
+         
+      src_container.ForEach('EventDefinitions+').Where(Stereotype:Equals('Error Event Definition')) => 'ErrorEventDefinition'
+      (
+         dst_container.eventDefinitions   
+      );
+      
+      src_container.ForEach('EventDefinitions+').Where(Stereotype:Equals('Escalation Event Definition')) => 'EscalationEventDefinition'
+      (
+         dst_container.eventDefinitions   
+      );
+         
+      src_container.ForEach('EventDefinitions+').Where(Stereotype:Equals('Link Event Definition')) => 'LinkEventDefinition'
+      (
+         dst_container.eventDefinitions   
+      );
+         
+      src_container.ForEach('EventDefinitions+').Where(Stereotype:Equals('Message Event Definition')) => 'MessageEventDefinition'
+      (
+         dst_container.eventDefinitions   
+      );
+         
+      src_container.ForEach('EventDefinitions+').Where(Stereotype:Equals('Signal Event Definition')) => 'SignalEventDefinition'
+      (
+         dst_container.eventDefinitions   
+      );
+         
+      src_container.ForEach('EventDefinitions+').Where(Stereotype:Equals('Terminate Event Definition')) => 'TerminateEventDefinition'
+      (
+         dst_container.eventDefinitions   
+      );
+         
+      src_container.ForEach('EventDefinitions+').Where(Stereotype:Equals('Timer Event Definition')) => 'TimerEventDefinition'
+      (
+         dst_container.eventDefinitions   
+      );
+   }
+   
+   //boundary event
+   declare rule_BoundaryEventDefinition(src_container, dst_container)
+   {
+      src_container.ForEach('Event').Where(Stereotype:Equals('Cancel')) => 'CancelEventDefinition'
+      (
+         dst_container.eventDefinitions   
+      );
+         
+      src_container.ForEach('Event').Where(Stereotype:Equals('Compensation')) => 'CompensateEventDefinition'
+      (
+         dst_container.eventDefinitions   
+      );
+         
+      src_container.ForEach('Event').Where(Stereotype:Equals('Conditional')) => 'ConditionalEventDefinition'
+      (
+         dst_container.eventDefinitions   
+      );
+         
+      src_container.ForEach('Event').Where(Stereotype:Equals('Error')) => 'ErrorEventDefinition'
+      (
+         dst_container.eventDefinitions   
+      );
+      
+      src_container.ForEach('Event').Where(Stereotype:Equals('Escalation')) => 'EscalationEventDefinition'
+      (
+         dst_container.eventDefinitions   
+      );
+                  
+      src_container.ForEach('Event').Where(Stereotype:Equals('Message')) => 'MessageEventDefinition'
+      (
+         dst_container.eventDefinitions   
+      );
+         
+      src_container.ForEach('Event').Where(Stereotype:Equals('Signal')) => 'SignalEventDefinition'
+      (
+         dst_container.eventDefinitions   
+      );
+                  
+      src_container.ForEach('Event').Where(Stereotype:Equals('Timer')) => 'TimerEventDefinition'
+      (
+         dst_container.eventDefinitions   
+      );
+      
+      src_event : src_container.ForEach('Event').Where(Stereotype:Equals('Parallel Multiple')) => _
+      {
+         invoke rule_EventDefinition(src_event, dst_container);
+      }
+                  
+      src_event : src_container.ForEach('Event').Where(Stereotype:Equals('Multiple')) => _
+      {
+         invoke rule_EventDefinition(src_event, dst_container);
+      }
+   }
+   
+   //package
+   declare rule_Package(dst_container, dst_definition)
+   {
+      src_package : 'Package' => _
+      {
+         invoke rule_Process(src_package,dst_Definition);
+      
+         invoke rule_AllElement(dst_container, dst_definition);
+         
+         invoke rule_BusinessProcessDiagram_BPMNDiagram_Package(dst_definition);
+         
+         invoke rule_Package(dst_container, dst_definition);
+
+         //Golbal elment
+         invoke rule_Process_GlobalTask(dst_definition);
+      }
+   }
+   
+   //All Element
+   declare rule_AllElement(dst_container, dst_definition)
+   {                     
+      invoke rule_SubProcess(dst_container, dst_definition);//muti
+         
+      invoke rule_IntermediateEvent(dst_container);//muti
+            
+      invoke rule_Process_Task(dst_container);//muti
+      
+      invoke rule_Process_CallActivity(dst_container);
+
+      invoke rule_StartEvent(dst_container); //muti
+            
+      invoke rule_EndEvent(dst_container); //muti
+            
+      invoke rule_Decision(dst_container); //muti
+
+      invoke rule_Flow_SequenceFlow(dst_container);
+            
+      invoke rule_Variable_DataObject(dst_container, dst_definition);
+      
+      invoke rule_Variable_DataObjectReference(dst_container);
+      
+      invoke rule_Variable_DataStoreReference(dst_container);
+      
+      invoke rule_Note_TextAnnotation(dst_container);
+         
+      invoke rule_NoteLink_Association(dst_container);
+      
+      invoke rule_TraceabilityLink_Association(dst_container);
+      
+      invoke rule_RoundRectangle_Group(dst_container);
+   }
+   
+   //Start Event
+   declare rule_StartEvent(dst_container)
+   {
+      matchonce
+      {
+         invoke rule_ProcessStart_StartEvent(dst_container);
+         
+         invoke rule_ProcessStart_CompensationStartEvent(dst_container);
+         
+         invoke rule_ProcessStart_ConditionalStartEvent(dst_container);
+
+         invoke rule_ProcessStart_ErrorStartEvent(dst_container);
+
+         invoke rule_ProcessStart_EscalationStartEvent(dst_container);
+
+         invoke rule_ProcessStart_MultipleStartEvent(dst_container);
+         
+         invoke rule_ProcessStart_ParallelMultipleStartEvent(dst_container);
+
+         invoke rule_ProcessStart_SignalStartEvent(dst_container);
+
+         invoke rule_ProcessStart_TimerStartEvent(dst_container);
+
+         invoke rule_Process_MessageStartEvent(dst_container);
+      }
+   }
+   
+   declare rule_ProcessStart_StartEvent(dst_container)
+   {
+      src_start : 'ProcessStart'.Where(Stereotype:Equals('Start Event')) => dst_start : 'StartEvent' [%ObjectID%]
+      (
+         dst_container.flowElements
+      ,   name = Name
+      ,   ?src_start.Comment? (documentation += new 'Documentation' (dst_start.documentation , text = src_start.Comment)) : ()
+      ,   isInterrupting = isInterrupting
+      )
+      {
+         invoke rule_Variable_Property(dst_start);
+
+         invoke rule_Variable_DataOutput(dst_start);
+         
+         invoke rule_ResourceFlow_DataOutputAssociation(src_start, dst_start);
+      }
+   }
+   
+   declare rule_ProcessStart_CompensationStartEvent(dst_container)
+   {
+      src_start : 'ProcessStart'.Where(Stereotype:Equals('Compensation Start Event')) => dst_start : 'StartEvent' [%ObjectID%]
+      (
+         dst_container.flowElements
+      ,   name = Name
+      ,   ?src_start.Comment? (documentation += new 'Documentation' (dst_start.documentation , text = src_start.Comment)) : ()   
+      ,   isInterrupting = isInterrupting
+      )
+      {
+         _ => 'CompensateEventDefinition'
+         (
+            dst_start.eventDefinitions
+         );
+
+         invoke rule_Variable_Property(dst_start);
+         
+         invoke rule_Variable_DataOutput(dst_start);
+         
+         invoke rule_ResourceFlow_DataOutputAssociation(src_start, dst_start);
+      }
+   }
+   
+   declare rule_ProcessStart_ConditionalStartEvent(dst_container)
+   {
+      src_start : 'ProcessStart'.Where(Stereotype:Equals('Conditional Start Event')) => dst_start : 'StartEvent' [%ObjectID%]
+      (
+         dst_container.flowElements      
+      ,   name = Name   
+      ,   ?src_start.Comment? (documentation += new 'Documentation' (dst_start.documentation , text = src_start.Comment)) : ()
+      ,   isInterrupting = isInterrupting
+      )
+      {
+         _ => 'ConditionalEventDefinition'
+         (
+            dst_start.eventDefinitions   
+         );
+         
+         invoke rule_Variable_Property(dst_start);
+         
+         invoke rule_Variable_DataOutput(dst_start);
+         
+         invoke rule_ResourceFlow_DataOutputAssociation(src_start, dst_start);
+      }
+   }
+   
+   declare rule_ProcessStart_ErrorStartEvent(dst_container)
+   {
+      src_start : 'ProcessStart'.Where(Stereotype:Equals('Error Start Event')) => dst_start : 'StartEvent' [%ObjectID%]
+      (
+         dst_container.flowElements
+      ,   name = Name   
+      ,   ?src_start.Comment? (documentation += new 'Documentation' (dst_start.documentation , text = src_start.Comment)) : ()
+      ,   isInterrupting = isInterrupting
+      )
+      {
+         _ => 'ErrorEventDefinition'
+         (
+            dst_start.eventDefinitions   
+         );
+         
+         invoke rule_Variable_Property(dst_start);
+         
+         invoke rule_Variable_DataOutput(dst_start);
+         
+         invoke rule_ResourceFlow_DataOutputAssociation(src_start, dst_start);
+      }
+   }
+   
+   declare rule_ProcessStart_EscalationStartEvent(dst_container)
+   {
+      src_start : 'ProcessStart'.Where(Stereotype:Equals('Escalation Start Event')) => dst_start : 'StartEvent' [%ObjectID%]
+      (
+         dst_container.flowElements      
+      ,   name = Name   
+      ,   ?src_start.Comment? (documentation += new 'Documentation' (dst_start.documentation , text = src_start.Comment)) : ()
+      ,   isInterrupting = isInterrupting
+      )
+      {
+         _ => 'EscalationEventDefinition'
+         (
+            dst_start.eventDefinitions   
+         );
+         
+         invoke rule_Variable_Property(dst_start);
+         
+         invoke rule_Variable_DataOutput(dst_start);
+         
+         invoke rule_ResourceFlow_DataOutputAssociation(src_start, dst_start);
+      }
+   }
+   
+   declare rule_ProcessStart_MultipleStartEvent(dst_container) 
+   {
+      src_start : 'ProcessStart'.Where(Stereotype:Equals('Multiple Start Event')) => dst_start : 'StartEvent' [%ObjectID%]
+      (
+         dst_container.flowElements   
+      ,   name = Name   
+      ,   ?src_start.Comment? (documentation += new 'Documentation' (dst_start.documentation , text = src_start.Comment)) : ()
+      ,   isInterrupting = isInterrupting
+      )
+      {
+         invoke rule_EventDefinition(src_start, dst_start);
+         
+         invoke rule_Variable_Property(dst_start);
+         
+         invoke rule_Variable_DataOutput(dst_start);
+         
+         invoke rule_ResourceFlow_DataOutputAssociation(src_start, dst_start);
+      }
+   }
+   
+   declare rule_ProcessStart_ParallelMultipleStartEvent(dst_container) 
+   {
+      src_start : 'ProcessStart'.Where(Stereotype:Equals('Parallel Multiple Start Event')) => dst_start : 'StartEvent' [%ObjectID%]
+      (
+         dst_container.flowElements   
+      ,   name = Name   
+      ,   ?src_start.Comment? (documentation += new 'Documentation' (dst_start.documentation , text = src_start.Comment)) : ()
+      ,   isInterrupting = isInterrupting
+      ,   parallelMultiple = true
+      )
+      {
+         invoke rule_EventDefinition(src_start, dst_start);
+         
+         invoke rule_Variable_Property(dst_start);
+         
+         invoke rule_Variable_DataOutput(dst_start);
+         
+         invoke rule_ResourceFlow_DataOutputAssociation(src_start, dst_start);
+      }
+   }
+   
+   declare rule_ProcessStart_SignalStartEvent(dst_container)
+   {
+      src_start : 'ProcessStart'.Where(Stereotype:Equals('Signal Start Event')) => dst_start : 'StartEvent' [%ObjectID%]
+      (
+         dst_container.flowElements
+      ,   name = Name   
+      ,   ?src_start.Comment? (documentation += new 'Documentation' (dst_start.documentation , text = src_start.Comment)) : ()
+      ,   isInterrupting = isInterrupting
+      )
+      {
+         _ => 'SignalEventDefinition'
+         (
+            dst_start.eventDefinitions   
+         );
+         
+         invoke rule_Variable_Property(dst_start);
+         
+         invoke rule_Variable_DataOutput(dst_start);
+         
+         invoke rule_ResourceFlow_DataOutputAssociation(src_start, dst_start);
+      }
+   }
+   
+   declare rule_ProcessStart_TimerStartEvent(dst_container)
+   {
+      src_start : 'ProcessStart'.Where(Stereotype:Equals('Timer Start Event')) => dst_start : 'StartEvent' [%ObjectID%]
+      (
+         dst_container.flowElements
+      ,   name = Name   
+      ,   ?src_start.Comment? (documentation += new 'Documentation' (dst_start.documentation , text = src_start.Comment)) : ()
+      ,   isInterrupting = isInterrupting
+      )
+      {
+         _ => 'TimerEventDefinition'
+         (
+            dst_start.eventDefinitions   
+         );
+         
+         invoke rule_Variable_Property(dst_start);
+         
+         invoke rule_Variable_DataOutput(dst_start);
+         
+         invoke rule_ResourceFlow_DataOutputAssociation(src_start, dst_start);
+      }
+   }
+   
+   
+   declare rule_Process_MessageStartEvent(dst_container)
+   {
+      src_start : 'Process'.Where(Stereotype:Equals('Message Start Event')) => dst_start : 'StartEvent' [%ObjectID%]
+      (
+         dst_container.flowElements      
+      ,   name = Name   
+      ,   ?src_start.Comment? (documentation += new 'Documentation' (dst_start.documentation , text = src_start.Comment)) : ()
+      ,   isInterrupting = isInterrupting
+      )
+      {
+         _ => 'MessageEventDefinition'
+         (
+            dst_start.eventDefinitions
+         ,   ?src_start.Message+? (messageRef = map src_start.Message+) : ()      
+         );
+         
+         invoke rule_Variable_Property(dst_start);
+         
+         invoke rule_Variable_DataOutput(dst_start);
+         
+         invoke rule_ResourceFlow_DataOutputAssociation(src_start, dst_start);
+      }
+   }
+   
+   //End Event
+   declare rule_EndEvent(dst_container)
+   {
+      matchonce
+      {
+         invoke rule_ProcessEnd_EndEvent(dst_container);
+         
+         invoke rule_ProcessEnd_TerminateEndEvent(dst_container);
+         
+         invoke rule_ProcessEnd_CancelEndEvent(dst_container);
+         
+         invoke rule_ProcessEnd_CompensationEndEvent(dst_container);
+         
+         invoke rule_ProcessEnd_ErrorEndEvent(dst_container);
+         
+         invoke rule_ProcessEnd_EscalationEndEvent(dst_container);
+         
+         invoke rule_ProcessEnd_MultipleEndEvent(dst_container);
+         
+         invoke rule_ProcessEnd_SignalEndEvent(dst_container);
+         
+         invoke rule_Process_MessageEndEvent(dst_container);
+      }
+   }
+   
+   declare rule_ProcessEnd_EndEvent(dst_container)
+   {
+      src_end : 'ProcessEnd'.Where(Stereotype:Equals('End Event')) => dst_end : 'EndEvent'
+      (
+         dst_container.flowElements      
+      ,   name = Name
+      ,   ?src_end.Comment? (documentation += new 'Documentation' (dst_end.documentation , text = src_end.Comment)) : ()
+      )
+      {
+         invoke rule_Variable_Property(dst_end);
+         
+         invoke rule_Variable_DataInput(dst_end);
+         
+         invoke rule_ResourceFlow_DataInputAssociation(src_end, dst_end);
+      }
+   }
+   
+   declare rule_ProcessEnd_TerminateEndEvent(dst_container)
+   {
+      src_end : 'ProcessEnd'.Where(Stereotype:Equals('Terminate End Event')) => dst_end : 'EndEvent'
+      (
+         dst_container.flowElements      
+      ,   name = Name   
+      ,   ?src_end.Comment? (documentation += new 'Documentation' (dst_end.documentation , text = src_end.Comment)) : ()
+      )
+      {
+         _ => 'TerminateEventDefinition'
+         (
+            dst_end.eventDefinitions   
+         );
+         
+         invoke rule_Variable_Property(dst_end);
+         
+         invoke rule_Variable_DataInput(dst_end);
+         
+         invoke rule_ResourceFlow_DataInputAssociation(src_end, dst_end);
+      }
+   }
+   
+   declare rule_ProcessEnd_CancelEndEvent(dst_container)
+   {
+      src_end : 'ProcessEnd'.Where(Stereotype:Equals('Cancel End Event')) => dst_end : 'EndEvent'
+      (
+         dst_container.flowElements      
+      ,   name = Name   
+      ,   ?src_end.Comment? (documentation += new 'Documentation' (dst_end.documentation , text = src_end.Comment)) : ()
+      )
+      {
+         _ => 'CancelEventDefinition'
+         (
+            dst_end.eventDefinitions
+         );
+         
+         invoke rule_Variable_Property(dst_end);
+         
+         invoke rule_Variable_DataInput(dst_end);
+         
+         invoke rule_ResourceFlow_DataInputAssociation(src_end, dst_end);
+      }
+   }
+   
+   declare rule_ProcessEnd_CompensationEndEvent(dst_container)
+   {
+      src_end : 'ProcessEnd'.Where(Stereotype:Equals('Compensation End Event')) => dst_end : 'EndEvent'
+      (
+         dst_container.flowElements      
+      ,   name = Name   
+      ,   ?src_end.Comment? (documentation += new 'Documentation' (dst_end.documentation , text = src_end.Comment)) : ()
+      )
+      {
+         _ => 'CompensateEventDefinition'
+         (
+            dst_end.eventDefinitions   
+         );
+         
+         invoke rule_Variable_Property(dst_end);
+         
+         invoke rule_Variable_DataInput(dst_end);
+         
+         invoke rule_ResourceFlow_DataInputAssociation(src_end, dst_end);
+      }
+   }
+   
+   declare rule_ProcessEnd_ErrorEndEvent(dst_container)
+   {
+      src_end : 'ProcessEnd'.Where(Stereotype:Equals('Error End Event')) => dst_end : 'EndEvent'
+      (
+         dst_container.flowElements      
+      ,   name = Name   
+      ,   ?src_end.Comment? (documentation += new 'Documentation' (dst_end.documentation , text = src_end.Comment)) : ()
+      )
+      {
+         _ => 'ErrorEventDefinition'
+         (
+            dst_end.eventDefinitions   
+         );
+         
+         invoke rule_Variable_Property(dst_end);
+         
+         invoke rule_Variable_DataInput(dst_end);
+         
+         invoke rule_ResourceFlow_DataInputAssociation(src_end, dst_end);
+      }
+   }
+   
+   declare rule_ProcessEnd_EscalationEndEvent(dst_container)
+   {
+      src_end : 'ProcessEnd'.Where(Stereotype:Equals('Escalation End Event')) => dst_end : 'EndEvent'
+      (
+         dst_container.flowElements      
+      ,   name = Name   
+      ,   ?src_end.Comment? (documentation += new 'Documentation' (dst_end.documentation , text = src_end.Comment)) : ()
+      )
+      {
+         _ => 'EscalationEventDefinition'
+         (
+            dst_end.eventDefinitions   
+         );
+         
+         invoke rule_Variable_Property(dst_end);
+         
+         invoke rule_Variable_DataInput(dst_end);
+         
+         invoke rule_ResourceFlow_DataInputAssociation(src_end, dst_end);
+      }
+   }
+   
+   declare rule_ProcessEnd_SignalEndEvent(dst_container)
+   {
+      src_end : 'ProcessEnd'.Where(Stereotype:Equals('Signal End Event')) => dst_end : 'EndEvent'
+      (
+         dst_container.flowElements      
+      ,   name = Name   
+      ,   ?src_end.Comment? (documentation += new 'Documentation' (dst_end.documentation , text = src_end.Comment)) : ()
+      )
+      {
+         _ => 'SignalEventDefinition'
+         (
+            dst_end.eventDefinitions   
+         );
+         
+         invoke rule_Variable_Property(dst_end);
+         
+         invoke rule_Variable_DataInput(dst_end);
+         
+         invoke rule_ResourceFlow_DataInputAssociation(src_end, dst_end);
+      }
+   }
+   
+   declare rule_Process_MessageEndEvent(dst_container)
+   {
+      src_end : 'Process'.Where(Stereotype:Equals('Message End Event')) => dst_end : 'EndEvent'
+      (
+         dst_container.flowElements      
+      ,   name = Name
+      ,   ?src_end.Comment? (documentation += new 'Documentation' (dst_end.documentation , text = src_end.Comment)) : ()
+      )
+      {
+         _ => 'MessageEventDefinition'
+         (
+            dst_end.eventDefinitions
+         ,   ?src_end.Message+? (messageRef = map src_end.Message+) : ()         
+         );
+         
+         invoke rule_Variable_Property(dst_end);
+         
+         invoke rule_Variable_DataInput(dst_end);
+         
+         invoke rule_ResourceFlow_DataInputAssociation(src_end, dst_end);
+      }
+   }
+   
+   declare rule_ProcessEnd_MultipleEndEvent(dst_container) 
+   {
+      src_end : 'ProcessEnd'.Where(Stereotype:Equals('Multiple End Event')) => dst_end : 'EndEvent'
+      (
+         dst_container.flowElements   
+      ,   name = Name   
+      ,   ?src_end.Comment? (documentation += new 'Documentation' (dst_end.documentation , text = src_end.Comment)) : ()
+      )
+      {
+         invoke rule_EventDefinition(src_end, dst_end);
+         
+         invoke rule_Variable_Property(dst_end);
+         
+         invoke rule_Variable_DataInput(dst_end);
+         
+         invoke rule_ResourceFlow_DataInputAssociation(src_end, dst_end);
+      }
+   }
+
+   //Task   
+   declare rule_Process_Task (dst_container)
+   {
+      src_task : 'Process'.Where(Stereotype:Equals('Task') && Reusable:Equals(false)) => dst_task : 'Task'
+      (
+         dst_container.flowElements         
+      ,   name = Name
+      ,   ?src_task.Comment? (documentation += new 'Documentation' (dst_task.documentation , text = src_task.Comment)) : ()
+      ,   isForCompensation = Compensation+
+      ,   startQuantity = StartQuantity+ : ObjectToInt()
+      ,   completionQuantity = CompletionQuantity+ : ObjectToInt()
+      ,   ?src_task.normalLoopCharacteristics? (loopCharacteristics = new 'StandardLoopCharacteristics' (dst_task.loopCharacteristics) ) : ()
+      ,   ?src_task.parallelLoopCharacteristics? (loopCharacteristics = new 'MultiInstanceLoopCharacteristics' (dst_task.loopCharacteristics, isSequential = false) ) : ()
+      ,   ?src_task.sequentialLoopCharacteristics? (loopCharacteristics = new 'MultiInstanceLoopCharacteristics' (dst_task.loopCharacteristics, isSequential = true) ) : ()
+      ,   ?src_task.defaultSequenceFlow? (default = map src_task.defaultSequenceFlow) : ()
+      )
+      {
+         invoke rule_Variable_Property(dst_task);
+         
+         _ => dst_spec : 'InputOutputSpecification'
+         {
+            invoke rule_Variable_DataInput(dst_spec);
+            
+            invoke rule_Variable_DataOutput(dst_spec);
+         }
+         
+         matchonce
+         {            
+            invoke rule_ResourceFlow_DataInputAssociation(src_task, dst_task);
+            
+            invoke rule_ResourceFlow_DataOutputAssociation(src_task, dst_task);
+         }
+      }
+      
+      matchonce
+      {
+         invoke rule_Process_BusinessRuleTask(dst_container);
+         
+         invoke rule_Process_ManualTask(dst_container);
+         
+         invoke rule_Process_ReceiveTask(dst_container);
+         
+         invoke rule_Process_ScriptTask(dst_container);
+         
+         invoke rule_Process_SendTask(dst_container);
+         
+         invoke rule_Process_ServiceTask(dst_container);
+         
+         invoke rule_Process_UserTask(dst_container);
+      }      
+   }
+          
+   declare rule_Process_BusinessRuleTask(dst_container)
+   {
+      src_task : 'Process'.Where(Stereotype:Equals('Business Rule Task') && Reusable:Equals(false)) => dst_task :'BusinessRuleTask'
+      (
+         dst_container.flowElements         
+      ,   name = Name
+      ,   ?src_task.Comment? (documentation += new 'Documentation' (dst_task.documentation , text = src_task.Comment)) : ()
+      ,   isForCompensation = Compensation+
+      ,   startQuantity = StartQuantity+ : ObjectToInt()
+      ,   completionQuantity = CompletionQuantity+ : ObjectToInt()
+      ,   implementation = ImplementationTechnology+
+      ,   ?src_task.normalLoopCharacteristics? (loopCharacteristics = new 'StandardLoopCharacteristics' (dst_task.loopCharacteristics) ) : ()
+      ,   ?src_task.parallelLoopCharacteristics? (loopCharacteristics = new 'MultiInstanceLoopCharacteristics' (dst_task.loopCharacteristics, isSequential = false) ) : ()
+      ,   ?src_task.sequentialLoopCharacteristics? (loopCharacteristics = new 'MultiInstanceLoopCharacteristics' (dst_task.loopCharacteristics, isSequential = true) ) : ()
+      ,   ?src_task.defaultSequenceFlow? (default = map src_task.defaultSequenceFlow) : ()
+      )
+      {
+         invoke rule_Variable_Property(dst_task);
+      
+            _ => dst_spec : 'InputOutputSpecification'
+         {
+            invoke rule_Variable_DataInput(dst_spec);
+            
+            invoke rule_Variable_DataOutput(dst_spec);
+         }
+         
+         matchonce
+         {
+            invoke rule_ResourceFlow_DataInputAssociation(src_task, dst_task);
+            
+            invoke rule_ResourceFlow_DataOutputAssociation(src_task, dst_task);
+         }
+      }
+   }
+   
+   declare rule_Process_ManualTask(dst_container)
+   {
+      src_task : 'Process'.Where(Stereotype:Equals('Manual Task') && Reusable:Equals(false)) => dst_task : 'ManualTask'
+      (
+         dst_container.flowElements         
+      ,   name = Name
+      ,   ?src_task.Comment? (documentation += new 'Documentation' (dst_task.documentation , text = src_task.Comment)) : ()
+      ,   isForCompensation = Compensation+
+      ,   startQuantity = StartQuantity+ : ObjectToInt()
+      ,   completionQuantity = CompletionQuantity+ : ObjectToInt()
+      ,   ?src_task.normalLoopCharacteristics? (loopCharacteristics = new 'StandardLoopCharacteristics' (dst_task.loopCharacteristics) ) : ()
+      ,   ?src_task.parallelLoopCharacteristics? (loopCharacteristics = new 'MultiInstanceLoopCharacteristics' (dst_task.loopCharacteristics, isSequential = false) ) : ()
+      ,   ?src_task.sequentialLoopCharacteristics? (loopCharacteristics = new 'MultiInstanceLoopCharacteristics' (dst_task.loopCharacteristics, isSequential = true) ) : ()
+      ,   ?src_task.defaultSequenceFlow? (default = map src_task.defaultSequenceFlow) : ()
+      )
+      {
+         invoke rule_Variable_Property(dst_task);
+         
+         _ => dst_spec : 'InputOutputSpecification'
+         {
+            invoke rule_Variable_DataInput(dst_spec);
+            
+            invoke rule_Variable_DataOutput(dst_spec);
+         }
+         
+         matchonce
+         {
+            invoke rule_ResourceFlow_DataInputAssociation(src_task, dst_task);
+            
+            invoke rule_ResourceFlow_DataOutputAssociation(src_task, dst_task);
+         }
+      }
+   }
+         
+   declare rule_Process_ReceiveTask(dst_container)
+   {
+      src_task : 'Process'.Where(Stereotype:Equals('Receive Task')) => dst_task : 'ReceiveTask'
+      (
+         dst_container.flowElements         
+      ,   name = Name
+      ,   ?src_task.Comment? (documentation += new 'Documentation' (dst_task.documentation , text = src_task.Comment)) : ()
+      ,   isForCompensation = Compensation+
+      ,   startQuantity = StartQuantity+ : ObjectToInt()
+      ,   completionQuantity = CompletionQuantity+ : ObjectToInt()
+      ,   implementation = ImplementationTechnology+
+      ,   instantiate = Instantiate+
+      ,   operationRef = map Implementer
+      ,   ?src_task.normalLoopCharacteristics? (loopCharacteristics = new 'StandardLoopCharacteristics' (dst_task.loopCharacteristics) ) : ()
+      ,   ?src_task.parallelLoopCharacteristics? (loopCharacteristics = new 'MultiInstanceLoopCharacteristics' (dst_task.loopCharacteristics, isSequential = false) ) : ()
+      ,   ?src_task.sequentialLoopCharacteristics? (loopCharacteristics = new 'MultiInstanceLoopCharacteristics' (dst_task.loopCharacteristics, isSequential = true) ) : ()
+      ,   ?src_task.defaultSequenceFlow? (default = map src_task.defaultSequenceFlow) : ()
+      )
+      {
+         invoke rule_Variable_Property(dst_task);
+         
+         _ => dst_spec : 'InputOutputSpecification'
+         {
+            invoke rule_Variable_DataInput(dst_spec);
+            
+            invoke rule_Variable_DataOutput(dst_spec);
+         }
+         
+         matchonce
+         {
+            invoke rule_ResourceFlow_DataInputAssociation(src_task, dst_task);
+            
+            invoke rule_ResourceFlow_DataOutputAssociation(src_task, dst_task);
+         }
+      }
+   }
+         
+   declare rule_Process_ScriptTask(dst_container)
+   {
+      src_task : 'Process'.Where(Stereotype:Equals('Script Task') && Reusable:Equals(false)) => dst_task : 'ScriptTask'
+      (
+         dst_container.flowElements         
+      ,   name = Name
+      ,   ?src_task.Comment? (documentation += new 'Documentation' (dst_task.documentation , text = src_task.Comment)) : ()
+      ,   isForCompensation = Compensation+
+      ,   startQuantity = StartQuantity+ : ObjectToInt()
+      ,   completionQuantity = CompletionQuantity+ : ObjectToInt()
+      ,   script = Script+
+      ,   scriptFormat = ScriptLanguage+
+      ,   ?src_task.normalLoopCharacteristics? (loopCharacteristics = new 'StandardLoopCharacteristics' (dst_task.loopCharacteristics) ) : ()
+      ,   ?src_task.parallelLoopCharacteristics? (loopCharacteristics = new 'MultiInstanceLoopCharacteristics' (dst_task.loopCharacteristics, isSequential = false) ) : ()
+      ,   ?src_task.sequentialLoopCharacteristics? (loopCharacteristics = new 'MultiInstanceLoopCharacteristics' (dst_task.loopCharacteristics, isSequential = true) ) : ()
+      ,   ?src_task.defaultSequenceFlow? (default = map src_task.defaultSequenceFlow) : ()
+      )
+      {
+         invoke rule_Variable_Property(dst_task);
+         
+         _ => dst_spec : 'InputOutputSpecification'
+         {
+            invoke rule_Variable_DataInput(dst_spec);
+            
+            invoke rule_Variable_DataOutput(dst_spec);
+         }
+         
+         matchonce
+         {
+            invoke rule_ResourceFlow_DataInputAssociation(src_task, dst_task);
+            
+            invoke rule_ResourceFlow_DataOutputAssociation(src_task, dst_task);
+         }
+      }
+   }
+         
+   declare rule_Process_SendTask(dst_container)
+   {
+      src_task : 'Process'.Where(Stereotype:Equals('Send Task')) => dst_task : 'SendTask'
+      (
+         dst_container.flowElements         
+      ,   name = Name
+      ,   ?src_task.Comment? (documentation += new 'Documentation' (dst_task.documentation , text = src_task.Comment)) : ()
+      ,   isForCompensation = Compensation+
+      ,   startQuantity = StartQuantity+ : ObjectToInt()
+      ,   completionQuantity = CompletionQuantity+ : ObjectToInt()
+      ,   implementation = ImplementationTechnology+
+      ,   operationRef = map Implementer
+      ,   ?src_task.normalLoopCharacteristics? (loopCharacteristics = new 'StandardLoopCharacteristics' (dst_task.loopCharacteristics) ) : ()
+      ,   ?src_task.parallelLoopCharacteristics? (loopCharacteristics = new 'MultiInstanceLoopCharacteristics' (dst_task.loopCharacteristics, isSequential = false) ) : ()
+      ,   ?src_task.sequentialLoopCharacteristics? (loopCharacteristics = new 'MultiInstanceLoopCharacteristics' (dst_task.loopCharacteristics, isSequential = true) ) : ()
+      ,   ?src_task.defaultSequenceFlow? (default = map src_task.defaultSequenceFlow) : ()
+      )
+      {
+         invoke rule_Variable_Property(dst_task);
+      
+         _ => dst_spec : 'InputOutputSpecification'
+         {
+            invoke rule_Variable_DataInput(dst_spec);
+            
+            invoke rule_Variable_DataOutput(dst_spec);
+         }
+         
+         matchonce
+         {
+            invoke rule_ResourceFlow_DataInputAssociation(src_task, dst_task);
+            
+            invoke rule_ResourceFlow_DataOutputAssociation(src_task, dst_task);
+         }
+      }
+   }
+         
+   declare rule_Process_ServiceTask(dst_container)
+   {
+      src_task : 'Process'.Where(Stereotype:Equals('Service Task')) => dst_task : 'ServiceTask'
+      (
+         dst_container.flowElements         
+      ,   name = Name
+      ,   ?src_task.Comment? (documentation += new 'Documentation' (dst_task.documentation , text = src_task.Comment)) : ()
+      ,   isForCompensation = Compensation+
+      ,   startQuantity = StartQuantity+ : ObjectToInt()
+      ,   completionQuantity = CompletionQuantity+ : ObjectToInt()
+      ,   implementation = ImplementationTechnology+
+      ,   operationRef = map Implementer
+      ,   ?src_task.normalLoopCharacteristics? (loopCharacteristics = new 'StandardLoopCharacteristics' (dst_task.loopCharacteristics) ) : ()
+      ,   ?src_task.parallelLoopCharacteristics? (loopCharacteristics = new 'MultiInstanceLoopCharacteristics' (dst_task.loopCharacteristics, isSequential = false) ) : ()
+      ,   ?src_task.sequentialLoopCharacteristics? (loopCharacteristics = new 'MultiInstanceLoopCharacteristics' (dst_task.loopCharacteristics, isSequential = true) ) : ()
+      ,   ?src_task.defaultSequenceFlow? (default = map src_task.defaultSequenceFlow) : ()
+      )
+      {
+         invoke rule_Variable_Property(dst_task);
+         
+         _ => dst_spec : 'InputOutputSpecification'
+         {
+            invoke rule_Variable_DataInput(dst_spec);
+            
+            invoke rule_Variable_DataOutput(dst_spec);
+         }
+         
+         matchonce
+         {
+            invoke rule_ResourceFlow_DataInputAssociation(src_task, dst_task);
+            
+            invoke rule_ResourceFlow_DataOutputAssociation(src_task, dst_task);
+         }
+      }
+   }
+         
+   declare rule_Process_UserTask(dst_container)
+   {
+      src_task : 'Process'.Where(Stereotype:Equals('User Task') && Reusable:Equals(false)) => dst_task : 'UserTask' 
+      (
+         dst_container.flowElements         
+      ,   name = Name
+      ,   ?src_task.Comment? (documentation += new 'Documentation' (dst_task.documentation , text = src_task.Comment)) : ()
+      ,   isForCompensation = Compensation+
+      ,   startQuantity = StartQuantity+ : ObjectToInt()
+      ,   completionQuantity = CompletionQuantity+ : ObjectToInt()
+      ,   implementation = ImplementationTechnology+
+      ,   ?src_task.normalLoopCharacteristics? (loopCharacteristics = new 'StandardLoopCharacteristics' (dst_task.loopCharacteristics) ) : ()
+      ,   ?src_task.parallelLoopCharacteristics? (loopCharacteristics = new 'MultiInstanceLoopCharacteristics' (dst_task.loopCharacteristics, isSequential = false) ) : ()
+      ,   ?src_task.sequentialLoopCharacteristics? (loopCharacteristics = new 'MultiInstanceLoopCharacteristics' (dst_task.loopCharacteristics, isSequential = true) ) : ()
+      ,   ?src_task.defaultSequenceFlow? (default = map src_task.defaultSequenceFlow) : ()
+      )
+      {
+         invoke rule_Variable_Property(dst_task);
+         
+         _ => dst_spec : 'InputOutputSpecification'
+         {
+            invoke rule_Variable_DataInput(dst_spec);
+            
+            invoke rule_Variable_DataOutput(dst_spec);
+         }
+         
+         matchonce
+         {
+            invoke rule_ResourceFlow_DataInputAssociation(src_task, dst_task);
+            
+            invoke rule_ResourceFlow_DataOutputAssociation(src_task, dst_task);
+         }
+      }
+   }
+   
+   //Call Activity
+   declare rule_Process_CallActivity (dst_container)
+   {
+      src_call : 'Process'.Where(Stereotype:Equals('Call Activity')) => dst_call : 'CallActivity' [%ObjectID%]
+      (
+         dst_container.flowElements
+      ,   name = Name
+      ,   startQuantity = StartQuantity+ : ObjectToInt()
+      ,   completionQuantity = CompletionQuantity+ : ObjectToInt()
+      ,   ?calledModelId? (calledElementRef = get 'Process'[%calledModelId%]) : (calledElementRef = map CalledObject+)
+      ,   ?src_call.defaultSequenceFlow? (default = map src_call.defaultSequenceFlow) : ()
+      )
+      {
+         invoke rule_Variable_Property(dst_call);
+         
+         _ => dst_spec : 'InputOutputSpecification'
+         {
+            invoke rule_Variable_DataInput(dst_spec);
+            
+            invoke rule_Variable_DataOutput(dst_spec);
+         }
+         
+         matchonce
+         {
+            invoke rule_ResourceFlow_DataInputAssociation(src_call, dst_call);
+            
+            invoke rule_ResourceFlow_DataOutputAssociation(src_call, dst_call);
+         }
+      }
+   } 
+   
+   //Global Task   
+   declare rule_Process_GlobalTask (dst_container)
+   {
+      src_task : 'Process'.Where(Stereotype:Equals('Task') && Reusable:Equals(true)) => dst_task : 'GlobalTask' [%ObjectID%]
+      (
+         dst_container.rootElements         
+      ,   name = Name
+      ,   ?src_task.Comment? (documentation += new 'Documentation' (dst_task.documentation , text = src_task.Comment)) : ()
+      )
+      {
+         _ => dst_spec : 'InputOutputSpecification'
+         {
+            invoke rule_Variable_DataInput(dst_spec);
+            
+            invoke rule_Variable_DataOutput(dst_spec);
+         }
+      }
+      
+      matchonce
+      {
+         invoke rule_Process_GlobalBusinessRuleTask(dst_container);
+         
+         invoke rule_Process_GlobalManualTask(dst_container);
+                  
+         invoke rule_Process_GlobalScriptTask(dst_container);
+                  
+         invoke rule_Process_GlobalUserTask(dst_container);
+      }
+   }
+          
+   declare rule_Process_GlobalBusinessRuleTask(dst_container)
+   {
+      src_task : 'Process'.Where(Stereotype:Equals('Business Rule Task') && Reusable:Equals(true)) => dst_task :'GlobalBusinessRuleTask' [%ObjectID%]
+      (
+         dst_container.rootElements         
+      ,   name = Name
+      ,   ?src_task.Comment? (documentation += new 'Documentation' (dst_task.documentation , text = src_task.Comment)) : ()
+      ,   implementation = ImplementationTechnology+
+      )
+      {
+         _ => dst_spec : 'InputOutputSpecification'
+         {
+            invoke rule_Variable_DataInput(dst_spec);
+            
+            invoke rule_Variable_DataOutput(dst_spec);
+         }      
+      }
+   }
+   
+   declare rule_Process_GlobalManualTask(dst_container)
+   {
+      src_task : 'Process'.Where(Stereotype:Equals('Manual Task') && Reusable:Equals(true)) => dst_task : 'GlobalManualTask' [%ObjectID%]
+      (
+         dst_container.rootElements         
+      ,   name = Name
+      ,   ?src_task.Comment? (documentation += new 'Documentation' (dst_task.documentation , text = src_task.Comment)) : ()
+      )
+      {
+         _ => dst_spec : 'InputOutputSpecification'
+         {
+            invoke rule_Variable_DataInput(dst_spec);
+            
+            invoke rule_Variable_DataOutput(dst_spec);
+         }      
+      }
+   }
+               
+   declare rule_Process_GlobalScriptTask(dst_container)
+   {
+      src_task : 'Process'.Where(Stereotype:Equals('Script Task') && Reusable:Equals(true)) => dst_task : 'GlobalScriptTask' [%ObjectID%]
+      (
+         dst_container.rootElements         
+      ,   name = Name
+      ,   ?src_task.Comment? (documentation += new 'Documentation' (dst_task.documentation , text = src_task.Comment)) : ()
+      //,   script = Script+
+      //,   scriptFormat = ScriptLanguage+
+      )
+      {
+         _ => dst_spec : 'InputOutputSpecification'
+         {
+            invoke rule_Variable_DataInput(dst_spec);
+            
+            invoke rule_Variable_DataOutput(dst_spec);
+         }         
+      }
+   }
+            
+   declare rule_Process_GlobalUserTask(dst_container)
+   {
+      src_task : 'Process'.Where(Stereotype:Equals('User Task') && Reusable:Equals(true)) => dst_task : 'GlobalUserTask' [%ObjectID%]
+      (
+         dst_container.rootElements         
+      ,   name = Name
+      ,   ?src_task.Comment? (documentation += new 'Documentation' (dst_task.documentation , text = src_task.Comment)) : ()
+      ,   implementation = ImplementationTechnology+
+      )
+      {
+         _ => dst_spec : 'InputOutputSpecification'
+         {
+            invoke rule_Variable_DataInput(dst_spec);
+            
+            invoke rule_Variable_DataOutput(dst_spec);
+         }      
+      }
+   }
+   
+   //GateWay(Decision)   
+   declare rule_Decision(dst_container)
+   {
+      matchonce
+      {
+         invoke rule_Decision_Gateway(dst_container);
+         
+         invoke rule_Decision_ComplexGateway (dst_container);
+            
+         invoke rule_Decision_InclusiveGateway (dst_container);
+         
+         invoke rule_Decision_EventBasedGateway(dst_container);
+         
+         invoke rule_Decision_ExclusiveGateway(dst_container);
+         
+         invoke rule_Decision_ParallelGateway(dst_container);
+         
+         invoke rule_Decision_ExclusiveEventBasedGateway(dst_container);
+         
+         invoke rule_Decision_ParallelEventBasedGateway(dst_container);
+      }
+   }
+   
+   declare rule_Decision_Gateway(dst_container) //Gateway is interface in bpmn2 model, so...
+   {
+      src_decision : 'Decision'.Where(Stereotype:Equals('Gateway')) => dst_decision : 'ComplexGateway'
+      (
+         dst_container.flowElements
+      ,   ?src_decision.ExpressionAlias? (name = src_decision.ExpressionAlias) : (name = Name)
+      ,   ?src_decision.Comment? (documentation += new 'Documentation' (dst_decision.documentation , text = src_decision.Comment)) : ()
+      ,   ?src_decision.defaultSequenceFlow? (default = map src_decision.defaultSequenceFlow) : ()
+      ,   gatewayDirection = Direction+   
+      );
+   }
+   
+   declare rule_Decision_ComplexGateway(dst_container)
+   {
+      src_decision : 'Decision'.Where(Stereotype:Equals('Complex Gateway')) =>  dst_decision : 'ComplexGateway'
+      (
+         dst_container.flowElements
+      ,   ?src_decision.ExpressionAlias? (name = src_decision.ExpressionAlias) : (name = Name)
+      ,   ?src_decision.Comment? (documentation += new 'Documentation' (dst_decision.documentation , text = src_decision.Comment)) : ()
+      ,   ?src_decision.defaultSequenceFlow? (default = map src_decision.defaultSequenceFlow) : ()
+      ,   gatewayDirection = Direction+
+      );
+   }
+   
+   declare rule_Decision_InclusiveGateway(dst_container)
+   {
+      src_decision : 'Decision'.Where(Stereotype:Equals('Inclusive Gateway')) => dst_decision : 'InclusiveGateway'
+      (   
+         dst_container.flowElements
+      ,   ?src_decision.ExpressionAlias? (name = src_decision.ExpressionAlias) : (name = Name)
+      ,   ?src_decision.Comment? (documentation += new 'Documentation' (dst_decision.documentation , text = src_decision.Comment)) : ()
+      ,   ?src_decision.defaultSequenceFlow? (default = map src_decision.defaultSequenceFlow) : ()   
+      ,   gatewayDirection = Direction+   
+      );
+   }
+   
+   declare rule_Decision_EventBasedGateway(dst_container)
+   {
+      src_decision : 'Decision'.Where(Stereotype:Equals('Event-Based Gateway')) => dst_decision : 'EventBasedGateway'
+      (
+         dst_container.flowElements
+      ,   ?src_decision.ExpressionAlias? (name = src_decision.ExpressionAlias) : (name = Name)
+      ,   ?src_decision.Comment? (documentation += new 'Documentation' (dst_decision.documentation , text = src_decision.Comment)) : ()
+      ,   gatewayDirection = Direction+
+      );
+   }
+   
+   declare rule_Decision_ExclusiveGateway(dst_container)
+   {
+      src_decision : 'Decision'.Where(Stereotype:Equals('Exclusive Gateway')) => dst_decision : 'ExclusiveGateway'
+      (
+         dst_container.flowElements
+      ,   ?src_decision.ExpressionAlias? (name = src_decision.ExpressionAlias) : (name = Name)
+      ,   ?src_decision.Comment? (documentation += new 'Documentation' (dst_decision.documentation , text = src_decision.Comment)) : ()
+      ,   ?src_decision.defaultSequenceFlow? (default = map src_decision.defaultSequenceFlow) : ()   
+      ,   gatewayDirection = Direction+   
+      );
+   }
+   
+   declare rule_Decision_ParallelGateway(dst_container)
+   {
+      src_decision : 'Decision'.Where(Stereotype:Equals('Parallel Gateway')) => dst_decision : 'ParallelGateway'
+      (
+         dst_container.flowElements
+      ,   ?src_decision.ExpressionAlias? (name = src_decision.ExpressionAlias) : (name = Name)
+      ,   ?src_decision.Comment? (documentation += new 'Documentation' (dst_decision.documentation , text = src_decision.Comment)) : ()
+      ,   gatewayDirection = Direction+
+      );
+   }
+   
+   declare rule_Decision_ExclusiveEventBasedGateway(dst_container)
+   {
+      src_decision : 'Decision'.Where(Stereotype:Equals('Exclusive Event-Based Gateway')) => dst_decision : 'EventBasedGateway'
+      (
+         dst_container.flowElements
+      ,   ?src_decision.ExpressionAlias? (name = src_decision.ExpressionAlias) : (name = Name)
+      ,   ?src_decision.Comment? (documentation += new 'Documentation' (dst_decision.documentation , text = src_decision.Comment)) : ()   
+      ,   gatewayDirection = Direction+
+      ,   eventGatewayType = 'Exclusive'
+      );
+   }
+   
+   declare rule_Decision_ParallelEventBasedGateway(dst_container)
+   {
+      src_decision : 'Decision'.Where(Stereotype:Equals('Parallel Event-Based Gateway')) => dst_decision : 'EventBasedGateway'
+      (
+         dst_container.flowElements
+      ,   ?src_decision.ExpressionAlias? (name = src_decision.ExpressionAlias) : (name = Name)
+      ,   ?src_decision.Comment? (documentation += new 'Documentation' (dst_decision.documentation , text = src_decision.Comment)) : ()
+      ,   gatewayDirection = Direction+
+      ,   eventGatewayType = 'Parallel'
+      );
+   }
+   
+   //SubProcess   
+   declare rule_SubProcess(dst_container, dst_definition)
+   {
+      matchonce
+      {
+         invoke rule_Process_SubProcess(dst_container, dst_definition);
+         
+         invoke rule_Process_AdHocSubProcess(dst_container, dst_definition);
+         
+         invoke rule_Process_EventSubProcess(dst_container, dst_definition);
+         
+         invoke rule_Process_Transaction(dst_container, dst_definition);
+      }
+   }
+   
+   declare rule_Process_SubProcess(dst_container, dst_definition)
+   {
+      src_subProcess : 'Process'.Where(Stereotype:Equals('Sub-Process')) => dst_subProcess : 'SubProcess' [%ObjectID%]
+      (
+         dst_container.flowElements   
+      ,   name = Name
+      ,   ?src_subProcess.Comment? (documentation += new 'Documentation' (dst_subProcess.documentation , text = src_subProcess.Comment)) : ()
+      ,   triggeredByEvent = false
+      ,   isForCompensation = Compensation+
+      ,   startQuantity = StartQuantity+ : ObjectToInt()
+      ,   completionQuantity = CompletionQuantity+ : ObjectToInt()
+      ,   ?src_subProcess.normalLoopCharacteristics? (loopCharacteristics = new 'StandardLoopCharacteristics' (dst_subProcess.loopCharacteristics) ) : ()
+      ,   ?src_subProcess.parallelLoopCharacteristics? (loopCharacteristics = new 'MultiInstanceLoopCharacteristics' (dst_subProcess.loopCharacteristics, isSequential = false) ) : ()
+      ,   ?src_subProcess.sequentialLoopCharacteristics? (loopCharacteristics = new 'MultiInstanceLoopCharacteristics' (dst_subProcess.loopCharacteristics, isSequential = true) ) : ()
+      ,   ?src_subProcess.defaultSequenceFlow? (default = map src_subProcess.defaultSequenceFlow) : ()
+      )
+      {
+         _ => dst_spec : 'InputOutputSpecification'
+         {
+            invoke rule_Variable_DataInput(dst_spec);
+            
+            invoke rule_Variable_DataOutput(dst_spec);
+         }
+         
+         invoke rule_Variable_Property(dst_subProcess);
+         
+         invoke rule_AllElement(dst_subProcess, dst_definition);
+         
+         matchonce
+         {
+            invoke rule_ResourceFlow_DataInputAssociation(src_subProcess, dst_subProcess);
+            
+            invoke rule_ResourceFlow_DataOutputAssociation(src_subProcess, dst_subProcess);
+         }
+         
+         invoke rule_BusinessProcessDiagram_BPMNDiagram_SubProcess(dst_definition);
+      }
+   }
+   
+   declare rule_Process_AdHocSubProcess(dst_container, dst_definition)
+   {
+      src_subProcess : 'Process'.Where(Stereotype:Equals('Ad-Hoc Sub-Process')) => dst_subProcess : 'AdHocSubProcess' [%ObjectID%]
+      (
+         dst_container.flowElements
+      ,   name = Name
+      ,   triggeredByEvent = false
+      ,   ?src_subProcess.Comment? (documentation += new 'Documentation' (dst_subProcess.documentation , text = src_subProcess.Comment)) : ()
+      ,   isForCompensation = Compensation+
+      ,   startQuantity = StartQuantity+ : ObjectToInt()
+      ,   completionQuantity = CompletionQuantity+ : ObjectToInt()   
+      ,   ?src_subProcess.normalLoopCharacteristics? (loopCharacteristics = new 'StandardLoopCharacteristics' (dst_subProcess.loopCharacteristics) ) : ()
+      ,   ?src_subProcess.parallelLoopCharacteristics? (loopCharacteristics = new 'MultiInstanceLoopCharacteristics' (dst_subProcess.loopCharacteristics, isSequential = false) ) : ()
+      ,   ?src_subProcess.sequentialLoopCharacteristics? (loopCharacteristics = new 'MultiInstanceLoopCharacteristics' (dst_subProcess.loopCharacteristics, isSequential = true) ) : ()
+      ,   ?src_subProcess.defaultSequenceFlow? (default = map src_subProcess.defaultSequenceFlow) : ()
+      )
+      {
+         _ => dst_spec : 'InputOutputSpecification'
+         {
+            invoke rule_Variable_DataInput(dst_spec);
+            
+            invoke rule_Variable_DataOutput(dst_spec);
+         }
+
+         invoke rule_Variable_Property(dst_subProcess);
+         
+         invoke rule_AllElement(dst_subProcess, dst_definition);
+         
+         matchonce
+         {
+            invoke rule_ResourceFlow_DataInputAssociation(src_subProcess, dst_subProcess);
+            
+            invoke rule_ResourceFlow_DataOutputAssociation(src_subProcess, dst_subProcess);
+         }
+         
+         invoke rule_BusinessProcessDiagram_BPMNDiagram_SubProcess(dst_definition);
+      }
+   }
+   
+   declare rule_Process_EventSubProcess(dst_container, dst_definition)
+   {   
+      src_subProcess : 'Process'.Where(Stereotype:Equals('Event Sub-Process')) => dst_subProcess : 'SubProcess' [%ObjectID%]
+      (
+         dst_container.flowElements
+      ,   name = Name
+      ,   triggeredByEvent = true   
+      ,   ?src_subProcess.Comment? (documentation += new 'Documentation' (dst_subProcess.documentation , text = src_subProcess.Comment)) : ()
+      ,   isForCompensation = Compensation+
+      ,   startQuantity = StartQuantity+ : ObjectToInt()
+      ,   completionQuantity = CompletionQuantity+ : ObjectToInt()
+      ,   ?src_subProcess.normalLoopCharacteristics? (loopCharacteristics = new 'StandardLoopCharacteristics' (dst_subProcess.loopCharacteristics) ) : ()
+      ,   ?src_subProcess.parallelLoopCharacteristics? (loopCharacteristics = new 'MultiInstanceLoopCharacteristics' (dst_subProcess.loopCharacteristics, isSequential = false) ) : ()
+      ,   ?src_subProcess.sequentialLoopCharacteristics? (loopCharacteristics = new 'MultiInstanceLoopCharacteristics' (dst_subProcess.loopCharacteristics, isSequential = true) ) : ()
+      ,   ?src_subProcess.defaultSequenceFlow? (default = map src_subProcess.defaultSequenceFlow) : ()
+      )
+      {
+         _ => dst_spec : 'InputOutputSpecification'
+         {
+            invoke rule_Variable_DataInput(dst_spec);
+            
+            invoke rule_Variable_DataOutput(dst_spec);
+         }
+
+         invoke rule_Variable_Property(dst_subProcess);
+         
+         invoke rule_AllElement(dst_subProcess, dst_definition);
+         
+         matchonce
+         {
+            invoke rule_ResourceFlow_DataInputAssociation(src_subProcess, dst_subProcess);
+            
+            invoke rule_ResourceFlow_DataOutputAssociation(src_subProcess, dst_subProcess);
+         }
+         
+         invoke rule_BusinessProcessDiagram_BPMNDiagram_SubProcess(dst_definition);
+      }
+   }
+   
+   declare rule_Process_Transaction(dst_container, dst_definition)
+   {
+      src_subProcess : 'Process'.Where(Stereotype:Equals('Transaction')) => dst_subProcess : 'Transaction' [%ObjectID%]
+      (
+         dst_container.flowElements
+      ,   name = Name
+      ,   ?src_subProcess.Comment? (documentation += new 'Documentation' (dst_subProcess.documentation , text = src_subProcess.Comment)) : ()
+      ,   isForCompensation = Compensation+
+      ,   startQuantity = StartQuantity+ : ObjectToInt()
+      ,   completionQuantity = CompletionQuantity+ : ObjectToInt()
+      ,   ?src_subProcess.normalLoopCharacteristics? (loopCharacteristics = new 'StandardLoopCharacteristics' (dst_subProcess.loopCharacteristics) ) : ()
+      ,   ?src_subProcess.parallelLoopCharacteristics? (loopCharacteristics = new 'MultiInstanceLoopCharacteristics' (dst_subProcess.loopCharacteristics, isSequential = false) ) : ()
+      ,   ?src_subProcess.sequentialLoopCharacteristics? (loopCharacteristics = new 'MultiInstanceLoopCharacteristics' (dst_subProcess.loopCharacteristics, isSequential = true) ) : ()
+      ,   ?src_subProcess.defaultSequenceFlow? (default = map src_subProcess.defaultSequenceFlow) : ()   
+      )
+      {
+         _ => dst_spec : 'InputOutputSpecification'
+         {
+            invoke rule_Variable_DataInput(dst_spec);
+            
+            invoke rule_Variable_DataOutput(dst_spec);
+         }
+         
+         invoke rule_Variable_Property(dst_subProcess);
+         
+         invoke rule_AllElement(dst_subProcess, dst_definition);
+         
+         matchonce
+         {
+            invoke rule_ResourceFlow_DataInputAssociation(src_subProcess, dst_subProcess);
+            
+            invoke rule_ResourceFlow_DataOutputAssociation(src_subProcess, dst_subProcess);
+         }
+         
+         invoke rule_BusinessProcessDiagram_BPMNDiagram_SubProcess(dst_definition);
+      }
+   }
+   
+   //Intermediate Event
+   declare rule_IntermediateEvent(dst_container)
+   {
+      matchonce
+      {
+         invoke rule_Process_IntermediateEvent(dst_container);
+         
+         invoke rule_Process_CompensationIntermediateEvent(dst_container);
+         
+         invoke rule_Process_ConditionalIntermediateEvent(dst_container);
+         
+         invoke rule_Process_EscalationIntermediateEvent(dst_container);
+         
+         invoke rule_Process_LinkIntermediateEvent(dst_container);
+         
+         invoke rule_Process_MessageIntermediateEvent(dst_container);
+         
+         invoke rule_Process_MultipleIntermediateEvent(dst_container);
+         
+         invoke rule_Process_ParallelMultipleIntermediateEvent(dst_container);
+         
+         invoke rule_Process_SignalIntermediateEvent(dst_container);
+         
+         invoke rule_Process_TimerIntermediateEvent(dst_container);
+      }
+   }
+   
+   declare rule_Process_IntermediateEvent(dst_container)
+   {
+      src_interEvent : 'Process'.Where(Stereotype:Equals('Intermediate Throw Event')) => dst_interEvent : 'IntermediateThrowEvent'
+      (
+         dst_container.flowElements
+      ,   name = Name
+      ,   ?src_interEvent.Comment? (documentation += new 'Documentation' (dst_interEvent.documentation , text = src_interEvent.Comment)) : ()
+      )
+      {
+         invoke rule_Variable_Property(dst_interEvent);
+         
+         invoke rule_Variable_DataOutput(dst_interEvent);
+         
+         invoke rule_ResourceFlow_DataOutputAssociation(src_interEvent, dst_interEvent);
+      }
+   }
+   
+   declare rule_Process_CompensationIntermediateEvent(dst_container)
+   {
+      src_interEvent : 'Process'.Where(Stereotype:Equals('Compensation Intermediate Throw Event')) => dst_interEvent : 'IntermediateThrowEvent'
+      (
+         dst_container.flowElements
+      ,   name = Name
+      ,   ?src_interEvent.Comment? (documentation += new 'Documentation' (dst_interEvent.documentation , text = src_interEvent.Comment)) : ()
+      )
+      {
+         _ => 'CompensateEventDefinition'
+         (
+            dst_interEvent.eventDefinitions
+         );
+         
+         invoke rule_Variable_Property(dst_interEvent);
+         
+         invoke rule_Variable_DataInput(dst_interEvent);
+         
+         invoke rule_ResourceFlow_DataInputAssociation(src_interEvent, dst_interEvent);
+      }
+   }
+         
+   declare rule_Process_ConditionalIntermediateEvent(dst_container)
+   {
+      src_interEvent : 'Process'.Where(Stereotype:Equals('Conditional Intermediate Catch Event')) => dst_interEvent : 'IntermediateCatchEvent'
+      (
+         dst_container.flowElements
+      ,   name = Name
+      ,   ?src_interEvent.Comment? (documentation += new 'Documentation' (dst_interEvent.documentation , text = src_interEvent.Comment)) : ()
+      )
+      {
+         _ => 'ConditionalEventDefinition'
+         (
+            dst_interEvent.eventDefinitions
+         );
+         
+         invoke rule_Variable_Property(dst_interEvent);
+         
+         invoke rule_Variable_DataOutput(dst_interEvent);
+         
+         invoke rule_ResourceFlow_DataOutputAssociation(src_interEvent, dst_interEvent);
+      }
+   }
+         
+   declare rule_Process_EscalationIntermediateEvent(dst_container)
+   {
+      src_interEvent : 'Process'.Where(Stereotype:Equals('Escalation Intermediate Throw Event')) => dst_interEvent : 'IntermediateThrowEvent'
+      (
+         dst_container.flowElements
+      ,   name = Name
+      ,   ?src_interEvent.Comment? (documentation += new 'Documentation' (dst_interEvent.documentation , text = src_interEvent.Comment)) : ()
+      )
+      {
+         _ => 'EscalationEventDefinition'
+         (
+            dst_interEvent.eventDefinitions
+         );
+         
+         invoke rule_Variable_Property(dst_interEvent);
+         
+         invoke rule_Variable_DataInput(dst_interEvent);
+         
+         invoke rule_ResourceFlow_DataInputAssociation(src_interEvent, dst_interEvent);
+      }
+   }
+         
+   declare rule_Process_LinkIntermediateEvent(dst_container)
+   {
+      src_interEvent : 'Process'.Where(Stereotype:Equals('Link Intermediate Throw Event')) => dst_interEvent : 'IntermediateThrowEvent'
+      (
+         dst_container.flowElements
+      ,   name = Name
+      ,   ?src_interEvent.Comment? (documentation += new 'Documentation' (dst_interEvent.documentation , text = src_interEvent.Comment)) : ()
+      )
+      {
+         _ => 'LinkEventDefinition'
+         (
+            dst_interEvent.eventDefinitions
+         );
+         
+         invoke rule_Variable_Property(dst_interEvent);
+         
+         invoke rule_Variable_DataInput(dst_interEvent);
+         
+         invoke rule_ResourceFlow_DataInputAssociation(src_interEvent, dst_interEvent);
+      }
+      
+      src_interEvent : 'Process'.Where(Stereotype:Equals('Link Intermediate Catch Event')) => dst_interEvent : 'IntermediateCatchEvent'
+      (
+         dst_container.flowElements
+      ,   name = Name
+      ,   ?src_interEvent.Comment? (documentation += new 'Documentation' (dst_interEvent.documentation , text = src_interEvent.Comment)) : ()
+      )
+      {
+         _ => 'LinkEventDefinition'
+         (
+            dst_interEvent.eventDefinitions
+         );
+         
+         invoke rule_Variable_Property(dst_interEvent);
+         
+         invoke rule_Variable_DataOutput(dst_interEvent);
+         
+         invoke rule_ResourceFlow_DataOutputAssociation(src_interEvent, dst_interEvent);
+      }
+   }
+         
+   declare rule_Process_MessageIntermediateEvent(dst_container)
+   {      
+      src_interEvent : 'Process'.Where(Stereotype:Equals('Message Intermediate Throw Event')) => dst_interEvent : 'IntermediateThrowEvent'
+      (
+         dst_container.flowElements
+      ,   name = Name
+      ,   ?src_interEvent.Comment? (documentation += new 'Documentation' (dst_interEvent.documentation , text = src_interEvent.Comment)) : ()
+      )
+      {
+         _ => 'MessageEventDefinition'
+         (
+            dst_interEvent.eventDefinitions
+         );
+         
+         invoke rule_Variable_Property(dst_interEvent);
+         
+         invoke rule_Variable_DataInput(dst_interEvent);
+         
+         invoke rule_ResourceFlow_DataInputAssociation(src_interEvent, dst_interEvent);
+      }
+      
+      src_interEvent : 'Process'.Where(Stereotype:Equals('Message Intermediate Catch Event')) => dst_interEvent : 'IntermediateCatchEvent'
+      (
+         dst_container.flowElements
+      ,   name = Name
+      ,   ?src_interEvent.Comment? (documentation += new 'Documentation' (dst_interEvent.documentation , text = src_interEvent.Comment)) : ()
+      )
+      {
+         _ => 'MessageEventDefinition'
+         (
+            dst_interEvent.eventDefinitions
+         );
+         
+         invoke rule_Variable_Property(dst_interEvent);
+         
+         invoke rule_Variable_DataOutput(dst_interEvent);
+         
+         invoke rule_ResourceFlow_DataOutputAssociation(src_interEvent, dst_interEvent);
+      }
+   }
+         
+   declare rule_Process_MultipleIntermediateEvent(dst_container) 
+   {
+      src_interEvent : 'Process'.Where(Stereotype:Equals('Multiple Intermediate Throw Event')) => dst_interEvent : 'IntermediateThrowEvent'
+      (
+         dst_container.flowElements   
+      ,   name = Name   
+      ,   ?src_interEvent.Comment? (documentation += new 'Documentation' (dst_interEvent.documentation , text = src_interEvent.Comment)) : ()
+      )
+      {
+         invoke rule_EventDefinition(src_interEvent, dst_interEvent);
+         
+         invoke rule_Variable_Property(dst_interEvent);
+         
+         invoke rule_Variable_DataInput(dst_interEvent);
+         
+         invoke rule_ResourceFlow_DataInputAssociation(src_interEvent, dst_interEvent);
+      }
+      
+      src_interEvent : 'Process'.Where(Stereotype:Equals('Multiple Intermediate Catch Event')) => dst_interEvent : 'IntermediateCatchEvent'
+      (
+         dst_container.flowElements   
+      ,   name = Name   
+      ,   ?src_interEvent.Comment? (documentation += new 'Documentation' (dst_interEvent.documentation , text = src_interEvent.Comment)) : ()
+      )
+      {
+         invoke rule_EventDefinition(src_interEvent, dst_interEvent);
+         
+         invoke rule_Variable_Property(dst_interEvent);
+         
+         invoke rule_Variable_DataOutput(dst_interEvent);
+         
+         invoke rule_ResourceFlow_DataOutputAssociation(src_interEvent, dst_interEvent);
+      }
+   }
+   
+   declare rule_Process_ParallelMultipleIntermediateEvent(dst_container) 
+   {   
+      src_interEvent : 'Process'.Where(Stereotype:Equals('Parallel Multiple Intermediate Catch Event')) => dst_interEvent : 'IntermediateCatchEvent'
+      (
+         dst_container.flowElements   
+      ,   name = Name   
+      ,   ?src_interEvent.Comment? (documentation += new 'Documentation' (dst_interEvent.documentation , text = src_interEvent.Comment)) : ()
+      ,   parallelMultiple = true
+      )
+      {
+         invoke rule_EventDefinition(src_interEvent, dst_interEvent);
+         
+         invoke rule_Variable_Property(dst_interEvent);
+         
+         invoke rule_Variable_DataOutput(dst_interEvent);
+         
+         invoke rule_ResourceFlow_DataOutputAssociation(src_interEvent, dst_interEvent);
+      }
+   }
+                  
+   declare rule_Process_SignalIntermediateEvent(dst_container)
+   {
+      src_interEvent : 'Process'.Where(Stereotype:Equals('Signal Intermediate Throw Event')) => dst_interEvent : 'IntermediateThrowEvent' 
+      (
+         dst_container.flowElements
+      ,   name = Name
+      ,   ?src_interEvent.Comment? (documentation += new 'Documentation' (dst_interEvent.documentation , text = src_interEvent.Comment)) : ()
+      )
+      {
+         _ => 'SignalEventDefinition'
+         (
+            dst_interEvent.eventDefinitions
+         );
+         
+         invoke rule_Variable_Property(dst_interEvent);
+         
+         invoke rule_Variable_DataInput(dst_interEvent);
+         
+         invoke rule_ResourceFlow_DataInputAssociation(src_interEvent, dst_interEvent);
+      }
+      
+      src_interEvent : 'Process'.Where(Stereotype:Equals('Signal Intermediate Catch Event')) => dst_interEvent : 'IntermediateCatchEvent' 
+      (
+         dst_container.flowElements
+      ,   name = Name
+      ,   ?src_interEvent.Comment? (documentation += new 'Documentation' (dst_interEvent.documentation , text = src_interEvent.Comment)) : ()
+      )
+      {
+         _ => 'SignalEventDefinition'
+         (
+            dst_interEvent.eventDefinitions
+         );
+         
+         invoke rule_Variable_Property(dst_interEvent);
+         
+         invoke rule_Variable_DataOutput(dst_interEvent);
+         
+         invoke rule_ResourceFlow_DataOutputAssociation(src_interEvent, dst_interEvent);
+      }
+   }
+         
+   declare rule_Process_TimerIntermediateEvent(dst_container)
+   {
+      src_interEvent : 'Process'.Where(Stereotype:Equals('Timer Intermediate Catch Event')) => dst_interEvent : 'IntermediateCatchEvent'
+      (
+         dst_container.flowElements
+      ,   name = Name
+      ,   ?src_interEvent.Comment? (documentation += new 'Documentation' (dst_interEvent.documentation , text = src_interEvent.Comment)) : ()
+      )
+      {
+         _ => 'TimerEventDefinition'
+         (
+            dst_interEvent.eventDefinitions
+         );
+         
+         invoke rule_Variable_Property(dst_interEvent);
+         
+         invoke rule_Variable_DataOutput(dst_interEvent);
+         
+         invoke rule_ResourceFlow_DataOutputAssociation(src_interEvent, dst_interEvent);
+      }
+   }
+   //Message format
+   declare rule_MessageFormat_Message()
+   {
+      src_message: src_model.ForEach('MessageFormat') => dst_message : 'Message'
+      (
+         name = Name
+      ,   ?src_message.Comment? (documentation += new 'Documentation' (dst_message.documentation , text = src_message.Comment)) : ()   
+      );
+   }
+   
+   //Service provider and interface
+   declare rule_ServiceProvider()
+   {
+      src_Interface : src_model.ForEach('ServiceProvider').ForEach('ServiceInterface') => dst_interface : 'Interface'
+      (
+         name = Name
+      ,   ?src_Interface.Comment? (documentation += new 'Documentation' (dst_interface.documentation , text = src_Interface.Comment)) : ()   
+      )
+      {
+         src_operation : src_Interface.ForEach('Operation') => dst_operation : 'Operation'
+         (
+            name = Name
+         ,   ?src_operation.Comment? (documentation += new 'Documentation' (dst_operation.documentation , text = src_operation.Comment)) : ()   
+         ,   inMessageRef = map InputMessage
+         ,   ?OutputMessage? (outMessageRef = map OutputMessage) : ()
+         );
+      }
+   }
+      
+   declare rule_Variable_Property(dst_container)
+   {
+      'Variable'.Where(Stereotype:Equals('Property')) => dst_prop : 'Property'
+      (
+         dst_container.properties
+      ,   name = Name
+      ,   ?Comment? documentation += new 'Documentation' (dst_prop.documentation , text = Comment)
+      );
+   }
+   
+   declare rule_Variable_DataInput(dst_container)
+   {
+      _ => dst_set : 'InputSet'
+      {
+         'Variable'.Where(Stereotype:Equals('Data Input')) => dst_input : 'DataInput'
+         (
+            dst_container.dataInputs
+         ,   name = Name
+         ,   ?Comment? documentation += new 'Documentation' (dst_input.documentation , text = Comment)
+         ,   isCollection = Collection+
+         ,   inputSetRefs += dst_set
+         );
+      }
+   }
+   
+   declare rule_Variable_DataOutput(dst_container)
+   {
+      _ => dst_set : 'OutputSet'
+      {
+         'Variable'.Where(Stereotype:Equals('Data Output')) => dst_output : 'DataOutput'
+         (
+            dst_container.dataOutputs
+         ,   name = Name
+         ,   ?Comment? documentation += new 'Documentation' (dst_output.documentation , text = Comment)
+         ,   isCollection = Collection+
+         ,   outputSetRefs += dst_set
+         );
+      }
+   }
+   
+   declare rule_Variable_DataObject(dst_container, dst_definition)
+   {
+      src_data : 'Variable'.Where(Stereotype:Equals('Data Object')) => dst_data : 'DataObject'
+      (
+         dst_container.flowElements
+      ,   name = Name
+      ,   ?Comment? documentation += new 'Documentation' (dst_data.documentation , text = Comment)
+      ,   isCollection = Collection+
+      ,   itemSubjectRef = new 'ItemDefinition' (dst_definition.rootElements)
+      );
+   }
+   
+   declare rule_Variable_DataObjectReference(dst_container)
+   {
+      src_variable : 'Variable'.Where(Stereotype:Equals('Data Object Reference')) => dst_data : 'DataObjectReference'
+      (
+         dst_container.flowElements
+      ,   name = Name
+      ,   ?Comment? documentation += new 'Documentation' (dst_data.documentation , text = Comment)
+      ,   dataObjectRef = map DataObject+
+      ,   ?State+? dataState = new 'DataState' (dst_data.dataState, name = src_variable.State+)
+      );
+   }
+   
+   declare rule_Resource_DataStore(dst_container)
+   {
+      'Resource'.Where(Stereotype:Equals('Data Store')) => dst_store : 'DataStore'
+      (
+         dst_container.rootElements
+      ,   name = Name
+      ,   ?Comment? documentation += new 'Documentation' (dst_store.documentation , text = Comment)
+      ,   ?Capacity+? (capacity = Capacity+ : ObjectToInt()) :()
+      ,   isUnlimited = Unlimited+
+      );
+   }
+   
+   declare rule_Variable_DataStoreReference(dst_container)
+   {
+      'Variable'.Where(Stereotype:Equals('Data Store Reference')) => dst_ref : 'DataStoreReference'
+      (
+         dst_container.flowElements
+      ,   name = Name
+      ,   ?Comment? documentation += new 'Documentation' (dst_ref.documentation , text = Comment)
+      ,   dataStoreRef = map DataStore+
+      );
+   }
+
+   //Modify for cr#712955
+   declare rule_ResourceFlow_DataInputAssociation(src_host, dst_container)
+   {
+      src_assoc : src_host.ForEach('AttachedResourceFlows').Where(!IsOutput) => 'DataInputAssociation'
+      (
+         //dst_container.dataInputAssociations         
+         targetRef = map TargetItem+
+      ,   sourceRef += map Resource   
+      );
+   }
+   
+   declare rule_ResourceFlow_DataOutputAssociation(src_host, dst_container)
+   {
+      src_assoc : src_host.ForEach('AttachedResourceFlows').Where(IsOutput) => 'DataOutputAssociation'
+      (
+         //dst_container.dataOutputAssociations
+         sourceRef += map SourceItem+
+      ,   targetRef = map Resource
+      );
+   }
+
+   declare rule_Flow_MessageFlow (src_container, dst_container)
+   {
+      src_messageflow : src_container.ForEach('Flow').Where(Stereotype:Equals('Message Flow')) => dst_messageflow : 'MessageFlow'
+      (
+         dst_container.messageFlows
+      ,   name = Name
+      ,   ?Comment? documentation += new 'Documentation' (dst_messageflow.documentation , text = Comment)
+      ,   messageRef = map src_messageflow.Format
+      ,   emit EmitMessageFlowSourceDest(src_messageflow)
+      );
+   }   
+
+   declare rule_Flow_SequenceFlow(dst_container)
+   {
+      src_flow : 'Flow'.Where(Stereotype:Equals('Sequence Flow')) => dst_flow : 'SequenceFlow'
+      (
+         dst_container.flowElements   
+      ,   ?src_flow.ConditionAlias? (name = src_flow.ConditionAlias) : (name = Name)
+      ,   ?src_flow.Comment? (documentation += new 'Documentation' (dst_flow.documentation , text = src_flow.Comment)) : ()
+      ,   emit EmitFlowSourceElement(src_flow)
+      ,   targetRef = map Destination
+      )
+      {
+         matchonce
+         {
+            src_boundary : src_flow.ForEach('Event').Where(IsBoundaryEvent) => dst_boundary : 'BoundaryEvent' [%src_flow.ObjectID%]
+            (
+               dst_container.flowElements
+            ,   name = Name   
+            ,   attachedToRef = map src_flow.ForEach('Source').ElementAt(0)
+            ,   cancelActivity = isCancelActivity
+            ,   ?IsParallelMultiple? (parallelMultiple = true) : ()
+            )
+            {
+               matchonce
+               {
+                  invoke rule_BoundaryEventDefinition(src_flow, dst_boundary);
+               }
+            }
+         }
+      }
+   }
+   
+   //Other Object   
+   declare rule_Variable_CorrelationKeys ()
+   {
+      src_CorrelationKeys : 'Variable'.Where(Stereotype:Equals('Correlation Property')) => 'CorrelationKeys'
+      (
+         name = Name 
+      ,   correlationPropertyRef += map src_CorrelationKeys.ForEach('Correlations');
+      );
+      
+   }
+   
+   declare rule_OrganizationUnit_Lane (src_container)
+   {
+      src_Lane : src_container.ForEach('OrganizationUnit').ForEach('ChildOrganizations').Where(Stereotype:Equals('Lane')) => 'Lane' [%ObjectID%]
+      (      
+         name = Name
+      ,   flowNodeRefs += map src_Lane.ForEach('AttachedProcess')      
+      ,   flowNodeRefs += map src_Lane.ForEach('AttachedStarts')
+      ,   flowNodeRefs += map src_Lane.ForEach('AttachedEnds')
+      ,   flowNodeRefs += map src_Lane.ForEach('AttachedDecisions')
+      );
+   }
+   
+   //Note and NoteLink   
+   declare rule_Note_TextAnnotation(dst_container)
+   {
+      'ExtendedObject'.Where(Stereotype:Equals('Note')) => 'TextAnnotation'
+      (
+         dst_container.artifacts
+      ,   ?Text+? (text = Text+) : ()
+      );   
+   }
+         
+   declare rule_NoteLink_Association(dst_container)
+   {
+      'ExtendedLink'.Where(Stereotype :Equals('NoteLink')) => 'Association'
+      (      
+         dst_container.artifacts      
+      ,   sourceRef = map Object1
+      ,   targetRef = map Object2
+      );
+   }
+   
+   declare rule_TraceabilityLink_Association(dst_container)
+   {
+      'ExtendedLink'.Where(Stereotype :Equals('TraceabilityLink')) => 'Association'
+      (      
+         dst_container.artifacts      
+      ,   sourceRef = map Object1
+      ,   targetRef = map Object2
+      );
+   }
+   
+   declare rule_RoundRectangle_Group(dst_container)
+   {
+      'ExtendedObject'.Where(Stereotype:Equals('Group')) => 'Group'
+      (
+         dst_container.artifacts
+      );   
+   }
+      
+   ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+   // Symbols
+   ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+   declare rule_StartSymbol_BPMNShape(src_container, dst_container)
+   {
+      src_container.ForEach('StartSymbol') => dst_Start : 'BPMNShape' //start event(not include message start event)
+      (
+         dst_container.planeElement
+      ,   bpmnElement = get StartEvent[%Object.ObjectID%]
+      )
+      {
+         _ => 'Bounds'
+         (
+            dst_Start.bounds
+         ,   height = fHeight
+         ,   width = fWidth
+         ,   x = fX
+         ,   y = fY         
+         );
+      }
+   }
+   
+   declare rule_EndSymbol_BPMNShape(src_container, dst_container)
+   {
+      src_EndSymbol : src_container.ForEach('EndSymbol') => dst_End : 'BPMNShape' //end event(not include message end event)
+      (
+         dst_container.planeElement
+      ,   bpmnElement = map Object
+      )
+      {
+         _ => 'Bounds'
+         (
+            dst_End.bounds
+         ,   height = fHeight
+         ,   width = fWidth
+         ,   x = fX
+         ,   y = fY         
+         );
+      }   
+   }
+   
+   declare rule_ProcessSymbol_BPMNShape(src_container, dst_container)
+   {
+      //task, subprocess, event and other... 
+      src_processSymbol : src_container.ForEach('ProcessSymbol') => dst_Process : 'BPMNShape' 
+      (
+         dst_container.planeElement
+      ,   bpmnElement = map Object
+      ,   isExpanded = IsExpanded
+      )
+      {
+         _ => 'Bounds'
+         (
+            dst_Process.bounds
+         ,   height = fHeight
+         ,   width = fWidth
+         ,   x = fX
+         ,   y = fY         
+         );
+         
+         invoke rule_AllSymbols(src_processSymbol, dst_container); 
+      }
+   }
+      
+   declare rule_Decision_BPMNShape(src_container,dst_container)
+   {
+      src_container.ForEach('DecisionSymbol') => dst_Process : 'BPMNShape' 
+      (
+         dst_container.planeElement
+      ,   bpmnElement = map Object
+      )
+      {
+         _ => 'Bounds'
+         (
+            dst_Process.bounds
+         ,   height = fHeight
+         ,   width = fWidth
+         ,   x = fX
+         ,   y = fY         
+         );
+      }
+   }
+   
+   declare rule_Variable_BPMNShape(src_container, dst_container)
+   {
+      src_container.ForEach('VariableSymbol') => dst_edge : 'BPMNShape' 
+      (
+         dst_container.planeElement
+      ,   bpmnElement = map Object
+      )
+      {
+         _ => 'Bounds'
+         (
+            dst_edge.bounds
+         ,   height = fHeight
+         ,   width = fWidth
+         ,   x = fX
+         ,   y = fY
+         );
+      }
+   }
+   
+   declare rule_FlowSymbol_BPMNEdge(src_container,dst_container)
+   {
+      src_flowSymbol : src_container.ForEach('FlowSymbol') => _
+      {
+         src_shape : src_flowSymbol.ForEach('Object').ForEach('Event').Where(IsBoundaryEvent) => dst_shape : 'BPMNShape' [%src_flowSymbol.Object.ObjectID%]
+         (
+            dst_container.planeElement
+         ,   bpmnElement = get BoundaryEvent[%src_flowSymbol.Object.ObjectID%]
+         )
+         {
+            _ => 'Bounds'
+            (
+               dst_shape.bounds
+            ,   height = src_flowSymbol.fHeight
+            ,   width = src_flowSymbol.fWidth
+            ,   x = src_flowSymbol.fX
+            ,   y = src_flowSymbol.fY
+            );
+         }
+      }
+      
+      src_Flow : src_container.ForEach('FlowSymbol') => dst_Process : 'BPMNEdge' 
+      (
+         dst_container.planeElement
+      ,   bpmnElement = map Object
+      ,   emit EmitBPMNEdgeSourceSymbol(src_Flow)
+      ,   targetElement = map src_Flow.DestinationSymbol
+      );
+   }
+   
+   declare rule_NoteSymbol_BPMNShape(src_container,dst_container)
+   {
+      src_container.ForEach('ExtendedObjectSymbol') => dst_note : 'BPMNShape' 
+      (
+         dst_container.planeElement
+      ,   bpmnElement = map Object
+      )
+      {
+         _ => 'Bounds'
+         (
+            dst_note.bounds
+         ,   height = fHeight
+         ,   width = fWidth
+         ,   x = fX
+         ,   y = fY
+         );
+      }
+   }
+   
+   declare rule_NoteLinkSymbol_BPMNEdge(src_container,dst_container)
+   {
+      src_link : src_container.ForEach('ExtendedLinkSymbol') => dst_edge : 'BPMNEdge' 
+      (
+         dst_container.planeElement
+      ,   bpmnElement = map Object
+      ,   sourceElement = map SourceSymbol
+      ,   targetElement = map DestinationSymbol
+      );
+   }
+
+   declare rule_ResourceFlowSymbol_BPMNEdge(src_container, dst_container)
+   {
+      src_flow : src_container.ForEach('ResourceFlowSymbol') => dst_Process : 'BPMNEdge' 
+      (
+         dst_container.planeElement
+      ,   bpmnElement = map Object
+      ,   ?Object.IsOutput? ( sourceElement = map SourceSymbol ) : ( sourceElement = map DestinationSymbol )
+      ,   ?Object.IsOutput? ( targetElement = map DestinationSymbol) : (targetElement = map SourceSymbol)
+      ,   emit EmitResourceFlowEdgeWaypoint(src_flow, 'dst_Process')
+      );
+   }
+      
+
+   
+   declare rule_AllSymbols (src_container, dst_Plane)
+   {
+      matchonce
+      {         
+         invoke rule_StartSymbol_BPMNShape(src_container, dst_Plane);
+         
+         invoke rule_EndSymbol_BPMNShape(src_container,dst_Plane);      
+         
+         invoke rule_ProcessSymbol_BPMNShape(src_container,dst_Plane);
+         
+         invoke rule_Decision_BPMNShape(src_container,dst_Plane);
+         
+         invoke rule_Variable_BPMNShape(src_container,dst_Plane);
+                              
+         invoke rule_ResourceFlowSymbol_BPMNEdge(src_container,dst_Plane);
+         
+         invoke rule_NoteSymbol_BPMNShape(src_container,dst_Plane);
+            
+         invoke rule_NoteLinkSymbol_BPMNEdge(src_container,dst_Plane);
+      }
+      
+      invoke rule_FlowSymbol_BPMNEdge(src_container,dst_Plane); // a boundary may map many times, so it can't be in 'matchonce'
+      
+      src_groupsymbol : src_container.ForEach('GroupSymbol') => _ // solve group symbol problem
+      {
+         invoke rule_AllSymbols(src_groupsymbol, dst_Plane);
+      }
+   }
+   
+   declare rule_Package_BPMNDiagram(dst_container)
+   {
+      'Package' => _
+      (
+      )
+      {
+         matchonce
+         {
+            invoke rule_BusinessProcessDiagram_BPMNDiagram_Package(dst_container);
+         
+            invoke rule_Package_BPMNDiagram(dst_container);
+         }
+      }
+   }
+   
+   ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+   // All Diagrams
+   ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+   declare rule_BusinessProcessDiagram_BPMNDiagram(dst_container)
+   {
+      src_Diagram : 'BusinessProcessDiagram'.Where(!src_model:ModelProcessCount():IntEquals(0) && !IsEmpty) => dst_diagram :'BPMNDiagram'
+      (
+         dst_container.diagrams
+      ,   ?Comment? (documentation = Comment) : ()         
+      )
+      & dst_Plane : 'BPMNPlane'
+      (
+         dst_diagram.plane
+      ,   bpmnElement = get Collaboration[%Parent.ObjectID%]
+      )
+      {
+         src_Process: src_Diagram.ForEach('SwimpoolSymbol') => dst_Process : 'BPMNShape'
+         (
+            dst_Plane.planeElement
+         ,   bpmnElement = map src_Process.ForEach('Object').ForEach('OrganizationUnit').ElementAt(0)
+         ,   isHorizontal = src_Diagram.horizontal   
+         )
+         {
+            _ => 'Bounds'
+            (
+               dst_Process.bounds
+            ,   height = fHeight
+            ,   width = fWidth
+            ,   x = fX
+            ,   y = fY   
+            );
+               
+            src_Lane : src_Process.ForEach('SwimlaneSubGroupSymbol').ForEach('SwimlaneSymbol') =>  dst_Lane :'BPMNShape'
+            (
+               dst_Plane.planeElement
+            ,   bpmnElement = get Lane[%Object.ObjectID%]
+            )    
+            & 'Bounds'
+            (
+               dst_Lane.bounds
+            ,   height = fHeight
+            ,   width = fWidth   
+            ,   x = fX
+            ,   y = fY
+            )            
+            {
+               invoke rule_AllSymbols(src_Lane, dst_Plane);
+            }
+            
+         }
+         
+         invoke rule_AllSymbols(src_Diagram, dst_Plane);
+      
+      }
+      
+      src_Diagram : 'BusinessProcessDiagram'.Where(src_model:ModelProcessCount():IntEquals(0) && !IsEmpty) => dst_diagram :'BPMNDiagram'
+      (
+         dst_container.diagrams
+      ,   ?Comment? (documentation = Comment) : ()
+      )
+      & dst_Plane : 'BPMNPlane'
+      (
+         dst_diagram.plane
+      ,   bpmnElement = get Process[%Parent.ObjectID%]
+      )
+      {      
+         invoke rule_AllSymbols(src_Diagram, dst_Plane);   
+      }
+      
+   }
+   
+   declare rule_BusinessProcessDiagram_BPMNDiagram_Package(dst_container)
+   {
+      src_Diagram : 'BusinessProcessDiagram'.Where(src_model:ModelProcessCount():IntEquals(0) && !IsEmpty) => dst_diagram :'BPMNDiagram'
+      (
+         dst_container.diagrams
+      ,   ?Comment? (documentation = Comment) : ()
+      )
+      & dst_Plane : 'BPMNPlane'
+      (
+         dst_diagram.plane
+      ,   bpmnElement = get Process[%src_model.ObjectID%]
+      )
+      {         
+         invoke rule_AllSymbols(src_Diagram, dst_Plane);                     
+      }
+      
+      src_Diagram : 'BusinessProcessDiagram'.Where(!src_model:ModelProcessCount():IntEquals(0) && !IsEmpty) => dst_diagram :'BPMNDiagram'
+      (
+         dst_container.diagrams
+      ,   ?Comment? (documentation = Comment) : ()         
+      )
+      & dst_Plane : 'BPMNPlane'
+      (
+         dst_diagram.plane
+      ,   bpmnElement = get Collaboration[%src_model.ObjectID%]
+      )
+      {
+         src_Process: src_Diagram.ForEach('SwimpoolSymbol') => dst_Process : 'BPMNShape'
+         (
+            dst_Plane.planeElement
+         ,   bpmnElement = map src_Process.ForEach('Object').ForEach('OrganizationUnit').ElementAt(0)
+         ,   isHorizontal = src_Diagram.horizontal   
+         )
+         {
+            _ => 'Bounds'
+            (
+               dst_Process.bounds
+            ,   height = fHeight
+            ,   width = fWidth
+            ,   x = fX
+            ,   y = fY   
+            );
+            
+            src_Lane : src_Process.ForEach('SwimlaneSubGroupSymbol').ForEach('SwimlaneSymbol') =>  dst_Lane :'BPMNShape'
+            (
+               dst_Plane.planeElement
+            ,   bpmnElement = get Lane[%Object.ObjectID%]
+            )
+            & 'Bounds'
+            (
+               dst_Lane.bounds
+            ,   height = fHeight
+            ,   width = fWidth
+            ,   x = fX
+            ,   y = fY
+            )            
+            {
+               invoke rule_AllSymbols(src_Lane, dst_Plane);
+            }
+            
+         }      
+         invoke rule_AllSymbols(src_Diagram, dst_Plane);
+      }
+   }
+
+   declare rule_BusinessProcessDiagram_BPMNDiagram_Process(dst_container)
+   {
+      src_Diagram : 'BusinessProcessDiagram'.Where(!IsEmpty) => dst_diagram :'BPMNDiagram'
+      (
+         dst_container.diagrams
+      ,   ?Comment? (documentation = Comment) : ()
+      )
+      & dst_Plane : 'BPMNPlane'
+      (
+         dst_diagram.plane
+      ,   bpmnElement = get Process[%Parent.ObjectID%]
+      )
+      {
+         invoke rule_AllSymbols(src_Diagram, dst_Plane);                        
+      }
+   }
+
+   declare rule_BusinessProcessDiagram_BPMNDiagram_SubProcess(dst_container)
+   {
+      src_Diagram : 'BusinessProcessDiagram'.Where(!IsEmpty) => dst_diagram :'BPMNDiagram'
+      (
+         dst_container.diagrams
+      ,   ?Comment? (documentation = Comment) : ()         
+      )
+      & dst_Plane : 'BPMNPlane'
+      (
+         dst_diagram.plane
+      ,   emit EmitBPMNPlantElement(src_Diagram)   
+      )
+      {
+         invoke rule_AllSymbols(src_Diagram, dst_Plane);                           
+      }
+   }
+   
+   ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+   // Main Entry
+   ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+   _ => dst_Definition : 'Definitions'
+   (
+      dst_model.definitions
+   ,   ?Comment? (documentation += new 'Documentation' (dst_Definition.documentation , text = Comment)) : ()
+   ,   targetNamespace = "http://www.sap.com/powerdesigner/bpmn2"
+   )
+   {
+      // if exists Process element in model, create process 
+      _.Where( !src_model:ModelProcessCount():IntEquals(0) ) => dst_collaboration : 'Collaboration' [%ObjectID%]
+      (
+         id = 'Collaboration_1'
+      ,   name = Name
+      )
+      {
+          _ => 'Participant'
+         (
+            name = Name
+         ,   processRef = get Process[%ObjectID%]
+         );
+               
+         matchonce
+         {
+            src_OrganizationUnit : 'OrganizationUnit'.Where( Stereotype:Equals('Participant')) => 'Participant' [%ObjectID%]
+            (
+               name = Name
+            ,   processRef = map src_OrganizationUnit.ForEach('AttachedProcess').ElementAt(0)
+            );
+         }
+         
+         invoke rule_Flow_MessageFlow (src_model, dst_collaboration);
+      }
+   
+      src_Process :  _ => dst_Process : 'Process' [%ObjectID%]
+      (
+         name = Name
+      )
+      {
+         matchonce
+         {
+             _.( !src_model:ModelProcessCount():IntEquals(0) ) => 'LaneSet'
+            {
+               src_Lane : _ => dst_lane : 'Lane'
+               (
+               name = 'Default Lane'
+               ,   flowNodeRefs += map src_model.ForEach('Process').Where( !Stereotype:Equals('Process'))      
+               ,   flowNodeRefs += map src_model.ForEach('ProcessStart')
+               ,   flowNodeRefs += map src_model.ForEach('ProcessEnd')
+               ,   flowNodeRefs += map src_model.ForEach('Decision')
+               ,   flowNodeRefs += map src_model.ForEach('flowNodeElements')
+               );
+            }
+            
+             _ => 'LaneSet'
+            {
+               invoke rule_OrganizationUnit_Lane (src_Process);
+
+               _ => 'Lane'(name = 'Default lane');
+            }
+         }
+
+         _ => dst_spec : 'InputOutputSpecification'
+         {
+            invoke rule_Variable_DataInput(dst_spec);
+            
+            invoke rule_Variable_DataOutput(dst_spec);
+         }
+         
+         invoke rule_Variable_Property(dst_Process);
+         
+         invoke rule_AllElement(dst_Process, dst_Definition);
+         
+         //model whick have package   
+         invoke rule_Package(dst_Process, dst_Definition);
+         
+         //4 default process property
+         _ => 'Property'
+         (
+            name = 'boundaryNotVisibleProperty'
+         );   
+      }
+         
+
+      matchonce
+      {
+         invoke rule_Process(src_model,dst_Definition);
+         //Global Element
+         invoke rule_Resource_DataStore(dst_Definition);
+         
+         invoke rule_MessageFormat_Message(); //Messgae
+         
+         invoke rule_ServiceProvider(); //Service and interface
+         
+         invoke rule_Process_GlobalTask(dst_Definition);
+      }
+      
+      //Symbols         
+      invoke rule_BusinessProcessDiagram_BPMNDiagram(dst_Definition);
+   }
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//PD Extensions
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//Symbols Extensions
+class pd::'PdBPM.SwimpoolSymbol'
+{{   
+
+   public float fHeight
+   {
+      get
+      {
+         float scale = $Scale$F;
+         long lHeight = System.Convert.ToInt64(this.GetProperty("Height"));         
+         return System.Convert.ToSingle(System.Convert.ToInt32(lHeight/scale));
+      }
+   }
+   
+   public float fWidth
+   {
+      get
+      {
+         float scale = $Scale$F;
+         long lWidth = System.Convert.ToInt64(this.GetProperty("Width"));         
+         return System.Convert.ToSingle(System.Convert.ToInt32(lWidth/scale));
+      }
+   }
+   
+   public float fX
+   {
+      get
+      {
+         float scale = $Scale$F;
+         int xAxisInversion = $XAxisInversion$ ? -1 : 1 ;
+         Sybase.Modeling.NMap.Runtime.Tuple aPoint = this.GetProperty("Position") as Sybase.Modeling.NMap.Runtime.Tuple;
+         long lX = System.Convert.ToInt64(aPoint[0].Value);   
+         return System.Convert.ToSingle(System.Convert.ToInt32(xAxisInversion * lX/scale));
+      }      
+   }
+   
+   public float fY
+   {
+      get
+      {
+         float scale = $Scale$F;
+         int yAxisInversion = $YAxisInversion$ ? -1 : 1 ;
+         Sybase.Modeling.NMap.Runtime.Tuple aPoint = this.GetProperty("Position") as Sybase.Modeling.NMap.Runtime.Tuple;
+         long lY = System.Convert.ToInt64(aPoint[1].Value);
+
+         Sybase.Modeling.NMap.Runtime.IAbstractModelReader reader = this.GetModelReader() as Sybase.Modeling.NMap.Runtime.IAbstractModelReader;   
+         Sybase.Modeling.NMap.Runtime.IModelElement diagram = this.GetProperty("Diagram") as Sybase.Modeling.NMap.Runtime.IModelElement;
+         
+         string displayRef = reader.GetProperty<string>(diagram,"DisplayPreferences");
+         
+         if(displayRef.Contains("SwimlaneVert=Yes"))
+         {
+            return System.Convert.ToSingle(System.Convert.ToInt32(yAxisInversion * lY/scale));
+         }
+         else
+         {
+            return System.Convert.ToSingle(System.Convert.ToInt32(yAxisInversion * (lY/scale + this.fHeight)));
+         }
+      }
+   }
+}}
+
+class pd::'PdBPM.SwimlaneSymbol'
+{{
+
+   public float fHeight
+   {
+      get
+      {
+         float scale = $Scale$F;
+         long lHeight = System.Convert.ToInt64(this.GetProperty("Height"));         
+         return System.Convert.ToSingle(System.Convert.ToInt32(lHeight/scale));
+      }
+   }
+   
+   public float fWidth
+   {
+      get
+      {
+         float scale = $Scale$F;
+         long lWidth = System.Convert.ToInt64(this.GetProperty("Width"));         
+         return System.Convert.ToSingle(System.Convert.ToInt32(lWidth/scale));
+      }
+   }
+   
+   public float fX
+   {
+      get
+      {
+         float scale = $Scale$F;
+         int xAxisInversion = $XAxisInversion$ ? -1 : 1 ;
+         Sybase.Modeling.NMap.Runtime.Tuple aPoint = this.GetProperty("Position") as Sybase.Modeling.NMap.Runtime.Tuple;
+         long lX = System.Convert.ToInt64(aPoint[0].Value);   
+         return System.Convert.ToSingle(System.Convert.ToInt32(xAxisInversion * (lX/scale - (float)(this.fWidth)/2)));
+      }      
+   }
+   
+   public float fY
+   {
+      get
+      {
+         float scale = $Scale$F;
+         int yAxisInversion = $YAxisInversion$ ? -1 : 1 ;
+         Sybase.Modeling.NMap.Runtime.Tuple aPoint = this.GetProperty("Position") as Sybase.Modeling.NMap.Runtime.Tuple;
+         long lY = System.Convert.ToInt64(aPoint[1].Value);         
+         return System.Convert.ToSingle(System.Convert.ToInt32(yAxisInversion * (lY/scale + (float)(this.fHeight)/2)));
+      }
+   }
+}}
+
+class pd::'PdCommon.StartSymbol'
+{{
+   public float fHeight
+   {
+      get
+      {
+         float scale = $Scale$F;
+         long lHeight = System.Convert.ToInt64(this.GetProperty("Height"));         
+         return System.Convert.ToSingle(lHeight/scale);
+      }
+   }
+   
+   public float fWidth
+   {
+      get
+      {
+         float scale = $Scale$F;
+         long lWidth = System.Convert.ToInt64(this.GetProperty("Width"));         
+         return System.Convert.ToSingle(lWidth/scale);
+      }
+   }
+   
+   public float fX
+   {
+      get
+      {
+         float scale = $Scale$F;
+         int xAxisInversion = $XAxisInversion$ ? -1 : 1 ;
+         Sybase.Modeling.NMap.Runtime.Tuple aPoint = this.GetProperty("Position") as Sybase.Modeling.NMap.Runtime.Tuple;
+         long lX = System.Convert.ToInt64(aPoint[0].Value);   
+         return System.Convert.ToSingle(System.Convert.ToInt32(xAxisInversion * (lX/scale - (float)(this.fWidth)/2)));
+      }      
+   }
+   
+   public float fY
+   {
+      get
+      {
+         float scale = $Scale$F;
+         int yAxisInversion = $YAxisInversion$ ? -1 : 1 ;
+         Sybase.Modeling.NMap.Runtime.Tuple aPoint = this.GetProperty("Position") as Sybase.Modeling.NMap.Runtime.Tuple;
+         long lY = System.Convert.ToInt64(aPoint[1].Value);         
+         return System.Convert.ToSingle(System.Convert.ToInt32(yAxisInversion * (lY/scale + (float)(this.fHeight)/2)));
+      }
+   }
+}}
+
+class pd::'PdCommon.EndSymbol'
+{{
+   public float fHeight
+   {
+      get
+      {
+         float scale = $Scale$F;
+         long lHeight = System.Convert.ToInt64(this.GetProperty("Height"));         
+         return System.Convert.ToSingle(lHeight/scale);
+      }
+   }
+   
+   public float fWidth
+   {
+      get
+      {
+         float scale = $Scale$F;
+         long lWidth = System.Convert.ToInt64(this.GetProperty("Width"));         
+         return System.Convert.ToSingle(lWidth/scale);
+      }
+   }
+   
+   public float fX
+   {
+      get
+      {
+         float scale = $Scale$F;
+         int xAxisInversion = $XAxisInversion$ ? -1 : 1 ;
+         Sybase.Modeling.NMap.Runtime.Tuple aPoint = this.GetProperty("Position") as Sybase.Modeling.NMap.Runtime.Tuple;
+         long lX = System.Convert.ToInt64(aPoint[0].Value);   
+         return System.Convert.ToSingle(System.Convert.ToInt32(xAxisInversion * (lX/scale - (float)(this.fWidth)/2)));
+      }      
+   }
+   
+   public float fY
+   {
+      get
+      {
+         float scale = $Scale$F;
+         int yAxisInversion = $YAxisInversion$ ? -1 : 1 ;
+         Sybase.Modeling.NMap.Runtime.Tuple aPoint = this.GetProperty("Position") as Sybase.Modeling.NMap.Runtime.Tuple;
+         long lY = System.Convert.ToInt64(aPoint[1].Value);         
+         return System.Convert.ToSingle(System.Convert.ToInt32(yAxisInversion * (lY/scale + (float)(this.fHeight)/2)));
+      }
+   }
+}}
+
+class pd::'PdBPM.DecisionSymbol'
+{{
+   public float fHeight
+   {
+      get
+      {
+         float scale = $Scale$F;
+         long lHeight = System.Convert.ToInt64(this.GetProperty("Height"));         
+         return System.Convert.ToSingle(lHeight/scale);
+      }
+   }
+   
+   public float fWidth
+   {
+      get
+      {
+         float scale = $Scale$F;
+         long lWidth = System.Convert.ToInt64(this.GetProperty("Width"));         
+         return System.Convert.ToSingle(lWidth/scale);
+      }
+   }
+   
+   public float fX
+   {
+      get
+      {
+         float scale = $Scale$F;
+         int xAxisInversion = $XAxisInversion$ ? -1 : 1 ;
+         Sybase.Modeling.NMap.Runtime.Tuple aPoint = this.GetProperty("Position") as Sybase.Modeling.NMap.Runtime.Tuple;
+         long lX = System.Convert.ToInt64(aPoint[0].Value);   
+         return System.Convert.ToSingle(System.Convert.ToInt32(xAxisInversion * (lX/scale - (float)(this.fWidth)/2)));
+      }      
+   }
+   
+   public float fY
+   {
+      get
+      {
+         float scale = $Scale$F;
+         int yAxisInversion = $YAxisInversion$ ? -1 : 1 ;
+         Sybase.Modeling.NMap.Runtime.Tuple aPoint = this.GetProperty("Position") as Sybase.Modeling.NMap.Runtime.Tuple;
+         long lY = System.Convert.ToInt64(aPoint[1].Value);         
+         return System.Convert.ToSingle(System.Convert.ToInt32(yAxisInversion * (lY/scale + (float)(this.fHeight)/2)));
+      }
+   }
+}}
+
+class pd::'PdBPM.ResourceSymbol'
+{{
+   public float fHeight
+   {
+      get
+      {
+         float scale = $Scale$F;
+         long lHeight = System.Convert.ToInt64(this.GetProperty("Height"));         
+         return System.Convert.ToSingle(lHeight/scale);
+      }
+   }
+   
+   public float fWidth
+   {
+      get
+      {
+         float scale = $Scale$F;
+         long lWidth = System.Convert.ToInt64(this.GetProperty("Width"));         
+         return System.Convert.ToSingle(lWidth/scale);
+      }
+   }
+   
+   public float fX
+   {
+      get
+      {
+         float scale = $Scale$F;
+         int xAxisInversion = $XAxisInversion$ ? -1 : 1 ;
+         Sybase.Modeling.NMap.Runtime.Tuple aPoint = this.GetProperty("Position") as Sybase.Modeling.NMap.Runtime.Tuple;
+         long lX = System.Convert.ToInt64(aPoint[0].Value);   
+         return System.Convert.ToSingle(System.Convert.ToInt32(xAxisInversion * (lX/scale - (float)(this.fWidth)/2)));
+      }      
+   }
+   
+   public float fY
+   {
+      get
+      {
+         float scale = $Scale$F;
+         int yAxisInversion = $YAxisInversion$ ? -1 : 1 ;
+         Sybase.Modeling.NMap.Runtime.Tuple aPoint = this.GetProperty("Position") as Sybase.Modeling.NMap.Runtime.Tuple;
+         long lY = System.Convert.ToInt64(aPoint[1].Value);         
+         return System.Convert.ToSingle(System.Convert.ToInt32(yAxisInversion * (lY/scale + (float)(this.fHeight)/2)));
+      }
+   }
+}}
+
+class pd::'PdBPM.ProcessSymbol'
+{{
+   public float fHeight
+   {
+      get
+      {
+         float scale = $Scale$F;
+         long lHeight = System.Convert.ToInt64(this.GetProperty("Height"));         
+         return System.Convert.ToSingle(lHeight/scale);
+      }
+   }
+   
+   public float fWidth
+   {
+      get
+      {
+         float scale = $Scale$F;
+         long lWidth = System.Convert.ToInt64(this.GetProperty("Width"));         
+         return System.Convert.ToSingle(lWidth/scale);
+      }
+   }
+   
+   public float fX
+   {
+      get
+      {
+         float scale = $Scale$F;
+         int xAxisInversion = $XAxisInversion$ ? -1 : 1 ;
+         Sybase.Modeling.NMap.Runtime.Tuple aPoint = this.GetProperty("Position") as Sybase.Modeling.NMap.Runtime.Tuple;
+         long lX = System.Convert.ToInt64(aPoint[0].Value);   
+         return System.Convert.ToSingle(System.Convert.ToInt32(xAxisInversion * (lX/scale - (float)(this.fWidth)/2)));
+      }      
+   }
+   
+   public float fY
+   {
+      get
+      {
+         float scale = $Scale$F;
+         int yAxisInversion = $YAxisInversion$ ? -1 : 1 ;
+         Sybase.Modeling.NMap.Runtime.Tuple aPoint = this.GetProperty("Position") as Sybase.Modeling.NMap.Runtime.Tuple;
+         long lY = System.Convert.ToInt64(aPoint[1].Value);         
+         return System.Convert.ToSingle(System.Convert.ToInt32(yAxisInversion * (lY/scale + (float)(this.fHeight)/2)));
+      }
+   }
+   
+   public bool IsExpanded
+   {
+      get
+      {
+         bool result = false;
+         string compositeView = this.GetProperty("CompositeView") as string;
+         if(CompositeView.Equals("true")) //Read-only
+            result = false;
+         else
+         {
+            Sybase.Modeling.NMap.Runtime.IModelElement sObject = this.GetProperty("Object") as Sybase.Modeling.NMap.Runtime.IModelElement;
+            if(sObject != null)
+            {
+               string stereotype = sObject.GetProperty("Stereotype") as string;
+               
+               if(stereotype.Equals("Sub-Process") || stereotype.Equals("Ad-Hoc Sub-Process") || stereotype.Equals("Event Sub-Process") || stereotype.Equals("Transaction"))
+               {
+                  string symbolContent = this.GetProperty("SymbolContent") as string;
+                  if(symbolContent.Contains("Process.SubSymbols"))
+                  {
+                     if(symbolContent.Contains("Process.SubSymbols 0")) //none
+                        result = false;
+                     else //Editable
+                        result = true;
+                  }
+                  else
+                     result = true;
+               }
+            }
+         }
+         
+         return result;
+      }
+   }
+}}
+
+class pd::'PdBPM.VariableSymbol'
+{{
+   public float fHeight
+   {
+      get
+      {
+         float scale = $Scale$F;
+         long lHeight = System.Convert.ToInt64(this.GetProperty("Height"));         
+         return System.Convert.ToSingle(lHeight/scale);
+      }
+   }
+   
+   public float fWidth
+   {
+      get
+      {
+         float scale = $Scale$F;
+         long lWidth = System.Convert.ToInt64(this.GetProperty("Width"));         
+         return System.Convert.ToSingle(lWidth/scale);
+      }
+   }
+   
+   public float fX
+   {
+      get
+      {
+         float scale = $Scale$F;
+         int xAxisInversion = $XAxisInversion$ ? -1 : 1 ;
+         Sybase.Modeling.NMap.Runtime.Tuple aPoint = this.GetProperty("Position") as Sybase.Modeling.NMap.Runtime.Tuple;
+         long lX = System.Convert.ToInt64(aPoint[0].Value);   
+         return System.Convert.ToSingle(System.Convert.ToInt32(xAxisInversion * (lX/scale - (float)(this.fWidth)/2)));
+      }      
+   }
+   
+   public float fY
+   {
+      get
+      {
+         float scale = $Scale$F;
+         int yAxisInversion = $YAxisInversion$ ? -1 : 1 ;
+         Sybase.Modeling.NMap.Runtime.Tuple aPoint = this.GetProperty("Position") as Sybase.Modeling.NMap.Runtime.Tuple;
+         long lY = System.Convert.ToInt64(aPoint[1].Value);         
+         return System.Convert.ToSingle(System.Convert.ToInt32(yAxisInversion * (lY/scale + (float)(this.fHeight)/2)));
+      }
+   }
+}}
+
+class pd::'PdCommon.ExtendedObjectSymbol'
+{{
+   public float fHeight
+   {
+      get
+      {
+         float scale = $Scale$F;
+         long lHeight = System.Convert.ToInt64(this.GetProperty("Height"));         
+         return System.Convert.ToSingle(lHeight/scale);
+      }
+   }
+   
+   public float fWidth
+   {
+      get
+      {
+         float scale = $Scale$F;
+         long lWidth = System.Convert.ToInt64(this.GetProperty("Width"));         
+         return System.Convert.ToSingle(lWidth/scale);
+      }
+   }
+   
+   public float fX
+   {
+      get
+      {
+         float scale = $Scale$F;
+         int xAxisInversion = $XAxisInversion$ ? -1 : 1 ;
+         Sybase.Modeling.NMap.Runtime.Tuple aPoint = this.GetProperty("Position") as Sybase.Modeling.NMap.Runtime.Tuple;
+         long lX = System.Convert.ToInt64(aPoint[0].Value);   
+         return System.Convert.ToSingle(System.Convert.ToInt32(xAxisInversion * (lX/scale - (float)(this.fWidth)/2)));
+      }      
+   }
+   
+   public float fY
+   {
+      get
+      {
+         float scale = $Scale$F;
+         int yAxisInversion = $YAxisInversion$ ? -1 : 1 ;
+         Sybase.Modeling.NMap.Runtime.Tuple aPoint = this.GetProperty("Position") as Sybase.Modeling.NMap.Runtime.Tuple;
+         long lY = System.Convert.ToInt64(aPoint[1].Value);         
+         return System.Convert.ToSingle(System.Convert.ToInt32(yAxisInversion * (lY/scale + (float)(this.fHeight)/2)));
+      }
+   }
+}}
+
+//for boundary event
+class pd::'PdBPM.FlowSymbol' 
+{{
+   public float fHeight
+   {
+      get
+      {
+         return $FixedEventShapeSize$F;
+      }
+   }
+   
+   public float fWidth
+   {
+      get
+      {
+         return $FixedEventShapeSize$F;
+      }
+   }
+   
+   public float fX
+   {
+      get
+      {
+         float scale = $Scale$F;      
+         int xAxisInversion = $XAxisInversion$ ? -1 : 1 ;
+         Sybase.Modeling.NMap.Runtime.Tuple aPoint = this.GetProperty("ListOfPoints") as Sybase.Modeling.NMap.Runtime.Tuple;
+         long lX = System.Convert.ToInt64(aPoint[0].Value);   
+         return System.Convert.ToSingle(System.Convert.ToInt32(xAxisInversion * (lX/scale - (float)(this.fWidth)/2)));
+      }      
+   }
+   
+   public float fY
+   {
+      get
+      {
+         float scale = $Scale$F;
+         int yAxisInversion = $YAxisInversion$ ? -1 : 1 ;
+         Sybase.Modeling.NMap.Runtime.Tuple aPoint = this.GetProperty("ListOfPoints") as Sybase.Modeling.NMap.Runtime.Tuple;
+         long lY = System.Convert.ToInt64(aPoint[1].Value);         
+         return System.Convert.ToSingle(System.Convert.ToInt32(yAxisInversion * (lY/scale + (float)(this.fHeight)/2)));
+      }
+   }
+}}
+
+
+//Object Extension
+class pd::'PdBPM.Model'
+{{
+   public System.Collections.Generic.List<Sybase.Modeling.NMap.Runtime.IModelElement> flowNodeElements
+   {
+      get
+      {   
+         Sybase.Modeling.NMap.Runtime.IAbstractModelReader reader = this.GetModelReader() as Sybase.Modeling.NMap.Runtime.IAbstractModelReader;
+         System.Collections.Generic.List<Sybase.Modeling.NMap.Runtime.IModelElement> listNodeElms = new System.Collections.Generic.List<Sybase.Modeling.NMap.Runtime.IModelElement>();            
+         
+         foreach (Sybase.Modeling.NMap.Runtime.IModelElement e in reader.GetCollection(this, "Packages"))
+         {
+            foreach(Sybase.Modeling.NMap.Runtime.IModelElement r in e.GetReferences("flowNodeElements"))
+            {
+               listNodeElms.Add(r);
+            }
+         }
+         
+         return listNodeElms;         
+      }
+   }
+}}
+
+class pd::'PdBPM.Package'
+{{
+   public System.Collections.Generic.List<Sybase.Modeling.NMap.Runtime.IModelElement> flowNodeElements
+   {
+      get
+      {
+         Sybase.Modeling.NMap.Runtime.IAbstractModelReader reader = this.GetModelReader() as Sybase.Modeling.NMap.Runtime.IAbstractModelReader;
+         System.Collections.Generic.List<Sybase.Modeling.NMap.Runtime.IModelElement> listNodeElms = new System.Collections.Generic.List<Sybase.Modeling.NMap.Runtime.IModelElement>();   
+         
+         foreach(Sybase.Modeling.NMap.Runtime.IModelElement a in reader.GetCollection(this,"ProcessStarts"))
+         {
+            listNodeElms.Add(a);
+         }
+               
+         foreach(Sybase.Modeling.NMap.Runtime.IModelElement a in reader.GetCollection(this,"ProcessEnds"))
+         {
+            listNodeElms.Add(a);
+         }
+               
+         foreach(Sybase.Modeling.NMap.Runtime.IModelElement a in reader.GetCollection(this,"Processes"))
+         {
+            if(((string)a.GetProperty("Stereotype")).Equals("Process"))
+               continue;
+            else   
+               listNodeElms.Add(a);
+         }
+               
+         foreach(Sybase.Modeling.NMap.Runtime.IModelElement a in reader.GetCollection(this,"ProcessDecisions"))
+         {
+            listNodeElms.Add(a);
+         }
+         
+         //children
+         foreach(Sybase.Modeling.NMap.Runtime.IModelElement a in reader.GetCollection(this, "Packages"))
+         {
+            foreach(Sybase.Modeling.NMap.Runtime.IModelElement r in a.GetReferences("flowNodeElements"))
+            {
+               listNodeElms.Add(r);
+            }
+         }
+               
+         return listNodeElms;
+      }
+   }   
+}}
+
+
+class pd::'PdBPM.OrganizationUnit'
+{{
+   //used for participants
+   public bool isHaveLanes
+   {
+      get
+      {
+         Sybase.Modeling.NMap.Runtime.IAbstractModelReader reader = this.GetModelReader() as Sybase.Modeling.NMap.Runtime.IAbstractModelReader;
+         if(reader != null)
+         {
+            foreach(Sybase.Modeling.NMap.Runtime.IModelElement a in reader.GetCollection(this, "ChildOrganizations"))
+            {
+               if (a != null && ((string)a.GetProperty("Stereotype")).Equals("Lane"))
+                  return true;
+            }
+         }
+         return false;   
+      }
+   }
+   
+}}
+
+class pd::'PdBPM.BusinessProcessDiagram'
+{{
+   public bool horizontal
+   {
+      get
+      {
+         bool isHorizontal = false;
+         Sybase.Modeling.NMap.Runtime.IAbstractModelReader reader = this.GetModelReader() as Sybase.Modeling.NMap.Runtime.IAbstractModelReader;
+         
+         string displayRef = reader.GetProperty<string>(this,"DisplayPreferences");
+         
+         if(displayRef.Contains("SwimlaneVert=Yes"))
+         {
+            isHorizontal = false;
+         }
+         else
+         {
+            isHorizontal = true;
+         }
+         return isHorizontal;
+      }
+   }
+   
+   public bool IsEmpty
+   {
+      get
+      {
+         bool isEmpty = true;
+         Sybase.Modeling.NMap.Runtime.IAbstractModelReader reader = this.GetModelReader() as Sybase.Modeling.NMap.Runtime.IAbstractModelReader;
+         
+         foreach(Sybase.Modeling.NMap.Runtime.IModelElement symbol in reader.GetCollection(this,"Symbols"))
+         {
+            isEmpty = false;
+         }
+            
+         return isEmpty;
+      }
+   }
+}}
+
+class pd::'PdBPM.ProcessStart'
+{{
+   public bool isInterrupting
+   {
+      get
+      {
+         bool result = true; 
+         object interrupting =  this.GetProperty("Interrupting+");
+         if(interrupting != null)
+         {
+            result = System.Convert.ToBoolean(interrupting);
+         }   
+         return result;
+      }
+   }
+}}
+
+class pd::'PdBPM.Process'
+{{
+   public string normalLoopCharacteristics
+   {
+      get
+      {
+         string message = string.Empty;
+         if(this.GetProperty("LoopCharacteristics+").Equals("Loop"))
+            return "Loop";
+         return null;
+      }
+   }
+   
+   public string parallelLoopCharacteristics
+   {
+      get
+      {
+         string message = string.Empty;
+         if(this.GetProperty("LoopCharacteristics+").Equals("Multi-Instance Parallel"))
+            return "Multi-Instance Parallel";
+         return null;
+      }
+   }
+   
+   public string sequentialLoopCharacteristics
+   {
+      get
+      {
+         string message = string.Empty;
+         if(this.GetProperty("LoopCharacteristics+").Equals("Multi-Instance Sequential"))
+            return "Multi-Instance Sequential";
+         return null;
+      }
+   }
+   
+   public Sybase.Modeling.NMap.Runtime.IModelElement defaultSequenceFlow
+   {
+      get
+      {
+         Sybase.Modeling.NMap.Runtime.IAbstractModelReader reader = this.GetModelReader() as Sybase.Modeling.NMap.Runtime.IAbstractModelReader;
+         Sybase.Modeling.NMap.Runtime.IModelElement result = null;
+      
+         foreach(Sybase.Modeling.NMap.Runtime.IModelElement flow in reader.GetCollection(this,"OutputFlows"))
+         {
+            string stereotype = flow.GetProperty("Stereotype") as string;
+            string conditionAlias = flow.GetProperty("ConditionAlias") as string;    
+            if(stereotype.Equals("Sequence Flow") &&  conditionAlias.Equals("Default"))
+            {
+               result = flow;
+               break;
+            }
+         }
+         return result;
+      }
+   }
+   
+   public string calledModelId
+   {
+      get
+      {
+         if (this.Stereotype.Equals("Call Activity"))
+         {
+            var calledObject = this.GetProperty("CalledObject+") as Sybase.Modeling.NMap.Runtime.IModelElement;
+            if (calledObject != null && calledObject.GetConcept() != null && calledObject.GetConcept().Name.Equals("Model"))
+            {
+               return calledObject.GetProperty("ObjectID") as string;
+            }
+         }
+         return null;
+      }
+   }
+   
+   //only used by message start event
+   public bool isInterrupting
+   {
+      get
+      {
+         bool result = true; 
+         object interrupting =  this.GetProperty("Interrupting+");
+         if(interrupting != null)
+         {
+            result = System.Convert.ToBoolean(interrupting);
+         }   
+         return result;
+      }
+   }
+}}
+
+class pd::'PdBPM.Decision'
+{{
+   public Sybase.Modeling.NMap.Runtime.IModelElement defaultSequenceFlow
+   {
+      get
+      {
+         Sybase.Modeling.NMap.Runtime.IAbstractModelReader reader = this.GetModelReader() as Sybase.Modeling.NMap.Runtime.IAbstractModelReader;
+         Sybase.Modeling.NMap.Runtime.IModelElement result = null;
+         
+         foreach(Sybase.Modeling.NMap.Runtime.IModelElement flow in reader.GetCollection(this,"OutputFlows"))
+         {
+            string stereotype = flow.GetProperty("Stereotype") as string;
+            string conditionAlias = flow.GetProperty("ConditionAlias") as string;    
+            if(stereotype.Equals("Sequence Flow") &&  conditionAlias.Equals("Default"))
+            {
+               result = flow;
+               break;
+            }
+         }
+         return result;
+      }
+   }
+}}
+
+class pd::'PdBPM.ResourceFlow'
+{{
+   public bool IsOutput
+   {
+      get 
+      {
+         var variableOrResource = this.Resource;
+         if (variableOrResource != null && variableOrResource.GetConcept() != null)
+         {
+            if (variableOrResource.GetConcept().Name.Equals("Variable"))
+            {
+               if (this.TransformationType == 1) // Output
+                  return true;
+            }
+            else
+            {
+               if (this.ReadAccess == true)
+                  return true;
+            }
+         }
+         return false;
+      }
+   }
+}}
+
+class pd::'PdBPM.Event'
+{{
+   public bool IsBoundaryEvent
+   {
+      get
+      {
+         if($BoundaryEventShapeOption$.Equals(false))
+         {
+            return false;
+         }
+         
+         string stereotype = this.GetProperty("Stereotype") as string;
+         if(stereotype.Equals("Cancel") || stereotype.Equals("Compensation") || stereotype.Equals("Conditional") || stereotype.Equals("Error") || stereotype.Equals("Escalation") || stereotype.Equals("Message") || stereotype.Equals("Signal") || stereotype.Equals("Timer"))
+         {
+            return true;
+         }
+         else if(stereotype.Equals("Parallel Multiple") || stereotype.Equals("Multiple"))
+         {
+            string labal = string.Empty;
+            Sybase.Modeling.NMap.Runtime.IAbstractModelReader2 reader = this.GetModelReader() as Sybase.Modeling.NMap.Runtime.IAbstractModelReader2;
+            System.Collections.Generic.List<Sybase.Modeling.NMap.Runtime.IModelElement> eventdefs =  reader.GetExtendedReferences(this,"EventDefinitions",0,out labal) as System.Collections.Generic.List<Sybase.Modeling.NMap.Runtime.IModelElement>;
+            if(eventdefs == null || eventdefs.Count ==0)
+               return false;
+            else
+               return true;
+         }
+         else
+         {
+            return false;
+         }
+      }
+   }
+   
+   public string IsParallelMultiple
+   {
+      get
+      {
+         string stereotype = this.GetProperty("Stereotype") as string;
+         if(stereotype.Equals("Parallel Multiple"))
+         {
+            return "Parallel Multiple";
+         }
+         return null;
+         
+      }
+   }
+   
+   public bool isCancelActivity
+   {
+      get
+      {
+         bool result = true; 
+         object interrupting =  this.GetProperty("Interrupting+");
+         if(interrupting != null)
+         {
+            result = System.Convert.ToBoolean(interrupting);
+         }
+         
+         return result;
+      }
+   }
+}}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// Global Functions
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+static
+{{
+   public new static bool Equals(object o1, object o2)
+   {
+      return o1.Equals(o2);
+   }
+   
+   public static bool IntEquals(int a, int b)
+   {
+      return a == b;
+   }
+   
+   public static int ObjectToInt(object o)
+   {
+      return System.Convert.ToInt32(o);
+   }
+   
+   public static bool IsExactTypeOf(IModelElement e, string s)
+   {
+        return e.GetConcept().QualifiedName.Equals(s);
+   }
+   
+   public static int ModelProcessCount(Sybase.Modeling.NMap.Runtime.IModelElement model)
+   {
+      int count = 0;
+
+      Sybase.Modeling.NMap.Runtime.IAbstractModelReader reader = model.GetModelReader() as Sybase.Modeling.NMap.Runtime.IAbstractModelReader;
+      foreach (Sybase.Modeling.NMap.Runtime.IModelElement e in reader.GetCollection(model, "OrganizationUnits"))
+      {
+         if(e.GetProperty("Stereotype").Equals("Participant"))
+            count++;
+      }
+      return count;
+   }
+   
+   public static int GuessConnectionPointPosition(Sybase.Modeling.NMap.Runtime.IModelElement sourceSymbol, Sybase.Modeling.NMap.Runtime.IModelElement destSymbol)
+   {
+      int result = 0;
+      //return value: 1 for left, 2 for right, 3 for down, 4 for up,other for error
+      Sybase.Modeling.NMap.Runtime.Tuple sourceRect = sourceSymbol.GetProperty("Rect") as Sybase.Modeling.NMap.Runtime.Tuple;
+      Sybase.Modeling.NMap.Runtime.Tuple destRect = destSymbol.GetProperty("Rect") as Sybase.Modeling.NMap.Runtime.Tuple;
+      
+      if(sourceRect!=null && destRect!=null)
+      {
+         if(System.Convert.ToSingle(destRect[2].Value) <= System.Convert.ToSingle(sourceRect[0].Value))
+            result = 1;
+         else if(System.Convert.ToSingle(destRect[0].Value) >= System.Convert.ToSingle(sourceRect[2].Value))
+            result = 2;
+         else if(System.Convert.ToSingle(destRect[1].Value) >= System.Convert.ToSingle(sourceRect[3].Value))
+            result = 4;
+         else if(System.Convert.ToSingle(destRect[3].Value) <= System.Convert.ToSingle(sourceRect[1].Value))
+            result = 3;   
+      }      
+      return result;
+   }
+   
+   public static int GuessConnectionPointPosition2(Sybase.Modeling.NMap.Runtime.IModelElement sourceSymbol, int pointX, int pointY)
+   {
+      int result = 0;
+      //return value: 1 for left, 2 for right, 3 for down, 4 for up,other for error
+      Sybase.Modeling.NMap.Runtime.Tuple sourceRect = sourceSymbol.GetProperty("Rect") as Sybase.Modeling.NMap.Runtime.Tuple;
+      
+      if(sourceRect!=null)
+      {
+         if(pointX <= System.Convert.ToSingle(sourceRect[0].Value))
+            result = 1;
+         else if(pointX >= System.Convert.ToSingle(sourceRect[2].Value))
+            result = 2;
+         else if(pointY >= System.Convert.ToSingle(sourceRect[3].Value))
+            result = 4;
+         else if(pointY <= System.Convert.ToSingle(sourceRect[1].Value))
+            result = 3;   
+      }      
+      return result;
+   }
+   
+   public static string EmitBPMNEdgeWaypoint(Sybase.Modeling.NMap.Runtime.IInterpreterContext context, Sybase.Modeling.NMap.Runtime.IModelElement edge, string moniker)
+   {
+      string result = string.Empty;
+      float scale = $Scale$F;
+      float boundaryShapeSize = $FixedEventShapeSize$F;
+      if(edge != null)
+      {
+         Sybase.Modeling.NMap.Runtime.Tuple listPoint = edge.GetProperty("ListOfPoints") as Sybase.Modeling.NMap.Runtime.Tuple;      
+         for(int i=0; i<listPoint.Count;)
+         {
+            float X = System.Convert.ToSingle(listPoint[i].Value);
+            float Y = System.Convert.ToSingle(listPoint[i+1].Value);
+            
+            if(!string.IsNullOrEmpty(result))
+               result +=", ";
+               
+            if(i.Equals(0)) //the first point, need check boundary event
+            {
+               Sybase.Modeling.NMap.Runtime.IModelElement edgeObject = edge.GetProperty("Object") as Sybase.Modeling.NMap.Runtime.IModelElement;
+               Sybase.Modeling.NMap.Runtime.IModelElement eventObject = edgeObject.GetProperty("Event") as Sybase.Modeling.NMap.Runtime.IModelElement;
+               if(eventObject!=null)
+               {
+                  bool isBoundaryEvent = System.Convert.ToBoolean(eventObject.GetProperty("IsBoundaryEvent"));
+                  if(isBoundaryEvent.Equals(true))
+                  {
+                     Sybase.Modeling.NMap.Runtime.IModelElement sourceSymbol = edge.GetProperty("SourceSymbol") as Sybase.Modeling.NMap.Runtime.IModelElement;
+                     Sybase.Modeling.NMap.Runtime.IModelElement destSymbol = edge.GetProperty("DestinationSymbol") as Sybase.Modeling.NMap.Runtime.IModelElement;
+                     
+                     if(sourceSymbol != null && destSymbol != null)
+                     {
+                        int relPosition = GuessConnectionPointPosition(sourceSymbol, destSymbol);
+                        if(relPosition != 0)
+                        {
+                           result += "waypoint += new 'Point' (";
+                           result += moniker;
+                           result += ".waypoint, x=";
+                           
+                           switch(relPosition)
+                           {
+                              case 1:
+                                 result += System.Convert.ToInt32(X/scale - boundaryShapeSize/2.0).ToString() + ".0";
+                                 break;
+                              case 2:
+                                 result += System.Convert.ToInt32(X/scale + boundaryShapeSize/2.0).ToString() + ".0";
+                                 break;
+                              default:
+                                 result += System.Convert.ToInt32(X/scale).ToString() + ".0";
+                                 break;
+                           }
+         
+                           result += " , y=";
+                           
+                           switch(relPosition)
+                           {
+                              case 3:
+                                 result += System.Convert.ToInt32(-Y/scale + boundaryShapeSize/2.0).ToString() + ".0";
+                                 break;
+                              case 4:
+                                 result += System.Convert.ToInt32(-Y/scale - boundaryShapeSize/2.0).ToString() + ".0";
+                                 break;
+                              default:
+                                 result += System.Convert.ToInt32(-Y/scale).ToString() + ".0";
+                                 break;
+                           }
+                           result += ")";
+                        }
+                     } 
+                  }
+                  else
+                  {
+                     result += "waypoint += new 'Point' (";
+                     result += moniker;
+                     result += ".waypoint, x=";
+                     result += System.Convert.ToInt32(X/scale).ToString() + ".0";
+                     result += " , y=";
+                     result += System.Convert.ToInt32(-Y/scale).ToString() + ".0";
+                     result += ")";
+                  }
+               }
+               else
+               {
+                  result += "waypoint += new 'Point' (";
+                  result += moniker;
+                  result += ".waypoint, x=";
+                  result += System.Convert.ToInt32(X/scale).ToString() + ".0";
+                  result += " , y=";
+                  result += System.Convert.ToInt32(-Y/scale).ToString() + ".0";
+                  result += ")";
+               }
+            }            
+            else
+            {
+               result += "waypoint += new 'Point' (";
+               result += moniker;
+               result += ".waypoint, x=";
+               result += System.Convert.ToInt32(X/scale).ToString() + ".0";
+               result += " , y=";
+               result += System.Convert.ToInt32(-Y/scale).ToString() + ".0";
+               result += ")";
+            }
+            i = i+2;
+         }
+      }
+      return result;
+   }
+   
+   public static string EmitResourceFlowEdgeWaypoint(Sybase.Modeling.NMap.Runtime.IInterpreterContext context, Sybase.Modeling.NMap.Runtime.IModelElement edge, string moniker)
+   {
+      string result = string.Empty;
+      float scale = $Scale$F;
+      if(edge != null)
+      {
+         Sybase.Modeling.NMap.Runtime.IModelElement flowObj = edge.GetProperty("Object") as Sybase.Modeling.NMap.Runtime.IModelElement;
+         if(flowObj != null)
+         {
+            Sybase.Modeling.NMap.Runtime.Tuple listPoint = edge.GetProperty("ListOfPoints") as Sybase.Modeling.NMap.Runtime.Tuple;
+            bool isOutput =  System.Convert.ToBoolean(flowObj.GetProperty("IsOutput"));
+            if(isOutput)
+            {
+               for(int i=0; i<listPoint.Count;)
+               {
+                  float X = System.Convert.ToSingle(listPoint[i].Value);
+                  float Y = System.Convert.ToSingle(listPoint[i+1].Value);
+                  
+                  if(!string.IsNullOrEmpty(result))
+                     result +=", ";
+                  
+                  result += "waypoint += new 'Point' (";
+                  result += moniker;
+                  result += ".waypoint, x=";
+                  result += System.Convert.ToInt32(X/scale).ToString() + ".0";
+                  result += " , y=";
+                  result += System.Convert.ToInt32(-Y/scale).ToString() + ".0";
+                  result += ")";
+                     
+                  i = i+2;
+               }
+            }
+            else
+            {
+               for(int i=listPoint.Count-1; i>0;)
+               {
+                  float X = System.Convert.ToSingle(listPoint[i-1].Value);
+                  float Y = System.Convert.ToSingle(listPoint[i].Value);
+                  
+                  if(!string.IsNullOrEmpty(result))
+                     result +=", ";
+                  
+                  result += "waypoint += new 'Point' (";
+                  result += moniker;
+                  result += ".waypoint, x=";
+                  result += System.Convert.ToInt32(X/scale).ToString() + ".0";
+                  result += " , y=";
+                  result += System.Convert.ToInt32(-Y/scale).ToString() + ".0";
+                  result += ")";
+                     
+                  i = i-2;
+               }
+            }
+         }
+      }
+      return result;
+   }
+   
+   public static string EmitBPMNPlantElement(Sybase.Modeling.NMap.Runtime.IInterpreterContext context, Sybase.Modeling.NMap.Runtime.IModelElement src_diagram)
+   {
+      string result = string.Empty;
+      Sybase.Modeling.NMap.Runtime.IModelElement parent = src_diagram.GetProperty("Parent") as Sybase.Modeling.NMap.Runtime.IModelElement;
+      if(parent!= null)
+      {
+         string conceptName = parent.GetConcept().Name;
+         string stereotype = parent.GetProperty("Stereotype") as string;
+         if(conceptName.Equals("Process"))
+         {
+            switch(stereotype)
+            {
+               case "Sub-Process" :
+               case "Event Sub-Process":
+                   result = "bpmnElement = get SubProcess[%Parent.ObjectID%]";
+                  break;
+               case "Ad-Hoc Sub-Process" :
+                   result = "bpmnElement = get AdHocSubProcess[%Parent.ObjectID%]";
+                  break;
+               case "Transaction" :
+                  result = "bpmnElement = get Transaction[%Parent.ObjectID%]";
+                  break;                  
+            }
+         }
+      }
+      return result;
+   }
+   
+   public static string EmitBPMNEdgeSourceSymbol(Sybase.Modeling.NMap.Runtime.IInterpreterContext context, Sybase.Modeling.NMap.Runtime.IModelElement flowSymbol)
+   {
+      string result = string.Empty;
+      
+      Sybase.Modeling.NMap.Runtime.IModelElement flowObj = flowSymbol.GetProperty("Object") as Sybase.Modeling.NMap.Runtime.IModelElement;
+      Sybase.Modeling.NMap.Runtime.IModelElement flowEvent = flowObj.GetProperty("Event") as Sybase.Modeling.NMap.Runtime.IModelElement;
+      if(flowEvent != null && flowEvent.GetProperty("IsBoundaryEvent").Equals(true))
+      {
+         result = "sourceElement = get BPMNShape[%Object.ObjectID%]";
+      }
+      else
+      {
+         result = "sourceElement = map SourceSymbol";
+      }
+      return result;   
+   }
+   
+   public static string EmitFlowSourceElement(Sybase.Modeling.NMap.Runtime.IInterpreterContext context, Sybase.Modeling.NMap.Runtime.IModelElement src_flow)
+   {
+      string result = string.Empty;
+      
+      if(src_flow.GetProperty("Stereotype").Equals("Sequence Flow") && (src_flow.GetProperty("Event") != null))
+      {
+         Sybase.Modeling.NMap.Runtime.IModelElement eventObject = src_flow.GetProperty("Event") as Sybase.Modeling.NMap.Runtime.IModelElement;                     
+         if(eventObject.GetProperty("IsBoundaryEvent").Equals(true))
+         {
+            result = "sourceRef = get BoundaryEvent[%ObjectID%]";
+         }
+         else
+         {
+            result = "sourceRef = map Source";
+         }
+      }
+      else
+      {
+         result = "sourceRef = map Source";
+      }
+      
+      return result;
+   }
+   
+   public static string EmitMessageFlowSourceDest(Sybase.Modeling.NMap.Runtime.IInterpreterContext context, Sybase.Modeling.NMap.Runtime.IModelElement src_messageflow)
+   {
+      string result = string.Empty;
+      
+      Sybase.Modeling.NMap.Runtime.IModelElement source = src_messageflow.GetProperty("Source") as Sybase.Modeling.NMap.Runtime.IModelElement;
+      Sybase.Modeling.NMap.Runtime.IModelElement destination = src_messageflow.GetProperty("Destination") as Sybase.Modeling.NMap.Runtime.IModelElement;
+      
+      if(source != null && destination != null)
+      {
+         if(source.GetProperty("ObjectType").Equals("Process") && source.GetProperty("Stereotype").Equals("Process"))
+            result += "sourceRef = map Source.OrganizationUnit";
+         else
+            result += "sourceRef = map Source";
+            
+         result += ",";
+
+         if(destination.GetProperty("ObjectType").Equals("Process") && destination.GetProperty("Stereotype").Equals("Process"))
+            result += "targetRef = map Destination.OrganizationUnit";
+         else
+            result += "targetRef = map Destination";
+         
+      }
+      return result;
+   }
+}}   

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Module Id="Sybase.Modeling.M3al.PowerDesigner">
+  <AssemblyName>Sybase.Modeling.M3al.PowerDesigner, Version=1.6.5.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+  <RelativePath>Sybase.Modeling.M3al.PowerDesigner.dll</RelativePath>
+  <Extensions>
+    <ExtensionPoint Id="Sybase.Modeling.M3al.ExtensionPoints.MetaObjectFacility">
+      <MetaObjectFacility Class="Sybase.Modeling.M3al.PowerDesigner.PdFacility">
+        <Name>PowerDesigner</Name>
+        <Namespace>Sybase.Modeling.M3al.PowerDesigner</Namespace>
+        <UrnNamespace>pd</UrnNamespace>
+        <Version>16.5</Version>
+      </MetaObjectFacility>
+    </ExtensionPoint>
+  </Extensions>
+  <Configurations />
+</Module>

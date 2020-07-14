@@ -1,0 +1,95 @@
+PowerDesigner[TM] Tools Notes
+
+(c) 1991-2005 Sybase, Inc. and its subsidiaries. All rights reserved.
+Updated 2002-07-25
+
+
+This file contains informations about contents of .\Tools subdirectory under PowerDesigner installation directory.
+
+MS Access reverse (ACCESS.MDB and ACCESS2K.MDB)
+===============================================
+
+Data exchange between PowerDesigner and Microsoft Access (97 and 2000) works with .DAT files. These files are created from PDM files via  script generation, and reversed into the PDM. The access.mdb (Microsoft Access 97) and access2k.mdb (Microsoft Access2000) databases use or create these files to generate or reverse Access databases.
+
+Opening the appropriate database opens a window in which you configure the database generation or reverse engineering.
+
+ex.
+
+Examples:
+To reverse Engineer Microsoft Access 97 database "c:\temp\MyDB.mdb" in a PowerDesigner Physical Data Model:
+1. Double-Click <PowerDesigner_Directory>\Tools\access.mdb
+2. Select  "Reverse engineer Access database to PowerDesigner script"
+3. Type  "c:\temp\MyDB.mdb" in Select Database (or click the Search button)
+4. Type the  .DAT file to create in PowerDesigner File
+5. Click on Create
+6. Select DBMS->Reverse Engineering Databases in the PowerDesigner PDM window
+7. Select the newly generated file as script file to be reversed
+8. Click OK
+
+To generate a Microsoft Access 97 database from a PowerDesigner PDM:
+1. Generate Script file from PowerDesigner PDM (the usual procedure)
+2. Double-Click the file <PowerDesigner_Directory>\Tools\access.mdb
+3. Select "Generate Access database from PowerDesigner Script file"
+4. Type the destination database in Select Database (or click the Search button)
+5. Type the file created by PowerDesigner in PowerDesigner File
+6. Click on Create
+
+Note for V6 users: you can not use the old genacc.bas file with PowerDesigner.
+
+
+Using ASA server delivered with PowerDesigner (AUTHDB.SQL)
+=========================================================
+PowerDesigner with Repository is delivered with an authenticated Adaptive Server Anywhere server.
+
+To successfully authenticate the server, please refer to online help for installation procedure (search for Authenticated keyword).
+authdb.sql contains the appropriate query to authenticate the database for the PowerDesigner Repository.
+
+
+Name table generation (NAM2CODE.PL)
+===================================
+Database generation cannot use object names anymore in version 7 and above.
+You must generate object codes.
+
+In case the object codes are not aligned with your object names in your model, this small Perl script will copy the object Name onto the object Code for the Tables and Columns.
+
+To use it, 
+* in your model, make sure the Naming Conventions for the Table and Column Codes matches the Naming Conventions for the Names
+* save the model as an XML file if it is not its actual format (e.g. sample.pdm)
+* use the script:
+      perl  nam2code.pl  < sample.pdm > convert.pdm
+* the converted model is convert.pdm, still in XML format.
+
+Domain names (PREFIX.PL)
+========================
+PowerDesigner V6 automatically prefixed domain codes for some databases generation (mostly sql server based ones). PowerDesigner V7 and above no longer use this prefix for domains (but still for rules and defaults). To keep in synchronisation your existing database (with domain prefixed with "T_"), and the corresponding imported model file (with domain without prefix), you can run the PREFIX.PL perl script.
+
+This script will backup your model, then replace all not already prefixed code domain with the "T_".
+usage is :  perl prefix.pl model1.pdm
+The backed-up model file is suffixed with ".bak"
+
+You can find more information about the free Open Source scripting tool Perl at http://www.perl.com, including downloadable versions for Windows, documentation...
+
+
+Migrating XOL V8 (_PublicNames.pl and PublicNamesList.txt)
+==========================================================
+
+This script allows to transform template names in a XOL from PowerDesigner version 8 to avoid conflict with public names used in version 9 and above.
+
+	perl _PublicNames.pl publicnameslist.txt <inXOL> <outXOL>
+
+Each template name found in <inXOL> that match with a publicname will be prefixed by an underscore.
+
+
+Reference reverse for PostgreSQLv (dumpref.tar)
+===============================================
+PostgreSQL stores reference columns in binary format in the system tables.
+To reverse these tables properly, PowerDesigner uses a C function that decrypts the binary format and gets the list of reference columns.
+This function is delivered with the DUMPREF.TAR file, that contains:
+dumpref.c      - source code of the dumpref function.
+dumpref.sql.in - create function statement to be executed in a PostgreSql command session.
+Makefile       - Makefile for C compiler.
+test.sql       - SQL statement checking the call to the new function.
+
+
+
+

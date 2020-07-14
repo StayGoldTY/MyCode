@@ -1,0 +1,7 @@
+[HTML Template]
+StyleSheet=LightBlue_Theme.css
+Header=Header_LightBlue.html
+Footer=Footer_LightBlue.html
+HomePage=Home_LightBlue.html
+HeaderHeight=54
+FooterHeight=18

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Module Id="Sybase.Modeling.Reporting.Html">
+  <AssemblyName>Sybase.Modeling.Reporting.Html, Version=1.6.5.0, Culture=neutral, PublicKeyToken=65afb196693a8d18</AssemblyName>
+  <RelativePath>Sybase.Modeling.Reporting.Html.dll</RelativePath>
+  <Extensions>
+    <ExtensionPoint Id="Sybase.Modeling.Reporting.ExtensionPoints.ReportGenerator">
+      <ReportGenerator Class="Sybase.Modeling.Reporting.Html.Runtime.Generation.HtmlGenerator">
+        <Code>HTML</Code>
+      </ReportGenerator>
+    </ExtensionPoint>
+  </Extensions>
+  <Configurations>
+    <ConfigurationPoint Id="Sybase.Modeling.Net.Metamodel.NLibraryExtension">
+      <NLibraryExtension>
+        <Library>Sybase.Modeling.Reporting</Library>
+      </NLibraryExtension>
+    </ConfigurationPoint>
+  </Configurations>
+</Module>

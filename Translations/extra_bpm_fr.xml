@@ -1,0 +1,2219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Translations lang="fr" extended="yes">
+  <Translation>
+    <Name>A fault must be caught by a single fault handler</Name>
+    <LocalName>Une erreur doit être interceptée par un gestionnaire d'erreur unique</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Abstract process</Name>
+    <LocalName>Processus abstrait</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Ad-Hoc Sub-Process</Name>
+    <LocalName>Sous-processus ad-hoc</LocalName>
+  </Translation>
+  <Translation>
+    <Name>AdHocSubProcess</Name>
+    <LocalName>SousProcessusAdHoc</LocalName>
+  </Translation>
+  <Translation>
+    <Name>All the message flows associated with a single conversation node must specify the same correlation key as the node.</Name>
+    <LocalName>Tous les flux de message associés à un seul noeud de conversation doivent spécifier la même clé de corrélation que le noeud.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Archive model</Name>
+    <LocalName>Modèle archivé</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Archive model path</Name>
+    <LocalName>Chemin d'accès du modèle d'archive</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Artifact:</Name>
+    <LocalName>Artefact :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Automated Process</Name>
+    <LocalName>Processus automatisé</LocalName>
+  </Translation>
+  <Translation>
+    <Name>AutomatedProcess</Name>
+    <LocalName>ProcessusAutomatise</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Available Data Objects</Name>
+    <LocalName>Données disponibles</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Available Source Items</Name>
+    <LocalName>Eléments source disponibles</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Available Target Items</Name>
+    <LocalName>Eléments cible disponibles</LocalName>
+  </Translation>
+  <Translation>
+    <Name>BPEL Static Analysis Fault Code: SA00005</Name>
+    <LocalName>Code d'erreur BPEL Static Analysis : SA00005</LocalName>
+  </Translation>
+  <Translation>
+    <Name>BPEL Static Analysis Fault Code: SA00006</Name>
+    <LocalName>Code d'erreur BPEL Static Analysis : SA00006</LocalName>
+  </Translation>
+  <Translation>
+    <Name>BPEL Static Analysis Fault Code: SA00015</Name>
+    <LocalName>Code d'erreur BPEL Static Analysis : SA00015</LocalName>
+  </Translation>
+  <Translation>
+    <Name>BPEL Static Analysis Fault Code: SA00016</Name>
+    <LocalName>Code d'erreur BPEL Static Analysis : SA00016</LocalName>
+  </Translation>
+  <Translation>
+    <Name>BPEL Static Analysis Fault Code: SA00035</Name>
+    <LocalName>Code d'erreur BPEL Static Analysis : SA00035</LocalName>
+  </Translation>
+  <Translation>
+    <Name>BPEL Static Analysis Fault Code: SA00036</Name>
+    <LocalName>Code d'erreur BPEL Static Analysis : SA00036</LocalName>
+  </Translation>
+  <Translation>
+    <Name>BPEL Static Analysis Fault Code: SA00037</Name>
+    <LocalName>Code d'erreur BPEL Static Analysis : SA00037</LocalName>
+  </Translation>
+  <Translation>
+    <Name>BPEL Static Analysis Fault Code: SA00047</Name>
+    <LocalName>Code d'erreur BPEL Static Analysis : SA00047</LocalName>
+  </Translation>
+  <Translation>
+    <Name>BPEL Static Analysis Fault Code: SA00053</Name>
+    <LocalName>Code d'erreur BPEL Static Analysis : SA00053</LocalName>
+  </Translation>
+  <Translation>
+    <Name>BPEL Static Analysis Fault Code: SA00076</Name>
+    <LocalName>Code d'erreur BPEL Static Analysis : SA00076</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Blueprint relevant</Name>
+    <LocalName>Pertinent pour le Business Blueprint</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Blueprint relevant value</Name>
+    <LocalName>Valeur pertinente pour le Business Blueprint</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Boundary Events</Name>
+    <LocalName>Evénements en bordure</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Business Process</Name>
+    <LocalName>Processus métiers</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Business Processes</Name>
+    <LocalName>Processus métiers</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Business Rule Task</Name>
+    <LocalName>Tâche Règle de gestion</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Business Scenario</Name>
+    <LocalName>Scénario métiers</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Business Scenarios</Name>
+    <LocalName>Scénarios métiers</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Business processes ID</Name>
+    <LocalName>ID de processus métiers</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Business scenarios ID</Name>
+    <LocalName>ID de scénarios métiers</LocalName>
+  </Translation>
+  <Translation>
+    <Name>BusinessProcess</Name>
+    <LocalName>ProcessusMetiers</LocalName>
+  </Translation>
+  <Translation>
+    <Name>BusinessRuleTask</Name>
+    <LocalName>RegleGestion</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Call Activities</Name>
+    <LocalName>Activités Appel</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Call Activity</Name>
+    <LocalName>Activité Appel</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Call activities must have an implementation type of Reuse process.</Name>
+    <LocalName>Les activités d'appel doivent avoir un type de mise en oeuvre Réutiliser le processus.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>CallActivity</Name>
+    <LocalName>ActiviteAppel</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Callable objects</Name>
+    <LocalName>Objets pouvant être appelés</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Called model</Name>
+    <LocalName>Modèle appelé</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Called object</Name>
+    <LocalName>Objet appelé</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Cancel</Name>
+    <LocalName>Annulation</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Cancel End Event</Name>
+    <LocalName>Evénement de fin Annulation</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Cancel Event Definition</Name>
+    <LocalName>Définition d'événement Annulation</LocalName>
+  </Translation>
+  <Translation>
+    <Name>CancelEnd</Name>
+    <LocalName>EvenementFinAnnulation</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Cannot have outgoing flow</Name>
+    <LocalName>Flux sortant impossible</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Capacity</Name>
+    <LocalName>Capacité</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Child flow balancing.</Name>
+    <LocalName>Equilibrage de flux enfant.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Choreography Task</Name>
+    <LocalName>Tâche de chorégraphie</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Choreography task linked to inappropriate start or end events</Name>
+    <LocalName>Tâches de chorégraphie liées à des événements de début ou de fin inappropriés</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Choreography tasks can only be linked to start events of type Timer, Conditional, Signal, or Multiple and to end events of type Terminal.</Name>
+    <LocalName>Les tâches de chorégraphie ne peuvent être liées qu'à des événements de début de type Minuterie, Conditionnel, signal ou Multiple, ou bien à des événements de fin Arrêt.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Choreography tasks must not have more than one default outgoing flow.</Name>
+    <LocalName>Les tâches de chorégraphie ne doivent pas avoir plus d'un flux sortant par défaut.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ChoreographyTask</Name>
+    <LocalName>TacheChoregraphie</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Class</Name>
+    <LocalName>Classe</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Comment:</Name>
+    <LocalName>Commentaire :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Compensate activity used out of event handler scope</Name>
+    <LocalName>Activité de compensation utilisée hors de la portée du gestionnaire d'événement</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Compensation End Event</Name>
+    <LocalName>Evénement de fin Compensation</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Compensation Event Definition</Name>
+    <LocalName>Définition d'événement Compensation</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Compensation Intermediate Throw Event</Name>
+    <LocalName>Evénement intermédiaire d'émission Compensation</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Compensation Start Event</Name>
+    <LocalName>Evénement de début Compensation</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Compensation activities must not have incoming sequence flows that are not of type Compensation.</Name>
+    <LocalName>Les activités Compensation ne doivent pas avoir des flux de séquence entrants qui ne sont pas de type Compensation.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Compensation activities must not have outgoing sequence flows.</Name>
+    <LocalName>Les activités Compensation ne doivent pas avoir de flux de séquence sortants.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>CompensationEnd</Name>
+    <LocalName>EvenementFinCompensation</LocalName>
+  </Translation>
+  <Translation>
+    <Name>CompensationStart</Name>
+    <LocalName>EvenementDebutCompensation</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Completion quantity</Name>
+    <LocalName>Quantité de fin</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Complex Gateway</Name>
+    <LocalName>Branchement complexe</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ComplexGateway</Name>
+    <LocalName>BranchementComplexe</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Composite status \tDecomposed process\tAtomic task</Name>
+    <LocalName>Etat composite \tProcessus décomposé\tTâche atomique</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Conditional</Name>
+    <LocalName>Conditionnel</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Conditional Event Definition</Name>
+    <LocalName>Définition d'événement Conditionnel</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Conditional Intermediate Catch Event</Name>
+    <LocalName>Evénement intermédiaire de réception conditionnel</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Conditional Start Event</Name>
+    <LocalName>Evénement de début Conditionnel</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ConditionalStart</Name>
+    <LocalName>EvenementDebutConditionnel</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Conversation Link</Name>
+    <LocalName>Lien de conversation</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Conversation Node</Name>
+    <LocalName>Noeud de conversation</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ConversationLink</Name>
+    <LocalName>LienConversation</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ConversationNode</Name>
+    <LocalName>NoeudConversation</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Correlation Properties</Name>
+    <LocalName>Propriétés de corrélation</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Correlation Property</Name>
+    <LocalName>Propriété de corrélation</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Correlation key</Name>
+    <LocalName>Clé de corrélation</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Correlation keys must not contain correlation properties that do not bear the stereotype Property.</Name>
+    <LocalName>Les clés de corrélation ne doivent pas contenir des propriétés de corrélation qui ne portent pas le stéréotype Property.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Correlation property</Name>
+    <LocalName>Propriété de corrélation</LocalName>
+  </Translation>
+  <Translation>
+    <Name>CorrelationProperty</Name>
+    <LocalName>ProprieteCorrelation</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Correlations</Name>
+    <LocalName>Corrélations</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Counter name</Name>
+    <LocalName>Nom du compteur</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Create instance</Name>
+    <LocalName>Création d'une instance</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data</Name>
+    <LocalName>Données</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data Association</Name>
+    <LocalName>Association de données</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data Associations</Name>
+    <LocalName>Association de données</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data Input</Name>
+    <LocalName>Entrée de données</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data Inputs</Name>
+    <LocalName>Entrées de donnée</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data Object</Name>
+    <LocalName>Donnée</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data Object Reference</Name>
+    <LocalName>Référence de donnée</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data Object References</Name>
+    <LocalName>Références de donnée</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data Objects</Name>
+    <LocalName>Données</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data Output</Name>
+    <LocalName>Sortie de données</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data Outputs</Name>
+    <LocalName>Sorties de donnée</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data Store</Name>
+    <LocalName>Magasin de données</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data Stores</Name>
+    <LocalName>Magasins de données</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data associations with a transformation type of Input must specify an item-aware element (of type Data Input) from among those defined on their target activity, which will be transferred to the activity from the data.</Name>
+    <LocalName>Les associations de données avec un type de transformation Entrée doivent spécifier un élément sensible (de type Entrée de donnée) parmi ceux définis sur leur activité cible, qui sera transféré à l'activité depuis la donnée.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data associations with a transformation type of Output must specify an item-aware element (of type Data Output) from among those defined on their source activity, which will be transferred from the activity to the data.</Name>
+    <LocalName>Les associations de données avec un type de transformation Sortie doivent spécifier un élément sensible (de type Sortie de donnée) parmi ceux définis sur leur activité source, qui sera transféré depuis l'activité vers la donnée.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data object</Name>
+    <LocalName>Donnée</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data object references are not permitted in tasks or events</Name>
+    <LocalName>Les références de données ne sont pas permises dans les tâches ou dans les événements</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data object references must reference valid data objects.</Name>
+    <LocalName>Les références de données doivent référencer des objets de donnée valides.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data object references must specify the data object to which they are a reference.</Name>
+    <LocalName>Les références de données doivent spécifier la donnée à laquelle elles font référence.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data objects are not permitted in tasks or events</Name>
+    <LocalName>Les données ne sont pas permises dans les tâches ou les événements</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data schema target namespace</Name>
+    <LocalName>Espace de noms cible du schéma de données</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DataAssociation</Name>
+    <LocalName>AssociationDonnee</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DataInput</Name>
+    <LocalName>EntreeDonnee</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DataObject</Name>
+    <LocalName>Donnee</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DataObjectReference</Name>
+    <LocalName>ReferenceObjetDonnee</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DataOutput</Name>
+    <LocalName>SortieDonnee</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DataStore</Name>
+    <LocalName>MagasinDonnee</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default Flow</Name>
+    <LocalName>Flux par défaut</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default diagram</Name>
+    <LocalName>Diagramme par défaut</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default diagram:</Name>
+    <LocalName>Diagramme par défaut :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default flow</Name>
+    <LocalName>Flux par défaut</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Definition namespace</Name>
+    <LocalName>Espace de noms de définition</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Definition namespace prefix</Name>
+    <LocalName>Préfixe d'espace de noms de définition</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Definition target namespace</Name>
+    <LocalName>Espace de noms cible de définition</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Destination of flow must be a receive activity</Name>
+    <LocalName>La destination du flux doit être une activité de réception</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Document ID</Name>
+    <LocalName>ID de document</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Document Status</Name>
+    <LocalName>Statut de document</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Document Statuses</Name>
+    <LocalName>Statuts de document</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Document Type</Name>
+    <LocalName>Type de document</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Document Types</Name>
+    <LocalName>Types de document</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Document type</Name>
+    <LocalName>Type de document</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Document type text</Name>
+    <LocalName>Texte de type de document</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DocumentStatus</Name>
+    <LocalName>StatutDocument</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DocumentType</Name>
+    <LocalName>TypeDocument</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Duration:</Name>
+    <LocalName>Durée :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Each Pick activity must include at least one onMessage event</Name>
+    <LocalName>Chaque activité Pick doit inclure au moins un événement onMessage</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Enable instance compensation</Name>
+    <LocalName>Active la compensation d'instance</LocalName>
+  </Translation>
+  <Translation>
+    <Name>End Event</Name>
+    <LocalName>Evénement de fin</LocalName>
+  </Translation>
+  <Translation>
+    <Name>End Events</Name>
+    <LocalName>Evénements de fin</LocalName>
+  </Translation>
+  <Translation>
+    <Name>End events of type Cancel are not permitted at the top level or in event sub-processes. They are only permitted in transactions.</Name>
+    <LocalName>Les événements de fin de type Annulation ne sont pas permis au niveau racine ou dans les sous-processus d'événement. Ils sont permis uniquement dans les transactions.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>End point reference</Name>
+    <LocalName>Référence de point de fin</LocalName>
+  </Translation>
+  <Translation>
+    <Name>EndEvent</Name>
+    <LocalName>EvenementFin</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Error</Name>
+    <LocalName>Erreur</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Error End Event</Name>
+    <LocalName>Evénement de fin Erreur</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Error Event Definition</Name>
+    <LocalName>Définition d'événement Erreur</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Error Start Event</Name>
+    <LocalName>Evénement de début Erreur</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Error code</Name>
+    <LocalName>Code d'erreur</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ErrorEnd</Name>
+    <LocalName>EvenementFinErreur</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ErrorStart</Name>
+    <LocalName>EvenementDebutErreur</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Escalation</Name>
+    <LocalName>Escalade</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Escalation End Event</Name>
+    <LocalName>Evénement de fin Escalade</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Escalation Event Definition</Name>
+    <LocalName>Définition d'événement Escalade</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Escalation Intermediate Throw Event</Name>
+    <LocalName>Evénement intermédiaire d'émission Escalade</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Escalation Start Event</Name>
+    <LocalName>Evénement de début Escalade</LocalName>
+  </Translation>
+  <Translation>
+    <Name>EscalationEnd</Name>
+    <LocalName>EvenementFinEscalade</LocalName>
+  </Translation>
+  <Translation>
+    <Name>EscalationStart</Name>
+    <LocalName>EvenementDebutEscalade</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Event Definition</Name>
+    <LocalName>Définition d'événement</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Event Definitions</Name>
+    <LocalName>Définitions d'événement</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Event Sub-Process</Name>
+    <LocalName>Sous-processus d'événement</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Event sub-processes must have exactly one start event.</Name>
+    <LocalName>Les sous-processus d'événement doivent avoir exactement un événement de début.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Event sub-processes must not have any incoming flows.</Name>
+    <LocalName>Les sous-processus d'événement ne doivent pas avoir de flux entrant.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Event sub-processes must not have any outgoing flows.</Name>
+    <LocalName>Les sous-processus d'événement ne doivent pas avoir de flux sortant.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Event-Based Gateway</Name>
+    <LocalName>Branchement événementiel</LocalName>
+  </Translation>
+  <Translation>
+    <Name>EventBasedGateway</Name>
+    <LocalName>BranchementEvenementiel</LocalName>
+  </Translation>
+  <Translation>
+    <Name>EventDefinition</Name>
+    <LocalName>DefinitionEvenement</LocalName>
+  </Translation>
+  <Translation>
+    <Name>EventSubProcess</Name>
+    <LocalName>SousProcessusEvenement</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Events must not be decomposed. They must not contain other objects.</Name>
+    <LocalName>Les événements ne doivent pas être décomposés. Ils ne doivent pas contenir d'autres objets.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Events must not be specified as reusable.</Name>
+    <LocalName>Les événements ne doivent pas être spécifiés comme réutilisables.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Exclusive Event-Based Gateway</Name>
+    <LocalName>Branchement événementiel exclusif</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Exclusive Gateway</Name>
+    <LocalName>Branchement exclusif</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ExclusiveEventBasedGateway</Name>
+    <LocalName>BranchementEvenementielExclusif</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ExclusiveGateway</Name>
+    <LocalName>BranchementExclusif</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Existence of Else flow</Name>
+    <LocalName>Existence de flux Else</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Existence of compensation handler</Name>
+    <LocalName>Existence de gestionnaire de compensation</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Existence of receive activity</Name>
+    <LocalName>Existence d'activité de réception</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Existence of reply activity</Name>
+    <LocalName>Existence d'activité de réponse</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Exit on standard fault</Name>
+    <LocalName>Sortie sur erreur standard</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Expected organization unit defined as partner link</Name>
+    <LocalName>Unité d'organisation attendue définie sous forme de lien partenaire</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Expected variable for fault handling</Name>
+    <LocalName>Variable attendue pour la gestion d'erreur</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Expression language</Name>
+    <LocalName>Langage utilisé pour l'expression</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Extended ID</Name>
+    <LocalName>ID étendu</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Extension:</Name>
+    <LocalName>Suffixe :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>File extension</Name>
+    <LocalName>Suffixe de nom de fichier</LocalName>
+  </Translation>
+  <Translation>
+    <Name>File extension value</Name>
+    <LocalName>Valeur de suffixe de nom de fichier</LocalName>
+  </Translation>
+  <Translation>
+    <Name>File name:</Name>
+    <LocalName>Nom de fichier :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Final counter expression</Name>
+    <LocalName>Expression finale du compteur</LocalName>
+  </Translation>
+  <Translation>
+    <Name>First correlation pattern</Name>
+    <LocalName>Premier motif de corrélation</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Flow Nodes</Name>
+    <LocalName>Noeuds de flux</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Flow data balancing.</Name>
+    <LocalName>Equilibrage de flux de données.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Flow type</Name>
+    <LocalName>Type de flux</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Gateway</Name>
+    <LocalName>Branchement</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Gateways</Name>
+    <LocalName>Branchements</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Gateways must not have more than one default outgoing flow.</Name>
+    <LocalName>Les branchements ne doivent pas avoir plus d'un flux sortant par défaut.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>General</Name>
+    <LocalName>Général</LocalName>
+  </Translation>
+  <Translation>
+    <Name>General Documentation</Name>
+    <LocalName>Documentation générale</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Generate:</Name>
+    <LocalName>Générer :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Global value</Name>
+    <LocalName>Valeur globale</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Hidden</Name>
+    <LocalName>Caché</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Human Process</Name>
+    <LocalName>Processus humain</LocalName>
+  </Translation>
+  <Translation>
+    <Name>HumanProcess</Name>
+    <LocalName>ProcessusHumain</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Implementation</Name>
+    <LocalName>Mise en oeuvre</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Implementation technology</Name>
+    <LocalName>Technologie de mise en oeuvre</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Imported wsdl content</Name>
+    <LocalName>Contenu wsdl importé</LocalName>
+  </Translation>
+  <Translation>
+    <Name>In scope</Name>
+    <LocalName>Dans la portée</LocalName>
+  </Translation>
+  <Translation>
+    <Name>InScope</Name>
+    <LocalName>Dans le périmètre</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Inclusive Gateway</Name>
+    <LocalName>Branchement inclusif</LocalName>
+  </Translation>
+  <Translation>
+    <Name>InclusiveGateway</Name>
+    <LocalName>BranchementInclusif</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Inconsistent correlation keys</Name>
+    <LocalName>Clés de corrélation incohérentes</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Inconsistent correlation properties</Name>
+    <LocalName>Propriétés de corrélation incohérentes</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Initialize Partner Role</Name>
+    <LocalName>Initialisation du rôle partenaire</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Initiate correlation</Name>
+    <LocalName>Initier la corrélation</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Initiate input correlation</Name>
+    <LocalName>Initier une corrélation d'entrée</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Initiate output correlation</Name>
+    <LocalName>Initier une corrélation de sortie</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Initiating and return messages must share the same correlation property of the same correlation key.</Name>
+    <LocalName>Les messages initiateurs et de retour doivent partager la même propriété de corrélation de la même clé de corrélation.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Initiating messages must be of stereotype "Message Flow".</Name>
+    <LocalName>Les messages initiateurs doivent avoir le stéréotype "Flux de message".</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Initiating messages must bear the stereotype Message Flow.</Name>
+    <LocalName>Les messages initiateurs doivent avoir le stéréotype Flux de message.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Instantiate</Name>
+    <LocalName>Instancier</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Intermediate</Name>
+    <LocalName>Intermédiaire</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Intermediate Catch Event</Name>
+    <LocalName>Evénement intermédiaire de réception</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Intermediate Catch Events</Name>
+    <LocalName>Evénements intermédiaires de réception</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Intermediate Event</Name>
+    <LocalName>Evénement intermédiaire</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Intermediate Events</Name>
+    <LocalName>Evénements intermédiaires</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Intermediate Throw Event</Name>
+    <LocalName>Evénement intermédiaire d'émission</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Intermediate Throw Events</Name>
+    <LocalName>Evénements intermédiaires d'émission</LocalName>
+  </Translation>
+  <Translation>
+    <Name>IntermediateEvent</Name>
+    <LocalName>EvenementIntermediaire</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Interrupting</Name>
+    <LocalName>Interrupteur</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid correlation properties</Name>
+    <LocalName>Propriétés de corrélation invalides</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid correlation property</Name>
+    <LocalName>Propriété de corrélation incorrecte</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid data object</Name>
+    <LocalName>Donnée invalide</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid decomposition</Name>
+    <LocalName>Décomposition incorrecte</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid destination</Name>
+    <LocalName>Destination incorrecte</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid document status</Name>
+    <LocalName>Statut de document incorrect</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid document type</Name>
+    <LocalName>Type de document incorrect</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid event definitions</Name>
+    <LocalName>Définitions d'événement invalides</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid implementation type</Name>
+    <LocalName>Type de mise en oeuvre incorrect</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid incoming flows</Name>
+    <LocalName>Flux entrants incorrects</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid initiating message stereotype</Name>
+    <LocalName>Stéréotype de message initiateur incorrect</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid message format</Name>
+    <LocalName>Format de message incorrect</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid outgoing flows</Name>
+    <LocalName>Flux sortants incorrects</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid return message stereotype</Name>
+    <LocalName>Stéréotype de message de retour incorrect</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid reusability</Name>
+    <LocalName>Réutilisabilité incorrecte</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid source</Name>
+    <LocalName>Source incorrecte</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid source item</Name>
+    <LocalName>Elément source incorrect</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid target item</Name>
+    <LocalName>Elément cible incorrect</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid transactions collection</Name>
+    <LocalName>Collection de transactions invalide</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid type of operation</Name>
+    <LocalName>Type d'opération incorrect</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Is Entity:</Name>
+    <LocalName>Est une entité :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Is message flow</Name>
+    <LocalName>Est un flux de message</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Isolated</Name>
+    <LocalName>Isolé</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Isolated object.</Name>
+    <LocalName>Objet isolé.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Isolated shortcut of object.</Name>
+    <LocalName>Raccourci d'objet isolé.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Item-Aware Elements</Name>
+    <LocalName>Eléments sensibles</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Item-aware elements of type Data Input are not permitted in intermediate catch events.</Name>
+    <LocalName>Les éléments sensibles de type Entrée de données ne sont pas permis dans des événements de réception intermédiaires.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Item-aware elements of type Data Input are not permitted in start events.</Name>
+    <LocalName>Les éléments sensibles de type Entrée de données ne sont pas permis dans les événements de début.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Item-aware elements of type Data Output are not permitted in end events.</Name>
+    <LocalName>Les éléments sensibles de type Sortie de données ne sont pas permis dans les événements de fin.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Item-aware elements of type Data Output are not permitted in intermediate throw events.</Name>
+    <LocalName>Les éléments sensibles de type Sortie de données ne sont pas permis dans des événements intermédiaires d'émission.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Join condition</Name>
+    <LocalName>Condition de jointure</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Keep source element name</Name>
+    <LocalName>Conserver le nom d'élément source</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Keywords</Name>
+    <LocalName>Mots clés</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Lane</Name>
+    <LocalName>Couloir</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Lanes</Name>
+    <LocalName>Lignes</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Language</Name>
+    <LocalName>Langage</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Language R</Name>
+    <LocalName>Langage R</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Link</Name>
+    <LocalName>Lien</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Link Event Definition</Name>
+    <LocalName>Définition d'événement Lien</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Link Intermediate Catch Event</Name>
+    <LocalName>Evénement intermédiaire de réception Lien</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Link Intermediate Throw Event</Name>
+    <LocalName>Evénement intermédiaire d'émission Lien</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Local Variables</Name>
+    <LocalName>Variables locales</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Location Type:</Name>
+    <LocalName>Type d'emplacement :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Location:</Name>
+    <LocalName>Emplacement :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Logical Component</Name>
+    <LocalName>Composant logique</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Logical Components</Name>
+    <LocalName>Composants logiques</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Logical component</Name>
+    <LocalName>Composant logique</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Logical component:</Name>
+    <LocalName>Composant logique :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Logical components created in PowerDesigner cannot be exported</Name>
+    <LocalName>Les composants logiques créés dans PowerAMC ne peuvent pas être exportés</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Logical components created in PowerDesigner cannot be exported to Solution Manager</Name>
+    <LocalName>Les composants logiques créés dans PowerAMC ne peuvent pas être exportés vers Solution Manager</LocalName>
+  </Translation>
+  <Translation>
+    <Name>LogicalComponent</Name>
+    <LocalName>ComposantLogique</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Loop characteristics</Name>
+    <LocalName>Caractéristiques de boucle</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Mandatory loop expression</Name>
+    <LocalName>Expression de boucle obligatoire</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Manual Task</Name>
+    <LocalName>Tâche manuelle</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ManualTask</Name>
+    <LocalName>TacheManuelle</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Master Data</Name>
+    <LocalName>Donnée de base</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Message End Event</Name>
+    <LocalName>Evénement de fin Message</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Message End Events</Name>
+    <LocalName>Evénements de fin Message</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Message Event Definition</Name>
+    <LocalName>Définition d'événement Message</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Message Flow</Name>
+    <LocalName>Flux de message</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Message Flow Matrices</Name>
+    <LocalName>Matrices de flux de message</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Message Flow Matrix</Name>
+    <LocalName>Matrice de flux de message</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Message Flows</Name>
+    <LocalName>Flux de message</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Message Intermediate Catch Event</Name>
+    <LocalName>Evénement intermédiaire de réception Message</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Message Intermediate Throw Event</Name>
+    <LocalName>Evénement intermédiaire d'émission Message</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Message Start Event</Name>
+    <LocalName>Evénement de début Message</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Message Start Events</Name>
+    <LocalName>Evénements de début Message</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Message flows can only go from (have as sources) activities, pools, throwing message intermediate events, or message end events.</Name>
+    <LocalName>Les flux de message peuvent uniquement provenir (avoir pour source) d'activités, de pools, d'événements intermédiaire d'émission de message ou d'événements de fin Message.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Message flows can only point to (have as destinations) activities, pools, catching message intermediate events, or  message start events.</Name>
+    <LocalName>Les flux de message ne peuvent pointer que vers (avoir comme destination) des activités, des pools, des événements intermédiaire Réception de message ou des événements de début Message.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Message flows can only point to (have as destinations) activities, pools, catching message intermediate events, or message start events.</Name>
+    <LocalName>Les flux de message peuvent uniquement aboutir (avoir pour destination) à des activités, des pools, des événements intermédiaires d'émission de message ou des événements de fin Message.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Message flows must specify a correlation property from among those defined in their correlation key.</Name>
+    <LocalName>Les flux de message doivent spécifier une propriété de corrélation parmi celles définies dans leur clé de corrélation.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Message format</Name>
+    <LocalName>Format de message</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Message start events are not permitted in sub-processes.</Name>
+    <LocalName>Les événements de début Message ne sont pas admis dans les sous-processus.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Message start events are not permitted in transactions.</Name>
+    <LocalName>Les événements de début Message ne sont pas admis dans les transactions.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>MessageEnd</Name>
+    <LocalName>EvenementFinMessage</LocalName>
+  </Translation>
+  <Translation>
+    <Name>MessageFlow</Name>
+    <LocalName>FluxMessage</LocalName>
+  </Translation>
+  <Translation>
+    <Name>MessageFlowMatrix</Name>
+    <LocalName>MatriceFluxMessage</LocalName>
+  </Translation>
+  <Translation>
+    <Name>MessageStart</Name>
+    <LocalName>EvenementDebutMessage</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Migrated flow balancing</Name>
+    <LocalName>Equilibrage de flux migré</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing Receive activity after the top-level start</Name>
+    <LocalName>Activité Receive manquante après le début racine</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing data object</Name>
+    <LocalName>Donnée manquante</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing source item</Name>
+    <LocalName>Elément source manquant</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing target item</Name>
+    <LocalName>Eléments cible manquant</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Multi-Instance</Name>
+    <LocalName>Multi-instance</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Multi-Instance:</Name>
+    <LocalName>Multi-instance :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Multiple End Event</Name>
+    <LocalName>Evénement de fin Multiple</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Multiple Intermediate Catch Event</Name>
+    <LocalName>Evénement intermédiaire de réception Multiple</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Multiple Intermediate Throw Event</Name>
+    <LocalName>Evénement intermédiaire d'émission Multiple</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Multiple Start Event</Name>
+    <LocalName>Evénement de début Multiple</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Multiple correlation</Name>
+    <LocalName>Corrélation multiple</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Multiple correlations</Name>
+    <LocalName>Corrélations multiples</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Multiple end events can only contain Message, Error, Escalation, Cancel, Compensation, Signal, and Terminate event definitions.</Name>
+    <LocalName>Les événements de fin multiples ne peuvent que des définitions d'événement Message, Erreur, Escalade, Annulation, Compensation, Signal et Fin.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Multiple events must contain at least two event definitions.</Name>
+    <LocalName>Les événements Multiple doivent contenir au moins deux définitions d'événement.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Multiple intermediate catching events can only contain Message, Timer, Conditional, Link, and Signal event definitions.</Name>
+    <LocalName>Les événements intermédiaires multiples de réception ne peuvent que des définitions d'événement Message, Minuterie, Conditionnel, Lien et Signal.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Multiple intermediate throwing events can only contain Message, Escalation, Link, Compensation, and Signal event definitions.</Name>
+    <LocalName>Les événements intermédiaires multiples d'émission ne peuvent que des définitions d'événement Message, Escalade, Lien, Compensation et Signal.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Multiple value</Name>
+    <LocalName>Valeur multiple</LocalName>
+  </Translation>
+  <Translation>
+    <Name>MultipleEnd</Name>
+    <LocalName>EvenementFinMultiple</LocalName>
+  </Translation>
+  <Translation>
+    <Name>MultipleStart</Name>
+    <LocalName>EvenementDebutMultiple</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must be an assigned variable of a data transformation with the &lt;&lt;propertyAlias&gt;&gt; stereotype.</Name>
+    <LocalName>Doit être une variable affectée d'une transformation de données ayant le stéréotype &lt;&lt;propertyAlias&gt;&gt;.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must be composite</Name>
+    <LocalName>Doit être composite</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must be implemented by a compensation event</Name>
+    <LocalName>Doit être mis en oeuvre par un événement compensation</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must be implemented by a fault event</Name>
+    <LocalName>Doit être mis en oeuvre par un événement fault</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must be implemented by a timer event</Name>
+    <LocalName>Doit être mis en oeuvre par un événement timer</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must be used within a fault handler</Name>
+    <LocalName>Doit être utilisé avec un gestionnaire d'erreur</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must contain assignments with assignment variable compatible with the partner role</Name>
+    <LocalName>Doit contenir des affectations avec une variable d'affectation compatible avec le rôle partenaire</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must contain assignments with input variable compatible with the partner role</Name>
+    <LocalName>Doit contenir des affectations avec une variable d'entrée compatible avec le rôle partenaire</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must contain assignments with input variable compatible with the process role</Name>
+    <LocalName>Doit contenir des affectations avec une variable d'entrée compatible avec le rôle de processus</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must contain at least one data transformation</Name>
+    <LocalName>Doit contenir au moins une transformation de données</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must contain at least one variable</Name>
+    <LocalName>Doit contenir au moins une variable</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must execute an operation which is compatible with the organization unit</Name>
+    <LocalName>Doit exécuter une opération compatible avec l'unité d'organisation</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must have Data Store stereotype</Name>
+    <LocalName>Doit avoir le stéréotype Data Store</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must have Split/Merge stereotype</Name>
+    <LocalName>Doit avoir le stéréotype Split/Merge</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must have a single compensation handler</Name>
+    <LocalName>Doit avoir un seul gestionnaire de compensation</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must have a single default fault handler</Name>
+    <LocalName>Doit avoir un gestionnaire d'erreur unique</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must have a single incoming flow</Name>
+    <LocalName>Doit avoir un seul flux entrant</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must have a single success output flow</Name>
+    <LocalName>Doit avoir un seul flux sortant Succès</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must have the &lt;&lt;repeatuntil&gt;&gt; stereotype</Name>
+    <LocalName>Doit avoir le stéréotype &lt;&lt;repeatuntil&gt;&gt;</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must have the Foreach stereotype</Name>
+    <LocalName>Doit avoir le stéréotype Foreach</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must have the compensate stereotype</Name>
+    <LocalName>Doit avoir le stéréotype compensate</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must have the if stereotype</Name>
+    <LocalName>Doit avoir le stéréotype if</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must have the invoke stereotype</Name>
+    <LocalName>Doit avoir le stéréotype invoke</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must have the pick stereotype</Name>
+    <LocalName>Doit avoir le stéréotype pick</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must have the property stereotype</Name>
+    <LocalName>Doit avoir le stéréotype property</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must have the propertyAlias stereotype</Name>
+    <LocalName>Doit avoir le stéréotype propertyAlias</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must have the receive stereotype</Name>
+    <LocalName>Doit avoir le stéréotype receive</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must have the reply stereotype</Name>
+    <LocalName>Doit avoir le stéréotype reply</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must have the replyFault stereotype</Name>
+    <LocalName>Doit avoir le stéréotype replyFault</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must have the throw stereotype</Name>
+    <LocalName>Doit avoir le stéréotype throw</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must have the wait stereotype</Name>
+    <LocalName>Doit avoir le stéréotype wait</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must have the while stereotype</Name>
+    <LocalName>Doit avoir le stéréotype while</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must have valid assignments</Name>
+    <LocalName>Doit avoir des affectations valides</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must not contain assignments</Name>
+    <LocalName>Ne doit pas contenir d'affectation</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must not use the same variable as the counter variable</Name>
+    <LocalName>N'utilise pas la même variable que la variable compteur</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must specify the myRole or the partnerRole, or both.</Name>
+    <LocalName>Doit spécifier le myRole ou le partnerRole, ou les deux.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must target receive or pick activity</Name>
+    <LocalName>Doit avoir pour cible l'activité receive ou pick</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must use global variable as assigned variable</Name>
+    <LocalName>Une variable globale doit être utilisée comme variable affectée</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must use message format as input variable</Name>
+    <LocalName>Un format de message doit être utilisé comme variable d'entrée</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must use operation defined under the service provider representing the process interface</Name>
+    <LocalName>Doit utiliser une opération définie sous le fournisseur de services qui représente l'interface du processus</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must use variables defined under the model</Name>
+    <LocalName>Doit utiliser des variables définies sous le modèle</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must use variables with the &lt;&lt;property&gt;&gt; stereotype</Name>
+    <LocalName>Doit utiliser les variables avec le stéréotype &lt;&lt;property&gt;&gt;</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Name</Name>
+    <LocalName>Nom</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Namespace prefix to use</Name>
+    <LocalName>Préfixe d'espace de noms à utiliser</LocalName>
+  </Translation>
+  <Translation>
+    <Name>No more than two outgoing flows</Name>
+    <LocalName>Pas plus de deux flux sortants</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Node ID</Name>
+    <LocalName>ID de noeud</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Not permitted at top level</Name>
+    <LocalName>Non permis au niveau racine</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Not permitted in ad-hoc sub-process</Name>
+    <LocalName>Non permis dans les sous-processus ad-hoc</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Not permitted in end events</Name>
+    <LocalName>Non admis dans les événements de fin</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Not permitted in event sub-process</Name>
+    <LocalName>Non permis dans les sous-processus d'événement</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Not permitted in intermediate catch events</Name>
+    <LocalName>Non permis dans les événements intermédiaires de réception</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Not permitted in intermediate throw events</Name>
+    <LocalName>Non permis dans les événements intermédiaires d'émission</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Not permitted in start events</Name>
+    <LocalName>Non admis dans les événements de début</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Not permitted in sub-process</Name>
+    <LocalName>Non permis dans les sous-processus</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Not permitted in tasks or events</Name>
+    <LocalName>Non permis dans les tâches ou les événements</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Not permitted in transaction</Name>
+    <LocalName>Non admis dans une transaction</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Number ID:</Name>
+    <LocalName>Numéro d'ID :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Object</Name>
+    <LocalName>Objet</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Object R</Name>
+    <LocalName>Objet R</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Only permitted in transactions</Name>
+    <LocalName>Permis uniquement dans les transactions</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Organization Unit role</Name>
+    <LocalName>Rôle de l'unité d'organisation</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Organization Units</Name>
+    <LocalName>Unités d'organisation</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Original name</Name>
+    <LocalName>Désignation originale</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Out of scope compensate activity</Name>
+    <LocalName>Activité Compensate située hors de la portée</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Owner</Name>
+    <LocalName>Propriétaire</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Page scale:</Name>
+    <LocalName>Echelle de page :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Pairs of initiating and return messages must specify the same correlation property of the same correlation key.</Name>
+    <LocalName>Des paires de messages initiateur et répondeur doivent spécifier la même propriété de corrélation de la même clé de corrélation.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Parallel</Name>
+    <LocalName>Parallèle</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Parallel Event-Based Gateway</Name>
+    <LocalName>Branchement événementiel parallèle</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Parallel Gateway</Name>
+    <LocalName>Branchement parallèle</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Parallel Multiple</Name>
+    <LocalName>Multiple parallèle</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Parallel Multiple Intermediate Catch Event</Name>
+    <LocalName>Evénement intermédiaire de réception Multiple parallèle</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Parallel Multiple Start Event</Name>
+    <LocalName>Evénement de début Multiple parallèle</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Parallel multiple intermediate catching events can only contain Message, Timer, Conditional, Link, and Signal event definitions.</Name>
+    <LocalName>Les événements de réception parallèles multiples intermédiaires ne peuvent que des définitions d'événement Message, Timer, Conditional, Link, and Signal event definitions.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ParallelEventBasedGateway</Name>
+    <LocalName>BranchementEvenementielParallele</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ParallelGateway</Name>
+    <LocalName>BranchementParallele</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ParallelMultiple</Name>
+    <LocalName>MultipleParallele</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ParallelMultipleStart</Name>
+    <LocalName>EvenementDebutMultipleParallele</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Parent flow balancing.</Name>
+    <LocalName>Equilibrage de flux parent.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Parent:</Name>
+    <LocalName>Parent :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Partner Port Type</Name>
+    <LocalName>Type de port partenaire</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Partner link type</Name>
+    <LocalName>Type de lien partenaire</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Partners role</Name>
+    <LocalName>Rôle des partenaires</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Person responsible</Name>
+    <LocalName>Personne responsable</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Process</Name>
+    <LocalName>Processus</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Process Port Type</Name>
+    <LocalName>Type de port de processus</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Process Step</Name>
+    <LocalName>Etape de processus</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Process Steps</Name>
+    <LocalName>Etapes de processus</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Process role</Name>
+    <LocalName>Rôle de processus</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Process step references a logical component not present in Solution Manager</Name>
+    <LocalName>L'étape de processus référence un composant logique qui n'est pas présent dans Solution Manager</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Process step references no logical component</Name>
+    <LocalName>L'étape de processus ne référence aucun composant logique</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Process step references no logical component.</Name>
+    <LocalName>L'étape de processus ne référence aucun composant logique.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Process steps ID</Name>
+    <LocalName>ID d'étapes de processus</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Process:</Name>
+    <LocalName>Processus :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ProcessStep</Name>
+    <LocalName>EtapeProcessus</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Processing type</Name>
+    <LocalName>Type de traitement</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Processing type value</Name>
+    <LocalName>Valeur de type de traitement</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Product ID</Name>
+    <LocalName>ID produit</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Product instance ID</Name>
+    <LocalName>ID d'instance de produit</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Product instance name</Name>
+    <LocalName>Nom d'instance de produit</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Product name</Name>
+    <LocalName>Nom de produit</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Product version ID</Name>
+    <LocalName>ID de version de produit</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Product version name</Name>
+    <LocalName>Nom de version de produit</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Project Documentation</Name>
+    <LocalName>Documentation de projet</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Project ID</Name>
+    <LocalName>ID de projet</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Properties</Name>
+    <LocalName>Propriétés</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Property</Name>
+    <LocalName>Propriété</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Query language</Name>
+    <LocalName>Langage de requête</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Query on the assigned variable</Name>
+    <LocalName>Requête sur la variable affectée</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Receive Task</Name>
+    <LocalName>Tâche Réception</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ReceiveTask</Name>
+    <LocalName>TacheReception</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Repeat every expression</Name>
+    <LocalName>Répéter chaque expression</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Repository:</Name>
+    <LocalName>Référentiel :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Resource:</Name>
+    <LocalName>Ressource :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Responsible ID</Name>
+    <LocalName>ID de responsable</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Responsible person</Name>
+    <LocalName>Personne responsable</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Responsible person (read-only)</Name>
+    <LocalName>Personne responsable (lecture seule)</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Return messages must be of stereotype "Message Flow".</Name>
+    <LocalName>Les messages de retour doivent avoir le stéréotype "Flux de message".</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Return messages must bear the stereotype Message Flow.</Name>
+    <LocalName>Les messages répondeurs doit avoir le stéréotype Flux de message.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Reusable Process</Name>
+    <LocalName>Processus réutilisable</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Scenario Flow Diagram</Name>
+    <LocalName>Diagramme de flux de scénario</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Screen text</Name>
+    <LocalName>Texte d'écran</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Script Task</Name>
+    <LocalName>Tâche Script</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Script language</Name>
+    <LocalName>Langage de script</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ScriptTask</Name>
+    <LocalName>TacheScript</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Second  correlation pattern</Name>
+    <LocalName>Second motif de corrélation</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Select document status</Name>
+    <LocalName>Sélectionner l'état de document</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Select document type</Name>
+    <LocalName>Sélectionner le type du document</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Select transaction type</Name>
+    <LocalName>Sélectionner le type de transaction</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Send Task</Name>
+    <LocalName>Tâche Envoi</LocalName>
+  </Translation>
+  <Translation>
+    <Name>SendTask</Name>
+    <LocalName>TacheEnvoi</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Sequence Flow</Name>
+    <LocalName>Flux de séquence</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Sequence Flows</Name>
+    <LocalName>Flux de séquence</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Sequence flows must not have message formats attached to them.</Name>
+    <LocalName>Les flux de séquence ne doivent pas avoir de formats de message attachés.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>SequenceFlow</Name>
+    <LocalName>FluxSequence</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Service Provider</Name>
+    <LocalName>Fournisseur de services</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Service Task</Name>
+    <LocalName>Tâche Service</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ServiceProvider</Name>
+    <LocalName>FournisseurServices</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ServiceTask</Name>
+    <LocalName>TacheService</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Shortcut</Name>
+    <LocalName>Raccourci</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Shortcut of process step references different logical component</Name>
+    <LocalName>Raccourci d'étape de processus référençant un autre composant logique</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Should be the first activity of the business process</Name>
+    <LocalName>Devrait être la première activité du processus métiers</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Signal End Event</Name>
+    <LocalName>Evénement de fin Signal</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Signal Event Definition</Name>
+    <LocalName>Définition d'événement Signal</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Signal Intermediate Catch Event</Name>
+    <LocalName>Evénement intermédiaire de réception Signal</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Signal Intermediate Throw Event</Name>
+    <LocalName>Evénement intermédiaire d'émission Signal</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Signal Start Event</Name>
+    <LocalName>Evénement de début Signal</LocalName>
+  </Translation>
+  <Translation>
+    <Name>SignalEnd</Name>
+    <LocalName>EvenementFinSignal</LocalName>
+  </Translation>
+  <Translation>
+    <Name>SignalStart</Name>
+    <LocalName>EvenementDebutSignal</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Source ID</Name>
+    <LocalName>ID source</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Source item</Name>
+    <LocalName>Elément source</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Source location</Name>
+    <LocalName>Emplacement source</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Source location ID</Name>
+    <LocalName>ID d'emplacement source</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Source location R</Name>
+    <LocalName>Emplacement source R</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Source location text</Name>
+    <LocalName>Texte d'emplacement source</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Source process step missing</Name>
+    <LocalName>Etape de processus source manquante</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Source type</Name>
+    <LocalName>Type de source</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Start Event</Name>
+    <LocalName>Evénement de début</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Start Events</Name>
+    <LocalName>Evénements de début</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Start and end events are not permitted in ad-hoc sub-processes.</Name>
+    <LocalName>Les événements de début et de fin ne sont pas admis dans des sous-processus ad-hoc.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Start counter expression</Name>
+    <LocalName>Expression de début du compteur</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Start events of type Compensation are only permitted in event sub-processes.</Name>
+    <LocalName>Les événements de début de type Compensation sont uniquement permis dans les sous-processus d'événement.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Start events of type Error are only permitted in event sub-processes.</Name>
+    <LocalName>Les événements de début de type Erreur sont uniquement permis dans les sous-processus d'événement.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Start events of type Escalation are only permitted in event sub-processes.</Name>
+    <LocalName>Les événements de début de type Escalade sont uniquement permis dans les sous-processus d'événement.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Start events of type Standard are not permitted in event sub-processes.</Name>
+    <LocalName>Les événements de début de type Standard ne sont pas permis dans les sous-processus d'événement.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Start events that are not of type Standard are not permitted in sub-processes.</Name>
+    <LocalName>Les événements de début qui ne sont pas de type Standard ne sont pas permis dans les sous-processus.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Start events that are not of type Standard are not permitted in transactions.</Name>
+    <LocalName>Les événements de début autres que ceux de type Standard ne sont pas permis dans les transactions.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Start quantity</Name>
+    <LocalName>Quantité de début</LocalName>
+  </Translation>
+  <Translation>
+    <Name>StartEvent</Name>
+    <LocalName>EvenementDebut</LocalName>
+  </Translation>
+  <Translation>
+    <Name>State</Name>
+    <LocalName>Etat</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Status</Name>
+    <LocalName>Etat</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Status code</Name>
+    <LocalName>Code de statut</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Status text</Name>
+    <LocalName>Texte de statut</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Stereotype</Name>
+    <LocalName>Stéréotype</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Stereotype:</Name>
+    <LocalName>Stéréotype :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Sub-Process</Name>
+    <LocalName>Sous-processus</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Sub-Processes</Name>
+    <LocalName>Sous-processus</LocalName>
+  </Translation>
+  <Translation>
+    <Name>SubProcess</Name>
+    <LocalName>SousProcessus</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Successful branches only</Name>
+    <LocalName>Uniquement les branches se terminant par un succès</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Suppress join failure</Name>
+    <LocalName>Suppression des échecs de jointure</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Symbol ID</Name>
+    <LocalName>ID de symbole</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Synchronization link cannot connect non-parallel activities</Name>
+    <LocalName>Un lien de synchronisation ne peut pas connecter des activités non parallèles</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Synchronization link cannot connect two activities belonging to different event branches</Name>
+    <LocalName>Le lien de synchronisation ne peut pas connecter deux activités appartenant à des branches d'événement différentes</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Synchronization link must not cross BPEL4WS serializable scope boundary</Name>
+    <LocalName>Le lien de synchronisation ne doit pas dépasser les limites de portée sérialisable BPEL4WS</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Synchronization link must not cross loop boundary</Name>
+    <LocalName>Le lien de synchronisation ne doit pas dépasser les limites de la boucle</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Target item</Name>
+    <LocalName>Elément cible</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Target namespace</Name>
+    <LocalName>Espace de noms cible</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Task</Name>
+    <LocalName>Tâche</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Tasks</Name>
+    <LocalName>Tâches</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Tasks must not contain other objects. Only sub-processes and other composite activities can contain other objects.</Name>
+    <LocalName>Les tâches ne doivent pas contenir d'autres objets. Seuls les sous-processus et les autres activités composites peuvent contenir d'autres objets.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Terminate End Event</Name>
+    <LocalName>Evénement de fin Arrêt</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Terminate Event Definition</Name>
+    <LocalName>Définition d'événement Arrêt</LocalName>
+  </Translation>
+  <Translation>
+    <Name>TerminateEnd</Name>
+    <LocalName>EvenementFinArret</LocalName>
+  </Translation>
+  <Translation>
+    <Name>The assigned variable must have the &lt;&lt;property&gt;&gt; stereotype.</Name>
+    <LocalName>La variable affectée doit avoir le stéréotype &lt;&lt;property&gt;&gt;.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>The composite process should have valid stereotype</Name>
+    <LocalName>Le processus composite devrait avoir un stéréotype valide</LocalName>
+  </Translation>
+  <Translation>
+    <Name>The emission correlation must be coherent with the emission message mapping variable.</Name>
+    <LocalName>La corrélation d'émission doit être cohérente avec la variable de correspondance de message de l'émission.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>The reception correlation must be coherent with the reception message mapping variable.</Name>
+    <LocalName>La corrélation de réception doit être cohérente avec la variable de correspondance de message de réception.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>This check ensures that the document status of project documentation objects are correct.</Name>
+    <LocalName>Cette vérification s'assure que le statut de document des objets documentation de projet est correct.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>This check ensures that the document type of project documentation objects are correct.</Name>
+    <LocalName>Cette vérification s'assure que le type de document des objets documentation de projet est correct.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>This check ensures that the logical component of a process step shortcut is the same as the source process step object.</Name>
+    <LocalName>Cette vérification s'assure que le composant logique d'un raccourci d'étape de processus est identique à celui de l'étape de processus source.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>This check warns if the source process step is not in the current model.</Name>
+    <LocalName>Cette vérification s'assure que l'étape de processus se trouve dans le modèle courant.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Timeout:</Name>
+    <LocalName>Dépassement de délai :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Timer</Name>
+    <LocalName>Minuterie</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Timer Event Definition</Name>
+    <LocalName>Définition d'événement Minuterie</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Timer Intermediate Catch Event</Name>
+    <LocalName>Evénement intermédiaire de réception Minuterie</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Timer Start Event</Name>
+    <LocalName>Evénement de début Minuterie</LocalName>
+  </Translation>
+  <Translation>
+    <Name>TimerStart</Name>
+    <LocalName>EvenementDebutMinuterie</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Title</Name>
+    <LocalName>Titre</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Token ID</Name>
+    <LocalName>ID de jeton</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Too few event definitions</Name>
+    <LocalName>Pas assez de définition d'événement</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Too many default flows</Name>
+    <LocalName>Trop de flux par défaut</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Too many start events</Name>
+    <LocalName>Trop d'événements de début</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Transaction Type</Name>
+    <LocalName>Type de transaction</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Transaction Types</Name>
+    <LocalName>Types de transaction</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Transaction references different logical component</Name>
+    <LocalName>La transaction référence un autre composant logique</LocalName>
+  </Translation>
+  <Translation>
+    <Name>TransactionType</Name>
+    <LocalName>TypeTransaction</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Transactions must reference the same logical component as the master data to which they belong.</Name>
+    <LocalName>Les transactions doivent référencer le même composant logique que celui de la donnée de base à laquelle elles appartiennent.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Transactions must reference the same logical component as the process step to which they belong.</Name>
+    <LocalName>Les transactions doivent référencer le même composant logique que l'étape de processus à laquelle elles appartiennent.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Transformation type</Name>
+    <LocalName>Type de transformation</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Type code</Name>
+    <LocalName>Code de type</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Type name</Name>
+    <LocalName>Nom de type</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Type name R</Name>
+    <LocalName>Nom de type R</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Type:</Name>
+    <LocalName>Type :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Undefined type of operation</Name>
+    <LocalName>Type d'opération indéfini</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Uniqueness of receive activity</Name>
+    <LocalName>Unicité de l'activité de réception</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Unlimited</Name>
+    <LocalName>Illimitée</LocalName>
+  </Translation>
+  <Translation>
+    <Name>User Task</Name>
+    <LocalName>Tâche utilisateur</LocalName>
+  </Translation>
+  <Translation>
+    <Name>UserTask</Name>
+    <LocalName>TacheUtilisateur</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Validate</Name>
+    <LocalName>Valider</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Value</Name>
+    <LocalName>Valeur</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Variable access serializable</Name>
+    <LocalName>Accès aux variables contrôlé</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Variable must be defined under the model</Name>
+    <LocalName>Une variable doit être définie sous le modèle</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Version:</Name>
+    <LocalName>Version :</LocalName>
+  </Translation>
+</Translations>

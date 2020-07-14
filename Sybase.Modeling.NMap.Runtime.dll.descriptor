@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Module Id="Sybase.Modeling.NMap.Runtime">
+  <AssemblyName>Sybase.Modeling.NMap.Runtime, Version=1.6.5.0, Culture=neutral, PublicKeyToken=65afb196693a8d18</AssemblyName>
+  <RelativePath>Sybase.Modeling.NMap.Runtime.dll</RelativePath>
+  <Extensions>
+    <ExtensionPoint Id="Sybase.Core.Platform.ExtensionPoint">
+      <ExtensionPoint Class="Sybase.Modeling.NMap.Runtime.DomainAdapter" />
+    </ExtensionPoint>
+  </Extensions>
+  <Configurations />
+</Module>

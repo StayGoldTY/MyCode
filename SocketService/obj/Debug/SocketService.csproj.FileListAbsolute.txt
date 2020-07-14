@@ -1,0 +1,7 @@
+E:\学习不止\SocketService\bin\Debug\SocketService.exe.config
+E:\学习不止\SocketService\bin\Debug\SocketService.exe
+E:\学习不止\SocketService\bin\Debug\SocketService.pdb
+E:\学习不止\SocketService\obj\Debug\SocketService.csprojAssemblyReference.cache
+E:\学习不止\SocketService\obj\Debug\SocketService.csproj.CoreCompileInputs.cache
+E:\学习不止\SocketService\obj\Debug\SocketService.exe
+E:\学习不止\SocketService\obj\Debug\SocketService.pdb

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configurations>
+  <ConfigurationPoint Id="Sybase.Modeling.M3al.Emf.ModelTypeDeclaration">
+    <ModelTypeDeclaration>
+      <AssemblyPath>org.eclipse.uml2.dll</AssemblyPath>
+      <PackageDeclaration uri="http://www.eclipse.org/uml2/2.1.0/UML" class="org.eclipse.uml2.uml.UMLPackage" />
+      <ResourceFactories>
+        <ResourceFactoryDeclaration extension=".uml" class="org.eclipse.uml2.uml.resource.UMLResource$Factory" />
+        <ResourceFactoryDeclaration extension=".xmi" class="org.eclipse.uml2.uml.resource.UMLResource$Factory" />
+      </ResourceFactories>
+    </ModelTypeDeclaration>
+  </ConfigurationPoint>
+</Configurations>

@@ -1,0 +1,2764 @@
+                                                                                                                                                                                                                                    
+
+========================================================================
+ Issue: 781069    03/13/15  	Status: Closed	
+Severity : 2         	Est. release: valencay
+Label  : cannot lst description of attribute in list of att in report
+Description :                                                    
+	 
+ *** Fri Mar 13 12:54:29 UTC+0100 2015 *** vaudino ***
+cearte a CDM with some entities with attributes
+create a report with entity card
+in list of attributes, you cannot add descritpion or description text                                                                                                                                                                                                                                                                                                               
+========================================================================
+ Issue: 780289    03/02/15  	Status: Closed	
+Severity : 2         	Est. release: valencay
+Label  : Merging EAM does scramble the symbols
+Description :                                                                           
+	 
+ *** Mon Mar 02 2015 14:14:28 GMT+0100 (Romance Standard Time) *** 
+mledier ***
+Open "Capability Model V7.eam" (Capability Model) and "Capability Model 
+V8.eam" (Capability Model (v7.0)) from bugmodel.
+Notice V7 diagram is well aligned, whereas V8 has sub-symbols scrambled.
+Merge V7 into V8.
+The resulting diagram is totally scrambled.
+
+
+                                                                                                                                                                       
+========================================================================
+ Issue: 778646    02/03/15  	Status: Closed	
+Severity : 1         	Est. release: valencay
+Label  : CDM to LDM generation: modfied composite key changes not 
+preserved
+Description :                                              
+	 *** Tue Feb 3 17:26:32 EST 2015 *** ahill ***  16.5.4 PL03
+
+A LDM was generated from a CDM. In the LDM, the attributes of a composite 
+key were changed via the relationship join. If new attributes are created 
+in the CDM and then generated to the LDM, the modification previously 
+made in the LDM is ignored and the change is undone.
+
+To reproduce:
+
+1) create an entity with three attributes
+2) make attribute_1 a primary identifier
+3) add a recursive relationship
+4) generate CDM to LDM
+5) in the LDM, open the relationship_1 properties
+6) change the Child Attribute from 'ENT_ATTRIBUTE_1' to 'ATTRIBUTE_1' 
+(click OK)
+7) in CDM, add Attribute_4 to Entity_1
+8) generate CDM to LDM with Preserve Modifications selected
+
+NOTE: the LDM is updated as expected
+
+9) in CDM, add Attribute_5 to Entity_1
+10) generate CDM to LDM with Preserve Modifications selected
+
+NOTE: ENT_ATTRIBUTE_1 is selected to be created in the LDM again. This is 
+a bug. 
+========================================================================
+ Issue: 778125    01/26/15  	Status: Closed	
+Severity : 2         	Est. release: valencay
+Label  : AUTO: 'Complete links' does not create all links
+Description :                                                                
+	  *** Mon Jan 26 2015 17:51:01 GMT+0100 (Romance Standard Time) *** 
+tandreys ***16.5.4.4450
+open \auto\current\Input\CompleteLinks\AA_ApplicationLink.eam
+call menu Tools\Complete Links
+compare with \auto\current\refmodels\completelinks\aa_applicationlink.png
+appears between 235371 and 235499
+                                                                                                                                                                                                                        
+========================================================================
+ Issue: 776320    12/16/14  	Status: Open	
+Severity : 2         	Est. release: valencay
+Label  : create external user at first login should do a check name
+Description :                                                        
+	 *** Tue Dec 16 15:44:44 UTC+0100 2014 *** vaudino ***
+with LDAP and "create automatically users"
+create external user at first login should do a check name
+
+that way we will also have the full name and comment at creation and 
+admin will not have to click check name
+                                                                                                                                                                                                                                                  
+========================================================================
+ Issue: 776141    12/12/14  	Status: Closed	
+Severity : 2         	Est. release: valencay
+Label  : create pool/lane from model composition creates bad symbols
+Description :                                                     
+	 
+ *** Fri Dec 12 16:57:05 UTC+0100 2014 *** vaudino ***
+create pool/lane from model composition creates bad symbols
+see pictures in bug directory                                                                                                                                                                                                                                                                                                                                                                             
+========================================================================
+ Issue: 776134    12/12/14  	Status: Closed	
+Severity : 2         	Est. release: valencay
+Label  : when a pool has only one lane we should be able to optionally 
+see it
+Description :                                            
+	  *** Fri Dec 12 14:42:29 UTC+0100 2014 *** vaudino *** 16.5 SP04
+when a pool has only ne lane you cannot see the lane name
+As the pool represent the top process and the lane the org unit it has a 
+meaning to show the lane name even if there is only one lane.
+
+we could show the lane <default> when it is the only one and it has been 
+renamed                                                                                                                                                                          
+========================================================================
+ Issue: 776121    12/12/14  	Status: Closed	
+Severity : 2         	Est. release: valencay
+Label  : Report: Value of ext. attributes is <NONE> for ent. attributes
+Description :                                                  
+	 Report: Value of extended attributes is always set to <None> in 
+the card of the entity attribute.
+Values are fine in the list of extended attributes of the entity 
+attribute.
+This problem does not occur with the card of entity.
+
+Find repro model in \\pdserver.mo.sap.corp\CIR\CIRMails\77xxxx\776121
+
+See KBA 2108317 (https://i7p.wdf.sap.corp/sap/support/notes/2108317).
+
+Repro steps:
+1. In a CDM, create and edit a new extension.
+2. Right-click ::Profile and select Add Metaclasses, select 
+EntityAttribute and click OK. Default name is Attribute_1.
+3. Click OK to save and close the extended definition.
+4. Create one entity and one entity attribute.
+5. Create a new report and do not use the legacy Report Editor.
+6. Add it the Entity book.
+The section starts with:
+ 
+ Report_1
+   Entity %(!DisplayName)
+   Entity attribute %(!DisplayName) of the entity %(Parent.!DisplayName)
+      Card of the entity attribute %(!DisplayName) of the entity 
+%(Parent.!DisplayName)
+      List of extended attributes of the entity attribute %(!DisplayName)
+ 
+7. Right-click Card of the entity attribute %(!DisplayName)... and select 
+Edit Attributes.
+8. Select Attribute_1.
+9. Right-click Entity attribute %(!DisplayName) of the entity 
+%(Parent.!DisplayName) and select Quick View.
+It displays:
+ 
+1 Entity Entity_1
+1.1 Entity attribute Attribute_1 of the entity Entity_1
+1.1.1 Card of Entity Attribute Attribute_1
+Name: Attribute_1
+Code: ATTRIBUTE_1
+Attribute_1: <NONE>
+1.1.2 List of Extended Attributes
+Name: Attribute_1
+Data Type: (Boolean)
+Attribute_1: false
+ 
+========================================================================
+ Issue: 776089    12/11/14  	Status: Closed	
+Severity : 2         	Est. release: valencay
+Label  : HAna repository : sql messagee around temp table
+Description :                                                                
+	 *** Thu Dec 11 14:06:16 UTC+0100 2014 *** vaudino ***
+When checking-in a modele in a Hana repository I got erreur and then a 
+dialog saying 
+" Could not freeze the repository document "
+
+<<
+Checking in the document 'C:\temp\map\Nobel prize Process.bpm'
+                - Saving the local document in the repository...
+*** SQL direct execution error:
+delete from #PMTEMP where SESS=1579033816
+SQLSTATE = HY000
+SAP DBTech JDBC: [7] (at 29): feature not supported: Cannot create index 
+on temporary table: #PMTMP4: line 1 col 30 (at pos 29)
+SQLSTATE = HY000
+../..
+SAP DBTech JDBC: [259] (at 13): invalid table name:  Could not find 
+table/view #PMTEMP in schema VAUDINO: line 1 col 14 (at pos 13)
+*** SQL direct execution error:
+delete from #PMTMP2 where SESS=1579033816
+SQLSTATE = HY000
+SAP DBTech JDBC: [7] (at 29): feature not supported: Cannot create index 
+on temporary table: #PMTMP4: line 1 col 30 (at pos 29)
+SQLSTATE = HY000
+
+../..
+SAP DBTech JDBC: [259] (at 13): invalid table name:  Could not find 
+table/view #PMTMP4 in schema VAUDINO: line 1 col 14 (at pos 13)
+Performing an internal repository consistency check..
+*** SQL direct execution error:
+insert into #PMTEMP(SESS,NUM1,NUM2,NUM3,NUM4,NUM5) select 1584377115 
+,OBJT, 0 ,BRNC,OBJT,POID from PMOBJT where POID=399
+SQLSTATE = HY000
+SAP DBTech JDBC: [7] (at 29): feature not supported: Cannot create index 
+on temporary table: #PMTMP4: line 1 col 30 (at pos 29)
+SQLSTATE = HY000
+../..
+SAP DBTech JDBC: [259] (at 13): invalid table name:  Could not find 
+table/view #PMTEMP in schema VAUDINO: line 1 col 14 (at pos 13)
+The document has been successfully checked in.
+>>
+ 
+========================================================================
+ Issue: 775989    12/10/14  	Status: Closed	
+Severity : 2         	Est. release: valencay
+Label  : Problem in fileobject property sheet display
+Description :                                                                    
+	 
+ *** Wed Dec 10 10:12:19 UTC+0100 2014 *** vaudino ***
+From Chris Baker
+
+My OS is the standard SAP Windows 7 x64 installation.
+
+I have 2 external monitors on a docking station with the laptop closed.  
+Have the right hand display be the primary.
+
+See in bug directory the screen grab of my whole desktop configuration.
+
+reproduction steps:
+1.       Extend the desktop across 2 displays
+2.       Set display 2 to the left of display 1 or set primary monitor to 
+thr right one
+3.       Move PD to display 2 and then open the properties dialog.
+
+ 
+========================================================================
+ Issue: 775546    12/02/14  	Status: Closed	
+Severity : 2         	Est. release: valencay
+Label  : Report TOC tree does not collapse all children
+Description :                                                                  
+	 
+ *** Tue Dec 02 2014 12:16:17 GMT+0100 (Romance Standard Time) *** 
+mledier ***
+Open MMR model from \\pdserver.mo.sap.corp\share\Bugmodel\77xxxx\775546 
+and generate HTML
+On request to open not-found BPM, choose the one in bugmodel too.
+Open the report, the "Diagram PF Loan deferral or capitalization" cannot 
+be collapsed although it is at the same level as "Diagram PF Loan account 
+holder change"                                                                                                                
+========================================================================
+ Issue: 775484    12/01/14  	Status: Closed	
+Severity : 2         	Est. release: valencay
+Label  : pdj2com_16.5.4.jar delivered with PD 64bit is 32 bit one
+Description :                                                        
+	 
+ *** Mon Dec 1 10:38:53 UTC+0100 2014 *** vaudino ***
+pdj2com_16.5.4.jar delivered with PD 64bit is 32 bit one
+we should deliver 64bits version
+same for PD and PAMC
+
+correct versions placed at 
+\\pdserver.mo.sap.corp\EXPORT\INSTALL.16\1654\16.5.SP04.GA.4521\pdj2com
+
+pdj2com_16.5.4.jar size should be:
+•	5,231,021 bytes for 64-bit
+•	5,204,321 bytes for 32-bit
+                                                                                                                                              
+========================================================================
+ Issue: 775384    11/28/14  	Status: Closed	
+Severity : 2         	Est. release: valencay
+Label  : cannot connect with Portal with LDAP anaocymous bind
+Description :                                                            
+	 
+ *** Fri Nov 28 11:15:36 UTC+0100 2014 *** vaudino ***
+with parameters from picture in bug model
+i can connect to PD desktop but not PD Portal                                                                                                                                                                                                                                                                                                                                                                               
+========================================================================
+ Issue: 775170    11/25/14  	Status: Closed	
+Severity : 2         	Est. release: valencay
+Label  : Diagram: multi-select tasks and drag into sub process but tasks 
+are no
+	 t moved in
+Description :                                
+	 
+ *** Wed Nov 26 2014 11:15:39 GMT+0800 (China Standard Time) *** sunl 
+***16.5.4.GA
+In bpmn diagram create a sub-process and several tasks.
+Multi-select some tasks and drag into sub process, but those tasks are 
+not in contents of sub-process.
+After save, in PD desktop, check model in changelist, those tasks objects 
+are still under model, but not sub process.                                                                                                                                                     
+========================================================================
+ Issue: 775026    11/24/14  	Status: Closed	
+Severity : 4         	Est. release: valencay
+Label  : Update Model From Database shows differences in the Indexes and 
+Keys S
+	 ort Order
+Description :                                 
+	 Incident: 1089821 / 2014
+DHR: 5050167184
+Customer: Petrobras
+
+PowerDesigner environment:
+PD Client version: 16.5 SP04 PL01
+Repository DB: Oracle 11g
+Repository access type: Both Repository Proxy (ODBC) and Direct Acces 
+(Oracle Native Client)
+Repository Proxy Version: 16.5 SP04 PL01
+PowerDesigner Portal: 16.5 SP04 PL01
+
+Brief Description:  
+When the feature Update Model From Database is used, PowerDesigner shows 
+some differences related to the position of the indexes within tables.
+
+Below is the original query of SqlListQuery used to reverse indexes from 
+Oracle 11g DBMS:
+ 
+select
+i.table_owner,
+i.table_name,
+i.owner,
+i.index_name
+from
+all_indexes i
+where
+not exists (select 1 from all_constraints k where k.constraint_name
+=i.index_name and k.owner=i.table_owner and k.table_name = i.table_name
+and k.constraint_type in ('P', 'U') and rownum=1)
+and i.join_index = 'NO'
+and i.dropped != 'YES'
+[ and i.table_owner=%.q:SCHEMA%]
+[ and i.table_name=%.q:TABLE%]
+order by 1,2,3,4
+ 
+If the same query is changed excluding the order by clause (please see 
+below), the PD won’t report differences for indexes positions:
+ 
+select
+i.table_owner,
+i.table_name,
+i.owner,
+i.index_name
+from
+all_indexes i
+where
+not exists (select 1 from all_constraints k where k.constraint_name
+=i.index_name and k.owner=i.table_owner and k.table_name = i.table_name
+and k.constraint_type in ('P', 'U') and rownum=1)
+and i.join_index = 'NO'
+and i.dropped != 'YES'
+[ and i.table_owner=%.q:SCHEMA%]
+[ and i.table_name=%.q:TABLE%]
+ 
+**The same thing happens for Keys.
+ 
+The feature request is based in a change in the SqlListQuery of Index and 
+Key objects to remove the ORDER BY clause used.
+ 
+Please refer to the WordDoc ‘FR-Ignore Indexes and Keys Sort Order.docx’ 
+for more the details.
+ 
+========================================================================
+ Issue: 774583    11/18/14  	Status: Closed	
+Severity : 2         	Est. release: valencay
+Label  : Key content not listed on content tab
+Description :                                                                           
+	 
+ *** Tue Nov 18 18:59:02 UTC+0100 2014 *** vaudino ***
+when you look at PDM Table key "Content" tab, you will not see keys 
+column list
+It is listed in "Uses"
+
+Even if it makes sense from metamodel point of view, from a semantic 
+point this collection should be listed in Content
+
+to be generalized to all similar case                                                                                                                                                                                             
+========================================================================
+ Issue: 773728    11/05/14  	Status: Closed	
+Severity : 2         	Est. release: valencay
+Label  : Hana : generation order for table and sequences is wrong
+Description :                                                        
+	 *** Wed Nov 05 2014 20:25:04 GMT+0100 (Romance Standard Time) *** 
+abouhout ***16.5.4 GA
+
+in PDm using hana xdb
+the generation order for table and sequences is 
+sequence  first and then Table
+it should be 
+Table first and then sequence 
+ex :
+CREATE TABLE TblSeq (a INT); 
+CREATE SEQUENCE seq RESET BY SELECT IFNULL(MAX(a), 0) + 1 FROM TblSeq;                                                                                                                                                                   
+========================================================================
+ Issue: 773727    11/05/14  	Status: Closed	
+Severity : 2         	Est. release: valencay
+Label  : Hana : Reverse (SQL and JDBC )  fails on  column tables with 
+temporary
+	  type
+Description :                                     
+	 *** Wed Nov 05 2014 20:25:04 GMT+0100 (Romance Standard Time) *** 
+abouhout ***16.5.4 GA
+
+in PDm using hana xdb
+reverse by SQl or JDBC tables with type GLOBAL TEMPORARY COLUMN  or LOCAL 
+TEMPORARY COLUMN
+It is not reversed with correct type (at least temporary)                                                                                                                                                                                                                                                          
+========================================================================
+ Issue: 773726    11/05/14  	Status: Closed	
+Severity : 2         	Est. release: valencay
+Label  : Hana : Missing table types : GLOBAL TEMPORARY COLUMN , LOCAL 
+TEMPORARY
+	  COLUMN
+Description :                                   
+	 *** Wed Nov 05 2014 20:25:04 GMT+0100 (Romance Standard Time) *** 
+abouhout ***16.5.4 GA
+
+in PDm using hana xdb
+Table type should be  COLUMN | ROW | HISTORY COLUMN | GLOBAL TEMPORARY | 
+GLOBAL TEMPORARY COLUMN | LOCAL TEMPORARY | LOCAL TEMPORARY COLUMN
+Currently, the following types are missing in PDM with hana xdb :
+GLOBAL TEMPORARY COLUMN  | LOCAL TEMPORARY COLUMN                                                                                                                                              
+========================================================================
+ Issue: 773698    11/05/14  	Status: Closed	
+Severity : 3         	Est. release: valencay
+Label  : Oracle db Reverse Eng. indexes and keys are displayed different 
+that E
+	 RWin
+Description :                                      
+	 Produc: PowerDesigner 16.5 SP02 PL04 (also reproduced with PD 16.5 
+SP04 PL01)
+OS: Windows 7- 32 bit
+Oracle 11.2 g
+
+Description: 
+
+Incident: 988395 / 2014 
+DHR: 5050166819
+Customer: Petrobras
+
+Differences between the engineering reverse from PowerDesigner and 
+imported ERWin model regarding the Keys and Indexes. 
+
+The physical model imported from ERWinand the Primary Keys and Unique 
+Keys are created as constraints in the ERWin model, when the model is 
+imported to PD it automatically creates indexes for those PKs and UKs 
+(AKs) and links those indexes to their respective keys in PowerDesigner, 
+but when is performed Reverse Engineering from PD of an Oracle DB it only 
+show the Keys and not the related Indexes.
+
+Once those models that were imported from ERWin to PowerDesigner are 
+being compared against an Oracle database, and PowerDesigner will show 
+differences for those type of indexes in each table. 
+
+Obs: PowerDesigner does not retrieves indexes of PKs and UKs when it 
+perform reverse engineering of a database, and this should be 
+shown/displayed in the same way from imported ERWin model or when 
+performing a reverse engineering of a db as It can cause 
+problems/confusion when customer compare the model against the database. 
+
+Maybe could be included a simple check/uncheck option of reversing them 
+if a customer opts for not having those kind of indexes in their model.
+
+  
+========================================================================
+ Issue: 772825    10/21/14  	Status: Closed	
+Severity : 2         	Est. release: valencay
+Label  : External shortcuts not updated in dependent model after closing 
+target
+	  model
+Description :                                    
+	 Produc: PowerDesigner 16.5 SP02 PL04 (also reproduced with PD 16.5 
+SP04 PL01)
+OS: Windows 7- 32 bit
+Repository used for repro: SQL Anywhere 12
+Description: 
+
+Incident: 947079 / 2014 
+DHR: 5050166337
+Customer: Petrobras
+
+Description:  When create external shortcuts that have a target object 
+created/residing into a package in the target/source model, those 
+shortcuts are not permanently updated/synchronized in the dependent 
+model; that is, when you close the target model, the shortcut will show 
+only the columns that existed in the target object at the moment the 
+shortcut was created.
+
+According to Laurent Pommier this issue it's fixed in PD 16.5 SP05. We 
+need to port the same fix on top of PD 16.5 SP04 PL.
+
+Here is the detail for Laurent explanation (we couldn´t find a previous 
+CR on sportal on this topic):
+---
+From: POMMIER, Laurent 
+Sent: ter&ccedil;a-feira, 21 de outubro de 2014 05:48
+To: Silva, PH; Brites, Jesica
+Subject: RE: Consult about PD 16.5 Incident 947079 / 2014 / External 
+Shortcuts Synchronization/Update Problem
+
+Hi Jesica,
+
+I belong to PD dev team and we already exchanged with Paulo about this 
+bug. I already had a look into the code and found the bug.
+There is no real work-around except stop using full shortcut or do not 
+use packages and create all object under the model. Not really 
+acceptable.
+
+The bug is already fixed for the next version (SP05) and we need the QTS 
+for porting the fix to a PL for a previous version (SP04 or SP03?)
+This part is handled/decided by the sustaining team.
+
+Best regards
+
+Laurent
+---
+ 
+========================================================================
+ Issue: 772486    10/15/14  	Status: Closed	
+Severity : 2         	Est. release: valencay
+Label  : DS extension is hiding the Transformation Control Flows tab
+Description :                                                     
+	 
+ *** Wed Oct 15 17:05:44 UTC+0200 2014 *** vaudino ***
+DS extension is hiding the Transformation Control Flows tab. this is 
+because we’re not currently supporting control flows for DS.
+But it shuold apply only to the Transformation Porcess using Data 
+Services
+
+Add a type on Transformation process and allow to select <nine> or Data 
+Services
+
+all data services behavior should test the Type
+                                                                                                                 
+========================================================================
+ Issue: 772399    10/14/14  	Status: Closed	
+Severity : 2         	Est. release: valencay
+Label  : Diagram: resize pool but its linking flow extremity falls out of 
+pool
+Description :                                           
+	 
+ *** Tue Oct 14 2014 17:31:50 GMT+0800 (China Standard Time) *** sunl 
+***16.5.4.GA
+Check in bug model.
+Open and edit diagram in portal.
+Resize Pool_2 by dragging its bottom border to a position above flow's 
+extremity.
+But flow is not re-layout, its extremity falls out of pool (see pic in 
+bug directory).
+                                                                                                                                                                                                         
+========================================================================
+ Issue: 772054    10/08/14  	Status: Closed	
+Severity : 2         	Est. release: valencay
+Label  : DS: some problems on extension editor
+Description :                                                                           
+	 These issues are reported by Han Tao.
+1. Custom form "Replace Database Connection tab" not work
+   To reproduce:In any dmm extension, add a custom form for DMM database 
+object, and choose the Type option "Replace Database Connection tab". 
+Open the DMM database, the original database connection tab doesnot be 
+replaced with the new form. (See attachment figure 1)
+2. If default value of extended attribute is specified as "Template", it 
+does not work.
+   To reproduce: In any dmm extension, add an extended attribute such as 
+"DatabaseTypeVersion" on DMM database object and add "Default value" as 
+template "%getDefaultTypeVersion%". Specify any string such as "abc" on 
+the template %getDefaultTypeVersion%. Open "Extended Attributes" tab of 
+database object, you will see 
+the default value of it is %getDefaultTypeVersion% not the template 
+content.
+(see attachment figure 2) 
+========================================================================
+ Issue: 772046    10/08/14  	Status: Closed	
+Severity : 2         	Est. release: valencay
+Label  : AUTO: property not display if new diagram then open close Note 
+for 2 t
+	 imes
+Description :                                      
+	  *** Thu Oct 09 2014 09:12:21 GMT+0800 (China Standard Time) *** 
+sunl ***16.5.4.GA
+Only exists in IE10
+In repository explorer, create a new diagram.
+In diagram editor, on property pane, open and close Notes section.
+Go back.
+Then repeat these 3 steps.
+Create a new diagram for the third time, but in diagram editor, property 
+pane is not loaded with error in console:
+============
+SCRIPT16389: Unspecified error. 
+index.html, line 11 character 12179
+============                                          
+========================================================================
+ Issue: 771777    10/03/14  	Status: Closed	
+Severity : 2         	Est. release: valencay
+Label  : Table partition expression is lost when current DBMS is changed
+Description :                                                 
+	 Incident 927228 / 2014 / Missing TD Partition after DBMS change 
+
+[-]Environment
+PowerDesigner 16.5.3.0 (xxxx)
+Teradata DBMS V14 (tdatV14.xdb)
+
+[-]Description
+Table partition expression is lost when current DBMS is changed
+
+                                                                                                                                                                                                                                                                                        
+========================================================================
+ Issue: 771707    10/01/14  	Status: Closed	
+Severity : 2         	Est. release: valencay
+Label  : Workspace Comments : do not display replies only if parent 
+comment clo
+	 sed
+Description :                                       
+	 *** Tue Sep 30 2014 15:11:59 GMT+0200 (Romance Standard Time) *** 
+abouhout *** 16.5.4 GA
+
+close comments having replies in workspace page
+click on the yellow icon of diagram on witch you have closed comments
+the child comments (replies) are displayed, even if closed                                                                                                                                                                                                                                                   
+========================================================================
+ Issue: 771702    10/01/14  	Status: Closed	
+Severity : 2         	Est. release: valencay
+Label  : Comment:  Improve mail sent by Invite comment action
+Description :                                                            
+	 *** Tue Sep 30 2014 15:11:59 GMT+0200 (Romance Standard Time) *** 
+abouhout *** 16.5.4 GA
+
+Improve mail sent by Invite comment action
+there is an extra spacing (tabulation) in typed message of sent email
+ex type 
+"Hello"
+in the sent message you will see 
+    "Hello"
+the diagram link is also invalid, it does not allow to reach the diagram 
+from another machine                                                                                                                                                  
+========================================================================
+ Issue: 771620    09/30/14  	Status: Closed	
+Severity : 2         	Est. release: valencay
+Label  : Dashboard : charts under the new branch can have a blank 
+thumbnail
+Description :                                              
+	 *** Tue Sep 30 2014 15:11:59 GMT+0200 (Romance Standard Time) *** 
+abouhout *** 16.5.4 GA
+
+In a repository where you have no branches
+Using New Chart tile , Create a chart and save it
+In the model chart container and in the Dashboard page, your chart is 
+visible as thumbnail
+Now create a branch
+look at the Model chart container and in the Dashboard page : the charts 
+under the new branch has blank thumbnail
+next time you will save the chart, it will have a correct thumbnail                               
+========================================================================
+ Issue: 771602    09/30/14  	Status: Closed	
+Severity : 2         	Est. release: valencay
+Label  : Clickjacking
+Description :                                                                                                    
+	 *** Tue Sep 30 12:54:34 UTC+0200 2014 *** vaudino ***
+
+CSS security message asking for solving clicjacking issue
+During security validation of SAP PowerDesigner 16.5 SP04,clickjacking 
+vulnerabilty has been found.
+Please refer the attached screenshot POC.
+It is a violation as per 
+https://wiki.wdf.sap.corp/wiki/display/PSSEC/SEC-264
+
+Number:         724137/2014
+Component:  BC-SYB-PD
+Priority:           Medium
+Status:             New
+Creation:        26.09.2014  12:10:47    UTC+53
+PDCC:              30.12.2014
+Last changed by:  Abhishek Vijay Nayak (I076685)
+Last changed at:  26.09.2014  13:00:13    UTC+53
+
+Rollout Project ID:
+Group/ID:                 PROD_PD_16.5_SP04
+
+Reporter:     Abhishek Vijay Nayak (I076685)
+Prior.Chk:
+SolPlanChk:
+Shipped:       Yes
+CVSS Base:   6,0
+Source:          VALIDATION
+Vuln.Type:   &OTHER
+CorpReq:      No
+
+To access the message directly, you may use this link:
+https://css.wdf.sap.corp/sap/bc/bsp/sap/itsm_gui/cssguimessage.htm?pointe
+r=012003146900007241372014
+
+CSS message representing commitment of solving it before end of november 
+in a PL
+
+Priority "Medium ", component LOB-PU-QGACTION , organization Support DE-
+Rot , short text "RDM <Q-Gate> <due date 2014-12-15> Fix clickjacking ", 
+was set to your
+
+Follow the link to process the message in the GUI.
+https://css.wdf.sap.corp/sap/bc/bsp/sap/itsm_gui/cssguimessage.htm?pointe
+r=012003146900007326302014
+ 
+========================================================================
+ Issue: 771595    09/30/14  	Status: Closed	
+Severity : 2         	Est. release: valencay
+Label  : Dashboard : AUTO :after drill down, chart display can fail with 
+error
+Description :                                           
+	 *** Tue Sep 30 2014 11:32:53 GMT+0200 (Romance Standard Time) *** 
+abouhout *** 16.5.4 GA
+
+Connect to repository portal using asa db file in 
+\\frpar2w30.par2.sap.corp\SHARE\Bugmodel\77xxxx\CR_Dashboard 
+
+directory
+user/pwd : ADMIN/Go2Sybase
+click on Dashboard tile
+click on MaturityBF chart tile
+drill down by click on "courses organization and e-learning" row
+continue drill down by click on e-learning" row
+the chart display fails with error : 
+<<Failed to create chart:[50013] - Could not find axis undefined in data 
+set regionColor feed>>
+  
+========================================================================
+ Issue: 771593    09/30/14  	Status: Closed	
+Severity : 2         	Est. release: valencay
+Label  : Dashboard : some Chart has no tile image
+Description :                                                                        
+	 *** Tue Sep 30 2014 11:30:20 GMT+0200 (Romance Standard Time) *** 
+abouhout *** 16.5.4 GA
+
+Connect to repository portal using asa db file in 
+\\frpar2w30.par2.sap.corp\SHARE\Bugmodel\77xxxx\CR_Dashboard 
+
+directory
+user/pwd : ADMIN/Go2Sybase
+In model browser choose EAM model>Dashboard students
+create a new chart using DSQ : "Maturity of Processes related to business 
+functions"
+Change chart type to Pie Chart" and save it
+edit the chart and 
+Change chart type to "Stacked Column Chart"
+set X-Axis to "Maturity" and legened color to "Process"
+save it : Chart has no tile image 
+========================================================================
+ Issue: 771389    09/25/14  	Status: Closed	
+Severity : 2         	Est. release: valencay
+Label  : Galilei: Text and icons position are wrong
+Description :                                                                      
+	 *** Fri Sep 26 00:41:53 UTC+0200 2014 *** xwang ***
+This problem was reported by Solman team
+- Use galilei BPMN sample
+- Create a subprocess
+- Resize the height to a very small value
+- Resize the height to the previous value
+==> The text is aligned on top and the + icon is not on bottom (it could 
+be gone or overlap the text on top)
+
+
+                                                                                                                                                                        
+========================================================================
+ Issue: 771305    09/24/14  	Status: Closed	
+Severity : 2         	Est. release: valencay
+Label  : Galilei: In-place edit control position is wrong
+Description :                                                                
+	 *** Thu Sep 25 00:20:09 UTC+0200 2014 *** xwang ***
+In SolMan and Web IDE, the in-place edit control position is not correct.
+                                                                                                                                                                                                                                                                                                                                                                                                 
+========================================================================
+ Issue: 771299    09/24/14  	Status: Closed	
+Severity : 2         	Est. release: valencay
+Label  : Galilei: Move parent symbol, the marker of child symbol is not 
+updated
+	 
+Description :                                          
+	 *** Wed Sep 24 22:49:43 UTC+0200 2014 *** xwang ***
+This problem was reported by Solman team.
+Create a BPMN diagram
+Create a pool
+Create a task
+Add a marker (comment bubble, ...)
+Move the pool
+==> The marker is not moved.                                                                                                                                                                                                                                                                                             
+========================================================================
+ Issue: 771236    09/23/14  	Status: Closed	
+Severity : 0         	Est. release: valencay
+Label  : Reuse: should not delete attached symbols if replace lane by 
+another o
+	 ne
+Description :                                        
+	 
+ *** Wed Sep 24 2014 13:05:39 GMT+0800 (China Standard Time) *** sunl ***
+May be a regression of CR#765263 fixing(Reuse: sub symbols are not 
+deleted if replace sub-process by another one)
+Attached symbols of lane are not lane's child object, so if replace lane, 
+should not delete attached symbol.
+                                                                                                                                                                                                                   
+========================================================================
+ Issue: 771179    09/23/14  	Status: Closed	
+Severity : 2         	Est. release: valencay
+Label  : Diagram: get error if create sub-process and change to task then 
+save
+Description :                                           
+	 
+ *** Tue Sep 23 2014 17:28:16 GMT+0800 (China Standard Time) *** sunl ***
+New a bpmn diagram.
+Draw a task and change it to sub-process.
+Draw at least two tasks or flow inside of it.
+Change sub-process to task, but sub symbols are not deleted.
+Then save. But get error dialog:
+==============
+The diagram cannot be saved. 
+Invalid object identifier null
+on Action CREATE.Invalid object identifier D9513B49-F1AC-4FE2-93E6-
+DC5382C91C5D
+Invalid object identifier null
+on Action MOVE. 
+==============     
+========================================================================
+ Issue: 771179    09/23/14  	Status: Closed	
+Severity : 2         	Est. release: valencay
+Label  : Diagram: get error if create sub-process and change to task then 
+save
+Description :                                           
+	 
+ *** Tue Sep 23 2014 17:28:16 GMT+0800 (China Standard Time) *** sunl ***
+New a bpmn diagram.
+Draw a task and change it to sub-process.
+Draw at least two tasks or flow inside of it.
+Change sub-process to task, but sub symbols are not deleted.
+Then save. But get error dialog:
+==============
+The diagram cannot be saved. 
+Invalid object identifier null
+on Action CREATE.Invalid object identifier D9513B49-F1AC-4FE2-93E6-
+DC5382C91C5D
+Invalid object identifier null
+on Action MOVE. 
+==============     
+========================================================================
+ Issue: 771171    09/23/14  	Status: Closed	
+Severity : 2         	Est. release: valencay
+Label  : undo adjust to text on process but its boundary events cannot go 
+back
+Description :                                           
+	 
+ *** Tue Sep 23 2014 16:46:35 GMT+0800 (China Standard Time) *** sunl 
+***16.5.4.4521
+Open bug model.
+Select SubProcess_1 and click 'Adjust to Text' in its context menu. Then 
+undo.
+But boundary events cannot go back to boundary of sub-process (see pic in 
+bug directory).                                                                                                                                                                                                                                               
+========================================================================
+ Issue: 770982    09/18/14  	Status: Closed	
+Severity : 0         	Est. release: valencay
+Label  : Diagram: resize pool but its sub symbols fall out of pool
+Description :                                                       
+	 
+ *** Fri Sep 19 2014 13:13:35 GMT+0800 (China Standard Time) *** sunl 
+***build 3465
+Check in bug model.
+Open and edit diagram. 
+Drag left edge of pool to enlarge it, but the pool is moved instead of 
+resized, and all of its sub symbols fall out of pool (see pic in bug 
+directory).
+But the pool created on portal has no such problem.                                                                                                                                                                                
+========================================================================
+ Issue: 770918    09/18/14  	Status: Closed	
+Severity : 2         	Est. release: valencay
+Label  : symbol position issue when you load a diagram
+Description :                                                                   
+	  *** Thu Sep 18 12:20:58 UTC+0200 2014 *** vaudino ***
+when one of the symbol coordinate is equal to zero the symbol position 
+will be completely lost
+
+
+Dear Colleague,
+
+new action for Internal Message 689474/2014
+
+Action:     Change of PROCESSOR
+New:        Veronique AUDINO SKLER
+Changed by: Sridhar Raju Mahali
+Component:  BC-SYB-PD
+Number:     689474/2014
+Short text: Inconsistent Diagram pixels and also diagram readjusted
+System:     PYD
+Priority:   Medium
+Status:     New
+Reporter:   Sridhar Raju Mahali
+Creation:   17.09.2014  23:41:06    CET
+Message Description:
+-------------------------------------------------------------------------
+---------------------------
+>>> Technical information
+>>> Test Plan Title      SV_POWERDESIGNER 16.5 SP04
+>>> Test Package Title   SV_POWERDESIGNER_16.5_SP04
+>>> Test Case Name       SV_PD_WEBUI_WORKSPACE
+>>> Test Case Title      Workspace
+>>>
+>>> Additional technical information:
+>>>     Operating system:Windows Server 2008 R2 Enterprise
+>>>     Browser version: Google CHROME Version 37.0.2062.103 m
+>>>     Server Data: Power Designer 16.5.4.0.4521
+>>>
+>>> Test system / user information:
+>>>     System Terminal ID/URL: sp-tivm264
+>>>     Test User: sridhar
+>>>     User password: Support1
+>>>
+>>>
+>>> Describe your procedure in detail
+>>>
+>>> 1. logged on to PD WEB UI URL
+>>> http://sp-tivm264:3030/powerdesigner-web/resources/index.html using
+>>> Google chrome browser
+>>> 2. Clicked on "HRM_PreHire_Process" diagram from my draft diagrams.
+>>> 3. It opened business process diagram in editor
+>>> 4. See attached screenshot.
+>>>
+>>>
+>>> Describe the problem
+>>>
+>>> Diagram pixels is getting re-adjusted and does not look as same as in
+>>> the home screen. Look and feel such as the sahpe is gone/out.
+
+Web-UI link to open the message:
+https://gtp.wdf.sap.corp/sap/bc/webdynpro/qce/msg_gui?sap-
+language=EN&csinsta=0120031469&mnumm=0000689474&myear=2014
+
+Link to get an overview of your messages via the Web-UI:
+https://go.sap.corp/internal-messages
+
+Classical-UI link to open the message:
+https://css.wdf.sap.corp/sap/bc/bsp/sap/itsm_gui/cssguimessage.htm?pointe
+r=012003146900006894742014
+
+ 
+========================================================================
+ Issue: 770841    09/17/14  	Status: Closed	
+Severity : 3         	Est. release: valencay
+Label  : HADOOP:REVERSE SQL Error messages during reverse of tables with 
+partit
+	 ion values
+Description :                                
+	 
+ *** Wed Sep 17 2014 19:05:46 GMT+0200 (Romance Daylight Time) *** 
+mgonzalo ***16.5.4.4521
+HADOOP:REVERSE SQL Error messages during reverse of tables with partition 
+values in Partions tab.
+See the script file in bug folder.
+See the error messages:
+---------------------------
+PowerDesigner - Error
+---------------------------
+Some errors have been found for the model.
+
+Full details have been logged in the output window.
+
+
+Partition values 'V_5':
+
+The object should have a parent
+
+Partition values 'V_1':
+
+The object should have a parent
+
+Partition values 'V_2':
+---------------------------
+OK   
+---------------------------
+
+
+ 
+========================================================================
+ Issue: 770665    09/15/14  	Status: Closed	
+Severity : 2         	Est. release: valencay
+Label  : AUTO: access violation when creating a mapping
+Description :                                                                  
+	  *** Mon Sep 15 2014 16:14:57 GMT+0200 (Romance Daylight Time) *** 
+tandreys ***
+beware, it's a very long scenario.
+Use new shell
+Open Model: c:\auto\current\Input\MappingEditor\ForMapping.pdm
+Open Model: c:\auto\current\Input\MappingEditor\ForMapping2.oom
+Click main menu 'Model|Data Sources...'
+Create a new DataSource 
+	name 'srcModel'
+	Read-only
+	type Physical Data Model
+	in tab model add model an select ForMapping.pdm
+
+CallBrowserMenu 'Properties' on modelOOM|Classes|C1 
+Click on Tab 'Mapping' 
+click on Create button and select modelPDM|Tables|Table_2
+OK ->Sometimes I've got exception here
+
+
+CallBrowserMenu 'Properties' on modelOOM|Classes|C1 
+Click on Tab 'Mapping' 
+on sub-tab 'Operation Mappings', click Toolbar button 'Add Mapping'
+select Operation Op1
+OK
+
+CallBrowserMenu 'Properties' on modelOOM|Classes|C1 
+Click on Tab 'Mapping' 
+on sub-tab 'Operation Mappings',select OP1, click toolbar button 
+Properties
+Click on Tab 'Criteria'
+	set text 'where TABLE_2.T2col1=1'
+OK
+
+CallBrowserMenu 'Properties' on modelOOM|Classes|C1 
+Click on Tab 'Mapping' 
+on sub-tab 'Attribute Mappings',click Toolbar button 'Create from 
+Sources'
+select in Attributes Mapping: T2col1 & T2col2' 
+OK
+
+CallBrowserMenu 'Properties' on modelOOM|Classes|C3|Operations|oper301  
+Click on Tab 'Mapping' 
+click on Create button
+OK
+
+CallBrowserMenu 'Properties' on modelOOM|Classes|C3|Operations|oper301  
+Click on Tab 'Mapping' 
+Set sub-tab 'Query' 
+SetText 'select * from T1 where T1.T1col1=1' 
+OK
+
+CallBrowserMenu 'Properties' on modelOOM|Classes|C3|Operations|oper301  
+Click on Tab 'Mapping' 
+Set sub-tab 'criteria'
+set C3A2=10
+
+CallBrowserMenu 'Properties' on modelOOM|Classes|C3|Operations|oper302  
+Click on Tab 'Mapping' 
+click on Create button
+OK
+
+CallBrowserMenu 'Properties' on modelOOM|Classes|C3|Operations|oper302  
+Click on Tab 'Mapping' 
+Set sub-tab 'Query' 
+SetText 'select * from Table_2' 
+OK
+
+CallBrowserMenu 'Properties' on modelOOM|Associations|Asso1  
+Click on Tab 'Mapping' 
+click on Create button
+in select  object, click on Index tab than case sensitive
+type T1
+OK
+Exception access violation
+
+ref to auto: 
+http://frpar2w112/resultdetail.php?RUNID=481143&File={DA2B3567-E6F9-42E7-
+9AC8-597C4AB3BD0C}.xml
+ 
+========================================================================
+ Issue: 770575    09/12/14  	Status: Closed	
+Severity : 2         	Est. release: valencay
+Label  : failure importing a BPMN file
+Description :                                                                                   
+	 
+ *** Fri Sep 12 17:44:26 UTC+0200 2014 *** vaudino ***
+with PDWeb
+create a new model and try to import bpmn2 file from bug directory
+there is message saying the import has been successful but the diagram is 
+empty
+
+
+Dear Colleague,
+
+new action for Internal Message 662949/2014
+
+Action:     Change of PROCESSOR
+New:        Veronique AUDINO SKLER
+Changed by: Sridhar Raju Mahali
+Component:  BC-SYB-PD
+Number:     662949/2014
+Short text: SV 16.5 SP04 FV:Save failed after BPMN2 import into newly
+System:     PDY
+Priority:   High
+Status:     New
+Reporter:   Sridhar Raju Mahali
+Creation:   10.09.2014  22:25:29    CET
+Message Description:
+-------------------------------------------------------------------------
+---------------------------
+>>> Technical information
+>>> Test Plan Title      SV POWERDESIGNER 16.5
+>>> Test Package Title   SV POWERDESIGNER 16.5 PACKAGE SP04
+>>> Test Case Name       PD WEBUI
+>>> Test Case Title      DIAGRAM EDITION
+>>>
+>>> Additional technical information:
+>>>     Operating system:Windows Server 2008 R2 Enterprise
+>>>     Browser version: Google CHROME Version 37.0.2062.103 m
+>>>     Server Data: Power Designer 16.5.4.0.4521
+>>>
+>>> Test system / user information:
+>>>     System Terminal ID/URL: sp-tivm264
+>>>     Test User: sridhar
+>>>     User password: Support1
+>>>
+>>>
+>>> Describe your procedure in detail
+>>>
+>>> 1. logged on to PD WEB UI URL
+>>> http://sp-tivm264:3030/powerdesigner-web/resources/index.html using
+>>> Google chrome browser
+>>> 2. Clicked on "BPMN1" diagram from my draft diagrams.
+>>> 3. From Main Menu, clicked on "Import BPMN2 File"
+>>> 4. See attached screenshot.
+>>> 5. Tried to load BPMN2 diagram into newly created diagram and clicked 
+on
+>>> SAVE button.
+>>>
+>>>
+>>> Describe the problem
+>>>
+>>> Getting the following error while trying to SAVE the BPMN2 file.
+>>> "The diagram cannot be saved. An error occurred executing a SQL
+>>> statement. Attempt to update or insert row failed because resultant 
+row
+>>> of sixe 8122 bytes is larger than the maximum size (8106 bytes) 
+allowed
+>>> for this table."
+
+Web-UI link to open the message:
+https://gtp.wdf.sap.corp/sap/bc/webdynpro/qce/msg_gui?sap-
+language=EN&csinsta=0120031469&mnumm=0000662949&myear=2014
+
+Link to get an overview of your messages via the Web-UI:
+https://go.sap.corp/internal-messages
+
+Classical-UI link to open the message:
+https://css.wdf.sap.corp/sap/bc/bsp/sap/itsm_gui/cssguimessage.htm?pointe
+r=012003146900006629492014
+
+ 
+========================================================================
+ Issue: 770545    09/12/14  	Status: Closed	
+Severity : 2         	Est. release: valencay
+Label  : Property: modification date is wrong after update model
+Description :                                                         
+	 *** Fri Sep 12 17:57:28 UTC+0800 2014 *** fengchen ***
+build 3460
+1> check-in any bpmn model;
+2> in new Portal, Repository explorer, go to the model property page, 
+check the modification date, it is right;
+3> update from portal or PD;
+4> in new Portal, check the modification date, it is not updated;                                                                                                                                                                                                                
+========================================================================
+ Issue: 770523    09/11/14  	Status: Closed	
+Severity : 2         	Est. release: valencay
+Label  : Compare: showing delete object even not select it in filter
+Description :                                                     
+	 build 4521, Portal 3460
+
+1>open diagram to do new, update, delete object actions, in compare 
+diagram, only select Create objects in filter, but delete objects is 
+still show out.
+Attached the action video in bugmodel.                                                                                                                                                                                                                                                                                                      
+========================================================================
+ Issue: 770482    09/11/14  	Status: Closed	
+Severity : 2         	Est. release: valencay
+Label  : Help: Cannot show help for Dashboard
+Description :                                                                            
+	 *** Thu Sep 11 14:55:59 UTC+0200 2014 *** xwang ***
+- From home page, go to Dashboard tile
+- Choose the Tools menu
+The Tools menu does not display, user cannot use the Help.
+                                                                                                                                                                                                                                                                                                                                               
+========================================================================
+ Issue: 770234    09/08/14  	Status: Closed	
+Severity : 2         	Est. release: valencay
+Label  : EA : Timeline :  PowerAMC : Cannot create Timeline with projects
+Description :                                                
+	 *** Mon Sep 08 2014 15:38:45 GMT+0200 (Romance Daylight Time) *** 
+abouhout *** 16.5.4 4521
+
+Create a new timeline diagram in PowerAMC
+the default initiative should be project, but it is empty
+in fact, in Timeline property sheet, Project and <None> are not accepted 
+values ....                                                                                                                                                                                                                                         
+========================================================================
+ Issue: 770183    09/05/14  	Status: Closed	
+Severity : 2         	Est. release: valencay
+Label  : MSS: tables in different schemas should be considered as 
+distinct obje
+	 cts
+Description :                                       
+	 In Microsoft SQL Server, you can have two tables of the same name 
+as long as they are in different schemas.
+While reversing a database schema into an existing Physical Data Model, 
+PowerDesigner considers the two tables are the same and the updated model 
+does not reflect the database schema anymore.
+Examples of errors that may be returned during reverse:
+ - Column colname (colname): A primary column must be mandatory.
+ - An index linked to a key must be unique.
+
+Note: Customer has requested a solution for VBS too.
+PD API usage is required to be fixed. In this case, reverse engineering 
+process is automated via PD API.
+
+
+Repro steps:
+1. Create the following SQL script and save it:
+create schema SCHEMA1
+go
+
+create table Schema1.T1 (
+   C1    char(10)   null
+)
+go
+2. Create a new PDM that targets Microsoft SQL Server 2012.
+3. Create a schema SCHEMA2.
+3. Create a table T1 having a primary column C1, and assign SCHEMA2 to 
+T1.
+4. Create this SQL script  and save it.
+5. Select Database > Update Model from Database, select Using script 
+files and add the above SQL file.
+6. Click OK.
+The Merge Models displays:
+- Create Schema "SCHEMA1" in the Physical Data Model
+- Modify Column "C1" in the Table "T1" (Data Type, Mandatory)
+- Modify Table "T1" in the Physical Data Model (Owner, Primary Key)
+- Modify Physical Data Model (Model Options)
+7. Click OK
+Error: Column 'C1' (C1): A primary column must me mandatory.
+ 
+========================================================================
+ Issue: 769963    09/02/14  	Status: Closed	09/23/14  
+Severity : 2         	Est. release: valencay
+Label  : New Model dialog, truncated tools when creating from Templates
+Description :                                        
+	 *** Tue Sep 2 13:49:03 UTC+0200 2014 *** obalen *** 16.5.4 GA
+In the New Model dialog, when selecting the Templates big icon in order 
+to create a model from Template, there is a new toolbar shown in the 
+upper right corner of the dialog, and the last tool is truncated.
+
+This problem will affect both the US and FR versions.                                                                                                                                                                                           
+========================================================================
+ Issue: 769956    09/02/14  	Status: Closed	
+Severity : 2         	Est. release: valencay
+Label  : Diagram: draw pool on package diagram but create under package
+Description :                                                  
+	 
+ *** Tue Sep 02 2014 16:02:24 GMT+0800 (China Standard Time) *** sunl ***
+Check in bug model.
+Open and edit diagram_package (under Package).
+Draw pool or data store on it, and save.
+But pool, lane and data store are created under package (BPMN 
+Model_result.bpm). They should be under model.                                                                                                                                                                                                                         
+========================================================================
+ Issue: 769943    09/01/14  	Status: Closed	
+Severity : 2         	Est. release: valencay
+Label  : Properties:Input box on properties page sometimes failed to 
+input on I
+	 E 10
+Description :                                      
+	  *** Tue Sep 02 2014 10:10:44 GMT+0800 (China Standard Time) *** 
+chaoyuey ***
+PD4518 & Portal 3431
+
+Sometimes cannot input in input box on properties page on IE 10, it is a 
+similar issue of 769659
+
+                                                                                                                                                                                                                                                                                                                      
+========================================================================
+ Issue: 769926    09/01/14  	Status: Closed	
+Severity : 2         	Est. release: valencay
+Label  : Checkin: resize value is wrong for subprocess symbol
+Description :                                                            
+	 PD build 4518(repository DB2 10.5), Portal build 3431
+
+To reproduce,
+1>open one diagram with subprocess, and there is task inside it,then edit 
+it and save it, submit it. In PD fat client side, to approve it. Check 
+out the model, the subprocess symbol is back to original size, the task 
+inside is out of subprocess.
+In PD side,to check merge dialog when approve, the "resize" value is 
+"FALSE" in changelist model rather than "TRUE" in mainline model.                                                            
+========================================================================
+ Issue: 769777    08/27/14  	Status: Closed	
+Severity : 2         	Est. release: valencay
+Label  : Check-in: thumbnail is wrong for canceling multiple diagram 
+changes
+Description :                                             
+	 PD build 4514(repository), Portal build 3413
+
+To reproduce,
+1>Edit bugmodel in Diagram editor, add a new task on diagram "BPM", 
+double click on "task_r", add a new task on diagram "Related", then click 
+"Cancel", click "Yes" for cancel all changes, then add a pool on diagram 
+"Related", click "Save". back to workspace, the thumbnail of the 
+changelist is "BPM" with that new task, but click the thumbnail to open 
+it, no that task at all, which is correct.                                                        
+========================================================================
+ Issue: 769777    08/27/14  	Status: Closed	
+Severity : 2         	Est. release: valencay
+Label  : Check-in: thumbnail is wrong for canceling multiple diagram 
+changes
+Description :                                             
+	 PD build 4514(repository), Portal build 3413
+
+To reproduce,
+1>Edit bugmodel in Diagram editor, add a new task on diagram "BPM", 
+double click on "task_r", add a new task on diagram "Related", then click 
+"Cancel", click "Yes" for cancel all changes, then add a pool on diagram 
+"Related", click "Save". back to workspace, the thumbnail of the 
+changelist is "BPM" with that new task, but click the thumbnail to open 
+it, no that task at all, which is correct.                                                        
+========================================================================
+ Issue: 769761    08/27/14  	Status: Closed	
+Severity : 2         	Est. release: valencay
+Label  : BPMN2: Generation Inter EXEC to EXEC, error concerning Message 
+FLows
+Description :                                            
+	 
+ *** Wed Aug 27 2014 19:44:41 GMT+0200 (Romance Daylight Time) *** 
+mgonzalo ***16.5.4.4515
+BPMN2: Generation Inter EXEC to EXEC, error concerning Message FLows.
+See ref model in bug Folder.
+Steps: 
+Open model, Do Generation intermodel from executable  to executable 
+language without using the check model. We have this error:
+
+---------------------------
+PowerDesigner - Error
+---------------------------
+Some errors have been found for the model.
+
+Full details have been logged in the output window.
+
+
+Message Flow 'Flow_2':
+
+The link symbol Message Flow Symbol 'BusinessProcessDiagram_1.Flow_2' has 
+an invalid list of points
+
+Message Flow 'Flow_1':
+
+The link symbol Message Flow Symbol 'BusinessProcessDiagram_1.Flow_1' has 
+an invalid list of points
+---------------------------
+OK   
+---------------------------
+ 
+========================================================================
+ Issue: 769699    08/26/14  	Status: Closed	
+Severity : 2         	Est. release: valencay
+Label  : Properties:Click diagram hyperlinks in model diagram facet 
+failed to n
+	 avigate
+Description :                                   
+	  *** Wed Aug 27 2014 11:09:44 GMT+0800 (China Standard Time) *** 
+chaoyuey ***
+PD4514 & Portal 3409
+
+1. Check in the attached bug model into repository.
+2. Open model contents in explorer page, switch to Diagram facet.
+3. Click Conversation diagram links to navigate.
+
+Results:
+Navigation failed.
+Hyperlinks in Uses and Impacts facet also have this issue                                                                                                                                                       
+========================================================================
+ Issue: 769698    08/26/14  	Status: Closed	
+Severity : 2         	Est. release: valencay
+Label  : Properties:Duplicate id error when load model contents facet 
+contain p
+	 ackage
+Description :                                    
+	  *** Wed Aug 27 2014 11:09:44 GMT+0800 (China Standard Time) *** 
+chaoyuey ***
+PD4514 & Portal 3409
+
+1. Check in the attached bug model into repository.
+2. Open model contents in explorer page, switch to contents facet.
+3. Switch to other contents then switch back.
+
+Results:
+Contents facet failed to load packages and gave error in console.
+2014-08-27 11:07:36 adding element with duplicate id 'explorer-detail-
+ModelProperty--modelPropertyPage--Packages' -   
+SCRIPT5022: Error: adding element with duplicate id 'explorer-detail-
+ModelProperty--modelPropertyPage--Packages' 
+ 
+========================================================================
+ Issue: 769674    08/26/14  	Status: Closed	
+Severity : 2         	Est. release: valencay
+Label  : BPMN2 validation rule are hard coded
+Description :                                                                            
+	 
+ *** Tue Aug 26 15:17:23 UTC+0200 2014 *** vaudino ***
+when doing « export BPMN2 » you can have validation rule message 
+
+These messages for BPMN2 validation rule are hard coded
+a comment "// TODO i18n" is idnicating that is still to be done                                                                                                                                                                                                                                                                          
+========================================================================
+ Issue: 769649    08/26/14  	Status: Closed	
+Severity : 2         	Est. release: valencay
+Label  : Diagram:Change type to different stereotype cause symbol 
+disapper on f
+	 irefox
+Description :                                    
+	  *** Tue Aug 26 2014 15:32:38 GMT+0800 (China Standard Time) *** 
+chaoyuey ***
+PD4512 & Portal 3401
+
+1. Create a new diagram in web portal, draw a task on diagram.
+2. Change the new created task type to Sub-Process or Call Activity.
+
+Results:
+Symbol disappear, and with console error,
+15:31:46 ERROR ModelHandler - Error while executing command 'Change End 
+Event Type': TypeError: Value being assigned to SVGPoint.x is not a 
+finite floating-point value. All previous operations are rolled back.
+anonymous()sap-ui-core.js (line 4066)
+anonymous()sap-ui-core.js (line 94)
+anonymous()sap-ui-core.js (line 94)
+	
+
+(4066 out of range 137)
+ 
+========================================================================
+ Issue: 769637    08/25/14  	Status: Closed	
+Severity : 0         	Est. release: valencay
+Label  : Dashboad: blank chart on DB2
+Description :                                                                                    
+	 PD 4512, Portal build 3401
+
+to reproduce:
+1> open bug model, add a new Chart "BusFunc->Project", select x & 
+Y,whatever chart type, no any symbol on the canvas, it should be.
+-----------------
+Uncaught TypeError: Cannot read property 'addFormContainer' of null 
+SimpleForm.js:6
+sap.ui.layout.form.SimpleForm.addContent SimpleForm.js:6
+views.dashboard.DynamicChartsFacet.UpdateChartsSectionContents 
+DynamicChartsFacet.js:82
+views.dashboard.ModelChartsController.refreshCharts 
+ModelChartsController.js:79
+(anonymous function) DatasetQueryService.js:96
+postProcessingAsync App.controller.js:166
+(anonymous function) core-min.js:10
+(anonymous function) sap-ui-core.js:27
+r sap-ui-core.js:27
+t.fireWith sap-ui-core.js:27
+b.(anonymous function) sap-ui-core.js:27
+(anonymous function) core-min.js:10
+r sap-ui-core.js:27
+t.fireWith sap-ui-core.js:27
+A3 sap-ui-core.js:27
+a sap-ui-core.js:27 
+========================================================================
+ Issue: 769598    08/25/14  	Status: Closed	
+Severity : 2         	Est. release: valencay
+Label  : Property: change property then click ATTO but ask to confirm 
+leave or 
+	 not in IE
+Description :                                 
+	 
+ *** Mon Aug 25 2014 16:58:27 GMT+0800 (China Standard Time) *** sunl ***
+Check in bug model.
+Open and edit diagram in Internet Explorer.
+Click 'Task', and edit any property in its property panel, like add 
+comment, or set Compensation to true..
+Click 'CallActivity_2', in its property panel, there is an ATTO attribute 
+'Implementer'. Click this link, but a confirmation dialog pops up asking 
+whether leave or stay (see pic in bug directory.)
+But it should not.
+
+                                          
+========================================================================
+ Issue: 769318    08/18/14  	Status: Closed	
+Severity : 2         	Est. release: valencay
+Label  : powerdesigner.server.lic file name should be all in lowercase
+Description :                                                   
+	 *** Tue Aug 19 09:38:13 UTC+0800 2014 *** fengchen ***
+In PowerDesigner web, all files are in lowercase except the license file  
+PowerDesigner.server.lic, in Linux can't find the file, because it is 
+case-sensitive.
+Can you change it to powerdesigner.server.lic, all in lowercase.                                                                                                                                                                                                                                        
+========================================================================
+ Issue: 769107    08/13/14  	Status: Closed	
+Severity : 2         	Est. release: valencay
+Label  : Diagram: flow is wrongly moved if select two pools and flow 
+linking th
+	 em to move
+Description :                                
+	 
+ *** Thu Aug 14 2014 14:56:40 GMT+0800 (China Standard Time) *** sunl ***
+Use bug model in bug directory.
+There are two pools and a message flow linking them.
+Select both pools and the flow, then move.
+But flow is not linking the pools any more. (see pic)
+Should keep related position of pools and the flow.                                                                                                                                                                                                       
+========================================================================
+ Issue: 769106    08/13/14  	Status: Closed	
+Severity : 2         	Est. release: valencay
+Label  : BPM Import: import pool with default lane but lane is saved 
+without st
+	 ereotype
+Description :                                  
+	 
+ *** Thu Aug 14 2014 14:36:23 GMT+0800 (China Standard Time) *** sunl ***
+Import bpmn file (exported from visio) in bug directory and save.
+Check out model in changelist, pool 'VIP customer' has only one default 
+lane 'Default', but the lane's stereotype is not set.
+
+During import, if a process has corresponding participant, it will be 
+imported as a pool. But if the process has no lanes defined, a default 
+one will be created for it. In this case, lane's stereotype is not 
+correctly set.                  
+========================================================================
+ Issue: 768675    08/05/14  	Status: Closed	
+Severity : 3         	Est. release: valencay
+Label  : Properties:Input/Output flows listed for Gateway are incorrect
+Description :                                                  
+	  *** Wed Aug 06 2014 14:18:45 GMT+0800 (China Standard Time) *** 
+chaoyuey ***
+PD4496 & Portal 3297
+
+1. Check in the attached bug model into repository.
+2. Open Order Process diagram.
+3. Check properties of Gateway objects.
+
+Results:
+Input/Output flows listed twice in Use/Impacts facet. 
+Properties page disappear after click Use/Impacts which with loading 
+error three times.
+
+Console error
+
+2014-08-06 14:23:33 adding element with duplicate id 'DiagramEditor--
+diagramEditorMainPage--InputTransitions' -   sap-ui-core.js:80
+u sap-ui-core.js:80
+error sap-ui-core.js:80
+k.registerElement sap-ui-core.js:134
+E.extend.constructor.e.register sap-ui-core.js:134
+E.extend.constructor sap-ui-core.js:134
+M.extend.constructor sap-ui-core.js:134
+E.extend.constructor sap-ui-core.js:134
+M.createClass.f sap-ui-core.js:122
+M.createClass.f sap-ui-core.js:122
+views.property.PropertyControlFactory.sap.galilei.core.defineClass.method
+s.createTableControl PropertyControlFactory.js:445
+views.property.PropertyControlFactory.sap.galilei.core.defineClass.method
+s.createReferenceControl PropertyControlFactory.js:331
+views.property.PropertyControlFactory.sap.galilei.core.defineClass.method
+s.createControl PropertyControlFactory.js:128
+views.property.PropertyControlFactory.sap.galilei.core.defineClass.static
+s.createControl PropertyControlFactory.js:1018
+(anonymous function) DynamicPropertiesPage.fragment.js:1115
+(anonymous function) sap-ui-core.js:27
+Q.Callbacks.r sap-ui-core.js:27
+Q.Callbacks.t.add sap-ui-core.js:27
+(anonymous function) sap-ui-core.js:27
+Q.extend.each sap-ui-core.js:16
+(anonymous function) sap-ui-core.js:27
+Q.extend.Deferred sap-ui-core.js:27
+Q.extend.Deferred.p.then sap-ui-core.js:27
+sap.ui.jsfragment.createCollectionsFacetContent 
+DynamicPropertiesPage.fragment.js:1092
+sap.ui.jsfragment.createCollectionsFacets 
+DynamicPropertiesPage.fragment.js:1810
+sap.ui.jsfragment.initializeFacetsControls 
+DynamicPropertiesPage.fragment.js:1859
+sap.ui.jsfragment.selectTab DynamicPropertiesPage.fragment.js:1897
+Q.extend.proxy.p sap-ui-core.js:16
+a.fireEvent sap-ui-core.js:122
+a.fireEvent sap-ui-core.js:134
+(anonymous function) sap-ui-core.js:134
+sap.m.IconTabBar.setSelectedItem IconTabBar.js:13
+sap.m.IconTabBar._handleActivation IconTabBar.js:31
+sap.m.IconTabBar.ontouchend IconTabBar.js:42
+a._callEventHandles sap-ui-core.js:134
+a._handleEvent sap-ui-core.js:134
+U._handleEvent sap-ui-core.js:134
+Q.extend.proxy.p sap-ui-core.js:16
+M sap-ui-core.js:134
+q.event.special.(anonymous function).add.B sap-ui-core.js:134
+Q.event.dispatch sap-ui-core.js:27
+Q.event.add.v3.handle sap-ui-core.js:27
+Uncaught Error: Error: adding element with duplicate id 'DiagramEditor--
+diagramEditorMainPage--InputTransitions' sap-ui-core.js:134
+k.registerElement sap-ui-core.js:134
+E.extend.constructor.e.register sap-ui-core.js:134
+E.extend.constructor sap-ui-core.js:134
+M.extend.constructor sap-ui-core.js:134
+E.extend.constructor sap-ui-core.js:134
+M.createClass.f sap-ui-core.js:122
+M.createClass.f sap-ui-core.js:122
+views.property.PropertyControlFactory.sap.galilei.core.defineClass.method
+s.createTableControl PropertyControlFactory.js:445
+views.property.PropertyControlFactory.sap.galilei.core.defineClass.method
+s.createReferenceControl PropertyControlFactory.js:331
+views.property.PropertyControlFactory.sap.galilei.core.defineClass.method
+s.createControl PropertyControlFactory.js:128
+views.property.PropertyControlFactory.sap.galilei.core.defineClass.static
+s.createControl PropertyControlFactory.js:1018
+(anonymous function) DynamicPropertiesPage.fragment.js:1115
+(anonymous function) sap-ui-core.js:27
+Q.Callbacks.r sap-ui-core.js:27
+Q.Callbacks.t.add sap-ui-core.js:27
+(anonymous function) sap-ui-core.js:27
+Q.extend.each sap-ui-core.js:16
+(anonymous function) sap-ui-core.js:27
+Q.extend.Deferred sap-ui-core.js:27
+Q.extend.Deferred.p.then sap-ui-core.js:27
+sap.ui.jsfragment.createCollectionsFacetContent 
+DynamicPropertiesPage.fragment.js:1092
+sap.ui.jsfragment.createCollectionsFacets 
+DynamicPropertiesPage.fragment.js:1810
+sap.ui.jsfragment.initializeFacetsControls 
+DynamicPropertiesPage.fragment.js:1859
+sap.ui.jsfragment.selectTab DynamicPropertiesPage.fragment.js:1897
+Q.extend.proxy.p sap-ui-core.js:16
+a.fireEvent sap-ui-core.js:122
+a.fireEvent sap-ui-core.js:134
+(anonymous function) sap-ui-core.js:134
+sap.m.IconTabBar.setSelectedItem IconTabBar.js:13
+sap.m.IconTabBar._handleActivation IconTabBar.js:31
+sap.m.IconTabBar.ontouchend IconTabBar.js:42
+a._callEventHandles sap-ui-core.js:134
+a._handleEvent sap-ui-core.js:134
+U._handleEvent sap-ui-core.js:134
+Q.extend.proxy.p sap-ui-core.js:16
+M sap-ui-core.js:134
+q.event.special.(anonymous function).add.B sap-ui-core.js:134
+Q.event.dispatch sap-ui-core.js:27
+Q.event.add.v3.handle sap-ui-core.js:27
+ 
+========================================================================
+ Issue: 768606    08/04/14  	Status: Closed	
+Severity : 2         	Est. release: valencay
+Label  : Checkin: Orientation change cannot be published from portal
+Description :                                                     
+	 *** Tue Aug 05 2014 11:42:57 GMT+0800 (China Standard Time) *** 
+sunl ***
+Check in bug model Vertical.bpm in bug directory.
+Open and edit diagram 'Vertical BPD' in portal.
+Click 'Change Pool to Horizontal' in Tools menu.
+Draw a new Pool on diagram, and the new pool is horizontal.
+Save and submit the change, then pool in changelist is still horizontal.
+Publish the changelist, then open diagram 'Vertical BPD - v2' again. But 
+pool comes back to a vertical one. (see Vertical - v2.bpm in bug 
+directory) 
+   
+========================================================================
+ Issue: 768604    08/04/14  	Status: Closed	
+Severity : 2         	Est. release: valencay
+Label  : RTF: hyperlink can't be saved
+Description :                                                                                   
+	 PD build  4494, Portal 3289
+
+1> edit RTF description or annotation , add hyperlink for some words, 
+saved it, check it at PD side or refresh it on changelist, the value of 
+hyperlink is lost.                                                                                                                                                                                                                                                                                                                                  
+========================================================================
+ Issue: 768449    07/31/14  	Status: Closed	
+Severity : 2         	Est. release: valencay
+Label  : Workspace: thumbnail is not updated in HANA repsitory
+Description :                                                           
+	 PD build 4492,Portal build 3279
+
+To reproduce,
+1>Connect to HANA repository,open any model, modify it and save it, in 
+Workspace, the thumbnail of the changelist is not updated.
+no error in console.                                                                                                                                                                                                                                                                                                                        
+========================================================================
+ Issue: 768232    07/28/14  	Status: Closed	
+Severity : 2         	Est. release: valencay
+Label  : sibling diagrams collection should not contain current diagram
+Description :                                                  
+	 
+ *** Mon Jul 28 13:33:35 UTC+0200 2014 *** vaudino ***
+sibling diagrams collection should not contain current diagram                                                                                                                                                                                                                                                                                                                                                                                                         
+========================================================================
+ Issue: 768230    07/28/14  	Status: Closed	
+Severity : 2         	Est. release: valencay
+Label  : reduce margin for the pool top border
+Description :                                                                           
+	 
+ *** Mon Jul 28 13:33:35 UTC+0200 2014 *** vaudino ***
+reduce the margin for the pool top broder
+use teh same one as the one you have for the side border                                                                                                                                                                                                                                                                                                                                                                    
+========================================================================
+ Issue: 768225    07/28/14  	Status: Closed	
+Severity : 2         	Est. release: valencay
+Label  : STart and end names are truncated instead of word wrap
+Description :                                                          
+	 
+ *** Mon Jul 28 13:33:35 UTC+0200 2014 *** vaudino ***
+When you have a start or event anme a little bit long, it is truncated to 
+12 char
+this is not enough
+it should word wrap                                                                                                                                                                                                                                                                                                                                             
+========================================================================
+ Issue: 768191    07/26/14  	Status: Closed	
+Severity : 2         	Est. release: valencay
+Label  : comments : some actions done in comment panel are ignored
+Description :                                                       
+	 *** Sat Jul 26 2014 11:37:41 GMT+0200 (Romance Standard Time) *** 
+abouhout *** 16.5.4  3222
+
+When replying to a comment, very often , the reply is lost and you have 
+to type it again
+same for closing comments. When closing comment, very often, the comment 
+is not closed, and you have to do it again
+More generally, some actions done in comment panel are ignored                                                                                                                                                     
+========================================================================
+ Issue: 768157    07/25/14  	Status: Closed	
+Severity : 2         	Est. release: valencay
+Label  : AUTO: UseCase report items for Actions lost in LEGACY report 
+only
+Description :                                               
+	  *** Fri Jul 25 2014 13:12:40 GMT+0200 (Romance Daylight Time) *** 
+tandreys ***
+Report items for actions of use case have disappear
+create an OOM with a use case diagram
+add a use case, in the propsheet go to actions tab, add some values
+create a report legacy, add book use case
+there are not actions items.
+If you create a new report, no problem
+
+detected because of:
+open  \auto\current\Input\Report\CR403937\demo.mmr 
+there are several missing report items
+Unexpected exception - d:\pddev\rpt\impl\srpttemplateimpl.cpp(1337): long 
+__thiscall SRptTemplateImpl::OnRetrieveProcItem(struct ISRptItem *,struct 
+RPTSCANINFO *) An old report item (OOM_UCAS_EXTS) is no longer registered 
+in the current version. It will be lost! (3:23s)
+Unexpected exception - d:\pddev\rpt\impl\srpttemplateimpl.cpp(1337): long 
+__thiscall SRptTemplateImpl::OnRetrieveProcItem(struct ISRptItem *,struct 
+RPTSCANINFO *) An old report item (OOM_UCAS_STEP) is no longer registered 
+in the current version. It will be lost! (3:24s)
+Unexpected exception - d:\pddev\rpt\impl\srpttemplateimpl.cpp(1337): long 
+__thiscall SRptTemplateImpl::OnRetrieveProcItem(struct ISRptItem *,struct 
+RPTSCANINFO *) An old report item (OOM_UCAS_THRW) is no longer registered 
+in the current version. It will be lost! (3:25s)
+Unexpected exception - d:\pddev\rpt\impl\srpttemplateimpl.cpp(1337): long 
+__thiscall SRptTemplateImpl::OnRetrieveProcItem(struct ISRptItem *,struct 
+RPTSCANINFO *) An old report item (OOM_UCAS_PRCN) is no longer registered 
+in the current version. It will be lost! (3:25s)
+Unexpected exception - d:\pddev\rpt\impl\srpttemplateimpl.cpp(1337): long 
+__thiscall SRptTemplateImpl::OnRetrieveProcItem(struct ISRptItem *,struct 
+RPTSCANINFO *) An old report item (OOM_UCAS_PSCN) is no longer registered 
+in the current version. It will be lost!  
+========================================================================
+ Issue: 768100    07/24/14  	Status: Closed	
+Severity : 2         	Est. release: valencay
+Label  : Problem with bpmn2 file: ierror and cannot move  link extremity 
+after 
+	 import
+Description :                                    
+	 
+ *** Thu Jul 24 19:28:07 UTC+0200 2014 *** vaudino ***
+import on the web the bpmn2 xml from bugmodel
+There have some errors during import
+<<
+IMPORT: BPMN2 import started. galilei.bpmn-min.js:4
+[error] BPMN2 shape element (sh005056A5069E1EE391ACB35A6C44BDFF) cannot 
+be imported. galilei.bpmn-min.js:4
+[error] BPMN2 shape element (sh005056A5069E1EE391ACBD1746287DFF) cannot 
+be imported. galilei.bpmn-min.js:4
+[error] BPMN2 shape element (sh005056A5069E1EE391ACBB692B617DFF) cannot 
+be imported. galilei.bpmn-min.js:4
+.../...
+>>
+
+attach point are not always well located but 
+you can't move some links extrelity
+
+Pools overlap
+
+see also email thread in bug model 
+========================================================================
+ Issue: 768098    07/24/14  	Status: Closed	
+Severity : 2         	Est. release: valencay
+Label  : Diagram: sub-objects with Display uncheck remain displayed on 
+symbol
+Description :                                            
+	 *** Thu Jul 24 2014 11:16:40 GMT-0400 (Eastern Standard Time) *** 
+ahill *** 16.5.3 PL03
+
+Diagram: sub-objects with Display uncheck remain displayed on symbol
+
+In migrated models, sub-objects with the Display property uncheck remain 
+visible on the symbol in the diagram. In a new PD 16.5.x model, this 
+issue is not reproduced.
+
+To reproduce:
+1) open project.ldm
+2) open properties of any entity
+3) uncheck the Display property on several entity attributes
+4) click OK
+NOTE: all attributes are still listed on the symbol.
+
+If you check the sub-object format, the uncheck attributes are not listed
+
+ 
+========================================================================
+ Issue: 767937    07/22/14  	Status: Closed	
+Severity : 2         	Est. release: valencay
+Label  : BPMN Import: error if import netweaver bpmn with flow symbol 
+from boun
+	 daryEvent
+Description :                                 
+	 
+ *** Tue Jul 22 2014 17:44:41 GMT+0800 (China Standard Time) *** sunl ***
+Import bpmn2 file in bug directory, but get following error in console 
+and import cannot finish.
+Both files contains flow symbol from boundary event. If remove 
+corresponding BPMNEdge in bpmn2 file, import can succeed.   
+=============
+ERROR ModelHandler - Error while executing command 'BPMN2 Import':
+TypeError: Cannot read property '0' of undefined
+All previous operations are rolled back. 
+ log4javascript.js:1462
+BrowserConsoleAppender.append log4javascript.js:1462
+Appender.doAppend log4javascript.js:758
+Logger.callAppenders log4javascript.js:503
+Logger.log log4javascript.js:497
+Logger.error log4javascript.js:588
+applyModelChanges gravityCoreClient.js:3954
+changeModelInternal gravityCoreClient.js:3995
+internalInterface.changeModel gravityCoreClient.js:4177
+sap.galilei.model.gravity.ClassDefinitionBuilder.applyUndoableAction 
+model-min.js:6
+sap.galilei.model.metamodel.contents.Resource.methods.applyUndoableAction 
+model-min.js:12
+doImportAsync DiagramEditor.controller.js:2634
+(anonymous function) DiagramEditor.controller.js:2663
+(anonymous function) FileManager.js:47
+ 
+========================================================================
+ Issue: 767937    07/22/14  	Status: Closed	
+Severity : 2         	Est. release: valencay
+Label  : BPMN Import: error if import netweaver bpmn with flow symbol 
+from boun
+	 daryEvent
+Description :                                 
+	 
+ *** Tue Jul 22 2014 17:44:41 GMT+0800 (China Standard Time) *** sunl ***
+Import bpmn2 file in bug directory, but get following error in console 
+and import cannot finish.
+Both files contains flow symbol from boundary event. If remove 
+corresponding BPMNEdge in bpmn2 file, import can succeed.   
+=============
+ERROR ModelHandler - Error while executing command 'BPMN2 Import':
+TypeError: Cannot read property '0' of undefined
+All previous operations are rolled back. 
+ log4javascript.js:1462
+BrowserConsoleAppender.append log4javascript.js:1462
+Appender.doAppend log4javascript.js:758
+Logger.callAppenders log4javascript.js:503
+Logger.log log4javascript.js:497
+Logger.error log4javascript.js:588
+applyModelChanges gravityCoreClient.js:3954
+changeModelInternal gravityCoreClient.js:3995
+internalInterface.changeModel gravityCoreClient.js:4177
+sap.galilei.model.gravity.ClassDefinitionBuilder.applyUndoableAction 
+model-min.js:6
+sap.galilei.model.metamodel.contents.Resource.methods.applyUndoableAction 
+model-min.js:12
+doImportAsync DiagramEditor.controller.js:2634
+(anonymous function) DiagramEditor.controller.js:2663
+(anonymous function) FileManager.js:47
+ 
+========================================================================
+ Issue: 767845    07/20/14  	Status: Closed	
+Severity : 2         	Est. release: valencay
+Label  : Reuse: reuse existing object in current model but create a new 
+object
+Description :                                           
+	 
+ *** Mon Jul 21 2014 13:40:00 GMT+0800 (China Standard Time) *** sunl ***
+It seems that the problem occurred since name to code conversion. 
+Steps:
+ - Check in bug model in bug model directory to Library folder.
+ - Open and edit its diagram in portal.
+ - Draw a new task and type character 'Send', and select 'Send Appt' 
+(could be any one here) in auto completion list.
+ - This new created object should be replaced by selected object. But a 
+Task with selected name is created.
+                          
+========================================================================
+ Issue: 767773    07/18/14  	Status: Closed	
+Severity : 2         	Est. release: valencay
+Label  : BPM Import: some flow in netweaver bpmn file are imported 
+without anch
+	 or points
+Description :                                 
+	  *** Fri Jul 18 2014 17:03:13 GMT+0800 (China Standard Time) *** 
+sunl ***
+Import bpmn file in bug directory.
+But some flow symbols are not correctly imported, they only have middle 
+pints (see pic in bug directory). 
+
+This bpmn2 file is exported from NetWeaver, so only middle points of flow 
+are exported as waypoints of BPMNEdge, anchor points are not included. 
+BPMNEdge that have waypoints are not well imported.
+                                                                                            
+========================================================================
+ Issue: 767478    07/15/14  	Status: Closed	
+Severity : 2         	Est. release: valencay
+Label  : scripts cached by browser can result in false errors
+Description :                                                            
+	 *** Tue Jul 15 11:06:20 UTC+0200 2014 *** vaudino ***
+Since we are compiling PDWeb in release mode, we have noticed that 
+browsers are "caching" a lot of things, including scripts.
+When we deploy new version of PD Web, sometimes cache of client browser 
+cab contains wrong script and this can result in strange unreproductible 
+errors.
+
+Workaround is to clean the brower cache.
+
+We should research a way to properly identify scripts for browsers to 
+force them to reload scritps if version is different.
+      
+========================================================================
+ Issue: 767259    07/10/14  	Status: Closed	
+Severity : 2         	Est. release: valencay
+Label  : Properties:Reusable should change to false after moved task into 
+subpr
+	 ocess
+Description :                                     
+	  *** Thu Jul 10 2014 15:29:09 GMT+0800 (China Standard Time) *** 
+chaoyuey ***
+
+17.0.3012
+
+1. Check in the attached bug model.
+2. Open ReusableTasks diagram, switch to edit mode.
+3. Move Task_2 which Reusable process property was set to true into 
+SubProcess_1.
+
+Results:
+Reusable should be set to false after task moved into subprocess instead 
+of keeping its value as true.
+                                                                                                                                  
+========================================================================
+ Issue: 767160    07/08/14  	Status: Closed	
+Severity : 2         	Est. release: valencay
+Label  : Diagram: draw flow from boundary event to task but get error in 
+PD fat
+	  client
+Description :                                   
+	 *** Wed Jul 09 2014 12:44:44 GMT+0800 (China Standard Time) *** 
+sunl ***
+Use bug model.
+Open and edit diagram in portal. 
+Draw a sequence flow from boundary event to task, and then save.
+Check out saved model in PD fat client. 
+Double-click on that flow to open its property sheet, but get following 
+error, and flow has no source.
+======
+---------------------------
+Unexpected exception
+---------------------------
+c:\pddev\rep\src\repdbase.cpp(1592): int __cdecl 
+SRepControlHolder::InitCtrl(void)
+   Initialization of dialog control "
+Caught: SECOMException: 
+    HRESULT = 0x80070057
+    The parameter is incorrect.
+
+
+Thrown from:
+ c:\pddev\rep\src\repdctrl.cpp(6238): void __cdecl 
+SRepDlgComboBoxEx::Initialize(void)".Source
+---------------------------
+OK   
+---------------------------
+ 
+========================================================================
+ Issue: 767158    07/08/14  	Status: Closed	
+Severity : 2         	Est. release: valencay
+Label  : BPM Import: exclusive gateway without MarkerVisible is wrongly 
+importe
+	 d
+Description :                                         
+	 *** Wed Jul 09 2014 11:30:46 GMT+0800 (China Standard Time) *** 
+sunl ***
+Import bpmn2 file in bug directory, and then save.
+But in context pad of 'Normal Gateway', you can change it to 'Normal 
+Gateway'.
+Check out saved model in PD fat client (gateway.bpm in bug directory), 
+stereotype of 'Normal Gateway' is 'Stereotype'.  
+
+Corresponding symbol of exclusiveGateway 'Exclusive Gateway' has a 
+property 'IsMarkerVisible=true', so it is imported as Exclusive Gateway.
+Corresponding symbol of exclusiveGateway 'Normal Gateway' has no property 
+'IsMarkerVisible' (which means its value is false), so it should be 
+imported as Normal Gateway. But it is imported as a gateway without 
+stereotype.  
+========================================================================
+ Issue: 767153    07/08/14  	Status: Closed	
+Severity : 2         	Est. release: valencay
+Label  : BPM Import: should not set imported node symbols to auto adjust 
+to tex
+	 t
+Description :                                         
+	 *** Wed Jul 09 2014 10:52:11 GMT+0800 (China Standard Time) *** 
+sunl ***
+In portal import bpmn2 file in bug directory, then save.
+But in PD fat client, check out the result model (SubPorcess.bpm in bug 
+directory), symbols of tasks and sub-processes are set to auto adjust to 
+text.
+Should not, since symbol size is imported from bpmn2 file.
+                                                                                                                                                                         
+========================================================================
+ Issue: 766943    07/03/14  	Status: Closed	
+Severity : 3         	Est. release: valencay
+Label  : BPM_EXPORT_DESC: we shouldn't show transformation to Executable 
+during
+	  export
+Description :                                   
+	 
+ *** Thu Jul 03 2014 17:23:06 GMT+0200 (Romance Daylight Time) *** 
+mgonzalo ***16.5.4.4467
+BPM_EXPORT_DESC: we shouldn't show the transformation from Descriptive to 
+Executable language during the export BPMN file from a BPM Descriptive.
+The transformation is visible in output and at the bottom of PD during 
+the export. After the export we display the true process language.
+see image in bug directory.
+Steps: From a BPM Descriptive. Launch File/  Export /  BPMN file ... any 
+type of export Standard or not. 
+========================================================================
+ Issue: 766876    07/02/14  	Status: Closed	
+Severity : 2         	Est. release: valencay
+Label  : Diagram: cannot select a flow if change type of both extremities
+Description :                                                
+	 *** Thu Jul 03 2014 14:29:06 GMT+0800 (China Standard Time) *** 
+sunl ***IE&Chrome
+Use bug model.
+Open and edit diagram in portal.
+There is a flow linking two tasks. Change Task_1 to Sub-Process, change 
+Task_2 to Call Activity.
+Then try to select flow symbol, but it is difficult. Even it is selected, 
+the selection dotted line has different path from flow symbol (see pic in 
+bug directory).                                                                                                                       
+========================================================================
+ Issue: 766560    06/29/14  	Status: Closed	
+Severity : 2         	Est. release: valencay
+Label  : Comment:  Close a reply of comment should not close all other 
+replies
+Description :                                           
+	 *** Sun Jun 29 2014 12:37:45 GMT+0200 (Romance Daylight Time) *** 
+abouhout *** 16.5.4 2682
+
+Close a reply of comment should close other replies only if there was 
+under the closed reply
+ex1 : 
+Comment 1
+reply R1 to comment1
+Reply R2 to comment1
+Closing R1 should not close R2
+
+ex2 : 
+Comment 1
+reply R1 to comment1
+Reply R2 to R1
+Closing R1 should close R2
+                                                                                                                                               
+========================================================================
+ Issue: 765915    06/17/14  	Status: Closed	
+Severity : 2         	Est. release: valencay
+Label  : name of pool does not word wrap
+Description :                                                                                 
+	 
+ *** Tue Jun 17 18:17:43 UTC+0200 2014 *** vaudino ***
+with a pool with very long name, name should word wrap
+this is not the case today
+
+also requested by Solman Team                                                                                                                                                                                                                                                                                                                                                    
+========================================================================
+ Issue: 765645    06/12/14  	Status: Closed	
+Severity : 2         	Est. release: valencay
+Label  : Checkin: error dialog pop up at checkin project
+Description :                                                                 
+	 PD build 4448(repository), Portal build 2675
+
+To reproduce,
+1>PD fat client,open bug project in workspace, select "Check-in" from the 
+context menu, error dialog pop up. Attached the error image in bugmodel.
+Repository tree like this,<root>->Branch_2->Folder_2
+please use repository in P4 to reproduce, 
+\\auto\current\Input\Portal\db\portal_checkin.db                                                                                                                                                              
+========================================================================
+ Issue: 765325    06/06/14  	Status: Closed	
+Severity : 2         	Est. release: valencay
+Label  : BPM Import: boundary events are not at edge of its attached node 
+after
+	  import
+Description :                                   
+	 *** Fri Jun 06 2014 17:17:37 GMT+0800 (China Standard Time) *** 
+sunl ***
+Import bpmn2 file in bug directory in portal.
+But after import, boundary event is not at edge of its attached node 
+symbol. (see pic in bug directory)                                                                                                                                                                                                                                                                                                 
+========================================================================
+ Issue: 765263    06/05/14  	Status: Closed	
+Severity : 2         	Est. release: valencay
+Label  : Reuse: sub symbols are not deleted if replace sub-process by 
+another o
+	 ne
+Description :                                        
+	 *** Thu Jun 05 2014 18:00:50 GMT+0800 (China Standard Time) *** 
+sunl ***
+Check in library.bpm to Library and build index.
+Open model test.bpm and edit diagram.
+Sub-process has sub symbols. Edit Sub-process name in place, input 
+character 'proc' and select one term in auto complete list. Then sub-
+process is replaced by shortcut. But its sub symbols are still there.
+Save change. Go to workspace and open diagram in changelist. But sub 
+symbols has no name and no properties.
+If parent object is deleted, should also delete sub-objects and their 
+symbols.
+ 
+========================================================================
+ Issue: 765094    06/03/14  	Status: Closed	
+Severity : 2         	Est. release: valencay
+Label  : Checkin: no changelist is created on model locked at mainline
+Description :                                                   
+	 build 4439
+
+1>ADMIN to lock a model in <Branch_1>, then login by a user with submit 
+permission, check out the model, modified and check-into new changelist, 
+there pop up dialog to explain the model is locked by ADMIN, then it will 
+go to unlock. Then click "Yes", there is log "Changelist_1001 is 
+created", but in Change list folder, no changelist is created in fact.                                                                                                                                                 
+========================================================================
+ Issue: 764346    05/20/14  	Status: Closed	
+Severity : 2         	Est. release: valencay
+Label  : Property: whole property part turn to empty when open diagram 
+with RTF
+	  ex attr
+Description :                                  
+	 PD build 4429, Portal build 2329
+
+To reproduce,
+1>Open diagram of bugmodel in Diagram Editor, select a task, click Edit 
+mode, the property part is empty at once.
+In bugmodel,there is extended attribute with type Text and RTF format.
+
+---------error in console--------
+2014-05-21 14:30:02 adding element with duplicate id 'DiagramEditor--
+diagramEditorMainPage--comtAttr' -   sap-ui-core.js:80
+u sap-ui-core.js:80
+error sap-ui-core.js:80
+k.registerElement sap-ui-core.js:134
+e.register sap-ui-core.js:134
+E.extend.constructor sap-ui-core.js:134
+M.extend.constructor sap-ui-core.js:134
+E.extend.constructor sap-ui-core.js:134
+f sap-ui-core.js:122
+f sap-ui-core.js:122
+sap.ui.jsfragment.createAttrControl DynamicPropertiesPage.fragment.js:903
+sap.ui.jsfragment.createInfoSectionsContents 
+DynamicPropertiesPage.fragment.js:1284
+sap.ui.jsfragment.createSectionContent 
+DynamicPropertiesPage.fragment.js:1778
+sap.ui.jsfragment.createSection DynamicPropertiesPage.fragment.js:1867
+sap.ui.jsfragment.createInfoFacetContent 
+DynamicPropertiesPage.fragment.js:2273
+sap.ui.jsfragment.initializeFacetsControls 
+DynamicPropertiesPage.fragment.js:2192
+sap.ui.jsfragment.createIconTabs DynamicPropertiesPage.fragment.js:2332
+sap.ui.jsfragment.updateLayoutContent 
+DynamicPropertiesPage.fragment.js:215
+sap.ui.jsfragment.createContent DynamicPropertiesPage.fragment.js:69
+(anonymous function) Fragment.js:6
+d.runWithPreprocessors sap-ui-core.js:134
+F.registerType.init Fragment.js:6
+F._initCompositeSupport Fragment.js:6
+E.extend.constructor sap-ui-core.js:134
+M.extend.constructor Fragment.js:6
+sap.ui.fragment Fragment.js:6
+sap.ui.jsfragment Fragment.js:6
+util.BaseDynamicPropertiesController.renderPropertyPageContent 
+DiagramEditor.controller.js:2240
+util.BaseDynamicPropertiesController.onEditMode 
+DiagramEditor.controller.js:1219
+a.fireEvent sap-ui-core.js:122
+a.fireEvent sap-ui-core.js:134
+(anonymous function) sap-ui-core.js:134
+sap.m.Button.ontap Button.js:11
+a._callEventHandles sap-ui-core.js:134
+a._handleEvent sap-ui-core.js:134
+U._handleEvent sap-ui-core.js:134
+p sap-ui-core.js:16
+Q.event.dispatch sap-ui-core.js:27
+g jquery-mobile-custom.js:17
+p jquery-mobile-custom.js:17
+Q.event.dispatch sap-ui-core.js:27
+v3.handle sap-ui-core.js:27
+Q.event.trigger sap-ui-core.js:27
+(anonymous function) sap-ui-core.js:27
+Q.extend.each sap-ui-core.js:16
+Q.fn.Q.each sap-ui-core.js:16
+Q.fn.extend.trigger sap-ui-core.js:27
+P jquery-mobile-custom.js:17
+R jquery-mobile-custom.js:17
+Q.event.dispatch sap-ui-core.js:27
+v3.handle sap-ui-core.js:27
+Uncaught Error: Error: adding element with duplicate id 'DiagramEditor--
+diagramEditorMainPage--comtAttr' sap-ui-core.js:134
+k.registerElement sap-ui-core.js:134
+e.register sap-ui-core.js:134
+E.extend.constructor sap-ui-core.js:134
+M.extend.constructor sap-ui-core.js:134
+E.extend.constructor sap-ui-core.js:134
+f sap-ui-core.js:122
+f sap-ui-core.js:122
+sap.ui.jsfragment.createAttrControl DynamicPropertiesPage.fragment.js:903
+sap.ui.jsfragment.createInfoSectionsContents 
+DynamicPropertiesPage.fragment.js:1284
+sap.ui.jsfragment.createSectionContent 
+DynamicPropertiesPage.fragment.js:1778
+sap.ui.jsfragment.createSection DynamicPropertiesPage.fragment.js:1867
+sap.ui.jsfragment.createInfoFacetContent 
+DynamicPropertiesPage.fragment.js:2273
+sap.ui.jsfragment.initializeFacetsControls 
+DynamicPropertiesPage.fragment.js:2192
+sap.ui.jsfragment.createIconTabs DynamicPropertiesPage.fragment.js:2332
+sap.ui.jsfragment.updateLayoutContent 
+DynamicPropertiesPage.fragment.js:215
+sap.ui.jsfragment.createContent DynamicPropertiesPage.fragment.js:69
+(anonymous function) Fragment.js:6
+d.runWithPreprocessors sap-ui-core.js:134
+F.registerType.init Fragment.js:6
+F._initCompositeSupport Fragment.js:6
+E.extend.constructor sap-ui-core.js:134
+M.extend.constructor Fragment.js:6
+sap.ui.fragment Fragment.js:6
+sap.ui.jsfragment Fragment.js:6
+util.BaseDynamicPropertiesController.renderPropertyPageContent 
+DiagramEditor.controller.js:2240
+util.BaseDynamicPropertiesController.onEditMode 
+DiagramEditor.controller.js:1219
+a.fireEvent sap-ui-core.js:122
+a.fireEvent sap-ui-core.js:134
+(anonymous function) sap-ui-core.js:134
+sap.m.Button.ontap Button.js:11
+a._callEventHandles sap-ui-core.js:134
+a._handleEvent sap-ui-core.js:134
+U._handleEvent sap-ui-core.js:134
+p sap-ui-core.js:16
+Q.event.dispatch sap-ui-core.js:27
+g jquery-mobile-custom.js:17
+p jquery-mobile-custom.js:17
+Q.event.dispatch sap-ui-core.js:27
+v3.handle sap-ui-core.js:27
+Q.event.trigger sap-ui-core.js:27
+(anonymous function) sap-ui-core.js:27
+Q.extend.each sap-ui-core.js:16
+Q.fn.Q.each sap-ui-core.js:16
+Q.fn.extend.trigger sap-ui-core.js:27
+P jquery-mobile-custom.js:17
+R jquery-mobile-custom.js:17
+Q.event.dispatch sap-ui-core.js:27
+v3.handle 
+========================================================================
+ Issue: 764296    05/20/14  	Status: Closed	
+Severity : 2         	Est. release: valencay
+Label  : Alter DB: View should be recompiled when underlying table is 
+modified
+Description :                                           
+	 If a view uses * and if the underlying tables change e.g., adding, 
+altering or deleting columns, PowerDesigner should not only generate an 
+ALTER TABLE statement to modify the table but also recreate the view.
+
+Repro steps:
+1. In a PDM, create a table T1 having columns C1 and C2.
+2. Create and edit a view, click the SQL Query and set the query:
+select * from T1
+3. Archive the model.
+4. Add another column C3 to T1.
+5. Select Database > Apply Model Changes to Database, use the archive 
+model to get the schema and click OK.
+The Database Synchronization dialog shows it will add C3 to T1, and view 
+SQL query does not change and remains select * from T1.
+Generated SQL is:
+alter table T1 add C3 CHAR(10);
+
+6. Reverse View_1 and edit reversed object
+SQL query is :
+select C1, C2 from T1. 
+========================================================================
+ Issue: 764175    05/19/14  	Status: Closed	
+Severity : 2         	Est. release: valencay
+Label  : Properties:Cannot distinguish different stereotype object in 
+portal UI
+	 
+Description :                                          
+	 *** Mon May 19 2014 16:35:47 GMT+0800 (China Standard Time) *** 
+chaoyuey ***
+
+17.0.2112
+
+1. Check in the attached bug model in bug model folder.
+2. Open model contents facet 
+
+Results:
+Pools and Lanes are all list in Organization Units section, it's hard to 
+distinguish which is lane object or Pool object.
+Message Start Event and Tasks are all listed together in Processes 
+section.
+
+                                                                                                                      
+========================================================================
+ Issue: 764106    05/16/14  	Status: Closed	
+Severity : 2         	Est. release: valencay
+Label  : Second screen detection does not  well
+Description :                                                                          
+	 
+ *** Fri May 16 10:16:27 UTC+0200 2014 *** vaudino ***
+on a docked laptop having 2 screens
+launch PD, put it on second screen, close and relaunch and check PD start 
+on second screen
+reboot laptop without dock station
+launch PD
+it does not appear because it is launched on "second" screen
+
+Workaround : Alt-space, arrown down , return, left arrow key until you 
+see it
+                                                                                                                                        
+========================================================================
+ Issue: 764097    05/15/14  	Status: Closed	
+Severity : 3         	Est. release: valencay
+Label  : Properties:Modification Date is null for just created folder 
+property
+Description :                                           
+	 *** Fri May 16 2014 14:40:22 GMT+0800 (China Standard Time) *** 
+chaoyuey ***
+
+17.0.2277
+
+1. Create a folder in repository, Check its property page in portal right 
+now.
+
+
+
+Results:
+no value of Modification Date displayed in portal folder property page
+
+
+                                                                                                                                                                                                                                                        
+========================================================================
+ Issue: 763754    05/12/14  	Status: Closed	
+Severity : 2         	Est. release: valencay
+Label  : Diagram: sub-process in none composite view is not correctly  
+displaye
+	 d
+Description :                                         
+	 *** Mon May 12 2014 15:29:31 GMT+0800 (China Standard Time) *** 
+sunl ***
+Use bug model.
+Sub-process has child objects, but its symbol is in none-composite view.
+Open diagram on portal, its child objects are also displayed, but no 
+inside of sub-process rectangle (see pic in bug directory).                                                                                                                                                                                                                             
+========================================================================
+ Issue: 763691    05/09/14  	Status: Closed	
+Severity : 2         	Est. release: valencay
+Label  : model still read-only after the creation from a read-only 
+template
+Description :                                              
+	  *** Fri May 9 17:22:20 UTC+0200 2014 *** vaudino ***
+from Sylva Paulo
+
+If you are using as a template directory, a library diretory on which 
+user only have read-only permission, when you create a model from a 
+template the model is created read-only.
+Workaround is to close it (you have the save question), save it, close it 
+and then open it again to start modeling on it.
+
+<<
+I am working with a customer who wants to push model templates to users 
+using the repository. 
+As you may know it is recommended that almost all users most have read 
+permission to the library folder except for the library administrators.
+Well, what happens is: since the “regular” users have read permissions on 
+the template models when they try to create a new model from those 
+templates these new models are created as read-only.
+I configured PD to get the templates from the Library´s local directory 
+so that the user “always” create new models via the new model windows > 
+templates.
+Even creating models from templates through the new model windows, these 
+new models are created as read-only. To have the model editable I need to 
+create it, save it, close it and then open it again to start modeling on 
+it.
+>> 
+========================================================================
+ Issue: 763659    05/08/14  	Status: Closed	
+Severity : 2         	Est. release: valencay
+Label  : Missing Requirements Traceability Links in RQM
+Description :                                                                  
+	 When a Model is checked out from the repository from a user A, the 
+corresponding Requirements Traceability Links will not be recreated in 
+RQM if User B was not allowed to check in the RQM. 
+
+Scenario exists on customer side for big projects when different 
+employees 
+shall work with their individual BPMs and RQM is admistrated centrally.
+
+                                                                                                                                                                        
+========================================================================
+ Issue: 763272    05/04/14  	Status: Closed	
+Severity : 2         	Est. release: valencay
+Label  : Diagram: there is no way to set a flow as default flow in portal
+Description :                                                
+	 *** Mon May 05 2014 14:18:14 GMT+0800 (China Standard Time) *** 
+sunl ***
+Sub-process, task, and some kinds of gateway (complex, inclusive, 
+exclusive) support default flow. And once a flow is set as default flow, 
+original default flow of the source is not default any more.
+But there is no way to set a flow as default in portal.
+                                                                                                                                                                                     
+========================================================================
+ Issue: 763272    05/04/14  	Status: Closed	
+Severity : 2         	Est. release: valencay
+Label  : Diagram: there is no way to set a flow as default flow in portal
+Description :                                                
+	 *** Mon May 05 2014 14:18:14 GMT+0800 (China Standard Time) *** 
+sunl ***
+Sub-process, task, and some kinds of gateway (complex, inclusive, 
+exclusive) support default flow. And once a flow is set as default flow, 
+original default flow of the source is not default any more.
+But there is no way to set a flow as default in portal.
+                                                                                                                                                                                     
+========================================================================
+ Issue: 762861    04/25/14  	Status: Closed	
+Severity : 2         	Est. release: valencay
+Label  : Warning about creating a reference on a shortcut
+Description :                                                                
+	 
+ *** Fri Apr 25 15:26:51 UTC+0200 2014 *** vaudino ***
+Warning about creating a reference on a shortcut (should be done in 
+source model)
+
+when you try to craete a link oriented with shortcut as target you can't 
+becaue thelink need to be created where teh source object fo teh shortcut 
+resides
+
+can we send a message to the output when user tries to do this action?
+
+to be discussed with Laurent
+                                                                                                            
+========================================================================
+ Issue: 762848    04/25/14  	Status: Closed	07/22/14  
+Severity : 2         	Est. release: valencay
+Label  : Properties:ImplementationTechnology attribute not listed for 
+stereotyp
+	 e task
+Description :                          
+	 *** Fri Apr 25 2014 17:10:15 GMT+0800 (China Standard Time) *** 
+chaoyuey ***
+
+17.0.1944
+
+Repro:
+1. Check in the attached bug model in bug model folder.
+2. Open diagram Ad-Hoc Sub-Process with various tasks.
+3. Select ReveiveTask: Get Topic, check its properties
+
+Results:
+ImplementationTechnology no longer listed whether in readonly mode or 
+edit mode.
+
+
+
+                                                                                                                                               
+========================================================================
+ Issue: 762484    04/21/14  	Status: Closed	
+Severity : 2         	Est. release: valencay
+Label  : Property: cannot select object in XSM diagram
+Description :                                                                   
+	 *** Mon Apr 21 15:30:02 UTC+0800 2014 *** fengchen ***
+build 1886
+to reproduce:
+1> check-in the bug model;
+2> navigate to the XSM diagram, can not select object in diagram.                                                                                                                                                                                                                                                                                                                                                 
+========================================================================
+ Issue: 762114    04/15/14  	Status: Closed	
+Severity : 2         	Est. release: valencay
+Label  : Shortcut decorator missing in diagram editor
+Description :                                                                    
+	 
+ *** Tue Apr 15 11:37:38 UTC+0200 2014 *** vaudino ***
+load a diagram having a shortcut of task or lane
+no decorator is visible
+you do not know they are shortcut                                                                                                                                                                                                                                                                                                                                                           
+========================================================================
+ Issue: 762019    04/14/14  	Status: Closed	
+Severity : 3         	Est. release: valencay
+Label  : Properties:New created and updated flow should update its 
+extremities 
+	 collection
+Description :                                
+	 *** Mon Apr 14 2014 16:17:00 GMT+0800 (China Standard Time) *** 
+chaoyuey ***
+
+17.0.1777
+
+1. Check in the attached bug model.
+2. Open LinkCollectionDiagram editor.
+3. Change SequenceFlow_0 extremity or create a new flow to SubProcess_3
+
+
+Results:
+Link Extremities Uses/Impacts collections should be updated accordingly.
+
+
+                                                                                                                                                                                   
+========================================================================
+ Issue: 761919    04/11/14  	Status: Closed	
+Severity : 2         	Est. release: valencay
+Label  : Comment order not correct
+Description :                                                                                       
+	  *** Fri Apr 11 08:59:55 UTC+0200 2014 *** vaudino ***
+Comment header must be ordered by date of last reply, more recent ones 
+first
+Inside a conversation, message are ordered by creation date, last ones 
+first.
+
+Les contraintes de design des commentaires sont :
+-	Les réponses sont en dessous des commentaires.
+-	Un commentaire nouvellement créé s’affiche en premier.
+-	Les réponses aux réponses ne sont pas différenciées des réponses 
+aux commentaires. 
+
+Donc : 
+-	Le classement s’effectue d’abord par conversation (bloc de 
+commentaire+ses réponses). On classe ces conversation par ordre 
+décroissant de la dernière date de son commentaires et ses réponses.
+-	On classe ensuite à l’intérieur de la conversation par ordre 
+croissant du commentaire ou de la réponse (ou réponse de réponse)
+
+SAP Jam fait cela quand l’input field de commentaire est en tête de liste 
+:  La dernière réponse à un commentaire  fait remonter le commentaire en 
+tête de liste.
+  Par exemple https://jam4.sapjam.com/profile/wall/5BogbAge2gVEp9t9JptPPW 
+
+Plus mathématiquement :
+
+Soit les commentaires Cx et les réponses CxRy dans l’ordre temporel 
+croissant de création : C1, C2, C3, C1R4, C5
+L’ordre affiché sera
+C5
+C1
+  C1R4
+C2
+
+
+ 
+========================================================================
+ Issue: 761907    04/10/14  	Status: Closed	
+Severity : 2         	Est. release: valencay
+Label  : Comments : Closing a comment should also close the replies
+Description :                                                      
+	  *** Fri Apr 11 2014 08:07:17 GMT+0200 (Romance Standard Time) *** 
+abouhout *** 17.1750
+Closing a comment should also close the replies                                                                                                                                                                                                                                                                                                                                                                                         
+========================================================================
+ Issue: 761262    04/02/14  	Status: Closed	
+Severity : 2         	Est. release: valencay
+Label  : Properties:Extended attribute values with Date or Time type are 
+not li
+	 sted
+Description :                                      
+	 *** Wed Apr 02 2014 16:08:51 GMT+0800 (China Standard Time) *** 
+chaoyuey ***
+
+17.0.1589
+
+1. Check in the attached bug model in bug model folder.
+2. Check Entity_SAM property page. 
+
+
+Results:
+ExtendedDate with date type value and ExtendedTime with time value are 
+not listed                                                                                                                                                                                                                                       
+========================================================================
+ Issue: 761051    03/31/14  	Status: Closed	
+Severity : 3         	Est. release: valencay
+Label  : Usability test :Missing tool tip on comment icons (reply delete 
+and cl
+	 ose)
+Description :                                      
+	 PD build  4385, Portal 1540
+
+open diagram of "my diagrm in process" from Workspace, in Diagram Editor, 
+click Tools-comments, click on a comment
+it is better to provide tooltip for reply delete & close.
+
+                                                                                                                                                                                                                                                                                                                 
+========================================================================
+ Issue: 759183    03/04/14  	Status: Closed	
+Severity : 2         	Est. release: valencay
+Label  : Diagram: sequenceflow order is changed by diagram editor
+Description :                                                        
+	 PD build 4361(repository), Portal build 1195
+
+To reproduce,
+1>open BPM desciptive diagram,add comment for an object,don't do any 
+change on diagram, click "save" button, the change list is created, 
+compare it at PD client side,there are difference on the symbols, like 
+sequenceflow symbol are "moved", that means the order in collection is 
+changed.                                                                                                                                                                   
+========================================================================
+ Issue: 752399    12/04/13  	Status: Closed	
+Severity : 2         	Est. release: valencay
+Label  : BO: User Identification dialog is covered by PD main window
+Description :                                                     
+	 build 4284, windows 2008,windows 8, windows 8.1
+
+1>PDM->SAP BusinessObjects->Generate BusinessObjects Universe...,click 
+"Connect" in the wizard page, then "User Identification" dialog pop up 
+but is covered by PowerDesigner main windows, then user have to kill the 
+sap program in Task manager,otherwise, PD will be hung all along.                                                                                                                                                                                      
+========================================================================
+ Issue: 744651    08/05/13  	Status: Closed	09/22/14  
+Severity : 2         	Est. release: valencay
+Label  : DB2UDB10: Unable to reverse Random Index
+Description :                                                              
+	 *Expected Behaviour
+PD should be able to revese RANDOM index from DB2 Version 10 z/Os
+
+DB2 10 for z/OS > DB2 reference information > DB2 SQL > Statements
+
+http://pic.dhe.ibm.com/infocenter/dzichelp/v2r2/index.jsp?topic=%2Fcom.ib
+m.db2z10.doc.sqlref%2Fsrc%2Ftpc%2Fdb2z_sql_createindex.htm
+
+*Observed Behaviour
+Ct is unable to reverse random index from DB.
+If using script file the index get the expression "COLUMN_1 RANDOM" and 
+is ascending in the 
+
+Steps to reproduce:
+
+Reverse table -> 
+
+create table TABLE_1 (
+   COLUMN_1             CHAR(10),
+   COLUMN_2             CHAR(10),
+   COLUMN_3             CHAR(10)
+);
+
+--==============================================================
+-- Index: INDEX_1
+--==============================================================
+create index INDEX_1 on TABLE_1 (
+   COLUMN_1             RANDOM
+);
+
+
+Or create a table with RANDOM sorting and reverse from live DB 
+========================================================================
+ Issue: 741450    06/12/13  	Status: Closed	
+Severity : 2         	Est. release: valencay
+Label  : AMC PROXY:  we create a PowerDesigner key when we define 
+instance of p
+	 roxy
+Description :                                      
+	 *** Wed Jun 12 15:16:43 UTC+0200 2013 *** mgonzalo ***16.5.0 GA 
+and 16.5.2.4120 32 and 64 bits
+AMC PROXY:  we create a PowerDesigner key in Registry when we define the 
+proxy instance instead of a PowerAMC key. Exactly, in 
+HKEY_LOCAL_MACHINE\SOFTWARE\Sybase\PowerDesigner 16 Proxy\Nouvelle 
+instance 1
+Seen with TAS/ABT.
+QA: We must verify the fix also in the case of upgrade for the customers 
+with this bad key already existing.
+                                                                                 
+========================================================================
+ Issue: 740012    05/20/13  	Status: Closed	
+Severity : 2         	Est. release: valencay
+Label  : CDM/LDM - PDM generation: PK key and index should have cluster 
+option 
+	 selected
+Description :                                  
+	 *** Mon May 20 11:14:49 EDT 2013 *** ahill *** 16.1 & 16.5
+Target DBMS: MS SQL Server family
+
+In a PDM when you create a PK, the key is created with the 'cluster' 
+selected by default. (This correctly matches the MS SQL Server defaults.)
+
+When generating from a CDM/LDM, the PK key and index are created as 'non 
+clustered' by default. 
+
+The customer states that during the generation process, PD should be 
+aware that MS SQL server is the target DBMS and therefore generate the PK 
+and PK index according to SQL Server defaults. 
+
+Steps to reproduce:
+
+1. Create an LDM
+2. Create an Entity 
+3. Create an Attribute and mark it as primary
+4. Generate Physical Data Model
+5. A PK key and index are created in the PDM but are not clustered.
+
+Customer believes this is a bug since Primary Keys are Clustered Indexes 
+in MS SQL Server. 
+ 
+========================================================================
+ Issue: 689450    11/03/11  	Status: Closed	
+Severity : 1         	Est. release: valencay
+Label  : XMI import: unexpected exception occurs during the import 
+process
+Description :                                               
+	 *** Thu Nov 03 2011 10:18:13 GMT-0400 (Eastern Daylight Time) *** 
+ahill *** 16.0 EBF 2
+\\neo\cir\...\689450
+
+Customer has an XMI file that was generated by MagicDraw.  When 
+attempting to import the file, an unexpected exception occurs and the 
+import process stops.
+
+NOTE; same results in v15.3 except the error message is not generated.
+
+---------------------------
+Unexpected exception
+---------------------------
+d:\pddev\oom\src\oomshell.cpp(1895): long __thiscall 
+SOomShellModule::OnUpdateInitialization(int,struct ISRepObject *,struct 
+ISRepObject *,struct ISObjDiagram *)
+Import of XMI 2.x file
+---------------------------
+OK
+---------------------------
+
+ 
+========================================================================
+ Issue: 628554    05/10/10  	Status: Closed	
+Severity : 3         	Est. release: valencay
+Label  : XMI import: all data types are imported as Int
+Description :                                                                  
+	 The XMI 2.1 file generated from Rational Software Modeler requires 
+an external xml file that contains information about predefined data 
+types and stereotypes (among other elements). PD fails to identify the 
+data type and assigns it to DefaultDataType int.
+
+XMI from Rational:
+
+<packagedElement xmi:type="uml:Class" xmi:id="_5zlDnVRUEd-8ed8mMWncCg" 
+name="Class1">
+  <ownedAttribute xmi:type="uml:Property" xmi:id="_5zlDoVRUEd-
+8ed8mMWncCg" name="attribute1" visibility="private">
+    <type xmi:type="uml:PrimitiveType" 
+href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#String"/>
+  </ownedAttribute>
+</packagedElement>
+
+XMI from PD:
+
+<packagedElement xmi:type="uml:Class" xmi:id="_xSbNcFw5Ed-XF_qFrmyrRw" 
+name="Class1">
+    <ownedAttribute xmi:id="_xTT-QFw5Ed-XF_qFrmyrRw" name="attribute1" 
+visibility="private" type="_xTdvQFw5Ed-XF_qFrmyrRw"/>
+</packagedElement>
+<packagedElement xmi:type="uml:PrimitiveType" xmi:id="_xTdvQFw5Ed-
+XF_qFrmyrRw" name="String"/>
+
+Import xmi file available on \\neo\cir\CIRMails\62xxxx\628554 
+
+(119 rows affected)

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Module Id="Sybase.PowerDesigner.Matrix.Excel">
+  <AssemblyName>Sybase.PowerDesigner.Matrix.Excel, Version=16.5.5.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+  <RelativePath>Sybase.PowerDesigner.Matrix.Excel.dll</RelativePath>
+  <Extensions>
+    <ExtensionPoint Id="Sybase.PowerDesigner.Matrix.ConvertorAttribute">
+      <ConvertorAttribute Class="Sybase.PowerDesigner.Matrix.Excel.ExcelConvertor">
+        <TargetFormat>EXCEL</TargetFormat>
+      </ConvertorAttribute>
+    </ExtensionPoint>
+  </Extensions>
+  <Configurations />
+</Module>

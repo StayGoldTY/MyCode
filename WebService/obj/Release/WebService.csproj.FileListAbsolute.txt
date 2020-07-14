@@ -1,0 +1,6 @@
+E:\学习不止\WebService\bin\WebService.dll.config
+E:\学习不止\WebService\bin\WebService.dll
+E:\学习不止\WebService\bin\WebService.pdb
+E:\学习不止\WebService\obj\Release\WebService.csprojAssemblyReference.cache
+E:\学习不止\WebService\obj\Release\WebService.dll
+E:\学习不止\WebService\obj\Release\WebService.pdb

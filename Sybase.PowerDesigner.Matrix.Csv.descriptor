@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Module Id="Sybase.PowerDesigner.Matrix.Csv">
+  <AssemblyName>Sybase.PowerDesigner.Matrix.Csv, Version=16.5.5.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+  <RelativePath>Sybase.PowerDesigner.Matrix.Csv.dll</RelativePath>
+  <Extensions>
+    <ExtensionPoint Id="Sybase.PowerDesigner.Matrix.ConvertorAttribute">
+      <ConvertorAttribute Class="Sybase.PowerDesigner.Matrix.Csv.CsvConvertor">
+        <TargetFormat>CSV</TargetFormat>
+      </ConvertorAttribute>
+    </ExtensionPoint>
+  </Extensions>
+  <Configurations />
+</Module>

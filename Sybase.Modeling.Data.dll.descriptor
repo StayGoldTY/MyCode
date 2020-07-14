@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Module Id="Sybase.Modeling.Data">
+  <AssemblyName>Sybase.Modeling.Data, Version=1.6.5.0, Culture=neutral, PublicKeyToken=65afb196693a8d18</AssemblyName>
+  <RelativePath>Sybase.Modeling.Data.dll</RelativePath>
+  <Extensions>
+    <ExtensionPoint Id="Sybase.Core.Platform.ExtensionPoint">
+      <ExtensionPoint Class="Sybase.Modeling.Data.ExtensionPoints.ScopeFactory" />
+      <ExtensionPoint Class="Sybase.Modeling.Data.Expressions.ExtensionPoints.ExpressionLanguageProvider" />
+    </ExtensionPoint>
+    <ExtensionPoint Id="Sybase.Modeling.Data.ExtensionPoints.ScopeFactory">
+      <ScopeFactory Class="Sybase.Modeling.Data.Internal.M3alClassScopeFactory">
+        <InstanceTypes>
+          <Type>Sybase.Modeling.M3al.Reflection.IClass, Sybase.Modeling.M3al, Version=1.6.5.0, Culture=neutral, PublicKeyToken=65afb196693a8d18</Type>
+        </InstanceTypes>
+      </ScopeFactory>
+      <ScopeFactory Class="Sybase.Modeling.Data.M3alScopeFactory">
+        <InstanceTypes>
+          <Type>Sybase.Modeling.M3al.IModelElement, Sybase.Modeling.M3al, Version=1.6.5.0, Culture=neutral, PublicKeyToken=65afb196693a8d18</Type>
+          <Type>Sybase.Modeling.M3al.IModelElementCollection, Sybase.Modeling.M3al, Version=1.6.5.0, Culture=neutral, PublicKeyToken=65afb196693a8d18</Type>
+        </InstanceTypes>
+      </ScopeFactory>
+      <ScopeFactory Class="Sybase.Modeling.Data.PocoScopeFactory">
+        <InstanceTypes>
+          <Type>System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</Type>
+        </InstanceTypes>
+      </ScopeFactory>
+    </ExtensionPoint>
+  </Extensions>
+  <Configurations />
+</Module>

@@ -1,0 +1,4616 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Translations lang="en" extended="yes">
+  <Translation>
+    <Name>&amp;amp;Test Connection</Name>
+    <LocalName>&amp;amp;Test Connection</LocalName>
+  </Translation>
+  <Translation>
+    <Name>.NET Framework Data Provider for ODBC</Name>
+    <LocalName>.NET Framework Data Provider for ODBC</LocalName>
+  </Translation>
+  <Translation>
+    <Name>.NET Framework Data Provider for OLE DB</Name>
+    <LocalName>.NET Framework Data Provider for OLE DB</LocalName>
+  </Translation>
+  <Translation>
+    <Name>A Boundary object cannot communicate with another Boundary object. Boundary objects are reserved for external uses (Actors)</Name>
+    <LocalName>A Boundary object cannot communicate with another Boundary object. Boundary objects are reserved for external uses (Actors)</LocalName>
+  </Translation>
+  <Translation>
+    <Name>A Web Service Component has no Web Method operation</Name>
+    <LocalName>A Web Service Component has no Web Method operation</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>SAP ABAP Component</Comment>
+    <Name>ABAP Application Components</Name>
+    <LocalName>ABAP Application Components</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>SAP ABAP Component</Comment>
+    <Name>ABAP Component</Name>
+    <LocalName>ABAP Component</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>SAP ABAP Package</Comment>
+    <Name>ABAP Package</Name>
+    <LocalName>ABAP Package</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>SAP ABAP Package</Comment>
+    <Name>ABAP Packages</Name>
+    <LocalName>ABAP Packages</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Specifies the data type used by the runtime environment:
+- B, S, I - 1-byte, 2-byte, or 4-byte integer
+- C, N, B, F, G - Character, numerical, binary, float, or string
+- D, T - Date, or time
+- X, Y - Fixed or variable length raw</Comment>
+    <Name>ABAP data type</Name>
+    <LocalName>ABAP data type</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Specifies the field&#39;s name in ABAP forms.</Comment>
+    <Name>ABAP form name</Name>
+    <LocalName>ABAP form name</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ABAP structure</Name>
+    <LocalName>ABAP structure</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ABAP table</Name>
+    <LocalName>ABAP table</LocalName>
+  </Translation>
+  <Translation>
+    <Name>AS Anywhere database file:</Name>
+    <LocalName>AS Anywhere database file:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ASE version</Name>
+    <LocalName>ASE version</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Absence of O/R Mapping support</Name>
+    <LocalName>Absence of O/R Mapping support</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Abstract class</Name>
+    <LocalName>Abstract class</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Access</Name>
+    <LocalName>Access</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Access strategy</Name>
+    <LocalName>Access strategy</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Actors or Boundary objects cannot access directly to an Entity object.
+It requires an intermediate Control object.
+Entity to entity access is also forbidden.</Name>
+    <LocalName>Actors or Boundary objects cannot access directly to an Entity object.
+It requires an intermediate Control object.
+Entity to entity access is also forbidden.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Add Dali support</Name>
+    <LocalName>Add Dali support</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Add Specific Column Mapping</Name>
+    <LocalName>Add Specific Column Mapping</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Add queue</Name>
+    <LocalName>Add queue</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Just to avoid the extended attributes page on the property sheet</Comment>
+    <Name>All Extended Attributes</Name>
+    <LocalName>All Extended Attributes</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Allow saving password</Name>
+    <LocalName>Allow saving password</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Allowed roles</Name>
+    <LocalName>Allowed roles</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Alter replication definition options</Name>
+    <LocalName>Alter replication definition options</LocalName>
+  </Translation>
+  <Translation>
+    <Name>An Actor cannot access directly to a Control or Entity object.
+It requires an intermediate Boundary object.</Name>
+    <LocalName>An Actor cannot access directly to a Control or Entity object.
+It requires an intermediate Boundary object.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Append structure</Name>
+    <LocalName>Append structure</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Application Server System</Name>
+    <LocalName>Application Server System</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Application component that package belongs to.</Comment>
+    <Name>Application component</Name>
+    <LocalName>Application component</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Application component ID</Name>
+    <LocalName>Application component ID</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Apply To Connection String</Name>
+    <LocalName>Apply To Connection String</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Article &amp;&amp; Replication Definition</Name>
+    <LocalName>Article &amp;&amp; Replication Definition</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Article:</Name>
+    <LocalName>Article:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Articles &amp;&amp; Function Replication Definitions</Name>
+    <LocalName>Articles &amp;&amp; Function Replication Definitions</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Articles &amp;&amp; Replication Definitions</Name>
+    <LocalName>Articles &amp;&amp; Replication Definitions</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Articles &amp;amp;&amp;amp; Function Replication Definitions</Name>
+    <LocalName>Articles &amp;amp;&amp;amp; Function Replication Definitions</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Articles &amp;amp;&amp;amp; Replication Definitions</Name>
+    <LocalName>Articles &amp;amp;&amp;amp; Replication Definitions</LocalName>
+  </Translation>
+  <Translation>
+    <Name>As</Name>
+    <LocalName>As</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Association Mapping has not been defined</Name>
+    <LocalName>Association Mapping has not been defined</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Association Mapping is not correct</Name>
+    <LocalName>Association Mapping is not correct</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Association between Class and Interface is not supported</Name>
+    <LocalName>Association between Class and Interface is not supported</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Association class mapping is not defined</Name>
+    <LocalName>Association class mapping is not defined</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Association mapping is not correct</Name>
+    <LocalName>Association mapping is not correct</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Association mapping is not defined</Name>
+    <LocalName>Association mapping is not defined</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Association mapping is repeated or not used or target PDM has not been opened</Name>
+    <LocalName>Association mapping is repeated or not used or target PDM has not been opened</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Association options</Name>
+    <LocalName>Association options</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Association should be mapped to references and joined table</Name>
+    <LocalName>Association should be mapped to references and joined table</LocalName>
+  </Translation>
+  <Translation>
+    <Name>AssociationClass Mapping has not been defined</Name>
+    <LocalName>AssociationClass Mapping has not been defined</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Attach a database file</Name>
+    <LocalName>Attach a database file</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>The attribute name corresponding to the data source column.
+It can be the public name of a standard attribute or the qualified name of an extended attribute.</Comment>
+    <Name>Attribute</Name>
+    <LocalName>Attribute</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Attribute mapping is not correct</Name>
+    <LocalName>Attribute mapping is not correct</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Attribute should be public for NHibernate access strategy</Name>
+    <LocalName>Attribute should be public for NHibernate access strategy</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Authentication type:</Name>
+    <LocalName>Authentication type:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Auto import</Name>
+    <LocalName>Auto import</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Auto schema export</Name>
+    <LocalName>Auto schema export</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Auto-map columns to properties</Name>
+    <LocalName>Auto-map columns to properties</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Available data type</Name>
+    <LocalName>Available data type</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Available number</Name>
+    <LocalName>Available number</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Average time</Name>
+    <LocalName>Average time</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Axis custom descriptor</Name>
+    <LocalName>Axis custom descriptor</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Axis custom namespaces</Name>
+    <LocalName>Axis custom namespaces</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Axis deserializer class</Name>
+    <LocalName>Axis deserializer class</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Axis serializer class</Name>
+    <LocalName>Axis serializer class</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Specifies the domain that the present domain extends.</Comment>
+    <Name>Base domain</Name>
+    <LocalName>Base domain</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Base domain code</Name>
+    <LocalName>Base domain code</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Specifies the table and field from which the field are drawn.</Comment>
+    <Name>Base field</Name>
+    <LocalName>Base field</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Base field code</Name>
+    <LocalName>Base field code</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Specifies the table and field from which the field are drawn.</Comment>
+    <Name>Base table</Name>
+    <LocalName>Base table</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Base table code</Name>
+    <LocalName>Base table code</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Batch</Name>
+    <LocalName>Batch</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Batch begin</Name>
+    <LocalName>Batch begin</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Batch size</Name>
+    <LocalName>Batch size</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>The procedures bound to the logical path.</Comment>
+    <Name>Bound Procedures</Name>
+    <LocalName>Bound Procedures</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>The tables bound to the logical path.</Comment>
+    <Name>Bound Tables</Name>
+    <LocalName>Bound Tables</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Browse...</Name>
+    <LocalName>Browse...</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Business description</Name>
+    <LocalName>Business description</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Business key</Name>
+    <LocalName>Business key</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Business name</Name>
+    <LocalName>Business name</LocalName>
+  </Translation>
+  <Translation>
+    <Name>CSS style</Name>
+    <LocalName>CSS style</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Cache size</Name>
+    <LocalName>Cache size</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Callback type</Name>
+    <LocalName>Callback type</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Capacity</Name>
+    <LocalName>Capacity</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Capital cost</Name>
+    <LocalName>Capital cost</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Capital cost by unit</Name>
+    <LocalName>Capital cost by unit</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Cascade</Name>
+    <LocalName>Cascade</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Cascade persist</Name>
+    <LocalName>Cascade persist</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Catalog</Name>
+    <LocalName>Catalog</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Catalog name</Name>
+    <LocalName>Catalog name</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Change data type to</Name>
+    <LocalName>Change data type to</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Specifies the user who last changed the object and when the change was made.</Comment>
+    <Name>Changed by</Name>
+    <LocalName>Changed by</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Specifies the user who last changed the object and when the change was made.</Comment>
+    <Name>Changed on date</Name>
+    <LocalName>Changed on date</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Specifies the user who last changed the object and when the change was made.</Comment>
+    <Name>Changed on time</Name>
+    <LocalName>Changed on time</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Character convert</Name>
+    <LocalName>Character convert</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Check</Name>
+    <LocalName>Check</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Check SQL Statement configure</Name>
+    <LocalName>Check SQL Statement configure</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Enables validation of objects and property values (such as the uniqueness of names and codes) during import. Disabling this option can provide significant performance improvements when importing larger files. Data integrity can be confirmed after the import by selecting Tools &gt; Check Model (or pressing F4) in the model.</Comment>
+    <Name>Check data integrity</Name>
+    <LocalName>Check data integrity</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Check flag</Name>
+    <LocalName>Check flag</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Check locks interval</Name>
+    <LocalName>Check locks interval</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Check locks times</Name>
+    <LocalName>Check locks times</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Check the dedicated route is from the primary replication server.</Name>
+    <LocalName>Check the dedicated route is from the primary replication server.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Check the default data connection is unique.</Name>
+    <LocalName>Check the default data connection is unique.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Check there is only one shared route between two replication processes.</Name>
+    <LocalName>Check there is only one shared route between two replication processes.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Check threshold for database replication definition</Name>
+    <LocalName>Check threshold for database replication definition</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Check threshold for replication definition</Name>
+    <LocalName>Check threshold for replication definition</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Check whether the primary connection is defined for the subscription.</Name>
+    <LocalName>Check whether the primary connection is defined for the subscription.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Check whether the table defined in the replication definition is bound to the primary connection of the subscription.</Name>
+    <LocalName>Check whether the table defined in the replication definition is bound to the primary connection of the subscription.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Check whether there is a shared route connected for the dedicated route.</Name>
+    <LocalName>Check whether there is a shared route connected for the dedicated route.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Checks if database type of PDM supported in Data Services.</Name>
+    <LocalName>Checks if database type of PDM supported in Data Services.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Child table cardinality</Name>
+    <LocalName>Child table cardinality</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Class Mapping does not match with PDM</Name>
+    <LocalName>Class Mapping does not match with PDM</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>The imported class name (may be a standard class name or a stereotype used as metaclass)</Comment>
+    <Name>Class Name</Name>
+    <LocalName>Class Name</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Class Options</Name>
+    <LocalName>Class Options</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Class options</Name>
+    <LocalName>Class options</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Class tag options</Name>
+    <LocalName>Class tag options</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Cluster table</Name>
+    <LocalName>Cluster table</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Code</Name>
+    <LocalName>Code</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Collection options</Name>
+    <LocalName>Collection options</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Collection type</Name>
+    <LocalName>Collection type</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Color</Name>
+    <LocalName>Color</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Column</Name>
+    <LocalName>Column</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Defines the mapping between an Excel column and an object attribute</Comment>
+    <Name>Column Mapping</Name>
+    <LocalName>Column Mapping</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Column Mappings</Name>
+    <LocalName>Column Mappings</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Column cannot be flag identity</Name>
+    <LocalName>Column cannot be flag identity</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Column header</Name>
+    <LocalName>Column header</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Column height</Name>
+    <LocalName>Column height</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Column height in cm</Name>
+    <LocalName>Column height in cm</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Column label</Name>
+    <LocalName>Column label</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Column mapped by attribute should not be &quot;Mandatory&quot; in subclass inheritance hierarchy.</Name>
+    <LocalName>Column mapped by attribute should not be &quot;Mandatory&quot; in subclass inheritance hierarchy.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Column mapped by attribute should not be mandatory in subclass inheritance hierarchy.</Name>
+    <LocalName>Column mapped by attribute should not be mandatory in subclass inheritance hierarchy.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Column mapping to the attribute should not be &quot;Mandatory&quot; in subclass inheritance hierarchy.</Name>
+    <LocalName>Column mapping to the attribute should not be &quot;Mandatory&quot; in subclass inheritance hierarchy.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Column name</Name>
+    <LocalName>Column name</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Column replication type</Name>
+    <LocalName>Column replication type</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Column width</Name>
+    <LocalName>Column width</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Column width in cm</Name>
+    <LocalName>Column width in cm</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>A description of columns mapping for this table</Comment>
+    <Name>Columns</Name>
+    <LocalName>Columns</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Command batch size</Name>
+    <LocalName>Command batch size</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Command retry</Name>
+    <LocalName>Command retry</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Command separator</Name>
+    <LocalName>Command separator</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Column comment</Comment>
+    <Name>Comment</Name>
+    <LocalName>Comment</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Comment:</Name>
+    <LocalName>Comment:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Commit control</Name>
+    <LocalName>Commit control</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ComponentID options</Name>
+    <LocalName>ComponentID options</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Composite id unsaved value</Name>
+    <LocalName>Composite id unsaved value</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Connection</Name>
+    <LocalName>Connection</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Connection Options</Name>
+    <LocalName>Connection Options</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Connection Profile</Name>
+    <LocalName>Connection Profile</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>the version of Connection Profile</Comment>
+    <Name>Connection Profile Version</Name>
+    <LocalName>Connection Profile Version</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Connection URL</Name>
+    <LocalName>Connection URL</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Connection option</Name>
+    <LocalName>Connection option</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Connection pool size</Name>
+    <LocalName>Connection pool size</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Connection profile</Name>
+    <LocalName>Connection profile</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Connection profile version</Name>
+    <LocalName>Connection profile version</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Connection string</Name>
+    <LocalName>Connection string</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Connection string (using)</Name>
+    <LocalName>Connection string (using)</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Connection string:</Name>
+    <LocalName>Connection string:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Connection to a database</Name>
+    <LocalName>Connection to a database</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Connection type</Comment>
+    <Name>Connection type:</Name>
+    <LocalName>Connection type:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Contain the private attribute in value type class</Name>
+    <LocalName>Contain the private attribute in value type class</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Contain the private primary key attribute</Name>
+    <LocalName>Contain the private primary key attribute</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Control Type:</Name>
+    <LocalName>Control Type:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Control type</Name>
+    <LocalName>Control type</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Specifies function modules that are executed when values are input to and
+displayed in the ABAP screen field.</Comment>
+    <Name>Conversion routine</Name>
+    <LocalName>Conversion routine</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Correctness of attribute mapping</Name>
+    <LocalName>Correctness of attribute mapping</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Correctness of joined table mapping</Name>
+    <LocalName>Correctness of joined table mapping</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Correctness of optimistic lock mapping</Name>
+    <LocalName>Correctness of optimistic lock mapping</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Correctness of table mapping</Name>
+    <LocalName>Correctness of table mapping</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Cost by time unit</Name>
+    <LocalName>Cost by time unit</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Cost by time unit and by unit</Name>
+    <LocalName>Cost by time unit and by unit</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Cost by unit</Name>
+    <LocalName>Cost by unit</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Create LTL character parameter automatically</Name>
+    <LocalName>Create LTL character parameter automatically</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Create default symbols for imported objects in current diagram.</Comment>
+    <Name>Create Symbols</Name>
+    <LocalName>Create Symbols</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Create associated objects if not found</Name>
+    <LocalName>Create associated objects if not found</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Create the object if the reference could not be found</Comment>
+    <Name>Create if not exist</Name>
+    <LocalName>Create if not exist</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Create symbols in active diagram</Name>
+    <LocalName>Create symbols in active diagram</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Specifies the user who created the object and when the change was made.</Comment>
+    <Name>Created by</Name>
+    <LocalName>Created by</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Specifies the user who created the object and when the change was made.</Comment>
+    <Name>Created on date</Name>
+    <LocalName>Created on date</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Specifies the user who created the object and when the change was made.</Comment>
+    <Name>Created on time</Name>
+    <LocalName>Created on time</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Currency code</Name>
+    <LocalName>Currency code</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Currency symbol</Name>
+    <LocalName>Currency symbol</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Current language is not Java 5.0</Name>
+    <LocalName>Current language is not Java 5.0</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Current object language should be C# 2.0 or Visual Basic 2005</Name>
+    <LocalName>Current object language should be C# 2.0 or Visual Basic 2005</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Custom descriptor</Name>
+    <LocalName>Custom descriptor</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Specifies the users who customized the component and wrote the release notes
+for the customization.</Comment>
+    <Name>Customized by</Name>
+    <LocalName>Customized by</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DAL Container</Name>
+    <LocalName>DAL Container</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DAL container</Name>
+    <LocalName>DAL container</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DAL container:</Name>
+    <LocalName>DAL container:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DAO options</Name>
+    <LocalName>DAO options</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Specifies that a list of database systems is used as:
+- I - List of inclusions: create index on these DB systems.
+- E - List of exclusions: do not create index on these DB systems.</Comment>
+    <Name>DB include exclude</Name>
+    <LocalName>DB include exclude</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Specifies the associated database index name.</Comment>
+    <Name>DB index name</Name>
+    <LocalName>DB index name</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DBMS</Name>
+    <LocalName>DBMS</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DDL Password</Name>
+    <LocalName>DDL Password</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DDL User Name</Name>
+    <LocalName>DDL User Name</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DSI bulk copy</Name>
+    <LocalName>DSI bulk copy</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DSI bulk threshold</Name>
+    <LocalName>DSI bulk threshold</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DSI command convert</Name>
+    <LocalName>DSI command convert</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DSI compile enable</Name>
+    <LocalName>DSI compile enable</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DSI compile max cmds</Name>
+    <LocalName>DSI compile max cmds</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DSI connector type</Name>
+    <LocalName>DSI connector type</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DSI dataserver make</Name>
+    <LocalName>DSI dataserver make</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DSI isolation level</Name>
+    <LocalName>DSI isolation level</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data Connection:</Name>
+    <LocalName>Data Connection:</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>The replication paths grouped by this logical path.</Comment>
+    <Name>Data Connections</Name>
+    <LocalName>Data Connections</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data Connections between same Database and Server</Name>
+    <LocalName>Data Connections between same Database and Server</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data Dictionary</Name>
+    <LocalName>Data Dictionary</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Data element</Comment>
+    <Name>Data Elements</Name>
+    <LocalName>Data Elements</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Computed attribute that allows to perform some checks &amp; cascade effects
+when assigning new value for persisted data source</Comment>
+    <Name>Data Source</Name>
+    <LocalName>Data Source</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data Source:</Name>
+    <LocalName>Data Source:</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Each object of this kind define a mapping from data type that would be generated by default and a user specified data type.</Comment>
+    <Name>Data Type Mapping</Name>
+    <LocalName>Data Type Mapping</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data Type Mappings</Name>
+    <LocalName>Data Type Mappings</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data Type:</Name>
+    <LocalName>Data Type:</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Specifies the data type of the column in terms of the ABAP Dictionary</Comment>
+    <Name>Data dictionary data type</Name>
+    <LocalName>Data dictionary data type</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Specifies the data element attached to the field.</Comment>
+    <Name>Data element</Name>
+    <LocalName>Data element</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data element code</Name>
+    <LocalName>Data element code</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data font</Name>
+    <LocalName>Data font</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data justify</Name>
+    <LocalName>Data justify</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data movement mode</Name>
+    <LocalName>Data movement mode</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data operation options</Name>
+    <LocalName>Data operation options</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data provider list:</Name>
+    <LocalName>Data provider list:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data provider:</Name>
+    <LocalName>Data provider:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data source</Name>
+    <LocalName>Data source</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data source name</Name>
+    <LocalName>Data source name</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data source specification</Name>
+    <LocalName>Data source specification</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data source:</Name>
+    <LocalName>Data source:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data type</Name>
+    <LocalName>Data type</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data types mapping table</Name>
+    <LocalName>Data types mapping table</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Data element</Comment>
+    <Name>DataElement</Name>
+    <LocalName>DataElement</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DataType</Name>
+    <LocalName>DataType</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Database Connection</Name>
+    <LocalName>Database Connection</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Database Options</Name>
+    <LocalName>Database Options</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Database code</Name>
+    <LocalName>Database code</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Database connection options</Name>
+    <LocalName>Database connection options</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Database file name:</Name>
+    <LocalName>Database file name:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Database name</Name>
+    <LocalName>Database name</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>If not applicable, please leave empty.</Comment>
+    <Name>Database name:</Name>
+    <LocalName>Database name:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Database type</Name>
+    <LocalName>Database type</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Please open related PDM first, and the value is the same as the database type(DBMS) of the first PDM.</Comment>
+    <Name>Database type:</Name>
+    <LocalName>Database type:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Databases</Name>
+    <LocalName>Databases</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Each object of this kind define a mapping from data type that would be generated by default and a user specified data type.</Comment>
+    <Name>DatatypeMappings</Name>
+    <LocalName>DatatypeMappings</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Date and time pattern</Name>
+    <LocalName>Date and time pattern</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Date display pattern</Name>
+    <LocalName>Date display pattern</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Date format</Name>
+    <LocalName>Date format</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Calculated attribute for setting the dedicated routes.</Comment>
+    <Name>Dedicated Route Setter</Name>
+    <LocalName>Dedicated Route Setter</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Automatically guess the default mapping for columns, comparing the column name with attribute name and trying to reuse previous mapping of columns from other tables.</Comment>
+    <Name>Default Column Mapping</Name>
+    <LocalName>Default Column Mapping</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default access</Name>
+    <LocalName>Default access</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default access type</Name>
+    <LocalName>Default access type</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default access:</Name>
+    <LocalName>Default access:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default cascade</Name>
+    <LocalName>Default cascade</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default cascade type</Name>
+    <LocalName>Default cascade type</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default cascade:</Name>
+    <LocalName>Default cascade:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default command type</Name>
+    <LocalName>Default command type</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default command type:</Name>
+    <LocalName>Default command type:</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Indicate whether the connection is default; only one connection can be set to default.</Comment>
+    <Name>Default connection</Name>
+    <LocalName>Default connection</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default data connection uniqueness</Name>
+    <LocalName>Default data connection uniqueness</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default data type</Name>
+    <LocalName>Default data type</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Specifies the default name for components using the data element.</Comment>
+    <Name>Default name</Name>
+    <LocalName>Default name</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default options</Name>
+    <LocalName>Default options</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Delete procedure code</Name>
+    <LocalName>Delete procedure code</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Delete table code</Name>
+    <LocalName>Delete table code</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Specifies that the delivery class of the view is:
+- A - Application table
+- C - Customer table, maintained by customer
+- L - Table for storing temporary data
+- G - Customer table, SAP can add rows
+- E - Control table
+- S - System table, maintained by SAP
+- W - System table</Comment>
+    <Name>Delivery class</Name>
+    <LocalName>Delivery class</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Dependency factor</Name>
+    <LocalName>Dependency factor</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Deployment options</Name>
+    <LocalName>Deployment options</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Human-readable name of the target DBMS name.</Comment>
+    <Name>Destination DBMS</Name>
+    <LocalName>Destination DBMS</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Diagram scale</Name>
+    <LocalName>Diagram scale</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Dialect</Name>
+    <LocalName>Dialect</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Direct connection</Name>
+    <LocalName>Direct connection</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Discriminator column</Name>
+    <LocalName>Discriminator column</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Discriminator column defined does not exist</Name>
+    <LocalName>Discriminator column defined does not exist</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Discriminator options</Name>
+    <LocalName>Discriminator options</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Discriminator type</Name>
+    <LocalName>Discriminator type</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Discriminator value</Name>
+    <LocalName>Discriminator value</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Disk affinity</Name>
+    <LocalName>Disk affinity</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Display as foreign key label</Name>
+    <LocalName>Display as foreign key label</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Display format pattern</Name>
+    <LocalName>Display format pattern</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Distribution</Name>
+    <LocalName>Distribution</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Distributor write request limit</Name>
+    <LocalName>Distributor write request limit</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Do not use discriminator in insert</Name>
+    <LocalName>Do not use discriminator in insert</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Domain code</Name>
+    <LocalName>Domain code</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Driver class</Name>
+    <LocalName>Driver class</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Dump file directory</Name>
+    <LocalName>Dump file directory</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Dump file name</Name>
+    <LocalName>Dump file name</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Dump load</Name>
+    <LocalName>Dump load</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Dump marker</Name>
+    <LocalName>Dump marker</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Duplicated shared routes</Name>
+    <LocalName>Duplicated shared routes</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Dynamic SQL</Name>
+    <LocalName>Dynamic SQL</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Dynamic Web module</Name>
+    <LocalName>Dynamic Web module</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Dynamic insert</Name>
+    <LocalName>Dynamic insert</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Dynamic sql</Name>
+    <LocalName>Dynamic sql</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Dynamic sql cache management</Name>
+    <LocalName>Dynamic sql cache management</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Dynamic sql cache size</Name>
+    <LocalName>Dynamic sql cache size</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Dynamic update</Name>
+    <LocalName>Dynamic update</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Edit style code</Name>
+    <LocalName>Edit style code</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Empty Web Service</Name>
+    <LocalName>Empty Web Service</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Enable remote admin</Name>
+    <LocalName>Enable remote admin</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Enable replication</Name>
+    <LocalName>Enable replication</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Encoding</Name>
+    <LocalName>Encoding</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Encrypt connection string:</Name>
+    <LocalName>Encrypt connection string:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Enter a server or file name</Name>
+    <LocalName>Enter a server or file name</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Entity name</Name>
+    <LocalName>Entity name</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Error string class</Name>
+    <LocalName>Error string class</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Example</Name>
+    <LocalName>Example</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>An object that stores all mapping information to import the Excel file data</Comment>
+    <Name>Excel</Name>
+    <LocalName>Excel</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Defines the mapping between an Excel column and an object attribute</Comment>
+    <Name>Excel Column Mappings</Name>
+    <LocalName>Excel Column Mappings</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>The filename of the Excel document to import. It can also be a CSV file or any other format that Excel can recognize.</Comment>
+    <Name>Excel File</Name>
+    <LocalName>Excel File</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>An object that stores all mapping information to import the Excel file data</Comment>
+    <Name>Excel Import</Name>
+    <LocalName>Excel Import</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Excel Import Wizard</Name>
+    <LocalName>Excel Import Wizard</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>An object that stores all mapping information to import the Excel file data</Comment>
+    <Name>Excel Imports</Name>
+    <LocalName>Excel Imports</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Existence of abstract class</Name>
+    <LocalName>Existence of abstract class</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Existence of connectivity information</Name>
+    <LocalName>Existence of connectivity information</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Existence of data connection for ODBC</Name>
+    <LocalName>Existence of data connection for ODBC</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Existence of data source for Proxy</Name>
+    <LocalName>Existence of data source for Proxy</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Existence of data source mapping</Name>
+    <LocalName>Existence of data source mapping</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Existence of discriminator for subclass inheritance mapping</Name>
+    <LocalName>Existence of discriminator for subclass inheritance mapping</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Existence of duplicate column mapping</Name>
+    <LocalName>Existence of duplicate column mapping</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Existence of duplicated column mapping</Name>
+    <LocalName>Existence of duplicated column mapping</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Existence of master source table</Name>
+    <LocalName>Existence of master source table</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Existence of non-primary-identifier attribute</Name>
+    <LocalName>Existence of non-primary-identifier attribute</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Existence of persistence support</Name>
+    <LocalName>Existence of persistence support</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Existence of persistent attribute in primary identifier</Name>
+    <LocalName>Existence of persistent attribute in primary identifier</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Existence of primary identifier</Name>
+    <LocalName>Existence of primary identifier</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Existence of reflexive reference in PDM</Name>
+    <LocalName>Existence of reflexive reference in PDM</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Existence of unknown attribute</Name>
+    <LocalName>Existence of unknown attribute</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Existence of value type class in the association relationship</Name>
+    <LocalName>Existence of value type class in the association relationship</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Existence the illegal keywords</Name>
+    <LocalName>Existence the illegal keywords</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Extension</Name>
+    <LocalName>Extension</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Specifies that the index is an extension index.</Comment>
+    <Name>Extension Index</Name>
+    <LocalName>Extension Index</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Extensions file\nfor new extended attributes</Name>
+    <LocalName>Extensions file\nfor new extended attributes</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Fade out time</Name>
+    <LocalName>Fade out time</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Fetch</Name>
+    <LocalName>Fetch</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Fetch type</Name>
+    <LocalName>Fetch type</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Field code</Name>
+    <LocalName>Field code</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Field delimiter</Name>
+    <LocalName>Field delimiter</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Specifies whether the field is:
+- &lt;Empty&gt; - Built-in type
+- E - Data element
+- S - Structure
+- L - Table type</Comment>
+    <Name>Field type</Name>
+    <LocalName>Field type</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Files and libraries</Name>
+    <LocalName>Files and libraries</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Finance</Name>
+    <LocalName>Finance</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Finance capital cost</Name>
+    <LocalName>Finance capital cost</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Finance cost by time unit</Name>
+    <LocalName>Finance cost by time unit</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Finance currency symbol</Name>
+    <LocalName>Finance currency symbol</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Finance overhead cost</Name>
+    <LocalName>Finance overhead cost</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Finance overhead revenue</Name>
+    <LocalName>Finance overhead revenue</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Specifies that permitted values are limited to those specified.</Comment>
+    <Name>Fixed values</Name>
+    <LocalName>Fixed values</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Footer JSP file</Name>
+    <LocalName>Footer JSP file</LocalName>
+  </Translation>
+  <Translation>
+    <Name>For an Xcolumn mapping, source table of root element must be flagged not generated.</Name>
+    <LocalName>For an Xcolumn mapping, source table of root element must be flagged not generated.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>For new articles</Name>
+    <LocalName>For new articles</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Force usage of discriminator</Name>
+    <LocalName>Force usage of discriminator</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Form Options</Name>
+    <LocalName>Form Options</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Form control width</Name>
+    <LocalName>Form control width</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Form label width</Name>
+    <LocalName>Form label width</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Format mask code</Name>
+    <LocalName>Format mask code</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Format mask text</Name>
+    <LocalName>Format mask text</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Full message service</Name>
+    <LocalName>Full message service</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Function Replication Definition</Name>
+    <LocalName>Function Replication Definition</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Function Replication Definitions</Name>
+    <LocalName>Function Replication Definitions</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Function String</Name>
+    <LocalName>Function String</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Function String Options</Name>
+    <LocalName>Function String Options</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Function Strings</Name>
+    <LocalName>Function Strings</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Function replication definition name</Name>
+    <LocalName>Function replication definition name</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Function string class</Name>
+    <LocalName>Function string class</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Function string class name</Name>
+    <LocalName>Function string class name</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Function string name</Name>
+    <LocalName>Function string name</LocalName>
+  </Translation>
+  <Translation>
+    <Name>General</Name>
+    <LocalName>General</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Generate</Name>
+    <LocalName>Generate</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Generate Test Method</Name>
+    <LocalName>Generate Test Method</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Generate finder</Name>
+    <LocalName>Generate finder</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Generate finder function</Name>
+    <LocalName>Generate finder function</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Generate test method</Name>
+    <LocalName>Generate test method</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Generated function name</Name>
+    <LocalName>Generated function name</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Generator allocation size</Name>
+    <LocalName>Generator allocation size</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Generator class</Name>
+    <LocalName>Generator class</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Generator class (idbag)</Name>
+    <LocalName>Generator class (idbag)</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Generator initial value</Name>
+    <LocalName>Generator initial value</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Generator params</Name>
+    <LocalName>Generator params</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Generator params (idbag)</Name>
+    <LocalName>Generator params (idbag)</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>An abstract stereotype that factorizes all extensions common to all import features.</Comment>
+    <Name>Generic Import</Name>
+    <LocalName>Generic Import</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Global options</Name>
+    <LocalName>Global options</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Group size</Name>
+    <LocalName>Group size</LocalName>
+  </Translation>
+  <Translation>
+    <Name>HTTP get port type</Name>
+    <LocalName>HTTP get port type</LocalName>
+  </Translation>
+  <Translation>
+    <Name>HTTP post port type</Name>
+    <LocalName>HTTP post port type</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Halt simulation at limit</Name>
+    <LocalName>Halt simulation at limit</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Has bitmap</Name>
+    <LocalName>Has bitmap</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Header JSP file</Name>
+    <LocalName>Header JSP file</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Header font</Name>
+    <LocalName>Header font</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Header justify</Name>
+    <LocalName>Header justify</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Hibernate type</Name>
+    <LocalName>Hibernate type</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Hide attributes.</Comment>
+    <Name>Hidden</Name>
+    <LocalName>Hidden</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Homogeneous Routes</Name>
+    <LocalName>Homogeneous Routes</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Specifies the host name or IP address of the server on which the Business Suite
+installation is running.</Comment>
+    <Name>Host name</Name>
+    <LocalName>Host name</LocalName>
+  </Translation>
+  <Translation>
+    <Name>IP Address</Name>
+    <LocalName>IP Address</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Id unsaved value</Name>
+    <LocalName>Id unsaved value</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Identifier options</Name>
+    <LocalName>Identifier options</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Identity flag on article column</Comment>
+    <Name>Identity</Name>
+    <LocalName>Identity</LocalName>
+  </Translation>
+  <Translation>
+    <Name>If message show, it means that you have not map class into table or association into reference</Name>
+    <LocalName>If message show, it means that you have not map class into table or association into reference</LocalName>
+  </Translation>
+  <Translation>
+    <Name>If the message is shown, it means that you have not mapped class with table, or association with reference</Name>
+    <LocalName>If the message is shown, it means that you have not mapped class with table, or association with reference</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Ignore underscore name</Name>
+    <LocalName>Ignore underscore name</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Import</Name>
+    <LocalName>Import</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Import Column</Name>
+    <LocalName>Import Column</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Import Options</Name>
+    <LocalName>Import Options</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Import Table</Name>
+    <LocalName>Import Table</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Import as</Name>
+    <LocalName>Import as</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Import column</Name>
+    <LocalName>Import column</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Import table</Name>
+    <LocalName>Import table</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>A computed attribute that returns the kind of object that is associated to the table</Comment>
+    <Name>Imported Kind</Name>
+    <LocalName>Imported Kind</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>An optional stereotype that the imported objects must have</Comment>
+    <Name>Imported Stereotype</Name>
+    <LocalName>Imported Stereotype</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>The kind of object that must be created for this table</Comment>
+    <Name>Imported Type</Name>
+    <LocalName>Imported Type</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Imported class name</Name>
+    <LocalName>Imported class name</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Imported file</Name>
+    <LocalName>Imported file</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Include structure</Name>
+    <LocalName>Include structure</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Include structure code</Name>
+    <LocalName>Include structure code</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Inconsistent inputs</Name>
+    <LocalName>Inconsistent inputs</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Inconsistent with inputs</Name>
+    <LocalName>Inconsistent with inputs</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Incorrect Actor Association</Name>
+    <LocalName>Incorrect Actor Association</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Incorrect Actor Collaboration</Name>
+    <LocalName>Incorrect Actor Collaboration</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Incorrect Boundary to Boundary Link</Name>
+    <LocalName>Incorrect Boundary to Boundary Link</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Incorrect Entity Access</Name>
+    <LocalName>Incorrect Entity Access</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Incorrectness of column type</Name>
+    <LocalName>Incorrectness of column type</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Index column</Name>
+    <LocalName>Index column</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Initial catalog:</Name>
+    <LocalName>Initial catalog:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Initial item count</Name>
+    <LocalName>Initial item count</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Initial value</Name>
+    <LocalName>Initial value</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Inner class can be instantiated</Name>
+    <LocalName>Inner class can be instantiated</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Input HTTP get message name</Name>
+    <LocalName>Input HTTP get message name</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Input HTTP post message name</Name>
+    <LocalName>Input HTTP post message name</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Input SOAP body parts</Name>
+    <LocalName>Input SOAP body parts</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Input SOAP body use</Name>
+    <LocalName>Input SOAP body use</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Input SOAP message name</Name>
+    <LocalName>Input SOAP message name</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Specifies the origin of input help:
+- &lt;empty&gt; - No input help exists
+- X - Explicit search help attachment to field
+- P - Input help implemented with check table
+- D - Explicit search help attachment to data element
+- F - Input help with fixed values
+- T - Input help based on data type</Comment>
+    <Name>Input help</Name>
+    <LocalName>Input help</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Insert</Name>
+    <LocalName>Insert</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Insert procedure code</Name>
+    <LocalName>Insert procedure code</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Insert table code</Name>
+    <LocalName>Insert table code</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Insertable</Name>
+    <LocalName>Insertable</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Inter-arrival time</Name>
+    <LocalName>Inter-arrival time</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Internal classification</Name>
+    <LocalName>Internal classification</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid &quot;or&quot; in lookup script</Name>
+    <LocalName>Invalid &quot;or&quot; in lookup script</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid &quot;|&quot; in source expression</Name>
+    <LocalName>Invalid &quot;|&quot; in source expression</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid Group by clause in lookup script</Name>
+    <LocalName>Invalid Group by clause in lookup script</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid Mapping of DAD</Name>
+    <LocalName>Invalid Mapping of DAD</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid XSD file</Name>
+    <LocalName>Invalid XSD file</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid bound procedures</Name>
+    <LocalName>Invalid bound procedures</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid bound tables</Name>
+    <LocalName>Invalid bound tables</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid data connections</Name>
+    <LocalName>Invalid data connections</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid data structure columns</Name>
+    <LocalName>Invalid data structure columns</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid dedicated route</Name>
+    <LocalName>Invalid dedicated route</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid default logical connection</Name>
+    <LocalName>Invalid default logical connection</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid kind of data type</Name>
+    <LocalName>Invalid kind of data type</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid lookup column</Name>
+    <LocalName>Invalid lookup column</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid lookup mode</Name>
+    <LocalName>Invalid lookup mode</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid non-&quot;select&quot; statement in lookup script</Name>
+    <LocalName>Invalid non-&quot;select&quot; statement in lookup script</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid placement of data structure column in Where clause</Name>
+    <LocalName>Invalid placement of data structure column in Where clause</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid placement of lookup table column in Where clause</Name>
+    <LocalName>Invalid placement of lookup table column in Where clause</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid placement of lookup table in Where clause</Name>
+    <LocalName>Invalid placement of lookup table in Where clause</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid primary logical connection</Name>
+    <LocalName>Invalid primary logical connection</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Inverse collection</Name>
+    <LocalName>Inverse collection</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Inverse side</Name>
+    <LocalName>Inverse side</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Is element from DTD</Name>
+    <LocalName>Is element from DTD</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Specifies that the table contains extensions.</Comment>
+    <Name>Is extended</Name>
+    <LocalName>Is extended</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Specifies that the field belongs to a key area.</Comment>
+    <Name>Is key</Name>
+    <LocalName>Is key</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Checks if objects associated to this table are sub-objects</Comment>
+    <Name>Is sub-object</Name>
+    <LocalName>Is sub-object</LocalName>
+  </Translation>
+  <Translation>
+    <Name>JDBC driver Jar</Name>
+    <LocalName>JDBC driver Jar</LocalName>
+  </Translation>
+  <Translation>
+    <Name>JDBC driver class</Name>
+    <LocalName>JDBC driver class</LocalName>
+  </Translation>
+  <Translation>
+    <Name>JSF configuration</Name>
+    <LocalName>JSF configuration</LocalName>
+  </Translation>
+  <Translation>
+    <Name>JSF runtime</Name>
+    <LocalName>JSF runtime</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Joined table mapping is not correct</Name>
+    <LocalName>Joined table mapping is not correct</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Keep triggers</Name>
+    <LocalName>Keep triggers</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Key access</Name>
+    <LocalName>Key access</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Key column should be defined for ordered collection</Name>
+    <LocalName>Key column should be defined for ordered collection</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Key generation mode</Name>
+    <LocalName>Key generation mode</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Key in Collection has not been defined</Name>
+    <LocalName>Key in Collection has not been defined</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Keywords</Name>
+    <LocalName>Keywords</LocalName>
+  </Translation>
+  <Translation>
+    <Name>LTI write request limit</Name>
+    <LocalName>LTI write request limit</LocalName>
+  </Translation>
+  <Translation>
+    <Name>LTL character case</Name>
+    <LocalName>LTL character case</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Label font</Name>
+    <LocalName>Label font</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Label justify</Name>
+    <LocalName>Label justify</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Large message</Name>
+    <LocalName>Large message</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Lazy</Name>
+    <LocalName>Lazy</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Lazy loading</Name>
+    <LocalName>Lazy loading</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Specifies the supported number of characters and the number that can be displayed
+in ABAP forms.</Comment>
+    <Name>Length</Name>
+    <LocalName>Length</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Length:</Name>
+    <LocalName>Length:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Limit</Name>
+    <LocalName>Limit</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>The separator string to use when several values are displayed in a cell.</Comment>
+    <Name>List Separator</Name>
+    <LocalName>List Separator</LocalName>
+  </Translation>
+  <Translation>
+    <Name>List name</Name>
+    <LocalName>List name</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Specifies lists of database systems for inclusion or exclusion by the index.</Comment>
+    <Name>List of database system 1</Name>
+    <LocalName>List of database system 1</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Specifies lists of database systems for inclusion or exclusion by the index.</Comment>
+    <Name>List of database system 2</Name>
+    <LocalName>List of database system 2</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Specifies lists of database systems for inclusion or exclusion by the index.</Comment>
+    <Name>List of database system 3</Name>
+    <LocalName>List of database system 3</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Specifies lists of database systems for inclusion or exclusion by the index.</Comment>
+    <Name>List of database system 4</Name>
+    <LocalName>List of database system 4</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Lists all extended sub-object classes available in the model.</Comment>
+    <Name>List of extended sub-objects</Name>
+    <LocalName>List of extended sub-objects</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Lists all classes that can be created in the model, including classes of sub-objects.</Comment>
+    <Name>List of instantiable classes</Name>
+    <LocalName>List of instantiable classes</LocalName>
+  </Translation>
+  <Translation>
+    <Name>List of objects</Name>
+    <LocalName>List of objects</LocalName>
+  </Translation>
+  <Translation>
+    <Name>List value separator</Name>
+    <LocalName>List value separator</LocalName>
+  </Translation>
+  <Translation>
+    <Name>List values method</Name>
+    <LocalName>List values method</LocalName>
+  </Translation>
+  <Translation>
+    <Name>List-index column for ListCollection is not defined</Name>
+    <LocalName>List-index column for ListCollection is not defined</LocalName>
+  </Translation>
+  <Translation>
+    <Name>List-index column in ListCollection has not been defined</Name>
+    <LocalName>List-index column in ListCollection has not been defined</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Load file directory</Name>
+    <LocalName>Load file directory</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Local user name</Name>
+    <LocalName>Local user name</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Locale</Name>
+    <LocalName>Locale</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Location of output on device:</Name>
+    <LocalName>Location of output on device:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Location:</Name>
+    <LocalName>Location:</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Specifies the lock mode for the field:
+- E - Write lock
+- S - Read lock
+- X - Exclusive lock</Comment>
+    <Name>Lock mode</Name>
+    <LocalName>Lock mode</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Log on to the server</Name>
+    <LocalName>Log on to the server</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Log type</Name>
+    <LocalName>Log type</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Logging File</Name>
+    <LocalName>Logging File</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Logging Options</Name>
+    <LocalName>Logging Options</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Logging Type</Name>
+    <LocalName>Logging Type</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Logging type:</Name>
+    <LocalName>Logging type:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Logical Connection</Name>
+    <LocalName>Logical Connection</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Logical Connections</Name>
+    <LocalName>Logical Connections</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Logical replication paths for ASE replication agents, used to group multiple replication path (data connections) and bind table/procedures to it.</Comment>
+    <Name>Logical Path</Name>
+    <LocalName>Logical Path</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Calculated attribute to create logical paths.</Comment>
+    <Name>Logical Path Setter</Name>
+    <LocalName>Logical Path Setter</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Logical replication paths for ASE replication agents, used to group multiple replication path (data connections) and bind table/procedures to it.</Comment>
+    <Name>Logical Paths</Name>
+    <LocalName>Logical Paths</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Logical name</Name>
+    <LocalName>Logical name</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Logical name:</Name>
+    <LocalName>Logical name:</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Logical replication paths for ASE replication agents, used to group multiple replication path (data connections) and bind table/procedures to it.</Comment>
+    <Name>Logical_Path</Name>
+    <LocalName>Logical_Path</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Login Information</Name>
+    <LocalName>Login Information</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Login information</Name>
+    <LocalName>Login information</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Login:</Name>
+    <LocalName>Login:</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Specifies that lookup table from which to draw key values, is of type T.</Comment>
+    <Name>Lookup table</Name>
+    <LocalName>Lookup table</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Lookup table code</Name>
+    <LocalName>Lookup table code</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Lower bound</Name>
+    <LocalName>Lower bound</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Lower bound time</Name>
+    <LocalName>Lower bound time</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Specifies that lowercase letters are supported.</Comment>
+    <Name>Lowercase</Name>
+    <LocalName>Lowercase</LocalName>
+  </Translation>
+  <Translation>
+    <Name>MSSQL mobile database file:</Name>
+    <LocalName>MSSQL mobile database file:</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Specifies whether the package is a:
+- &lt;empty&gt; - Development Package
+- X- Main Package, which does not contain any development elements itself;
+and provides a structure for its children
+- S - Structure Package</Comment>
+    <Name>Main package</Name>
+    <LocalName>Main package</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Specifies the maintenance status of the field:
+- &lt;empty&gt; - View is available as normal
+- R - View field can only be read
+- S - View field is used to form subsets
+- H - View field is not transferred to the maintenance screens</Comment>
+    <Name>Maintenance status</Name>
+    <LocalName>Maintenance status</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Maintenance user should not be a DDL User</Name>
+    <LocalName>Maintenance user should not be a DDL User</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Maintenance user should not be a Replication Agent User</Name>
+    <LocalName>Maintenance user should not be a Replication Agent User</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Mandatory</Name>
+    <LocalName>Mandatory</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Manufacturer</Name>
+    <LocalName>Manufacturer</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Many-to-Many association must have the middle table in PDM</Name>
+    <LocalName>Many-to-Many association must have the middle table in PDM</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Many-to-Many operation side</Name>
+    <LocalName>Many-to-Many operation side</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Many-to-Many self association is not supported by Hibernate</Name>
+    <LocalName>Many-to-Many self association is not supported by Hibernate</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Many-to-Many self association is not supported by NHibernate</Name>
+    <LocalName>Many-to-Many self association is not supported by NHibernate</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Map data type from</Name>
+    <LocalName>Map data type from</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Mapped by default to:</Name>
+    <LocalName>Mapped by default to:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Mapping</Name>
+    <LocalName>Mapping</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>A computed attribute that describes existing mapping</Comment>
+    <Name>Mapping Description</Name>
+    <LocalName>Mapping Description</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Mapping definition type</Name>
+    <LocalName>Mapping definition type</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Mapping description</Name>
+    <LocalName>Mapping description</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Mapping for association with association class is not supported</Name>
+    <LocalName>Mapping for association with association class is not supported</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Column of source model which will be mapped individually</Comment>
+    <Name>Mapping specific column</Name>
+    <LocalName>Mapping specific column</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Mapping type</Name>
+    <LocalName>Mapping type</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Mappings</Name>
+    <LocalName>Mappings</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Materialization</Name>
+    <LocalName>Materialization</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Materialization save interval</Name>
+    <LocalName>Materialization save interval</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Max check locks times</Name>
+    <LocalName>Max check locks times</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Maximum Number of resources</Name>
+    <LocalName>Maximum Number of resources</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Maximum image or text size</Name>
+    <LocalName>Maximum image or text size</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Maximum length</Name>
+    <LocalName>Maximum length</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Maximum length for parameter name</Name>
+    <LocalName>Maximum length for parameter name</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Memory</Name>
+    <LocalName>Memory</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Message confidentiality</Name>
+    <LocalName>Message confidentiality</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Message integrity</Name>
+    <LocalName>Message integrity</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Message origin check</Name>
+    <LocalName>Message origin check</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Message replay detection</Name>
+    <LocalName>Message replay detection</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Message sequence check</Name>
+    <LocalName>Message sequence check</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Message service URL</Name>
+    <LocalName>Message service URL</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Method of persistence entity class must not be final</Name>
+    <LocalName>Method of persistence entity class must not be final</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Microsoft SQL Server Database File (SqlClient)</Name>
+    <LocalName>Microsoft SQL Server Database File (SqlClient)</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Microsoft SQL Server Mobile Edition (.NET Framework Data Provider for SQL Server CE)</Name>
+    <LocalName>Microsoft SQL Server Mobile Edition (.NET Framework Data Provider for SQL Server CE)</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Minimum Number of resources</Name>
+    <LocalName>Minimum Number of resources</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Minimum length</Name>
+    <LocalName>Minimum length</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Minimum wait time</Name>
+    <LocalName>Minimum wait time</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing ODBC connection information</Name>
+    <LocalName>Missing ODBC connection information</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing XML file or XSD file</Name>
+    <LocalName>Missing XML file or XSD file</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing data connection</Name>
+    <LocalName>Missing data connection</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing data mapping</Name>
+    <LocalName>Missing data mapping</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing data type</Name>
+    <LocalName>Missing data type</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing direct connection username</Name>
+    <LocalName>Missing direct connection username</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing output column data mapping</Name>
+    <LocalName>Missing output column data mapping</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing output table primary key data mapping</Name>
+    <LocalName>Missing output table primary key data mapping</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing shared route for dedicated route</Name>
+    <LocalName>Missing shared route for dedicated route</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing source expression</Name>
+    <LocalName>Missing source expression</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing target object</Name>
+    <LocalName>Missing target object</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing the column length</Name>
+    <LocalName>Missing the column length</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Mobile type:</Name>
+    <LocalName>Mobile type:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Modify the default data type mapping for this column.</Name>
+    <LocalName>Modify the default data type mapping for this column.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Modify the default mapping for this data type.</Name>
+    <LocalName>Modify the default mapping for this data type.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Modify the default mappings of data types between the current and target DBMS</Name>
+    <LocalName>Modify the default mappings of data types between the current and target DBMS</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Multiple data connection groups</Name>
+    <LocalName>Multiple data connection groups</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Multiple owner</Name>
+    <LocalName>Multiple owner</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must not have unreachable data model in data source</Name>
+    <LocalName>Must not have unreachable data model in data source</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Mutable</Name>
+    <LocalName>Mutable</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Mutual authorization</Name>
+    <LocalName>Mutual authorization</LocalName>
+  </Translation>
+  <Translation>
+    <Name>NHibernate type</Name>
+    <LocalName>NHibernate type</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Name</Name>
+    <LocalName>Name</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Specifies a deprecated method for organizing package structures.</Comment>
+    <Name>Namespace</Name>
+    <LocalName>Namespace</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Namespaces</Name>
+    <LocalName>Namespaces</LocalName>
+  </Translation>
+  <Translation>
+    <Name>New Attribute</Name>
+    <LocalName>New Attribute</LocalName>
+  </Translation>
+  <Translation>
+    <Name>New Object List</Name>
+    <LocalName>New Object List</LocalName>
+  </Translation>
+  <Translation>
+    <Name>New Object Type</Name>
+    <LocalName>New Object Type</LocalName>
+  </Translation>
+  <Translation>
+    <Name>New object type...</Name>
+    <LocalName>New object type...</LocalName>
+  </Translation>
+  <Translation>
+    <Name>New...</Name>
+    <LocalName>New...</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Next site</Name>
+    <LocalName>Next site</LocalName>
+  </Translation>
+  <Translation>
+    <Name>No inherit</Name>
+    <LocalName>No inherit</LocalName>
+  </Translation>
+  <Translation>
+    <Name>No reference table in association</Name>
+    <LocalName>No reference table in association</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Not defined mandatory on foreign-key when value type collection</Name>
+    <LocalName>Not defined mandatory on foreign-key when value type collection</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Not found</Name>
+    <LocalName>Not found</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Not supported Association Class</Name>
+    <LocalName>Not supported Association Class</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Not supported index column collection on multiple side</Name>
+    <LocalName>Not supported index column collection on multiple side</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Not supported user-defined collection type</Name>
+    <LocalName>Not supported user-defined collection type</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Number</Name>
+    <LocalName>Number</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Number of bytes in log</Name>
+    <LocalName>Number of bytes in log</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Number of commands in log</Name>
+    <LocalName>Number of commands in log</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Number of commands per timeslide</Name>
+    <LocalName>Number of commands per timeslide</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Number of data connections</Name>
+    <LocalName>Number of data connections</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Number of lines</Name>
+    <LocalName>Number of lines</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Number of parallel threads</Name>
+    <LocalName>Number of parallel threads</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Number of rows in DataGridView</Name>
+    <LocalName>Number of rows in DataGridView</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Number of rows in table</Name>
+    <LocalName>Number of rows in table</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Number of threads</Name>
+    <LocalName>Number of threads</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Number of transactions in group</Name>
+    <LocalName>Number of transactions in group</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Number of transactions in log</Name>
+    <LocalName>Number of transactions in log</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Number of visible characters</Name>
+    <LocalName>Number of visible characters</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ODBC</Name>
+    <LocalName>ODBC</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ODBC source name:</Name>
+    <LocalName>ODBC source name:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>OLE DB Provider:</Name>
+    <LocalName>OLE DB Provider:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Object</Name>
+    <LocalName>Object</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Calculated attribute to add object bindings.</Comment>
+    <Name>Object Binding Setter</Name>
+    <LocalName>Object Binding Setter</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Object type</Name>
+    <LocalName>Object type</LocalName>
+  </Translation>
+  <Translation>
+    <Name>One-to-many association is mapped to reference with incorrect direction</Name>
+    <LocalName>One-to-many association is mapped to reference with incorrect direction</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Operating System</Name>
+    <LocalName>Operating System</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Operation options</Name>
+    <LocalName>Operation options</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Optimistic lock</Name>
+    <LocalName>Optimistic lock</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Optimistic lock mapping is not correct</Name>
+    <LocalName>Optimistic lock mapping is not correct</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Optimistic lock options</Name>
+    <LocalName>Optimistic lock options</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Options</Name>
+    <LocalName>Options</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Options...</Name>
+    <LocalName>Options...</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Oracle Database (OracleClient)</Name>
+    <LocalName>Oracle Database (OracleClient)</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Order by</Name>
+    <LocalName>Order by</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Source column data type (display only)</Comment>
+    <Name>Original data type</Name>
+    <LocalName>Original data type</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Specifies the language in which the data element was defined.</Comment>
+    <Name>Original language</Name>
+    <LocalName>Original language</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Source data type</Comment>
+    <Name>Original type</Name>
+    <LocalName>Original type</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Other options</Name>
+    <LocalName>Other options</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Outer join</Name>
+    <LocalName>Outer join</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Output HTTP get message name</Name>
+    <LocalName>Output HTTP get message name</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Output HTTP post message name</Name>
+    <LocalName>Output HTTP post message name</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Output SOAP body parts</Name>
+    <LocalName>Output SOAP body parts</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Output SOAP body use</Name>
+    <LocalName>Output SOAP body use</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Output SOAP message name</Name>
+    <LocalName>Output SOAP message name</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Output file folder:</Name>
+    <LocalName>Output file folder:</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Specifies the supported number of characters and the number that can be displayed
+in ABAP forms.</Comment>
+    <Name>Output length</Name>
+    <LocalName>Output length</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Overwrite function class</Name>
+    <LocalName>Overwrite function class</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Specifies the user currently responsible for the package.</Comment>
+    <Name>Owner</Name>
+    <LocalName>Owner</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Owner of extended attribute system tables</Name>
+    <LocalName>Owner of extended attribute system tables</LocalName>
+  </Translation>
+  <Translation>
+    <Name>PDM does not match with inheritance requirements of NHibernate</Name>
+    <LocalName>PDM does not match with inheritance requirements of NHibernate</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Specifies the package containing the data element.</Comment>
+    <Name>Package code</Name>
+    <LocalName>Package code</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Package options</Name>
+    <LocalName>Package options</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Package prefix</Name>
+    <LocalName>Package prefix</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Packet size</Name>
+    <LocalName>Packet size</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Page options</Name>
+    <LocalName>Page options</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Parallel DSI</Name>
+    <LocalName>Parallel DSI</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Parameter support</Name>
+    <LocalName>Parameter support</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Parent</Name>
+    <LocalName>Parent</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Parent entity</Name>
+    <LocalName>Parent entity</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Parent package</Name>
+    <LocalName>Parent package</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Parent table cardinality</Name>
+    <LocalName>Parent table cardinality</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Partitioning rule</Name>
+    <LocalName>Partitioning rule</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Password</Name>
+    <LocalName>Password</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Please input Password in Data Services after export and import.</Comment>
+    <Name>Password:</Name>
+    <LocalName>Password:</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>File Path</Comment>
+    <Name>Path:</Name>
+    <LocalName>Path:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Permission</Name>
+    <LocalName>Permission</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Persistence entity class should be mapped to table</Name>
+    <LocalName>Persistence entity class should be mapped to table</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Persistence provider</Name>
+    <LocalName>Persistence provider</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>A string identification of the import data source for persistence.</Comment>
+    <Name>Persistent Data Source</Name>
+    <LocalName>Persistent Data Source</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Persistent association should be mapped</Name>
+    <LocalName>Persistent association should be mapped</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Persistent attribute should not be final</Name>
+    <LocalName>Persistent attribute should not be final</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Persistent class in default package</Name>
+    <LocalName>Persistent class in default package</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Persistent class should not be defined in default package</Name>
+    <LocalName>Persistent class should not be defined in default package</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Persistent entity class should be top level class</Name>
+    <LocalName>Persistent entity class should be top level class</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Persistent entity class should not be final</Name>
+    <LocalName>Persistent entity class should not be final</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Persister class</Name>
+    <LocalName>Persister class</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Persister class name</Name>
+    <LocalName>Persister class name</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Phone number</Name>
+    <LocalName>Phone number</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Specifies the database table on which the table or structure is based.</Comment>
+    <Name>Physical Table</Name>
+    <LocalName>Physical Table</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Specifies the database table on which the table or structure is based.</Comment>
+    <Name>Physical table</Name>
+    <LocalName>Physical table</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>SQL table code</Comment>
+    <Name>Physical table code</Name>
+    <LocalName>Physical table code</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Physical tables collection</Comment>
+    <Name>Physical tables</Name>
+    <LocalName>Physical tables</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Picture library path</Name>
+    <LocalName>Picture library path</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Plural</Name>
+    <LocalName>Plural</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Plural name</Name>
+    <LocalName>Plural name</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Polymorphism</Name>
+    <LocalName>Polymorphism</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Pooled table</Name>
+    <LocalName>Pooled table</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Port number</Name>
+    <LocalName>Port number</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Port type</Name>
+    <LocalName>Port type</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Port type name</Name>
+    <LocalName>Port type name</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>If not applicable, please leave empty.</Comment>
+    <Name>Port:</Name>
+    <LocalName>Port:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Post condition</Name>
+    <LocalName>Post condition</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Pre condition</Name>
+    <LocalName>Pre condition</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Specifies the supported number of decimal places.</Comment>
+    <Name>Precision</Name>
+    <LocalName>Precision</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Precision:</Name>
+    <LocalName>Precision:</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Specifies the data connection from the primary database to the source replication server which carries the data being subscribed to.</Comment>
+    <Name>Primary Connection</Name>
+    <LocalName>Primary Connection</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Specifies the data connection from the primary database to the source replication server which carries the data being subscribed to.
+This is the underlying object which should not be modified directly, try to modify the Primary Connection instead.</Comment>
+    <Name>Primary Connection Object</Name>
+    <LocalName>Primary Connection Object</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Calculated collection for data connections linked to source replication processes.</Comment>
+    <Name>Primary Data Connections</Name>
+    <LocalName>Primary Data Connections</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>In environments with multiple parallel logical connections, all the connections must specify one among them as the primary logical connection. The primary logical connection itself sets this field to None.</Comment>
+    <Name>Primary Logical Connection</Name>
+    <LocalName>Primary Logical Connection</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>In environments with multiple parallel logical connections, all the connections must specify one among them as the primary logical connection. The primary logical connection itself sets this field to None.
+This is the underlying object which should not be modified directly, try to modify the Primary Logical Connection instead.</Comment>
+    <Name>Primary Logical Connection Object</Name>
+    <LocalName>Primary Logical Connection Object</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Primary database password</Name>
+    <LocalName>Primary database password</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Primary database port number</Name>
+    <LocalName>Primary database port number</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Primary database user name</Name>
+    <LocalName>Primary database user name</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Primary identifier must be defined</Name>
+    <LocalName>Primary identifier must be defined</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Primary identifier must contain persistent attribute</Name>
+    <LocalName>Primary identifier must contain persistent attribute</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Primary key</Name>
+    <LocalName>Primary key</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Primary key join does not exist</Name>
+    <LocalName>Primary key join does not exist</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Primary procedure name</Name>
+    <LocalName>Primary procedure name</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Primary table name</Name>
+    <LocalName>Primary table name</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Priority</Name>
+    <LocalName>Priority</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Show binding information of stored procedures and replication paths.</Comment>
+    <Name>Procedure Binding Matrix</Name>
+    <LocalName>Procedure Binding Matrix</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Procedure lacks of owner information</Name>
+    <LocalName>Procedure lacks of owner information</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Procedure option</Name>
+    <LocalName>Procedure option</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Show binding information of stored procedures and replication paths.</Comment>
+    <Name>ProcedureBindingMatrix</Name>
+    <LocalName>ProcedureBindingMatrix</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Procedures</Name>
+    <LocalName>Procedures</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Process:</Name>
+    <LocalName>Process:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Processors</Name>
+    <LocalName>Processors</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Properties</Name>
+    <LocalName>Properties</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Property access</Name>
+    <LocalName>Property access</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Property attribute cannot be mapped to column</Name>
+    <LocalName>Property attribute cannot be mapped to column</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Provider style</Name>
+    <LocalName>Provider style</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Proxy Server Connection Information</Name>
+    <LocalName>Proxy Server Connection Information</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Proxy name</Name>
+    <LocalName>Proxy name</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Proxy table is child of reference</Name>
+    <LocalName>Proxy table is child of reference</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Publication:</Name>
+    <LocalName>Publication:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Publications &amp;&amp; Replication Definitions</Name>
+    <LocalName>Publications &amp;&amp; Replication Definitions</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Publications &amp;amp;&amp;amp; Replication Definitions</Name>
+    <LocalName>Publications &amp;amp;&amp;amp; Replication Definitions</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>The separator string to use for qualified name.</Comment>
+    <Name>Qualified Separator</Name>
+    <LocalName>Qualified Separator</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Qualified name separator</Name>
+    <LocalName>Qualified name separator</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Queue</Name>
+    <LocalName>Queue</LocalName>
+  </Translation>
+  <Translation>
+    <Name>RSI batch size</Name>
+    <LocalName>RSI batch size</LocalName>
+  </Translation>
+  <Translation>
+    <Name>RSI fadeout time</Name>
+    <LocalName>RSI fadeout time</LocalName>
+  </Translation>
+  <Translation>
+    <Name>RSI packet size</Name>
+    <LocalName>RSI packet size</LocalName>
+  </Translation>
+  <Translation>
+    <Name>RSI synchronize interval</Name>
+    <LocalName>RSI synchronize interval</LocalName>
+  </Translation>
+  <Translation>
+    <Name>RSSD character set</Name>
+    <LocalName>RSSD character set</LocalName>
+  </Translation>
+  <Translation>
+    <Name>RSSD character set is blank</Name>
+    <LocalName>RSSD character set is blank</LocalName>
+  </Translation>
+  <Translation>
+    <Name>RSSD database options</Name>
+    <LocalName>RSSD database options</LocalName>
+  </Translation>
+  <Translation>
+    <Name>RSSD password</Name>
+    <LocalName>RSSD password</LocalName>
+  </Translation>
+  <Translation>
+    <Name>RSSD user name</Name>
+    <LocalName>RSSD user name</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>The name of the document table to import</Comment>
+    <Name>Read-only Name</Name>
+    <LocalName>Read-only Name</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Redundant flow</Name>
+    <LocalName>Redundant flow</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Reference associated objects by</Name>
+    <LocalName>Reference associated objects by</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>For numerical or currency columns, specify the reference field and table.</Comment>
+    <Name>Reference field</Name>
+    <LocalName>Reference field</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Reference field code</Name>
+    <LocalName>Reference field code</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Specifies the category of dictionary type:
+- &lt;empty&gt; - Direct type
+- E - Elementary type
+- S - Structured type
+- L - Table type
+- R - Reference type
+- D - Domain
+Scripting name: ReferenceKind</Comment>
+    <Name>Reference kind</Name>
+    <LocalName>Reference kind</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>For numerical or currency columns, specify the reference field and table.</Comment>
+    <Name>Reference table</Name>
+    <LocalName>Reference table</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Reference table code</Name>
+    <LocalName>Reference table code</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>The attribute of the referenced object displayed in the imported column</Comment>
+    <Name>Referenced Attribute</Name>
+    <LocalName>Referenced Attribute</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>The class name of referenced object (can be a standard class or a stereotype used as metaclass)</Comment>
+    <Name>Referenced class name</Name>
+    <LocalName>Referenced class name</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>References clause specifies a referential constraint (include foreign key and check constraints) to another table. During the bulk applying time, HVAR replication will load inserts (or deletes) to the referenced tables before (or after) the replication definition table.</Comment>
+    <Name>References</Name>
+    <LocalName>References</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Release</Name>
+    <LocalName>Release</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Specifies the users who customized the component and wrote the release notes
+for the customization.</Comment>
+    <Name>Release notes by</Name>
+    <LocalName>Release notes by</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Provides release information about the component.</Comment>
+    <Name>Released</Name>
+    <LocalName>Released</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Remote Column:</Name>
+    <LocalName>Remote Column:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Remote data type</Name>
+    <LocalName>Remote data type</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Remote database name</Name>
+    <LocalName>Remote database name</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Remote server directory</Name>
+    <LocalName>Remote server directory</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Remote server name</Name>
+    <LocalName>Remote server name</LocalName>
+  </Translation>
+  <Translation>
+    <Name>RepAgent</Name>
+    <LocalName>RepAgent</LocalName>
+  </Translation>
+  <Translation>
+    <Name>RepAgent Options</Name>
+    <LocalName>RepAgent Options</LocalName>
+  </Translation>
+  <Translation>
+    <Name>RepAgent name</Name>
+    <LocalName>RepAgent name</LocalName>
+  </Translation>
+  <Translation>
+    <Name>RepAgent password</Name>
+    <LocalName>RepAgent password</LocalName>
+  </Translation>
+  <Translation>
+    <Name>RepAgent port number</Name>
+    <LocalName>RepAgent port number</LocalName>
+  </Translation>
+  <Translation>
+    <Name>RepAgent type</Name>
+    <LocalName>RepAgent type</LocalName>
+  </Translation>
+  <Translation>
+    <Name>RepAgent user name</Name>
+    <LocalName>RepAgent user name</LocalName>
+  </Translation>
+  <Translation>
+    <Name>RepServer Connection</Name>
+    <LocalName>RepServer Connection</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>RepServer Options for a specified replicate table</Comment>
+    <Name>RepServer Options</Name>
+    <LocalName>RepServer Options</LocalName>
+  </Translation>
+  <Translation>
+    <Name>RepServer character set</Name>
+    <LocalName>RepServer character set</LocalName>
+  </Translation>
+  <Translation>
+    <Name>RepServer character set is blank</Name>
+    <LocalName>RepServer character set is blank</LocalName>
+  </Translation>
+  <Translation>
+    <Name>RepServer password</Name>
+    <LocalName>RepServer password</LocalName>
+  </Translation>
+  <Translation>
+    <Name>RepServer user name</Name>
+    <LocalName>RepServer user name</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Replicate</Name>
+    <LocalName>Replicate</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Replicate DDL</Name>
+    <LocalName>Replicate DDL</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Replicate DDL requires same type of database</Name>
+    <LocalName>Replicate DDL requires same type of database</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Replicate SQLDML</Name>
+    <LocalName>Replicate SQLDML</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>The replicate table list defined for current replicate database connection.</Comment>
+    <Name>Replicate Table</Name>
+    <LocalName>Replicate Table</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Replicate tables list for current database connections.  It could be added in three ways:
+1.When create a new Subscription instance to associate a RepDef  and a replicate DataConnection, the remote tables of the RepDef will be added to the replicate DataConnection &quot;Replicate Tables&quot; composition automatically.
+2.If a replicate DataConnection has been already associated with a RepDef, when create a new Article instance for this RepDef by setting remote table, the remote table will be added to the replicate DataConnection &quot;Replicate Tables&quot; composition automatically.
+3.User adds a new replicate table from UI.</Comment>
+    <Name>Replicate Tables</Name>
+    <LocalName>Replicate Tables</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Replicate connection</Name>
+    <LocalName>Replicate connection</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Replicate function</Name>
+    <LocalName>Replicate function</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Replicate minimal columns</Name>
+    <LocalName>Replicate minimal columns</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Replicate system procedure</Name>
+    <LocalName>Replicate system procedure</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Replicate table</Name>
+    <LocalName>Replicate table</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Replicate transaction</Name>
+    <LocalName>Replicate transaction</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Replication</Name>
+    <LocalName>Replication</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Replication DDL</Name>
+    <LocalName>Replication DDL</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Replication Definition</Name>
+    <LocalName>Replication Definition</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Replication Definition name uniqueness</Name>
+    <LocalName>Replication Definition name uniqueness</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Replication Definitions</Name>
+    <LocalName>Replication Definitions</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Replication Server connection options</Name>
+    <LocalName>Replication Server connection options</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Replication definition name</Name>
+    <LocalName>Replication definition name</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Replication minimum columns</Name>
+    <LocalName>Replication minimum columns</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Specify if the function replication definition is a request one.</Comment>
+    <Name>Request</Name>
+    <LocalName>Request</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>The attribute &quot;AlterFromPDB&quot; specifies whether the alter repdef command will be requested from PDB.</Comment>
+    <Name>Request alter from primary database</Name>
+    <LocalName>Request alter from primary database</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Request stored procedure</Name>
+    <LocalName>Request stored procedure</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Required resource</Name>
+    <LocalName>Required resource</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Resolution</Name>
+    <LocalName>Resolution</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Resource</Name>
+    <LocalName>Resource</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ResultColumn support</Name>
+    <LocalName>ResultColumn support</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Return MIME type</Name>
+    <LocalName>Return MIME type</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Return name</Name>
+    <LocalName>Return name</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Revenue per unit</Name>
+    <LocalName>Revenue per unit</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Role A cascade</Name>
+    <LocalName>Role A cascade</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Role A fetch</Name>
+    <LocalName>Role A fetch</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Role A order by</Name>
+    <LocalName>Role A order by</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Role B cascade</Name>
+    <LocalName>Role B cascade</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Role B fetch</Name>
+    <LocalName>Role B fetch</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Role B order by</Name>
+    <LocalName>Role B order by</LocalName>
+  </Translation>
+  <Translation>
+    <Name>RoleA options</Name>
+    <LocalName>RoleA options</LocalName>
+  </Translation>
+  <Translation>
+    <Name>RoleB options</Name>
+    <LocalName>RoleB options</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Root table</Name>
+    <LocalName>Root table</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Specifies the primary table of an aggregate.</Comment>
+    <Name>Root table code</Name>
+    <LocalName>Root table code</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Route Options</Name>
+    <LocalName>Route Options</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Routing Out Percent</Name>
+    <LocalName>Routing Out Percent</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Row delimiter</Name>
+    <LocalName>Row delimiter</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Row id</Name>
+    <LocalName>Row id</LocalName>
+  </Translation>
+  <Translation>
+    <Name>SOAP Binding Style</Name>
+    <LocalName>SOAP Binding Style</LocalName>
+  </Translation>
+  <Translation>
+    <Name>SOAP action</Name>
+    <LocalName>SOAP action</LocalName>
+  </Translation>
+  <Translation>
+    <Name>SOAP binding style</Name>
+    <LocalName>SOAP binding style</LocalName>
+  </Translation>
+  <Translation>
+    <Name>SOAP binding transport</Name>
+    <LocalName>SOAP binding transport</LocalName>
+  </Translation>
+  <Translation>
+    <Name>SOAP body namespace</Name>
+    <LocalName>SOAP body namespace</LocalName>
+  </Translation>
+  <Translation>
+    <Name>SOAP operation style</Name>
+    <LocalName>SOAP operation style</LocalName>
+  </Translation>
+  <Translation>
+    <Name>SOAP port type</Name>
+    <LocalName>SOAP port type</LocalName>
+  </Translation>
+  <Translation>
+    <Name>SQL Anywhere version</Name>
+    <LocalName>SQL Anywhere version</LocalName>
+  </Translation>
+  <Translation>
+    <Name>SQL data style</Name>
+    <LocalName>SQL data style</LocalName>
+  </Translation>
+  <Translation>
+    <Name>SQL type consistency among complex types</Name>
+    <LocalName>SQL type consistency among complex types</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Same maintenance user for all connections</Name>
+    <LocalName>Same maintenance user for all connections</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Save interval</Name>
+    <LocalName>Save interval</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Scan template</Name>
+    <LocalName>Scan template</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Schema</Name>
+    <LocalName>Schema</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Schema name</Name>
+    <LocalName>Schema name</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Schema namespace</Name>
+    <LocalName>Schema namespace</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Script output type</Name>
+    <LocalName>Script output type</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Search for referenced objects in other models if not found in the local model.</Comment>
+    <Name>Search for referenced objects in other models</Name>
+    <LocalName>Search for referenced objects in other models</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Searchable</Name>
+    <LocalName>Searchable</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Secondary table must have reference key referring to primary table</Name>
+    <LocalName>Secondary table must have reference key referring to primary table</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Security</Name>
+    <LocalName>Security</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Security mechanism</Name>
+    <LocalName>Security mechanism</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Select File</Name>
+    <LocalName>Select File</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Select before update</Name>
+    <LocalName>Select before update</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Select the PowerDesigner attribute or list that is contained in this column.\nFor lists or attributes that reference other objects,\nyou must also specify the associated PowerDesigner object.</Name>
+    <LocalName>Select the PowerDesigner attribute or list that is contained in this column.\nFor lists or attributes that reference other objects,\nyou must also specify the associated PowerDesigner object.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Select the data source to import:</Name>
+    <LocalName>Select the data source to import:</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Indicates if the import of this table is selected or should be skipped</Comment>
+    <Name>Selected</Name>
+    <LocalName>Selected</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Send standby columns</Name>
+    <LocalName>Send standby columns</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Send trucate table</Name>
+    <LocalName>Send trucate table</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Serialization method</Name>
+    <LocalName>Serialization method</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Server class</Name>
+    <LocalName>Server class</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Server code</Name>
+    <LocalName>Server code</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Server must be defined</Name>
+    <LocalName>Server must be defined</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Server name</Name>
+    <LocalName>Server name</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Server name</Comment>
+    <Name>Server name:</Name>
+    <LocalName>Server name:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Server or file name:</Name>
+    <LocalName>Server or file name:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Service description</Name>
+    <LocalName>Service description</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Service key</Name>
+    <LocalName>Service key</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Service name</Name>
+    <LocalName>Service name</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Service port name</Name>
+    <LocalName>Service port name</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Service scope</Name>
+    <LocalName>Service scope</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Show SQL</Name>
+    <LocalName>Show SQL</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Specifies that negative values are supported.</Comment>
+    <Name>Signed</Name>
+    <LocalName>Signed</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Simulation Running Time</Name>
+    <LocalName>Simulation Running Time</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Simulation limit</Name>
+    <LocalName>Simulation limit</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Single Data Connection with read access type</Name>
+    <LocalName>Single Data Connection with read access type</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Indicates if this Excel table should be skipped from import</Comment>
+    <Name>Skip Import</Name>
+    <LocalName>Skip Import</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Soap binding transport</Name>
+    <LocalName>Soap binding transport</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Soap body namespace</Name>
+    <LocalName>Soap body namespace</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Specifies the software component to which the package is a support package.</Comment>
+    <Name>Software component</Name>
+    <LocalName>Software component</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Sort</Name>
+    <LocalName>Sort</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Source Column:</Name>
+    <LocalName>Source Column:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Source table</Name>
+    <LocalName>Source table</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Source tables flagged &quot;generated&quot;</Name>
+    <LocalName>Source tables flagged &quot;generated&quot;</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Display text of specific column mapping</Comment>
+    <Name>Specific column</Name>
+    <LocalName>Specific column</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Specify DDL User and Password for Replication Agent</Name>
+    <LocalName>Specify DDL User and Password for Replication Agent</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Specify a name and a data type for your attribute,\nalong with the kind of PowerDesigner object if the data type is object.</Name>
+    <LocalName>Specify a name and a data type for your attribute,\nalong with the kind of PowerDesigner object if the data type is object.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Specify a name and plural name for your new object type.</Name>
+    <LocalName>Specify a name and plural name for your new object type.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Specify a name for your list, along with the kind of PowerDesigner object it will contain.</Name>
+    <LocalName>Specify a name for your list, along with the kind of PowerDesigner object it will contain.</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>The attribute name corresponding to the data source column.
+It can be the public name of a standard attribute or the qualified name of an extended attribute.</Comment>
+    <Name>Standard attribute</Name>
+    <LocalName>Standard attribute</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Standard deviation</Name>
+    <LocalName>Standard deviation</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Standard deviation for timing distribution</Name>
+    <LocalName>Standard deviation for timing distribution</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Standby type</Name>
+    <LocalName>Standby type</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Specifies the status of the index in the database:
+- &lt;empty&gt; - Create on database.
+- O - Do not create on database.
+- D - Create on database depending on DB</Comment>
+    <Name>Status</Name>
+    <LocalName>Status</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Stereotype</Name>
+    <LocalName>Stereotype</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Stereotype:</Name>
+    <LocalName>Stereotype:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Stop unsupported commands</Name>
+    <LocalName>Stop unsupported commands</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Stored procedure option</Name>
+    <LocalName>Stored procedure option</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>This attribute stores the user-defined string that means &#39;True&#39;.
+For instance, it can be &#39;OK&#39;, &#39;Valid&#39; or any other string.
+The following predefined strings are already automatically considered as &#39;True&#39;: &#39;yes&#39;, &#39;true&#39;, &#39;1&#39;, &#39;Y&#39;, &#39;T&#39;, &#39;X&#39;, &#39;OK&#39;</Comment>
+    <Name>String for &#39;True&#39; value</Name>
+    <LocalName>String for &#39;True&#39; value</LocalName>
+  </Translation>
+  <Translation>
+    <Name>String literal for &#39;True&#39; value</Name>
+    <LocalName>String literal for &#39;True&#39; value</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Structure class</Name>
+    <LocalName>Structure class</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>ABAP structure</Comment>
+    <Name>Structures</Name>
+    <LocalName>Structures</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Stylesheet CSS file</Name>
+    <LocalName>Stylesheet CSS file</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Subdirectory:</Name>
+    <LocalName>Subdirectory:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Subscribe for truncated tables</Name>
+    <LocalName>Subscribe for truncated tables</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Subscription name length</Name>
+    <LocalName>Subscription name length</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Subscription name uniqueness</Name>
+    <LocalName>Subscription name uniqueness</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Subscription of request procedure</Name>
+    <LocalName>Subscription of request procedure</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Subscription write request limit</Name>
+    <LocalName>Subscription write request limit</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Subscriptions</Name>
+    <LocalName>Subscriptions</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Subselect</Name>
+    <LocalName>Subselect</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Specifies that the component can be displayed in the SAP NetWeaver Portal and
+in the desktop NetWeaver client.</Comment>
+    <Name>Support desktop</Name>
+    <LocalName>Support desktop</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Support update in Sybase IQ</Name>
+    <LocalName>Support update in Sybase IQ</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Specifies that the component can be displayed in the SAP NetWeaver Portal and
+in the desktop NetWeaver client.</Comment>
+    <Name>Support web</Name>
+    <LocalName>Support web</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Suspend replication</Name>
+    <LocalName>Suspend replication</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Sybase SQL Anywhere Database (AsaClient)</Name>
+    <LocalName>Sybase SQL Anywhere Database (AsaClient)</LocalName>
+  </Translation>
+  <Translation>
+    <Name>System procedure</Name>
+    <LocalName>System procedure</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Table</Name>
+    <LocalName>Table</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Show binding information for table and replication paths.</Comment>
+    <Name>Table Binding Matrix</Name>
+    <LocalName>Table Binding Matrix</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Defines the mapping between a table stored in an Excel sheet and an object kind</Comment>
+    <Name>Table Mapping</Name>
+    <LocalName>Table Mapping</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>The list of table mappings</Comment>
+    <Name>Table Mappings</Name>
+    <LocalName>Table Mappings</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Table class</Name>
+    <LocalName>Table class</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Table column width</Name>
+    <LocalName>Table column width</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Table generation mode</Name>
+    <LocalName>Table generation mode</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Table not bound to primary connection</Name>
+    <LocalName>Table not bound to primary connection</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Show binding information for table and replication paths.</Comment>
+    <Name>TableBindingMatrix</Name>
+    <LocalName>TableBindingMatrix</LocalName>
+  </Translation>
+  <Translation>
+    <Name>TableColumn is not defined in Association Mapping</Name>
+    <LocalName>TableColumn is not defined in Association Mapping</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Tables</Name>
+    <LocalName>Tables</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Target IDE</Name>
+    <LocalName>Target IDE</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>The data type that will be generated.</Comment>
+    <Name>Target data type</Name>
+    <LocalName>Target data type</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Target device:</Name>
+    <LocalName>Target device:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Target runtime</Name>
+    <LocalName>Target runtime</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Test Connection</Name>
+    <LocalName>Test Connection</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Test method</Name>
+    <LocalName>Test method</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Text convert multiplier</Name>
+    <LocalName>Text convert multiplier</LocalName>
+  </Translation>
+  <Translation>
+    <Name>The column is selected from generation source model</Name>
+    <LocalName>The column is selected from generation source model</LocalName>
+  </Translation>
+  <Translation>
+    <Name>The name of package conflicts with the name of namespace</Name>
+    <LocalName>The name of package conflicts with the name of namespace</LocalName>
+  </Translation>
+  <Translation>
+    <Name>The primary key attribute should be public</Name>
+    <LocalName>The primary key attribute should be public</LocalName>
+  </Translation>
+  <Translation>
+    <Name>The user name, password, server name or data source name is not specified.
+To defined user name and password, open the data source properties, select ODBC page.
+To defined server name and data source name, open the data source properties, select Data Movement page.</Name>
+    <LocalName>The user name, password, server name or data source name is not specified.
+To defined user name and password, open the data source properties, select ODBC page.
+To defined server name and data source name, open the data source properties, select Data Movement page.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>The value of database parameter dsi_compile_max_cmds should not be less than 100.</Name>
+    <LocalName>The value of database parameter dsi_compile_max_cmds should not be less than 100.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>The wizard has found a table to import. Select the kind of\nPowerDesigner object you want to create for each table row.</Name>
+    <LocalName>The wizard has found a table to import. Select the kind of\nPowerDesigner object you want to create for each table row.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>This check ensures that in a warm standby environment all logical connections in a group agree on which of them is the primary logical connection.</Name>
+    <LocalName>This check ensures that in a warm standby environment all logical connections in a group agree on which of them is the primary logical connection.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>This check ensures that the data connections of the logical path are linked to correct data store.</Name>
+    <LocalName>This check ensures that the data connections of the logical path are linked to correct data store.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>This check ensures that the data source mapping is defined.</Name>
+    <LocalName>This check ensures that the data source mapping is defined.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>This check ensures that the primary logical connection is correct.</Name>
+    <LocalName>This check ensures that the primary logical connection is correct.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Threshold</Name>
+    <LocalName>Threshold</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Time</Name>
+    <LocalName>Time</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Time display pattern</Name>
+    <LocalName>Time display pattern</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Time distribution type</Name>
+    <LocalName>Time distribution type</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Time format</Name>
+    <LocalName>Time format</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Time unit</Name>
+    <LocalName>Time unit</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Time zone</Name>
+    <LocalName>Time zone</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Timing</Name>
+    <LocalName>Timing</LocalName>
+  </Translation>
+  <Translation>
+    <Name>To set a data type for an individual column, click the Add Specific Column Mapping button.</Name>
+    <LocalName>To set a data type for an individual column, click the Add Specific Column Mapping button.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Too few inputs</Name>
+    <LocalName>Too few inputs</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Too many data mappings</Name>
+    <LocalName>Too many data mappings</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Too many lookup columns</Name>
+    <LocalName>Too many lookup columns</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Too many lookup tables</Name>
+    <LocalName>Too many lookup tables</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Transaction Options</Name>
+    <LocalName>Transaction Options</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Transaction set</Name>
+    <LocalName>Transaction set</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Transaction type</Name>
+    <LocalName>Transaction type</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Original Data Services transform type</Comment>
+    <Name>Transform type:</Name>
+    <LocalName>Transform type:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Transparent table</Name>
+    <LocalName>Transparent table</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Type</Name>
+    <LocalName>Type</LocalName>
+  </Translation>
+  <Translation>
+    <Name>UDDI operator URL</Name>
+    <LocalName>UDDI operator URL</LocalName>
+  </Translation>
+  <Translation>
+    <Name>UltraLite database file:</Name>
+    <LocalName>UltraLite database file:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Undefined default connection</Name>
+    <LocalName>Undefined default connection</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Undefined primary connection</Name>
+    <LocalName>Undefined primary connection</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Undefined separator</Name>
+    <LocalName>Undefined separator</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Undefined user name</Name>
+    <LocalName>Undefined user name</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Unidirectional one-to-one association is mapped to reference with incorrect direction</Name>
+    <LocalName>Unidirectional one-to-one association is mapped to reference with incorrect direction</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Unified login</Name>
+    <LocalName>Unified login</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Unknown container type in RoleA</Name>
+    <LocalName>Unknown container type in RoleA</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Unknown container type in RoleB</Name>
+    <LocalName>Unknown container type in RoleB</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Unsaved value</Name>
+    <LocalName>Unsaved value</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Unsupported Web service input</Name>
+    <LocalName>Unsupported Web service input</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Unsupported direct connection</Name>
+    <LocalName>Unsupported direct connection</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Unsupported nested element</Name>
+    <LocalName>Unsupported nested element</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Unsupported object language</Name>
+    <LocalName>Unsupported object language</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Unsupported xs:NOTATION element</Name>
+    <LocalName>Unsupported xs:NOTATION element</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Updatable</Name>
+    <LocalName>Updatable</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Update</Name>
+    <LocalName>Update</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Update procedure code</Name>
+    <LocalName>Update procedure code</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Update table code</Name>
+    <LocalName>Update table code</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Upper bound</Name>
+    <LocalName>Upper bound</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Upper bound time</Name>
+    <LocalName>Upper bound time</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Use NT integrated security</Name>
+    <LocalName>Use NT integrated security</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Use Windows NT integrated security</Name>
+    <LocalName>Use Windows NT integrated security</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Use batch markers</Name>
+    <LocalName>Use batch markers</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Use insert table in Sybase IQ</Name>
+    <LocalName>Use insert table in Sybase IQ</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Use master-detail page</Name>
+    <LocalName>Use master-detail page</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Use replication agent</Name>
+    <LocalName>Use replication agent</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Use resource bundle</Name>
+    <LocalName>Use resource bundle</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Use security services</Name>
+    <LocalName>Use security services</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Use stored procedure for function strings</Name>
+    <LocalName>Use stored procedure for function strings</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Use this attribute as foreign key label</Name>
+    <LocalName>Use this attribute as foreign key label</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Specifies the user who connects to the Business Suite server.</Comment>
+    <Name>User name</Name>
+    <LocalName>User name</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>User name/Login</Comment>
+    <Name>User name:</Name>
+    <LocalName>User name:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>User-defined collection type is not supported</Name>
+    <LocalName>User-defined collection type is not supported</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Mapping is user-defined and therefore, to be kept and run.</Comment>
+    <Name>User-defined mapping</Name>
+    <LocalName>User-defined mapping</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Validation rule</Name>
+    <LocalName>Validation rule</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Validation rule code</Name>
+    <LocalName>Validation rule code</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Validation rule error message</Name>
+    <LocalName>Validation rule error message</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Validation rule text</Name>
+    <LocalName>Validation rule text</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Specifies that the permitted values for the data element are PK values of the
+selected table.</Comment>
+    <Name>Value table</Name>
+    <LocalName>Value table</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Value table</Comment>
+    <Name>Value table code</Name>
+    <LocalName>Value table code</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Verify that each data connection is only attached to one data connection group.</Name>
+    <LocalName>Verify that each data connection is only attached to one data connection group.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Verify that the bound procedures are from the primary databases.</Name>
+    <LocalName>Verify that the bound procedures are from the primary databases.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Verify that the bound tables are from the primary databases.</Name>
+    <LocalName>Verify that the bound tables are from the primary databases.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Verify the bound procedures are from the primary databases.</Name>
+    <LocalName>Verify the bound procedures are from the primary databases.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Verify the bound tables are from the primary databases.</Name>
+    <LocalName>Verify the bound tables are from the primary databases.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Version attribute</Name>
+    <LocalName>Version attribute</LocalName>
+  </Translation>
+  <Translation>
+    <Name>View structure</Name>
+    <LocalName>View structure</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Specifies that the view is a:
+- H - Help view
+- D - Database view
+- P - Projection view
+- S - Structure view, data selection not possible
+- C - Maintenance view
+- E - Entity view (no longer supported)
+- V - View variant
+- A - Append view</Comment>
+    <Name>View type</Name>
+    <LocalName>View type</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Specifies that the component should be visible to users.</Comment>
+    <Name>Visible</Name>
+    <LocalName>Visible</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Web method type</Name>
+    <LocalName>Web method type</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Welcome to the Excel Import Wizard. This wizard guides you\nthrough importing tables of objects defined in an Excel spreadsheet.\nTo get started, select an Excel file to import.</Name>
+    <LocalName>Welcome to the Excel Import Wizard. This wizard guides you\nthrough importing tables of objects defined in an Excel spreadsheet.\nTo get started, select an Excel file to import.</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>What would be generated.</Comment>
+    <Name>What would be generated</Name>
+    <LocalName>What would be generated</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Where clause</Name>
+    <LocalName>Where clause</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>XML tab</Comment>
+    <Name>XML</Name>
+    <LocalName>XML</LocalName>
+  </Translation>
+  <Translation>
+    <Name>XML Generation</Name>
+    <LocalName>XML Generation</LocalName>
+  </Translation>
+  <Translation>
+    <Name>XML generation mode</Name>
+    <LocalName>XML generation mode</LocalName>
+  </Translation>
+  <Translation>
+    <Name>by selecting new types in the Target data type column.</Name>
+    <LocalName>by selecting new types in the Target data type column.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>caption</Name>
+    <LocalName>caption</LocalName>
+  </Translation>
+  <Translation>
+    <Name>delete</Name>
+    <LocalName>delete</LocalName>
+  </Translation>
+  <Translation>
+    <Name>dsi_compile_max_cmds should not be less than 100</Name>
+    <LocalName>dsi_compile_max_cmds should not be less than 100</LocalName>
+  </Translation>
+  <Translation>
+    <Name>function string</Name>
+    <LocalName>function string</LocalName>
+  </Translation>
+  <Translation>
+    <Name>insert select</Name>
+    <LocalName>insert select</LocalName>
+  </Translation>
+  <Translation>
+    <Name>label</Name>
+    <LocalName>label</LocalName>
+  </Translation>
+  <Translation>
+    <Name>of table</Name>
+    <LocalName>of table</LocalName>
+  </Translation>
+  <Translation>
+    <Name>on</Name>
+    <LocalName>on</LocalName>
+  </Translation>
+  <Translation>
+    <Name>select into</Name>
+    <LocalName>select into</LocalName>
+  </Translation>
+  <Translation>
+    <Name>tModel URL</Name>
+    <LocalName>tModel URL</LocalName>
+  </Translation>
+  <Translation>
+    <Name>tModel key</Name>
+    <LocalName>tModel key</LocalName>
+  </Translation>
+  <Translation>
+    <Name>tModel name</Name>
+    <LocalName>tModel name</LocalName>
+  </Translation>
+  <Translation>
+    <Name>table=uid_table,column=next_hi_value_column</Name>
+    <LocalName>table=uid_table,column=next_hi_value_column</LocalName>
+  </Translation>
+  <Translation>
+    <Name>to</Name>
+    <LocalName>to</LocalName>
+  </Translation>
+  <Translation>
+    <Name>update</Name>
+    <LocalName>update</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>The attribute &quot;SuspendDSI&quot;  specifies whether the &quot;with DSI_suspended&quot; option will be generated for alter statement.</Comment>
+    <Name>with DSI_suspended</Name>
+    <LocalName>with DSI_suspended</LocalName>
+  </Translation>
+  <Translation>
+    <Name>A value must be defined for attribute Name</Name>
+    <LocalName>A value must be defined for attribute Name</LocalName>
+  </Translation>
+  <Translation>
+    <Name>A value must be defined for attribute Title</Name>
+    <LocalName>A value must be defined for attribute Title</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Activities/processes cannot be implemented by an activity/process that is, itself, implemented.</Name>
+    <LocalName>Activities/processes cannot be implemented by an activity/process that is, itself, implemented.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Activities/processes must have at least one incoming flow.</Name>
+    <LocalName>Activities/processes must have at least one incoming flow.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Activities/processes must have at least one outgoing flow.</Name>
+    <LocalName>Activities/processes must have at least one outgoing flow.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Architecture Area name uniqueness</Name>
+    <LocalName>Architecture Area name uniqueness</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Correlation Key name uniqueness</Name>
+    <LocalName>Correlation Key name uniqueness</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Correlation keys must contain at least one variable (correlation property).</Name>
+    <LocalName>Correlation keys must contain at least one variable (correlation property).</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data associations/resource flows must go from an activity/process or from a data object/resource.</Name>
+    <LocalName>Data associations/resource flows must go from an activity/process or from a data object/resource.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data associations/resource flows must point to (have as a destination) an activity/process or a data object/resource.</Name>
+    <LocalName>Data associations/resource flows must point to (have as a destination) an activity/process or a data object/resource.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data objects/resources must be linked to at least one activity/process.</Name>
+    <LocalName>Data objects/resources must be linked to at least one activity/process.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data transformations must specify a target variable to receive the result of the transformation.</Name>
+    <LocalName>Data transformations must specify a target variable to receive the result of the transformation.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data transformations must specify an XPath or XSLT transformation expression.</Name>
+    <LocalName>Data transformations must specify an XPath or XSLT transformation expression.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Decision name uniqueness</Name>
+    <LocalName>Decision name uniqueness</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Duplicate definition</Name>
+    <LocalName>Duplicate definition</LocalName>
+  </Translation>
+  <Translation>
+    <Name>End name uniqueness</Name>
+    <LocalName>End name uniqueness</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Ends must have at least one incoming flow.</Name>
+    <LocalName>Ends must have at least one incoming flow.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Event name uniqueness</Name>
+    <LocalName>Event name uniqueness</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Events must bear a stereotype to define what type of event it is.</Name>
+    <LocalName>Events must bear a stereotype to define what type of event it is.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Flow name uniqueness</Name>
+    <LocalName>Flow name uniqueness</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Flows must either specify a message format or have their message format set to &lt;None&gt;.</Name>
+    <LocalName>Flows must either specify a message format or have their message format set to &lt;None&gt;.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Flows must have both a source and a destination object.</Name>
+    <LocalName>Flows must have both a source and a destination object.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Gateways/decisions must have more than one outgoing flow to represent a split (conditional branch) or more than one incoming flow to represent a merge.</Name>
+    <LocalName>Gateways/decisions must have more than one outgoing flow to represent a split (conditional branch) or more than one incoming flow to represent a merge.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Goal name uniqueness</Name>
+    <LocalName>Goal name uniqueness</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Interfaces must contain at least one operation.</Name>
+    <LocalName>Interfaces must contain at least one operation.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid destination</Name>
+    <LocalName>Invalid destination</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid for export</Name>
+    <LocalName>Invalid for export</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid implementation</Name>
+    <LocalName>Invalid implementation</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid source</Name>
+    <LocalName>Invalid source</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Manual tasks cannot be exported to a NetWeaver BPMN2 file.</Name>
+    <LocalName>Manual tasks cannot be exported to a NetWeaver BPMN2 file.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Message Format name uniqueness</Name>
+    <LocalName>Message Format name uniqueness</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Message flows must be connected to a maximum of one (not reusable) initiating and one return choreography task.</Name>
+    <LocalName>Message flows must be connected to a maximum of one (not reusable) initiating and one return choreography task.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Message formats must not have the same definition as another message format.</Name>
+    <LocalName>Message formats must not have the same definition as another message format.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing assigned variable</Name>
+    <LocalName>Missing assigned variable</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing destination</Name>
+    <LocalName>Missing destination</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing end</Name>
+    <LocalName>Missing end</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing incoming flow</Name>
+    <LocalName>Missing incoming flow</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing input message (One-Way)</Name>
+    <LocalName>Missing input message (One-Way)</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing input message (Request-Response)</Name>
+    <LocalName>Missing input message (Request-Response)</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing input message (Solicit Response)</Name>
+    <LocalName>Missing input message (Solicit Response)</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing interfaces</Name>
+    <LocalName>Missing interfaces</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing operations</Name>
+    <LocalName>Missing operations</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing outgoing flow</Name>
+    <LocalName>Missing outgoing flow</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing output message (Notification)</Name>
+    <LocalName>Missing output message (Notification)</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing output message (Request-Response)</Name>
+    <LocalName>Missing output message (Request-Response)</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing output message (Solicit Response)</Name>
+    <LocalName>Missing output message (Solicit Response)</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing source</Name>
+    <LocalName>Missing source</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing start</Name>
+    <LocalName>Missing start</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing stereotype</Name>
+    <LocalName>Missing stereotype</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing transformation expression</Name>
+    <LocalName>Missing transformation expression</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing variables</Name>
+    <LocalName>Missing variables</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Notification operations must specify an output message.</Name>
+    <LocalName>Notification operations must specify an output message.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Object names and codes must be unique for objects of the same type in the namespace.</Name>
+    <LocalName>Object names and codes must be unique for objects of the same type in the namespace.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>One-way operations must specify an input message.</Name>
+    <LocalName>One-way operations must specify an input message.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Operation name uniqueness</Name>
+    <LocalName>Operation name uniqueness</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Organization Unit name uniqueness</Name>
+    <LocalName>Organization Unit name uniqueness</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Process name uniqueness</Name>
+    <LocalName>Process name uniqueness</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Program name uniqueness</Name>
+    <LocalName>Program name uniqueness</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Project name uniqueness</Name>
+    <LocalName>Project name uniqueness</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Request-response operations must specify both an input and an output message.</Name>
+    <LocalName>Request-response operations must specify both an input and an output message.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Resource Flow name uniqueness</Name>
+    <LocalName>Resource Flow name uniqueness</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Resource name uniqueness</Name>
+    <LocalName>Resource name uniqueness</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Service Interface name uniqueness</Name>
+    <LocalName>Service Interface name uniqueness</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Service Provider name uniqueness</Name>
+    <LocalName>Service Provider name uniqueness</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Service providers must contain at least one interface.</Name>
+    <LocalName>Service providers must contain at least one interface.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Solicit response operations must specify both an input and an output message.</Name>
+    <LocalName>Solicit response operations must specify both an input and an output message.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Start name uniqueness</Name>
+    <LocalName>Start name uniqueness</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Starts must have at least one outgoing flow.</Name>
+    <LocalName>Starts must have at least one outgoing flow.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Sub-processes/composite processes must have at least one end.</Name>
+    <LocalName>Sub-processes/composite processes must have at least one end.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Sub-processes/composite processes must have at least one start.</Name>
+    <LocalName>Sub-processes/composite processes must have at least one start.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Synchronizations must have more than one outgoing flow to represent a fork (into several outgoing flows executed in parallel) or more than one incoming flow to represent a join (of several incoming flows that wait until all flows arrive before continuing as a single outgoing flow).</Name>
+    <LocalName>Synchronizations must have more than one outgoing flow to represent a fork (into several outgoing flows executed in parallel) or more than one incoming flow to represent a join (of several incoming flows that wait until all flows arrive before continuing as a single outgoing flow).</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Too few incoming or outgoing flows</Name>
+    <LocalName>Too few incoming or outgoing flows</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Too many choreography tasks</Name>
+    <LocalName>Too many choreography tasks</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Undefined message format</Name>
+    <LocalName>Undefined message format</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Unused resource</Name>
+    <LocalName>Unused resource</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Variable name uniqueness</Name>
+    <LocalName>Variable name uniqueness</LocalName>
+  </Translation>
+</Translations>

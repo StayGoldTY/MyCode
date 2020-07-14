@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TYDBModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2012" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="TYDBModelStoreContainer">
+    <EntitySet Name="DS_TCategory" EntityType="TYDBModel.Store.DS_TCategory" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ModelFIrsts" EntityType="TYDBModel.Store.ModelFIrsts" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ModelFirstTwoes" EntityType="TYDBModel.Store.ModelFirstTwoes" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="ModelFIrstModelFirstTwo" Association="TYDBModel.Store.ModelFIrstModelFirstTwo">
+      <End Role="ModelFIrst" EntitySet="ModelFIrsts" />
+      <End Role="ModelFirstTwo" EntitySet="ModelFirstTwoes" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="DS_TCategory">
+    <Key>
+      <PropertyRef Name="CategoryID" />
+    </Key>
+    <Property Name="CategoryID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CategoryName" Type="varchar" Nullable="false" MaxLength="20" />
+    <Property Name="QCount" Type="int" Nullable="true" />
+    <Property Name="Show1" Type="int" Nullable="true" />
+    <Property Name="Description" Type="varchar" Nullable="true" MaxLength="500" />
+  </EntityType>
+  <EntityType Name="ModelFIrsts">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" Nullable="true" MaxLength="32" />
+    <Property Name="Time1" Type="time" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ModelFirstTwoes">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ModelFIrstId" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="ModelFIrstModelFirstTwo">
+    <End Role="ModelFIrst" Type="TYDBModel.Store.ModelFIrsts" Multiplicity="1" />
+    <End Role="ModelFirstTwo" Type="TYDBModel.Store.ModelFirstTwoes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ModelFIrst">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ModelFirstTwo">
+        <PropertyRef Name="ModelFIrstId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

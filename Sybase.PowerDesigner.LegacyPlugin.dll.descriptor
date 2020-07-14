@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Module Id="Sybase.PowerDesigner.LegacyPlugin">
+  <AssemblyName>Sybase.PowerDesigner.LegacyPlugin, Version=16.5.5.4734, Culture=neutral, PublicKeyToken=null</AssemblyName>
+  <RelativePath>Sybase.PowerDesigner.LegacyPlugin.dll</RelativePath>
+  <Extensions>
+    <ExtensionPoint Id="Sybase.PowerDesigner.Shell.Plugin.ShellPluginAttribute">
+      <ShellPluginAttribute Class="Sybase.PowerDesigner.LegacyPlugin.LegacyPowerDesignerPlugin">
+        <SupportsDelayedStart>False</SupportsDelayedStart>
+        <RequiredThemeResourceDictionaries>Sybase.Core.Windows</RequiredThemeResourceDictionaries>
+      </ShellPluginAttribute>
+    </ExtensionPoint>
+    <ExtensionPoint Id="Sybase.PowerDesigner.Shell.Plugin.ShellPluginResourceManagersAttribute">
+      <ShellPluginResourceManagersAttribute Class="Sybase.PowerDesigner.LegacyPlugin.PluginResources" />
+    </ExtensionPoint>
+    <ExtensionPoint Id="Sybase.PowerDesigner.Shell.Plugin.UI.ShellDockableViewAttribute">
+      <ShellDockableViewAttribute Class="Sybase.PowerDesigner.LegacyPlugin.UI.OutputView">
+        <CommandName>View_Output</CommandName>
+        <DockingSize>30</DockingSize>
+        <HiddenMode>False</HiddenMode>
+        <DockingAutoHideMode>False</DockingAutoHideMode>
+      </ShellDockableViewAttribute>
+      <ShellDockableViewAttribute Class="Sybase.PowerDesigner.LegacyPlugin.UI.ResultListView">
+        <DockSide>None</DockSide>
+        <DockingSize>300</DockingSize>
+        <HiddenMode>True</HiddenMode>
+        <DockSubSide>Right</DockSubSide>
+        <CommandName>View_ResultList</CommandName>
+        <DockingAutoHideMode>False</DockingAutoHideMode>
+      </ShellDockableViewAttribute>
+      <ShellDockableViewAttribute Class="Sybase.PowerDesigner.LegacyPlugin.UI.BrowserView">
+        <DockSide>Left</DockSide>
+        <DockingSize>100</DockingSize>
+        <HiddenMode>False</HiddenMode>
+        <DockingIconResourceName />
+        <CommandName>View_Browser</CommandName>
+        <DockingAutoHideMode>False</DockingAutoHideMode>
+      </ShellDockableViewAttribute>
+    </ExtensionPoint>
+  </Extensions>
+  <Configurations />
+</Module>

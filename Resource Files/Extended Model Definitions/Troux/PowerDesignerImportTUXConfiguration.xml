@@ -1,0 +1,66 @@
+<configuration>
+<group name="TUX">
+    <list name="Compound Jobs">
+      <group name="PowerDesigner Import" replace="true">
+        <list name="sub-jobs" replace="true">
+          <group name="PowerDesigner Extract" replace="true">
+            <setting name="bailoutSeverity">
+              <value><![CDATA[CATASTROPHIC]]></value>
+            </setting>
+          </group>
+          <group name="PowerDesigner Transform" replace="true">
+            <setting name="bailoutSeverity">
+              <value><![CDATA[CATASTROPHIC]]></value>
+            </setting>
+          </group>
+          <group name="PowerDesigner Load" replace="true" />
+        </list>
+        <setting name="category">
+          <value><![CDATA[TUX Jobs]]></value>
+        </setting>
+        <setting name="template">
+          <value><![CDATA[Compound Template]]></value>
+        </setting>
+      </group>
+    </list>
+    <list name="Extract Jobs">
+      <group name="PowerDesigner Extract" replace="true">
+        <setting name="template">
+          <value><![CDATA[Extract Template]]></value>
+        </setting>	
+        <!-- The locator configuration below wil locate all objects coming from PowerDesigner based on the 
+             PowerDesigner generated UUID which is stored in the Metaverse External ID property 
+        -->	
+        <group name="componentTypeLocators" >		
+        	<group name="RootComponentType" >
+					  <setting name="class"><value>com.troux.tux2.processor.transform.locate.component.PropertyTypeParent</value>
+					  </setting>
+					  <group name="parameters" defaultName="parameters">
+					   <setting name="PROPERTY" value="External ID"></setting>
+					  </group>
+					 </group>
+        </group>
+      </group>
+    </list>
+    <list name="Transform Jobs">
+      <group name="PowerDesigner Transform" replace="true">
+        <list name="extractJobs" replace="true">
+          <group name="PowerDesigner Extract" replace="true" />
+        </list>
+        <setting name="loadJob">
+          <value><![CDATA[PowerDesigner Load]]></value>
+        </setting>
+        <setting name="template">
+          <value><![CDATA[Transform Template]]></value>
+        </setting>
+      </group>
+    </list>
+    <list name="Load Jobs">
+      <group name="PowerDesigner Load" replace="true">
+        <setting name="template">
+          <value><![CDATA[Load Template]]></value>
+        </setting>
+      </group>
+    </list>		
+	</group>
+</configuration>

@@ -1,0 +1,4635 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Translations type="attribute" lang="es">
+  <Translation>
+    <Comment>DISPIDs: 33947667,33640550,33559298,33558530, used by Xsm.Element; Xsm.Complex Type; Pdo.Abstract Data Type; Oom.Operation; Oom.Class/Interface; Oom.Class; Pdo.Abstract Data Type Procedure; Oom.Interface</Comment>
+    <Code>Abstract</Code>
+    <Name>Abstract</Name>
+    <LocalName>Abstracto</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33563425, used by Oom.Component Instance</Comment>
+    <Code>AccessPointURL</Code>
+    <Name>Access Point URL</Name>
+    <LocalName>URL de punto de acceso</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33555733,84148864, used by Cdm.Data Source; Obj.Data Source; Obj.Data Source; Ilm.Data Connection; Xsm.Data Source; Pdo.Data Source; Oom.Data Source</Comment>
+    <Code>AccessType</Code>
+    <Name>Access Type</Name>
+    <LocalName>Tipo de acceso</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33563908,33563398,33562673, used by Ooo.Activity; Oom.Activity; Oom.Message; Bpm.Synchronization; Bpm.Process</Comment>
+    <Code>Action</Code>
+    <Name>Action</Name>
+    <LocalName>Acción</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 16777455,16777440, used by Iam.Impact Analysis Category; Iam.Analysis Object</Comment>
+    <Code>Event</Code>
+    <Name>Action</Name>
+    <LocalName>Acción</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33562881, used by Oom.Use Case</Comment>
+    <Code>Step</Code>
+    <Name>Action Steps</Name>
+    <LocalName>Pasos de acción</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33563909, used by Ooo.Activity; Oom.Activity; Bpm.Process</Comment>
+    <Code>ActionType</Code>
+    <Name>Action Type</Name>
+    <LocalName>Tipo de acción</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33580317, used by Rpt.Report Template; Rpt.Report; Rpt.Intra-Model Report; Rpt.Multi-Model Report</Comment>
+    <Code>HtmlAddPageBreak</Code>
+    <Name>Add HTML page break for top level lists and cards</Name>
+    <LocalName>Añadir salto de página HTML para tarjetas y listas de nivel superior</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34603662, used by Eam.Site</Comment>
+    <Code>Address</Code>
+    <Name>Address</Name>
+    <LocalName>Dirección</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33640881, used by Pdo.Measure</Comment>
+    <Code>AggregateFunction</Code>
+    <Name>Aggregate Function</Name>
+    <LocalName>Función agregada</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33555764,33640787,33575713,33576257, used by Obj.Sub-object mapping; Obj.Sub-object mapping; Xsm.Attribute Mapping; Xsm.Table Column Mapping; Xsm.Class Attribute Mapping; Xsm.External Attribute Mapping; Cdm.Base Attribute Mapping; Cdm.Entity Att...</Comment>
+    <Code>Alias</Code>
+    <Name>Alias</Name>
+    <LocalName>Alias</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34606014, used by Eam.Business Flow</Comment>
+    <Code>ConditionAlias</Code>
+    <Name>Alias</Name>
+    <LocalName>Alias</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33640690, used by Pdo.Test Data Profile</Comment>
+    <Code>AllValid</Code>
+    <Name>All Valid</Name>
+    <LocalName>Todo válido</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 100663297, used by Iam.Impact Analysis Model</Comment>
+    <Code>AnalysisDate</Code>
+    <Name>Analysis Date</Name>
+    <LocalName>Fecha de análisis</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 16777985, used by Iam.Impact Analysis Model</Comment>
+    <Code>AnalysisLevel</Code>
+    <Name>Analysis Level</Name>
+    <LocalName>Nivel de análisis</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 100663333, used by Iam.Analysis Object</Comment>
+    <Code>Analyzed</Code>
+    <Name>Analyzed</Name>
+    <LocalName>Analizado</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 67108868, used by Cdm.Property; Cdm.Inheritance Attribute; Cdm.Association Attribute; Cdm.Entity Attribute</Comment>
+    <Code>Annotated</Code>
+    <Name>Annotated</Name>
+    <LocalName>Anotado</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 67108866, used by Cdm.Property; All; Cdm.Inheritance Attribute; Cdm.Association Attribute; Cdm.Entity Attribute</Comment>
+    <Code>Annotation</Code>
+    <Name>Annotation</Name>
+    <LocalName>Anotación</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33559468, used by Oom.Annotation</Comment>
+    <Code>Name</Code>
+    <Name>Annotation Name</Name>
+    <LocalName>Nombre de anotación</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33559458, used by Oom.Annotation</Comment>
+    <Code>Text</Code>
+    <Name>Annotation Text</Name>
+    <LocalName>Texto de anotación</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33554757, used by Rpt.Multi-Model Report; Ldm.Logical Data Model; Obj.Model; Obj.DBMS; Obj.Model Language; Cdm.Conceptual Data Model; Ext.Report Language; Ext.Extension; Ext.User Profile; Ext.Metadata Permission Profil...</Comment>
+    <Code>ApplicationVersion</Code>
+    <Name>Application Version</Name>
+    <LocalName>Versión de aplicación</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33554834, used by Ldm.Logical Data Model; Obj.Model; Cdm.Conceptual Data Model; Ilm.Data Movement Model; Cdo.Conceptual Data Model; Ooo.Base Object Oriented Model; Frm.Free Model; Glm.Glossary Model; Rqm.Requirements M...</Comment>
+    <Code>ApplyTransformationsSelection</Code>
+    <Name>Apply Transformations Selection</Name>
+    <LocalName>Aplicar selección de transformaciones</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33560865, used by Oom.Interaction Activity</Comment>
+    <Code>Arguments</Code>
+    <Name>Arguments</Name>
+    <LocalName>Argumentos</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33560865, used by Oom.Interaction Reference</Comment>
+    <Code>InteractionArguments</Code>
+    <Name>Arguments</Name>
+    <LocalName>Argumentos</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33559314,33559427, used by Oom.Operation; Oom.Parameter</Comment>
+    <Code>Array</Code>
+    <Name>Array</Name>
+    <LocalName>Matriz</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33559050, used by Oom.Parameter; Oom.Attribute</Comment>
+    <Code>ArraySize</Code>
+    <Name>Array Size</Name>
+    <LocalName>Tamaño de matriz</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33554690, used by Obj.File</Comment>
+    <Code>Artifact</Code>
+    <Name>Artifact</Name>
+    <LocalName>Artefacto</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34604048,34603990, used by Eam.Workstation; Eam.Hardware Server; Eam.Network Node; Eam.Mobile Device; Eam.Hardware Asset; Eam.Hardware Platform</Comment>
+    <Code>AssetNumber</Code>
+    <Name>Asset Number</Name>
+    <LocalName>Número de activo</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33947665, used by Xsm.XML Model</Comment>
+    <Code>AttributeFormDefault</Code>
+    <Name>Attribute Form</Name>
+    <LocalName>Formulario de atributo</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33947665, used by Xsm.Attribute</Comment>
+    <Code>Form</Code>
+    <Name>Attribute Form</Name>
+    <LocalName>Formulario de atributo</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33554755, used by Ldm.Logical Data Model; Obj.Model; Cdm.Conceptual Data Model; Cdo.Conceptual Data Model; Ooo.Base Object Oriented Model; Ilm.Data Movement Model; Frm.Free Model; Glm.Glossary Model; Rqm.Requirements M...</Comment>
+    <Code>Author</Code>
+    <Name>Author</Name>
+    <LocalName>Autor</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33640552,33641089, used by Pdo.Abstract Data Type; Pdo.Database Package</Comment>
+    <Code>Authorization</Code>
+    <Name>Authorization</Name>
+    <LocalName>Autorización</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33628178, used by Pdo.Reference</Comment>
+    <Code>AutoArrangeJoinOrder</Code>
+    <Name>Auto Arrange Join Order</Name>
+    <LocalName>Organizar automáticamente la orden combinación</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33555258, used by Ext.Extension</Comment>
+    <Code>AutoAttach</Code>
+    <Name>Auto Attach</Name>
+    <LocalName>Adjuntar automáticamente</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 51385757,33624155, used by Ldm.Entity Attribute; Pdo.Column</Comment>
+    <Code>AutoMigrated</Code>
+    <Name>Auto-Migrated</Name>
+    <LocalName>Migrado automáticamente</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33559312, used by Oom.Operation</Comment>
+    <Code>Automatic</Code>
+    <Name>Automatic</Name>
+    <LocalName>Automático</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33624136, used by Pdo.Column</Comment>
+    <Code>AverageLength</Code>
+    <Name>Average Length</Name>
+    <LocalName>Longitud media</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34019473, used by Xsm.Extension; Xsm.Restriction</Comment>
+    <Code>BaseTypeName</Code>
+    <Name>Base Type</Name>
+    <LocalName>Tipo base</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33554445, used by Pdo.Database; Pdo.Tablespace; Pdo.Join Index; Pdo.View; Pdo.Procedure; Pdo.Base Table; Pdo.Table</Comment>
+    <Code>BeginScript</Code>
+    <Name>Begin Script</Name>
+    <LocalName>Script de inicio</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33563395, used by Oom.Message</Comment>
+    <Code>BeginTime</Code>
+    <Name>Begin Time</Name>
+    <LocalName>Hora de inicio</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33559452, used by Oom.Port</Comment>
+    <Code>Behaviour</Code>
+    <Name>Behavior</Name>
+    <LocalName>Comportamiento</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33947661, used by Xsm.Element; Xsm.Complex Type</Comment>
+    <Code>Block</Code>
+    <Name>Block</Name>
+    <LocalName>Bloque</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33947661, used by Xsm.XML Model</Comment>
+    <Code>BlockDefault</Code>
+    <Name>Block</Name>
+    <LocalName>Bloque</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33947731, used by Rqm.Traceability Link</Comment>
+    <Code>Bookmark</Code>
+    <Name>Bookmark</Name>
+    <LocalName>Marcador</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34607482, used by Prj.Project Document; Prj.Model; Prj.File</Comment>
+    <Code>BranchID</Code>
+    <Name>Branch identifier</Name>
+    <LocalName>Identificador de rama</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34606856, used by Eam.Project; Eam.Phase; Eam.Initiative; Eam.Program</Comment>
+    <Code>BusinessSpending</Code>
+    <Name>Business Expenditure</Name>
+    <LocalName>Gastos empresariales</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33554520, used by Cdm.Property; Obj.Check; Obj.Check Named Classifier; Obj.Feature; Obj.Domain; Cdm.Data Item; Cdm.Domain; Cdo.Domain; Cdm.Inheritance Attribute; Cdm.Association Attribute; Cdm.Entity Attribute; Ldm.Att...</Comment>
+    <Code>CannotModify</Code>
+    <Name>Cannot Modify</Name>
+    <LocalName>No es posible modificar</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33628164,33558786,33563408,33563424, used by Pdo.Reference; Oom.Class; Oom.Node; Oom.Component Instance</Comment>
+    <Code>Cardinality</Code>
+    <Name>Cardinality</Name>
+    <LocalName>Cardinalidad</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33559848, used by Cdm.Association Link</Comment>
+    <Code>Cardinality</Code>
+    <Name>Cardinality of Role</Name>
+    <LocalName>Cardinalidad del rol</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33554582,33640694, used by Cdm.Property; Obj.Check; Obj.Check Named Classifier; Obj.Feature; Obj.Domain; Cdm.Data Item; Cdm.Domain; Cdo.Domain; Cdm.Inheritance Attribute; Cdm.Association Attribute; Cdm.Entity Attribute; Ldm.Att...</Comment>
+    <Code>CharacterCase</Code>
+    <Name>Case</Name>
+    <LocalName>Caso</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33555256,34605134, used by Ext.Extension; Eam.Report Document</Comment>
+    <Code>Category</Code>
+    <Name>Category</Name>
+    <LocalName>Categoría</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33555370, used by Obj.Dependency Matrix</Comment>
+    <Code>CellCollection</Code>
+    <Name>Cell Collection</Name>
+    <LocalName>Colección de celdas</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33555375, used by Obj.Dependency Matrix</Comment>
+    <Code>CellLinkAttribute</Code>
+    <Name>Cell Link Attribute</Name>
+    <LocalName>Atributo de enlace de celda</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33555378, used by Obj.Dependency Matrix</Comment>
+    <Code>CellLinkAttributeNoValue</Code>
+    <Name>Cell Link Attribute &#39;No value&#39;</Name>
+    <LocalName>Atributo de enlace de celda &#39;No value&#39;</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33555374, used by Obj.Dependency Matrix</Comment>
+    <Code>CellLinkKind</Code>
+    <Name>Cell Link Kind</Name>
+    <LocalName>Clase de enlace de celda</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33555373, used by Obj.Dependency Matrix</Comment>
+    <Code>CellLinkClassID</Code>
+    <Name>Cell Link Type</Name>
+    <LocalName>Tipo de enlace de celda</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33628162, used by Pdo.Reference</Comment>
+    <Code>ChangeParentAllowed</Code>
+    <Name>Change Parent Allowed</Name>
+    <LocalName>Modificación de principal permitida</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33559045, used by Oom.Attribute</Comment>
+    <Code>Frozen</Code>
+    <Name>Changeability</Name>
+    <LocalName>Opciones de modificación</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33559564, used by Oom.Association</Comment>
+    <Code>RoleAChangeability</Code>
+    <Name>Changeability A</Name>
+    <LocalName>Opciones de modificación A</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33559565, used by Oom.Association</Comment>
+    <Code>RoleBChangeability</Code>
+    <Name>Changeability B</Name>
+    <LocalName>Opciones de modificación B</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33624072, used by Pdo.Column; Pdo.Table</Comment>
+    <Code>CheckConstraintName</Code>
+    <Name>Check Constraint Name</Name>
+    <LocalName>Verificar nombre de restricción</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33595544, used by Obj.Object Generation Command</Comment>
+    <Code>GenerationCheckModel</Code>
+    <Name>Check Model</Name>
+    <LocalName>Verificar modelo</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33628173, used by Pdo.Reference</Comment>
+    <Code>CheckOnCommit</Code>
+    <Name>Check on Commit</Name>
+    <LocalName>Verificar al confirmar</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33628184, used by Pdo.Join Index Reference; Pdo.Reference; Pdo.View Reference</Comment>
+    <Code>ChildRole</Code>
+    <Name>Child Role</Name>
+    <LocalName>Rol secundario</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34603648, used by Eam.Site</Comment>
+    <Code>City</Code>
+    <Name>City</Name>
+    <LocalName>Ciudad</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33640555, used by Pdo.Abstract Data Type</Comment>
+    <Code>Class</Code>
+    <Name>Class</Name>
+    <LocalName>Clase</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33558784, used by Oom.Class; Oom.Interface</Comment>
+    <Code>Type</Code>
+    <Name>Classifier Type</Name>
+    <LocalName>Tipo de clasificador</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33554562, used by Obj.Business Rule</Comment>
+    <Code>ClientExpression</Code>
+    <Name>Client Expression</Name>
+    <LocalName>Expresión de cliente</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33554522, used by Cdm.Property; Obj.Check; Obj.Check Named Classifier; Obj.Feature; Obj.Domain; Cdm.Data Item; Cdm.Domain; Cdo.Domain; Cdm.Inheritance Attribute; Cdm.Association Attribute; Cdm.Entity Attribute; Ldm.Att...</Comment>
+    <Code>ClientCheckExpression</Code>
+    <Name>Client Validation Rule</Name>
+    <LocalName>Regla de validación del cliente</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 16777220, used by Cdm.Inheritance Attribute; All; Cdm.Property; Cdm.Association Attribute; Cdm.Entity Attribute; Pdo.Join Index Reference; Oom.Type Parameter Value; Bpm.Data Access; Oom.Attribute Value</Comment>
+    <Code>Code</Code>
+    <Name>Code</Name>
+    <LocalName>Código</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34608870, used by Glm.Glossary Model</Comment>
+    <Code>CodeSeparators</Code>
+    <Name>Code separators</Name>
+    <LocalName>Separadores de código</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33640682, used by Pdo.Test Data Profile</Comment>
+    <Code>Column</Code>
+    <Name>Column</Name>
+    <LocalName>Columna</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33595397, used by Obj.List Report</Comment>
+    <Code>ColFilter</Code>
+    <Name>Column Filter</Name>
+    <LocalName>Filtro de columnas</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33595397, used by Obj.Persistent Selection</Comment>
+    <Code>ColumnFilters</Code>
+    <Name>Column Filter</Name>
+    <LocalName>Filtro de columnas</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33555399, used by Obj.Base Matrix Dialog View; Obj.Dependency Matrix; Rqm.Traceability Matrix View; Rqm.User Allocation Matrix View</Comment>
+    <Code>ColumnHeaderSizes</Code>
+    <Name>Column Header Sizes</Name>
+    <LocalName>Tamaños de cabecera de columna</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33555365, used by Obj.Dependency Matrix</Comment>
+    <Code>ColClassKind</Code>
+    <Name>Column Kind</Name>
+    <LocalName>Clase de columna</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33947695, used by Obj.Abstract Base List View; Rqm.Requirements Document View; Glm.Glossary Terms List</Comment>
+    <Code>ColumnPreferences</Code>
+    <Name>Column Preferences</Name>
+    <LocalName>Preferencias de columna</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33947695, used by Obj.Base Matrix Dialog View; Obj.Dependency Matrix; Rqm.Traceability Matrix View; Rqm.User Allocation Matrix View</Comment>
+    <Code>ColumnSizes</Code>
+    <Name>Column Sizes</Name>
+    <LocalName>Tamaños de columna</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33555366, used by Obj.Dependency Matrix</Comment>
+    <Code>ColStereotype</Code>
+    <Name>Column Stereotype</Name>
+    <LocalName>Estereotipo de columna</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33555359, used by Obj.Dependency Matrix</Comment>
+    <Code>ColumnStereotypeOrType</Code>
+    <Name>Column Stereotype or Type</Name>
+    <LocalName>Estereotipo o tipo de columna</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33555364, used by Obj.Dependency Matrix</Comment>
+    <Code>ColClassID</Code>
+    <Name>Column Type</Name>
+    <LocalName>Tipo de columna</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33556840, used by Obj.Base Editor Definition; Obj.Abstract Base Extensible Dialog View; Obj.Base Matrix Dialog View; Obj.Dependency Matrix; Rqm.Traceability Matrix View; Rqm.User Allocation Matrix View</Comment>
+    <Code>CommandClassID</Code>
+    <Name>Command Class Unique Identifier</Name>
+    <LocalName>Identificador único de clase de comando</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33554433, used by Cdm.Inheritance Attribute; All; Cdm.Property; Cdm.Association Attribute; Cdm.Entity Attribute</Comment>
+    <Code>Comment</Code>
+    <Name>Comment</Name>
+    <LocalName>Comentario</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33563910, used by Ooo.Activity; Oom.Activity; Bpm.Process</Comment>
+    <Code>Committee</Code>
+    <Name>Committee Activity</Name>
+    <LocalName>Actividad de comité</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33555257, used by Ext.Extension</Comment>
+    <Code>Complementary</Code>
+    <Name>Complementary</Name>
+    <LocalName>Complementario</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33554557,33560072, used by Cdm.Property; Obj.Check; Obj.Check Named Classifier; Obj.Feature; Obj.Domain; Cdm.Inheritance; Cdm.Data Item; Cdm.Domain; Cdo.Inheritance; Cdo.Domain; Cdm.Inheritance Attribute; Cdm.Association Attrib...</Comment>
+    <Code>Complete</Code>
+    <Name>Complete</Name>
+    <LocalName>Completado</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34603297, used by Prj.Framework Node; Prj.Base Framework Cell; Prj.Cell</Comment>
+    <Code>CompletionStatus</Code>
+    <Name>Completion Status</Name>
+    <LocalName>Estado de finalización</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33563648, used by Oom.Component; Oom.Component Instance</Comment>
+    <Code>Type</Code>
+    <Name>Component Type</Name>
+    <LocalName>Tipo de componente</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33559467, used by Oom.Part</Comment>
+    <Code>Composition</Code>
+    <Name>Composition</Name>
+    <LocalName>Composición</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33640515, used by Pdo.Data Source</Comment>
+    <Code>CompressionRate</Code>
+    <Name>Compression rate</Name>
+    <LocalName>Tasa de compresión</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33624132, used by Pdo.Column</Comment>
+    <Code>Computed</Code>
+    <Name>Computed Column</Name>
+    <LocalName>Columna calculada</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33624133, used by Pdo.Column</Comment>
+    <Code>ComputedExpression</Code>
+    <Name>Computed Expression Text</Name>
+    <LocalName>Texto de expresión calculada</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33563393, used by Oom.Interaction Fragment; Oom.Message</Comment>
+    <Code>Condition</Code>
+    <Name>Condition</Name>
+    <LocalName>Condición</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33563915, used by Ooo.Condition Link; Ilm.Data Flow; Ilm.Control Flow; Oom.FlowLink; Oom.Transition; Oom.Flow; Bpm.Message Flow; Bpm.Flow; Oom.Action; Bpm.Resource Flow</Comment>
+    <Code>ConditionAlias</Code>
+    <Name>Condition Alias</Name>
+    <LocalName>Alias de condición</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33563916, used by Ooo.Condition Link; Ilm.Data Flow; Ilm.Control Flow; Oom.FlowLink; Oom.Transition; Bpm.Message Flow; Bpm.Flow; Oom.Flow; Oom.Action; Bpm.Resource Flow</Comment>
+    <Code>ConditionExpression</Code>
+    <Name>Condition Expression</Name>
+    <LocalName>Expresión de condición</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34608871, used by Glm.Glossary Model</Comment>
+    <Code>Conjunctions</Code>
+    <Name>Conjunctions</Name>
+    <LocalName>Conjunciones</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33566720, used by Oom.Data Source</Comment>
+    <Code>ConnectionString</Code>
+    <Name>Connection String</Name>
+    <LocalName>Cadena de conexión</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33621529, used by Pdo.Web Service; Pdo.Web Operation</Comment>
+    <Code>ConnectionUserName</Code>
+    <Name>Connection User Name</Name>
+    <LocalName>Nombre de usuario de conexión</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33641296,33562743, used by Pdo.Database Package Variable; Bpm.Variable</Comment>
+    <Code>Constant</Code>
+    <Name>Constant</Name>
+    <LocalName>Constante</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34606777, used by Prj.Framework Node; Prj.Base Framework Cell; Prj.Cell</Comment>
+    <Code>ConstrainContents</Code>
+    <Name>Constrain Content</Name>
+    <LocalName>Restringir contenido</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33624072, used by Pdo.Key</Comment>
+    <Code>ConstraintName</Code>
+    <Name>Constraint Name</Name>
+    <LocalName>Nombre de restricción</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33580336,34013697, used by Rpt.Report Template; Rpt.Report; Rpt.Intra-Model Report; Rpt.Multi-Model Report; Xsm.Annotation Item; Xsm.AppInfo; Xsm.Documentation</Comment>
+    <Code>Content</Code>
+    <Name>Content</Name>
+    <LocalName>Contenido</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33563392, used by Oom.Message</Comment>
+    <Code>ControlFlow</Code>
+    <Name>Control Flow</Name>
+    <LocalName>Flujo de control</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34603537, used by Eam.Application</Comment>
+    <Code>Cost</Code>
+    <Name>Cost</Name>
+    <LocalName>Coste</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33640513, used by Pdo.Tablespace; Pdo.Data Source</Comment>
+    <Code>Cost</Code>
+    <Name>Cost (per GB)</Name>
+    <LocalName>Coste (por GB)</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34603649, used by Eam.Site</Comment>
+    <Code>Country</Code>
+    <Name>Country</Name>
+    <LocalName>País</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34604051, used by Eam.Workstation; Eam.Hardware Server; Eam.Mobile Device; Eam.Hardware Platform</Comment>
+    <Code>CPU</Code>
+    <Name>CPU</Name>
+    <LocalName>CPU</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33576449, used by Mtm.Data Access</Comment>
+    <Code>CreateAccess</Code>
+    <Name>Create</Name>
+    <LocalName>Crear</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33562665,33576449, used by Bpm.Resource Flow; Bpm.Data Access</Comment>
+    <Code>CreateAccess</Code>
+    <Name>Create Access</Name>
+    <LocalName>Crear acceso</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 16777232, used by All</Comment>
+    <Code>CreationDate</Code>
+    <Name>Creation Date</Name>
+    <LocalName>Fecha de creación</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 16777233, used by All</Comment>
+    <Code>Creator</Code>
+    <Name>Creator</Name>
+    <LocalName>Creador</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33555730,33555811,84149308,84149760, used by Obj.Mapping; Obj.Mapping; Obj.Mapping; Obj.Reverse Mapping; Obj.Reverse Mapping; Obj.Association Map; Obj.Association Map; Obj.Behavioral Feature Map; Obj.Behavioral Feature Mapping; Ilm.Data Calculat...</Comment>
+    <Code>Criteria</Code>
+    <Name>Criteria</Name>
+    <LocalName>Criterios</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33555652, used by Obj.Persistent Selection</Comment>
+    <Code>CriterionInfo</Code>
+    <Name>CriterionInfo</Name>
+    <LocalName>Información de criterio</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33640621, used by Pdo.Fact Mapping</Comment>
+    <Code>CubeCriteria</Code>
+    <Name>Cube Criteria</Name>
+    <LocalName>Criterios de cubo</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33640612, used by Pdo.Fact Mapping</Comment>
+    <Code>CubeSelect</Code>
+    <Name>Cube Select</Name>
+    <LocalName>Seleccionar cubo</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33644596, used by Pdo.Cost Saving</Comment>
+    <Code>Currency</Code>
+    <Name>Currency</Name>
+    <LocalName>Moneda</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33624088, used by Pdo.Table</Comment>
+    <Code>TotalSavingCurrency</Code>
+    <Name>Currency</Name>
+    <LocalName>Moneda</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 67109614, used by Obj.DBMS; Obj.Model Language; Ext.Report Language; Ext.Extension; Ext.User Profile; Ext.Metadata Permission Profile; Ext.Model Category Set; Xsm.XML Language; Oom.Object Language; Pdo.DBMS; Iam.Analys...</Comment>
+    <Code>CheckGlobalScript</Code>
+    <Name>Custom Check Global Scripting Section</Name>
+    <LocalName>Sección de scripting global para verificación personalizada</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33640569, used by Pdo.View Column</Comment>
+    <Code>CustomCode</Code>
+    <Name>Custom Code</Name>
+    <LocalName>Código personalizado</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33640568, used by Pdo.View Column</Comment>
+    <Code>CustomComment</Code>
+    <Name>Custom Comment</Name>
+    <LocalName>Comentario personalizado</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33640563, used by Pdo.View Column</Comment>
+    <Code>CustomDataType</Code>
+    <Name>Custom Data Type</Name>
+    <LocalName>Tipo de datos personalizado</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33640560, used by Pdo.View Column</Comment>
+    <Code>CustomName</Code>
+    <Name>Custom Name</Name>
+    <LocalName>Nombre personalizado</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33554760, used by Ldm.Logical Data Model; Obj.Model; Cdm.Conceptual Data Model; Cdo.Conceptual Data Model; Ooo.Base Object Oriented Model; Ilm.Data Movement Model; Frm.Free Model; Glm.Glossary Model; Rqm.Requirements M...</Comment>
+    <Code>CustomPictureUpdateText</Code>
+    <Name>Custom Picture Update Information</Name>
+    <LocalName>Información de actualización de imagen personalizada</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33562685, used by Bpm.Service Provider</Comment>
+    <Code>DataSchemaLanguage</Code>
+    <Name>Data Schema Language</Name>
+    <LocalName>Idioma de esquema de datos</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33562684, used by Bpm.Service Provider</Comment>
+    <Code>DataSchemaText</Code>
+    <Name>Data Schema Text</Name>
+    <LocalName>Texto de esquema de datos</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 83886087, used by Ilm.Process; Ilm.Replication Process; Ilm.Transformation Process; Ilm.Database</Comment>
+    <Code>DataSourceName</Code>
+    <Name>Data Source</Name>
+    <LocalName>Fuente de datos</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33640678, used by Pdo.Test Data Profile</Comment>
+    <Code>DataSourceLogin</Code>
+    <Name>Data Source Login</Name>
+    <LocalName>Inicio de sesión de fuente de datos</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33640677, used by Pdo.Test Data Profile</Comment>
+    <Code>DataSourceName</Code>
+    <Name>Data Source Name</Name>
+    <LocalName>Nombre de fuente de datos</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33640679, used by Pdo.Test Data Profile</Comment>
+    <Code>DataSourcePassword</Code>
+    <Name>Data Source Password</Name>
+    <LocalName>Contraseña de fuente de datos</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33554528,33559424, used by Cdm.Property; Obj.Domain; Cdm.Data Item; Cdm.Domain; Cdo.Domain; Cdm.Inheritance Attribute; Cdm.Association Attribute; Cdm.Entity Attribute; Ilm.Article Column; Ilm.Parameter; Ilm.Data Structure Colum...</Comment>
+    <Code>DataType</Code>
+    <Name>Data Type</Name>
+    <LocalName>Tipo de datos</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33640714, used by Pdo.Test Data Profile</Comment>
+    <Code>DayStep</Code>
+    <Name>Day Step</Name>
+    <LocalName>Paso de día</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34608573,34605125, used by Eam.Deployment Instance; Eam.Database</Comment>
+    <Code>DBMS</Code>
+    <Name>DBMS</Name>
+    <LocalName>DBMS</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34608575, used by Eam.Database</Comment>
+    <Code>DBMSVersion</Code>
+    <Name>DBMS Version</Name>
+    <LocalName>Versión DBMS</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33562785, used by Bpm.Event</Comment>
+    <Code>DeadlineTimer</Code>
+    <Name>Deadline Timer</Name>
+    <LocalName>Temporizador de fecha límite</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33640687, used by Pdo.Test Data Profile</Comment>
+    <Code>Decimal</Code>
+    <Name>Decimal</Name>
+    <LocalName>Decimal</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33636417, used by Pdo.Trigger Item</Comment>
+    <Code>Declaration</Code>
+    <Name>Declaration</Name>
+    <LocalName>Declaración</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34603309, used by Ext.Model Creation Descriptor; Prj.Action</Comment>
+    <Code>DefaultDocumentName</Code>
+    <Name>Default document name</Name>
+    <LocalName>Nombre de documento por defecto</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33556895, used by Ext.Model Creation Descriptor; Prj.Action</Comment>
+    <Code>DefaultModelName</Code>
+    <Name>Default model name</Name>
+    <LocalName>Nombre de modelo por defecto</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33554517,84149248,84149510,33947666,33641297,33621573, used by Cdm.Property; Obj.Check; Obj.Check Named Classifier; Obj.Feature; Obj.Domain; Cdm.Data Item; Cdm.Domain; Cdo.Domain; Cdm.Inheritance Attribute; Cdm.Association Attribute; Cdm.Entity Attribute; Ilm.Dat...</Comment>
+    <Code>DefaultValue</Code>
+    <Name>Default Value</Name>
+    <LocalName>Valor por defecto</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33636353,33641312,33641232, used by Pdo.Base Procedure; Pdo.Database Package Type; Pdo.Database Package Cursor; Pdo.Database Package Procedure; Pdo.Abstract Data Type Procedure</Comment>
+    <Code>Definition</Code>
+    <Name>Definition</Name>
+    <LocalName>Definición</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33563397, used by Oom.Message</Comment>
+    <Code>Delay</Code>
+    <Name>Delay</Name>
+    <LocalName>Retraso</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33576451, used by Mtm.Data Access</Comment>
+    <Code>DeleteAccess</Code>
+    <Name>Delete</Name>
+    <LocalName>Borrar</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33555587, used by Cdm.Data Structure Mapping; Obj.Mapping; Obj.Mapping; Obj.Mapping; Obj.Reverse Mapping; Obj.Reverse Mapping; Obj.Association Map; Obj.Association Map; Xsm.Mapping; Xsm.Element Mapping; Xsm.Complex Typ...</Comment>
+    <Code>DeleteStatement</Code>
+    <Name>Delete</Name>
+    <LocalName>Borrar</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33555590, used by Obj.Association Map; Oom.Association Mapping</Comment>
+    <Code>DeleteA</Code>
+    <Name>Delete (Role A)</Name>
+    <LocalName>Borrar (rol A)</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33555593, used by Obj.Association Map; Oom.Association Mapping</Comment>
+    <Code>DeleteB</Code>
+    <Name>Delete (Role B)</Name>
+    <LocalName>Borrar (rol B)</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33562667,33576451, used by Bpm.Resource Flow; Bpm.Data Access</Comment>
+    <Code>DeleteAccess</Code>
+    <Name>Delete Access</Name>
+    <LocalName>Borrar acceso</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33628171, used by Pdo.Reference</Comment>
+    <Code>DeleteConstraint</Code>
+    <Name>Delete Constraint</Name>
+    <LocalName>Borrar restricción</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33559992, used by Cdo.Relationship; Cdm.Relationship; Ldm.Relationship</Comment>
+    <Code>DependentRole</Code>
+    <Name>Dependent Role</Name>
+    <LocalName>Rol dependiente</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33559431, used by Oom.Type Parameter</Comment>
+    <Code>DerivationConstraint</Code>
+    <Name>Derivation Constraint</Name>
+    <LocalName>Restricción de derivación</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34015301, used by Xsm.Type; Xsm.Complex Type; Xsm.Simple Type</Comment>
+    <Code>DerivationTypeName</Code>
+    <Name>Derivation Type Name</Name>
+    <LocalName>Nombre de tipo de derivación</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33559046, used by Oom.Attribute; Oom.Attribute Value</Comment>
+    <Code>Derived</Code>
+    <Name>Derived</Name>
+    <LocalName>Derivado</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 67108865, used by Cdm.Property; All; Cdm.Inheritance Attribute; Cdm.Association Attribute; Cdm.Entity Attribute</Comment>
+    <Code>Description</Code>
+    <Name>Description</Name>
+    <LocalName>Descripción</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33620024, used by Obj.Diagram; Obj.Abstract Base Dialog View; Obj.Abstract Base List View; Obj.Abstract Base Extensible Dialog View; Sym.Diagram; Ldm.Logical Diagram; Obj.Base Matrix Dialog View; Obj.Dependency Matrix;...</Comment>
+    <Code>Flags</Code>
+    <Name>Diagram Flags</Name>
+    <LocalName>Indicadores de diagrama</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34603445, used by Ext.Model Creation Descriptor; Prj.Action</Comment>
+    <Code>DiagramKind</Code>
+    <Name>Diagram type</Name>
+    <LocalName>Tipo de diagrama</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33624067, used by Pdo.View; Pdo.Base Table; Pdo.Table</Comment>
+    <Code>DimensionalType</Code>
+    <Name>Dimensional Type</Name>
+    <LocalName>Tipo dimensional</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33641493, used by Pdo.Horizontal Partitioning</Comment>
+    <Code>DiscriminantColumns</Code>
+    <Name>Discriminant Columns</Name>
+    <LocalName>Columnas discriminantes</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 16777441, used by Iam.Impact Analysis Category</Comment>
+    <Code>DispID</Code>
+    <Name>DISPID</Name>
+    <LocalName>DISPID</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 16777227, used by Rqm.Traceability Link; Rqm.User Allocation; Pdo.Restriction Link</Comment>
+    <Code>DisplayName</Code>
+    <Name>Display Name</Name>
+    <LocalName>Visualizar nombre</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 16777218, used by Pdo.Join Index Reference</Comment>
+    <Code>Name</Code>
+    <Name>Display Name</Name>
+    <LocalName>Visualizar nombre</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33947750, used by Obj.Base Matrix Dialog View; Obj.Dependency Matrix; Rqm.Traceability Matrix View; Rqm.User Allocation Matrix View</Comment>
+    <Code>ShowEmptyRows</Code>
+    <Name>Display Only Empty Rows</Name>
+    <LocalName>Visualizar solo filas vacías</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33947748, used by Obj.Base Matrix Dialog View; Obj.Dependency Matrix; Rqm.Traceability Matrix View; Rqm.User Allocation Matrix View</Comment>
+    <Code>ShowFullRowColumns</Code>
+    <Name>Display Only Non-Empty Rows/Columns</Name>
+    <LocalName>Visualizar solo filas/columnas no vacías</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33620002, used by Obj.Diagram; Obj.Abstract Base Dialog View; Obj.Abstract Base List View; Obj.Abstract Base Extensible Dialog View; Sym.Diagram; Ldm.Logical Diagram; Xsm.XML Model Diagram; Obj.Base Matrix Dialog View;...</Comment>
+    <Code>DisplayPreferences</Code>
+    <Name>Display Preferences</Name>
+    <LocalName>Visualizar preferencias</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 16777358, used by Cdm.Association Attribute; Cdm.Entity Attribute; Ldm.Entity Attribute; Pdo.View Column; Oom.Operation; Pdo.Base Column; Pdo.Column; Bpm.Operation; Oom.Component Instance; Oom.Attribute; Oom.Attribute ...</Comment>
+    <Code>Displayed</Code>
+    <Name>Displayed</Name>
+    <LocalName>Visualizado</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33555385, used by Obj.Dependency Matrix</Comment>
+    <Code>CellCollDisplayed</Code>
+    <Name>Displayed Cell Collection</Name>
+    <LocalName>Colección de celdas visualizada</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33624134, used by Pdo.Column</Comment>
+    <Code>DistinctValues</Code>
+    <Name>Distinct Values</Name>
+    <LocalName>Valores unívocos</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34607483, used by Prj.Project Document; Prj.Model; Prj.File</Comment>
+    <Code>ExtractionDate</Code>
+    <Name>Document Extraction Date</Name>
+    <LocalName>Fecha de extracción del documento</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34608832, used by Prj.Project Document; Prj.Model; Prj.File</Comment>
+    <Code>ExtractionEndDate</Code>
+    <Name>Document Extraction End Date</Name>
+    <LocalName>Fecha de fin de extracción de documento</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34607481, used by Prj.Project Document; Prj.Model; Prj.File</Comment>
+    <Code>ExtractionVersion</Code>
+    <Name>Document Extraction Version</Name>
+    <LocalName>Versión de extracción del documento</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34603640, used by Ext.Model Creation Descriptor; Prj.Action</Comment>
+    <Code>DocumentTemplate</Code>
+    <Name>Document template</Name>
+    <LocalName>Modelo de documento</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33580296, used by Rpt.Report; Rpt.Intra-Model Report; Rpt.Multi-Model Report; Rpt.Report Template</Comment>
+    <Code>FirstPageDefined</Code>
+    <Name>Does the Report Have a First Page</Name>
+    <LocalName>Tiene el informe una primera página</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33580298, used by Rpt.Report; Rpt.Intra-Model Report; Rpt.Multi-Model Report; Rpt.Report Template</Comment>
+    <Code>FirstPageAuthorDefined</Code>
+    <Name>Does the Report Have a First Page Author</Name>
+    <LocalName>Tiene el informe un autor de la primera página</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33580300, used by Rpt.Report; Rpt.Intra-Model Report; Rpt.Multi-Model Report; Rpt.Report Template</Comment>
+    <Code>FirstPageDateDefined</Code>
+    <Name>Does the Report Have a First Page Date</Name>
+    <LocalName>Tiene el informe la fecha de la primera página</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33580301, used by Rpt.Report; Rpt.Intra-Model Report; Rpt.Multi-Model Report; Rpt.Report Template</Comment>
+    <Code>FirstPageSummaryDefined</Code>
+    <Name>Does the Report Have a First Page Summary</Name>
+    <LocalName>Tiene el informe un resumen de primera página</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33580297, used by Rpt.Report; Rpt.Intra-Model Report; Rpt.Multi-Model Report; Rpt.Report Template</Comment>
+    <Code>FirstPageTitleDefined</Code>
+    <Name>Does the Report Have a First Page Title</Name>
+    <LocalName>Tiene el informe un título de la primera página</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33580299, used by Rpt.Report; Rpt.Intra-Model Report; Rpt.Multi-Model Report; Rpt.Report Template</Comment>
+    <Code>FirstPageVersionDefined</Code>
+    <Name>Does the Report Have a First Page Version</Name>
+    <LocalName>Tiene el informe una versión de la primera página</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33559991, used by Cdo.Relationship; Cdm.Relationship; Ldm.Relationship</Comment>
+    <Code>DominantRole</Code>
+    <Name>Dominant Role</Name>
+    <LocalName>Rol dominante</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33563905,33576358, used by Ooo.Activity; Oom.Activity; Bpm.Process; Mtm.Phase</Comment>
+    <Code>Duration</Code>
+    <Name>Duration</Name>
+    <LocalName>Duración</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33621170, used by Pdo.View; Pdo.Base Table; Pdo.Table</Comment>
+    <Code>XMLElement</Code>
+    <Name>Element</Name>
+    <LocalName>Elemento</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33947664, used by Xsm.XML Model</Comment>
+    <Code>ElementFormDefault</Code>
+    <Name>Element Form</Name>
+    <LocalName>Forma de elemento</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33947664, used by Xsm.Element</Comment>
+    <Code>Form</Code>
+    <Name>Element Form</Name>
+    <LocalName>Formulario de elemento</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33562799,33562798, used by Bpm.Message Part; Bpm.Variable</Comment>
+    <Code>ElementType</Code>
+    <Name>Element type</Name>
+    <LocalName>Tipo de elemento</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34603732,34606078, used by Eam.Person; Eam.Organization Unit</Comment>
+    <Code>Email</Code>
+    <Name>Email</Name>
+    <LocalName>Correo electrónico</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33947744, used by Rqm.Group or User; Rqm.User; Rqm.Group</Comment>
+    <Code>EmailAddress</Code>
+    <Name>Email Address</Name>
+    <LocalName>Dirección de correo electrónico</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33576257, used by Mtm.Event Emission; Mtm.Operation Emission; Mtm.Phase Emission</Comment>
+    <Code>EmissionRuleAlias</Code>
+    <Name>Emission Rule Alias</Name>
+    <LocalName>Alias de regla de emisión</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33595652, used by Obj.Object Generation Command</Comment>
+    <Code>EnableTransformation</Code>
+    <Name>Enable Transformation</Name>
+    <LocalName>Permitir transformación</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33560913, used by Obj.Artifact</Comment>
+    <Code>Encoding</Code>
+    <Name>Encoding</Name>
+    <LocalName>Codificación</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33563925, used by Oom.End</Comment>
+    <Code>ActivityTermination</Code>
+    <Name>End Activity Termination</Name>
+    <LocalName>Finalización de actividad de fin</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34607062, used by Eam.Project; Eam.Phase; Eam.Initiative; Eam.Program</Comment>
+    <Code>EndDate</Code>
+    <Name>End date</Name>
+    <LocalName>Fechas de fin</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33554446, used by Pdo.Database; Pdo.Tablespace; Pdo.Join Index; Pdo.View; Pdo.Procedure; Pdo.Base Table; Pdo.Table</Comment>
+    <Code>EndScript</Code>
+    <Name>End Script</Name>
+    <LocalName>Script de fin</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33563396, used by Oom.Message</Comment>
+    <Code>EndTime</Code>
+    <Name>End Time</Name>
+    <LocalName>Hora de fin</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 84149349, used by Ilm.Transformation End</Comment>
+    <Code>EndType</Code>
+    <Name>End Type</Name>
+    <LocalName>Tipo de fin</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33562694, used by Bpm.Service Provider</Comment>
+    <Code>EndpointURL</Code>
+    <Name>Endpoint URL</Name>
+    <LocalName>URL de punto final</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33559985, used by Cdm.Relationship; Cdo.Relationship; Ldm.Relationship</Comment>
+    <Code>Entity1ToEntity2Role</Code>
+    <Name>Entity 1 -&gt; Entity 2 Role</Name>
+    <LocalName>Entidad 1 -&gt; Rol de entidad 2</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33559994, used by Cdo.Relationship; Cdm.Relationship; Ldm.Relationship</Comment>
+    <Code>Entity1ToEntity2RoleCardinality</Code>
+    <Name>Entity 1 -&gt; Entity 2 Role Cardinality</Name>
+    <LocalName>Entidad 1 -&gt; Cardinalidad de rol de entidad 2</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33559988, used by Cdo.Relationship; Cdm.Relationship; Ldm.Relationship</Comment>
+    <Code>Entity2ToEntity1Role</Code>
+    <Name>Entity 2 -&gt; Entity 1 Role</Name>
+    <LocalName>Entidad 2 -&gt; Rol de entidad 1</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33559995, used by Cdo.Relationship; Cdm.Relationship; Ldm.Relationship</Comment>
+    <Code>Entity2ToEntity1RoleCardinality</Code>
+    <Name>Entity 2 -&gt; Entity 1 Role Cardinality</Name>
+    <LocalName>Entidad 2 -&gt; Cardinalidad de rol de entidad 1</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 84148992,33636393,33559313, used by Ilm.Event Script; Pdo.Trigger; Pdo.DBMS Trigger; Pdo.Trigger Template; Pdo.Base Trigger; Oom.Operation</Comment>
+    <Code>Event</Code>
+    <Name>Event</Name>
+    <LocalName>Evento</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33575713, used by Mtm.Base Operation Triggering; Mtm.Operation Triggering; Mtm.Phase Triggering</Comment>
+    <Code>EventAlias</Code>
+    <Name>Event Alias</Name>
+    <LocalName>Alias de evento</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33561225, used by Oom.Transition; Oom.Action</Comment>
+    <Code>EventArguments</Code>
+    <Name>Event Arguments</Name>
+    <LocalName>Argumentos de evento</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33640697, used by Pdo.Test Data Profile</Comment>
+    <Code>ExactCharacterLength</Code>
+    <Name>Exact Character Length</Name>
+    <LocalName>Longitud de caracteres exacta</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33559302,33562883, used by Oom.Operation; Oom.Use Case</Comment>
+    <Code>Throws</Code>
+    <Name>Exceptions</Name>
+    <LocalName>Excepciones</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34603748, used by Eam.Application</Comment>
+    <Code>ExpirationDate</Code>
+    <Name>Expiration Date</Name>
+    <LocalName>Fecha de vencimiento</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33595717, used by Obj.External Model Link</Comment>
+    <Code>Export</Code>
+    <Name>Export</Name>
+    <LocalName>Exportación</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34606015, used by Eam.Business Flow</Comment>
+    <Code>ConditionExpression</Code>
+    <Name>Expression</Name>
+    <LocalName>Expresión</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33555728,33554580,33563912,33624227,33562750, used by Obj.Mapping; Obj.Mapping; Obj.Mapping; Obj.Reverse Mapping; Obj.Reverse Mapping; Obj.Association Map; Obj.Association Map; Obj.Sub-object mapping; Obj.Sub-object mapping; Obj.Data Format; Xsm.Mapping;...</Comment>
+    <Code>Expression</Code>
+    <Name>Expression</Name>
+    <LocalName>Expresión</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33626787, used by Pdo.Join Index Reference</Comment>
+    <Code>JoinExpression</Code>
+    <Name>Expression</Name>
+    <LocalName>Expresión</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33563911, used by Ooo.Decision; Ilm.Transformation Decision; Bpm.Decision; Oom.Decision</Comment>
+    <Code>ExpressionAlias</Code>
+    <Name>Expression Alias</Name>
+    <LocalName>Alias de expresión</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33561249, used by Oom.Activity</Comment>
+    <Code>ExpressionText</Code>
+    <Name>Expression Text</Name>
+    <LocalName>Texto de expresión</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 68026368, used by All</Comment>
+    <Code>ExtendedAttributesText</Code>
+    <Name>Extended Attributes</Name>
+    <LocalName>Atributos ampliados</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33554848, used by Ldm.Logical Data Model; Obj.Model; Obj.Model Language; Cdm.Conceptual Data Model; Ilm.Data Movement Model; Ext.Extension; Cdo.Conceptual Data Model; Ooo.Base Object Oriented Model; Frm.Free Model; Glm...</Comment>
+    <Code>ExtendedMetaModelSignature</Code>
+    <Name>Extended Metamodel Signature</Name>
+    <LocalName>Firma de metamodelo ampliada</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33559444, used by Oom.Instance Link</Comment>
+    <Code>DiagramType</Code>
+    <Name>Extended Type</Name>
+    <LocalName>Tipo ampliado</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34603446, used by Ext.Model Creation Descriptor; Prj.Action</Comment>
+    <Code>ExtendedModelDefinitions</Code>
+    <Name>Extension</Name>
+    <LocalName>Extensión</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33554688,33595657,33562882, used by Obj.Base File; Obj.File; Obj.Object Generation Command; Prj.Project Document; Prj.Model; Prj.File; Oom.Use Case</Comment>
+    <Code>Extension</Code>
+    <Name>Extension</Name>
+    <LocalName>Extensión</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33595664, used by Obj.Object Generation Command</Comment>
+    <Code>ExtensionPath</Code>
+    <Name>Extension Path</Name>
+    <LocalName>Vía de extensión</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33560966, used by Obj.Settings</Comment>
+    <Code>External</Code>
+    <Name>External</Name>
+    <LocalName>Externo</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33554440, used by Bpm.Message Format</Comment>
+    <Code>Location</Code>
+    <Name>External Definition</Name>
+    <LocalName>Definición externa</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 16777466, used by Iam.Analysis Object</Comment>
+    <Code>ExternalDependencies</Code>
+    <Name>External Dependencies</Name>
+    <LocalName>Dependencias externas</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33595720, used by Obj.External Model Connection</Comment>
+    <Code>ExternalObjectURIs</Code>
+    <Name>External Object Unique Identifiers</Name>
+    <LocalName>Identificadores únicos de objeto externo</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 16777231, used by Rep.Target model reference</Comment>
+    <Code>ExtractionBranchID</Code>
+    <Name>Extraction Branch Identifier</Name>
+    <LocalName>Identificador de rama de extracción</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33554846, used by Ldm.Logical Data Model; Obj.Model; Cdm.Conceptual Data Model; Ilm.Data Movement Model; Cdo.Conceptual Data Model; Ooo.Base Object Oriented Model; Frm.Free Model; Glm.Glossary Model; Rqm.Requirements M...</Comment>
+    <Code>RepositoryFilename</Code>
+    <Name>Extraction Filename</Name>
+    <LocalName>Nombre de fichero de extracción</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 16777240, used by Rep.Target model reference</Comment>
+    <Code>ExtractionVersion</Code>
+    <Name>Extraction Version</Name>
+    <LocalName>Versión de extracción</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 16777230, used by Rep.Target model reference</Comment>
+    <Code>ExtractionID</Code>
+    <Name>Extraction Version Identifier</Name>
+    <LocalName>Identificador de versión de extracción</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33554975, used by Obj.DBMS; Obj.Model Language; Ext.Report Language; Ext.Extension; Ext.User Profile; Ext.Metadata Permission Profile; Ext.Model Category Set; Xsm.XML Language; Oom.Object Language; Pdo.DBMS; Iam.Analys...</Comment>
+    <Code>Family</Code>
+    <Name>Family</Name>
+    <LocalName>Familia</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33640548,33640675,33576273, used by Pdo.Abstract Data Type; Pdo.Test Data Profile; Mtm.Module</Comment>
+    <Code>File</Code>
+    <Name>File</Name>
+    <LocalName>Archivo</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33554549, used by Obj.File</Comment>
+    <Code>Content</Code>
+    <Name>File Contents</Name>
+    <LocalName>Contenido de fichero</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33562693, used by Bpm.Service Provider</Comment>
+    <Code>Filename</Code>
+    <Name>File Name</Name>
+    <LocalName>Nombre de fichero</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34603448, used by Ext.Model Creation Descriptor; Prj.Action</Comment>
+    <Code>FileType</Code>
+    <Name>File type</Name>
+    <LocalName>Tipo de fichero</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 67109269, used by Ext.External File Descriptor</Comment>
+    <Code>FileURL</Code>
+    <Name>File URL</Name>
+    <LocalName>URL de fichero</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33947662,33640549,33559299,33558531, used by Xsm.Element; Xsm.Complex Type; Xsm.Simple Type; Pdo.Abstract Data Type; Oom.Operation; Oom.Class/Interface; Oom.Class; Pdo.Abstract Data Type Procedure; Oom.Interface</Comment>
+    <Code>Final</Code>
+    <Name>Final</Name>
+    <LocalName>Final</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33947662, used by Xsm.XML Model</Comment>
+    <Code>FinalDefault</Code>
+    <Name>Final</Name>
+    <LocalName>Final</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33640702, used by Pdo.Test Data Profile</Comment>
+    <Code>FirstDay</Code>
+    <Name>First Day</Name>
+    <LocalName>Primer día</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33640703, used by Pdo.Test Data Profile</Comment>
+    <Code>FirstHour</Code>
+    <Name>First Hour</Name>
+    <LocalName>Primera hora</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33640704, used by Pdo.Test Data Profile</Comment>
+    <Code>FirstMinute</Code>
+    <Name>First Minute</Name>
+    <LocalName>Primer minuto</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33640701, used by Pdo.Test Data Profile</Comment>
+    <Code>FirstMonth</Code>
+    <Name>First Month</Name>
+    <LocalName>Primer mes</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33640705, used by Pdo.Test Data Profile</Comment>
+    <Code>FirstSecond</Code>
+    <Name>First Second</Name>
+    <LocalName>Primer segundo</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33640695, used by Pdo.Test Data Profile</Comment>
+    <Code>FirstUpper</Code>
+    <Name>First Upper</Name>
+    <LocalName>Primer superior</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33640700, used by Pdo.Test Data Profile</Comment>
+    <Code>FirstYear</Code>
+    <Name>First Year</Name>
+    <LocalName>Primer año</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33644593, used by Pdo.Cost Saving</Comment>
+    <Code>FiscalYear</Code>
+    <Name>Fiscal year</Name>
+    <LocalName>Año fiscal</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34016385, used by Xsm.Facet; Xsm.Enumeration Facet; Xsm.Maximum Exclusive Facet; Xsm.Maximum Inclusive Facet; Xsm.Minimum Exclusive Facet; Xsm.Minimum Inclusive Facet; Xsm.Numeric Facet; Xsm.Fraction Digits Facet; Xsm....</Comment>
+    <Code>Fixed</Code>
+    <Name>Fixed</Name>
+    <LocalName>Fijo</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33947663, used by Xsm.Element; Xsm.Attribute</Comment>
+    <Code>FixedValue</Code>
+    <Name>Fixed Value</Name>
+    <LocalName>Valor fijo</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33563914, used by Ooo.Condition Link; Ilm.Data Flow; Ilm.Control Flow; Oom.FlowLink; Oom.Transition; Oom.Flow; Bpm.Message Flow; Bpm.Flow; Bpm.Resource Flow</Comment>
+    <Code>FlowType</Code>
+    <Name>Flow Type</Name>
+    <LocalName>Tipo de flujo</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33562670, used by Bpm.Message Flow; Bpm.Flow; Bpm.Resource Flow</Comment>
+    <Code>UndefinedFormat</Code>
+    <Name>Flow Undefined</Name>
+    <LocalName>Flujo indefinido</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34607480, used by Prj.Project Document; Prj.Model; Prj.File</Comment>
+    <Code>DocumentID</Code>
+    <Name>Folder identifier</Name>
+    <LocalName>Identificador de carpeta</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34607492, used by Prj.Folder</Comment>
+    <Code>FolderID</Code>
+    <Name>Folder identifier</Name>
+    <LocalName>Identificador de carpeta</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33558788, used by Oom.Class/Interface; Oom.Class; Oom.Interface</Comment>
+    <Code>Footer</Code>
+    <Name>Footer</Name>
+    <LocalName>Pie de página</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33624072, used by Pdo.Reference</Comment>
+    <Code>ForeignKeyConstraintName</Code>
+    <Name>Foreign Key Constraint Name</Name>
+    <LocalName>Nombre de restricción de clave externa</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33554514,33640693, used by Obj.Check; Obj.Check Named Classifier; Obj.Feature; Obj.Domain; Cdm.Data Item; Cdm.Domain; Cdm.Property; Cdo.Domain; Cdm.Inheritance Attribute; Cdm.Association Attribute; Cdm.Entity Attribute; Ldm.Att...</Comment>
+    <Code>Format</Code>
+    <Name>Format</Name>
+    <LocalName>Formato</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33640625, used by Pdo.Measure; Pdo.Fact Attribute; Pdo.Attribute</Comment>
+    <Code>FormulaExpression</Code>
+    <Name>Formula Expression</Name>
+    <LocalName>Expresión de fórmula</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33560851, used by Oom.Interaction Fragment</Comment>
+    <Code>Size</Code>
+    <Name>Fragment Size</Name>
+    <LocalName>Tamaño de fragmento</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33560880, used by Oom.Interaction Fragment</Comment>
+    <Code>FragmentType</Code>
+    <Name>Fragment Type</Name>
+    <LocalName>Tipo de fragmento</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34603654, used by Eam.Fulfillment</Comment>
+    <Code>Percentage</Code>
+    <Name>Fulfillment</Name>
+    <LocalName>Cumplimiento</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33560967,33560965, used by Obj.Persistent selection; Obj.Settings</Comment>
+    <Code>Function</Code>
+    <Name>Function</Name>
+    <LocalName>Función</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33554447, used by Rep.Shortcut; Rep.Replication; Obj.File; Cdm.Entity; Cdm.Association; Cdm.Relationship; Cdo.Entity; Cdo.Relationship; Ldm.Entity; Ldm.Relationship; Pdo.Trigger; Pdo.DBMS Trigger; Pdo.User; Pdo.Referen...</Comment>
+    <Code>Generated</Code>
+    <Name>Generate</Name>
+    <LocalName>Generar</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33579401, used by Rpt.Report; Rpt.Intra-Model Report; Rpt.Multi-Model Report; Rpt.Report Template</Comment>
+    <Code>GenerateEmptyParagraphs</Code>
+    <Name>Generate Empty Paragraphs</Name>
+    <LocalName>Generar párrafos vacíos</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34608660, used by Prj.Action</Comment>
+    <Code>GenerationSourceExtensionName</Code>
+    <Name>Generation Source Extension Name</Name>
+    <LocalName>Nombre de extensión de fuente de generación</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34608661, used by Prj.Action</Comment>
+    <Code>GenerationSourceExtensionPath</Code>
+    <Name>Generation Source Extension Path</Name>
+    <LocalName>Vía de extensión de fuente de generación</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34608658, used by Prj.Action</Comment>
+    <Code>GenerationSourceLanguageName</Code>
+    <Name>Generation Source Language Name</Name>
+    <LocalName>Nombre de idioma de fuente de generación</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34608659, used by Prj.Action</Comment>
+    <Code>GenerationSourceLanguagePath</Code>
+    <Name>Generation Source Language Path</Name>
+    <LocalName>Vía de idioma de fuente de generación</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34608656, used by Prj.Action</Comment>
+    <Code>GenerationSourceObjectKind</Code>
+    <Name>Generation Source Object Kind</Name>
+    <LocalName>Clase de objeto de fuente de generación</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34608657, used by Prj.Action</Comment>
+    <Code>GenerationSourceObjectStereotype</Code>
+    <Name>Generation Source Object Stereotype</Name>
+    <LocalName>Estereotipo de objeto de fuente de generación</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34608653, used by Prj.Action</Comment>
+    <Code>GenerationTargetObjectKind</Code>
+    <Name>Generation Target Object Kind</Name>
+    <LocalName>Clase de objeto de destino de generación</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34608654, used by Prj.Action</Comment>
+    <Code>GenerationTargetObjectStereotype</Code>
+    <Name>Generation Target Object Stereotype</Name>
+    <LocalName>Estereotipo de objeto de destino de generación</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 67109275, used by Rep.Shortcut</Comment>
+    <Code>GenerationType</Code>
+    <Name>Generation Type</Name>
+    <LocalName>Tipo de generación</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33640834, used by Pdo.User; Pdo.Permission; Pdo.Role; Pdo.Group</Comment>
+    <Code>Grant</Code>
+    <Name>Grant</Name>
+    <LocalName>Conceder</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33640835, used by Pdo.User; Pdo.Permission; Pdo.Role; Pdo.Group</Comment>
+    <Code>GrantWithOption</Code>
+    <Name>Grant With Option</Name>
+    <LocalName>Conceder con opción</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34016001, used by Xsm.Group Particle</Comment>
+    <Code>GroupType</Code>
+    <Name>Group Type</Name>
+    <LocalName>Tipo de grupo</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33558787, used by Oom.Class/Interface; Oom.Class; Oom.Interface</Comment>
+    <Code>Header</Code>
+    <Name>Header</Name>
+    <LocalName>Cabecera</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 84148528, used by Ilm.Flat File</Comment>
+    <Code>WriteHeader</Code>
+    <Name>Header</Name>
+    <LocalName>Cabecera</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34603313, used by Prj.Column; Prj.Row; Prj.Framework Node; Prj.Framework Area; Prj.Base Framework Cell; Prj.Cell</Comment>
+    <Code>HelpFile</Code>
+    <Name>Help File</Name>
+    <LocalName>Fichero de ayuda</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33640880, used by Pdo.Measure</Comment>
+    <Code>IsHidden</Code>
+    <Name>Hidden</Name>
+    <LocalName>Oculto</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33554436, used by All</Comment>
+    <Code>History</Code>
+    <Name>History</Name>
+    <LocalName>Historial</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33640715, used by Pdo.Test Data Profile</Comment>
+    <Code>HourStep</Code>
+    <Name>Hour Step</Name>
+    <LocalName>Paso de hora</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33580311, used by Rpt.Report; Rpt.Intra-Model Report; Rpt.Multi-Model Report; Rpt.Report Template</Comment>
+    <Code>HtmlImageFormat</Code>
+    <Name>HTML Image Format</Name>
+    <LocalName>Formato de imagen HTML</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33580314, used by Rpt.Report Template; Rpt.Report; Rpt.Intra-Model Report; Rpt.Multi-Model Report</Comment>
+    <Code>HtmlListNumberPage</Code>
+    <Name>HTML List Page Number</Name>
+    <LocalName>Número de página de lista HTML</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33580313, used by Rpt.Report; Rpt.Intra-Model Report; Rpt.Multi-Model Report; Rpt.Report Template</Comment>
+    <Code>HtmlListNumberRow</Code>
+    <Name>HTML List Row Number</Name>
+    <LocalName>Número de fila de lista HTML</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33580318, used by Rpt.Report Template; Rpt.Report; Rpt.Intra-Model Report; Rpt.Multi-Model Report</Comment>
+    <Code>HtmlTemplate</Code>
+    <Name>HTML Template</Name>
+    <LocalName>Plantilla HTML</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33580310, used by Rpt.Report; Rpt.Intra-Model Report; Rpt.Multi-Model Report; Rpt.Report Template</Comment>
+    <Code>HtmlTOCLevel</Code>
+    <Name>HTML TOC level</Name>
+    <LocalName>Nivel de TDC HTML</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33580321, used by Rpt.Report Template; Rpt.Report; Rpt.Intra-Model Report; Rpt.Multi-Model Report</Comment>
+    <Code>HtmlTOCRighttoLeft</Code>
+    <Name>HTML TOC Right to Left</Name>
+    <LocalName>HTML TDC de derecha a izquierda</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33580312, used by Rpt.Report; Rpt.Intra-Model Report; Rpt.Multi-Model Report; Rpt.Report Template</Comment>
+    <Code>HtmlTOCWidth</Code>
+    <Name>HTML TOC width</Name>
+    <LocalName>Ancho de TDC HTML</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33947660, used by Xsm.Field; Xsm.Identity Constraint; Xsm.Key; Xsm.Keyref; Xsm.Unique; Xsm.Notation; Xsm.Particle; Xsm.Group; Xsm.Any; Xsm.Element; Xsm.Group Particle; Xsm.Selector; Xsm.Type; Xsm.Complex Type; Xsm.Simp...</Comment>
+    <Code>ID</Code>
+    <Name>ID</Name>
+    <LocalName>ID</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33559847,84149250, used by Cdm.Association Link; Ilm.Data Structure Column</Comment>
+    <Code>Identifier</Code>
+    <Name>Identifier</Name>
+    <LocalName>Identificador</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33554531, used by Pdo.Domain; Pdo.Column</Comment>
+    <Code>Identity</Code>
+    <Name>Identity</Name>
+    <LocalName>Identidad</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33644608, used by Pdo.Phase</Comment>
+    <Code>IdlePeriod</Code>
+    <Name>Idle period</Name>
+    <LocalName>período de inactividad</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33644609, used by Pdo.Phase</Comment>
+    <Code>IdleTimeUnit</Code>
+    <Name>Idle time unit</Name>
+    <LocalName>Unidad de período de inactividad</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34606853, used by Eam.Impact</Comment>
+    <Code>Level</Code>
+    <Name>Impact Level</Name>
+    <LocalName>Nivel de impacto</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33621536, used by Pdo.Web Operation</Comment>
+    <Code>Implementation</Code>
+    <Name>Implementation</Name>
+    <LocalName>Implementación</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33628175, used by Pdo.Reference</Comment>
+    <Code>ImplementationType</Code>
+    <Name>Implementation</Name>
+    <LocalName>Implementación</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33562792, used by Bpm.Process</Comment>
+    <Code>ImplementationMode</Code>
+    <Name>Implementation Type</Name>
+    <LocalName>Tipo de implementación</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33595716, used by Obj.External Model Link</Comment>
+    <Code>Import</Code>
+    <Name>Import</Name>
+    <LocalName>Importación</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33558806, used by Oom.Class; Oom.Class/Interface; Oom.Interface</Comment>
+    <Code>Imports</Code>
+    <Name>Imports</Name>
+    <LocalName>Importaciones</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34603298, used by Prj.Framework Node; Prj.Base Framework Cell; Prj.Cell</Comment>
+    <Code>Inactive</Code>
+    <Name>Inactive</Name>
+    <LocalName>Inactivo</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33640866, used by Pdo.Restriction Link</Comment>
+    <Code>Including</Code>
+    <Name>Include</Name>
+    <LocalName>Incluir</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33559552, used by Oom.Instance Link</Comment>
+    <Code>AssociationRoleAIndicator</Code>
+    <Name>Indicator A</Name>
+    <LocalName>Indicador A</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33559552, used by Oom.Association</Comment>
+    <Code>RoleAIndicator</Code>
+    <Name>Indicator A</Name>
+    <LocalName>Indicador A</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33559553, used by Oom.Instance Link</Comment>
+    <Code>AssociationRoleBIndicator</Code>
+    <Name>Indicator B</Name>
+    <LocalName>Indicador B</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33559553, used by Oom.Association</Comment>
+    <Code>RoleBIndicator</Code>
+    <Name>Indicator B</Name>
+    <LocalName>Indicador B</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33560066, used by Cdm.Inheritance; Cdo.Inheritance; Ldm.Inheritance</Comment>
+    <Code>InheritAll</Code>
+    <Name>Inherit All</Name>
+    <LocalName>Heredar todo</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 100663336, used by Iam.Impact Analysis Impacted Model</Comment>
+    <Code>InitialModel</Code>
+    <Name>Initial Model</Name>
+    <LocalName>Modelo inicial</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33624085, used by Pdo.Table</Comment>
+    <Code>InitialRows</Code>
+    <Name>Initial rows</Name>
+    <LocalName>Filas iniciales</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33559043, used by Oom.Attribute; Oom.Attribute Value</Comment>
+    <Code>InitialValue</Code>
+    <Name>Initial Value</Name>
+    <LocalName>Valor inicial</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33641088, used by Pdo.Database Package</Comment>
+    <Code>Initialization</Code>
+    <Name>Initialization</Name>
+    <LocalName>Inicialización</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33562843, used by Bpm.Choreography Task</Comment>
+    <Code>InitiatingParticipantMultiple</Code>
+    <Name>Initiating Participant Multiple</Name>
+    <LocalName>Participante de iniciación múltiple</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33562702, used by Bpm.Operation</Comment>
+    <Code>InputName</Code>
+    <Name>Input Name</Name>
+    <LocalName>Nombre de entrada</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33555585, used by Cdm.Data Structure Mapping; Obj.Mapping; Obj.Mapping; Obj.Mapping; Obj.Reverse Mapping; Obj.Reverse Mapping; Obj.Association Map; Obj.Association Map; Xsm.Mapping; Xsm.Element Mapping; Xsm.Complex Typ...</Comment>
+    <Code>InsertStatement</Code>
+    <Name>Insert</Name>
+    <LocalName>Insertar</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33555589, used by Obj.Association Map; Oom.Association Mapping</Comment>
+    <Code>InsertA</Code>
+    <Name>Insert (Role A)</Name>
+    <LocalName>Insertar (rol A)</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33555592, used by Obj.Association Map; Oom.Association Mapping</Comment>
+    <Code>InsertB</Code>
+    <Name>Insert (Role B)</Name>
+    <LocalName>Insertar (rol B)</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33640691, used by Pdo.Test Data Profile</Comment>
+    <Code>InvalidCharacters</Code>
+    <Name>Invalid Characters</Name>
+    <LocalName>Caracteres no válidos</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33555379, used by Obj.Dependency Matrix</Comment>
+    <Code>CellIsCollection</Code>
+    <Name>Is Cell Collection</Name>
+    <LocalName>Es colección de celdas</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33621571, used by Pdo.Result Column; Pdo.Web Parameter</Comment>
+    <Code>IsElement</Code>
+    <Name>Is Element</Name>
+    <LocalName>Es elemento</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33595682, used by Obj.Object Generation Command</Comment>
+    <Code>IsGenerated</Code>
+    <Name>Is Generated</Name>
+    <LocalName>Es generado</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 16777471, used by Iam.Impact Analysis Category</Comment>
+    <Code>IsImpact</Code>
+    <Name>Is Impact</Name>
+    <LocalName>Es impacto</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33561264, used by Oom.Activity Parameter; Oom.Input Parameter; Oom.Output Parameter</Comment>
+    <Code>IsInstance</Code>
+    <Name>Is Instance</Name>
+    <LocalName>Es instancia</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33640581, used by Pdo.Abstract Data Type Procedure</Comment>
+    <Code>JavaMethod</Code>
+    <Name>Is Java Method</Name>
+    <LocalName>Es método Java</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33596417, used by Obj.Object Generation Command</Comment>
+    <Code>IsUserDefined</Code>
+    <Name>Is User Defined</Name>
+    <LocalName>Es definido por el usuario</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34606854, used by Eam.Project; Eam.Phase; Eam.Initiative; Eam.Program</Comment>
+    <Code>ItCapex</Code>
+    <Name>IT Capital Expenditure</Name>
+    <LocalName>Gastos de capital TI</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34606855, used by Eam.Project; Eam.Phase; Eam.Initiative; Eam.Program</Comment>
+    <Code>ItOpex</Code>
+    <Name>IT Operating Expenditure</Name>
+    <LocalName>Gastos de funcionamiento de TI</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34016257, used by Xsm.Simple Type List</Comment>
+    <Code>ItemTypeName</Code>
+    <Name>Item Type</Name>
+    <LocalName>Tipo de elemento</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33640554, used by Pdo.Abstract Data Type</Comment>
+    <Code>JavaData</Code>
+    <Name>Java Data</Name>
+    <LocalName>Datos Java</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33640553, used by Pdo.Abstract Data Type; Pdo.Abstract Data Type Attribute; Pdo.Abstract Data Type Procedure</Comment>
+    <Code>JavaName</Code>
+    <Name>Java Name</Name>
+    <LocalName>Nombre Java</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34603730, used by Eam.Person</Comment>
+    <Code>JobTitle</Code>
+    <Name>Job Title</Name>
+    <LocalName>Título de tarea</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 84149268, used by Ilm.Data Structure Join</Comment>
+    <Code>JoinExpression</Code>
+    <Name>Join Expression</Name>
+    <LocalName>Expresión de combinación</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33641344, used by Pdo.Transformation; Pdo.Partitioning; Pdo.Horizontal Partitioning; Pdo.Vertical Partitioning; Pdo.Table Collapsing</Comment>
+    <Code>KeepOriginalTables</Code>
+    <Name>Keep Original Tables</Name>
+    <LocalName>Mantener tablas originales</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33947669, used by Xsm.Documentation; Xsm.XML Model</Comment>
+    <Code>Language</Code>
+    <Name>Language</Name>
+    <LocalName>Idioma</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33595653, used by Obj.Object Generation Command</Comment>
+    <Code>ModelLanguage</Code>
+    <Name>Language</Name>
+    <LocalName>Idioma</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33595545, used by Obj.Object Generation Command</Comment>
+    <Code>ModelLanguagePath</Code>
+    <Name>Language Path</Name>
+    <LocalName>Vía de acceso de idioma</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33640708, used by Pdo.Test Data Profile</Comment>
+    <Code>LastDay</Code>
+    <Name>Last Day</Name>
+    <LocalName>Último día</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33640709, used by Pdo.Test Data Profile</Comment>
+    <Code>LastHour</Code>
+    <Name>Last Hour</Name>
+    <LocalName>Última hora</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33640710, used by Pdo.Test Data Profile</Comment>
+    <Code>LastMinute</Code>
+    <Name>Last Minute</Name>
+    <LocalName>Último minuto</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33640707, used by Pdo.Test Data Profile</Comment>
+    <Code>LastMonth</Code>
+    <Name>Last Month</Name>
+    <LocalName>Último mes</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33640711, used by Pdo.Test Data Profile</Comment>
+    <Code>LastSecond</Code>
+    <Name>Last Second</Name>
+    <LocalName>Último segundo</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33640706, used by Pdo.Test Data Profile</Comment>
+    <Code>LastYear</Code>
+    <Name>Last Year</Name>
+    <LocalName>Último año</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33554529,33640696, used by Cdm.Property; Obj.Domain; Cdm.Data Item; Cdm.Domain; Cdo.Domain; Cdm.Inheritance Attribute; Cdm.Association Attribute; Cdm.Entity Attribute; Ilm.Article Column; Ilm.Parameter; Ilm.Data Structure Colum...</Comment>
+    <Code>Length</Code>
+    <Name>Length</Name>
+    <LocalName>Longitud</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34603747, used by Eam.Application</Comment>
+    <Code>LicenseNumber</Code>
+    <Name>License Number</Name>
+    <LocalName>Número de licencia</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33947692, used by Rqm.Traceability Matrix View</Comment>
+    <Code>LinkObjectType</Code>
+    <Name>Link Object Type</Name>
+    <LocalName>Tipo de objeto de enlace</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33554611,33947729, used by Obj.Traceability Link; Rqm.Traceability Link</Comment>
+    <Code>LinkType</Code>
+    <Name>Link Type</Name>
+    <LocalName>Tipo de enlace</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33636454, used by Pdo.Procedure Template</Comment>
+    <Code>TablLinked</Code>
+    <Name>Linked to Table</Name>
+    <LocalName>Enlazado a tabla</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33554521,33640676, used by Obj.Check; Obj.Check Named Classifier; Obj.Feature; Obj.Domain; Cdm.Data Item; Cdm.Domain; Cdo.Domain; Ldm.Attribute; Ldm.Domain; Ldm.Inheritance Attribute; Ldm.Entity Attribute; Xsm.Element; Xsm.Attr...</Comment>
+    <Code>ListOfValues</Code>
+    <Name>List of Values</Name>
+    <LocalName>Lista de valores</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33595393, used by Obj.Persistent Selection; Obj.List Report</Comment>
+    <Code>ListedClassKind</Code>
+    <Name>Listed Class Kind</Name>
+    <LocalName>Tipo de clase en lista</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33595406, used by Obj.List Report</Comment>
+    <Code>ListedClassifyingStereotype</Code>
+    <Name>Listed Classifying Stereotype</Name>
+    <LocalName>Estereotipo de clasificación en lista</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33621522, used by Pdo.Web Service</Comment>
+    <Code>LocalPath</Code>
+    <Name>Local Path</Name>
+    <LocalName>Vía de acceso local</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33554440, used by Obj.Base File; Obj.File; Prj.Project Document; Prj.Model; Prj.File</Comment>
+    <Code>Location</Code>
+    <Name>Location</Name>
+    <LocalName>Ubicación</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33555714,83886088, used by Cdm.Data Source; Obj.Data Source; Obj.Data Source; Ilm.Process; Ilm.Replication Process; Ilm.Transformation Process; Ilm.Database; Xsm.Data Source; Pdo.Data Source; Oom.Data Source</Comment>
+    <Code>DataSourceLogin</Code>
+    <Name>Login</Name>
+    <LocalName>Entrar al sistema</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33562845, used by Bpm.Choreography Task</Comment>
+    <Code>LoopCharacteristics</Code>
+    <Name>Loop Characteristics</Name>
+    <LocalName>Características de bucle</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33562791, used by Bpm.Process</Comment>
+    <Code>LoopExpression</Code>
+    <Name>Loop Expression</Name>
+    <LocalName>Expresión de bucle</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33562790, used by Bpm.Process</Comment>
+    <Code>LoopType</Code>
+    <Name>Loop Type</Name>
+    <LocalName>Tipo de bucle</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33554519, used by Cdm.Property; Cdm.Inheritance Attribute; Cdm.Association Attribute; Cdm.Entity Attribute; Oom.Attribute Value</Comment>
+    <Code>Lowercase</Code>
+    <Name>Lowercase</Name>
+    <LocalName>Minúsculas</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34604049,34603991, used by Eam.Workstation; Eam.Hardware Server; Eam.Network Node; Eam.Mobile Device; Eam.Hardware Asset; Eam.Hardware Platform</Comment>
+    <Code>MACAddress</Code>
+    <Name>MAC Address</Name>
+    <LocalName>Dirección MAC</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33559920,33559892,33559969,33554533,34603442, used by Cdm.Property; Cdm.Data Item; Cdm.Domain; Cdo.Domain; Cdm.Inheritance Attribute; Cdm.Association Attribute; Cdm.Entity Attribute; Ilm.Data Structure Column; Ldm.Attribute; Ldm.Domain; Ldm.Inheritance A...</Comment>
+    <Code>Mandatory</Code>
+    <Name>Mandatory</Name>
+    <LocalName>Obligatorio</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34604050,34604504,34603992,34603536, used by Eam.Workstation; Eam.Software Server; Eam.Hardware Server; Eam.Network Node; Eam.Mobile Device; Eam.Application; Eam.Hardware Asset; Eam.Hardware Platform</Comment>
+    <Code>Manufacturer</Code>
+    <Name>Manufacturer</Name>
+    <LocalName>Fabricante</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 84149385, used by Ilm.Data Lookup</Comment>
+    <Code>MapValues</Code>
+    <Name>Map of values</Name>
+    <LocalName>Mapa de valores</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33640882, used by Pdo.Fact; Pdo.Dimension</Comment>
+    <Code>MappedTo</Code>
+    <Name>Mapped To</Name>
+    <LocalName>Asignado a</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34604053, used by Eam.Workstation; Eam.Hardware Server; Eam.Mobile Device; Eam.Hardware Platform</Comment>
+    <Code>MassStorage</Code>
+    <Name>Mass Storage</Name>
+    <LocalName>Almacenamiento en masa</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34015362, used by Xsm.Particle; Xsm.Group; Xsm.Any; Xsm.Element; Xsm.Group Particle</Comment>
+    <Code>MaxOccurs</Code>
+    <Name>Maximum Occurrences</Name>
+    <LocalName>Máximo de ocurrencias</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33554516,33640684, used by Obj.Check; Obj.Check Named Classifier; Obj.Feature; Obj.Domain; Cdm.Data Item; Cdm.Domain; Cdm.Property; Cdo.Domain; Cdm.Inheritance Attribute; Cdm.Association Attribute; Cdm.Entity Attribute; Ldm.Att...</Comment>
+    <Code>HighValue</Code>
+    <Name>Maximum Value</Name>
+    <LocalName>Valor máximo</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34016129, used by Xsm.Simple Type Union</Comment>
+    <Code>MemberTypeNames</Code>
+    <Name>Member Type Names</Name>
+    <LocalName>Nombres de tipo de miembro</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34604052, used by Eam.Workstation; Eam.Hardware Server; Eam.Mobile Device; Eam.Hardware Platform</Comment>
+    <Code>Memory</Code>
+    <Name>Memory</Name>
+    <LocalName>Memoria</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33562728, used by Bpm.Fault</Comment>
+    <Code>MessageFormatCode</Code>
+    <Name>Message Format Code</Name>
+    <LocalName>Código de formato de mensaje</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33562661, used by Bpm.Message Format</Comment>
+    <Code>Definition</Code>
+    <Name>Message Format Definition</Name>
+    <LocalName>Definición de formato de mensaje</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33562730, used by Bpm.Fault</Comment>
+    <Code>MessageFormatDefinition</Code>
+    <Name>Message Format Definition</Name>
+    <LocalName>Definición de formato de mensaje</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33562731, used by Bpm.Fault</Comment>
+    <Code>MessageFormatLocation</Code>
+    <Name>Message Format Location</Name>
+    <LocalName>Ubicación de formato de mensaje</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33562732, used by Bpm.Fault</Comment>
+    <Code>MessageFormatLocationType</Code>
+    <Name>Message Format Location Type</Name>
+    <LocalName>Tipo de ubicación de formato de mensaje</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33562727, used by Bpm.Fault</Comment>
+    <Code>MessageFormatName</Code>
+    <Name>Message Format Name</Name>
+    <LocalName>Nombre de formato de mensaje</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33562729, used by Bpm.Fault</Comment>
+    <Code>MessageFormatType</Code>
+    <Name>Message Format Type</Name>
+    <LocalName>Tipo de formato de mensaje</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33562660, used by Bpm.Message Format</Comment>
+    <Code>Type</Code>
+    <Name>Message Format Type</Name>
+    <LocalName>Tipo de formato de mensaje</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33636396,33636362, used by Pdo.Base Trigger; Pdo.Trigger; Pdo.DBMS Trigger; Pdo.Procedure</Comment>
+    <Code>MethodName</Code>
+    <Name>Method</Name>
+    <LocalName>Método</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34015361, used by Xsm.Particle; Xsm.Group; Xsm.Any; Xsm.Element; Xsm.Group Particle</Comment>
+    <Code>MinOccurs</Code>
+    <Name>Minimum Occurrences</Name>
+    <LocalName>Mínimo de ocurrencias</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33554515,33640683, used by Obj.Check; Obj.Check Named Classifier; Obj.Feature; Obj.Domain; Cdm.Data Item; Cdm.Domain; Cdm.Property; Cdo.Domain; Cdm.Inheritance Attribute; Cdm.Association Attribute; Cdm.Entity Attribute; Ldm.Att...</Comment>
+    <Code>LowValue</Code>
+    <Name>Minimum Value</Name>
+    <LocalName>Valor mínimo</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33640716, used by Pdo.Test Data Profile</Comment>
+    <Code>MinuteStep</Code>
+    <Name>Minute Step</Name>
+    <LocalName>Paso de minuto</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34015489, used by Xsm.Complex Type; Xsm.Complex Content</Comment>
+    <Code>Mixed</Code>
+    <Name>Mixed</Name>
+    <LocalName>Mixto</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 84148376, used by Ilm.Data Lookup; Ilm.Flat File</Comment>
+    <Code>Mode</Code>
+    <Name>Mode</Name>
+    <LocalName>Modo</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 67109271, used by Ext.External File Descriptor</Comment>
+    <Code>ModelClassID</Code>
+    <Name>Model Class ID</Name>
+    <LocalName>ID de clase de modelo</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 67109271, used by Prj.Model</Comment>
+    <Code>ModelClassID</Code>
+    <Name>Model CLSID</Name>
+    <LocalName>CLSID de modelo</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 16777231, used by Ext.External File Descriptor</Comment>
+    <Code>BranchID</Code>
+    <Name>Model Extraction Branch Identifier</Name>
+    <LocalName>Identificador de rama de extracción de modelo</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 16777230, used by Ext.External File Descriptor</Comment>
+    <Code>ExtractionBranchID</Code>
+    <Name>Model Extraction Version Identifier</Name>
+    <LocalName>Identificador de versión de extracción de modelo</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 67109270, used by Ext.External File Descriptor; Prj.Model</Comment>
+    <Code>ModelID</Code>
+    <Name>Model ID</Name>
+    <LocalName>ID de modelo</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34603444, used by Ext.Model Creation Descriptor; Prj.Action</Comment>
+    <Code>ModelLanguage</Code>
+    <Name>Model language</Name>
+    <LocalName>Idioma de modelo</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33595457, used by Ext.Model Creation Descriptor; Prj.Action</Comment>
+    <Code>ModelLanguagePath</Code>
+    <Name>Model language path</Name>
+    <LocalName>Vía de idioma de modelo</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33554752, used by Ldm.Logical Data Model; Obj.Model; Cdm.Conceptual Data Model; Cdo.Conceptual Data Model; Ooo.Base Object Oriented Model; Ilm.Data Movement Model; Frm.Free Model; Glm.Glossary Model; Rqm.Requirements M...</Comment>
+    <Code>ModelOptionsText</Code>
+    <Name>Model Options</Name>
+    <LocalName>Opciones de modelo</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34603443, used by Ext.Model Creation Descriptor; Prj.Action</Comment>
+    <Code>ModelKind</Code>
+    <Name>Model type</Name>
+    <LocalName>Tipo de modelo</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33554753,34020096, used by Obj.Diagram; Obj.Abstract Base Dialog View; Obj.Abstract Base List View; Obj.Abstract Base Extensible Dialog View; Obj.Base Matrix Dialog View; Xsm.XML Model Diagram; Obj.Dependency Matrix; Cdm.Data S...</Comment>
+    <Code>ModelType</Code>
+    <Name>Model Type</Name>
+    <LocalName>Tipo de modelo</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 16777234, used by All</Comment>
+    <Code>ModificationDate</Code>
+    <Name>Modification Date</Name>
+    <LocalName>Fecha de modificación</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 16777235, used by All</Comment>
+    <Code>Modifier</Code>
+    <Name>Modifier</Name>
+    <LocalName>Modificador</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33640713, used by Pdo.Test Data Profile</Comment>
+    <Code>MonthStep</Code>
+    <Name>Month Step</Name>
+    <LocalName>Paso de mes</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33562905, used by Bpm.Organization Unit</Comment>
+    <Code>MultiInstance</Code>
+    <Name>Multi-Instance</Name>
+    <LocalName>Instancia múltiple</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34604498,34603308,33563139, used by Eam.Workstation; Eam.Hardware Server; Eam.Mobile Device; Prj.Action; Eam.Hardware Platform; Oom.Object</Comment>
+    <Code>Multiple</Code>
+    <Name>Multiple</Name>
+    <LocalName>Múltiple</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33561240,33559042, used by Oom.Variable; Oom.Domain; Oom.Port; Oom.Part; Oom.Attribute; Oom.Attribute Value</Comment>
+    <Code>Multiplicity</Code>
+    <Name>Multiplicity</Name>
+    <LocalName>Multiplicidad</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33559558, used by Oom.Association; Oom.Node Association</Comment>
+    <Code>RoleAMultiplicity</Code>
+    <Name>Multiplicity A</Name>
+    <LocalName>Multiplicidad A</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33559559, used by Oom.Association; Oom.Node Association</Comment>
+    <Code>RoleBMultiplicity</Code>
+    <Name>Multiplicity B</Name>
+    <LocalName>Multiplicidad B</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33560065, used by Cdm.Inheritance; Cdo.Inheritance; Ldm.Inheritance</Comment>
+    <Code>MutuallyExclusive</Code>
+    <Name>Mutually Exclusive</Name>
+    <LocalName>Mutuamente excluyente</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 16777218, used by Cdm.Inheritance Attribute; All; Cdm.Property; Cdm.Association Attribute; Cdm.Entity Attribute; Oom.Type Parameter Value; Bpm.Data Access; Oom.Attribute Value</Comment>
+    <Code>Name</Code>
+    <Name>Name</Name>
+    <LocalName>Nombre</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34608873, used by Glm.Glossary Model</Comment>
+    <Code>NameSeparators</Code>
+    <Name>Name separators</Name>
+    <LocalName>Separadores de nombre</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33559633, used by Oom.Instance Link</Comment>
+    <Code>AssociationDisplayName</Code>
+    <Name>Name with Classifier</Name>
+    <LocalName>Nombre con clasificador</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 16777227, used by Oom.Interaction Reference</Comment>
+    <Code>DisplayName</Code>
+    <Name>Name with Classifier</Name>
+    <LocalName>Nombre con clasificador</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33947670,34018945, used by Xsm.Any; Xsm.Any Attribute; Xsm.Import</Comment>
+    <Code>Namespace</Code>
+    <Name>Namespace</Name>
+    <LocalName>Área de nombres</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34017027, used by Xsm.XML Model</Comment>
+    <Code>Namespaces</Code>
+    <Name>Namespaces</Name>
+    <LocalName>Áreas de nombres</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33559562, used by Oom.Instance Link</Comment>
+    <Code>AssociationRoleANavigability</Code>
+    <Name>Navigability A</Name>
+    <LocalName>Navegabilidad A</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33559562, used by Oom.Association</Comment>
+    <Code>RoleANavigability</Code>
+    <Name>Navigability A</Name>
+    <LocalName>Navegabilidad A</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33559563, used by Oom.Instance Link</Comment>
+    <Code>AssociationRoleBNavigability</Code>
+    <Name>Navigability B</Name>
+    <LocalName>Navegabilidad B</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33559563, used by Oom.Association</Comment>
+    <Code>RoleBNavigability</Code>
+    <Name>Navigability B</Name>
+    <LocalName>Navegabilidad B</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 2097153, used by Rpt.Multi-Model Report; Obj.Model; Cdm.Conceptual Data Model; Cdo.Conceptual Data Model; Ooo.Base Object Oriented Model; Ilm.Data Movement Model; Ldm.Logical Data Model; Frm.Free Model; Pdo.Physical D...</Comment>
+    <Code>NeedFixExternalSessions</Code>
+    <Name>Need To Fix Target Models</Name>
+    <LocalName>Es necesario fijar modelos destino</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33563409, used by Oom.Node</Comment>
+    <Code>NetworkAddress</Code>
+    <Name>Network Address</Name>
+    <LocalName>Dirección de red</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34015105, used by Xsm.Element</Comment>
+    <Code>Nillable</Code>
+    <Name>Nillable</Name>
+    <LocalName>Puede ser nulo</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33640692, used by Pdo.Test Data Profile</Comment>
+    <Code>NoAccent</Code>
+    <Name>No Accent</Name>
+    <LocalName>Sin acento</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33554581, used by Cdm.Property; Obj.Check; Obj.Check Named Classifier; Obj.Feature; Obj.Domain; Cdm.Data Item; Cdm.Domain; Cdo.Domain; Cdm.Inheritance Attribute; Cdm.Association Attribute; Cdm.Entity Attribute; Ldm.Att...</Comment>
+    <Code>NoSpace</Code>
+    <Name>No space</Name>
+    <LocalName>Sin espacio</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 67109647, used by Rep.Replication; Rep.Sub-Replication; Rep.Replication</Comment>
+    <Code>NotAttributes</Code>
+    <Name>Not Replicated Attributes</Name>
+    <LocalName>Atributos no replicados</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 67109648, used by Rep.Replication; Rep.Sub-Replication; Rep.Replication</Comment>
+    <Code>NotCollections</Code>
+    <Name>Not Replicated Collections</Name>
+    <LocalName>Colecciones no replicadas</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34013186, used by Xsm.Entity</Comment>
+    <Code>NotationName</Code>
+    <Name>Notation</Name>
+    <LocalName>Notación</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33624135, used by Pdo.Column</Comment>
+    <Code>NullValuesRate</Code>
+    <Name>Null Values Rate</Name>
+    <LocalName>Porcentaje de valores nulos</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33559809, used by Cdm.Entity; Cdm.Association; Cdo.Entity; Ldm.Entity</Comment>
+    <Code>Number</Code>
+    <Name>Number</Name>
+    <LocalName>Número</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34607596,33562809, used by Eam.Process; Bpm.Resource; Bpm.Process</Comment>
+    <Code>NumberID</Code>
+    <Name>Number ID</Name>
+    <LocalName>ID de número</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33640688, used by Pdo.Test Data Profile</Comment>
+    <Code>NumberOfDecimalDigits</Code>
+    <Name>Number of Decimal Digits</Name>
+    <LocalName>Número de dígitos decimales</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33624065, used by Pdo.Table</Comment>
+    <Code>Number</Code>
+    <Name>Number of Records</Name>
+    <LocalName>Número de registros</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33624066, used by Pdo.Table</Comment>
+    <Code>TestNumber</Code>
+    <Name>Number of Test Records</Name>
+    <LocalName>Número de registros de test</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 16777230, used by Iam.Analysis Object</Comment>
+    <Code>ExtractionID</Code>
+    <Name>Object Extraction Version Identifier</Name>
+    <LocalName>Identificador de versión de extracción de objeto</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 16777217, used by All</Comment>
+    <Code>ObjectID</Code>
+    <Name>Object ID</Name>
+    <LocalName>ID de objeto</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33556760, used by Obj.Transformation Source</Comment>
+    <Code>SourceObjectID</Code>
+    <Name>Object Identifier</Name>
+    <LocalName>Identificador de objeto</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34606783, used by Ext.Model Creation Descriptor; Prj.List Document; Prj.Action</Comment>
+    <Code>ListObjectStereotype</Code>
+    <Name>Object stereotype</Name>
+    <LocalName>Estereotipo de objeto</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34603449, used by Ext.Model Creation Descriptor; Prj.List Document; Prj.Action</Comment>
+    <Code>ListObjectKind</Code>
+    <Name>Object type</Name>
+    <LocalName>Tipo de objeto</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33554574, used by Obj.Business Rule</Comment>
+    <Code>OCLConstraint</Code>
+    <Name>OCL Constraint</Name>
+    <LocalName>Restricción OCL</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33555713, used by Cdm.Data Source; Obj.Data Source; Obj.Data Source; Xsm.Data Source; Pdo.Data Source; Oom.Data Source</Comment>
+    <Code>DataSourceName</Code>
+    <Name>ODBC Data Source</Name>
+    <LocalName>Fuente de datos ODBC</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34604054,34603749, used by Eam.Workstation; Eam.Hardware Server; Eam.Mobile Device; Eam.Application; Eam.Hardware Platform</Comment>
+    <Code>OperatingSystem</Code>
+    <Name>Operating System</Name>
+    <LocalName>Sistema operativo</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34608611, used by Eam.Workstation; Eam.Hardware Server; Eam.Mobile Device; Eam.Hardware Platform</Comment>
+    <Code>OperatingSystemVersion</Code>
+    <Name>Operating System Version</Name>
+    <LocalName>Versión del sistema operativo</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33563400, used by Oom.Transition; Oom.Message; Oom.Action</Comment>
+    <Code>OperationArguments</Code>
+    <Name>Operation Arguments</Name>
+    <LocalName>Argumentos de operación</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33563435, used by Oom.Message</Comment>
+    <Code>ReturnValue</Code>
+    <Name>Operation Return Value</Name>
+    <LocalName>Valor de retorno de la operación</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34605137,33621537, used by Eam.Operation; Pdo.Web Operation</Comment>
+    <Code>OperationType</Code>
+    <Name>Operation Type</Name>
+    <LocalName>Tipo de operación</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33562705, used by Bpm.Operation</Comment>
+    <Code>Type</Code>
+    <Name>Operation Type</Name>
+    <LocalName>Tipo de operación</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33640864, used by Pdo.Restriction Link</Comment>
+    <Code>Operator</Code>
+    <Name>Operator</Name>
+    <LocalName>Operador</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33554576, used by Obj.Container; Pdo.Database; Pdo.User; Pdo.Sequence; Pdo.Storage; Pdo.Tablespace; Pdo.Column; Pdo.Base Index; Pdo.Index; Pdo.View Index; Pdo.Join Index; Pdo.Key; Pdo.View; Pdo.Base Table; Pdo.Table</Comment>
+    <Code>PhysicalOptions</Code>
+    <Name>Options</Name>
+    <LocalName>Opciones</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 84149264,33636390, used by Ilm.Data Structure Sorted Column; Pdo.Trigger</Comment>
+    <Code>Order</Code>
+    <Name>Order</Name>
+    <LocalName>Orden</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33559560, used by Oom.Instance Link</Comment>
+    <Code>AssociationRoleAOrdering</Code>
+    <Name>Ordering A</Name>
+    <LocalName>Orden A</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33559560, used by Oom.Association</Comment>
+    <Code>RoleAOrdering</Code>
+    <Name>Ordering A</Name>
+    <LocalName>Orden A</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33559561, used by Oom.Instance Link</Comment>
+    <Code>AssociationRoleBOrdering</Code>
+    <Name>Ordering B</Name>
+    <LocalName>Orden B</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33559561, used by Oom.Association</Comment>
+    <Code>RoleBOrdering</Code>
+    <Name>Ordering B</Name>
+    <LocalName>Orden B</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33556761, used by Obj.Transformation Source</Comment>
+    <Code>SourceOriginID</Code>
+    <Name>Origin Object Identifier</Name>
+    <LocalName>Identificador de objeto de origen</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 67109634, used by Rep.Replication; Rep.Sub-Replication; Rep.Replication</Comment>
+    <Code>OriginalClassID</Code>
+    <Name>Original Class Identifier</Name>
+    <LocalName>Identificador de clase original</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34608834, used by Prj.Project Document; Prj.Model; Prj.File</Comment>
+    <Code>ExtractionDateOriginal</Code>
+    <Name>Original Document Extraction Date</Name>
+    <LocalName>Fecha de extracción del documento original</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34608833, used by Prj.Project Document; Prj.Model; Prj.File</Comment>
+    <Code>ExtractionOriginalID</Code>
+    <Name>Original Document Extraction Version Identifier</Name>
+    <LocalName>Identificador de la versión de extracción del documento original</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 67109633, used by Rep.Replication; Rep.Sub-Replication; Rep.Replication</Comment>
+    <Code>OriginalID</Code>
+    <Name>Original Object Identifier</Name>
+    <LocalName>Identificador de objeto original</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33562703, used by Bpm.Operation</Comment>
+    <Code>OutputName</Code>
+    <Name>Output Name</Name>
+    <LocalName>Nombre de salida</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33554473, used by Ldm.Package; Obj.Package; Obj.Package; Obj.Composite; Obj.Composite Classifier; Obj.Model; Obj.Abstract Requirement; Obj.Area; Cdm.Conceptual Data Model; Cdm.Package; Cdm.Entity; Ilm.Package; Cdo.Conc...</Comment>
+    <Code>PackageOptionsText</Code>
+    <Name>Package Options</Name>
+    <LocalName>Opciones de paquete</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33620026, used by Obj.Diagram; Obj.Abstract Base Dialog View; Obj.Abstract Base List View; Obj.Abstract Base Extensible Dialog View; Sym.Diagram; Ldm.Logical Diagram; Obj.Base Matrix Dialog View; Obj.Dependency Matrix;...</Comment>
+    <Code>PageFooterTemplate</Code>
+    <Name>Page Footer Template</Name>
+    <LocalName>Modelo de pie de página</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33620027, used by Obj.Diagram; Obj.Abstract Base Dialog View; Obj.Abstract Base List View; Obj.Abstract Base Extensible Dialog View; Sym.Diagram; Ldm.Logical Diagram; Obj.Base Matrix Dialog View; Obj.Dependency Matrix;...</Comment>
+    <Code>PageHeaderTemplate</Code>
+    <Name>Page Header Template</Name>
+    <LocalName>Modelo de cabecera de página</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33620004, used by Obj.Diagram; Obj.Abstract Base Dialog View; Obj.Abstract Base List View; Obj.Abstract Base Extensible Dialog View; Sym.Diagram; Ldm.Logical Diagram; Xsm.XML Model Diagram; Obj.Base Matrix Dialog View;...</Comment>
+    <Code>PageMargins</Code>
+    <Name>Page Margins</Name>
+    <LocalName>Márgenes de página</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33620028, used by Obj.Diagram; Obj.Abstract Base Dialog View; Obj.Abstract Base List View; Obj.Abstract Base Extensible Dialog View; Sym.Diagram; Ldm.Logical Diagram; Obj.Base Matrix Dialog View; Obj.Dependency Matrix;...</Comment>
+    <Code>PageNumberTemplate</Code>
+    <Name>Page Number Template</Name>
+    <LocalName>Modelo de número de página</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33620007, used by Obj.Diagram; Obj.Abstract Base Dialog View; Obj.Abstract Base List View; Obj.Abstract Base Extensible Dialog View; Sym.Diagram; Ldm.Logical Diagram; Obj.Base Matrix Dialog View; Obj.Dependency Matrix;...</Comment>
+    <Code>PageOrientation</Code>
+    <Name>Page Orientation</Name>
+    <LocalName>Orientación de página</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33620003, used by Obj.Diagram; Obj.Abstract Base Dialog View; Obj.Abstract Base List View; Obj.Abstract Base Extensible Dialog View; Sym.Diagram; Ldm.Logical Diagram; Xsm.XML Model Diagram; Obj.Base Matrix Dialog View;...</Comment>
+    <Code>PaperSize</Code>
+    <Name>Paper Size</Name>
+    <LocalName>Tamaño de papel</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33620008, used by Obj.Diagram; Obj.Abstract Base Dialog View; Obj.Abstract Base List View; Obj.Abstract Base Extensible Dialog View; Sym.Diagram; Ldm.Logical Diagram; Obj.Base Matrix Dialog View; Obj.Dependency Matrix;...</Comment>
+    <Code>PaperSource</Code>
+    <Name>Paper Source</Name>
+    <LocalName>Fuente de papel</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34019459, used by Xsm.Entity</Comment>
+    <Code>Parameter</Code>
+    <Name>Parameter</Name>
+    <LocalName>Parámetro</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33559425,33641248,33621569, used by Oom.Parameter; Pdo.Parameter; Pdo.Web Parameter</Comment>
+    <Code>ParameterType</Code>
+    <Name>Parameter Type</Name>
+    <LocalName>Tipo de parámetro</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33628183, used by Pdo.Join Index Reference; Pdo.Reference; Pdo.View Reference</Comment>
+    <Code>ParentRole</Code>
+    <Name>Parent Role</Name>
+    <LocalName>Rol principal</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33624082,33644580, used by Pdo.Table; Pdo.Lifecycle</Comment>
+    <Code>PartitionRange</Code>
+    <Name>Partition range</Name>
+    <LocalName>Rango de partición</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33624083,33644581, used by Pdo.Table; Pdo.Lifecycle</Comment>
+    <Code>PartitionRangeUnit</Code>
+    <Name>Partition range time unit</Name>
+    <LocalName>Unidad temporal del rango de partición</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33555715,83886089, used by Cdm.Data Source; Obj.Data Source; Obj.Data Source; Ilm.Process; Ilm.Replication Process; Ilm.Transformation Process; Ilm.Database; Xsm.Data Source; Pdo.Data Source; Oom.Data Source</Comment>
+    <Code>DataSourcePassword</Code>
+    <Name>Password</Name>
+    <LocalName>Clave de acceso</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33620137, used by Pdo.User; Pdo.Role; Pdo.Group</Comment>
+    <Code>Password</Code>
+    <Name>Password</Name>
+    <LocalName>Clave de acceso</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 84148484, used by Ilm.Flat File</Comment>
+    <Code>FilePath</Code>
+    <Name>Path</Name>
+    <LocalName>Vía de acceso</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33554837, used by Ldm.Logical Data Model; Obj.Model; Cdm.Conceptual Data Model; Ilm.Data Movement Model; Cdo.Conceptual Data Model; Ooo.Base Object Oriented Model; Frm.Free Model; Glm.Glossary Model; Rqm.Requirements M...</Comment>
+    <Code>PendingTargetDependentFix</Code>
+    <Name>Pending Autofix</Name>
+    <LocalName>Reparación automática pendiente</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34607587,33576357, used by Eam.Report Document; Mtm.Phase</Comment>
+    <Code>Period</Code>
+    <Name>Period</Name>
+    <LocalName>Período</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33558785, used by Oom.Class</Comment>
+    <Code>Persistence</Code>
+    <Name>Persistence</Name>
+    <LocalName>Persistencia</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33560656,33559049, used by Oom.Domain; Oom.Attribute; Oom.Attribute Value</Comment>
+    <Code>Persistent</Code>
+    <Name>Persistence</Name>
+    <LocalName>Persistencia</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33558552, used by Oom.Attribute; Oom.Attribute Value</Comment>
+    <Code>PersistentClassGeneration</Code>
+    <Name>Persistent Class Generation</Name>
+    <LocalName>Generación de clase persistente</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33558553, used by Oom.Class; Oom.Attribute; Oom.Attribute Value</Comment>
+    <Code>PersistentCode</Code>
+    <Name>Persistent Code</Name>
+    <LocalName>Código persistente</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33558549, used by Oom.Domain; Oom.Attribute; Oom.Attribute Value</Comment>
+    <Code>PersistentDataType</Code>
+    <Name>Persistent Data Type</Name>
+    <LocalName>Tipo de datos persistente</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34015123, used by Xsm.Element</Comment>
+    <Code>HiddenGenMode</Code>
+    <Name>Persistent Generation Mode</Name>
+    <LocalName>Modo de generación persistente</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33558795, used by Oom.Class</Comment>
+    <Code>PersistentGenerationMode</Code>
+    <Name>Persistent Generation Mode</Name>
+    <LocalName>Modo de generación persistente</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33558550, used by Oom.Domain; Oom.Attribute; Oom.Attribute Value</Comment>
+    <Code>PersistentLength</Code>
+    <Name>Persistent Length</Name>
+    <LocalName>Longitud persistente</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33558551, used by Oom.Domain; Oom.Attribute; Oom.Attribute Value</Comment>
+    <Code>PersistentPrecision</Code>
+    <Name>Persistent Precision</Name>
+    <LocalName>Precisión persistente</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33560984, used by Obj.Persistent selection</Comment>
+    <Code>SelectionFolderIdentifier</Code>
+    <Name>Persistent selection folder identifier</Name>
+    <LocalName>Identificador de carpeta de selección persistente</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34603652, used by Eam.Site</Comment>
+    <Code>Phone</Code>
+    <Name>Phone</Name>
+    <LocalName>Teléfono</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34605366, used by Eam.Infrastructure Link</Comment>
+    <Code>PhysicalType</Code>
+    <Name>Physical Type</Name>
+    <LocalName>Tipo físico</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33620036, used by Sym.Picture File</Comment>
+    <Code>Content</Code>
+    <Name>Picture Contents</Name>
+    <LocalName>Contenido de imagen</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33620022, used by Sym.Picture File</Comment>
+    <Code>PictureID</Code>
+    <Name>Picture ID</Name>
+    <LocalName>ID de imagen</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33620035, used by Sym.Picture File</Comment>
+    <Code>Path</Code>
+    <Name>Picture Path</Name>
+    <LocalName>Vía de acceso a imagen</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33620034, used by Sym.Picture File</Comment>
+    <Code>PictureType</Code>
+    <Name>Picture Type</Name>
+    <LocalName>Tipo de imagen</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33644592, used by Pdo.Lifecycle</Comment>
+    <Code>PolicyType</Code>
+    <Name>Policy type</Name>
+    <LocalName>Tipo de política</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34603651, used by Eam.Site</Comment>
+    <Code>Population</Code>
+    <Name>Population</Name>
+    <LocalName>Población</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33559304,33561251,33562885, used by Oom.Operation; Oom.Activity; Oom.Use Case</Comment>
+    <Code>PostCondition</Code>
+    <Name>Post-Condition</Name>
+    <LocalName>Condición posterior</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33554833, used by Ldm.Logical Data Model; Obj.Model; Cdm.Conceptual Data Model; Cdo.Conceptual Data Model; Ooo.Base Object Oriented Model; Ilm.Data Movement Model; Frm.Free Model; Glm.Glossary Model; Rqm.Requirements M...</Comment>
+    <Code>PostGenerationTransformationSelection</Code>
+    <Name>Post-Generation Transformation Selection</Name>
+    <LocalName>Selección de transformación posterior a generación</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33641221, used by Pdo.Base Procedure; Pdo.Database Package Exception; Pdo.Database Package Procedure; Pdo.Abstract Data Type Procedure</Comment>
+    <Code>Pragma</Code>
+    <Name>Pragma</Name>
+    <LocalName>Pragma</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33559303,33561250,33562884, used by Oom.Operation; Oom.Activity; Oom.Use Case</Comment>
+    <Code>PreCondition</Code>
+    <Name>Pre-Condition</Name>
+    <LocalName>Condición previa</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33554832, used by Ldm.Logical Data Model; Obj.Model; Cdm.Conceptual Data Model; Cdo.Conceptual Data Model; Ooo.Base Object Oriented Model; Ilm.Data Movement Model; Frm.Free Model; Glm.Glossary Model; Rqm.Requirements M...</Comment>
+    <Code>PreGenerationTransformationSelection</Code>
+    <Name>Pre-Generation Transformation Selection</Name>
+    <LocalName>Selección de transformación previa a generación</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33554530, used by Cdm.Property; Obj.Domain; Cdm.Data Item; Cdm.Domain; Cdo.Domain; Cdm.Inheritance Attribute; Cdm.Association Attribute; Cdm.Entity Attribute; Ilm.Article Column; Ilm.Parameter; Ilm.Data Structure Colum...</Comment>
+    <Code>Precision</Code>
+    <Name>Precision</Name>
+    <LocalName>Precisión</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33563433, used by Oom.Message</Comment>
+    <Code>PredecessorList</Code>
+    <Name>Predecessor List</Name>
+    <LocalName>Lista de predecesores</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33561228, used by Oom.Action</Comment>
+    <Code>PredefinedEvent</Code>
+    <Name>Predefined Event</Name>
+    <LocalName>Evento predefinido</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 16777632, used by Obj.XML Namespace; Xsm.Namespace; Pdo.Namespace; Bpm.XML Namespace</Comment>
+    <Code>Prefix</Code>
+    <Name>Prefix</Name>
+    <LocalName>Prefijo</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33595543, used by Obj.Object Generation Command</Comment>
+    <Code>Preserve</Code>
+    <Name>Preserve Modifications</Name>
+    <LocalName>Conservar modificaciones</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33559063, used by Oom.Attribute Value</Comment>
+    <Code>PrimaryIdentifier</Code>
+    <Name>Primary Identifier</Name>
+    <LocalName>Identificador primario</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33947704, used by Rqm.Requirement</Comment>
+    <Code>Priority</Code>
+    <Name>Priority</Name>
+    <LocalName>Prioridad</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33636455, used by Pdo.Procedure Template</Comment>
+    <Code>ProcedureName</Code>
+    <Name>Procedure Name</Name>
+    <LocalName>Nombre de procedimiento</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33640580, used by Pdo.Abstract Data Type Procedure</Comment>
+    <Code>ProcedureType</Code>
+    <Name>Procedure Type</Name>
+    <LocalName>Tipo de procedimiento</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33947672, used by Xsm.Any; Xsm.Any Attribute</Comment>
+    <Code>ProcessContents</Code>
+    <Name>Process Contents</Name>
+    <LocalName>Contenidos de proceso</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33560912, used by Obj.Artifact</Comment>
+    <Code>ProductionTemplate</Code>
+    <Name>Production template</Name>
+    <LocalName>Modelo de producción</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33640672, used by Pdo.Test Data Profile</Comment>
+    <Code>ProfileClass</Code>
+    <Name>Profile Class</Name>
+    <LocalName>Clase de perfil</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34604183,34603522, used by Eam.Component; Eam.Application</Comment>
+    <Code>ProgrammingLanguage</Code>
+    <Name>Programming language</Name>
+    <LocalName>Lenguaje de programación</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34607063, used by Eam.Project; Eam.Phase; Eam.Initiative; Eam.Program</Comment>
+    <Code>Progress</Code>
+    <Name>Progress</Name>
+    <LocalName>Progreso</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34604024, used by Eam.Infrastructure Link</Comment>
+    <Code>Protocol</Code>
+    <Name>Protocol</Name>
+    <LocalName>Protocolo</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33640785,33620131, used by Pdo.Synonym; Pdo.Database Package Variable; Pdo.Database Package Type; Pdo.Database Package Cursor; Pdo.Database Package Exception; Pdo.Database Package Procedure</Comment>
+    <Code>Public</Code>
+    <Name>Public</Name>
+    <LocalName>Público</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34019457, used by Xsm.Notation; Xsm.Entity</Comment>
+    <Code>PublicURI</Code>
+    <Name>Public</Name>
+    <LocalName>Público</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 16777442, used by Iam.Impact Analysis Category</Comment>
+    <Code>PublicName</Code>
+    <Name>Public Name</Name>
+    <LocalName>Nombre público</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34605118, used by Eam.Base Service; Eam.Application Service; Eam.Business Service</Comment>
+    <Code>QualityofServiceLevel</Code>
+    <Name>Quality of Service Level</Name>
+    <LocalName>Nivel de calidad del servicio</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33555810,33640680,33559316, used by Obj.Behavioral Feature Map; Obj.Behavioral Feature Mapping; Pdo.Test Data Profile; Oom.Operation; Oom.Operation Mapping</Comment>
+    <Code>Query</Code>
+    <Name>Query</Name>
+    <LocalName>Consulta</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33640698, used by Pdo.Test Data Profile</Comment>
+    <Code>FirstCharacter</Code>
+    <Name>Range: First</Name>
+    <LocalName>Rango: Primero</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33640699, used by Pdo.Test Data Profile</Comment>
+    <Code>LastCharacter</Code>
+    <Name>Range: Last</Name>
+    <LocalName>Rango: Último</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 84148377, used by Ilm.Flat File</Comment>
+    <Code>RawDelimiter</Code>
+    <Name>Raw Delimiter</Name>
+    <LocalName>Delimitador sin formato</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33576450, used by Mtm.Data Access</Comment>
+    <Code>ReadAccess</Code>
+    <Name>Read</Name>
+    <LocalName>De lectura</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33562668,33576450, used by Bpm.Resource Flow; Bpm.Data Access</Comment>
+    <Code>ReadAccess</Code>
+    <Name>Read Access</Name>
+    <LocalName>Acceso de lectura</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33559347, used by Oom.Operation</Comment>
+    <Code>Readonly</Code>
+    <Name>Read-only</Name>
+    <LocalName>Sólo lectura</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33575700, used by Mtm.Flow</Comment>
+    <Code>ReceptorActorType</Code>
+    <Name>Receiver Actor Type</Name>
+    <LocalName>Tipo de actor receptor</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 16777445, used by Iam.Impact Analysis Category</Comment>
+    <Code>Recursive</Code>
+    <Name>Recursive</Name>
+    <LocalName>Recursivo</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33947678, used by Xsm.Keyref; Xsm.Group; Xsm.Element; Xsm.Attribute; Xsm.Attribute; Xsm.Attribute Group</Comment>
+    <Code>ReferenceName</Code>
+    <Name>Reference</Name>
+    <LocalName>Referencia</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34608888, used by Glm.Term</Comment>
+    <Code>ReferenceURL</Code>
+    <Name>Reference URL</Name>
+    <LocalName>URL de referencia</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 84148841, used by Ilm.Article Column</Comment>
+    <Code>RemoteColumn</Code>
+    <Name>Remote Column</Name>
+    <LocalName>Columna remota</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 84149001, used by Ilm.Procedure</Comment>
+    <Code>RemoteProcedure</Code>
+    <Name>Remote Procedure</Name>
+    <LocalName>Procedimiento remoto</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 84148821, used by Ilm.Article</Comment>
+    <Code>RemoteTable</Code>
+    <Name>Remote Table</Name>
+    <LocalName>Tabla remota</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33556870, used by Obj.List Report Result Set</Comment>
+    <Code>Comment</Code>
+    <Name>Report Comment</Name>
+    <LocalName>Comentario de informe</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33556871, used by Obj.List Report Result Set</Comment>
+    <Code>Content</Code>
+    <Name>Report Content</Name>
+    <LocalName>Contenido de informe</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33556869, used by Obj.List Report Result Set</Comment>
+    <Code>ReportDate</Code>
+    <Name>Report Date</Name>
+    <LocalName>Fecha de informe</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33580292, used by Rpt.Report; Rpt.Intra-Model Report; Rpt.Multi-Model Report; Rpt.Report Template</Comment>
+    <Code>ReportFirstPageAuthor</Code>
+    <Name>Report First Page Author</Name>
+    <LocalName>Autor de la primera página del informe</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33580294, used by Rpt.Report; Rpt.Intra-Model Report; Rpt.Multi-Model Report; Rpt.Report Template</Comment>
+    <Code>ReportFirstPageDate</Code>
+    <Name>Report First Page Date</Name>
+    <LocalName>Fecha de la primera página del informe</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33580291, used by Rpt.Report; Rpt.Intra-Model Report; Rpt.Multi-Model Report; Rpt.Report Template</Comment>
+    <Code>ReportFirstPageTitle</Code>
+    <Name>Report First Page Title</Name>
+    <LocalName>Título de la primera página del informe</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33580293, used by Rpt.Report; Rpt.Intra-Model Report; Rpt.Multi-Model Report; Rpt.Report Template</Comment>
+    <Code>ReportFirstPageVersion</Code>
+    <Name>Report First Page Version</Name>
+    <LocalName>Versión de la primera página del informe</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33580307, used by Rpt.Report; Rpt.Intra-Model Report; Rpt.Multi-Model Report; Rpt.Report Template</Comment>
+    <Code>HtmlFooterFile</Code>
+    <Name>Report HTML Footer Frame File</Name>
+    <LocalName>Fichero de marco de pie de página de informe HTML</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33580309, used by Rpt.Report; Rpt.Intra-Model Report; Rpt.Multi-Model Report; Rpt.Report Template</Comment>
+    <Code>HtmlFooterSize</Code>
+    <Name>Report HTML Footer Frame Size</Name>
+    <LocalName>Tamaño de marco de pie de página de informe HTML</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33580306, used by Rpt.Report; Rpt.Intra-Model Report; Rpt.Multi-Model Report; Rpt.Report Template</Comment>
+    <Code>HtmlHeaderFile</Code>
+    <Name>Report HTML Header Frame File</Name>
+    <LocalName>Fichero de marco de cabecera de informe HTML</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33580308, used by Rpt.Report; Rpt.Intra-Model Report; Rpt.Multi-Model Report; Rpt.Report Template</Comment>
+    <Code>HtmlHeaderSize</Code>
+    <Name>Report HTML Header Frame Size</Name>
+    <LocalName>Tamaño de marco de cabecera de informe HTML</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33580316, used by Rpt.Report Template; Rpt.Report; Rpt.Intra-Model Report; Rpt.Multi-Model Report</Comment>
+    <Code>HtmlHomePageFile</Code>
+    <Name>Report HTML Home Page File</Name>
+    <LocalName>Fichero de página inicial de informe HTML</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33580305, used by Rpt.Report; Rpt.Intra-Model Report; Rpt.Multi-Model Report; Rpt.Report Template</Comment>
+    <Code>HtmlStylesheetFile</Code>
+    <Name>Report HTML Stylesheet File</Name>
+    <LocalName>Fichero de hoja de estilo de informe HTML</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 16777995, used by Iam.Analysis Object</Comment>
+    <Code>ExtractionID</Code>
+    <Name>Repository Branch ID</Name>
+    <LocalName>ID de rama de repository</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 16777229,34607479, used by Rep.Target model reference; Ext.External File Descriptor; Prj.Project Document; Prj.Model; Prj.File; Iam.Analysis Object</Comment>
+    <Code>RepositoryID</Code>
+    <Name>Repository Identifier</Name>
+    <LocalName>Identificador de repository</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 16777986, used by Iam.Impact Analysis Model</Comment>
+    <Code>RepositoryImpactRuleSet</Code>
+    <Name>Repository Impact Rule Set</Name>
+    <LocalName>Conjunto de reglas de impacto de repository</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 16777991, used by Iam.Impact Analysis Model</Comment>
+    <Code>RepositoryImpactRuleSetId</Code>
+    <Name>Repository Impact Rule Set ID</Name>
+    <LocalName>ID de conjunto de reglas de impacto de repository</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 16777987, used by Iam.Impact Analysis Model</Comment>
+    <Code>RepositoryLineageRuleSet</Code>
+    <Name>Repository Lineage Rule Set</Name>
+    <LocalName>Conjunto de reglas de linaje de repository</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 16777992, used by Iam.Impact Analysis Model</Comment>
+    <Code>RepositoryLineageRuleSetId</Code>
+    <Name>Repository Lineage Rule Set ID</Name>
+    <LocalName>ID de conjunto de reglas de linaje de repository</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 16777984, used by Iam.Impact Analysis Model</Comment>
+    <Code>RepositoryMode</Code>
+    <Name>Repository Mode</Name>
+    <LocalName>Modo de repository</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33595697, used by Ext.User Profile; Ext.Metadata Permission Profile</Comment>
+    <Code>RepositoryUser</Code>
+    <Name>Repository User</Name>
+    <LocalName>Usuario de repository</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33621526, used by Pdo.Web Service; Pdo.Web Operation</Comment>
+    <Code>AuthorizationRequired</Code>
+    <Name>Required Authorization</Name>
+    <LocalName>Autorización necesaria</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33576359, used by Mtm.Phase</Comment>
+    <Code>Resource</Code>
+    <Name>Resource</Name>
+    <LocalName>Recurso</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33562844, used by Bpm.Choreography Task</Comment>
+    <Code>RespondingParticipantMultiple</Code>
+    <Name>Responding Participant Multiple</Name>
+    <LocalName>Participante de respuesta múltiple</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 16777990, used by Iam.Analysis Object</Comment>
+    <Code>Restricted</Code>
+    <Name>Restricted Access</Name>
+    <LocalName>Acceso restringido</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33644582, used by Pdo.Phase</Comment>
+    <Code>Retention</Code>
+    <Name>Retention</Name>
+    <LocalName>Retención</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33619984,33559296, used by Pdo.Base Procedure; Oom.Operation; Pdo.Database Package Cursor; Pdo.Database Package Procedure; Pdo.Abstract Data Type Procedure</Comment>
+    <Code>ReturnType</Code>
+    <Name>Return Type</Name>
+    <LocalName>Tipo de retorno</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33560866, used by Oom.Interaction Reference</Comment>
+    <Code>InteractionReturnValue</Code>
+    <Name>Return Value</Name>
+    <LocalName>Valor de retorno</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33560866, used by Oom.Interaction Activity</Comment>
+    <Code>ReturnValue</Code>
+    <Name>Return Value</Name>
+    <LocalName>Valor de retorno</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33562740, used by Bpm.Choreography Task; Bpm.Conversation Node</Comment>
+    <Code>Reusable</Code>
+    <Name>Reusable</Name>
+    <LocalName>Reutilizable</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33562740, used by Bpm.Process</Comment>
+    <Code>Reusable</Code>
+    <Name>Reusable Process</Name>
+    <LocalName>Proceso reutilizable</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33555601, used by Obj.Mapping; Obj.Mapping; Obj.Association Map; Obj.Association Map; Xsm.Mapping; Xsm.Element Mapping; Xsm.Complex Type Mapping; Cdm.Data Structure Mapping; Cdm.Entity Mapping; Cdm.Data Item Mapping; C...</Comment>
+    <Code>Reversible</Code>
+    <Name>Reversible</Name>
+    <LocalName>Reversible</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33640836, used by Pdo.User; Pdo.Permission; Pdo.Role; Pdo.Group</Comment>
+    <Code>Revoke</Code>
+    <Name>Revoke</Name>
+    <LocalName>Revocar</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33640837, used by Pdo.Permission</Comment>
+    <Code>RevokeWithCascade</Code>
+    <Name>Revoke With Cascade</Name>
+    <LocalName>Revocar con cascada</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33947706, used by Rqm.Requirement</Comment>
+    <Code>Risk</Code>
+    <Name>Risk</Name>
+    <LocalName>Riesgo</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33559844, used by Cdm.Association Link</Comment>
+    <Code>Role</Code>
+    <Name>Role</Name>
+    <LocalName>Rol</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33559554, used by Oom.Instance Link</Comment>
+    <Code>AssociationRoleAName</Code>
+    <Name>Role A</Name>
+    <LocalName>Rol A</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33559554, used by Oom.Association; Oom.Node Association</Comment>
+    <Code>RoleAName</Code>
+    <Name>Role A</Name>
+    <LocalName>Rol A</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33564431, used by Oom.Association</Comment>
+    <Code>RoleAArraySize</Code>
+    <Name>Role A Array Size</Name>
+    <LocalName>Tamaño de matriz de rol A</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33564420, used by Oom.Association</Comment>
+    <Code>RoleAInitialValue</Code>
+    <Name>Role A Initial Value</Name>
+    <LocalName>Valor inicial de rol A</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33564422, used by Oom.Association</Comment>
+    <Code>RoleAPersistent</Code>
+    <Name>Role A Persistence</Name>
+    <LocalName>Persistencia de rol A</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33559555, used by Oom.Instance Link</Comment>
+    <Code>AssociationRoleBName</Code>
+    <Name>Role B</Name>
+    <LocalName>Rol B</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33559555, used by Oom.Association; Oom.Node Association</Comment>
+    <Code>RoleBName</Code>
+    <Name>Role B</Name>
+    <LocalName>Rol B</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33564432, used by Oom.Association</Comment>
+    <Code>RoleBArraySize</Code>
+    <Name>Role B Array Size</Name>
+    <LocalName>Tamaño de matriz de rol B</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33564421, used by Oom.Association</Comment>
+    <Code>RoleBInitialValue</Code>
+    <Name>Role B Initial Value</Name>
+    <LocalName>Valor inicial de rol B</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33564424, used by Oom.Association</Comment>
+    <Code>RoleBPersistent</Code>
+    <Name>Role B Persistence</Name>
+    <LocalName>Persistencia de rol B</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33595396, used by Obj.List Report</Comment>
+    <Code>RowFilter</Code>
+    <Name>Row Filter</Name>
+    <LocalName>Filtro de filas</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33624084, used by Pdo.Table</Comment>
+    <Code>RowGrowthRate</Code>
+    <Name>Row growth rate</Name>
+    <LocalName>Tasa de crecimiento de filas</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33555394, used by Obj.Base Matrix Dialog View; Obj.Dependency Matrix; Rqm.Traceability Matrix View; Rqm.User Allocation Matrix View</Comment>
+    <Code>RowHeaderSizes</Code>
+    <Name>Row Header Sizes</Name>
+    <LocalName>Tamaños de cabecera de fila</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33555361, used by Obj.Dependency Matrix</Comment>
+    <Code>RowClassKind</Code>
+    <Name>Row Kind</Name>
+    <LocalName>Clase de fila</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33947694, used by Obj.Abstract Base List View; Rqm.Requirements Document View; Glm.Glossary Terms List</Comment>
+    <Code>RowPreferences</Code>
+    <Name>Row Preferences</Name>
+    <LocalName>Preferencias de fila</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33555400, used by Obj.Base Matrix Dialog View; Obj.Dependency Matrix; Rqm.Traceability Matrix View; Rqm.User Allocation Matrix View</Comment>
+    <Code>RowSizes</Code>
+    <Name>Row Sizes</Name>
+    <LocalName>Tamaños de fila</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33555362, used by Obj.Dependency Matrix</Comment>
+    <Code>RowStereotype</Code>
+    <Name>Row Stereotype</Name>
+    <LocalName>Estereotipo de fila</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33555358, used by Obj.Dependency Matrix</Comment>
+    <Code>RowStereotypeOrType</Code>
+    <Name>Row Stereotype or Type</Name>
+    <LocalName>Estereotipo o tipo de fila</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33555360, used by Obj.Dependency Matrix</Comment>
+    <Code>RowClassID</Code>
+    <Name>Row Type</Name>
+    <LocalName>Tipo de fila</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33580319, used by Rpt.Report Template; Rpt.Report; Rpt.Intra-Model Report; Rpt.Multi-Model Report</Comment>
+    <Code>RtfTemplate</Code>
+    <Name>RTF Template</Name>
+    <LocalName>Modelo RTF</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33554561, used by Obj.Business Rule</Comment>
+    <Code>Flags</Code>
+    <Name>Rule Flag</Name>
+    <LocalName>Indicador de regla</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33554560, used by Obj.Business Rule</Comment>
+    <Code>Type</Code>
+    <Name>Rule Type</Name>
+    <LocalName>Tipo de regla</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33595651, used by Obj.Object Generation Command</Comment>
+    <Code>SaveGenerationLink</Code>
+    <Name>Save Generation Link</Name>
+    <LocalName>Guardar enlace de generación</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33644594, used by Pdo.Cost Saving</Comment>
+    <Code>Saving</Code>
+    <Name>Saving</Name>
+    <LocalName>Guardando</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33644595, used by Pdo.Cost Saving</Comment>
+    <Code>SavingPercentage</Code>
+    <Name>Saving percentage</Name>
+    <LocalName>Porcentaje de guardado</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33620005, used by Obj.Diagram; Obj.Abstract Base Dialog View; Obj.Abstract Base List View; Obj.Abstract Base Extensible Dialog View; Sym.Diagram; Ldm.Logical Diagram; Obj.Base Matrix Dialog View; Obj.Dependency Matrix;...</Comment>
+    <Code>Scale</Code>
+    <Name>Scale</Name>
+    <LocalName>Escala</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34018817, used by Xsm.External; Xsm.Import; Xsm.Include; Xsm.Redefine</Comment>
+    <Code>SchemaLocation</Code>
+    <Name>Schema Location</Name>
+    <LocalName>Ubicación de esquema</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33636398, used by Pdo.Trigger Template</Comment>
+    <Code>Scope</Code>
+    <Name>Scope</Name>
+    <LocalName>Ámbito</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33636399, used by Pdo.DBMS Trigger</Comment>
+    <Code>ScopeValue</Code>
+    <Name>Scope Value</Name>
+    <LocalName>Valor de ámbito</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 84149300,84148993, used by Ilm.Script Execution; Ilm.Event Script</Comment>
+    <Code>Script</Code>
+    <Name>Script</Name>
+    <LocalName>Script</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 84149301, used by Ilm.Script Execution</Comment>
+    <Code>ScriptLanguage</Code>
+    <Name>Script Language</Name>
+    <LocalName>Lenguaje de script</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34603451, used by Prj.Action</Comment>
+    <Code>ScriptPath</Code>
+    <Name>Script Method Path</Name>
+    <LocalName>Vía de método de script</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33640717, used by Pdo.Test Data Profile</Comment>
+    <Code>SecondStep</Code>
+    <Name>Second Step</Name>
+    <LocalName>Segundo paso</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33580302, used by Rpt.Report; Rpt.Intra-Model Report; Rpt.Multi-Model Report; Rpt.Report Template</Comment>
+    <Code>SectionNumbering</Code>
+    <Name>Section Numbering</Name>
+    <LocalName>Numeración de sección</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33621525, used by Pdo.Web Service; Pdo.Web Operation</Comment>
+    <Code>ConnectionSecured</Code>
+    <Name>Secured Connection</Name>
+    <LocalName>Conexión segura</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34605119, used by Eam.Base Service; Eam.Application Service; Eam.Business Service</Comment>
+    <Code>SecurityLevel</Code>
+    <Name>Security Level</Name>
+    <LocalName>Nivel de seguridad</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33555584, used by Cdm.Data Structure Mapping; Obj.Mapping; Obj.Mapping; Obj.Mapping; Obj.Reverse Mapping; Obj.Reverse Mapping; Obj.Association Map; Obj.Association Map; Xsm.Mapping; Xsm.Element Mapping; Xsm.Complex Typ...</Comment>
+    <Code>SelectStatement</Code>
+    <Name>Select</Name>
+    <LocalName>Seleccionar</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33555588, used by Obj.Association Map; Oom.Association Mapping</Comment>
+    <Code>SelectA</Code>
+    <Name>Select (Role A)</Name>
+    <LocalName>Seleccionar (rol A)</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33555591, used by Obj.Association Map; Oom.Association Mapping</Comment>
+    <Code>SelectB</Code>
+    <Name>Select (Role B)</Name>
+    <LocalName>Seleccionar (rol B)</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33947702, used by Rqm.Requirement</Comment>
+    <Code>Selected</Code>
+    <Name>Selected</Name>
+    <LocalName>Seleccionado</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33555649, used by Obj.Persistent Selection</Comment>
+    <Code>ObjectSelection</Code>
+    <Name>Selection Blob</Name>
+    <LocalName>Blob de selección</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33555648, used by Obj.Persistent Selection</Comment>
+    <Code>ManagerID</Code>
+    <Name>Selection Manager ID</Name>
+    <LocalName>ID de gestor de selección</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33555666, used by Obj.Persistent Selection</Comment>
+    <Code>SelectionModes</Code>
+    <Name>Selection Modes</Name>
+    <LocalName>Modos de selección</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33575699, used by Mtm.Flow</Comment>
+    <Code>SenderActorType</Code>
+    <Name>Sender Actor Type</Name>
+    <LocalName>Tipo de actor emisor</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 84148482, used by Ilm.Flat File</Comment>
+    <Code>Separator</Code>
+    <Name>Separator</Name>
+    <LocalName>Separador</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33563403, used by Oom.Message</Comment>
+    <Code>SequenceNumber</Code>
+    <Name>Sequence Number</Name>
+    <LocalName>Número secuencial</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34604047,34604505,34603989, used by Eam.Workstation; Eam.Software Server; Eam.Hardware Server; Eam.Network Node; Eam.Mobile Device; Eam.Hardware Asset; Eam.Hardware Platform</Comment>
+    <Code>SerialNumber</Code>
+    <Name>Serial Number</Name>
+    <LocalName>Número de serie</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33554563, used by Obj.Business Rule</Comment>
+    <Code>ServerExpression</Code>
+    <Name>Server Expression</Name>
+    <LocalName>Expresión de servidor</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33554523, used by Cdm.Property; Obj.Check; Obj.Check Named Classifier; Obj.Feature; Obj.Domain; Cdm.Data Item; Cdm.Domain; Cdo.Domain; Cdm.Inheritance Attribute; Cdm.Association Attribute; Cdm.Entity Attribute; Ldm.Att...</Comment>
+    <Code>ServerCheckExpression</Code>
+    <Name>Server Validation Rule</Name>
+    <LocalName>Regla de validación del servidor</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33559451, used by Oom.Port</Comment>
+    <Code>Service</Code>
+    <Name>Service</Name>
+    <LocalName>Servicio</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33560964, used by Obj.Settings</Comment>
+    <Code>Settings</Code>
+    <Name>Settings</Name>
+    <LocalName>Ajustes</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33556894, used by Ext.Model Creation Descriptor; Prj.Action</Comment>
+    <Code>ShareTargetLanguage</Code>
+    <Name>Share model language</Name>
+    <LocalName>Compartir idioma de modelo</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33560982,33595395, used by Obj.Persistent selection; Obj.List Report</Comment>
+    <Code>IncludeShortcuts</Code>
+    <Name>Shortcuts</Name>
+    <LocalName>Accesos rápidos</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33580315, used by Rpt.Report Template; Rpt.Report; Rpt.Intra-Model Report; Rpt.Multi-Model Report</Comment>
+    <Code>ShowEmptyItems</Code>
+    <Name>Show All Items</Name>
+    <LocalName>Mostrar todos los elementos</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33947762, used by Obj.Dependency Matrix</Comment>
+    <Code>ShowPackagesInHeaders</Code>
+    <Name>Show Packages in Headers</Name>
+    <LocalName>Mostrar paquetes en cabeceras</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33947761, used by Obj.Dependency Matrix</Comment>
+    <Code>ShowParentsColumnHeader</Code>
+    <Name>Show Parents in Column Header</Name>
+    <LocalName>Mostrar principales en cabecera de columna</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33947760, used by Obj.Dependency Matrix</Comment>
+    <Code>ShowParentsRowHeader</Code>
+    <Name>Show Parents in Row Header</Name>
+    <LocalName>Mostrar principales en cabecera de fila</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33640546, used by Pdo.Abstract Data Type</Comment>
+    <Code>Size</Code>
+    <Name>Size</Name>
+    <LocalName>Tamaño</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 16777444, used by Iam.Impact Analysis Category</Comment>
+    <Code>SkipLink</Code>
+    <Name>Skip Link</Name>
+    <LocalName>Omitir enlace</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34608482, used by Eam.Software Server</Comment>
+    <Code>SoftwareTechnology</Code>
+    <Name>Software Technology</Name>
+    <LocalName>Tecnología de software</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33624228, used by Pdo.Index Column</Comment>
+    <Code>Sort</Code>
+    <Name>Sort</Name>
+    <LocalName>Clasificar</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34013698, used by Xsm.Annotation Item; Xsm.AppInfo; Xsm.Documentation</Comment>
+    <Code>Source</Code>
+    <Name>Source</Name>
+    <LocalName>Fuente</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33644598, used by Pdo.Phase</Comment>
+    <Code>SourceScope</Code>
+    <Name>Source</Name>
+    <LocalName>Fuente</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 84148842, used by Ilm.Article Column</Comment>
+    <Code>SourceColumnExpression</Code>
+    <Name>Source Column</Name>
+    <LocalName>Columna fuente</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 84149251, used by Ilm.Data Structure Column</Comment>
+    <Code>SourceExpression</Code>
+    <Name>Source Expression</Name>
+    <LocalName>Expresión fuente</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 100663332, used by Iam.Impact Analysis Impacted Model</Comment>
+    <Code>ModelLocation</Code>
+    <Name>Source Location</Name>
+    <LocalName>Ubicación fuente</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 100663332, used by Iam.Analysis Object</Comment>
+    <Code>SourceLocation</Code>
+    <Name>Source Location</Name>
+    <LocalName>Ubicación fuente</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34604203, used by Prj.Action</Comment>
+    <Code>OriginModelKind</Code>
+    <Name>Source model type</Name>
+    <LocalName>Tipo de modelo fuente</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 100663330, used by Iam.Impact Analysis Impacted Model</Comment>
+    <Code>ModelObjectID</Code>
+    <Name>Source Object ID</Name>
+    <LocalName>ID de objeto fuente</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 100663330, used by Iam.Analysis Object</Comment>
+    <Code>SourceObjectID</Code>
+    <Name>Source Object ID</Name>
+    <LocalName>ID de objeto fuente</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33595648, used by Obj.Object Generation Command</Comment>
+    <Code>SourceObjectType</Code>
+    <Name>Source Object Type</Name>
+    <LocalName>Tipo de objeto fuente</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33595665, used by Obj.Object Generation Command</Comment>
+    <Code>SourceStereotype</Code>
+    <Name>Source Stereotype</Name>
+    <LocalName>Estereotipo fuente</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 100663334, used by Iam.Impact Analysis Impacted Model</Comment>
+    <Code>ModelType</Code>
+    <Name>Source Type</Name>
+    <LocalName>Tipo fuente</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 100663334, used by Iam.Analysis Object</Comment>
+    <Code>SourceType</Code>
+    <Name>Source Type</Name>
+    <LocalName>Tipo fuente</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33559305, used by Oom.Operation</Comment>
+    <Code>Specification</Code>
+    <Name>Specification</Name>
+    <LocalName>Especificación</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33636480, used by Pdo.Database Package</Comment>
+    <Code>SpecificationSource</Code>
+    <Name>Specification</Name>
+    <LocalName>Especificación</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 84149285,84149302,84149394,33640802, used by Ilm.Database Input; Ilm.Data Query Execution; Ilm.Data Lookup; Pdo.View</Comment>
+    <Code>SQLQuery</Code>
+    <Name>SQL Query</Name>
+    <LocalName>Consulta SQL</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33640803, used by Pdo.View</Comment>
+    <Code>TaggedSQLQuery</Code>
+    <Name>SQL Query</Name>
+    <LocalName>Consulta SQL</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34607061,33624081,33644576, used by Eam.Project; Eam.Phase; Pdo.Table; Eam.Initiative; Eam.Program; Pdo.Lifecycle</Comment>
+    <Code>StartDate</Code>
+    <Name>Start date</Name>
+    <LocalName>Fecha de inicio</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33561199, used by Oom.Base Node; Oom.Object Node; Oom.Activity Parameter; Oom.Input Parameter; Oom.Output Parameter</Comment>
+    <Code>States</Code>
+    <Name>State</Name>
+    <LocalName>Estado</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33559300,33640579,33559044, used by Oom.Operation; Pdo.Abstract Data Type Procedure; Oom.Attribute; Oom.Attribute Value</Comment>
+    <Code>Static</Code>
+    <Name>Static</Name>
+    <LocalName>Estático</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33947705,34607064,34608889, used by Rqm.Requirement; Eam.Project; Eam.Phase; Glm.Term; Eam.Initiative; Eam.Program</Comment>
+    <Code>Status</Code>
+    <Name>Status</Name>
+    <LocalName>Estado</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33640685, used by Pdo.Test Data Profile</Comment>
+    <Code>Step</Code>
+    <Name>Step</Name>
+    <LocalName>Paso</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33554437, used by All; Cdm.Property; Cdm.Inheritance Attribute; Cdm.Association Attribute; Cdm.Entity Attribute; Oom.Type Parameter Value; Oom.Attribute Value</Comment>
+    <Code>Stereotype</Code>
+    <Name>Stereotype</Name>
+    <LocalName>Estereotipo</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34604185, used by Eam.Form</Comment>
+    <Code>Style</Code>
+    <Name>Style</Name>
+    <LocalName>Estilo</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33560969,33595394, used by Obj.Persistent selection; Obj.List Report</Comment>
+    <Code>IncludeSubPackages</Code>
+    <Name>Sub-Packages</Name>
+    <LocalName>Subpaquetes</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33554976, used by Obj.DBMS; Obj.Model Language; Ext.Report Language; Ext.Extension; Ext.User Profile; Ext.Metadata Permission Profile; Ext.Model Category Set; Xsm.XML Language; Oom.Object Language; Pdo.DBMS; Iam.Analys...</Comment>
+    <Code>SubFamily</Code>
+    <Name>Subfamily</Name>
+    <LocalName>Subfamilia</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34015109, used by Xsm.Element</Comment>
+    <Code>SubstitutionName</Code>
+    <Name>Substitution Name</Name>
+    <LocalName>Nombre de sustitución</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33641313, used by Pdo.Database Package Type</Comment>
+    <Code>SubType</Code>
+    <Name>Subtype</Name>
+    <LocalName>Subtipo</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33580295, used by Rpt.Report; Rpt.Intra-Model Report; Rpt.Multi-Model Report; Rpt.Report Template</Comment>
+    <Code>Summary</Code>
+    <Name>Summary</Name>
+    <LocalName>Resumen</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33620030, used by Obj.Diagram; Obj.Abstract Base Dialog View; Obj.Abstract Base List View; Obj.Abstract Base Extensible Dialog View; Sym.Diagram; Ldm.Logical Diagram; Obj.Base Matrix Dialog View; Obj.Dependency Matrix;...</Comment>
+    <Code>SwimlaneHeaderHeight</Code>
+    <Name>Swimlane Header Height</Name>
+    <LocalName>Altura de cabecera de calle</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33575730, used by Mtm.Base Operation; Mtm.Operation; Mtm.Phase; Mtm.Base Operation Triggering; Mtm.Operation Triggering; Mtm.Phase Triggering</Comment>
+    <Code>Synchronization</Code>
+    <Name>Synchronization</Name>
+    <LocalName>Sincronización</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34019458, used by Xsm.Notation; Xsm.Entity</Comment>
+    <Code>SystemURI</Code>
+    <Name>System</Name>
+    <LocalName>Sistema</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33640681, used by Pdo.Test Data Profile</Comment>
+    <Code>Table</Code>
+    <Name>Table</Name>
+    <LocalName>Tabla</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 84149293,84149256, used by Ilm.Data Output; Ilm.Generic Data Output; Ilm.Database Output; Ilm.XML Output; Ilm.Flat File Output; Ilm.Data Structure Column</Comment>
+    <Code>TargetExpression</Code>
+    <Name>Target Expression</Name>
+    <LocalName>Expresión de destino</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33556768, used by Obj.Transformation Target; Pdo.Target Table; Pdo.Partition</Comment>
+    <Code>HistoryMap</Code>
+    <Name>Target History Mapping</Name>
+    <LocalName>Asignación de historial de destino</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 67109408, used by Rep.Target model reference</Comment>
+    <Code>TargetModelLastModificationDate</Code>
+    <Name>Target Last Modification Date</Name>
+    <LocalName>Fecha de la última modificación de destino</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 67109271, used by Rep.Target model reference</Comment>
+    <Code>TargetModelClassID</Code>
+    <Name>Target Model CLSID</Name>
+    <LocalName>CLSID de modelo de destino</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 16777553, used by Rep.Target model reference</Comment>
+    <Code>ExtractionDate</Code>
+    <Name>Target Model Extraction Date</Name>
+    <LocalName>Fecha de extracción de modelo de destino</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 67109270, used by Rep.Target model reference</Comment>
+    <Code>TargetModelID</Code>
+    <Name>Target Model ID</Name>
+    <LocalName>ID de modelo de destino</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33595650, used by Obj.Object Generation Command</Comment>
+    <Code>TargetModelType</Code>
+    <Name>Target Model Type</Name>
+    <LocalName>Tipo de modelo de destino</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 67109269, used by Rep.Target model reference</Comment>
+    <Code>TargetModelURL</Code>
+    <Name>Target Model URL</Name>
+    <LocalName>URL de modelo de destino</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 16777664,34017025,33562682, used by Obj.XSD Document; Xsm.XML Model; Bpm.Service Provider; Bpm.XSD Document</Comment>
+    <Code>TargetNamespace</Code>
+    <Name>Target Namespace</Name>
+    <LocalName>Área de nombres de destino</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33562683, used by Bpm.Service Provider</Comment>
+    <Code>TargetNamespacePrefix</Code>
+    <Name>Target Namespace Prefix</Name>
+    <LocalName>Prefijo de área de nombres de destino</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 67109254, used by Rep.Base Shortcut; Rep.Shortcut; Prj.Diagram Document</Comment>
+    <Code>TargetClassID</Code>
+    <Name>Target Object Class ID</Name>
+    <LocalName>ID de clase de objeto de destino</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 67109253, used by Rep.Base Shortcut; Rep.Shortcut; Prj.Diagram Document</Comment>
+    <Code>TargetID</Code>
+    <Name>Target Object ID</Name>
+    <LocalName>ID de objeto de destino</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 67109276, used by Rep.Base Shortcut; Rep.Shortcut; Prj.Diagram Document</Comment>
+    <Code>TargetPackagePath</Code>
+    <Name>Target Object Package Location</Name>
+    <LocalName>Ubicación de paquete de objetos de destino</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 67109295, used by Rep.Shortcut; Rep.Target model reference</Comment>
+    <Code>TargetRepositoryId</Code>
+    <Name>Target Object Repository Identifier</Name>
+    <LocalName>Identificador de repository de objeto de destino</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33595649, used by Obj.Object Generation Command</Comment>
+    <Code>TargetObjectType</Code>
+    <Name>Target Object Type</Name>
+    <LocalName>Tipo de objeto de destino</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33595655, used by Obj.Object Generation Command</Comment>
+    <Code>TargetStereotype</Code>
+    <Name>Target Stereotype</Name>
+    <LocalName>Estereotipo de destino</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34603731,34603701, used by Eam.Person; Eam.Organization Unit</Comment>
+    <Code>Telephone</Code>
+    <Name>Telephone</Name>
+    <LocalName>Teléfono</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34607619, used by Prj.Project</Comment>
+    <Code>Template</Code>
+    <Name>Template</Name>
+    <LocalName>Modelo</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33559315, used by Oom.Operation</Comment>
+    <Code>TemplateBody</Code>
+    <Name>Template Body</Name>
+    <LocalName>Cuerpo de plantilla</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 16777225,33636353, used by Pdo.Trigger; Pdo.DBMS Trigger; Pdo.Trigger Item; Pdo.Trigger Template; Pdo.Procedure Template; Pdo.Database Package Template; Pdo.Procedure; Pdo.Base Trigger</Comment>
+    <Code>Text</Code>
+    <Name>Text</Name>
+    <LocalName>Texto</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33636392, used by Pdo.Trigger; Pdo.DBMS Trigger; Pdo.Trigger Template; Pdo.Base Trigger</Comment>
+    <Code>Time</Code>
+    <Name>Time</Name>
+    <LocalName>Tiempo</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33644578,33644583, used by Pdo.Lifecycle; Pdo.Phase</Comment>
+    <Code>TimeUnit</Code>
+    <Name>Time unit</Name>
+    <LocalName>Unidad de tiempo</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33563907, used by Ooo.Activity; Ooo.Synchronization; Ilm.Transformation Synchronization; Oom.Activity; Bpm.Synchronization; Bpm.Process; Oom.Synchronization</Comment>
+    <Code>Timeout</Code>
+    <Name>Timeout</Name>
+    <LocalName>Tiempo de espera</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33562786, used by Bpm.Event</Comment>
+    <Code>TimerExpression</Code>
+    <Name>Timer Expression</Name>
+    <LocalName>Expresión de temporizador</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33644577, used by Pdo.Lifecycle</Comment>
+    <Code>TotalRetention</Code>
+    <Name>Total retention</Name>
+    <LocalName>Retención total</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33624086, used by Pdo.Table</Comment>
+    <Code>TotalSaving</Code>
+    <Name>Total saving</Name>
+    <LocalName>Ahorro total</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33624087, used by Pdo.Table</Comment>
+    <Code>TotalSavingPercentage</Code>
+    <Name>Total saving percentage</Name>
+    <LocalName>Porcentaje de ahorro total</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33563649, used by Oom.Component</Comment>
+    <Code>TransactionSupport</Code>
+    <Name>Transaction</Name>
+    <LocalName>Transacción</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33561220, used by Oom.Flow</Comment>
+    <Code>Transformations</Code>
+    <Name>Transformation</Name>
+    <LocalName>Transformación</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33556784, used by Obj.MDA Transformation</Comment>
+    <Code>TransformationList</Code>
+    <Name>Transformation List</Name>
+    <LocalName>Lista de transformación</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33562680, used by Bpm.Resource Flow</Comment>
+    <Code>TransformationType</Code>
+    <Name>Transformation Type</Name>
+    <LocalName>Tipo de transformación</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33562675, used by Bpm.Flow</Comment>
+    <Code>FlowTransport</Code>
+    <Name>Transport</Name>
+    <LocalName>Transporte</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33561210, used by Oom.Transition</Comment>
+    <Code>TriggerAction</Code>
+    <Name>Trigger Action</Name>
+    <LocalName>Acción desencadenante</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33636457, used by Pdo.Trigger Template</Comment>
+    <Code>Kind</Code>
+    <Name>Trigger Kind</Name>
+    <LocalName>Clase de desencadenante</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33636450, used by Pdo.Trigger Template</Comment>
+    <Code>TriggerName</Code>
+    <Name>Trigger Name</Name>
+    <LocalName>Nombre de desencadenante</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34607056, used by Eam.Role Association</Comment>
+    <Code>AssociationType</Code>
+    <Name>Type</Name>
+    <LocalName>Tipo</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33562674, used by Bpm.End</Comment>
+    <Code>EndType</Code>
+    <Name>Type</Name>
+    <LocalName>Tipo</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33636453,33636354, used by Pdo.Procedure Template; Pdo.Base Procedure; Pdo.Procedure; Pdo.Database Package Procedure; Pdo.Abstract Data Type Procedure</Comment>
+    <Code>Function</Code>
+    <Name>Type</Name>
+    <LocalName>Tipo</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33636449,33636456, used by Pdo.Trigger Template; Pdo.Procedure Template</Comment>
+    <Code>ImplementationType</Code>
+    <Name>Type</Name>
+    <LocalName>Tipo</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33640686, used by Pdo.Test Data Profile</Comment>
+    <Code>SequenceType</Code>
+    <Name>Type</Name>
+    <LocalName>Tipo</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34608480, used by Eam.Report Document</Comment>
+    <Code>TechnicalType</Code>
+    <Name>Type</Name>
+    <LocalName>Tipo</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33562720,33554579,34603307,84149294,83886086,34608480,34604023,33947703,84149511,84149312,84149364,34604045,34604503,34605692,33640545,33624196,33640806,34603291,34604186,34602976,33640885,100663337,33575681,33575714,33576360,33576336,33576272, used by Obj.Data; Obj.Data Format; Ext.Model Creation Descriptor; Ilm.Database Output; Ilm.Process; Ilm.Replication Process; Ilm.Transformation Process; Ilm.Data Store; Ilm.Model Connector; Ilm.Database; Ilm....</Comment>
+    <Code>Type</Code>
+    <Name>Type</Name>
+    <LocalName>Tipo</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33947680, used by Xsm.Element; Xsm.Attribute</Comment>
+    <Code>TypeName</Code>
+    <Name>Type</Name>
+    <LocalName>Tipo</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34015118, used by Xsm.Element</Comment>
+    <Code>DerivationTypeName</Code>
+    <Name>Type as Object</Name>
+    <LocalName>Tipo como objeto</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 67109169, used by Ext.Extension</Comment>
+    <Code>LibraryID</Code>
+    <Name>Type Library</Name>
+    <LocalName>Biblioteca de tipos</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33559436, used by Oom.Type Parameter Value</Comment>
+    <Code>Value</Code>
+    <Name>Type Parameter Value</Name>
+    <LocalName>Valor de parámetro de tipo</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33624193, used by Pdo.Base Index; Pdo.Index; Pdo.View Index</Comment>
+    <Code>Unique</Code>
+    <Name>Unique</Name>
+    <LocalName>Unívoco</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 67109639, used by Rep.Replication; Rep.Sub-Replication; Rep.Replication</Comment>
+    <Code>OriginalUOL</Code>
+    <Name>Unique Original Object Location</Name>
+    <LocalName>Ubicación unívoca de objeto original</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33554513, used by Obj.Check; Obj.Check Named Classifier; Obj.Feature; Obj.Domain; Cdm.Data Item; Cdm.Domain; Cdm.Property; Cdo.Domain; Cdm.Inheritance Attribute; Cdm.Association Attribute; Cdm.Entity Attribute; Ldm.Att...</Comment>
+    <Code>Unit</Code>
+    <Name>Unit</Name>
+    <LocalName>Unidad</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33640516, used by Pdo.Tablespace</Comment>
+    <Code>Universal</Code>
+    <Name>Universal</Name>
+    <LocalName>Universal</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33576452, used by Mtm.Data Access</Comment>
+    <Code>UpdateAccess</Code>
+    <Name>Update</Name>
+    <LocalName>Actualizar</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33555586, used by Cdm.Data Structure Mapping; Obj.Mapping; Obj.Mapping; Obj.Mapping; Obj.Reverse Mapping; Obj.Reverse Mapping; Obj.Association Map; Obj.Association Map; Xsm.Mapping; Xsm.Element Mapping; Xsm.Complex Typ...</Comment>
+    <Code>UpdateStatement</Code>
+    <Name>Update</Name>
+    <LocalName>Actualizar</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33562666,33576452, used by Bpm.Resource Flow; Bpm.Data Access</Comment>
+    <Code>UpdateAccess</Code>
+    <Name>Update Access</Name>
+    <LocalName>Acceso de actualización</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33628170, used by Pdo.Reference</Comment>
+    <Code>UpdateConstraint</Code>
+    <Name>Update Constraint</Name>
+    <LocalName>Restricción de actualización</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33554518, used by Cdm.Property; Cdm.Inheritance Attribute; Cdm.Association Attribute; Cdm.Entity Attribute; Oom.Attribute Value</Comment>
+    <Code>Uppercase</Code>
+    <Name>Uppercase</Name>
+    <LocalName>Mayúsculas</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 16777633, used by Obj.XML Namespace; Xsm.Namespace; Pdo.Namespace; Bpm.XML Namespace</Comment>
+    <Code>Uri</Code>
+    <Name>URI</Name>
+    <LocalName>URI</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33640801, used by Pdo.View</Comment>
+    <Code>ViewUsage</Code>
+    <Name>Usage</Name>
+    <LocalName>Utilización</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34014849, used by Xsm.Attribute</Comment>
+    <Code>Use</Code>
+    <Name>Use</Name>
+    <LocalName>Utilizar</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33566721, used by Oom.Data Source</Comment>
+    <Code>UseODBC</Code>
+    <Name>Use ODBC</Name>
+    <LocalName>Utilizar ODBC</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33554475, used by Ldm.Package; Obj.Package; Obj.Package; Obj.Composite; Obj.Composite Classifier; Obj.Model; Obj.Abstract Requirement; Obj.Area; Cdm.Conceptual Data Model; Cdm.Package; Cdm.Entity; Ilm.Package; Cdo.Conc...</Comment>
+    <Code>UseParentNamespace</Code>
+    <Name>Use Parent Namespace</Name>
+    <LocalName>Utilizar área de nombres principal</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 16777988, used by Iam.Impact Analysis Model</Comment>
+    <Code>UseRepository</Code>
+    <Name>Use Repository</Name>
+    <LocalName>Utilizar repository</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33580320, used by Rpt.Report Template; Rpt.Report; Rpt.Intra-Model Report; Rpt.Multi-Model Report</Comment>
+    <Code>RtfUseSectionHeadFoot</Code>
+    <Name>Use Section Header and Footer</Name>
+    <LocalName>Utilizar cabecera y pie de página de sección</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33947713, used by Rqm.Requirement</Comment>
+    <Code>UserDefinedCode</Code>
+    <Name>User Defined Code</Name>
+    <LocalName>Código definido por el usuario</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33641093, used by Pdo.Database Package</Comment>
+    <Code>UserDefined</Code>
+    <Name>User-Defined</Name>
+    <LocalName>Definido por el usuario</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34144291, used by Iam.Impact Analysis Diagram</Comment>
+    <Code>UserDefinedPositions</Code>
+    <Name>User-Defined Positions</Name>
+    <LocalName>Posiciones definidas por el usuario</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33640805, used by Pdo.View</Comment>
+    <Code>UserDefinedSQL</Code>
+    <Name>User-Defined SQL</Name>
+    <LocalName>SQL definido por el usuario</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33640689, used by Pdo.Test Data Profile</Comment>
+    <Code>ValidCharacters</Code>
+    <Name>Valid Characters</Name>
+    <LocalName>Caracteres válidos</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34013184,34016386,33640865,33621488,33562744,33559159, used by Xsm.Entity; Xsm.Facet; Xsm.Enumeration Facet; Xsm.Maximum Exclusive Facet; Xsm.Maximum Inclusive Facet; Xsm.Minimum Exclusive Facet; Xsm.Minimum Inclusive Facet; Xsm.Numeric Facet; Xsm.Fraction Digits...</Comment>
+    <Code>Value</Code>
+    <Name>Value</Name>
+    <LocalName>Valor</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33554521, used by Cdm.Property; Cdm.Inheritance Attribute; Cdm.Association Attribute; Cdm.Entity Attribute</Comment>
+    <Code>ListOfValues</Code>
+    <Name>Values</Name>
+    <LocalName>Valores</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33640673, used by Pdo.Test Data Profile</Comment>
+    <Code>ValuesSource</Code>
+    <Name>Values Source</Name>
+    <LocalName>Fuente de valores</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33559428, used by Oom.Parameter</Comment>
+    <Code>VariableArgument</Code>
+    <Name>Variable Argument</Name>
+    <LocalName>Argumento variable</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33947707, used by Rqm.Requirement</Comment>
+    <Code>VerificationMethod</Code>
+    <Name>Verification Method</Name>
+    <LocalName>Método de verificación</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33554756,84148995,34604506,34603521,34605131, used by Ldm.Logical Data Model; Obj.Model; Cdm.Conceptual Data Model; Cdo.Conceptual Data Model; Ooo.Base Object Oriented Model; Ilm.Data Movement Model; Ilm.Event Script; Frm.Free Model; Glm.Glossary Model; ...</Comment>
+    <Code>Version</Code>
+    <Name>Version</Name>
+    <LocalName>Versión</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33947763, used by Obj.Base Matrix Dialog View; Obj.Dependency Matrix; Rqm.Traceability Matrix View; Rqm.User Allocation Matrix View</Comment>
+    <Code>VerticalColumnHeader</Code>
+    <Name>Vertical Column Header</Name>
+    <LocalName>Cabecera de columna vertical</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33556848, used by Obj.Abstract Base Extensible Dialog View; Obj.Base Matrix Dialog View; Obj.Dependency Matrix; Rqm.Traceability Matrix View; Rqm.User Allocation Matrix View</Comment>
+    <Code>ViewClassName</Code>
+    <Name>View Class Name</Name>
+    <LocalName>Nombre de clase de vista</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33556841, used by Obj.Base Editor Definition; Obj.Abstract Base Extensible Dialog View; Obj.Base Matrix Dialog View; Obj.Dependency Matrix; Rqm.Traceability Matrix View; Rqm.User Allocation Matrix View</Comment>
+    <Code>ViewClassID</Code>
+    <Name>View Class Unique Identifier</Name>
+    <LocalName>Identificador único de clase de vista</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34608869, used by Eam.Workstation; Eam.Hardware Server</Comment>
+    <Code>Virtual</Code>
+    <Name>Virtual</Name>
+    <LocalName>Virtual</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33559297,33559808,33558529,33554608,33559041, used by Oom.Operation; Oom.Generalization; Oom.Class/Interface; Oom.Class; Oom.Interface; Oom.Port; Oom.Part; Oom.Attribute</Comment>
+    <Code>Visibility</Code>
+    <Name>Visibility</Name>
+    <LocalName>Visibilidad</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33559556, used by Oom.Instance Link</Comment>
+    <Code>AssociationRoleAVisibility</Code>
+    <Name>Visibility A</Name>
+    <LocalName>Visibilidad A</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33559556, used by Oom.Association</Comment>
+    <Code>RoleAVisibility</Code>
+    <Name>Visibility A</Name>
+    <LocalName>Visibilidad A</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33559557, used by Oom.Instance Link</Comment>
+    <Code>AssociationRoleBVisibility</Code>
+    <Name>Visibility B</Name>
+    <LocalName>Visibilidad B</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33559557, used by Oom.Association</Comment>
+    <Code>RoleBVisibility</Code>
+    <Name>Visibility B</Name>
+    <LocalName>Visibilidad B</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33559048, used by Oom.Attribute</Comment>
+    <Code>Volatile</Code>
+    <Name>Volatile</Name>
+    <LocalName>Volátil</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33564425, used by Oom.Association</Comment>
+    <Code>RoleAVolatile</Code>
+    <Name>Volatile Role A</Name>
+    <LocalName>Rol volátil A</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33564426, used by Oom.Association</Comment>
+    <Code>RoleBVolatile</Code>
+    <Name>Volatile Role B</Name>
+    <LocalName>Rol volátil B</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33580322, used by Rpt.Report Template; Rpt.Report; Rpt.Intra-Model Report; Rpt.Multi-Model Report</Comment>
+    <Code>HtmlWebBrowser</Code>
+    <Name>Web Browser</Name>
+    <LocalName>Navegador web</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33559344, used by Oom.Operation</Comment>
+    <Code>WebMethod</Code>
+    <Name>Web Method</Name>
+    <LocalName>Método web</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33563652, used by Oom.Component</Comment>
+    <Code>WSNamespace</Code>
+    <Name>Web Service Namespace</Name>
+    <LocalName>Área de nombres de servicio web</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33621512, used by Pdo.Web Service</Comment>
+    <Code>ServiceType</Code>
+    <Name>Web Service Type</Name>
+    <LocalName>Tipo de servicio web</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33563654, used by Oom.Component</Comment>
+    <Code>WSType</Code>
+    <Name>Web Service Type</Name>
+    <LocalName>Tipo de servicio web</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34603702, used by Eam.Organization Unit</Comment>
+    <Code>WebSite</Code>
+    <Name>Web Site</Name>
+    <LocalName>Sitio web</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33563651, used by Oom.Component; Oom.Component Instance</Comment>
+    <Code>WebService</Code>
+    <Name>WebService</Name>
+    <LocalName>Servicio web</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33561219, used by Oom.Flow</Comment>
+    <Code>Weight</Code>
+    <Name>Weight</Name>
+    <LocalName>Tamaño</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 83886096, used by Ilm.Article; Ilm.Subscription</Comment>
+    <Code>WhereClause</Code>
+    <Name>Where Clause</Name>
+    <LocalName>Cláusula WHERE</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33554532, used by Pdo.Domain; Pdo.Column</Comment>
+    <Code>WithDefault</Code>
+    <Name>With Default</Name>
+    <LocalName>Con valor por defecto</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33947698, used by Rqm.Requirement</Comment>
+    <Code>Workload</Code>
+    <Name>Workload</Name>
+    <LocalName>Carga de trabajo</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33947699, used by Rqm.Requirement</Comment>
+    <Code>Workload2</Code>
+    <Name>Workload 2</Name>
+    <LocalName>Carga de trabajo 2</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33947700, used by Rqm.Requirement</Comment>
+    <Code>Workload3</Code>
+    <Name>Workload 3</Name>
+    <LocalName>Carga de trabajo 3</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33947701, used by Rqm.Requirement</Comment>
+    <Code>Workload4</Code>
+    <Name>Workload 4</Name>
+    <LocalName>Carga de trabajo 4</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33563660, used by Oom.Component; Oom.Component Instance</Comment>
+    <Code>WSDLComment</Code>
+    <Name>WSDL Comment</Name>
+    <LocalName>Comentario WSDL</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33559345, used by Oom.Operation; Oom.Parameter</Comment>
+    <Code>WSDLDataType</Code>
+    <Name>WSDL Data Type</Name>
+    <LocalName>Tipo de datos WSDL</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33563659, used by Oom.Component</Comment>
+    <Code>EncodingStyle</Code>
+    <Name>WSDL Encoding Style</Name>
+    <LocalName>Estilo de codificación WSDL</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33563655, used by Oom.Component</Comment>
+    <Code>WSDLUseExternal</Code>
+    <Name>WSDL External</Name>
+    <LocalName>WSDL externo</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33563655, used by Oom.Component Instance</Comment>
+    <Code>WSExternal</Code>
+    <Name>WSDL External</Name>
+    <LocalName>WSDL externo</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33563440, used by Oom.Component Instance</Comment>
+    <Code>WSDLImportIntf</Code>
+    <Name>WSDL Import Interface</Name>
+    <LocalName>Interfase de importación WSDL</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33559360, used by Oom.Operation</Comment>
+    <Code>WSDLInputMessage</Code>
+    <Name>WSDL Input Message</Name>
+    <LocalName>Mensaje de entrada WSDL</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33559363, used by Oom.Operation</Comment>
+    <Code>WSDLInputSchema</Code>
+    <Name>WSDL Input Schema</Name>
+    <LocalName>Esquema de entrada WSDL</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33563664, used by Oom.Component</Comment>
+    <Code>WSDLNamespacePrefix</Code>
+    <Name>WSDL Namespace Prefix</Name>
+    <LocalName>Prefijo de área de nombres WSDL</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33559361, used by Oom.Operation</Comment>
+    <Code>WSDLOutputMessage</Code>
+    <Name>WSDL Output Message</Name>
+    <LocalName>Mensaje de salida WSDL</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33559364, used by Oom.Operation</Comment>
+    <Code>WSDLOutputSchema</Code>
+    <Name>WSDL Output Schema</Name>
+    <LocalName>Esquema de salida WSDL</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33563662, used by Oom.Component</Comment>
+    <Code>WSDLSharedSchema</Code>
+    <Name>WSDL Shared Schema</Name>
+    <LocalName>Esquema compartido WSDL</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33559362, used by Oom.Operation</Comment>
+    <Code>WSDLFaultMessage</Code>
+    <Name>WSDL SOAP Fault</Name>
+    <LocalName>Error SOAP WSDL</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33559365, used by Oom.Operation</Comment>
+    <Code>WSDLFaultSchema</Code>
+    <Name>WSDL SOAP Schema</Name>
+    <LocalName>Esquema SOAP WSDL</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33563657, used by Oom.Component</Comment>
+    <Code>WSDLTargetNamespace</Code>
+    <Name>WSDL Target Namespace</Name>
+    <LocalName>Área de nombres de destino WSDL</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33563658, used by Oom.Component; Oom.Component Instance</Comment>
+    <Code>WSDLText</Code>
+    <Name>WSDL Text</Name>
+    <LocalName>Texto WSDL</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33563656, used by Oom.Component; Oom.Component Instance</Comment>
+    <Code>WSDLURL</Code>
+    <Name>WSDL URL</Name>
+    <LocalName>URL WSDL</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33624154, used by Pdo.Column; Pdo.View Column; Pdo.Base Column</Comment>
+    <Code>XMLColumnGenerationMode</Code>
+    <Name>XML Column Generation Mode</Name>
+    <LocalName>Modo de generación de columna XML</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 84148512, used by Ilm.XML Document</Comment>
+    <Code>XmlFilePath</Code>
+    <Name>XML File Path</Name>
+    <LocalName>Vía de acceso a fichero XML</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33558799,33559079, used by Oom.Class; Oom.Attribute</Comment>
+    <Code>XMLGenerationMode</Code>
+    <Name>XML Generation Mode</Name>
+    <LocalName>Modo de generación XML</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33624094, used by Pdo.Table</Comment>
+    <Code>XMLKeyGenerationMode</Code>
+    <Name>XML Key Generation Mode</Name>
+    <LocalName>Modo de generación de clave XML</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33621168, used by Pdo.View; Pdo.Base Table; Pdo.Table</Comment>
+    <Code>XMLSchema</Code>
+    <Name>XML Schema</Name>
+    <LocalName>Esquema XML</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33624093, used by Pdo.Table</Comment>
+    <Code>XMLTableGenerationMode</Code>
+    <Name>XML Table Generation Mode</Name>
+    <LocalName>Modo de generación de tabla XML</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33947671, used by Xsm.Field; Xsm.Selector</Comment>
+    <Code>XPath</Code>
+    <Name>XPath</Name>
+    <LocalName>XPath</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 84148513, used by Ilm.XML Document</Comment>
+    <Code>XsdFilePath</Code>
+    <Name>XSD File Path</Name>
+    <LocalName>Vía de acceso a fichero XSD</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34017028, used by Xsm.XML Model</Comment>
+    <Code>SchemaFilename</Code>
+    <Name>XSD Filename</Name>
+    <LocalName>Nombre de fichero XSD</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 16777665, used by Obj.XSD Document; Bpm.XSD Document</Comment>
+    <Code>Location</Code>
+    <Name>XSD Location</Name>
+    <LocalName>Ubicación XSD</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 16777674, used by Obj.XSD Document; Bpm.XSD Document</Comment>
+    <Code>XSDText</Code>
+    <Name>XSD Schema Text</Name>
+    <LocalName>Texto de esquema XSD</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 33640712, used by Pdo.Test Data Profile</Comment>
+    <Code>YearStep</Code>
+    <Name>Year Step</Name>
+    <LocalName>Paso de año</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>DISPIDs: 34603650, used by Eam.Site</Comment>
+    <Code>ZipCode</Code>
+    <Name>Zip Code</Name>
+    <LocalName>Código postal</LocalName>
+  </Translation>
+</Translations>

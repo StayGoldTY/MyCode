@@ -1,0 +1,35 @@
+Asia Pacific Region - General;Asia.txt
+Americas and Asia Pacific;Americas_and_Asia_Pacific.txt
+Argentina;Argentina.txt
+Australia;Australia.txt
+Belgium(English);Belgium_English.txt
+Brazil;Brazil.txt
+Canada;Canada.txt
+Denmark;Denmark.txt
+France(English);France_English.txt
+France(French);France_French.txt
+Germany(English);Germany_English.txt
+Hong Kong;Hong_Kong.txt
+India;India.txt
+Italy(English);Italy_English.txt
+Italy(Italian);Italy_Italian.txt
+Japan;Japan.txt
+Korea;Korea.txt
+Latin America Countries - Other than Argentina, Brazil, and Mexico;LAO.txt
+Malaysia;Malaysia.txt
+Mexico;Mexico.txt
+Netherlands;Netherlands.txt
+New Zealand;New_Zealand.txt
+Norway;Norway.txt
+People's Republic of China(PRC);PRC.txt
+Singapore;Singapore.txt
+Spain(English);Spain_English.txt
+Spain(Spanish);Spain_Spanish.txt
+South Africa;SouthAfrica.txt
+Sweden;Sweden.txt
+Switzerland(English);Switzerland_English.txt
+Taiwan;Taiwan.txt
+United Kingdom;United_Kingdom.txt
+United States of America;US.txt
+Any Other Locations;US.txt
+Europe,Middle East, and Africa - General;EMEA_General.txt

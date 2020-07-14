@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Module Id="Sybase.Modeling.Net">
+  <AssemblyName>Sybase.Modeling.Net, Version=1.6.5.0, Culture=neutral, PublicKeyToken=65afb196693a8d18</AssemblyName>
+  <RelativePath>Sybase.Modeling.Net.dll</RelativePath>
+  <Extensions>
+    <ExtensionPoint Id="Sybase.Core.Platform.ConfigurationPoint">
+      <ConfigurationPoint Class="Sybase.Modeling.Net.Metamodel.NLibraryExtension" />
+    </ExtensionPoint>
+  </Extensions>
+  <Configurations />
+</Module>

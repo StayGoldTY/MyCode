@@ -1,0 +1,11 @@
+E:\学习不止\WCFStudy\bin\Debug\WCFStudy.exe.config
+E:\学习不止\WCFStudy\bin\Debug\WCFStudy.exe
+E:\学习不止\WCFStudy\bin\Debug\WCFStudy.pdb
+E:\学习不止\WCFStudy\bin\Debug\SOPWeb.dll
+E:\学习不止\WCFStudy\bin\Debug\SOPWeb.pdb
+E:\学习不止\WCFStudy\bin\Debug\SOPWeb.dll.config
+E:\学习不止\WCFStudy\obj\Debug\WCFStudy.csprojAssemblyReference.cache
+E:\学习不止\WCFStudy\obj\Debug\WCFStudy.csproj.CoreCompileInputs.cache
+E:\学习不止\WCFStudy\obj\Debug\WCFStudy.csproj.CopyComplete
+E:\学习不止\WCFStudy\obj\Debug\WCFStudy.exe
+E:\学习不止\WCFStudy\obj\Debug\WCFStudy.pdb

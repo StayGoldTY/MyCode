@@ -1,0 +1,1168 @@
+File created on 6-3-2020 at 21:42:28
+ 
+Product : SAP PowerDesigner 16.5 SP05 version 16.5.34734
+ 
+GetCommandLineOptions()
+Syb_OnSetUpdateMode()
+Syb_OnBegin()
+CheckVCRedist()
+ReadPackageFile()
+CheckVisualStudio()
+IsDotNetInstalled:4.0
+Syb_OnAppSearch()
+Syb_OnFirstUIBefore()
+SetDialogOrder()
+GetVisioVersion()
+ found version: 0
+GetWordVersion()
+ found version: 12
+GetWordVersion()
+ found version: 12
+IsSQLAnywhereDriverInstalled()
+ SQL Anywhere 12 driver not found
+AdvShowDialogs()
+DialogWelcome()
+CheckVersion3264(Software\Sybase\PowerDesigner 16)
+SearchVersion: 15
+SearchVersion: 14
+SearchVersion: 13
+SearchVersion: 12
+SearchVersion: 11
+DialogShowSdAskDestPath()
+DlgChooseFeatures()
+GetVisioVersion()
+ found version: 0
+FindUserProfiles
+DlgChooseUserProfiles()
+DlgSdSelectFolder()
+DlgSdStartCopy()
+GetSelectedUserProfiles()
+Syb_OnMoveData()
+InstallVJsharp()
+InstallOfficeInteropAssembly()
+GetOfficeVersion()
+ found version: 12
+InstallMsXML6()
+InstallVSTOR()
+CheckVSTOR()
+RemoveEclipseLink()
+CopyExternalFiles()
+CopyExtraUserProfiles()
+InstallPDRegistry()
+CreateRegKey(Software\Sybase , 
+CreateRegKey(Software\Sybase , 
+CreateRegKey(Software\Sybase\PowerDesigner 16 , 
+CreateRegKey(Software\Sybase , Software\Sybase
+CreateRegKey(Software\Sybase\PowerDesigner 16\Repository , 
+CreateRegKey(Software\Sybase\PowerDesigner 16 , Software\Sybase
+CreateRegKey(Software\Sybase , Software\Sybase
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Repository
+  MaxBytesPerChar=3
+CreateInstallRegKey()
+CreateRegKey(Software\Sybase\PowerDesigner 16\Setup , 
+CreateRegKey(Software\Sybase\PowerDesigner 16 , Software\Sybase
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Setup
+  Version=16.5
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Setup
+  Path=E:\学习不止
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Setup
+  Program Folder=SAP\PowerDesigner 16
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Setup
+  Network=0
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Setup
+  ID=983263
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Setup
+  Eclipse 3 directory=
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Setup
+  PL=0
+CreateRegKey(Software\Sybase\PowerDesigner 16\General , 
+CreateRegKey(Software\Sybase\PowerDesigner 16 , Software\Sybase
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\General
+  UseLastActivePopupMonitor=Yes
+CreateRegKey(Software\Sybase\PowerDesigner 16 , 
+SetNamedPath()
+CreateRegKey(Software\Sybase\PowerDesigner 16\Paths\Named , 
+CreateRegKey(Software\Sybase\PowerDesigner 16\Paths , Software\Sybase
+CreateRegKey(Software\Sybase\PowerDesigner 16 , Software\Sybase
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Paths\Named
+  _EXAMPLES=E:\学习不止\Examples
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Paths\Named
+  _HOME=E:\学习不止
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Paths\Named
+  _LIBRARY=E:\学习不止\Library
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Paths\Named
+  _MODELCATEGORY=E:\学习不止\Resource Files\Model Category
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Paths\Named
+  _SHARED=%USERPROFILE%\Documents\PowerDesigner Libraries
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Paths\Named
+  _RPTHTML=E:\学习不止\Resource Files\Reporting\HTML
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Paths\Named
+  _JSF=E:\学习不止\Resource Files\JSF
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Paths\Named
+  _WINFORM=E:\学习不止\Resource Files\WinForm
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Paths\Named
+  _SMARTWINFORM=E:\学习不止\Resource Files\SmartWinForm
+SetupFolders()
+SybAddFolderIcon()
+SybAddFolderIcon()
+SetFilesAssociation()
+SetModulesExtensions(nExtension)
+SetRegKeyValue: .CDM
+  =PowerDesigner.CDM.16
+SetRegKeyValue: PowerDesigner.CDM.16
+  =PowerDesigner 16 Conceptual Data Model File
+CreateRegKey(PowerDesigner.CDM.16\DefaultIcon , 
+CreateRegKey(PowerDesigner.CDM.16 , Software\Sybase
+SetRegKeyValue: PowerDesigner.CDM.16\DefaultIcon
+  =E:\学习不止\shcdm16.dll,0
+CreateRegKey(PowerDesigner.CDM.16\Shell\Open\Command , PowerDesigner.CDM.16
+CreateRegKey(PowerDesigner.CDM.16\Shell\Open , PowerDesigner.CDM.16
+CreateRegKey(PowerDesigner.CDM.16\Shell , PowerDesigner.CDM.16
+CreateRegKey(PowerDesigner.CDM.16 , PowerDesigner.CDM.16
+SetRegKeyValue: PowerDesigner.CDM.16\Shell\Open\Command
+  =E:\学习不止\pdshell16.exe "%1"
+CreateRegKey(PowerDesigner.CDM.16\Shell\Open\ddeexec , PowerDesigner.CDM.16
+CreateRegKey(PowerDesigner.CDM.16\Shell\Open , PowerDesigner.CDM.16
+SetRegKeyValue: PowerDesigner.CDM.16\Shell\Open\ddeexec
+  =open("%1")
+CreateRegKey(PowerDesigner.CDM.16\Shell\Open\ddeexec\Application , PowerDesigner.CDM.16
+CreateRegKey(PowerDesigner.CDM.16\Shell\Open\ddeexec , PowerDesigner.CDM.16
+SetRegKeyValue: PowerDesigner.CDM.16\Shell\Open\ddeexec\Application
+  =pdshell16
+CreateRegKey(PowerDesigner.CDM.16\Shell\Open\ddeexec\Topic , PowerDesigner.CDM.16
+CreateRegKey(PowerDesigner.CDM.16\Shell\Open\ddeexec , PowerDesigner.CDM.16
+SetRegKeyValue: PowerDesigner.CDM.16\Shell\Open\ddeexec\Topic
+  =system
+CreateRegKey(PowerDesigner.CDM.16\Shell\Open\ddeexec\IfExec , PowerDesigner.CDM.16
+CreateRegKey(PowerDesigner.CDM.16\Shell\Open\ddeexec , PowerDesigner.CDM.16
+SetRegKeyValue: PowerDesigner.CDM.16\Shell\Open\ddeexec\IfExec
+  =[]
+SetRegKeyValue: .PDM
+  =PowerDesigner.PDM.16
+SetRegKeyValue: PowerDesigner.PDM.16
+  =PowerDesigner 16 Physical Data Model File
+CreateRegKey(PowerDesigner.PDM.16\DefaultIcon , 
+CreateRegKey(PowerDesigner.PDM.16 , Software\Sybase
+SetRegKeyValue: PowerDesigner.PDM.16\DefaultIcon
+  =E:\学习不止\shpdm16.dll,0
+CreateRegKey(PowerDesigner.PDM.16\Shell\Open\Command , PowerDesigner.PDM.16
+CreateRegKey(PowerDesigner.PDM.16\Shell\Open , PowerDesigner.PDM.16
+CreateRegKey(PowerDesigner.PDM.16\Shell , PowerDesigner.PDM.16
+CreateRegKey(PowerDesigner.PDM.16 , PowerDesigner.PDM.16
+SetRegKeyValue: PowerDesigner.PDM.16\Shell\Open\Command
+  =E:\学习不止\pdshell16.exe "%1"
+CreateRegKey(PowerDesigner.PDM.16\Shell\Open\ddeexec , PowerDesigner.PDM.16
+CreateRegKey(PowerDesigner.PDM.16\Shell\Open , PowerDesigner.PDM.16
+SetRegKeyValue: PowerDesigner.PDM.16\Shell\Open\ddeexec
+  =open("%1")
+CreateRegKey(PowerDesigner.PDM.16\Shell\Open\ddeexec\Application , PowerDesigner.PDM.16
+CreateRegKey(PowerDesigner.PDM.16\Shell\Open\ddeexec , PowerDesigner.PDM.16
+SetRegKeyValue: PowerDesigner.PDM.16\Shell\Open\ddeexec\Application
+  =pdshell16
+CreateRegKey(PowerDesigner.PDM.16\Shell\Open\ddeexec\Topic , PowerDesigner.PDM.16
+CreateRegKey(PowerDesigner.PDM.16\Shell\Open\ddeexec , PowerDesigner.PDM.16
+SetRegKeyValue: PowerDesigner.PDM.16\Shell\Open\ddeexec\Topic
+  =system
+CreateRegKey(PowerDesigner.PDM.16\Shell\Open\ddeexec\IfExec , PowerDesigner.PDM.16
+CreateRegKey(PowerDesigner.PDM.16\Shell\Open\ddeexec , PowerDesigner.PDM.16
+SetRegKeyValue: PowerDesigner.PDM.16\Shell\Open\ddeexec\IfExec
+  =[]
+SetRegKeyValue: .APM
+  =PowerDesigner.APM.16
+SetRegKeyValue: PowerDesigner.APM.16
+  =PowerDesigner 16 Archived Physical Data Model File
+CreateRegKey(PowerDesigner.APM.16\DefaultIcon , 
+CreateRegKey(PowerDesigner.APM.16 , Software\Sybase
+SetRegKeyValue: PowerDesigner.APM.16\DefaultIcon
+  =E:\学习不止\shpdm16.dll,0
+CreateRegKey(PowerDesigner.APM.16\Shell\Open\Command , PowerDesigner.APM.16
+CreateRegKey(PowerDesigner.APM.16\Shell\Open , PowerDesigner.APM.16
+CreateRegKey(PowerDesigner.APM.16\Shell , PowerDesigner.APM.16
+CreateRegKey(PowerDesigner.APM.16 , PowerDesigner.APM.16
+SetRegKeyValue: PowerDesigner.APM.16\Shell\Open\Command
+  =E:\学习不止\pdshell16.exe "%1"
+CreateRegKey(PowerDesigner.APM.16\Shell\Open\ddeexec , PowerDesigner.APM.16
+CreateRegKey(PowerDesigner.APM.16\Shell\Open , PowerDesigner.APM.16
+SetRegKeyValue: PowerDesigner.APM.16\Shell\Open\ddeexec
+  =open("%1")
+CreateRegKey(PowerDesigner.APM.16\Shell\Open\ddeexec\Application , PowerDesigner.APM.16
+CreateRegKey(PowerDesigner.APM.16\Shell\Open\ddeexec , PowerDesigner.APM.16
+SetRegKeyValue: PowerDesigner.APM.16\Shell\Open\ddeexec\Application
+  =pdshell16
+CreateRegKey(PowerDesigner.APM.16\Shell\Open\ddeexec\Topic , PowerDesigner.APM.16
+CreateRegKey(PowerDesigner.APM.16\Shell\Open\ddeexec , PowerDesigner.APM.16
+SetRegKeyValue: PowerDesigner.APM.16\Shell\Open\ddeexec\Topic
+  =system
+CreateRegKey(PowerDesigner.APM.16\Shell\Open\ddeexec\IfExec , PowerDesigner.APM.16
+CreateRegKey(PowerDesigner.APM.16\Shell\Open\ddeexec , PowerDesigner.APM.16
+SetRegKeyValue: PowerDesigner.APM.16\Shell\Open\ddeexec\IfExec
+  =[]
+SetRegKeyValue: .MPA
+  =PowerDesigner.MPA.16
+SetRegKeyValue: PowerDesigner.MPA.16
+  =PowerDesigner 16 Archived Physical Data Model File
+CreateRegKey(PowerDesigner.MPA.16\DefaultIcon , 
+CreateRegKey(PowerDesigner.MPA.16 , Software\Sybase
+SetRegKeyValue: PowerDesigner.MPA.16\DefaultIcon
+  =E:\学习不止\shpdm16.dll,0
+CreateRegKey(PowerDesigner.MPA.16\Shell\Open\Command , PowerDesigner.MPA.16
+CreateRegKey(PowerDesigner.MPA.16\Shell\Open , PowerDesigner.MPA.16
+CreateRegKey(PowerDesigner.MPA.16\Shell , PowerDesigner.MPA.16
+CreateRegKey(PowerDesigner.MPA.16 , PowerDesigner.MPA.16
+SetRegKeyValue: PowerDesigner.MPA.16\Shell\Open\Command
+  =E:\学习不止\pdshell16.exe "%1"
+CreateRegKey(PowerDesigner.MPA.16\Shell\Open\ddeexec , PowerDesigner.MPA.16
+CreateRegKey(PowerDesigner.MPA.16\Shell\Open , PowerDesigner.MPA.16
+SetRegKeyValue: PowerDesigner.MPA.16\Shell\Open\ddeexec
+  =open("%1")
+CreateRegKey(PowerDesigner.MPA.16\Shell\Open\ddeexec\Application , PowerDesigner.MPA.16
+CreateRegKey(PowerDesigner.MPA.16\Shell\Open\ddeexec , PowerDesigner.MPA.16
+SetRegKeyValue: PowerDesigner.MPA.16\Shell\Open\ddeexec\Application
+  =pdshell16
+CreateRegKey(PowerDesigner.MPA.16\Shell\Open\ddeexec\Topic , PowerDesigner.MPA.16
+CreateRegKey(PowerDesigner.MPA.16\Shell\Open\ddeexec , PowerDesigner.MPA.16
+SetRegKeyValue: PowerDesigner.MPA.16\Shell\Open\ddeexec\Topic
+  =system
+CreateRegKey(PowerDesigner.MPA.16\Shell\Open\ddeexec\IfExec , PowerDesigner.MPA.16
+CreateRegKey(PowerDesigner.MPA.16\Shell\Open\ddeexec , PowerDesigner.MPA.16
+SetRegKeyValue: PowerDesigner.MPA.16\Shell\Open\ddeexec\IfExec
+  =[]
+SetRegKeyValue: .OOM
+  =PowerDesigner.OOM.16
+SetRegKeyValue: PowerDesigner.OOM.16
+  =PowerDesigner 16 Object-Oriented Model File
+CreateRegKey(PowerDesigner.OOM.16\DefaultIcon , 
+CreateRegKey(PowerDesigner.OOM.16 , Software\Sybase
+SetRegKeyValue: PowerDesigner.OOM.16\DefaultIcon
+  =E:\学习不止\shoom16.dll,0
+CreateRegKey(PowerDesigner.OOM.16\Shell\Open\Command , PowerDesigner.OOM.16
+CreateRegKey(PowerDesigner.OOM.16\Shell\Open , PowerDesigner.OOM.16
+CreateRegKey(PowerDesigner.OOM.16\Shell , PowerDesigner.OOM.16
+CreateRegKey(PowerDesigner.OOM.16 , PowerDesigner.OOM.16
+SetRegKeyValue: PowerDesigner.OOM.16\Shell\Open\Command
+  =E:\学习不止\pdshell16.exe "%1"
+CreateRegKey(PowerDesigner.OOM.16\Shell\Open\ddeexec , PowerDesigner.OOM.16
+CreateRegKey(PowerDesigner.OOM.16\Shell\Open , PowerDesigner.OOM.16
+SetRegKeyValue: PowerDesigner.OOM.16\Shell\Open\ddeexec
+  =open("%1")
+CreateRegKey(PowerDesigner.OOM.16\Shell\Open\ddeexec\Application , PowerDesigner.OOM.16
+CreateRegKey(PowerDesigner.OOM.16\Shell\Open\ddeexec , PowerDesigner.OOM.16
+SetRegKeyValue: PowerDesigner.OOM.16\Shell\Open\ddeexec\Application
+  =pdshell16
+CreateRegKey(PowerDesigner.OOM.16\Shell\Open\ddeexec\Topic , PowerDesigner.OOM.16
+CreateRegKey(PowerDesigner.OOM.16\Shell\Open\ddeexec , PowerDesigner.OOM.16
+SetRegKeyValue: PowerDesigner.OOM.16\Shell\Open\ddeexec\Topic
+  =system
+CreateRegKey(PowerDesigner.OOM.16\Shell\Open\ddeexec\IfExec , PowerDesigner.OOM.16
+CreateRegKey(PowerDesigner.OOM.16\Shell\Open\ddeexec , PowerDesigner.OOM.16
+SetRegKeyValue: PowerDesigner.OOM.16\Shell\Open\ddeexec\IfExec
+  =[]
+SetRegKeyValue: .BPM
+  =PowerDesigner.BPM.16
+SetRegKeyValue: PowerDesigner.BPM.16
+  =PowerDesigner 16 Business Process Model File
+CreateRegKey(PowerDesigner.BPM.16\DefaultIcon , 
+CreateRegKey(PowerDesigner.BPM.16 , Software\Sybase
+SetRegKeyValue: PowerDesigner.BPM.16\DefaultIcon
+  =E:\学习不止\shbpm16.dll,0
+CreateRegKey(PowerDesigner.BPM.16\Shell\Open\Command , PowerDesigner.BPM.16
+CreateRegKey(PowerDesigner.BPM.16\Shell\Open , PowerDesigner.BPM.16
+CreateRegKey(PowerDesigner.BPM.16\Shell , PowerDesigner.BPM.16
+CreateRegKey(PowerDesigner.BPM.16 , PowerDesigner.BPM.16
+SetRegKeyValue: PowerDesigner.BPM.16\Shell\Open\Command
+  =E:\学习不止\pdshell16.exe "%1"
+CreateRegKey(PowerDesigner.BPM.16\Shell\Open\ddeexec , PowerDesigner.BPM.16
+CreateRegKey(PowerDesigner.BPM.16\Shell\Open , PowerDesigner.BPM.16
+SetRegKeyValue: PowerDesigner.BPM.16\Shell\Open\ddeexec
+  =open("%1")
+CreateRegKey(PowerDesigner.BPM.16\Shell\Open\ddeexec\Application , PowerDesigner.BPM.16
+CreateRegKey(PowerDesigner.BPM.16\Shell\Open\ddeexec , PowerDesigner.BPM.16
+SetRegKeyValue: PowerDesigner.BPM.16\Shell\Open\ddeexec\Application
+  =pdshell16
+CreateRegKey(PowerDesigner.BPM.16\Shell\Open\ddeexec\Topic , PowerDesigner.BPM.16
+CreateRegKey(PowerDesigner.BPM.16\Shell\Open\ddeexec , PowerDesigner.BPM.16
+SetRegKeyValue: PowerDesigner.BPM.16\Shell\Open\ddeexec\Topic
+  =system
+CreateRegKey(PowerDesigner.BPM.16\Shell\Open\ddeexec\IfExec , PowerDesigner.BPM.16
+CreateRegKey(PowerDesigner.BPM.16\Shell\Open\ddeexec , PowerDesigner.BPM.16
+SetRegKeyValue: PowerDesigner.BPM.16\Shell\Open\ddeexec\IfExec
+  =[]
+SetRegKeyValue: .ABM
+  =PowerDesigner.ABM.16
+SetRegKeyValue: PowerDesigner.ABM.16
+  =PowerDesigner 16 Archived Business Process File
+CreateRegKey(PowerDesigner.ABM.16\DefaultIcon , 
+CreateRegKey(PowerDesigner.ABM.16 , Software\Sybase
+SetRegKeyValue: PowerDesigner.ABM.16\DefaultIcon
+  =E:\学习不止\shbpm16.dll,0
+CreateRegKey(PowerDesigner.ABM.16\Shell\Open\Command , PowerDesigner.ABM.16
+CreateRegKey(PowerDesigner.ABM.16\Shell\Open , PowerDesigner.ABM.16
+CreateRegKey(PowerDesigner.ABM.16\Shell , PowerDesigner.ABM.16
+CreateRegKey(PowerDesigner.ABM.16 , PowerDesigner.ABM.16
+SetRegKeyValue: PowerDesigner.ABM.16\Shell\Open\Command
+  =E:\学习不止\pdshell16.exe "%1"
+CreateRegKey(PowerDesigner.ABM.16\Shell\Open\ddeexec , PowerDesigner.ABM.16
+CreateRegKey(PowerDesigner.ABM.16\Shell\Open , PowerDesigner.ABM.16
+SetRegKeyValue: PowerDesigner.ABM.16\Shell\Open\ddeexec
+  =open("%1")
+CreateRegKey(PowerDesigner.ABM.16\Shell\Open\ddeexec\Application , PowerDesigner.ABM.16
+CreateRegKey(PowerDesigner.ABM.16\Shell\Open\ddeexec , PowerDesigner.ABM.16
+SetRegKeyValue: PowerDesigner.ABM.16\Shell\Open\ddeexec\Application
+  =pdshell16
+CreateRegKey(PowerDesigner.ABM.16\Shell\Open\ddeexec\Topic , PowerDesigner.ABM.16
+CreateRegKey(PowerDesigner.ABM.16\Shell\Open\ddeexec , PowerDesigner.ABM.16
+SetRegKeyValue: PowerDesigner.ABM.16\Shell\Open\ddeexec\Topic
+  =system
+CreateRegKey(PowerDesigner.ABM.16\Shell\Open\ddeexec\IfExec , PowerDesigner.ABM.16
+CreateRegKey(PowerDesigner.ABM.16\Shell\Open\ddeexec , PowerDesigner.ABM.16
+SetRegKeyValue: PowerDesigner.ABM.16\Shell\Open\ddeexec\IfExec
+  =[]
+SetRegKeyValue: .MBA
+  =PowerDesigner.MBA.16
+SetRegKeyValue: PowerDesigner.MBA.16
+  =PowerDesigner 16 Archived Business Process File
+CreateRegKey(PowerDesigner.MBA.16\DefaultIcon , 
+CreateRegKey(PowerDesigner.MBA.16 , Software\Sybase
+SetRegKeyValue: PowerDesigner.MBA.16\DefaultIcon
+  =E:\学习不止\shbpm16.dll,0
+CreateRegKey(PowerDesigner.MBA.16\Shell\Open\Command , PowerDesigner.MBA.16
+CreateRegKey(PowerDesigner.MBA.16\Shell\Open , PowerDesigner.MBA.16
+CreateRegKey(PowerDesigner.MBA.16\Shell , PowerDesigner.MBA.16
+CreateRegKey(PowerDesigner.MBA.16 , PowerDesigner.MBA.16
+SetRegKeyValue: PowerDesigner.MBA.16\Shell\Open\Command
+  =E:\学习不止\pdshell16.exe "%1"
+CreateRegKey(PowerDesigner.MBA.16\Shell\Open\ddeexec , PowerDesigner.MBA.16
+CreateRegKey(PowerDesigner.MBA.16\Shell\Open , PowerDesigner.MBA.16
+SetRegKeyValue: PowerDesigner.MBA.16\Shell\Open\ddeexec
+  =open("%1")
+CreateRegKey(PowerDesigner.MBA.16\Shell\Open\ddeexec\Application , PowerDesigner.MBA.16
+CreateRegKey(PowerDesigner.MBA.16\Shell\Open\ddeexec , PowerDesigner.MBA.16
+SetRegKeyValue: PowerDesigner.MBA.16\Shell\Open\ddeexec\Application
+  =pdshell16
+CreateRegKey(PowerDesigner.MBA.16\Shell\Open\ddeexec\Topic , PowerDesigner.MBA.16
+CreateRegKey(PowerDesigner.MBA.16\Shell\Open\ddeexec , PowerDesigner.MBA.16
+SetRegKeyValue: PowerDesigner.MBA.16\Shell\Open\ddeexec\Topic
+  =system
+CreateRegKey(PowerDesigner.MBA.16\Shell\Open\ddeexec\IfExec , PowerDesigner.MBA.16
+CreateRegKey(PowerDesigner.MBA.16\Shell\Open\ddeexec , PowerDesigner.MBA.16
+SetRegKeyValue: PowerDesigner.MBA.16\Shell\Open\ddeexec\IfExec
+  =[]
+SetRegKeyValue: .SWS
+  =PowerDesigner.SWS.16
+SetRegKeyValue: PowerDesigner.SWS.16
+  =PowerDesigner 16 Workspace File
+CreateRegKey(PowerDesigner.SWS.16\DefaultIcon , 
+CreateRegKey(PowerDesigner.SWS.16 , Software\Sybase
+SetRegKeyValue: PowerDesigner.SWS.16\DefaultIcon
+  =E:\学习不止\pdwsp16.dll,0
+CreateRegKey(PowerDesigner.SWS.16\Shell\Open\Command , PowerDesigner.SWS.16
+CreateRegKey(PowerDesigner.SWS.16\Shell\Open , PowerDesigner.SWS.16
+CreateRegKey(PowerDesigner.SWS.16\Shell , PowerDesigner.SWS.16
+CreateRegKey(PowerDesigner.SWS.16 , PowerDesigner.SWS.16
+SetRegKeyValue: PowerDesigner.SWS.16\Shell\Open\Command
+  =E:\学习不止\pdshell16.exe /workspace "%1"
+CreateRegKey(PowerDesigner.SWS.16\Shell\Open\ddeexec , PowerDesigner.SWS.16
+CreateRegKey(PowerDesigner.SWS.16\Shell\Open , PowerDesigner.SWS.16
+SetRegKeyValue: PowerDesigner.SWS.16\Shell\Open\ddeexec
+  =openworkspace("%1")
+CreateRegKey(PowerDesigner.SWS.16\Shell\Open\ddeexec\Application , PowerDesigner.SWS.16
+CreateRegKey(PowerDesigner.SWS.16\Shell\Open\ddeexec , PowerDesigner.SWS.16
+SetRegKeyValue: PowerDesigner.SWS.16\Shell\Open\ddeexec\Application
+  =pdshell16
+CreateRegKey(PowerDesigner.SWS.16\Shell\Open\ddeexec\Topic , PowerDesigner.SWS.16
+CreateRegKey(PowerDesigner.SWS.16\Shell\Open\ddeexec , PowerDesigner.SWS.16
+SetRegKeyValue: PowerDesigner.SWS.16\Shell\Open\ddeexec\Topic
+  =system
+CreateRegKey(PowerDesigner.SWS.16\Shell\Open\ddeexec\IfExec , PowerDesigner.SWS.16
+CreateRegKey(PowerDesigner.SWS.16\Shell\Open\ddeexec , PowerDesigner.SWS.16
+SetRegKeyValue: PowerDesigner.SWS.16\Shell\Open\ddeexec\IfExec
+  =[]
+SetRegKeyValue: .MMR
+  =PowerDesigner.MMR.16
+SetRegKeyValue: PowerDesigner.MMR.16
+  =PowerDesigner 16 Multi-Model Report File
+CreateRegKey(PowerDesigner.MMR.16\DefaultIcon , 
+CreateRegKey(PowerDesigner.MMR.16 , Software\Sybase
+SetRegKeyValue: PowerDesigner.MMR.16\DefaultIcon
+  =E:\学习不止\pdrpt16.dll,1
+CreateRegKey(PowerDesigner.MMR.16\Shell\Open\Command , PowerDesigner.MMR.16
+CreateRegKey(PowerDesigner.MMR.16\Shell\Open , PowerDesigner.MMR.16
+CreateRegKey(PowerDesigner.MMR.16\Shell , PowerDesigner.MMR.16
+CreateRegKey(PowerDesigner.MMR.16 , PowerDesigner.MMR.16
+SetRegKeyValue: PowerDesigner.MMR.16\Shell\Open\Command
+  =E:\学习不止\pdshell16.exe "%1"
+CreateRegKey(PowerDesigner.MMR.16\Shell\Open\ddeexec , PowerDesigner.MMR.16
+CreateRegKey(PowerDesigner.MMR.16\Shell\Open , PowerDesigner.MMR.16
+SetRegKeyValue: PowerDesigner.MMR.16\Shell\Open\ddeexec
+  =open("%1")
+CreateRegKey(PowerDesigner.MMR.16\Shell\Open\ddeexec\Application , PowerDesigner.MMR.16
+CreateRegKey(PowerDesigner.MMR.16\Shell\Open\ddeexec , PowerDesigner.MMR.16
+SetRegKeyValue: PowerDesigner.MMR.16\Shell\Open\ddeexec\Application
+  =pdshell16
+CreateRegKey(PowerDesigner.MMR.16\Shell\Open\ddeexec\Topic , PowerDesigner.MMR.16
+CreateRegKey(PowerDesigner.MMR.16\Shell\Open\ddeexec , PowerDesigner.MMR.16
+SetRegKeyValue: PowerDesigner.MMR.16\Shell\Open\ddeexec\Topic
+  =system
+CreateRegKey(PowerDesigner.MMR.16\Shell\Open\ddeexec\IfExec , PowerDesigner.MMR.16
+CreateRegKey(PowerDesigner.MMR.16\Shell\Open\ddeexec , PowerDesigner.MMR.16
+SetRegKeyValue: PowerDesigner.MMR.16\Shell\Open\ddeexec\IfExec
+  =[]
+SetRegKeyValue: .FEM
+  =PowerDesigner.FEM.16
+SetRegKeyValue: PowerDesigner.FEM.16
+  =PowerDesigner 16 Free Model File
+CreateRegKey(PowerDesigner.FEM.16\DefaultIcon , 
+CreateRegKey(PowerDesigner.FEM.16 , Software\Sybase
+SetRegKeyValue: PowerDesigner.FEM.16\DefaultIcon
+  =E:\学习不止\shfrm16.dll,0
+CreateRegKey(PowerDesigner.FEM.16\Shell\Open\Command , PowerDesigner.FEM.16
+CreateRegKey(PowerDesigner.FEM.16\Shell\Open , PowerDesigner.FEM.16
+CreateRegKey(PowerDesigner.FEM.16\Shell , PowerDesigner.FEM.16
+CreateRegKey(PowerDesigner.FEM.16 , PowerDesigner.FEM.16
+SetRegKeyValue: PowerDesigner.FEM.16\Shell\Open\Command
+  =E:\学习不止\pdshell16.exe "%1"
+CreateRegKey(PowerDesigner.FEM.16\Shell\Open\ddeexec , PowerDesigner.FEM.16
+CreateRegKey(PowerDesigner.FEM.16\Shell\Open , PowerDesigner.FEM.16
+SetRegKeyValue: PowerDesigner.FEM.16\Shell\Open\ddeexec
+  =open("%1")
+CreateRegKey(PowerDesigner.FEM.16\Shell\Open\ddeexec\Application , PowerDesigner.FEM.16
+CreateRegKey(PowerDesigner.FEM.16\Shell\Open\ddeexec , PowerDesigner.FEM.16
+SetRegKeyValue: PowerDesigner.FEM.16\Shell\Open\ddeexec\Application
+  =pdshell16
+CreateRegKey(PowerDesigner.FEM.16\Shell\Open\ddeexec\Topic , PowerDesigner.FEM.16
+CreateRegKey(PowerDesigner.FEM.16\Shell\Open\ddeexec , PowerDesigner.FEM.16
+SetRegKeyValue: PowerDesigner.FEM.16\Shell\Open\ddeexec\Topic
+  =system
+CreateRegKey(PowerDesigner.FEM.16\Shell\Open\ddeexec\IfExec , PowerDesigner.FEM.16
+CreateRegKey(PowerDesigner.FEM.16\Shell\Open\ddeexec , PowerDesigner.FEM.16
+SetRegKeyValue: PowerDesigner.FEM.16\Shell\Open\ddeexec\IfExec
+  =[]
+SetRegKeyValue: .RTP
+  =PowerDesigner.RTP.16
+SetRegKeyValue: PowerDesigner.RTP.16
+  =PowerDesigner 16 Report Template
+CreateRegKey(PowerDesigner.RTP.16\DefaultIcon , 
+CreateRegKey(PowerDesigner.RTP.16 , Software\Sybase
+SetRegKeyValue: PowerDesigner.RTP.16\DefaultIcon
+  =E:\学习不止\pdrpt16.dll,2
+CreateRegKey(PowerDesigner.RTP.16\Shell\Open\Command , PowerDesigner.RTP.16
+CreateRegKey(PowerDesigner.RTP.16\Shell\Open , PowerDesigner.RTP.16
+CreateRegKey(PowerDesigner.RTP.16\Shell , PowerDesigner.RTP.16
+CreateRegKey(PowerDesigner.RTP.16 , PowerDesigner.RTP.16
+SetRegKeyValue: PowerDesigner.RTP.16\Shell\Open\Command
+  =E:\学习不止\pdshell16.exe "%1"
+CreateRegKey(PowerDesigner.RTP.16\Shell\Open\ddeexec , PowerDesigner.RTP.16
+CreateRegKey(PowerDesigner.RTP.16\Shell\Open , PowerDesigner.RTP.16
+SetRegKeyValue: PowerDesigner.RTP.16\Shell\Open\ddeexec
+  =open("%1")
+CreateRegKey(PowerDesigner.RTP.16\Shell\Open\ddeexec\Application , PowerDesigner.RTP.16
+CreateRegKey(PowerDesigner.RTP.16\Shell\Open\ddeexec , PowerDesigner.RTP.16
+SetRegKeyValue: PowerDesigner.RTP.16\Shell\Open\ddeexec\Application
+  =pdshell16
+CreateRegKey(PowerDesigner.RTP.16\Shell\Open\ddeexec\Topic , PowerDesigner.RTP.16
+CreateRegKey(PowerDesigner.RTP.16\Shell\Open\ddeexec , PowerDesigner.RTP.16
+SetRegKeyValue: PowerDesigner.RTP.16\Shell\Open\ddeexec\Topic
+  =system
+CreateRegKey(PowerDesigner.RTP.16\Shell\Open\ddeexec\IfExec , PowerDesigner.RTP.16
+CreateRegKey(PowerDesigner.RTP.16\Shell\Open\ddeexec , PowerDesigner.RTP.16
+SetRegKeyValue: PowerDesigner.RTP.16\Shell\Open\ddeexec\IfExec
+  =[]
+SetRegKeyValue: .XSM
+  =PowerDesigner.XSM.16
+SetRegKeyValue: PowerDesigner.XSM.16
+  =PowerDesigner 16 XML Model File
+CreateRegKey(PowerDesigner.XSM.16\DefaultIcon , 
+CreateRegKey(PowerDesigner.XSM.16 , Software\Sybase
+SetRegKeyValue: PowerDesigner.XSM.16\DefaultIcon
+  =E:\学习不止\shxsm16.dll,0
+CreateRegKey(PowerDesigner.XSM.16\Shell\Open\Command , PowerDesigner.XSM.16
+CreateRegKey(PowerDesigner.XSM.16\Shell\Open , PowerDesigner.XSM.16
+CreateRegKey(PowerDesigner.XSM.16\Shell , PowerDesigner.XSM.16
+CreateRegKey(PowerDesigner.XSM.16 , PowerDesigner.XSM.16
+SetRegKeyValue: PowerDesigner.XSM.16\Shell\Open\Command
+  =E:\学习不止\pdshell16.exe "%1"
+CreateRegKey(PowerDesigner.XSM.16\Shell\Open\ddeexec , PowerDesigner.XSM.16
+CreateRegKey(PowerDesigner.XSM.16\Shell\Open , PowerDesigner.XSM.16
+SetRegKeyValue: PowerDesigner.XSM.16\Shell\Open\ddeexec
+  =open("%1")
+CreateRegKey(PowerDesigner.XSM.16\Shell\Open\ddeexec\Application , PowerDesigner.XSM.16
+CreateRegKey(PowerDesigner.XSM.16\Shell\Open\ddeexec , PowerDesigner.XSM.16
+SetRegKeyValue: PowerDesigner.XSM.16\Shell\Open\ddeexec\Application
+  =pdshell16
+CreateRegKey(PowerDesigner.XSM.16\Shell\Open\ddeexec\Topic , PowerDesigner.XSM.16
+CreateRegKey(PowerDesigner.XSM.16\Shell\Open\ddeexec , PowerDesigner.XSM.16
+SetRegKeyValue: PowerDesigner.XSM.16\Shell\Open\ddeexec\Topic
+  =system
+CreateRegKey(PowerDesigner.XSM.16\Shell\Open\ddeexec\IfExec , PowerDesigner.XSM.16
+CreateRegKey(PowerDesigner.XSM.16\Shell\Open\ddeexec , PowerDesigner.XSM.16
+SetRegKeyValue: PowerDesigner.XSM.16\Shell\Open\ddeexec\IfExec
+  =[]
+SetRegKeyValue: .DMM
+  =PowerDesigner.DMM.16
+SetRegKeyValue: PowerDesigner.DMM.16
+  =PowerDesigner 16 Data Movement Model File
+CreateRegKey(PowerDesigner.DMM.16\DefaultIcon , 
+CreateRegKey(PowerDesigner.DMM.16 , Software\Sybase
+SetRegKeyValue: PowerDesigner.DMM.16\DefaultIcon
+  =E:\学习不止\shilm16.dll,0
+CreateRegKey(PowerDesigner.DMM.16\Shell\Open\Command , PowerDesigner.DMM.16
+CreateRegKey(PowerDesigner.DMM.16\Shell\Open , PowerDesigner.DMM.16
+CreateRegKey(PowerDesigner.DMM.16\Shell , PowerDesigner.DMM.16
+CreateRegKey(PowerDesigner.DMM.16 , PowerDesigner.DMM.16
+SetRegKeyValue: PowerDesigner.DMM.16\Shell\Open\Command
+  =E:\学习不止\pdshell16.exe "%1"
+CreateRegKey(PowerDesigner.DMM.16\Shell\Open\ddeexec , PowerDesigner.DMM.16
+CreateRegKey(PowerDesigner.DMM.16\Shell\Open , PowerDesigner.DMM.16
+SetRegKeyValue: PowerDesigner.DMM.16\Shell\Open\ddeexec
+  =open("%1")
+CreateRegKey(PowerDesigner.DMM.16\Shell\Open\ddeexec\Application , PowerDesigner.DMM.16
+CreateRegKey(PowerDesigner.DMM.16\Shell\Open\ddeexec , PowerDesigner.DMM.16
+SetRegKeyValue: PowerDesigner.DMM.16\Shell\Open\ddeexec\Application
+  =pdshell16
+CreateRegKey(PowerDesigner.DMM.16\Shell\Open\ddeexec\Topic , PowerDesigner.DMM.16
+CreateRegKey(PowerDesigner.DMM.16\Shell\Open\ddeexec , PowerDesigner.DMM.16
+SetRegKeyValue: PowerDesigner.DMM.16\Shell\Open\ddeexec\Topic
+  =system
+CreateRegKey(PowerDesigner.DMM.16\Shell\Open\ddeexec\IfExec , PowerDesigner.DMM.16
+CreateRegKey(PowerDesigner.DMM.16\Shell\Open\ddeexec , PowerDesigner.DMM.16
+SetRegKeyValue: PowerDesigner.DMM.16\Shell\Open\ddeexec\IfExec
+  =[]
+SetRegKeyValue: .ADM
+  =PowerDesigner.ADM.16
+SetRegKeyValue: PowerDesigner.ADM.16
+  =PowerDesigner 16 Archived Data Movement Model File
+CreateRegKey(PowerDesigner.ADM.16\DefaultIcon , 
+CreateRegKey(PowerDesigner.ADM.16 , Software\Sybase
+SetRegKeyValue: PowerDesigner.ADM.16\DefaultIcon
+  =E:\学习不止\shilm16.dll,0
+CreateRegKey(PowerDesigner.ADM.16\Shell\Open\Command , PowerDesigner.ADM.16
+CreateRegKey(PowerDesigner.ADM.16\Shell\Open , PowerDesigner.ADM.16
+CreateRegKey(PowerDesigner.ADM.16\Shell , PowerDesigner.ADM.16
+CreateRegKey(PowerDesigner.ADM.16 , PowerDesigner.ADM.16
+SetRegKeyValue: PowerDesigner.ADM.16\Shell\Open\Command
+  =E:\学习不止\pdshell16.exe "%1"
+CreateRegKey(PowerDesigner.ADM.16\Shell\Open\ddeexec , PowerDesigner.ADM.16
+CreateRegKey(PowerDesigner.ADM.16\Shell\Open , PowerDesigner.ADM.16
+SetRegKeyValue: PowerDesigner.ADM.16\Shell\Open\ddeexec
+  =open("%1")
+CreateRegKey(PowerDesigner.ADM.16\Shell\Open\ddeexec\Application , PowerDesigner.ADM.16
+CreateRegKey(PowerDesigner.ADM.16\Shell\Open\ddeexec , PowerDesigner.ADM.16
+SetRegKeyValue: PowerDesigner.ADM.16\Shell\Open\ddeexec\Application
+  =pdshell16
+CreateRegKey(PowerDesigner.ADM.16\Shell\Open\ddeexec\Topic , PowerDesigner.ADM.16
+CreateRegKey(PowerDesigner.ADM.16\Shell\Open\ddeexec , PowerDesigner.ADM.16
+SetRegKeyValue: PowerDesigner.ADM.16\Shell\Open\ddeexec\Topic
+  =system
+CreateRegKey(PowerDesigner.ADM.16\Shell\Open\ddeexec\IfExec , PowerDesigner.ADM.16
+CreateRegKey(PowerDesigner.ADM.16\Shell\Open\ddeexec , PowerDesigner.ADM.16
+SetRegKeyValue: PowerDesigner.ADM.16\Shell\Open\ddeexec\IfExec
+  =[]
+SetRegKeyValue: .MIA
+  =PowerDesigner.MIA.16
+SetRegKeyValue: PowerDesigner.MIA.16
+  =PowerDesigner 16 Archived Data Movement Model File
+CreateRegKey(PowerDesigner.MIA.16\DefaultIcon , 
+CreateRegKey(PowerDesigner.MIA.16 , Software\Sybase
+SetRegKeyValue: PowerDesigner.MIA.16\DefaultIcon
+  =E:\学习不止\shilm16.dll,0
+CreateRegKey(PowerDesigner.MIA.16\Shell\Open\Command , PowerDesigner.MIA.16
+CreateRegKey(PowerDesigner.MIA.16\Shell\Open , PowerDesigner.MIA.16
+CreateRegKey(PowerDesigner.MIA.16\Shell , PowerDesigner.MIA.16
+CreateRegKey(PowerDesigner.MIA.16 , PowerDesigner.MIA.16
+SetRegKeyValue: PowerDesigner.MIA.16\Shell\Open\Command
+  =E:\学习不止\pdshell16.exe "%1"
+CreateRegKey(PowerDesigner.MIA.16\Shell\Open\ddeexec , PowerDesigner.MIA.16
+CreateRegKey(PowerDesigner.MIA.16\Shell\Open , PowerDesigner.MIA.16
+SetRegKeyValue: PowerDesigner.MIA.16\Shell\Open\ddeexec
+  =open("%1")
+CreateRegKey(PowerDesigner.MIA.16\Shell\Open\ddeexec\Application , PowerDesigner.MIA.16
+CreateRegKey(PowerDesigner.MIA.16\Shell\Open\ddeexec , PowerDesigner.MIA.16
+SetRegKeyValue: PowerDesigner.MIA.16\Shell\Open\ddeexec\Application
+  =pdshell16
+CreateRegKey(PowerDesigner.MIA.16\Shell\Open\ddeexec\Topic , PowerDesigner.MIA.16
+CreateRegKey(PowerDesigner.MIA.16\Shell\Open\ddeexec , PowerDesigner.MIA.16
+SetRegKeyValue: PowerDesigner.MIA.16\Shell\Open\ddeexec\Topic
+  =system
+CreateRegKey(PowerDesigner.MIA.16\Shell\Open\ddeexec\IfExec , PowerDesigner.MIA.16
+CreateRegKey(PowerDesigner.MIA.16\Shell\Open\ddeexec , PowerDesigner.MIA.16
+SetRegKeyValue: PowerDesigner.MIA.16\Shell\Open\ddeexec\IfExec
+  =[]
+SetRegKeyValue: .RQM
+  =PowerDesigner.RQM.16
+SetRegKeyValue: PowerDesigner.RQM.16
+  =PowerDesigner 16 Requirements Model File
+CreateRegKey(PowerDesigner.RQM.16\DefaultIcon , 
+CreateRegKey(PowerDesigner.RQM.16 , Software\Sybase
+SetRegKeyValue: PowerDesigner.RQM.16\DefaultIcon
+  =E:\学习不止\shrqm16.dll,0
+CreateRegKey(PowerDesigner.RQM.16\Shell\Open\Command , PowerDesigner.RQM.16
+CreateRegKey(PowerDesigner.RQM.16\Shell\Open , PowerDesigner.RQM.16
+CreateRegKey(PowerDesigner.RQM.16\Shell , PowerDesigner.RQM.16
+CreateRegKey(PowerDesigner.RQM.16 , PowerDesigner.RQM.16
+SetRegKeyValue: PowerDesigner.RQM.16\Shell\Open\Command
+  =E:\学习不止\pdshell16.exe "%1"
+CreateRegKey(PowerDesigner.RQM.16\Shell\Open\ddeexec , PowerDesigner.RQM.16
+CreateRegKey(PowerDesigner.RQM.16\Shell\Open , PowerDesigner.RQM.16
+SetRegKeyValue: PowerDesigner.RQM.16\Shell\Open\ddeexec
+  =open("%1")
+CreateRegKey(PowerDesigner.RQM.16\Shell\Open\ddeexec\Application , PowerDesigner.RQM.16
+CreateRegKey(PowerDesigner.RQM.16\Shell\Open\ddeexec , PowerDesigner.RQM.16
+SetRegKeyValue: PowerDesigner.RQM.16\Shell\Open\ddeexec\Application
+  =pdshell16
+CreateRegKey(PowerDesigner.RQM.16\Shell\Open\ddeexec\Topic , PowerDesigner.RQM.16
+CreateRegKey(PowerDesigner.RQM.16\Shell\Open\ddeexec , PowerDesigner.RQM.16
+SetRegKeyValue: PowerDesigner.RQM.16\Shell\Open\ddeexec\Topic
+  =system
+CreateRegKey(PowerDesigner.RQM.16\Shell\Open\ddeexec\IfExec , PowerDesigner.RQM.16
+CreateRegKey(PowerDesigner.RQM.16\Shell\Open\ddeexec , PowerDesigner.RQM.16
+SetRegKeyValue: PowerDesigner.RQM.16\Shell\Open\ddeexec\IfExec
+  =[]
+SetRegKeyValue: .LDM
+  =PowerDesigner.LDM.16
+SetRegKeyValue: PowerDesigner.LDM.16
+  =PowerDesigner 16 Logical Data Model File
+CreateRegKey(PowerDesigner.LDM.16\DefaultIcon , 
+CreateRegKey(PowerDesigner.LDM.16 , Software\Sybase
+SetRegKeyValue: PowerDesigner.LDM.16\DefaultIcon
+  =E:\学习不止\shldm16.dll,0
+CreateRegKey(PowerDesigner.LDM.16\Shell\Open\Command , PowerDesigner.LDM.16
+CreateRegKey(PowerDesigner.LDM.16\Shell\Open , PowerDesigner.LDM.16
+CreateRegKey(PowerDesigner.LDM.16\Shell , PowerDesigner.LDM.16
+CreateRegKey(PowerDesigner.LDM.16 , PowerDesigner.LDM.16
+SetRegKeyValue: PowerDesigner.LDM.16\Shell\Open\Command
+  =E:\学习不止\pdshell16.exe "%1"
+CreateRegKey(PowerDesigner.LDM.16\Shell\Open\ddeexec , PowerDesigner.LDM.16
+CreateRegKey(PowerDesigner.LDM.16\Shell\Open , PowerDesigner.LDM.16
+SetRegKeyValue: PowerDesigner.LDM.16\Shell\Open\ddeexec
+  =open("%1")
+CreateRegKey(PowerDesigner.LDM.16\Shell\Open\ddeexec\Application , PowerDesigner.LDM.16
+CreateRegKey(PowerDesigner.LDM.16\Shell\Open\ddeexec , PowerDesigner.LDM.16
+SetRegKeyValue: PowerDesigner.LDM.16\Shell\Open\ddeexec\Application
+  =pdshell16
+CreateRegKey(PowerDesigner.LDM.16\Shell\Open\ddeexec\Topic , PowerDesigner.LDM.16
+CreateRegKey(PowerDesigner.LDM.16\Shell\Open\ddeexec , PowerDesigner.LDM.16
+SetRegKeyValue: PowerDesigner.LDM.16\Shell\Open\ddeexec\Topic
+  =system
+CreateRegKey(PowerDesigner.LDM.16\Shell\Open\ddeexec\IfExec , PowerDesigner.LDM.16
+CreateRegKey(PowerDesigner.LDM.16\Shell\Open\ddeexec , PowerDesigner.LDM.16
+SetRegKeyValue: PowerDesigner.LDM.16\Shell\Open\ddeexec\IfExec
+  =[]
+SetRegKeyValue: .EAM
+  =PowerDesigner.EAM.16
+SetRegKeyValue: PowerDesigner.EAM.16
+  =PowerDesigner 16 Enterprise Architecture Model File
+CreateRegKey(PowerDesigner.EAM.16\DefaultIcon , 
+CreateRegKey(PowerDesigner.EAM.16 , Software\Sybase
+SetRegKeyValue: PowerDesigner.EAM.16\DefaultIcon
+  =E:\学习不止\sheam16.dll,0
+CreateRegKey(PowerDesigner.EAM.16\Shell\Open\Command , PowerDesigner.EAM.16
+CreateRegKey(PowerDesigner.EAM.16\Shell\Open , PowerDesigner.EAM.16
+CreateRegKey(PowerDesigner.EAM.16\Shell , PowerDesigner.EAM.16
+CreateRegKey(PowerDesigner.EAM.16 , PowerDesigner.EAM.16
+SetRegKeyValue: PowerDesigner.EAM.16\Shell\Open\Command
+  =E:\学习不止\pdshell16.exe "%1"
+CreateRegKey(PowerDesigner.EAM.16\Shell\Open\ddeexec , PowerDesigner.EAM.16
+CreateRegKey(PowerDesigner.EAM.16\Shell\Open , PowerDesigner.EAM.16
+SetRegKeyValue: PowerDesigner.EAM.16\Shell\Open\ddeexec
+  =open("%1")
+CreateRegKey(PowerDesigner.EAM.16\Shell\Open\ddeexec\Application , PowerDesigner.EAM.16
+CreateRegKey(PowerDesigner.EAM.16\Shell\Open\ddeexec , PowerDesigner.EAM.16
+SetRegKeyValue: PowerDesigner.EAM.16\Shell\Open\ddeexec\Application
+  =pdshell16
+CreateRegKey(PowerDesigner.EAM.16\Shell\Open\ddeexec\Topic , PowerDesigner.EAM.16
+CreateRegKey(PowerDesigner.EAM.16\Shell\Open\ddeexec , PowerDesigner.EAM.16
+SetRegKeyValue: PowerDesigner.EAM.16\Shell\Open\ddeexec\Topic
+  =system
+CreateRegKey(PowerDesigner.EAM.16\Shell\Open\ddeexec\IfExec , PowerDesigner.EAM.16
+CreateRegKey(PowerDesigner.EAM.16\Shell\Open\ddeexec , PowerDesigner.EAM.16
+SetRegKeyValue: PowerDesigner.EAM.16\Shell\Open\ddeexec\IfExec
+  =[]
+SetRegKeyValue: .IAM
+  =PowerDesigner.IAM.16
+SetRegKeyValue: PowerDesigner.IAM.16
+  =PowerDesigner 16 Impact Analysis Model File
+CreateRegKey(PowerDesigner.IAM.16\DefaultIcon , 
+CreateRegKey(PowerDesigner.IAM.16 , Software\Sybase
+SetRegKeyValue: PowerDesigner.IAM.16\DefaultIcon
+  =E:\学习不止\shiam16.dll,0
+CreateRegKey(PowerDesigner.IAM.16\Shell\Open\Command , PowerDesigner.IAM.16
+CreateRegKey(PowerDesigner.IAM.16\Shell\Open , PowerDesigner.IAM.16
+CreateRegKey(PowerDesigner.IAM.16\Shell , PowerDesigner.IAM.16
+CreateRegKey(PowerDesigner.IAM.16 , PowerDesigner.IAM.16
+SetRegKeyValue: PowerDesigner.IAM.16\Shell\Open\Command
+  =E:\学习不止\pdshell16.exe "%1"
+CreateRegKey(PowerDesigner.IAM.16\Shell\Open\ddeexec , PowerDesigner.IAM.16
+CreateRegKey(PowerDesigner.IAM.16\Shell\Open , PowerDesigner.IAM.16
+SetRegKeyValue: PowerDesigner.IAM.16\Shell\Open\ddeexec
+  =open("%1")
+CreateRegKey(PowerDesigner.IAM.16\Shell\Open\ddeexec\Application , PowerDesigner.IAM.16
+CreateRegKey(PowerDesigner.IAM.16\Shell\Open\ddeexec , PowerDesigner.IAM.16
+SetRegKeyValue: PowerDesigner.IAM.16\Shell\Open\ddeexec\Application
+  =pdshell16
+CreateRegKey(PowerDesigner.IAM.16\Shell\Open\ddeexec\Topic , PowerDesigner.IAM.16
+CreateRegKey(PowerDesigner.IAM.16\Shell\Open\ddeexec , PowerDesigner.IAM.16
+SetRegKeyValue: PowerDesigner.IAM.16\Shell\Open\ddeexec\Topic
+  =system
+CreateRegKey(PowerDesigner.IAM.16\Shell\Open\ddeexec\IfExec , PowerDesigner.IAM.16
+CreateRegKey(PowerDesigner.IAM.16\Shell\Open\ddeexec , PowerDesigner.IAM.16
+SetRegKeyValue: PowerDesigner.IAM.16\Shell\Open\ddeexec\IfExec
+  =[]
+SetRegKeyValue: .PRJ
+  =PowerDesigner.PRJ.16
+SetRegKeyValue: PowerDesigner.PRJ.16
+  =PowerDesigner 16 Project File
+CreateRegKey(PowerDesigner.PRJ.16\DefaultIcon , 
+CreateRegKey(PowerDesigner.PRJ.16 , Software\Sybase
+SetRegKeyValue: PowerDesigner.PRJ.16\DefaultIcon
+  =E:\学习不止\shprj16.dll,0
+CreateRegKey(PowerDesigner.PRJ.16\Shell\Open\Command , PowerDesigner.PRJ.16
+CreateRegKey(PowerDesigner.PRJ.16\Shell\Open , PowerDesigner.PRJ.16
+CreateRegKey(PowerDesigner.PRJ.16\Shell , PowerDesigner.PRJ.16
+CreateRegKey(PowerDesigner.PRJ.16 , PowerDesigner.PRJ.16
+SetRegKeyValue: PowerDesigner.PRJ.16\Shell\Open\Command
+  =E:\学习不止\pdshell16.exe "%1"
+CreateRegKey(PowerDesigner.PRJ.16\Shell\Open\ddeexec , PowerDesigner.PRJ.16
+CreateRegKey(PowerDesigner.PRJ.16\Shell\Open , PowerDesigner.PRJ.16
+SetRegKeyValue: PowerDesigner.PRJ.16\Shell\Open\ddeexec
+  =open("%1")
+CreateRegKey(PowerDesigner.PRJ.16\Shell\Open\ddeexec\Application , PowerDesigner.PRJ.16
+CreateRegKey(PowerDesigner.PRJ.16\Shell\Open\ddeexec , PowerDesigner.PRJ.16
+SetRegKeyValue: PowerDesigner.PRJ.16\Shell\Open\ddeexec\Application
+  =pdshell16
+CreateRegKey(PowerDesigner.PRJ.16\Shell\Open\ddeexec\Topic , PowerDesigner.PRJ.16
+CreateRegKey(PowerDesigner.PRJ.16\Shell\Open\ddeexec , PowerDesigner.PRJ.16
+SetRegKeyValue: PowerDesigner.PRJ.16\Shell\Open\ddeexec\Topic
+  =system
+CreateRegKey(PowerDesigner.PRJ.16\Shell\Open\ddeexec\IfExec , PowerDesigner.PRJ.16
+CreateRegKey(PowerDesigner.PRJ.16\Shell\Open\ddeexec , PowerDesigner.PRJ.16
+SetRegKeyValue: PowerDesigner.PRJ.16\Shell\Open\ddeexec\IfExec
+  =[]
+SetModuleShellTemplate(nExtension)
+SetRegKeyValue: .CDM\Shellnew
+  Filename=E:\学习不止\ShellNew\PDModel16.cdm
+SetRegKeyValue: .PDM\Shellnew
+  Filename=E:\学习不止\ShellNew\PDModel16.pdm
+SetRegKeyValue: .OOM\Shellnew
+  Filename=E:\学习不止\ShellNew\PDModel16.oom
+SetRegKeyValue: .BPM\Shellnew
+  Filename=E:\学习不止\ShellNew\PDModel16.bpm
+SetRegKeyValue: .FEM\Shellnew
+  Filename=E:\学习不止\ShellNew\PDModel16.fem
+SetRegKeyValue: .XSM\Shellnew
+  Filename=E:\学习不止\ShellNew\PDModel16.xsm
+SetRegKeyValue: .DMM\Shellnew
+  Filename=E:\学习不止\ShellNew\PDModel16.dmm
+SetRegKeyValue: .RQM\Shellnew
+  Filename=E:\学习不止\ShellNew\PDModel16.rqm
+SetRegKeyValue: .LDM\Shellnew
+  Filename=E:\学习不止\ShellNew\PDModel16.ldm
+SetRegKeyValue: .EAM\Shellnew
+  Filename=E:\学习不止\ShellNew\PDModel16.eam
+SetDefaultTarget()
+CreateRegKey(Software\Sybase\PowerDesigner 16\General , 
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\General
+  LastDBMS=SAP SQL Anywhere 16
+CreateRegKey(Software\Sybase\PowerDesigner 16\General , 
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\General
+  LastDVTL=Java
+CreateRegKey(Software\Sybase\PowerDesigner 16\General , 
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\General
+  LastBPMS=Analysis
+CreateRegKey(Software\Sybase\PowerDesigner 16\General , 
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\General
+  LastSchemaLanguage=XML Schema Definition 1.0
+CreateRegKey(Software\Sybase\PowerDesigner 16\Shell\Workspace , 
+CreateRegKey(Software\Sybase\PowerDesigner 16\Shell , Software\Sybase
+UpdateModuleRegistry()
+SetPathsKeys()
+CreateRegKey(Software\Sybase\PowerDesigner 16\Paths , 
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Paths
+  XEM Library=E:\学习不止\Resource Files\Extended Model Definitions
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Paths
+  VB-Scripts=E:\学习不止\VB Scripts
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Paths
+  Home=E:\学习不止
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Paths
+  ReportStyleSheets=E:\学习不止\Resource Files\HTML Report Style Sheets
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Paths
+  ReportRtfTemplates=E:\学习不止\Resource Files\RTF Report Templates
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Paths
+  ReportRtfTemplates2=E:\学习不止\Resource Files\Reporting\RTF
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Paths
+  ReportStyleSheets2=E:\学习不止\Resource Files\Reporting\HTML\Themes
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Paths
+  ReportTemplates=E:\学习不止\Resource Files\Report Templates\
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Paths
+  ImageLibrary=E:\学习不止\Icons
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Paths
+  ReportDestination=%USERPROFILE%\Documents
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Paths
+  WorkspaceDocuments=%USERPROFILE%\Documents
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Paths
+  Workspaces=%USERPROFILE%\Documents
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Paths
+  ProjectWorkspaceDocuments=%USERPROFILE%\Documents
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Paths
+  ReportLanguages=E:\学习不止\Resource Files\Report Languages
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Paths
+  ConversionTables=E:\学习不止\Resource Files\Conversion Tables
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Paths
+  Profiles=E:\学习不止\Examples\Tutorial
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Paths
+  TechnicalVideos=E:\学习不止\Documentation\Videos
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Paths
+  ConnectionProfiles=%USERPROFILE%\Documents
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Paths
+  AnalysisRulesLibrary=E:\学习不止\Resource Files\Analysis Rule Sets
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Paths
+  UserModelTemplates=%USERPROFILE%\Documents
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Paths
+  UserProjectTemplates=%USERPROFILE%\Documents
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Paths
+  ProjectTemplates=E:\学习不止\Resource Files\Project Templates\
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Paths
+  UserProfiles=E:\学习不止\Resource Files\Profiles
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Paths
+  ModelCreationCategoryDefinitions=E:\学习不止\Resource Files\Model Category
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Paths
+  NMapCache=C:\ProgramData\PowerDesigner 16\NMap
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Paths
+  SchemaLanguageLibrary=E:\学习不止\Resource Files\XML Languages
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Paths
+  ProcessLangLibrary=E:\学习不止\Resource Files\Process Languages
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Paths
+  DBMSLibrary=E:\学习不止\Resource Files\DBMS
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Paths
+  Settings=E:\学习不止\Resource Files\Settings\
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Paths
+  ObjLangLibrary=E:\学习不止\Resource Files\Object Languages
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Paths
+  TranslationsDirectory=E:\学习不止\Translations
+CreateRegKey(Software\Sybase\PowerDesigner 16\ModelOptions\tool , 
+CreateRegKey(Software\Sybase\PowerDesigner 16\ModelOptions , Software\Sybase
+CreateRegKey(Software\Sybase\PowerDesigner 16 , Software\Sybase
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\ModelOptions\tool
+  OutputLogPath=%TEMP%
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\ModelOptions\tool
+  CurrentModelCreationCategoryDefinitionName=Default
+SetPlugins()
+CreateRegKey(Software\Sybase\PowerDesigner 16\Addins\Spell Checker , 
+CreateRegKey(Software\Sybase\PowerDesigner 16\Addins , Software\Sybase
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Addins\Spell Checker
+  Class=Sybase.PowerDesigner.Spellchecker.SpellCheckerConnect
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Addins\Spell Checker
+  Enable=Yes
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Addins\Spell Checker
+  Type=ActiveX
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Addins\Spell Checker
+  File=E:\学习不止\Add-ins\Spell Checker\Sybase.PowerDesigner.Spellchecker.dll
+RegisterDotNetDLL: Add-ins\Spell Checker\Sybase.PowerDesigner.Spellchecker.dll
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Addins\Spell Checker
+  Registered=yes
+CreateRegKey(Software\Sybase\PowerDesigner 16\Addins\Microsoft SQL Server 2005 Analysis Services , 
+CreateRegKey(Software\Sybase\PowerDesigner 16\Addins , Software\Sybase
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Addins\Microsoft SQL Server 2005 Analysis Services
+  Class=AddIn.Pdm.SQLServer.AddInLauncher
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Addins\Microsoft SQL Server 2005 Analysis Services
+  Enable=No
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Addins\Microsoft SQL Server 2005 Analysis Services
+  Type=ActiveX
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Addins\Microsoft SQL Server 2005 Analysis Services
+  File=E:\学习不止\Add-ins\Microsoft SQL Server 2005 Analysis Service\PowerDesigner.AddIn.Pdm.SQLServer.dll
+RegisterDotNetDLL: Add-ins\Microsoft SQL Server 2005 Analysis Service\PowerDesigner.AddIn.Pdm.SQLServer.dll
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Addins\Microsoft SQL Server 2005 Analysis Services
+  Registered=yes
+CreateRegKey(Software\Sybase\PowerDesigner 16\Addins\SAP BusinessObjects , 
+CreateRegKey(Software\Sybase\PowerDesigner 16\Addins , Software\Sybase
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Addins\SAP BusinessObjects
+  Class=Sybase.PowerDesigner.BusinessObjects.AddIn.Launcher.AddInLauncher
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Addins\SAP BusinessObjects
+  Enable=Yes
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Addins\SAP BusinessObjects
+  Type=ActiveX
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Addins\SAP BusinessObjects
+  File=E:\学习不止\Sybase.PowerDesigner.BusinessObjects.AddIn.dll
+RegisterDotNetDLL: Sybase.PowerDesigner.BusinessObjects.AddIn.dll
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Addins\SAP BusinessObjects
+  Registered=yes
+CreateRegKey(Software\Sybase\PowerDesigner 16\Addins\SAP HANA , 
+CreateRegKey(Software\Sybase\PowerDesigner 16\Addins , Software\Sybase
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Addins\SAP HANA
+  Class=Sybase.PowerDesigner.HANA.AddIn.Launcher.AddInLauncher
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Addins\SAP HANA
+  Enable=Yes
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Addins\SAP HANA
+  Type=ActiveX
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Addins\SAP HANA
+  File=E:\学习不止\Sybase.PowerDesigner.HANA.AddIn.dll
+RegisterDotNetDLL: Sybase.PowerDesigner.HANA.AddIn.dll
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Addins\SAP HANA
+  Registered=yes
+CreateRegKey(Software\Sybase\PowerDesigner 16\Addins\SAP ERP , 
+CreateRegKey(Software\Sybase\PowerDesigner 16\Addins , Software\Sybase
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Addins\SAP ERP
+  Class=Sybase.PowerDesigner.ERP.AddIn.Launcher.AddInLauncher
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Addins\SAP ERP
+  Enable=Yes
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Addins\SAP ERP
+  Type=ActiveX
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Addins\SAP ERP
+  File=E:\学习不止\Sybase.PowerDesigner.ERP.AddIn.dll
+RegisterDotNetDLL: Sybase.PowerDesigner.ERP.AddIn.dll
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Addins\SAP ERP
+  Registered=yes
+CreateRegKey(Software\Sybase\PowerDesigner 16\Addins\Microsoft Word Import , 
+CreateRegKey(Software\Sybase\PowerDesigner 16\Addins , Software\Sybase
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Addins\Microsoft Word Import
+  Class=Sybase.PowerDesigner.Word.RqmToWord.AddInLauncher
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Addins\Microsoft Word Import
+  Enable=Yes
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Addins\Microsoft Word Import
+  Type=ActiveX
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Addins\Microsoft Word Import
+  File=E:\学习不止\Sybase.PowerDesigner.Word.RqmToWord.dll
+RegisterDotNetDLL: Sybase.PowerDesigner.Word.RqmToWord.dll
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Addins\Microsoft Word Import
+  Registered=yes
+SetWordAddinKey
+GetWordVersion()
+ found version: 12
+GetOfficeProgFlavor: Word
+  return: 32
+SetRegKeyValue: Software\Microsoft\Office\Word\Addins\Sybase.PowerDesigner.Word.WordToRqm
+  Description=PowerDesigner Requirements COM Add-In for Microsoft Word
+SetRegKeyValue: Software\Microsoft\Office\Word\Addins\Sybase.PowerDesigner.Word.WordToRqm
+  FriendlyName=PowerDesigner Requirements COM Add-In for Microsoft Word
+SetRegKeyValue: Software\Microsoft\Office\Word\Addins\Sybase.PowerDesigner.Word.WordToRqm
+  LoadBehavior=3
+SetRegKeyValue: Software\Microsoft\Office\Word\Addins\Sybase.PowerDesigner.Word.WordToRqm
+  Manifest=file:///E:/学习不止/Sybase.PowerDesigner.Word.WordToRqm.vsto|vstolocal
+SetRegKeyValue: Software\Microsoft\Office\12.0\Common\General
+  EnableLocalMachineVSTO=1
+CreateRegKey(Software\Sybase\PowerDesigner 16\Addins\SAP Solution Manager , 
+CreateRegKey(Software\Sybase\PowerDesigner 16\Addins , Software\Sybase
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Addins\SAP Solution Manager
+  Class=Sybase.PowerDesigner.SolutionManager.AddIn.Launcher.AddInLauncher
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Addins\SAP Solution Manager
+  Enable=Yes
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Addins\SAP Solution Manager
+  Type=ActiveX
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Addins\SAP Solution Manager
+  File=E:\学习不止\Sybase.PowerDesigner.SolutionManager.AddIn.dll
+RegisterDotNetDLL: Sybase.PowerDesigner.SolutionManager.AddIn.dll
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Addins\SAP Solution Manager
+  Registered=yes
+CreateRegKey(Software\Sybase\PowerDesigner 16\Addins\SAP Data Services , 
+CreateRegKey(Software\Sybase\PowerDesigner 16\Addins , Software\Sybase
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Addins\SAP Data Services
+  Class=Sybase.PowerDesigner.DataServices.AddIn.Launcher.AddInLauncher
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Addins\SAP Data Services
+  Enable=Yes
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Addins\SAP Data Services
+  Type=ActiveX
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Addins\SAP Data Services
+  File=E:\学习不止\Sybase.PowerDesigner.DataServices.AddIn.dll
+RegisterDotNetDLL: Sybase.PowerDesigner.DataServices.AddIn.dll
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Addins\SAP Data Services
+  Registered=yes
+CreateRegKey(Software\Sybase\PowerDesigner 16\Addins\Sybase IQ Reference Architecture , 
+CreateRegKey(Software\Sybase\PowerDesigner 16\Addins , Software\Sybase
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Addins\Sybase IQ Reference Architecture
+  Class=Sybase.PowerDesigner.AddIn.ReferenceArchitecture.IQ.Launcher.AddInLauncher
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Addins\Sybase IQ Reference Architecture
+  Enable=Yes
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Addins\Sybase IQ Reference Architecture
+  Type=ActiveX
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Addins\Sybase IQ Reference Architecture
+  File=E:\学习不止\Add-ins\IQ Reference Architecture\Sybase.PowerDesigner.AddIn.ReferenceArchitecture.IQ.dll
+RegisterDotNetDLL: Add-ins\IQ Reference Architecture\Sybase.PowerDesigner.AddIn.ReferenceArchitecture.IQ.dll
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Addins\Sybase IQ Reference Architecture
+  Registered=yes
+SetHelpMenu()
+CreateRegKey(Software\Sybase\PowerDesigner 16\HelpCommands , 
+CreateRegKey(Software\Sybase\PowerDesigner 16 , Software\Sybase
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\HelpCommands
+  01:Online Documentation="E:\学习不止\Documentation\index.htm"
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\HelpCommands
+  02:Customizing and Extending PowerDesigner="E:\学习不止\Documentation\Printable Docs\customizing_powerdesigner.pdf"
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\HelpCommands
+  03:Metamodel Objects Help="E:\学习不止\pdvbs16.chm"
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\HelpCommands
+  04:Tutorial Videos ="E:\学习不止\Documentation\videos.htm"
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\HelpCommands
+  04;Tutorial Videos ="E:\学习不止\Documentation\videos.htm"
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\HelpCommands
+  05:SAP Help Portal=http://help.sap.com/powerdesigner/
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\HelpCommands
+  06:SAP.com=http://www.sap.com
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\HelpCommands
+  07:Sybase Developer Network CodeXchange=http://www.sybase.com/developer/codexchange
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\HelpCommands
+  08:SAP Support=http://www54.sap.com/services-support/support/plans.html
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\HelpCommands
+  09:PowerDesigner Web Site=http://www54.sap.com/pc/tech/database/software/model-driven-architecture/index.html
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\HelpCommands
+  10:PowerDesigner Newsgroup=http://scn.sap.com/community/powerdesigner
+SetVariables()
+GetJDK
+GetJ2EE
+CreateRegKey(Software\Sybase\PowerDesigner 16\Variables , 
+CreateRegKey(Software\Sybase\PowerDesigner 16 , Software\Sybase
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Variables
+  HOME=E:\学习不止|PowerDesigner home directory
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Variables
+  CMD=cmd.exe|Windows command interpreter (command.com or cmd.exe)
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Variables
+  J2EEVERIF=|J2EE verifier (verifier.bat)
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Variables
+  JAVA=|Command for executing a Java program (java.exe)
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Variables
+  JAVAC=|Java compiler (javac.exe)
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Variables
+  JAR=|Command for creating a Jar file  (jar.exe)
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Variables
+  JAVADOC=|Command for generating Java doc (javadoc.exe)
+SetLicenseKeys()
+CreateRegKey(Software\Sybase\PowerDesigner 16\License , 
+CreateRegKey(Software\Sybase\PowerDesigner 16 , Software\Sybase
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\License
+  LicenseDirectory=C:\ProgramData\PowerDesigner 16
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\License
+  LicenseAgreement=E:\学习不止\License Agreements
+CreateRegKey(Software\Sybase\PowerDesigner 16\License , 
+CreateRegKey(Software\Sybase\PowerDesigner 16 , Software\Sybase
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\License
+  HeartBeatTimer=21600
+WriteSelectedUserProfiles(USERPROFILES)
+CreateRegKey(Software\Sybase\PowerDesigner 16\General , 
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\General
+  InitUserProfiles=E:\学习不止\Resource Files\Profiles\Design Framework.upf;E:\学习不止\Resource Files\Profiles\NoShortcut.upf;E:\学习不止\Resource Files\Profiles\Blue Theme.upf;E:\学习不止\Resource Files\Profiles\Brown Theme.upf;E:\学习不止\Resource Files\Profiles\RoundCorner.upf;E:\学习不止\Resource Files\Profiles\CDM E_R.upf;E:\学习不止\Resource Files\Profiles\CDM Idef1x.upf;E:\学习不止\Resource Files\Profiles\CDM Merise.upf;E:\学习不止\Resource Files\Profiles\CDMBarker.upf;E:\学习不止\Resource Files\Profiles\LDM E_R.upf;E:\学习不止\Resource Files\Profiles\LDM Idef1x.upf;E:\学习不止\Resource Files\Profiles\LDMBarker.upf;E:\学习不止\Resource Files\Profiles\PDM Codasyl.upf;E:\学习不止\Resource Files\Profiles\PDM Conceptual.upf;E:\学习不止\Resource Files\Profiles\PDM IDEF1x.upf;E:\学习不止\Resource Files\Profiles\PDM Relational.upf
+ProcessSelfRegisterFiles: register
+regsvr32 /s "E:\学习不止\SQL Anywhere 12 drivers\dbodbc12.dll"
+RegisterDotNetDLL: Sybase.PowerDesigner.Shell.dll
+RegisterVisioDLL
+GetVisioVersion()
+ found version: 0
+GetOfficeProgFlavor: Visio
+  return: 0
+GetRegAsm 32-bit
+  found regasm.exe in 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\regasm.exe'
+   Cannot register addin
+SetEditors()
+CreateRegKey(Software\Sybase\PowerDesigner 16\Controls\File Extensions\.aspx\OpenWithList\Editor 1\shell\edit\command , 
+CreateRegKey(Software\Sybase\PowerDesigner 16\Controls\File Extensions\.aspx\OpenWithList\Editor 1\shell\edit , Software\Sybase
+CreateRegKey(Software\Sybase\PowerDesigner 16\Controls\File Extensions\.aspx\OpenWithList\Editor 1\shell , Software\Sybase
+CreateRegKey(Software\Sybase\PowerDesigner 16\Controls\File Extensions\.aspx\OpenWithList\Editor 1 , Software\Sybase
+CreateRegKey(Software\Sybase\PowerDesigner 16\Controls\File Extensions\.aspx\OpenWithList , Software\Sybase
+CreateRegKey(Software\Sybase\PowerDesigner 16\Controls\File Extensions\.aspx , Software\Sybase
+CreateRegKey(Software\Sybase\PowerDesigner 16\Controls\File Extensions , Software\Sybase
+CreateRegKey(Software\Sybase\PowerDesigner 16\Controls , Software\Sybase
+CreateRegKey(Software\Sybase\PowerDesigner 16 , Software\Sybase
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Controls\File Extensions\.aspx\OpenWithList\Editor 1\shell\edit\command
+  =<internal>
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Controls\File Extensions\.aspx\OpenWithList\Editor 1
+  =<internal>
+CreateRegKey(Software\Sybase\PowerDesigner 16\Controls\File Extensions\.jsp\OpenWithList\Editor 1\shell\edit\command , 
+CreateRegKey(Software\Sybase\PowerDesigner 16\Controls\File Extensions\.jsp\OpenWithList\Editor 1\shell\edit , Software\Sybase
+CreateRegKey(Software\Sybase\PowerDesigner 16\Controls\File Extensions\.jsp\OpenWithList\Editor 1\shell , Software\Sybase
+CreateRegKey(Software\Sybase\PowerDesigner 16\Controls\File Extensions\.jsp\OpenWithList\Editor 1 , Software\Sybase
+CreateRegKey(Software\Sybase\PowerDesigner 16\Controls\File Extensions\.jsp\OpenWithList , Software\Sybase
+CreateRegKey(Software\Sybase\PowerDesigner 16\Controls\File Extensions\.jsp , Software\Sybase
+CreateRegKey(Software\Sybase\PowerDesigner 16\Controls\File Extensions , Software\Sybase
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Controls\File Extensions\.jsp\OpenWithList\Editor 1\shell\edit\command
+  =<internal>
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Controls\File Extensions\.jsp\OpenWithList\Editor 1
+  =<internal>
+SetDefaultFonts()
+CreateRegKey(Software\Sybase\PowerDesigner 16\Controls , 
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Controls
+  UI Font Name=Microsoft Sans Serif
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Controls
+  UI Font Size=8
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Controls
+  UI Font Style=0
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Controls
+  RTF Font Name=Microsoft Sans Serif
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Controls\Grid
+  Grid Font Name=Microsoft Sans Serif
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Controls\Grid
+  Grid Font Size=8
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Controls\Grid
+  Grid Font Style=0
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Controls\Grid
+  Matrix Font Name=Microsoft Sans Serif
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Controls\Grid
+  Matrix Font Size=8
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Controls\Grid
+  Matrix Font Style=0
+CreateRegKey(Software\Sybase\PowerDesigner 16\DisplayPreferences , 
+CreateRegKey(Software\Sybase\PowerDesigner 16 , Software\Sybase
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\DisplayPreferences
+  Font Name=新宋体,8,N
+CreateRegKey(Software\Sybase\PowerDesigner 16\DisplayPreferences\Report , 
+CreateRegKey(Software\Sybase\PowerDesigner 16\DisplayPreferences , Software\Sybase
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\DisplayPreferences\Report
+  Title Font Name=新宋体
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\DisplayPreferences\Report
+  Title Font Size=10
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\DisplayPreferences\Report
+  Title Font Style=0
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\DisplayPreferences\Report
+  Text Font Name=Microsoft Sans Serif
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\DisplayPreferences\Report
+  Text Font Size=10
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\DisplayPreferences\Report
+  Text Font Style=0
+CreateRegKey(Software\Sybase\PowerDesigner 16\Controls\Editor\Default\Font , 
+CreateRegKey(Software\Sybase\PowerDesigner 16\Controls\Editor\Default , Software\Sybase
+CreateRegKey(Software\Sybase\PowerDesigner 16\Controls\Editor , Software\Sybase
+CreateRegKey(Software\Sybase\PowerDesigner 16\Controls , Software\Sybase
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Controls\Editor\Default\Font
+  Facename=新宋体
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Controls\Editor\Default\Font
+  Size=10
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Controls\Editor\Default\Font
+  Italic=0
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Controls\Editor\Default\Font
+  Bold=0
+SetDefaultHTMLReportProperties()
+CreateRegKey(Software\Sybase\PowerDesigner 16\DialogPreferences\PropertiesOfOBJREPORTINTRAMODEL , 
+CreateRegKey(Software\Sybase\PowerDesigner 16\DialogPreferences , Software\Sybase
+CreateRegKey(Software\Sybase\PowerDesigner 16 , Software\Sybase
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\DialogPreferences\PropertiesOfOBJREPORTINTRAMODEL
+  HTMLTemplate=Light Blue
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\DialogPreferences\PropertiesOfOBJREPORTINTRAMODEL
+  RTFTemplate=Professional
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\DialogPreferences\PropertiesOfOBJREPORTINTRAMODEL
+  HomePage=
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\DialogPreferences\PropertiesOfOBJREPORTINTRAMODEL
+  Stylesheet=E:\学习不止\Resource Files\HTML Report Style Sheets\LightBlue_Theme.css
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\DialogPreferences\PropertiesOfOBJREPORTINTRAMODEL
+  Header=E:\学习不止\Resource Files\HTML Report Style Sheets\Header_LightBlue.html
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\DialogPreferences\PropertiesOfOBJREPORTINTRAMODEL
+  HeaderHeight=56
+CreateRegKey(Software\Sybase\PowerDesigner 16\Setup\Packages , 
+CreateRegKey(Software\Sybase\PowerDesigner 16\Setup , Software\Sybase
+CreateRegKey(Software\Sybase\PowerDesigner 16\Setup\Components , 
+CreateRegKey(Software\Sybase\PowerDesigner 16\Setup , Software\Sybase
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Setup\Packages
+  DAE=Data Architect Enterprise
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Setup\Packages
+  EAR=EnterpriseArchitect
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Setup\Packages
+  PA=Physical Model
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Setup\Packages
+  WBPM=Business Analyst
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Setup\Packages
+  TA=Technical Architect
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Setup\Packages
+  DA=Data Architect
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Setup\Packages
+  DM=DataArchitect/DM
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Setup\Packages
+  DMR=DataArchitect/RE
+SetRegKeyValue: Software\Sybase\PowerDesigner 16\Setup\Packages
+  IAR=InformationArchitect
+InitializeSySam()
+Syb_OnFirstUIAfter()
+Call SdFinish

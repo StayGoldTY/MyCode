@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Module Id="Sybase.Modeling.M3al">
+  <AssemblyName>Sybase.Modeling.M3al, Version=1.6.5.0, Culture=neutral, PublicKeyToken=65afb196693a8d18</AssemblyName>
+  <RelativePath>Sybase.Modeling.M3al.dll</RelativePath>
+  <Extensions>
+    <ExtensionPoint Id="Sybase.Core.Platform.ExtensionPoint">
+      <ExtensionPoint Class="Sybase.Modeling.M3al.ExtensionPoints.M2alSupport" />
+      <ExtensionPoint Class="Sybase.Modeling.M3al.ExtensionPoints.MetaObjectFacility" />
+      <ExtensionPoint Class="Sybase.Modeling.M3al.Internal.ExternalProxyFactory" />
+      <ExtensionPoint Class="Sybase.Modeling.M3al.Internal.ExternalProxyAssembly" />
+    </ExtensionPoint>
+  </Extensions>
+  <Configurations />
+</Module>

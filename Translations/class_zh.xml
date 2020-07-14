@@ -1,0 +1,3963 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Translations type="class" lang="zh">
+  <Translation>
+    <Comment>CLSID: {55A3BFD4-9D14-438C-A4F1-A8D57096AB1F}, used in Obj</Comment>
+    <Code>BaseDialogView</Code>
+    <Name>Abstract Base Dialog View</Name>
+    <LocalName>抽象基本对话框视图</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {0445C144-D10E-4EA1-9FD4-F7DDCA50646E}, used in Obj</Comment>
+    <Code>BaseExtensibleDialogView</Code>
+    <Name>Abstract Base Extensible Dialog View</Name>
+    <LocalName>抽象基本可扩展对话框视图</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {0445C143-D10E-4EA1-9FD4-F7DDCA50646E}, used in Obj</Comment>
+    <Code>BaseListView</Code>
+    <Name>Abstract Base List View</Name>
+    <LocalName>抽象基本列表视图</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4BA9F649-DAB1-11D1-9944-006097355D9B}, used in Pdo</Comment>
+    <Code>AbstractDataType</Code>
+    <Name>Abstract Data Type</Name>
+    <LocalName>抽象数据类型</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4BA9F650-DAB1-11D1-9944-006097355D9B}, used in Pdo</Comment>
+    <Code>AbstractDataTypeAttribute</Code>
+    <Name>Abstract Data Type Attribute</Name>
+    <LocalName>抽象数据类型属性</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4BA9F652-DAB1-11D1-9944-006097355D9B}, used in Pdo</Comment>
+    <Code>AbstractDataTypeProcedure</Code>
+    <Name>Abstract Data Type Procedure</Name>
+    <LocalName>抽象数据类型过程</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {5A41A3BF-DD32-44F9-8EF8-2A39611997B2}, used in Obj</Comment>
+    <Code>AbstractRequirement</Code>
+    <Name>Abstract Requirement</Name>
+    <LocalName>抽象要求</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {3AE32291-18F7-11D3-86B9-0010ED130000};{6CE9859A-BA73-4EBB-B7D4-8E918A020000}, used in Obj; Ilm</Comment>
+    <Code>AccessType</Code>
+    <Name>Access Type</Name>
+    <LocalName>访问类型</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {18112704-1A4B-11D1-83D9-444553540000};{5992B0B2-44D8-4E3D-915E-2D19C680C531};{B537C1A0-D293-11D0-83D9-4445D5010000}, used in Oom; Mtm; Oom</Comment>
+    <Code>Action</Code>
+    <Name>Action</Name>
+    <LocalName>操作</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4F0361AA-491C-4B09-BA2A-AC355D56598C}, used in Prj</Comment>
+    <Code>FrameworkAction</Code>
+    <Name>Action</Name>
+    <LocalName>操作</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {CE1BFEE6-CEFE-482D-A545-4161478933BA}, used in Oom</Comment>
+    <Code>Activity</Code>
+    <Name>Activity</Name>
+    <LocalName>活动</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {CE1BFEE2-CEFE-482D-A545-4161478933BA}, used in Ooo</Comment>
+    <Code>BaseActivity</Code>
+    <Name>Activity</Name>
+    <LocalName>活动</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {18112400-1A4B-11D1-83D9-444553540000}, used in Oom</Comment>
+    <Code>ActivityDiagram</Code>
+    <Name>Activity Diagram</Name>
+    <LocalName>活动图</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {CE1BFF04-CEF0-482D-A545-4161478933BA}, used in Oom</Comment>
+    <Code>ActivityParameter</Code>
+    <Name>Activity Parameter</Name>
+    <LocalName>活动参数</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {18112101-1A4B-11D1-83D9-444553540000};{5992B0B0-44D8-4E3D-915E-2D19C680C531}, used in Oom; Mtm</Comment>
+    <Code>Actor</Code>
+    <Name>Actor</Name>
+    <LocalName>操作者</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {9A36315A-8097-4652-B67D-8EA57C693301}, used in Iam</Comment>
+    <Code>ImpactAnalysisObject</Code>
+    <Name>Analysis Object</Name>
+    <LocalName>分析对象</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {2909DEB5-FEB5-490C-A046-74D3DC92D81B}, used in Iam</Comment>
+    <Code>AnalysisRule</Code>
+    <Name>Analysis Rule Set</Name>
+    <LocalName>分析规则集</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {F2C80A9E-0B6E-4EEA-8829-31D75F522866}, used in Xsm</Comment>
+    <Code>AnnotatedComponent</Code>
+    <Name>Annotated Component</Name>
+    <LocalName>带注释组件</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {18112091-1A4B-11D1-83D9-444553540000};{6C51FB26-DFC2-465A-A783-C3EF6450FD6E}, used in Oom; Xsm</Comment>
+    <Code>Annotation</Code>
+    <Name>Annotation</Name>
+    <LocalName>注释</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {E906524F-E160-4021-9A9E-64A91DBAF851}, used in Xsm</Comment>
+    <Code>AnnotationItem</Code>
+    <Name>Annotation Item</Name>
+    <LocalName>注释项</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {B1363265-0166-4E2E-95A4-E0A3ABD53FD9}, used in Xsm</Comment>
+    <Code>Any</Code>
+    <Name>Any</Name>
+    <LocalName>任何</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {599E7DF6-9C3A-4DB0-89C2-85CB7C5A86AB}, used in Xsm</Comment>
+    <Code>AnyAttribute</Code>
+    <Name>Any Attribute</Name>
+    <LocalName>任何属性</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {DC848BAD-661D-41C5-9649-56A5AA43F261}, used in Xsm</Comment>
+    <Code>AppInfo</Code>
+    <Name>AppInfo</Name>
+    <LocalName>应用程序信息</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {D061C53A-C65F-4365-AD6B-E223BC6E095E}, used in Eam</Comment>
+    <Code>EnterpriseApplication</Code>
+    <Name>Application</Name>
+    <LocalName>应用程序</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4E4BF2EE-831A-49C5-AF00-D94DC58D0A9C}, used in Eam</Comment>
+    <Code>ApplicationArchitectureDiagram</Code>
+    <Name>Application Architecture Diagram</Name>
+    <LocalName>应用程序体系结构图</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {65DCBFD5-66EB-46C1-A55F-55013F2A2691}, used in Eam</Comment>
+    <Code>ApplicationConcept</Code>
+    <Name>Application Concept</Name>
+    <LocalName>应用概念</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {F2C693F4-E303-4CA6-AB4C-F263BAD012D1}, used in Eam</Comment>
+    <Code>ApplicationLink</Code>
+    <Name>Application Link</Name>
+    <LocalName>应用程序链接</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {3DA9ECDC-CBF7-41F1-9034-89B8E9887B54}, used in Eam</Comment>
+    <Code>ApplicationService</Code>
+    <Name>Application Service</Name>
+    <LocalName>应用服务</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {6614DCDB-CE8C-4F78-A6FB-929A426BFC0E}, used in Eam</Comment>
+    <Code>ArchitectureArea</Code>
+    <Name>Architecture Area</Name>
+    <LocalName>体系结构区域</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4F87C7AB-251E-11D1-83D9-444553540000}, used in Obj</Comment>
+    <Code>BaseArea</Code>
+    <Name>Area</Name>
+    <LocalName>区域</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {037630BA-AAC4-4037-A6FF-88C5450A3671}, used in Ilm</Comment>
+    <Code>Article</Code>
+    <Name>Article</Name>
+    <LocalName>项目</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {A48E8B81-B647-4F7C-95C8-CCEB800A9BCB}, used in Ilm</Comment>
+    <Code>ArticleColumn</Code>
+    <Name>Article Column</Name>
+    <LocalName>项目列</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {8F0BAAB3-1FE2-4B12-8380-A1D6A7E62CC1}, used in Obj</Comment>
+    <Code>Artifact</Code>
+    <Name>Artifact</Name>
+    <LocalName>部件</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {54ADC1A6-45DF-49BA-B6B7-8D1C8DA25E42}, used in Obj</Comment>
+    <Code>ArtifactFolder</Code>
+    <Name>Artifact Folder</Name>
+    <LocalName>部件文件夹</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {1811207B-1A4B-11D1-83D9-444553540000}, used in Oom</Comment>
+    <Code>AssemblyConnector</Code>
+    <Name>Assembly Connector</Name>
+    <LocalName>程序集连接器</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {0026F2D1-F179-11D2-B6A0-0008C7EA8BFF};{1811206A-1A4B-11D1-83D9-444553540000}, used in Cdm; Oom</Comment>
+    <Code>Association</Code>
+    <Name>Association</Name>
+    <LocalName>关联</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4BA9F671-DAB1-11D1-9944-006097355D9B}, used in Pdo</Comment>
+    <Code>CubeDimensionAssociation</Code>
+    <Name>Association</Name>
+    <LocalName>关联</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {0026F2D3-F179-11D2-B6A0-0008C7EA8BFF}, used in Cdm</Comment>
+    <Code>AssociationAttribute</Code>
+    <Name>Association Attribute</Name>
+    <LocalName>关联属性</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {690D5F8A-9C45-4B53-8F82-029BAC3522AA}, used in Cdm</Comment>
+    <Code>AssociationAttributeMapping</Code>
+    <Name>Association Attribute Mapping</Name>
+    <LocalName>关联属性映射</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {0026F2D2-F179-11D2-B6A0-0008C7EA8BFF}, used in Cdm</Comment>
+    <Code>AssociationLink</Code>
+    <Name>Association Link</Name>
+    <LocalName>关联链接</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4F87C7A8-251E-11D1-83D9-444553540000}, used in Obj</Comment>
+    <Code>BaseAssociationMapping</Code>
+    <Name>Association Map</Name>
+    <LocalName>关联映射</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {93B6CBAF-ACA0-440A-901E-2B6AE5F4C0DF}, used in Obj</Comment>
+    <Code>DefaultAssociationMapping</Code>
+    <Name>Association Map</Name>
+    <LocalName>关联映射</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {18112805-1A4B-11D1-83D9-444553540000};{5F497B16-5F75-40D7-BC13-30E81166B088}, used in Oom; Cdm</Comment>
+    <Code>AssociationMapping</Code>
+    <Name>Association Mapping</Name>
+    <LocalName>关联映射</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {18112075-1A4B-11D1-83D9-444553540000}, used in Oom</Comment>
+    <Code>AssociationClassLink</Code>
+    <Name>Association-Class link</Name>
+    <LocalName>关联类链接</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {18112065-1A4B-11D1-83D9-444553540000};{3535EE08-23C6-446F-82BF-8FA40317DDCE}, used in Oom; Xsm</Comment>
+    <Code>Attribute</Code>
+    <Name>Attribute</Name>
+    <LocalName>属性</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {A941B37C-FAEE-4E6C-9520-81A20BC0EFE4}, used in Xsm</Comment>
+    <Code>AttributeBase</Code>
+    <Name>Attribute</Name>
+    <LocalName>属性</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4BA9F675-DAB1-11D1-9944-006097355D9B}, used in Pdo</Comment>
+    <Code>DimensionAttribute</Code>
+    <Name>Attribute</Name>
+    <LocalName>属性</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {026C5D8C-A25B-439A-999F-590480FB982C}, used in Ldm</Comment>
+    <Code>LogicalAttribute</Code>
+    <Name>Attribute</Name>
+    <LocalName>属性</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {48E4579B-E243-4114-9EF9-4A80FC260000}, used in Xsm</Comment>
+    <Code>Form</Code>
+    <Name>Attribute Form</Name>
+    <LocalName>属性表</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {88B7D48F-4F38-43C4-BF37-D1F2405255DB}, used in Xsm</Comment>
+    <Code>AttributeGroup</Code>
+    <Name>Attribute Group</Name>
+    <LocalName>属性组</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {18112802-1A4B-11D1-83D9-444553540000};{4607ABC5-663B-4FBB-B96E-DC810B52B9AF};{96CFB006-ED53-49DC-82D5-B6D3F177421C}, used in Oom; Pdo; Xsm</Comment>
+    <Code>AttributeMapping</Code>
+    <Name>Attribute Mapping</Name>
+    <LocalName>属性映射</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {18112911-1A4B-11D1-83D9-444553540000}, used in Oom</Comment>
+    <Code>AttributeValue</Code>
+    <Name>Attribute Value</Name>
+    <LocalName>属性值</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {5992B0C0-44D8-4E3D-915E-2D19C680C531}, used in Mtm</Comment>
+    <Code>BaseAction</Code>
+    <Name>Base Action</Name>
+    <LocalName>基本操作</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {18112072-1A4B-11D1-83D9-444553540000}, used in Oom</Comment>
+    <Code>BaseAssociation</Code>
+    <Name>Base association</Name>
+    <LocalName>基本关联</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4B0AE4B1-5A2A-4C0E-956C-D65F83CE9A04}, used in Cdm</Comment>
+    <Code>BaseAttributeMapping</Code>
+    <Name>Base Attribute Mapping</Name>
+    <LocalName>基本属性映射</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {6081657A-C285-44EE-B3B4-D98595A05C31}, used in Pdo</Comment>
+    <Code>BaseColumn</Code>
+    <Name>Base Column</Name>
+    <LocalName>基本列</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {9A3B839A-F7F4-4441-A475-D1B36E862CC8}, used in Eam</Comment>
+    <Code>EnterpriseComposite</Code>
+    <Name>Base Composite Object</Name>
+    <LocalName>基本复合对象</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {7D988ED4-37B2-4708-9F57-477E4679CFB8}, used in Obj</Comment>
+    <Code>BaseEditorMetaClassDefinition</Code>
+    <Name>Base Editor Definition</Name>
+    <LocalName>基本编辑器定义</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {7D3EF5A2-9C88-47AE-A210-3E929A0E991B}, used in Obj</Comment>
+    <Code>BaseFileObject</Code>
+    <Name>Base File</Name>
+    <LocalName>基本文件</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {9802DD8F-6F2B-45D1-A427-535B3CD60F74}, used in Prj</Comment>
+    <Code>BaseFramework</Code>
+    <Name>Base Framework</Name>
+    <LocalName>基本框架</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {6AAB6AFC-F6BA-400D-A7E5-CD62B2B1C604}, used in Prj</Comment>
+    <Code>BaseFrameworkCell</Code>
+    <Name>Base Framework Cell</Name>
+    <LocalName>基本框架单元</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {CFC1DB31-1353-4145-B411-71CE3FF3C642}, used in Obj</Comment>
+    <Code>BaseImpactAnalysisObject</Code>
+    <Name>Base Impact Analysis Object</Name>
+    <LocalName>基本影响分析对象</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {7930EABC-E684-4D73-8656-1573CFEEAABB}, used in Pdo</Comment>
+    <Code>BaseIndex</Code>
+    <Name>Base Index</Name>
+    <LocalName>基本索引</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {3D2E1636-5644-4264-81C4-A69C1839FBB0}, used in Oom</Comment>
+    <Code>BaseInteractionFragment</Code>
+    <Name>Base Interaction Fragment</Name>
+    <LocalName>基本交互片段</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {9AB2E606-F38F-4C26-A37F-78B5E98052AC}, used in Bpm</Comment>
+    <Code>BaseDataMapping</Code>
+    <Name>Base Mapping</Name>
+    <LocalName>基本映射</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {EECD8537-6BA4-41E4-8497-B7F3E17AFEF1}, used in Obj</Comment>
+    <Code>BaseMatrixView</Code>
+    <Name>Base Matrix Dialog View</Name>
+    <LocalName>基本矩阵对话框视图</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {C5BBB541-6C28-40FE-BB4A-218708AFA087}, used in Obj</Comment>
+    <Code>BaseMetaClassDefinition</Code>
+    <Name>Base Metaclass Definition</Name>
+    <LocalName>基本元类定义</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {CE1BFF02-CEF0-482D-A545-4161478933BA}, used in Oom</Comment>
+    <Code>BaseNode</Code>
+    <Name>Base Node</Name>
+    <LocalName>基本节点</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {362D41E0-9D82-11D1-8E5D-444553540000}, used in Rep</Comment>
+    <Code>BaseObject</Code>
+    <Name>Base Object</Name>
+    <LocalName>基本对象</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {CE1BFEE0-CEFE-482D-A545-4161478933BA}, used in Ooo</Comment>
+    <Code>BehavioralModel</Code>
+    <Name>Base Object Oriented Model</Name>
+    <LocalName>面向基本对象的模型</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {5992B0BD-44D8-4E3D-915E-2D19C680C531}, used in Mtm</Comment>
+    <Code>BaseOperation</Code>
+    <Name>Base Operation</Name>
+    <LocalName>基本操作</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {5992B0BE-44D8-4E3D-915E-2D19C680C531}, used in Mtm</Comment>
+    <Code>BaseOperationTriggering</Code>
+    <Name>Base Operation Triggering</Name>
+    <LocalName>基本操作触发</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4607ABDC-663B-4FBB-B96E-DC810B52B9AF}, used in Pdo</Comment>
+    <Code>BaseProcedure</Code>
+    <Name>Base Procedure</Name>
+    <LocalName>基本过程</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {03C110EB-2913-49DA-BD97-B22B0B77DAA8}, used in Eam</Comment>
+    <Code>BaseService</Code>
+    <Name>Base Service</Name>
+    <LocalName>基本服务</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {24A2EF9E-C1F9-4558-819D-E5E8060B5E2D}, used in Rep</Comment>
+    <Code>ShortcutBase</Code>
+    <Name>Base Shortcut</Name>
+    <LocalName>基本快捷方式</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {9E55EE5A-29B2-4814-8EFF-2AD6A969454E}, used in Pdo</Comment>
+    <Code>BaseTable</Code>
+    <Name>Base Table</Name>
+    <LocalName>基本表</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {34E7B2CD-CC0F-4BC6-8639-DBE60B790DD5}, used in Obj</Comment>
+    <Code>BaseTermObject</Code>
+    <Name>Base Term Object</Name>
+    <LocalName>基本术语对象</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {D4B2DF45-0047-11D2-9952-006097355D9B}, used in Pdo</Comment>
+    <Code>BaseTrigger</Code>
+    <Name>Base Trigger</Name>
+    <LocalName>基本触发器</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4F87C7A7-251E-11D1-83D9-444553540000}, used in Obj</Comment>
+    <Code>BaseMappingBehavioralFeatureMapping</Code>
+    <Name>Behavioral Feature Map</Name>
+    <LocalName>行为特征映射</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {A31C54A6-632D-4686-960D-9DA043541766}, used in Obj</Comment>
+    <Code>DefaultBehavioralFeatureMapping</Code>
+    <Name>Behavioral Feature Mapping</Name>
+    <LocalName>行为特征映射</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {CE1BFEEE-CEFE-482D-A545-4161478933BA}, used in Ooo</Comment>
+    <Code>BehavioralNamedObject</Code>
+    <Name>Behavioral Named Object</Name>
+    <LocalName>行为命名对象</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {48E4579B-E243-4114-9EF9-4A8003270000};{48E4579B-E243-4114-9EF9-4A80FD260000}, used in Xsm; Xsm</Comment>
+    <Code>Block</Code>
+    <Name>Block</Name>
+    <LocalName>块</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {D470674C-6598-4149-B0EF-E93C8E6F6BB5}, used in Eam</Comment>
+    <Code>BusinessCommunicationDiagram</Code>
+    <Name>Business Communication Diagram</Name>
+    <LocalName>业务通信图</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {C571E973-C0DE-4275-811F-A5B36B8630B0}, used in Eam</Comment>
+    <Code>BusinessConcept</Code>
+    <Name>Business Concept</Name>
+    <LocalName>业务概念</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {E4256BA4-31B6-4448-B88B-074465978FB1}, used in Eam</Comment>
+    <Code>BusinessFlow</Code>
+    <Name>Business Flow</Name>
+    <LocalName>业务流</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {7F55EE42-CAC0-4928-82B6-B5CA1A87F8F0}, used in Eam</Comment>
+    <Code>BusinessFunction</Code>
+    <Name>Business Function</Name>
+    <LocalName>业务功能</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {1A837247-6E51-4532-94CB-8938BBFB8C48}, used in Ilm</Comment>
+    <Code>BusinessProcess</Code>
+    <Name>Business Process</Name>
+    <LocalName>业务流程</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {D26E3D70-15C6-47FA-B2A6-47D6D330CECE}, used in Bpm</Comment>
+    <Code>BusinessProcessDiagram</Code>
+    <Name>Business Process Diagram</Name>
+    <LocalName>业务流程图</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {3D3C409C-B60D-430E-A1C4-B880653AC634}, used in Bpm</Comment>
+    <Code>Model</Code>
+    <Name>Business Process Model</Name>
+    <LocalName>业务流程模型</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4F87C70A-251E-11D1-83D9-444553540000}, used in Obj</Comment>
+    <Code>BusinessRule</Code>
+    <Name>Business Rule</Name>
+    <LocalName>业务规则</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {0A5095C6-F4DD-4314-A344-4B62485C27D7}, used in Eam</Comment>
+    <Code>BusinessService</Code>
+    <Name>Business Service</Name>
+    <LocalName>业务服务</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {B38B4FB0-D9F8-11D1-9944-0060EB140000}, used in Pdo</Comment>
+    <Code>Cardinality</Code>
+    <Name>Cardinality</Name>
+    <LocalName>基数</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {1176FDE1-9351-11D1-AB3C-0020E7140000}, used in Cdm</Comment>
+    <Code>Cardinality</Code>
+    <Name>Cardinality of Role</Name>
+    <LocalName>角色基数</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {1176FDE1-9351-11D1-AB3C-0020E9160000};{3AE32291-18F7-11D3-86B9-00100A280000};{B38B4FB0-D9F8-11D1-9944-0060F4140000}, used in Cdm; Obj; Pdo</Comment>
+    <Code>CharacterCase</Code>
+    <Name>Case</Name>
+    <LocalName>案例</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {CD2F5C71-2CA9-4B74-9BBA-50786D1D88EF}, used in Glm</Comment>
+    <Code>Category</Code>
+    <Name>Category</Name>
+    <LocalName>类别</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {F315FD80-5534-4687-B235-BBB08FD899D7}, used in Prj</Comment>
+    <Code>FrameworkCell</Code>
+    <Name>Cell</Name>
+    <LocalName>单元</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {DCA86B34-F89E-413D-AF5F-755A263FB135}, used in Rmg</Comment>
+    <Code>RepositoryChangeList</Code>
+    <Name>Change List</Name>
+    <LocalName>更改列表</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {B537C1A0-D293-11D0-83D9-4445CD010000}, used in Oom</Comment>
+    <Code>Frozen</Code>
+    <Name>Changeability</Name>
+    <LocalName>可变性</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4F87C70B-251E-11D1-83D9-444553540000}, used in Obj</Comment>
+    <Code>ConstrainedNamedObject</Code>
+    <Name>Check</Name>
+    <LocalName>检查</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {45321953-B213-4092-BB53-31532E967F73}, used in Obj</Comment>
+    <Code>BaseCheckNamedClassifier</Code>
+    <Name>Check Named Classifier</Name>
+    <LocalName>检查命名分类器</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {E5ED6A53-8374-4D15-94BD-A83CD4CCF2D1}, used in Bpm</Comment>
+    <Code>ChoreographyDiagram</Code>
+    <Name>Choreography Diagram</Name>
+    <LocalName>设计图</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {E5ED6A55-8374-4D15-94BD-A83CD4CCF2D1}, used in Bpm</Comment>
+    <Code>ChoreographyTask</Code>
+    <Name>Choreography Task</Name>
+    <LocalName>设计任务</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {30AC4D91-42D9-4C73-B270-34317BF8501F}, used in Eam</Comment>
+    <Code>CityPlanningDiagram</Code>
+    <Name>City Planning Diagram</Name>
+    <LocalName>城市计划图</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {18112063-1A4B-11D1-83D9-444553540000}, used in Oom</Comment>
+    <Code>Class</Code>
+    <Name>Class</Name>
+    <LocalName>类</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {573AD882-8834-4AE4-99CF-B9CE2A0F8E05};{B339FDBA-963E-4B40-9682-52D3FF983CF5}, used in Cdm; Xsm</Comment>
+    <Code>ClassAttributeMapping</Code>
+    <Name>Class Attribute Mapping</Name>
+    <LocalName>类属性映射</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {18112062-1A4B-11D1-83D9-444553540000}, used in Oom</Comment>
+    <Code>ClassDiagram</Code>
+    <Name>Class Diagram</Name>
+    <LocalName>类图</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {18112801-1A4B-11D1-83D9-444553540000};{573AD881-8834-4AE4-99CF-B9CE2A0F8E05};{5C3AE43A-EBEB-4865-91AF-9819C2AA693F}, used in Oom; Cdm; Xsm</Comment>
+    <Code>ClassMapping</Code>
+    <Name>Class Mapping</Name>
+    <LocalName>类映射</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {1811206B-1A4B-11D1-83D9-444553540000}, used in Oom</Comment>
+    <Code>Classifier</Code>
+    <Name>Class/Interface</Name>
+    <LocalName>类/接口</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4BA9F678-DAB1-11D1-9944-006097355D9B}, used in Pdo</Comment>
+    <Code>ClassifierMapping</Code>
+    <Name>Classifier Map</Name>
+    <LocalName>分类器映射</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {B537C1A0-D293-11D0-83D9-4445CE010000}, used in Oom</Comment>
+    <Code>Type</Code>
+    <Name>Classifier Type</Name>
+    <LocalName>分类器类型</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {380BAA41-0042-11D2-BD28-00A02478ECC9}, used in Pdo</Comment>
+    <Code>Column</Code>
+    <Name>Column</Name>
+    <LocalName>列</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {A9D4FEF7-BBC2-46A4-AD40-0408472EBB19}, used in Prj</Comment>
+    <Code>FrameworkColumn</Code>
+    <Name>Column</Name>
+    <LocalName>列</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {2F6539CA-803C-41F7-B9CB-40DE615F6907};{4607ABC1-663B-4FBB-B96E-DC810B52B9AF}, used in Oom; Pdo</Comment>
+    <Code>ColumnMapping</Code>
+    <Name>Column Mapping</Name>
+    <LocalName>列映射</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {18112500-1A4B-11D1-83D9-444553540000}, used in Oom</Comment>
+    <Code>CommunicationDiagram</Code>
+    <Name>Communication Diagram</Name>
+    <LocalName>通信图</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {ACD05876-2DDF-4197-89C1-24F08E1FD007}, used in Xsm</Comment>
+    <Code>ComplexContent</Code>
+    <Name>Complex Content</Name>
+    <LocalName>复杂内容</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {00A125CF-82C7-47EC-A28B-4601C7626067}, used in Xsm</Comment>
+    <Code>ComplexType</Code>
+    <Name>Complex Type</Name>
+    <LocalName>复杂类型</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {0D02372F-5481-4949-85F3-5A221C880D65}, used in Xsm</Comment>
+    <Code>ComplexTypeMapping</Code>
+    <Name>Complex Type Mapping</Name>
+    <LocalName>复杂类型映射</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {18112301-1A4B-11D1-83D9-444553540000};{CC40888B-C0A7-4111-977A-C36172C2995A};{F6D35BB0-2A3A-49C4-BAB7-7DC3645DDB7E}, used in Oom; Eam; Xsm</Comment>
+    <Code>Component</Code>
+    <Name>Component</Name>
+    <LocalName>组件</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {18112300-1A4B-11D1-83D9-444553540000}, used in Oom</Comment>
+    <Code>ComponentDiagram</Code>
+    <Name>Component Diagram</Name>
+    <LocalName>组件图</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {18112602-1A4B-11D1-83D9-444553540000}, used in Oom</Comment>
+    <Code>ComponentInstance</Code>
+    <Name>Component Instance</Name>
+    <LocalName>组件实例</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {B537C1A0-D293-11D0-83D9-4445D6010000}, used in Oom</Comment>
+    <Code>Type</Code>
+    <Name>Component Type</Name>
+    <LocalName>组件类型</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4F87C7A9-251E-11D1-83D9-444553540000}, used in Obj</Comment>
+    <Code>BaseComposite</Code>
+    <Name>Composite</Name>
+    <LocalName>复合</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4F87C703-251E-11D1-83D9-444553540000}, used in Obj</Comment>
+    <Code>BaseCompositeClassifier</Code>
+    <Name>Composite Classifier</Name>
+    <LocalName>复合分类器</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {3647BA92-24C1-4715-A29C-F14F890271B8}, used in Cdo</Comment>
+    <Code>BaseCompositeDataStructure</Code>
+    <Name>Composite Data Structure</Name>
+    <LocalName>复合数据结构</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {1811291A-1A4B-11D1-83D9-444553540000}, used in Oom</Comment>
+    <Code>CompositeDiagram</Code>
+    <Name>Composite Structure Diagram</Name>
+    <LocalName>复合结构图</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {26F7EB88-DA71-4885-B6AD-C7FE1E5374B9}, used in Obj</Comment>
+    <Code>CompositionLink</Code>
+    <Name>Composition Link</Name>
+    <LocalName>复合链接</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {3647BA86-24C1-4715-A29C-F14F890271B8}, used in Cdo</Comment>
+    <Code>BaseLogicalModel</Code>
+    <Name>Conceptual Data Model</Name>
+    <LocalName>概念数据模型</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {1E597170-9350-11D1-AB3C-0020AF71E433}, used in Cdm</Comment>
+    <Code>Model</Code>
+    <Name>Conceptual Data Model</Name>
+    <LocalName>概念数据模型</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {3647BA94-24C1-4715-A29C-F14F890271B8}, used in Cdo</Comment>
+    <Code>BaseLogicalConceptualDiagram</Code>
+    <Name>Conceptual Diagram</Name>
+    <LocalName>概念图</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {1E597183-9350-11D1-AB3C-0020AF71E433};{9AD58811-8309-4AD8-B25F-982BE3029675}, used in Cdm; Mtm</Comment>
+    <Code>ConceptualDiagram</Code>
+    <Name>Conceptual Diagram</Name>
+    <LocalName>概念图</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {CE1BFEEF-CEFE-482D-A545-4161478933BA}, used in Ooo</Comment>
+    <Code>ConditionalLink</Code>
+    <Name>Condition Link</Name>
+    <LocalName>条件链接</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {7353ECDA-D76C-456F-9FE7-73DA9CD5BA1A}, used in Ilm</Comment>
+    <Code>Connection</Code>
+    <Name>Connection</Name>
+    <LocalName>连接</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4F87C70C-251E-11D1-83D9-444553540000}, used in Obj</Comment>
+    <Code>DataContainer</Code>
+    <Name>Container</Name>
+    <LocalName>容器</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {9381D3F6-56C4-4C26-8F12-DDC78C7FD6A6}, used in Xsm</Comment>
+    <Code>Content</Code>
+    <Name>Content</Name>
+    <LocalName>内容</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {05A516F1-ECA0-43BC-864E-D7753DBCF056}, used in Eam</Comment>
+    <Code>Contract</Code>
+    <Name>Contract</Name>
+    <LocalName>合同</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {578F4D1E-8BA7-4801-A136-CB79A3DAA6F5};{B537C1A0-D293-11D0-83D9-4445D4010000}, used in Ilm; Oom</Comment>
+    <Code>ControlFlow</Code>
+    <Name>Control Flow</Name>
+    <LocalName>控制流</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {E5ED6A54-8374-4D15-94BD-A83CD4CCF2D1}, used in Bpm</Comment>
+    <Code>ConversationDiagram</Code>
+    <Name>Conversation Diagram</Name>
+    <LocalName>会话图</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {E5ED6A57-8374-4D15-94BD-A83CD4CCF2D1}, used in Bpm</Comment>
+    <Code>ConversationLink</Code>
+    <Name>Conversation Link</Name>
+    <LocalName>会话链接</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {E5ED6A56-8374-4D15-94BD-A83CD4CCF2D1}, used in Bpm</Comment>
+    <Code>ConversationNode</Code>
+    <Name>Conversation Node</Name>
+    <LocalName>会话节点</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {D4FA660F-F1EE-4787-AA5D-6137BBFD71E3}, used in Bpm</Comment>
+    <Code>Correlation</Code>
+    <Name>Correlation Key</Name>
+    <LocalName>相关键</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {50E34E0C-19DF-43BF-88C5-F2782FF43880}, used in Pdo</Comment>
+    <Code>CostSaving</Code>
+    <Name>Cost Saving</Name>
+    <LocalName>成本节约</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4BA9F670-DAB1-11D1-9944-006097355D9B}, used in Pdo</Comment>
+    <Code>Cube</Code>
+    <Name>Cube</Name>
+    <LocalName>多维数据集</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4607ABC6-663B-4FBB-B96E-DC810B52B9AF}, used in Pdo</Comment>
+    <Code>CubeMapping</Code>
+    <Name>Cube Mapping</Name>
+    <LocalName>多维数据集映射</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {B38B4FB0-D9F8-11D1-9944-0060021B0000}, used in Pdo</Comment>
+    <Code>TotalSavingCurrency</Code>
+    <Name>Currency</Name>
+    <LocalName>货币</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4F52F88E-026B-4F1A-8D53-E0F05E64EBA9}, used in Obj</Comment>
+    <Code>BaseData</Code>
+    <Name>Data</Name>
+    <LocalName>数据</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {5992B0BB-44D8-4E3D-915E-2D19C680C531};{D26E3DE0-15C6-47FA-B2A6-47D6D330CECE};{EC834A5C-BE9F-40AC-A951-E2761F7ABA08}, used in Mtm; Bpm; Eam</Comment>
+    <Code>Data</Code>
+    <Name>Data</Name>
+    <LocalName>数据</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {5992B0BC-44D8-4E3D-915E-2D19C680C531};{D26E3DE1-15C6-47FA-B2A6-47D6D330CECE}, used in Mtm; Bpm</Comment>
+    <Code>DataAccess</Code>
+    <Name>Data Access</Name>
+    <LocalName>数据访问</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {5D1520A3-F9CF-404C-8A87-545319CD72FB}, used in Ilm</Comment>
+    <Code>DataAggregation</Code>
+    <Name>Data Aggregation</Name>
+    <LocalName>数据聚合</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {31A35703-D203-4A45-989A-220E6F6C7693}, used in Ilm</Comment>
+    <Code>DataCalculator</Code>
+    <Name>Data Calculator</Name>
+    <LocalName>数据计算器</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {17CFC282-6A1E-4801-B3D2-0984C3F4E04E}, used in Ilm</Comment>
+    <Code>DataConnection</Code>
+    <Name>Data Connection</Name>
+    <LocalName>数据连接</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {48A9010A-55C9-424C-9D2D-5794B7243CD7}, used in Ilm</Comment>
+    <Code>DataConnectionGroup</Code>
+    <Name>Data Connection Group</Name>
+    <LocalName>数据连接组</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4279725A-F85B-44D0-BBEC-5B079F146008}, used in Ilm</Comment>
+    <Code>DataFilter</Code>
+    <Name>Data Filter</Name>
+    <LocalName>数据过滤器</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {6BA2EB5F-9848-47D4-ADC9-8ADDE821F7D8}, used in Ilm</Comment>
+    <Code>DataFlow</Code>
+    <Name>Data Flow</Name>
+    <LocalName>数据流</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {87838331-7AC0-4C99-8C0D-1589923DE779}, used in Obj</Comment>
+    <Code>DataFormat</Code>
+    <Name>Data Format</Name>
+    <LocalName>数据格式</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {EA69EA98-8B77-41DD-8278-943AB9538FAB}, used in Ilm</Comment>
+    <Code>DataInput</Code>
+    <Name>Data Input</Name>
+    <LocalName>数据输入</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {1E597171-9350-11D1-AB3C-0020AF71E433}, used in Cdm</Comment>
+    <Code>DataItem</Code>
+    <Name>Data Item</Name>
+    <LocalName>数据项</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {07F14D2C-87F4-4629-971C-96AD08B0582F}, used in Cdm</Comment>
+    <Code>DataItemMapping</Code>
+    <Name>Data Item Mapping</Name>
+    <LocalName>数据项映射</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {F3700A01-2AA7-4C2D-AC42-4FF0C64D45DC}, used in Ilm</Comment>
+    <Code>DataJoin</Code>
+    <Name>Data Join</Name>
+    <LocalName>数据连接</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {C939634A-0923-4207-A296-CCB5A04F60C8}, used in Ilm</Comment>
+    <Code>DataLookup</Code>
+    <Name>Data Lookup</Name>
+    <LocalName>数据查找</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {A0A65420-AE01-49DC-BC00-417C699AEC01}, used in Ilm</Comment>
+    <Code>DataMerge</Code>
+    <Name>Data Merge</Name>
+    <LocalName>数据合并</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {3F2F058B-DAAF-4F26-A0A5-8A6D0F972C3F}, used in Ilm</Comment>
+    <Code>DataMovementDiagram</Code>
+    <Name>Data Movement Diagram</Name>
+    <LocalName>数据移动图</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {3F78E634-A98C-4FB7-994C-DD5DE09F2C44}, used in Ilm</Comment>
+    <Code>Model</Code>
+    <Name>Data Movement Model</Name>
+    <LocalName>数据移动模型</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {8A891920-8F38-48A5-83AB-BFA511D2C7FD}, used in Ilm</Comment>
+    <Code>DataOutput</Code>
+    <Name>Data Output</Name>
+    <LocalName>数据输出</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {31A35613-D203-4A45-989A-220E6F6C7693}, used in Ilm</Comment>
+    <Code>DataProjection</Code>
+    <Name>Data Projection</Name>
+    <LocalName>数据投影</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {6060F7FE-48A3-4C5F-8951-36146BC5D0A7}, used in Ilm</Comment>
+    <Code>DataQueryExecution</Code>
+    <Name>Data Query Execution</Name>
+    <LocalName>数据查询执行</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {A6C567BF-7A1C-4CCD-8862-68EFC50CFBA6}, used in Ilm</Comment>
+    <Code>DataQueryTransform</Code>
+    <Name>Data Query Transform</Name>
+    <LocalName>数据查询转换</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {FF4048D0-8285-4000-AADB-9C252E9D07C6}, used in Ilm</Comment>
+    <Code>DataSort</Code>
+    <Name>Data Sort</Name>
+    <LocalName>数据排序</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4F87C7A1-251E-11D1-83D9-444553540000}, used in Obj</Comment>
+    <Code>BaseDataSource</Code>
+    <Name>Data Source</Name>
+    <LocalName>数据源</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {18112800-1A4B-11D1-83D9-444553540000};{4BA9F677-DAB1-11D1-9944-006097355D9B};{D3BC018E-93A0-48AE-97DB-876A7D0797F0};{DEF4793C-FAC3-49D6-93A4-53973BB3F438}, used in Oom; Pdo; Cdm; Xsm</Comment>
+    <Code>DataSource</Code>
+    <Name>Data Source</Name>
+    <LocalName>数据源</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {E1FA9EEA-37B4-45CD-9A13-1911C1B213C1}, used in Obj</Comment>
+    <Code>DefaultDataSource</Code>
+    <Name>Data Source</Name>
+    <LocalName>数据源</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {1569DBC8-256F-4C45-AE53-617AE35DA890}, used in Ilm</Comment>
+    <Code>DataSplit</Code>
+    <Name>Data Split</Name>
+    <LocalName>数据拆分</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {24DEDFE2-DE61-490B-81BE-B036F0041C2C}, used in Ilm</Comment>
+    <Code>DataStore</Code>
+    <Name>Data Store</Name>
+    <LocalName>数据存储</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {0016F2D2-F179-11D2-B6A0-0008C7EA8BFF}, used in Cdo</Comment>
+    <Code>BaseLogicalDataStructure</Code>
+    <Name>Data Structure</Name>
+    <LocalName>数据结构</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {F578063F-B91F-419D-9201-EAD1DDFB11FC}, used in Ilm</Comment>
+    <Code>DataStructureColumn</Code>
+    <Name>Data Structure Column</Name>
+    <LocalName>数据结构列</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {D49C866B-E1CD-4015-AAC9-6CD9B2348B35}, used in Ilm</Comment>
+    <Code>DataStructureJoin</Code>
+    <Name>Data Structure Join</Name>
+    <LocalName>数据结构连接</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {8B62FAA7-D635-4775-B11F-6CD75A0306A7}, used in Cdm</Comment>
+    <Code>DataStructureMapping</Code>
+    <Name>Data Structure Mapping</Name>
+    <LocalName>数据结构映射</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {1F24179D-176F-4729-8982-339418295D4C}, used in Ilm</Comment>
+    <Code>DataStructureSortedColumn</Code>
+    <Name>Data Structure Sorted Column</Name>
+    <LocalName>数据结构排序列</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {C616870A-194E-4360-B5D7-C05A622D763E}, used in Bpm</Comment>
+    <Code>DataTransformation</Code>
+    <Name>Data Transformation</Name>
+    <LocalName>数据转换</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {AC4931BD-9447-468B-A114-F7B8D18EB441}, used in Ilm</Comment>
+    <Code>DataTransformationAction</Code>
+    <Name>Data Transformation Action</Name>
+    <LocalName>数据转换操作</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4C930DDE-058F-4A69-826F-1A79D75EBB6F}, used in Ilm</Comment>
+    <Code>TransformationDiagram</Code>
+    <Name>Data Transformation Diagram</Name>
+    <LocalName>数据转换图</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {8C562FE6-A95D-44AE-B4C7-561732017A85}, used in Ilm</Comment>
+    <Code>DataTransformationTask</Code>
+    <Name>Data Transformation Task</Name>
+    <LocalName>数据转换任务</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {31A35203-D203-4A45-989A-220E6F6C7693};{4BA9F648-DAB1-11D1-9944-006097355D9B};{56711B61-34A6-4785-B973-0C659AA85F78}, used in Ilm; Pdo; Eam</Comment>
+    <Code>Database</Code>
+    <Name>Database</Name>
+    <LocalName>数据库</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {A8830222-1A6E-43F9-A996-631543A950BC}, used in Ilm</Comment>
+    <Code>DatabaseInput</Code>
+    <Name>Database Input</Name>
+    <LocalName>数据库输入</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {FAC6F6CA-0696-4D15-93C4-A479BCE1325C}, used in Ilm</Comment>
+    <Code>DatabaseOutput</Code>
+    <Name>Database Output</Name>
+    <LocalName>数据库输出</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4607ABC8-663B-4FBB-B96E-DC810B52B9AF}, used in Pdo</Comment>
+    <Code>DatabasePackage</Code>
+    <Name>Database Package</Name>
+    <LocalName>数据库包</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4607ABD8-663B-4FBB-B96E-DC810B52B9AF}, used in Pdo</Comment>
+    <Code>DatabasePackageCursor</Code>
+    <Name>Database Package Cursor</Name>
+    <LocalName>数据库包游标</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4607ABD9-663B-4FBB-B96E-DC810B52B9AF}, used in Pdo</Comment>
+    <Code>DatabasePackageException</Code>
+    <Name>Database Package Exception</Name>
+    <LocalName>数据库包异常</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4607ABDB-663B-4FBB-B96E-DC810B52B9AF}, used in Pdo</Comment>
+    <Code>DatabasePackageProcedure</Code>
+    <Name>Database Package Procedure</Name>
+    <LocalName>数据库包过程</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {0890ED3D-5DDB-4D26-9C37-791943C29EE7}, used in Pdo</Comment>
+    <Code>DatabasePackageTemplate</Code>
+    <Name>Database Package Template</Name>
+    <LocalName>数据库包模板</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4607ABD7-663B-4FBB-B96E-DC810B52B9AF}, used in Pdo</Comment>
+    <Code>DatabasePackageType</Code>
+    <Name>Database Package Type</Name>
+    <LocalName>数据库包类型</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4607ABD5-663B-4FBB-B96E-DC810B52B9AF}, used in Pdo</Comment>
+    <Code>DatabasePackageVariable</Code>
+    <Name>Database Package Variable</Name>
+    <LocalName>数据库包变量</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4BA9F647-DAB1-11D1-9944-006097355D9B}, used in Pdo</Comment>
+    <Code>DBMS</Code>
+    <Name>DBMS</Name>
+    <LocalName>DBMS</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {585CBB04-C940-11D1-BD0D-00A02478ECC9}, used in Obj</Comment>
+    <Code>GenerationTargetDefinition</Code>
+    <Name>DBMS</Name>
+    <LocalName>DBMS</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {D4B2DF46-0047-11D2-9952-006097355D9B}, used in Pdo</Comment>
+    <Code>DBMSTrigger</Code>
+    <Name>DBMS Trigger</Name>
+    <LocalName>DBMS 触发器</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {CE1BFEF0-CEFE-482D-A545-4161478933BA}, used in Ooo</Comment>
+    <Code>BaseDecision</Code>
+    <Name>Decision</Name>
+    <LocalName>决策</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {CE1BFEEA-CEFE-482D-A545-4161478933BA};{D26E3D76-15C6-47FA-B2A6-47D6D330CECE}, used in Oom; Bpm</Comment>
+    <Code>Decision</Code>
+    <Name>Decision</Name>
+    <LocalName>决策</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4607ABDD-663B-4FBB-B96E-DC810B52B9AF}, used in Pdo</Comment>
+    <Code>PhysicalDefault</Code>
+    <Name>Default</Name>
+    <LocalName>缺省值</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {1811207C-1A4B-11D1-83D9-444553540000}, used in Oom</Comment>
+    <Code>DelegationConnector</Code>
+    <Name>Delegation Connector</Name>
+    <LocalName>委派连接器</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {18112069-1A4B-11D1-83D9-444553540000}, used in Oom</Comment>
+    <Code>Dependency</Code>
+    <Name>Dependency</Name>
+    <LocalName>依赖性</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {0A863DCD-EA02-47A1-AF04-CC3BDD576613}, used in Prj</Comment>
+    <Code>DependencyLink</Code>
+    <Name>Dependency Link</Name>
+    <LocalName>依赖性链接</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {55A3BFD5-9D14-438C-A4F1-A8D57096AB1F}, used in Obj</Comment>
+    <Code>DependencyMatrix</Code>
+    <Name>Dependency Matrix</Name>
+    <LocalName>依赖性矩阵</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {18112600-1A4B-11D1-83D9-444553540000}, used in Oom</Comment>
+    <Code>DeploymentDiagram</Code>
+    <Name>Deployment Diagram</Name>
+    <LocalName>部署图</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {DBB5502B-9031-4BBE-A7B3-7572E8CCFD47}, used in Eam</Comment>
+    <Code>DeploymentInstance</Code>
+    <Name>Deployment Instance</Name>
+    <LocalName>部署实例</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {F6448C2A-AD3A-40BE-9ECC-99EA557722FD}, used in Xsm</Comment>
+    <Code>Derivation</Code>
+    <Name>Derivation</Name>
+    <LocalName>派生</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {36083F6D-1A49-11D1-83D9-444553540000}, used in Sym</Comment>
+    <Code>BaseDiagram</Code>
+    <Name>Diagram</Name>
+    <LocalName>图</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4F87C702-251E-11D1-83D9-444553540000}, used in Obj</Comment>
+    <Code>PackageDiagram</Code>
+    <Name>Diagram</Name>
+    <LocalName>图</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {B52C1A38-9726-47F7-9236-D06056846583}, used in Prj</Comment>
+    <Code>DiagramDocument</Code>
+    <Name>Diagram Document</Name>
+    <LocalName>图文档</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4BA9F674-DAB1-11D1-9944-006097355D9B}, used in Pdo</Comment>
+    <Code>Dimension</Code>
+    <Name>Dimension</Name>
+    <LocalName>维度</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4607ABC4-663B-4FBB-B96E-DC810B52B9AF}, used in Pdo</Comment>
+    <Code>DimensionMapping</Code>
+    <Name>Dimension Mapping</Name>
+    <LocalName>维度映射</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {B38B4FB0-D9F8-11D1-9944-0060F0140000}, used in Pdo</Comment>
+    <Code>DimensionalType</Code>
+    <Name>Dimensional Type</Name>
+    <LocalName>维度类型</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {B38B4FB0-D9F8-11D1-9944-0060E7140000}, used in Pdo</Comment>
+    <Code>DistinctValues</Code>
+    <Name>Distinct Values</Name>
+    <LocalName>不同值</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {7DE51B1C-F5A4-4AA6-B82F-F667EA30FEDD}, used in Eam</Comment>
+    <Code>Document</Code>
+    <Name>Document</Name>
+    <LocalName>文档</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {91449976-7A75-4B89-B582-96FA7D3853CD}, used in Eam</Comment>
+    <Code>DocumentObject</Code>
+    <Name>Document Object</Name>
+    <LocalName>文档对象</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {EE2E407B-912E-4915-A3B0-B4BEB27AD3F1}, used in Xsm</Comment>
+    <Code>Documentation</Code>
+    <Name>Documentation</Name>
+    <LocalName>文档</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4F87C708-251E-11D1-83D9-444553540000}, used in Obj</Comment>
+    <Code>BaseDomain</Code>
+    <Name>Domain</Name>
+    <LocalName>域</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {3647BA8E-24C1-4715-A29C-F14F890271B8}, used in Cdo</Comment>
+    <Code>BaseLogicalDomain</Code>
+    <Name>Domain</Name>
+    <LocalName>域</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {1811206F-1A4B-11D1-83D9-444553540000};{1E597176-9350-11D1-AB3C-0020AF71E433};{6D67A705-8877-4490-B819-7D3AA9F502D1}, used in Oom; Cdm; Ldm</Comment>
+    <Code>Domain</Code>
+    <Name>Domain</Name>
+    <LocalName>域</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4BA9F646-DAB1-11D1-9944-006097355D9B}, used in Pdo</Comment>
+    <Code>PhysicalDomain</Code>
+    <Name>Domain</Name>
+    <LocalName>域</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {2ECAEC7D-40E2-4FDD-B534-25DA9F60C7D7}, used in Xsm</Comment>
+    <Code>Element</Code>
+    <Name>Element</Name>
+    <LocalName>元素</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {3853866D-5D2F-489E-AA70-8B657D7255D4}, used in Xsm</Comment>
+    <Code>ElementMapping</Code>
+    <Name>Element Mapping</Name>
+    <LocalName>元素映射</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {CA882B31-83BF-462C-9215-F6B07328B598}, used in Bpm</Comment>
+    <Code>EmissionDataMapping</Code>
+    <Name>Emission Mapping</Name>
+    <LocalName>发送映射</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {5992B0B5-44D8-4E3D-915E-2D19C680C531}, used in Mtm</Comment>
+    <Code>EmissionRule</Code>
+    <Name>Emission Rule</Name>
+    <LocalName>发送规则</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {CE1BFEE7-CEFE-482D-A545-4161478933BA}, used in Ooo</Comment>
+    <Code>BaseEnd</Code>
+    <Name>End</Name>
+    <LocalName>结束</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {CE1BFEE9-CEFE-482D-A545-4161478933BA}, used in Oom</Comment>
+    <Code>End</Code>
+    <Name>End</Name>
+    <LocalName>结束</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {D26E3D7D-15C6-47FA-B2A6-47D6D330CECE}, used in Bpm</Comment>
+    <Code>ProcessEnd</Code>
+    <Name>End</Name>
+    <LocalName>结束</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {6CE9859A-BA73-4EBB-B7D4-8E912E030000}, used in Ilm</Comment>
+    <Code>EndType</Code>
+    <Name>End Type</Name>
+    <LocalName>结束类型</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {9AD6C342-A330-4693-9A45-0E52F02A8C7F}, used in Eam</Comment>
+    <Code>EnterpriseArchitectureDiagram</Code>
+    <Name>Enterprise Architecture Diagram</Name>
+    <LocalName>企业体系结构图</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {5215C79E-A9A1-4738-A627-36DA432EFE29}, used in Eam</Comment>
+    <Code>Model</Code>
+    <Name>Enterprise Architecture Model</Name>
+    <LocalName>企业体系结构模型</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {3647BA8A-24C1-4715-A29C-F14F890271B8}, used in Cdo</Comment>
+    <Code>BaseLogicalEntity</Code>
+    <Name>Entity</Name>
+    <LocalName>实体</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {1E597172-9350-11D1-AB3C-0020AF71E433};{D86B0751-A544-42AE-AAA6-6E32C602F706};{EC7A6873-111C-42CA-90AB-F6FD414B8930}, used in Cdm; Ldm; Xsm</Comment>
+    <Code>Entity</Code>
+    <Name>Entity</Name>
+    <LocalName>实体</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {5D365E56-DB15-4130-8114-67CFD0130000}, used in Cdo</Comment>
+    <Code>Entity1ToEntity2RoleCardinality</Code>
+    <Name>Entity 1 -&gt; Entity 2 Role Cardinality</Name>
+    <LocalName>实体 1 -&gt; 实体 2 角色基数</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {1E597174-9350-11D1-AB3C-0020AF71E433};{E1690028-F3DD-4986-B6CB-1509A400BE2B}, used in Cdm; Ldm</Comment>
+    <Code>EntityAttribute</Code>
+    <Name>Entity Attribute</Name>
+    <LocalName>实体属性</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {27D8D518-6EE3-4CAD-AE98-D485E5A54748}, used in Cdm</Comment>
+    <Code>EntityAttributeMapping</Code>
+    <Name>Entity Attribute Mapping</Name>
+    <LocalName>实体属性映射</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {A1FB6EB2-CA2C-4A3D-8A3D-2925C1F57BE6}, used in Cdm</Comment>
+    <Code>EntityMapping</Code>
+    <Name>Entity Mapping</Name>
+    <LocalName>实体映射</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {2CAF78CD-917E-45E4-9A02-446E25CF3796}, used in Xsm</Comment>
+    <Code>EnumerationFacet</Code>
+    <Name>Enumeration Facet</Name>
+    <LocalName>枚举构面</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {2822F97C-644C-43DA-B14D-73BFE65E2986}, used in Eam</Comment>
+    <Code>ETLJob</Code>
+    <Name>ETL Job</Name>
+    <LocalName>ETL 作业</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {18112703-1A4B-11D1-83D9-444553540000};{230F671F-D62A-43C8-80B3-B89C9D77B8C0};{5992B0B3-44D8-4E3D-915E-2D19C680C531}, used in Oom; Bpm; Mtm</Comment>
+    <Code>Event</Code>
+    <Name>Event</Name>
+    <LocalName>事件</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {5992B0B7-44D8-4E3D-915E-2D19C680C531}, used in Mtm</Comment>
+    <Code>EventEmission</Code>
+    <Name>Event Emission</Name>
+    <LocalName>事件发送</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {32F16481-2B4B-45C0-9102-AF3DC45DDA7A}, used in Ilm</Comment>
+    <Code>EventScript</Code>
+    <Name>Event Script</Name>
+    <LocalName>事件脚本</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {0CC2E10A-1231-43AA-8862-C0E05F08E4B9}, used in Obj</Comment>
+    <Code>ExtendedBaseCollection</Code>
+    <Name>Extended Base Collection</Name>
+    <LocalName>扩展基本集合</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {9FAFDA19-FEE0-4A6C-A8C5-0A586E27D2BC}, used in Obj</Comment>
+    <Code>ExtendedCollection</Code>
+    <Name>Extended Collection</Name>
+    <LocalName>扩展集合</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {14D1BE62-F482-4660-9B0F-F9BCAF4F2055}, used in Obj</Comment>
+    <Code>ExtendedComposition</Code>
+    <Name>Extended Composition</Name>
+    <LocalName>扩展复合</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {33C7DA5B-2446-49ED-84AB-320C7A0BAC97}, used in Obj</Comment>
+    <Code>ExtendedLink</Code>
+    <Name>Extended Link</Name>
+    <LocalName>扩展链接</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {8AF1C3D1-6782-4EBD-A539-2A16C7F61969}, used in Obj</Comment>
+    <Code>ExtendedObject</Code>
+    <Name>Extended Object</Name>
+    <LocalName>扩展对象</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {E66E5B1D-A046-4482-ADC2-5D6CCF8CBB85}, used in Obj</Comment>
+    <Code>ExtendedSubObject</Code>
+    <Name>Extended Sub-Object</Name>
+    <LocalName>扩展子对象</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4F87C70D-251E-11D1-83D9-444553540000}, used in Obj</Comment>
+    <Code>ExtensibleObject</Code>
+    <Name>Extensible Object</Name>
+    <LocalName>可扩展对象</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {186C8AC3-D3DC-11D3-881C-00508B03C75C}, used in Ext</Comment>
+    <Code>ExtendedModelDefinition</Code>
+    <Name>Extension</Name>
+    <LocalName>扩展</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {37F59AA2-C5E8-41CE-95DC-313F03D93390}, used in Xsm</Comment>
+    <Code>Extension</Code>
+    <Name>Extension</Name>
+    <LocalName>扩展</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {1E19FB3A-1A63-41FD-A4DD-47FBA084B88D}, used in Xsm</Comment>
+    <Code>External</Code>
+    <Name>External</Name>
+    <LocalName>外部</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {E4591038-E2B3-4B1C-B68E-3E3D073DFCF4}, used in Cdm</Comment>
+    <Code>ExternalAssociationAttributeMapping</Code>
+    <Name>External Association Attribute Mapping</Name>
+    <LocalName>外部关联属性映射</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {08722A75-4722-4A21-A449-2CC80EC16631}, used in Cdm</Comment>
+    <Code>ExternalAssociationMapping</Code>
+    <Name>External Association Mapping</Name>
+    <LocalName>外部关联映射</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4CCC35FC-BEC0-487B-B77F-40D438E51E66}, used in Xsm</Comment>
+    <Code>ExternalAttributeMapping</Code>
+    <Name>External Attribute Mapping</Name>
+    <LocalName>外部属性映射</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {46129529-AB70-43C9-A6AB-4E2A9AF30139}, used in Cdm</Comment>
+    <Code>ExternalBaseAttributeMapping</Code>
+    <Name>External Base Attribute Mapping</Name>
+    <LocalName>外部基本属性映射</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {D5A1A7B2-BC94-4F68-A2EA-AD8D1000FB1F}, used in Pdo</Comment>
+    <Code>ExternalColumnMapping</Code>
+    <Name>External Column Mapping</Name>
+    <LocalName>外部列映射</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {B0450F07-05A2-4C30-8446-574DD98069EA}, used in Xsm</Comment>
+    <Code>ExternalComplexTypeMapping</Code>
+    <Name>External Complex Type Mapping</Name>
+    <LocalName>外部复杂类型映射</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {2A28E770-9684-4F7A-9980-BDE7AC1C95BA}, used in Cdm</Comment>
+    <Code>ExternalDataItemMapping</Code>
+    <Name>External Data Item Mapping</Name>
+    <LocalName>外部数据项映射</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {DEFA454C-D53A-4F81-9EFD-D56592487BF5}, used in Cdm</Comment>
+    <Code>ExternalDataStructureMapping</Code>
+    <Name>External Data Structure Mapping</Name>
+    <LocalName>外部数据结构映射</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {5D2353FD-0AA4-4A54-BFCB-0EFEB0426724}, used in Xsm</Comment>
+    <Code>ExternalElementMapping</Code>
+    <Name>External Element Mapping</Name>
+    <LocalName>外部元素映射</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {31420D5A-30EA-457D-8390-B9C7EDAFF411}, used in Cdm</Comment>
+    <Code>ExternalEntityAttributeMapping</Code>
+    <Name>External Entity Attribute Mapping</Name>
+    <LocalName>外部实体属性映射</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {DE1F5B20-7E5E-4B68-98A3-081685AA47AC}, used in Cdm</Comment>
+    <Code>ExternalEntityMapping</Code>
+    <Name>External Entity Mapping</Name>
+    <LocalName>外部实体映射</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {CDCBFFEE-C248-494C-BB8B-38744C772DB4}, used in Ext</Comment>
+    <Code>ExternalFileDescriptor</Code>
+    <Name>External File Descriptor</Name>
+    <LocalName>外部文件描述符</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {573AD880-8834-4AE4-99CF-B9CE2A0F8E05}, used in Cdm</Comment>
+    <Code>ExternalInheritanceAttributeMapping</Code>
+    <Name>External Inheritance Attribute Mapping</Name>
+    <LocalName>外部继承属性映射</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {870E0642-56EE-4B40-A0AC-706404DA78B7}, used in Cdm</Comment>
+    <Code>ExternalInheritanceMapping</Code>
+    <Name>External Inheritance Mapping</Name>
+    <LocalName>外部继承映射</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {5DB5FEDB-5366-446B-B02C-DAC21C962D10}, used in Obj</Comment>
+    <Code>ExternalModelConnection</Code>
+    <Name>External Model Connection</Name>
+    <LocalName>外部模型连接</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {74BE8384-C52B-48E9-9E6A-5484FA229E52}, used in Obj</Comment>
+    <Code>ExternalModelLink</Code>
+    <Name>External Model Link</Name>
+    <LocalName>外部模型链接</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {DC4DD267-D8A3-494F-AB4F-89C5A16ED109}, used in Pdo</Comment>
+    <Code>ExternalTableMapping</Code>
+    <Name>External Table Mapping</Name>
+    <LocalName>外部表映射</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {98E59A19-2DDE-426A-A485-6807E5326FA7}, used in Xsm</Comment>
+    <Code>Facet</Code>
+    <Name>Facet</Name>
+    <LocalName>构面</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4BA9F672-DAB1-11D1-9944-006097355D9B}, used in Pdo</Comment>
+    <Code>Fact</Code>
+    <Name>Fact</Name>
+    <LocalName>事实</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {58FB68B4-4A03-42CE-A098-F8B9A56A2761}, used in Pdo</Comment>
+    <Code>FactAttribute</Code>
+    <Name>Fact Attribute</Name>
+    <LocalName>事实属性</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {F57551BD-705E-462C-8572-0CEACDDD2548}, used in Pdo</Comment>
+    <Code>FactAttributeMapping</Code>
+    <Name>Fact Attribute Mapping</Name>
+    <LocalName>事实属性映射</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4607ABC2-663B-4FBB-B96E-DC810B52B9AF}, used in Pdo</Comment>
+    <Code>FactMapping</Code>
+    <Name>Fact Mapping</Name>
+    <LocalName>事实映射</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {D26E3DE5-15C6-47FA-B2A6-47D6D330CECE}, used in Bpm</Comment>
+    <Code>FaultMessage</Code>
+    <Name>Fault</Name>
+    <LocalName>故障</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4F87C70E-251E-11D1-83D9-444553540000}, used in Obj</Comment>
+    <Code>BaseCheckNamedStructuralFeature</Code>
+    <Name>Feature</Name>
+    <LocalName>特征</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {8EFE63AA-A8C1-40ED-82C5-A7B13EE8BC39}, used in Xsm</Comment>
+    <Code>Field</Code>
+    <Name>Field</Name>
+    <LocalName>字段</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {2F1C7294-2803-4689-BC9E-8A637912F07B}, used in Prj</Comment>
+    <Code>FileDocument</Code>
+    <Name>File</Name>
+    <LocalName>文件</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4F87C717-251E-11D1-83D9-444553540000}, used in Obj</Comment>
+    <Code>FileObject</Code>
+    <Name>File</Name>
+    <LocalName>文件</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {48E4579B-E243-4114-9EF9-4A80FE260000};{48E4579B-E243-4114-9EF9-4A80FF260000}, used in Xsm; Xsm</Comment>
+    <Code>Final</Code>
+    <Name>Final</Name>
+    <LocalName>最终</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {31A35343-D203-4A45-989A-220E6F6C7693}, used in Ilm</Comment>
+    <Code>FlatFile</Code>
+    <Name>Flat File</Name>
+    <LocalName>平面文件</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {31A35433-D203-4A45-989A-220E6F6C7693}, used in Ilm</Comment>
+    <Code>FlatFileInput</Code>
+    <Name>Flat File Input</Name>
+    <LocalName>平面文件输入</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {31A35523-D203-4A45-989A-220E6F6C7693}, used in Ilm</Comment>
+    <Code>FlatFileOutput</Code>
+    <Name>Flat File Output</Name>
+    <LocalName>平面文件输出</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {CE1BFF01-CEF0-482D-A545-4161478933BA}, used in Oom</Comment>
+    <Code>ActivityFlow</Code>
+    <Name>Flow</Name>
+    <LocalName>流</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {5992B0B1-44D8-4E3D-915E-2D19C680C531};{D26E3D75-15C6-47FA-B2A6-47D6D330CECE}, used in Mtm; Bpm</Comment>
+    <Code>Flow</Code>
+    <Name>Flow</Name>
+    <LocalName>流</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {9AD58810-8309-4AD8-B25F-982BE3029675}, used in Mtm</Comment>
+    <Code>FlowDiagram</Code>
+    <Name>Flow Diagram</Name>
+    <LocalName>流程图</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {CE1BFF03-CEF0-482D-A545-4161478933BA}, used in Oom</Comment>
+    <Code>FlowMappingParameter</Code>
+    <Name>Flow Mapping</Name>
+    <LocalName>流映射</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {CE1BFF00-CEF0-482D-A545-4161478933BA}, used in Oom</Comment>
+    <Code>FlowLink</Code>
+    <Name>FlowLink</Name>
+    <LocalName>流链接</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {B0303847-10B9-4F44-BE8C-6F71CBAAC240}, used in Prj</Comment>
+    <Code>ProjectFolder</Code>
+    <Name>Folder</Name>
+    <LocalName>文件夹</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4F8096B1-FA73-4B33-9211-42FC53BBE6EE}, used in Eam</Comment>
+    <Code>Form</Code>
+    <Name>Form</Name>
+    <LocalName>形式</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {DD530274-C462-4893-9F5F-5AE170A04F13}, used in Xsm</Comment>
+    <Code>FractionDigitsFacet</Code>
+    <Name>Fraction Digits Facet</Name>
+    <LocalName>小数位数构面</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {B537C1A0-D293-11D0-83D9-4445C7150000}, used in Oom</Comment>
+    <Code>FragmentType</Code>
+    <Name>Fragment Type</Name>
+    <LocalName>片段类型</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {DC993A7F-F747-4284-9B10-C65EC2613D49}, used in Prj</Comment>
+    <Code>Framework</Code>
+    <Name>Framework</Name>
+    <LocalName>框架</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {F16B2141-95C7-4227-BC87-A4AB39820CB2}, used in Prj</Comment>
+    <Code>FrameworkArea</Code>
+    <Name>Framework Area</Name>
+    <LocalName>框架区域</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {00F78ADE-039B-49A0-A664-B6B5C6FA2D2D}, used in Prj</Comment>
+    <Code>FrameworkDiagram</Code>
+    <Name>Framework Diagram</Name>
+    <LocalName>框架图</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {BB7FBEE0-EF03-4AC7-84A8-36DF1215B8AE}, used in Prj</Comment>
+    <Code>FrameworkLink</Code>
+    <Name>Framework Link</Name>
+    <LocalName>框架链接</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {5956CDF3-119B-4867-B230-CD4C2CE93EB5}, used in Prj</Comment>
+    <Code>FrameworkMatrix</Code>
+    <Name>Framework Matrix</Name>
+    <LocalName>框架矩阵</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {B8692B82-9443-4701-A995-0004C1C664BF}, used in Prj</Comment>
+    <Code>FrameworkMatrixDiagram</Code>
+    <Name>Framework Matrix Diagram</Name>
+    <LocalName>框架矩阵图</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {D0D0B2C0-6A7C-4BCC-82C8-6940312EEA9A}, used in Prj</Comment>
+    <Code>FrameworkNode</Code>
+    <Name>Framework Node</Name>
+    <LocalName>框架节点</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {44590C93-C293-4EFC-BF99-78EBC1BE1E83}, used in Frm</Comment>
+    <Code>FreeDiagram</Code>
+    <Name>Free Diagram</Name>
+    <LocalName>自由图</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {A3D646C2-7F72-4197-8A31-32275EB456B4}, used in Frm</Comment>
+    <Code>Model</Code>
+    <Name>Free Model</Name>
+    <LocalName>自由模型</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {B6288BD4-75A6-4CF5-B2A5-5B68138DA8F1}, used in Eam</Comment>
+    <Code>Fulfillment</Code>
+    <Name>Fulfillment</Name>
+    <LocalName>完成</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {18112067-1A4B-11D1-83D9-444553540000}, used in Oom</Comment>
+    <Code>Generalization</Code>
+    <Name>Generalization</Name>
+    <LocalName>一般化</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {A7061922-995F-11D1-8057-006005160000}, used in Rep</Comment>
+    <Code>GenerationType</Code>
+    <Name>Generation Type</Name>
+    <LocalName>生成类型</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {820B3586-827C-449E-88BA-8EB02828EECE}, used in Ilm</Comment>
+    <Code>GenericAction</Code>
+    <Name>Generic Action</Name>
+    <LocalName>通用操作</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {D30517CD-7081-4751-991C-4E4E2B5B2A01}, used in Ilm</Comment>
+    <Code>GenericDataInput</Code>
+    <Name>Generic Data Input</Name>
+    <LocalName>通用数据输入</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {E5AEE1A4-1709-45A7-9401-C46C65DBE36B}, used in Ilm</Comment>
+    <Code>GenericDataOutput</Code>
+    <Name>Generic Data Output</Name>
+    <LocalName>通用数据输出</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {CBB6AE6F-E01D-4BEC-AEF7-8BC86BDF914C}, used in Glm</Comment>
+    <Code>Model</Code>
+    <Name>Glossary Model</Name>
+    <LocalName>词汇表模型</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {A885C3DD-A8D7-43D8-BD64-8EAF6C4E3D96}, used in Rqm</Comment>
+    <Code>GlossaryTerm</Code>
+    <Name>Glossary Term</Name>
+    <LocalName>词汇表术语</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {9CA6646A-FBBC-4528-9EFE-E70B836D21DE}, used in Glm</Comment>
+    <Code>GlossaryTermsList</Code>
+    <Name>Glossary Terms List</Name>
+    <LocalName>词汇表术语列表</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {CD66F1CD-28E9-47DC-A0EB-761AF3313FF8}, used in Eam</Comment>
+    <Code>Goal</Code>
+    <Name>Goal</Name>
+    <LocalName>目标</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4607ABCA-663B-4FBB-B96E-DC810B52B9AF};{53705746-500D-4B82-B65F-91F4A54CB94A}, used in Pdo; Xsm</Comment>
+    <Code>Group</Code>
+    <Name>Group</Name>
+    <LocalName>组</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {EF810B60-F5E3-4AFB-93C5-243D9C6BE1CE}, used in Rqm</Comment>
+    <Code>RequirementGroup</Code>
+    <Name>Group</Name>
+    <LocalName>组</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {5251B23D-1E07-4EA7-BBDF-BA7936F23313}, used in Rqm</Comment>
+    <Code>BaseUser</Code>
+    <Name>Group or User</Name>
+    <LocalName>组或用户</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {81D9A354-B484-434B-B3D8-50C74C8F666B}, used in Xsm</Comment>
+    <Code>GroupParticle</Code>
+    <Name>Group Particle</Name>
+    <LocalName>组粒子</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {48E4579B-E243-4114-9EF9-4A8046270000}, used in Xsm</Comment>
+    <Code>GroupType</Code>
+    <Name>Group Type</Name>
+    <LocalName>组类型</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {994DA4A8-2D20-4131-A2B2-A3AF9EF9AD1B}, used in Eam</Comment>
+    <Code>HardwareAsset</Code>
+    <Name>Hardware Asset</Name>
+    <LocalName>硬件资产</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {AC7552DF-5433-4B1B-AC89-8DFD8D7F558D}, used in Eam</Comment>
+    <Code>HardwarePlatform</Code>
+    <Name>Hardware Platform</Name>
+    <LocalName>硬件平台</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {6B556C17-3FE5-4A3F-8B90-F8D70580A063}, used in Eam</Comment>
+    <Code>HardwareServer</Code>
+    <Name>Hardware Server</Name>
+    <LocalName>硬件服务器</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4BA9F676-DAB1-11D1-9944-006097355D9B}, used in Pdo</Comment>
+    <Code>DimensionHierarchy</Code>
+    <Name>Hierarchy</Name>
+    <LocalName>层次结构</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4607ABD0-663B-4FBB-B96E-DC810B52B9AF}, used in Pdo</Comment>
+    <Code>HorizontalPartitioning</Code>
+    <Name>Horizontal Partitioning</Name>
+    <LocalName>水平分区</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {D0E0A940-B731-11D1-8898-00A09A170000}, used in Rpt</Comment>
+    <Code>HtmlImageFormat</Code>
+    <Name>HTML Image Format</Name>
+    <LocalName>HTML 图像格式</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {362D41EA-9D82-11D1-8E5D-444553540000}, used in Rep</Comment>
+    <Code>IdentifiedObject</Code>
+    <Name>Identified Object</Name>
+    <LocalName>标识的对象</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {3647BA8D-24C1-4715-A29C-F14F890271B8}, used in Cdo</Comment>
+    <Code>BaseLogicalIdentifier</Code>
+    <Name>Identifier</Name>
+    <LocalName>标识符</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {040810A2-4B62-45C1-9C8B-5EABC249838B};{18112070-1A4B-11D1-83D9-444553540000};{1E597175-9350-11D1-AB3C-0020AF71E433}, used in Ldm; Oom; Cdm</Comment>
+    <Code>Identifier</Code>
+    <Name>Identifier</Name>
+    <LocalName>标识符</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {6C25C1F2-D61E-4BC4-8827-B06D396FAFA1}, used in Xsm</Comment>
+    <Code>IdentityConstraint</Code>
+    <Name>Identity Constraint</Name>
+    <LocalName>标识约束</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {C42D09B7-0AEB-4783-A894-F44D2B712B91}, used in Eam</Comment>
+    <Code>Impact</Code>
+    <Name>Impact</Name>
+    <LocalName>影响</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {5D535B48-10DF-4612-A921-B04CE1AD77A7}, used in Iam</Comment>
+    <Code>ImpactAnalysisCategory</Code>
+    <Name>Impact Analysis Category</Name>
+    <LocalName>影响分析类别</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {32A498B2-8494-4753-92A1-5A408FDD0F82}, used in Iam</Comment>
+    <Code>ImpactAnalysisDiagram</Code>
+    <Name>Impact Analysis Diagram</Name>
+    <LocalName>影响分析图</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {D511651A-C436-4108-ACF8-1B2F97B3A51F}, used in Iam</Comment>
+    <Code>ImpactAnalysisImpactedModel</Code>
+    <Name>Impact Analysis Impacted Model</Name>
+    <LocalName>影响分析受影响模型</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {E76C14C6-992E-4E51-89E0-45EFBA0EBED3}, used in Iam</Comment>
+    <Code>ImpactAnalysisModel</Code>
+    <Name>Impact Analysis Model</Name>
+    <LocalName>影响分析模型</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {AD0014F6-B1B8-41D0-B196-78B3D9130000}, used in Eam</Comment>
+    <Code>Level</Code>
+    <Name>Impact Level</Name>
+    <LocalName>影响级别</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {B38B4FB0-D9F8-11D1-9944-0060ED140000}, used in Pdo</Comment>
+    <Code>ImplementationType</Code>
+    <Name>Implementation</Name>
+    <LocalName>实现</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {C2193D75-A834-4F88-88E7-444FED000000}, used in Bpm</Comment>
+    <Code>ImplementationMode</Code>
+    <Name>Implementation Type</Name>
+    <LocalName>实现类型</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {E2546C8D-3EB0-4D48-AA4F-D94D68770AB8}, used in Xsm</Comment>
+    <Code>Import</Code>
+    <Name>Import</Name>
+    <LocalName>导入</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {8AA6A731-5C59-4103-A865-850F0D2C1CB2}, used in Xsm</Comment>
+    <Code>Include</Code>
+    <Name>Include</Name>
+    <LocalName>包括</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {380BAA42-0042-11D2-BD28-00A02478ECC9}, used in Pdo</Comment>
+    <Code>Index</Code>
+    <Name>Index</Name>
+    <LocalName>索引</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {380BAA43-0042-11D2-BD28-00A02478ECC9}, used in Pdo</Comment>
+    <Code>IndexColumn</Code>
+    <Name>Index Column</Name>
+    <LocalName>索引列</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {B537C1A0-D293-11D0-83D9-4445D0010000}, used in Oom</Comment>
+    <Code>RoleAIndicator</Code>
+    <Name>Indicator A</Name>
+    <LocalName>指示符 A</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {7F1D57FC-CDFE-4A40-86F9-632C8A6C1583}, used in Eam</Comment>
+    <Code>InfrastructureConcept</Code>
+    <Name>Infrastructure Concept</Name>
+    <LocalName>基础架构概念</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {7735031A-D1C2-40D8-8F42-81B21F149B12}, used in Eam</Comment>
+    <Code>InfrastructureLink</Code>
+    <Name>Infrastructure Link</Name>
+    <LocalName>基础架构链接</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {3647BA90-24C1-4715-A29C-F14F890271B8}, used in Cdo</Comment>
+    <Code>BaseLogicalInheritance</Code>
+    <Name>Inheritance</Name>
+    <LocalName>继承</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {1E597178-9350-11D1-AB3C-0020AF71E433};{57FC6925-A813-4847-AADC-AFAFA8EA7752}, used in Cdm; Ldm</Comment>
+    <Code>Inheritance</Code>
+    <Name>Inheritance</Name>
+    <LocalName>继承</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {1E597181-9350-11D1-AB3C-0020AF71E433};{E29B9CEF-D4E6-47EA-987F-04FE2BF3F636}, used in Cdm; Ldm</Comment>
+    <Code>InheritanceAttribute</Code>
+    <Name>Inheritance Attribute</Name>
+    <LocalName>继承属性</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {62C968A0-2679-42D9-B330-9D735799CF20}, used in Cdm</Comment>
+    <Code>InheritanceAttributeMapping</Code>
+    <Name>Inheritance Attribute Mapping</Name>
+    <LocalName>继承属性映射</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {3647BA91-24C1-4715-A29C-F14F890271B8}, used in Cdo</Comment>
+    <Code>BaseLogicalInheritanceLink</Code>
+    <Name>Inheritance Link</Name>
+    <LocalName>继承链接</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {19173FC1-90F4-4013-8D7C-B0529B48BFA8};{1E597180-9350-11D1-AB3C-0020AF71E433}, used in Ldm; Cdm</Comment>
+    <Code>InheritanceLink</Code>
+    <Name>Inheritance Link</Name>
+    <LocalName>继承链接</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {6363AF76-D624-4E76-9DF7-A1426D0D1DC4}, used in Cdm</Comment>
+    <Code>InheritanceMapping</Code>
+    <Name>Inheritance Mapping</Name>
+    <LocalName>继承映射</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {75ADC0F2-6103-4CB3-8D1C-710F978FDC5E}, used in Eam</Comment>
+    <Code>Initiative</Code>
+    <Name>Initiative</Name>
+    <LocalName>初始计划</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {18112077-1A4B-11D1-83D9-444553540000}, used in Oom</Comment>
+    <Code>InnerLink</Code>
+    <Name>Inner Link</Name>
+    <LocalName>内部链接</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {CE1BFF05-CEF0-482D-A545-4161478933BA}, used in Oom</Comment>
+    <Code>InputActivityParameter</Code>
+    <Name>Input Parameter</Name>
+    <LocalName>输入参数</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {585CBB39-C940-11D1-BD0D-00A02478ECC9}, used in Obj</Comment>
+    <Code>Instance</Code>
+    <Name>Instance</Name>
+    <LocalName>实例</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {18112910-1A4B-11D1-83D9-444553540000}, used in Oom</Comment>
+    <Code>InstanceLink</Code>
+    <Name>Instance Link</Name>
+    <LocalName>实例链接</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {F5F49F00-6E8F-43AD-9AC1-E9154E3480C7}, used in Oom</Comment>
+    <Code>InteractionActivity</Code>
+    <Name>Interaction Activity</Name>
+    <LocalName>交互活动</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {F5F49FEE-6E8F-43AD-9AC1-E9154E3480C7}, used in Oom</Comment>
+    <Code>InteractionFragment</Code>
+    <Name>Interaction Fragment</Name>
+    <LocalName>交互片段</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {18112930-1A4B-11D1-83D9-444553540000}, used in Oom</Comment>
+    <Code>InteractionOverviewDiagram</Code>
+    <Name>Interaction Overview Diagram</Name>
+    <LocalName>交互概述图</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {D9C7DFEC-14AF-46FA-ADDC-EC51829D4776}, used in Oom</Comment>
+    <Code>InteractionReference</Code>
+    <Name>Interaction Reference</Name>
+    <LocalName>交互参考</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {18112064-1A4B-11D1-83D9-444553540000}, used in Oom</Comment>
+    <Code>Interface</Code>
+    <Name>Interface</Name>
+    <LocalName>接口</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {585CBB27-C940-11D1-BD0D-00A02478ECC9}, used in Rpt</Comment>
+    <Code>IntraModelReport</Code>
+    <Name>Intra-Model Report</Name>
+    <LocalName>模型内报告</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {380BAA45-0042-11D2-BD28-00A02478ECC9}, used in Pdo</Comment>
+    <Code>JoinIndex</Code>
+    <Name>Join Index</Name>
+    <LocalName>连接索引</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {380BAA46-0042-11D2-BD28-00A02478ECC9}, used in Pdo</Comment>
+    <Code>JoinIndexReference</Code>
+    <Name>Join Index Reference</Name>
+    <LocalName>连接索引参考</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {18112702-1A4B-11D1-83D9-444553540000}, used in Oom</Comment>
+    <Code>JunctionPoint</Code>
+    <Name>Junction Point</Name>
+    <LocalName>连接点</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4F87C709-251E-11D1-83D9-444553540000}, used in Obj</Comment>
+    <Code>BaseKey</Code>
+    <Name>Key</Name>
+    <LocalName>键</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {380BAA44-0042-11D2-BD28-00A02478ECC9};{5A97926D-99B8-4395-A5B8-0DC9E177531C}, used in Pdo; Xsm</Comment>
+    <Code>Key</Code>
+    <Name>Key</Name>
+    <LocalName>键</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {50644FB9-524B-4EA1-9A58-48AA0A2EF0C0}, used in Xsm</Comment>
+    <Code>KeyRef</Code>
+    <Name>Keyref</Name>
+    <LocalName>键引用</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {FC2A43EB-5F60-407A-9949-EA47E523A75C}, used in Obj</Comment>
+    <Code>Keyword</Code>
+    <Name>Keyword</Name>
+    <LocalName>关键字</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {B38B4FB0-D9F8-11D1-9944-0060F5140000}, used in Pdo</Comment>
+    <Code>Length</Code>
+    <Name>Length</Name>
+    <LocalName>长度</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {F53CAC33-41FA-4B61-A0FD-70852B1870BE}, used in Xsm</Comment>
+    <Code>LengthFacet</Code>
+    <Name>Length Facet</Name>
+    <LocalName>长度构面</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {23020FDF-65E2-4D1E-84C8-7EF4CCCB0D29}, used in Pdo</Comment>
+    <Code>Lifecycle</Code>
+    <Name>Lifecycle</Name>
+    <LocalName>生命周期</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4F87C705-251E-11D1-83D9-444553540000}, used in Obj</Comment>
+    <Code>BaseLinkObject</Code>
+    <Name>Link</Name>
+    <LocalName>链接</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {18112071-1A4B-11D1-83D9-444553540000}, used in Oom</Comment>
+    <Code>UMLLinkBase</Code>
+    <Name>Link</Name>
+    <LocalName>链接</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {95383AA3-C9A7-4EA0-9F3B-2A8FC3020000}, used in Rqm</Comment>
+    <Code>LinkObjectType</Code>
+    <Name>Link Object Type</Name>
+    <LocalName>链接对象类型</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {95383AA3-C9A7-4EA0-9F3B-2A8FC1020000}, used in Rqm</Comment>
+    <Code>LinkType</Code>
+    <Name>Link Type</Name>
+    <LocalName>链接类型</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {43F13BEB-E43C-4820-B95E-843A5614F8F1}, used in Prj</Comment>
+    <Code>ListDocument</Code>
+    <Name>List Document</Name>
+    <LocalName>列表文档</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {163EE9C4-9E89-4F4E-8119-F10E5DE2436D}, used in Obj</Comment>
+    <Code>ListReport</Code>
+    <Name>List Report</Name>
+    <LocalName>列表报告</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {2B180021-37A3-4945-8772-1854B6CD2201}, used in Obj</Comment>
+    <Code>ListReportResultSet</Code>
+    <Name>List Report Result Set</Name>
+    <LocalName>列表报告结果集</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {5F45F978-C4F3-4E35-A3FC-AF3318663A0F}, used in Ldm</Comment>
+    <Code>Model</Code>
+    <Name>Logical Data Model</Name>
+    <LocalName>逻辑数据模型</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4C883674-1CDD-4F67-A7BA-27B4CC6D601D}, used in Ldm</Comment>
+    <Code>LogicalDiagram</Code>
+    <Name>Logical Diagram</Name>
+    <LocalName>逻辑图</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {C2193D75-A834-4F88-88E7-444F12070000}, used in Bpm</Comment>
+    <Code>LoopCharacteristics</Code>
+    <Name>Loop Characteristics</Name>
+    <LocalName>循环特征</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {C2193D75-A834-4F88-88E7-444FE6000000}, used in Bpm</Comment>
+    <Code>LoopType</Code>
+    <Name>Loop Type</Name>
+    <LocalName>循环类型</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4F87C7A2-251E-11D1-83D9-444553540000}, used in Obj</Comment>
+    <Code>BaseClassifierMapping</Code>
+    <Name>Mapping</Name>
+    <LocalName>映射</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {E32D93EC-027C-4FD9-976E-3A94CD0AB996}, used in Obj</Comment>
+    <Code>BaseObjectMapping</Code>
+    <Name>Mapping</Name>
+    <LocalName>映射</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {95FD7FC7-0132-4694-A59B-3B039628FC89}, used in Xsm</Comment>
+    <Code>ClassifierMapping</Code>
+    <Name>Mapping</Name>
+    <LocalName>映射</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {B84ED3A8-38CD-44B7-93D3-029ABB673F6C}, used in Obj</Comment>
+    <Code>DefaultObjectMapping</Code>
+    <Name>Mapping</Name>
+    <LocalName>映射</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4F87C7A0-251E-11D1-83D9-444553540000}, used in Obj</Comment>
+    <Code>MappingClassifier</Code>
+    <Name>Mapping Classifier</Name>
+    <LocalName>映射分类器</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {693DCD02-82B0-4D68-B44D-C64CBA2FEC29}, used in Xsm</Comment>
+    <Code>MaxExclusiveFacet</Code>
+    <Name>Maximum Exclusive Facet</Name>
+    <LocalName>最大排他构面</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {62ACB609-1CB0-4817-ABC1-2C92E0568084}, used in Xsm</Comment>
+    <Code>MaxInclusiveFacet</Code>
+    <Name>Maximum Inclusive Facet</Name>
+    <LocalName>最大包含构面</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {9F704B5E-90F5-4EE5-8501-DB4D3B7A9315}, used in Xsm</Comment>
+    <Code>MaxLengthFacet</Code>
+    <Name>Maximum Length Facet</Name>
+    <LocalName>最大长度构面</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {48E4579B-E243-4114-9EF9-4A80D3260000}, used in Xsm</Comment>
+    <Code>MaxOccurs</Code>
+    <Name>Maximum Occurrences</Name>
+    <LocalName>最大出现次数</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {88C54403-0510-4B0A-86EE-9D22EB8FB426}, used in Obj</Comment>
+    <Code>MDATransformation</Code>
+    <Name>MDA Transformation</Name>
+    <LocalName>MDA 转换</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4BA9F673-DAB1-11D1-9944-006097355D9B}, used in Pdo</Comment>
+    <Code>FactMeasure</Code>
+    <Name>Measure</Name>
+    <LocalName>度量</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4607ABC3-663B-4FBB-B96E-DC810B52B9AF}, used in Pdo</Comment>
+    <Code>MeasureMapping</Code>
+    <Name>Measure Mapping</Name>
+    <LocalName>度量映射</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {43EF1AE0-B5EF-41B7-853D-4C4DEBA41155}, used in Mtm</Comment>
+    <Code>MeriseTreatmentDiagram</Code>
+    <Name>Merise Process Diagram</Name>
+    <LocalName>Merise 流程图</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {8B5D3680-2056-4280-8B77-FBE8472CB1A8}, used in Mtm</Comment>
+    <Code>Model</Code>
+    <Name>Merise Process Model</Name>
+    <LocalName>Merise 流程模型</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {18112202-1A4B-11D1-83D9-444553540000}, used in Oom</Comment>
+    <Code>Message</Code>
+    <Name>Message</Name>
+    <LocalName>消息</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {D26E3D7E-15C6-47FA-B2A6-47D6D330CECE}, used in Bpm</Comment>
+    <Code>MessageFlow</Code>
+    <Name>Message Flow</Name>
+    <LocalName>消息流</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {D26E3D77-15C6-47FA-B2A6-47D6D330CECE}, used in Bpm</Comment>
+    <Code>MessageFormat</Code>
+    <Name>Message Format</Name>
+    <LocalName>消息格式</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {C2193D75-A834-4F88-88E7-444FEC000000}, used in Bpm</Comment>
+    <Code>Type</Code>
+    <Name>Message Format Type</Name>
+    <LocalName>消息格式类型</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {5627002D-D079-4220-BA93-36615685D6B3}, used in Bpm</Comment>
+    <Code>MessagePart</Code>
+    <Name>Message Part</Name>
+    <LocalName>消息部分</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {1E3E8E91-00BF-4A79-9221-C1A100F05514}, used in Ext</Comment>
+    <Code>PermissionProfile</Code>
+    <Name>Metadata Permission Profile</Name>
+    <LocalName>元数据权限配置文件</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {80E1BE62-1131-4953-941F-8C54220A5487}, used in Xsm</Comment>
+    <Code>MinExclusiveFacet</Code>
+    <Name>Minimum Exclusive Facet</Name>
+    <LocalName>最小排他构面</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {A29D81FA-B209-43C7-874D-19F094567A20}, used in Xsm</Comment>
+    <Code>MinInclusiveFacet</Code>
+    <Name>Minimum Inclusive Facet</Name>
+    <LocalName>最小包含构面</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {11BE4024-B0E5-4EBE-9673-294AF9A21C7C}, used in Xsm</Comment>
+    <Code>MinLengthFacet</Code>
+    <Name>Minimum Length Facet</Name>
+    <LocalName>最小长度构面</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {846E084D-24EB-42FE-B7EC-C36502656962}, used in Eam</Comment>
+    <Code>MobileDevice</Code>
+    <Name>Mobile Device</Name>
+    <LocalName>移动设备</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {6CE9859A-BA73-4EBB-B7D4-8E9127030000};{6CE9859A-BA73-4EBB-B7D4-8E9188020000}, used in Ilm; Ilm</Comment>
+    <Code>Mode</Code>
+    <Name>Mode</Name>
+    <LocalName>模式</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4F87C701-251E-11D1-83D9-444553540000}, used in Obj</Comment>
+    <Code>BaseModel</Code>
+    <Name>Model</Name>
+    <LocalName>模型</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {D81D2DCA-E2C8-4C66-A57F-BC80C8985048}, used in Prj</Comment>
+    <Code>ModelDocument</Code>
+    <Name>Model</Name>
+    <LocalName>模型</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {22CE6773-D0BC-44DA-A53E-6D422DC1D840}, used in Ext</Comment>
+    <Code>ModelCategorySet</Code>
+    <Name>Model Category Set</Name>
+    <LocalName>模型类别集</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {058134FE-93B2-4ADD-AB0C-DEB4DC7DD389}, used in Ilm</Comment>
+    <Code>ModelConnector</Code>
+    <Name>Model Connector</Name>
+    <LocalName>模型连接器</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {46656ACD-6B3A-49CD-AC25-8366D205C52B}, used in Ext</Comment>
+    <Code>BaseModelCreationDescriptor</Code>
+    <Name>Model Creation Descriptor</Name>
+    <LocalName>模型创建描述符</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {919DB75B-E483-45D7-A6B7-E9585DBC4B19}, used in Obj</Comment>
+    <Code>ModelLanguage</Code>
+    <Name>Model Language</Name>
+    <LocalName>模型语言</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {5992B0B8-44D8-4E3D-915E-2D19C680C531}, used in Mtm</Comment>
+    <Code>Module</Code>
+    <Name>Module</Name>
+    <LocalName>模块</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {585CBB28-C940-11D1-BD0D-00A02478ECC9}, used in Rpt</Comment>
+    <Code>MultiModelReport</Code>
+    <Name>Multi-Model Report</Name>
+    <LocalName>多模型报告</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {CDE44E23-9669-11D1-9914-006097355D9B}, used in Pdm</Comment>
+    <Code>MultidimensionalDiagram</Code>
+    <Name>Multidimensional Diagram</Name>
+    <LocalName>多维图</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {87C4D7B3-1820-4D93-82AF-ED5EBA2A9496}, used in Obj</Comment>
+    <Code>BehaviouralFeature</Code>
+    <Name>Named Behavioral Feature</Name>
+    <LocalName>命名行为特征</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {93D26E19-A381-4FF4-89DA-27CE493E5218}, used in Obj</Comment>
+    <Code>NamedClassifier</Code>
+    <Name>Named Classifier</Name>
+    <LocalName>命名分类器</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {1CA52933-C759-4303-9BA4-B35978171665}, used in Obj</Comment>
+    <Code>MixedFeature</Code>
+    <Name>Named Hybrid Feature</Name>
+    <LocalName>命名混合特征</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {63D4E4FD-A2B4-49D3-98FA-994CE90BBA83}, used in Obj</Comment>
+    <Code>NamedLinkMappableObject</Code>
+    <Name>Named Link</Name>
+    <LocalName>命名链接</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4F87C707-251E-11D1-83D9-444553540000}, used in Obj</Comment>
+    <Code>NamedLinkObject</Code>
+    <Name>Named Link</Name>
+    <LocalName>命名链接</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4F87C706-251E-11D1-83D9-444553540000}, used in Obj</Comment>
+    <Code>NamedObject</Code>
+    <Name>Named Object</Name>
+    <LocalName>命名对象</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {1CA52932-C759-4303-9BA4-B35978171665}, used in Obj</Comment>
+    <Code>StructuralFeature</Code>
+    <Name>Named Structural Feature</Name>
+    <LocalName>命名结构特征</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4607ABE1-663B-4FBB-B96E-DC810B52B9AF};{48E4579B-E243-4114-9EF9-4A8006270000}, used in Pdo; Xsm</Comment>
+    <Code>Namespace</Code>
+    <Name>Namespace</Name>
+    <LocalName>命名空间</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {B849F70A-0979-492E-9128-3CD645FA9246}, used in Xsm</Comment>
+    <Code>XmlNamespace</Code>
+    <Name>Namespace</Name>
+    <LocalName>命名空间</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {97AD6350-8853-427E-B1B2-FB8CEAF0468F}, used in Eam</Comment>
+    <Code>Network</Code>
+    <Name>Network</Name>
+    <LocalName>网络</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {F53FC453-31F2-4F8D-A57B-FCB29BF80684}, used in Eam</Comment>
+    <Code>NetworkNode</Code>
+    <Name>Network Node</Name>
+    <LocalName>网络节点</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {18112601-1A4B-11D1-83D9-444553540000}, used in Oom</Comment>
+    <Code>Node</Code>
+    <Name>Node</Name>
+    <LocalName>节点</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {18112603-1A4B-11D1-83D9-444553540000}, used in Oom</Comment>
+    <Code>NodeAssociation</Code>
+    <Name>Node Association</Name>
+    <LocalName>节点关联</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {88A567A4-D097-4930-BB03-297C732FCA12}, used in Xsm</Comment>
+    <Code>Notation</Code>
+    <Name>Notation</Name>
+    <LocalName>表示法</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {B38B4FB0-D9F8-11D1-9944-0060E8140000}, used in Pdo</Comment>
+    <Code>NullValuesRate</Code>
+    <Name>Null Values Rate</Name>
+    <LocalName>空值率</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {42EF6704-385D-462D-81E4-5A83EE79DB20}, used in Xsm</Comment>
+    <Code>NumericFacet</Code>
+    <Name>Numeric Facet</Name>
+    <LocalName>数字构面</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {18112201-1A4B-11D1-83D9-444553540000}, used in Oom</Comment>
+    <Code>UMLObject</Code>
+    <Name>Object</Name>
+    <LocalName>对象</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {18112074-1A4B-11D1-83D9-444553540000}, used in Oom</Comment>
+    <Code>BaseUMLDiagram</Code>
+    <Name>Object Diagram</Name>
+    <LocalName>对象图</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {18112900-1A4B-11D1-83D9-444553540000}, used in Oom</Comment>
+    <Code>ObjectDiagram</Code>
+    <Name>Object Diagram</Name>
+    <LocalName>对象图</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {921DC16A-CBC2-427E-B97B-D7D6C5E14A51}, used in Obj</Comment>
+    <Code>ObjectGenerationCommand</Code>
+    <Name>Object Generation Command</Name>
+    <LocalName>对象生成命令</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {1811206C-1A4B-11D1-83D9-444553540000}, used in Oom</Comment>
+    <Code>ObjectLanguage</Code>
+    <Name>Object Language</Name>
+    <LocalName>对象语言</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {CE1BFEE5-CEFE-482D-A545-4161478933BA}, used in Oom</Comment>
+    <Code>ObjectNode</Code>
+    <Name>Object Node</Name>
+    <LocalName>对象节点</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {18112060-1A4B-11D1-83D9-444553540000}, used in Oom</Comment>
+    <Code>Model</Code>
+    <Name>Object-Oriented Model</Name>
+    <LocalName>面向对象的模型</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {18112066-1A4B-11D1-83D9-444553540000};{5992B0B4-44D8-4E3D-915E-2D19C680C531};{C4A7D8CB-4AC0-4890-AEA7-564212174E57};{D26E3DE4-15C6-47FA-B2A6-47D6D330CECE}, used in Oom; Mtm; Eam; Bpm</Comment>
+    <Code>Operation</Code>
+    <Name>Operation</Name>
+    <LocalName>操作</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {5992B0C1-44D8-4E3D-915E-2D19C680C531}, used in Mtm</Comment>
+    <Code>OperationEmission</Code>
+    <Name>Operation Emission</Name>
+    <LocalName>操作发送</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {18112804-1A4B-11D1-83D9-444553540000}, used in Oom</Comment>
+    <Code>OperationMapping</Code>
+    <Name>Operation Mapping</Name>
+    <LocalName>操作映射</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {5992B0B6-44D8-4E3D-915E-2D19C680C531}, used in Mtm</Comment>
+    <Code>OperationTriggering</Code>
+    <Name>Operation Triggering</Name>
+    <LocalName>操作触发</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {C2193D75-A834-4F88-88E7-444FD9000000}, used in Bpm</Comment>
+    <Code>Type</Code>
+    <Name>Operation Type</Name>
+    <LocalName>操作类型</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {585CBB00-C940-11D1-BD0D-00A02478ECC9}, used in Obj</Comment>
+    <Code>ListOfOptions</Code>
+    <Name>Options List</Name>
+    <LocalName>操作列表</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {6CE9859A-BA73-4EBB-B7D4-8E912F030000}, used in Ilm</Comment>
+    <Code>Order</Code>
+    <Name>Order</Name>
+    <LocalName>顺序</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {B537C1A0-D293-11D0-83D9-4445D1010000}, used in Oom</Comment>
+    <Code>RoleAOrdering</Code>
+    <Name>Ordering A</Name>
+    <LocalName>排序 A</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {AC1E58DB-EF4B-48C3-9762-3254579BF59B}, used in Eam</Comment>
+    <Code>OrganizationChartDiagram</Code>
+    <Name>Organization Chart</Name>
+    <LocalName>组织图</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {CE1BFEF2-CEFE-482D-A545-4161478933BA}, used in Ooo</Comment>
+    <Code>BaseOrganizationUnit</Code>
+    <Name>Organization Unit</Name>
+    <LocalName>组织单位</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {0B881120-9307-4F16-B5FE-218CF7091698};{CE1BFEED-CEFE-482D-A545-4161478933BA};{D26E3D7F-15C6-47FA-B2A6-47D6D330CECE}, used in Eam; Oom; Bpm</Comment>
+    <Code>OrganizationUnit</Code>
+    <Name>Organization Unit</Name>
+    <LocalName>组织单位</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {9AD58812-8309-4AD8-B25F-982BE3029675}, used in Mtm</Comment>
+    <Code>OrganizationalDiagram</Code>
+    <Name>Organizational Diagram</Name>
+    <LocalName>组织图</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {CE1BFF06-CEF0-482D-A545-4161478933BA}, used in Oom</Comment>
+    <Code>OutputActivityParameter</Code>
+    <Name>Output Parameter</Name>
+    <LocalName>输出参数</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4F87C700-251E-11D1-83D9-444553540000}, used in Obj</Comment>
+    <Code>BaseFolder</Code>
+    <Name>Package</Name>
+    <LocalName>包</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {3647BA87-24C1-4715-A29C-F14F890271B8}, used in Cdo</Comment>
+    <Code>BaseLogicalPackage</Code>
+    <Name>Package</Name>
+    <LocalName>包</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4F87C7AA-251E-11D1-83D9-444553540000}, used in Obj</Comment>
+    <Code>BasePackage</Code>
+    <Name>Package</Name>
+    <LocalName>包</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4BA9F641-DAB1-11D1-9944-006097355D9B}, used in Pdo</Comment>
+    <Code>BasePhysicalPackage</Code>
+    <Name>Package</Name>
+    <LocalName>包</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {CE1BFEE1-CEFE-482D-A545-4161478933BA}, used in Ooo</Comment>
+    <Code>BehavioralPackage</Code>
+    <Name>Package</Name>
+    <LocalName>包</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {0016F2D1-F179-11D2-B6A0-0008C7EA8BFF};{18112061-1A4B-11D1-83D9-444553540000};{3D3C409D-B60D-430E-A1C4-B880653AC634};{3F78E635-A98C-4FB7-994C-DD5DE09F2C44};{41B45741-FC18-41B7-8FC6-36BEEFDE7EEE};{8B5D..., used in Cdm; Oom; Bpm; Ilm; Eam; Mtm; Rqm; Ldm; Pdm; Frm</Comment>
+    <Code>Package</Code>
+    <Name>Package</Name>
+    <LocalName>包</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {18112920-1A4B-11D1-83D9-444553540000}, used in Oom</Comment>
+    <Code>UMLPackageDiagram</Code>
+    <Name>Package Diagram</Name>
+    <LocalName>包图</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {A6BAC8D3-B730-11D1-8898-00A02455633B}, used in Rpt</Comment>
+    <Code>ReportParagraphContainer</Code>
+    <Name>Paragraph container</Name>
+    <LocalName>包容器</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {1811206D-1A4B-11D1-83D9-444553540000};{4607ABDA-663B-4FBB-B96E-DC810B52B9AF};{F6B53A07-FB20-499A-AB99-2AE04BE39FA4}, used in Oom; Pdo; Ilm</Comment>
+    <Code>Parameter</Code>
+    <Name>Parameter</Name>
+    <LocalName>参数</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {B38B4FB0-D9F8-11D1-9944-006000150000};{B537C1A0-D293-11D0-83D9-4445D2010000}, used in Pdo; Oom</Comment>
+    <Code>ParameterType</Code>
+    <Name>Parameter Type</Name>
+    <LocalName>参数类型</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {18112080-1A4B-11D1-83D9-444553540000}, used in Oom</Comment>
+    <Code>Part</Code>
+    <Name>Part</Name>
+    <LocalName>部分</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {37129E6D-C479-46ED-BC85-F4879FAEB471}, used in Xsm</Comment>
+    <Code>Particle</Code>
+    <Name>Particle</Name>
+    <LocalName>粒子</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4607ABCF-663B-4FBB-B96E-DC810B52B9AF}, used in Pdo</Comment>
+    <Code>Partition</Code>
+    <Name>Partition</Name>
+    <LocalName>分区</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {B38B4FB0-D9F8-11D1-9944-0060011B0000}, used in Pdo</Comment>
+    <Code>PartitionRangeUnit</Code>
+    <Name>Partition range time unit</Name>
+    <LocalName>分区范围时间单位</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4607ABCE-663B-4FBB-B96E-DC810B52B9AF}, used in Pdo</Comment>
+    <Code>Partitioning</Code>
+    <Name>Partitioning</Name>
+    <LocalName>分区</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {CA86D4E8-0B8A-4DFD-A132-FA65EF7821F7}, used in Xsm</Comment>
+    <Code>PatternFacet</Code>
+    <Name>Pattern Facet</Name>
+    <LocalName>模式构面</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4607ABCB-663B-4FBB-B96E-DC810B52B9AF}, used in Pdo</Comment>
+    <Code>Permission</Code>
+    <Name>Permission</Name>
+    <LocalName>权限</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {B537C1A0-D293-11D0-83D9-4445CF010000}, used in Oom</Comment>
+    <Code>Persistence</Code>
+    <Name>Persistence</Name>
+    <LocalName>持久性</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {B537C1A0-D293-11D0-83D9-4445D3010000}, used in Oom</Comment>
+    <Code>PersistentClassGeneration</Code>
+    <Name>Persistent Class Generation</Name>
+    <LocalName>持久类生成</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {48E4579B-E243-4114-9EF9-4A80A7C80000}, used in Xsm</Comment>
+    <Code>HiddenGenMode</Code>
+    <Name>Persistent Generation Mode</Name>
+    <LocalName>持久生成模式</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {B537C1A0-D293-11D0-83D9-444591020000}, used in Oom</Comment>
+    <Code>PersistentGenerationMode</Code>
+    <Name>Persistent Generation Mode</Name>
+    <LocalName>持久生成模式</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {585CBB3A-C940-11D1-BD0D-00A02478ECC9}, used in Obj</Comment>
+    <Code>PersistentSelection</Code>
+    <Name>Persistent Selection</Name>
+    <LocalName>持久选择</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {FD2273F7-DA7C-45C8-A41E-7D87EAA86E33}, used in Obj</Comment>
+    <Code>PersistentSelectionManager</Code>
+    <Name>Persistent selection</Name>
+    <LocalName>持久选择</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {6641B234-86D9-4B93-9FF0-28A6BFCE9FCE}, used in Eam</Comment>
+    <Code>Person</Code>
+    <Name>Person</Name>
+    <LocalName>人员</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {268C30CC-EE7B-4A12-AD7E-B4135E6F0839};{5992B0BA-44D8-4E3D-915E-2D19C680C531};{5C937D24-8CC3-42CA-993F-09B3C34E7633}, used in Pdo; Mtm; Eam</Comment>
+    <Code>Phase</Code>
+    <Name>Phase</Name>
+    <LocalName>阶段</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {5992B0C2-44D8-4E3D-915E-2D19C680C531}, used in Mtm</Comment>
+    <Code>PhaseEmission</Code>
+    <Name>Phase Emission</Name>
+    <LocalName>阶段发送</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {5992B0BF-44D8-4E3D-915E-2D19C680C531}, used in Mtm</Comment>
+    <Code>PhaseTriggering</Code>
+    <Name>Phase Triggering</Name>
+    <LocalName>阶段触发</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4BA9F640-DAB1-11D1-9944-006097355D9B}, used in Pdo</Comment>
+    <Code>BasePhysicalModel</Code>
+    <Name>Physical Data Model</Name>
+    <LocalName>物理数据模型</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {CDE44E21-9669-11D1-9914-006097355D9B}, used in Pdm</Comment>
+    <Code>Model</Code>
+    <Name>Physical Data Model</Name>
+    <LocalName>物理数据模型</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {CDE44E20-9669-11D1-9914-006097355D9B}, used in Pdm</Comment>
+    <Code>PhysicalDiagram</Code>
+    <Name>Physical Diagram</Name>
+    <LocalName>物理图</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {36083F84-1A49-11D1-83D9-444553540000}, used in Sym</Comment>
+    <Code>PictureFile</Code>
+    <Name>Picture File</Name>
+    <LocalName>图片文件</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {B38B4FB0-D9F8-11D1-9944-0060171B0000}, used in Pdo</Comment>
+    <Code>PolicyType</Code>
+    <Name>Policy type</Name>
+    <LocalName>策略类型</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {1811207F-1A4B-11D1-83D9-444553540000}, used in Oom</Comment>
+    <Code>Port</Code>
+    <Name>Port</Name>
+    <LocalName>端口</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {B537C1A0-D293-11D0-83D9-444557020000}, used in Oom</Comment>
+    <Code>PredefinedEvent</Code>
+    <Name>Predefined Event</Name>
+    <LocalName>预定义事件</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {95383AA3-C9A7-4EA0-9F3B-2A8FC4020000}, used in Rqm</Comment>
+    <Code>Priority</Code>
+    <Name>Priority</Name>
+    <LocalName>优先级</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {6B5132AA-B685-482C-8061-071DA7A582D0};{D4B2DF40-0047-11D2-9952-006097355D9B}, used in Ilm; Pdo</Comment>
+    <Code>Procedure</Code>
+    <Name>Procedure</Name>
+    <LocalName>过程</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {D4B2DF44-0047-11D2-9952-006097355D9B}, used in Pdo</Comment>
+    <Code>ProcedureTemplate</Code>
+    <Name>Procedure Template</Name>
+    <LocalName>过程模板</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {5D0E7E07-756C-4878-AE9C-E3268359B0F4}, used in Ilm</Comment>
+    <Code>DataMovementProcess</Code>
+    <Name>Process</Name>
+    <LocalName>流程</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {B9FD98A2-EFD3-4345-877D-BF5031D5D39B};{D26E3D74-15C6-47FA-B2A6-47D6D330CECE}, used in Eam; Bpm</Comment>
+    <Code>Process</Code>
+    <Name>Process</Name>
+    <LocalName>流程</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {020A5FC9-4378-4D8F-B452-9A1E1DD4B291}, used in Ilm</Comment>
+    <Code>ProcessConnection</Code>
+    <Name>Process Connection</Name>
+    <LocalName>流程连接</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {48E4579B-E243-4114-9EF9-4A80C9260000}, used in Xsm</Comment>
+    <Code>ProcessContents</Code>
+    <Name>Process Contents</Name>
+    <LocalName>流程内容</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {D26E3D60-15C6-47FA-B2A6-47D6D330CECE}, used in Bpm</Comment>
+    <Code>ProcessHierarchyDiagram</Code>
+    <Name>Process Hierarchy Diagram</Name>
+    <LocalName>流程层次结构图</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {7141CE88-2107-423A-A5D4-23B73A90B769}, used in Bpm</Comment>
+    <Code>ProcessLanguage</Code>
+    <Name>Process Language</Name>
+    <LocalName>流程语言</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {75AA5273-5F89-4B5F-B3B1-C99018F73179}, used in Eam</Comment>
+    <Code>ProcessMapDiagram</Code>
+    <Name>Process Map</Name>
+    <LocalName>流程映射</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {5E85CDFE-22A1-422B-9540-E9C4F0F803C2}, used in Bpm</Comment>
+    <Code>ProcessServiceDiagram</Code>
+    <Name>Process Service Diagram</Name>
+    <LocalName>流程服务图</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {B38B4FB0-D9F8-11D1-9944-0060E9140000}, used in Pdo</Comment>
+    <Code>ProfileClass</Code>
+    <Name>Profile Class</Name>
+    <LocalName>配置文件类</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {747529FD-3882-4096-8DA6-40D9AB637C6B}, used in Eam</Comment>
+    <Code>Program</Code>
+    <Name>Program</Name>
+    <LocalName>程序</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {2F5AF134-AA1A-4FA6-8DC2-134573C7A449};{FF4B6538-9856-42CF-B9B9-304ED370CEAA}, used in Eam; Prj</Comment>
+    <Code>Project</Code>
+    <Name>Project</Name>
+    <LocalName>项目</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {73B5A8EB-0020-48B2-A48F-79F83763EB45}, used in Prj</Comment>
+    <Code>ProjectDiagram</Code>
+    <Name>Project Diagram</Name>
+    <LocalName>项目图</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {ADB3BE28-E395-4818-9E90-237C6BA4E8E2}, used in Prj</Comment>
+    <Code>BaseProjectDocument</Code>
+    <Name>Project Document</Name>
+    <LocalName>项目文档</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {1E597173-9350-11D1-AB3C-0020AF71E433}, used in Cdm</Comment>
+    <Code>BaseAttribute</Code>
+    <Name>Property</Name>
+    <LocalName>属性</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {00DFA0F0-5FD7-4DA1-BD1F-9D7F7475E71F}, used in Ilm</Comment>
+    <Code>Publication</Code>
+    <Name>Publication</Name>
+    <LocalName>发布</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {18112068-1A4B-11D1-83D9-444553540000}, used in Oom</Comment>
+    <Code>Realization</Code>
+    <Name>Realization</Name>
+    <LocalName>实现</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {01B381ED-F9A9-4668-83DD-7199F5AB8E61}, used in Bpm</Comment>
+    <Code>ReceptionDataMapping</Code>
+    <Name>Reception Mapping</Name>
+    <LocalName>接收映射</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {67B6352B-B178-442F-BF06-F0C322417A1D}, used in Xsm</Comment>
+    <Code>Redefine</Code>
+    <Name>Redefine</Name>
+    <LocalName>重新定义</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {6E6C7340-0044-11D2-A252-006008700815}, used in Pdo</Comment>
+    <Code>Reference</Code>
+    <Name>Reference</Name>
+    <LocalName>引用</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {6E6C7341-0044-11D2-A252-006008700815}, used in Pdo</Comment>
+    <Code>ReferenceJoin</Code>
+    <Name>Reference Join</Name>
+    <LocalName>引用连接</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {3647BA8F-24C1-4715-A29C-F14F890271B8}, used in Cdo</Comment>
+    <Code>BaseLogicalRelationship</Code>
+    <Name>Relationship</Name>
+    <LocalName>关系</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {1E597177-9350-11D1-AB3C-0020AF71E433};{DAF1F7A3-F461-44A8-94DF-65B89B700DF3}, used in Cdm; Ldm</Comment>
+    <Code>Relationship</Code>
+    <Name>Relationship</Name>
+    <LocalName>关系</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {EBA99BE4-DFB7-44F9-8847-31F8B39B8B21}, used in Ldm</Comment>
+    <Code>RelationshipJoin</Code>
+    <Name>Relationship Join</Name>
+    <LocalName>关系连接</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {362D41EF-9D82-11D1-8E5D-444553540000}, used in Rep</Comment>
+    <Code>BaseReplication</Code>
+    <Name>Replication</Name>
+    <LocalName>复制</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {362D41F1-9D82-11D1-8E5D-444553540000}, used in Rep</Comment>
+    <Code>Replication</Code>
+    <Name>Replication</Name>
+    <LocalName>复制</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {7DA70915-E84D-4DC4-9708-29100E521180}, used in Ilm</Comment>
+    <Code>ReplicationProcess</Code>
+    <Name>Replication Process</Name>
+    <LocalName>复制流程</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {585CBB24-C940-11D1-BD0D-00A02478ECC9}, used in Rpt</Comment>
+    <Code>BaseModelReport</Code>
+    <Name>Report</Name>
+    <LocalName>报告</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {A6BAC8D0-B730-11D1-8898-00A02455633B}, used in Rpt</Comment>
+    <Code>ReportBaseClass</Code>
+    <Name>Report Base Class</Name>
+    <LocalName>报告基类</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {D3A4388C-6667-4F99-A6A6-366003E3E463}, used in Eam</Comment>
+    <Code>ReportDocument</Code>
+    <Name>Report Document</Name>
+    <LocalName>报告文档</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {585CBB37-C940-11D1-BD0D-00A02478ECC9}, used in Ext</Comment>
+    <Code>ReportLanguage</Code>
+    <Name>Report Language</Name>
+    <LocalName>报告语言</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {A6BAC8D1-B730-11D1-8898-00A02455633B}, used in Rpt</Comment>
+    <Code>BaseReport</Code>
+    <Name>Report Template</Name>
+    <LocalName>报告模板</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {07C28985-8768-4A85-942C-16BDA4BF384B}, used in Rmg</Comment>
+    <Code>RepositoryBranchFolder</Code>
+    <Name>Repository Branch</Name>
+    <LocalName>存储库分支</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4B6CF042-A80F-11D3-9C47-0008C7693015}, used in Rmg</Comment>
+    <Code>RepositoryFolder</Code>
+    <Name>Repository Folder</Name>
+    <LocalName>存储库文件夹</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {1811207A-1A4B-11D1-83D9-444553540000}, used in Oom</Comment>
+    <Code>RequireLink</Code>
+    <Name>Require Link</Name>
+    <LocalName>需要链接</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {160851D8-8FBA-42E6-A889-A9747E4A7965}, used in Rqm</Comment>
+    <Code>Requirement</Code>
+    <Name>Requirement</Name>
+    <LocalName>需求</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {9453AEF1-7EB1-4D2E-BAE9-D396B24CF703}, used in Rqm</Comment>
+    <Code>RequirementsDocumentView</Code>
+    <Name>Requirements Document View</Name>
+    <LocalName>需求文档视图</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {DABA1E0A-0922-4B05-B7F0-B0BD7A73FD33}, used in Rqm</Comment>
+    <Code>Model</Code>
+    <Name>Requirements Model</Name>
+    <LocalName>需求模型</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {D26E3D7A-15C6-47FA-B2A6-47D6D330CECE}, used in Bpm</Comment>
+    <Code>Resource</Code>
+    <Name>Resource</Name>
+    <LocalName>资源</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {D26E3D7B-15C6-47FA-B2A6-47D6D330CECE}, used in Bpm</Comment>
+    <Code>ResourceFlow</Code>
+    <Name>Resource Flow</Name>
+    <LocalName>资源流</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {62CBBB8E-B793-48C3-B86A-1F6CCED34AB1}, used in Xsm</Comment>
+    <Code>Restriction</Code>
+    <Name>Restriction</Name>
+    <LocalName>限制</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4B6C59FB-09DF-42CC-9A50-1044DEF31B47}, used in Pdo</Comment>
+    <Code>MeasureRestriction</Code>
+    <Name>Restriction Link</Name>
+    <LocalName>限制链接</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4607ABE2-663B-4FBB-B96E-DC810B52B9AF}, used in Pdo</Comment>
+    <Code>ResultColumn</Code>
+    <Name>Result Column</Name>
+    <LocalName>结果列</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {C646130E-8F4F-48BD-8C6F-AB2EFE38277D}, used in Obj</Comment>
+    <Code>BaseReverseObjectMapping</Code>
+    <Name>Reverse Mapping</Name>
+    <LocalName>反向映射</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {5D18B9FA-B384-4073-ADD0-9E56C1A7F6DA}, used in Obj</Comment>
+    <Code>DefaultReverseObjectMapping</Code>
+    <Name>Reverse Mapping</Name>
+    <LocalName>反向映射</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {95383AA3-C9A7-4EA0-9F3B-2A8FBF020000}, used in Rqm</Comment>
+    <Code>Risk</Code>
+    <Name>Risk</Name>
+    <LocalName>风险</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {2B58BF55-6BD4-43A5-99F0-47626031A057};{4607ABC9-663B-4FBB-B96E-DC810B52B9AF}, used in Eam; Pdo</Comment>
+    <Code>Role</Code>
+    <Name>Role</Name>
+    <LocalName>角色</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {5FE554B9-8075-41A3-818B-1656AAEBBEF0};{65B21BF0-2B86-4BE8-9363-6EDA3EA6149E}, used in Eam; Bpm</Comment>
+    <Code>RoleAssociation</Code>
+    <Name>Role Association</Name>
+    <LocalName>角色关联</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {93EA828D-C111-4247-BFFB-AC0B4BF67D41}, used in Eam</Comment>
+    <Code>RolePlayer</Code>
+    <Name>Role Player</Name>
+    <LocalName>角色扮演者</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {362D41EE-9D82-11D1-8E5D-444553540000}, used in Rep</Comment>
+    <Code>RootObject</Code>
+    <Name>Root Object</Name>
+    <LocalName>根对象</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {18472FF9-029A-486C-88DE-A8773C2DACA1}, used in Prj</Comment>
+    <Code>FrameworkRow</Code>
+    <Name>Row</Name>
+    <LocalName>行</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {3AE32291-18F7-11D3-86B9-0010EF130000}, used in Obj</Comment>
+    <Code>Type</Code>
+    <Name>Rule Type</Name>
+    <LocalName>规则类型</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {65EEE853-F745-40CC-84FD-BB8C39B2794C}, used in Ilm</Comment>
+    <Code>ScriptExecution</Code>
+    <Name>Script Execution</Name>
+    <LocalName>脚本执行</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {82239530-B595-4AE4-849E-DB4393981BAB}, used in Xsm</Comment>
+    <Code>Selector</Code>
+    <Name>Selector</Name>
+    <LocalName>选择器</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4BA9F660-DAB1-11D1-9944-006097355D9B}, used in Pdo</Comment>
+    <Code>Sequence</Code>
+    <Name>Sequence</Name>
+    <LocalName>顺序</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {18112200-1A4B-11D1-83D9-444553540000}, used in Oom</Comment>
+    <Code>SequenceDiagram</Code>
+    <Name>Sequence Diagram</Name>
+    <LocalName>顺序图</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {D836B297-721C-4EF5-8A7F-D0646A44BA9F}, used in Ilm</Comment>
+    <Code>Server</Code>
+    <Name>Server</Name>
+    <LocalName>服务器</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {D26E3DE3-15C6-47FA-B2A6-47D6D330CECE}, used in Bpm</Comment>
+    <Code>ServiceInterface</Code>
+    <Name>Service Interface</Name>
+    <LocalName>服务接口</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {AC2F8120-1EBE-4304-8B22-BDF966C43FAF}, used in Eam</Comment>
+    <Code>ServiceOrientedDiagram</Code>
+    <Name>Service Oriented Diagram</Name>
+    <LocalName>面向服务的图</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {D26E3DE2-15C6-47FA-B2A6-47D6D330CECE}, used in Bpm</Comment>
+    <Code>ServiceProvider</Code>
+    <Name>Service Provider</Name>
+    <LocalName>服务提供程序</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {D2A67B60-828F-49CC-A1C8-E300F1331BD6}, used in Obj</Comment>
+    <Code>Settings</Code>
+    <Name>Settings</Name>
+    <LocalName>设置</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {362D41EC-9D82-11D1-8E5D-444553540000}, used in Rep</Comment>
+    <Code>Shortcut</Code>
+    <Name>Shortcut</Name>
+    <LocalName>快捷方式</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {B8A4EBF3-4578-4198-8380-C5927D240D80}, used in Xsm</Comment>
+    <Code>SimpleContent</Code>
+    <Name>Simple Content</Name>
+    <LocalName>简单内容</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {A38AEC6F-A6CA-4C66-8D1E-B9683544ECFC}, used in Xsm</Comment>
+    <Code>SimpleType</Code>
+    <Name>Simple Type</Name>
+    <LocalName>简单类型</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {79628DFC-A161-4017-B85A-A4ED49707837}, used in Xsm</Comment>
+    <Code>SimpleTypeList</Code>
+    <Name>Simple Type List</Name>
+    <LocalName>简单类型列表</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {F376FF09-F4B0-4C72-938C-E752C5EB01E5}, used in Xsm</Comment>
+    <Code>SimpleTypeUnion</Code>
+    <Name>Simple Type Union</Name>
+    <LocalName>简单类型联合</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {DC20E639-23DC-419F-8C81-7BF75DE34828}, used in Eam</Comment>
+    <Code>Site</Code>
+    <Name>Site</Name>
+    <LocalName>站点</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {F2150A64-C04E-49F5-8164-287380A7DDF0}, used in Eam</Comment>
+    <Code>SoftwareServer</Code>
+    <Name>Software Server</Name>
+    <LocalName>软件服务器</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {B38B4FB0-D9F8-11D1-9944-0060141B0000}, used in Pdo</Comment>
+    <Code>SourceScope</Code>
+    <Name>Source</Name>
+    <LocalName>源</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {CE1BFEE4-CEFE-482D-A545-4161478933BA}, used in Ooo</Comment>
+    <Code>BaseStart</Code>
+    <Name>Start</Name>
+    <LocalName>启动</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {D26E3D7C-15C6-47FA-B2A6-47D6D330CECE}, used in Bpm</Comment>
+    <Code>ProcessStart</Code>
+    <Name>Start</Name>
+    <LocalName>启动</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {CE1BFEE8-CEFE-482D-A545-4161478933BA}, used in Oom</Comment>
+    <Code>Start</Code>
+    <Name>Start</Name>
+    <LocalName>启动</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {18112701-1A4B-11D1-83D9-444553540000}, used in Oom</Comment>
+    <Code>State</Code>
+    <Name>State</Name>
+    <LocalName>状态</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {CE1BFEE3-CEFE-482D-A545-4161478933BA}, used in Ooo</Comment>
+    <Code>ObjectStateVertex</Code>
+    <Name>State Vertex</Name>
+    <LocalName>状态顶点</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {18112700-1A4B-11D1-83D9-444553540000}, used in Oom</Comment>
+    <Code>StatechartDiagram</Code>
+    <Name>Statechart Diagram</Name>
+    <LocalName>状态图</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {95383AA3-C9A7-4EA0-9F3B-2A8FBE020000};{AD0014F6-B1B8-41D0-B196-78B327150000}, used in Rqm; Eam</Comment>
+    <Code>Status</Code>
+    <Name>Status</Name>
+    <LocalName>状态</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4BA9F644-DAB1-11D1-9944-006097355D9B}, used in Pdo</Comment>
+    <Code>Storage</Code>
+    <Name>Storage</Name>
+    <LocalName>存储</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4B6CF045-A80F-11D3-9C47-0008C7693015}, used in Rmg</Comment>
+    <Code>Document</Code>
+    <Name>Stored Document</Name>
+    <LocalName>已存储文档</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4B6CF043-A80F-11D3-9C47-0008C7693015}, used in Rmg</Comment>
+    <Code>RepositoryModel</Code>
+    <Name>Stored Model</Name>
+    <LocalName>已存储模型</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4B6CF044-A80F-11D3-9C47-0008C7693015}, used in Rmg</Comment>
+    <Code>RepositoryReport</Code>
+    <Name>Stored Report</Name>
+    <LocalName>已存储报告</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4BA9F679-DAB1-11D1-9944-006097355D9B}, used in Pdo</Comment>
+    <Code>StructuralFeatureMapping</Code>
+    <Name>Structural Feature Map</Name>
+    <LocalName>结构特征映射</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4F87C7A4-251E-11D1-83D9-444553540000}, used in Obj</Comment>
+    <Code>BaseStructuralFeatureMapping</Code>
+    <Name>Sub-object mapping</Name>
+    <LocalName>子对象映射</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {248AE09D-7F4F-4654-AF92-8186EBC114B5}, used in Obj</Comment>
+    <Code>DefaultStructuralFeatureMapping</Code>
+    <Name>Sub-object mapping</Name>
+    <LocalName>子对象映射</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {362D41F0-9D82-11D1-8E5D-444553540000}, used in Rep</Comment>
+    <Code>SubReplication</Code>
+    <Name>Sub-Replication</Name>
+    <LocalName>子复制</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {3645F036-DADF-4105-BE58-FD98DB23DB17}, used in Ilm</Comment>
+    <Code>Subscription</Code>
+    <Name>Subscription</Name>
+    <LocalName>预订</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {CE1BFEF1-CEFE-482D-A545-4161478933BA}, used in Ooo</Comment>
+    <Code>BaseSynchronization</Code>
+    <Name>Synchronization</Name>
+    <LocalName>同步</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {CE1BFEEB-CEFE-482D-A545-4161478933BA};{D26E3D79-15C6-47FA-B2A6-47D6D330CECE}, used in Oom; Bpm</Comment>
+    <Code>Synchronization</Code>
+    <Name>Synchronization</Name>
+    <LocalName>同步</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4607ABC7-663B-4FBB-B96E-DC810B52B9AF};{9CA66469-FBBC-4528-9EFE-E70B836D21DE}, used in Pdo; Glm</Comment>
+    <Code>Synonym</Code>
+    <Name>Synonym</Name>
+    <LocalName>同义词</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {11C46C28-3C92-4F58-BE25-D15360126CCC}, used in Eam</Comment>
+    <Code>System</Code>
+    <Name>System</Name>
+    <LocalName>系统</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {380BAA40-0042-11D2-BD28-00A02478ECC9}, used in Pdo</Comment>
+    <Code>Table</Code>
+    <Name>Table</Name>
+    <LocalName>表</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4607ABD2-663B-4FBB-B96E-DC810B52B9AF}, used in Pdo</Comment>
+    <Code>TableCollapsing</Code>
+    <Name>Table Collapsing</Name>
+    <LocalName>表折叠</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {99022F42-35B8-47B9-82BB-5FA790990465}, used in Xsm</Comment>
+    <Code>TableColumnMapping</Code>
+    <Name>Table Column Mapping</Name>
+    <LocalName>表列映射</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {158B81C8-1418-447A-B491-BECD06E85666};{21A03551-B3CB-4A27-814F-C700D3C4C2A9};{4607ABC0-663B-4FBB-B96E-DC810B52B9AF}, used in Oom; Xsm; Pdo</Comment>
+    <Code>TableMapping</Code>
+    <Name>Table Mapping</Name>
+    <LocalName>表映射</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4BA9F645-DAB1-11D1-9944-006097355D9B}, used in Pdo</Comment>
+    <Code>Tablespace</Code>
+    <Name>Tablespace</Name>
+    <LocalName>表空间</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {362D41ED-9D82-11D1-8E5D-444553540000}, used in Rep</Comment>
+    <Code>TargetModel</Code>
+    <Name>Target model reference</Name>
+    <LocalName>目标模型引用</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4607ABD3-663B-4FBB-B96E-DC810B52B9AF}, used in Pdo</Comment>
+    <Code>TargetTable</Code>
+    <Name>Target Table</Name>
+    <LocalName>目标表</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {5992B0B9-44D8-4E3D-915E-2D19C680C531}, used in Mtm</Comment>
+    <Code>Task</Code>
+    <Name>Task</Name>
+    <LocalName>任务</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {B6E8E0A3-4C6A-4B43-A4E8-8515F14E9B11}, used in Eam</Comment>
+    <Code>TechnologyInfrastructureDiagram</Code>
+    <Name>Technology Infrastructure Diagram</Name>
+    <LocalName>技术基础架构图</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {EBE946CF-7218-4FAC-B85E-4AB922930494}, used in Glm</Comment>
+    <Code>Term</Code>
+    <Name>Term</Name>
+    <LocalName>术语</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4BA9F643-DAB1-11D1-9944-006097355D9B}, used in Pdo</Comment>
+    <Code>TestDataProfile</Code>
+    <Name>Test Data Profile</Name>
+    <LocalName>测试数据配置文件</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {B38B4FB0-D9F8-11D1-9944-0060031B0000}, used in Pdo</Comment>
+    <Code>TimeUnit</Code>
+    <Name>Time unit</Name>
+    <LocalName>时间单位</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {2F3BFB43-8608-4F23-A99A-CB4801E49D82}, used in Eam</Comment>
+    <Code>TimelineDiagram</Code>
+    <Name>Timeline Diagram</Name>
+    <LocalName>时间线图</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {D9612717-785D-4E96-ADDC-D7ED6EE71B4B}, used in Xsm</Comment>
+    <Code>TotalDigitFacet</Code>
+    <Name>Total Digit Facet</Name>
+    <LocalName>全部数字构面</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4F87C716-251E-11D1-83D9-444553540000}, used in Obj</Comment>
+    <Code>ExtendedDependency</Code>
+    <Name>Traceability Link</Name>
+    <LocalName>跟踪链接</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {AEEB5F2F-B67F-4217-85E5-15ACFB2DA467}, used in Rqm</Comment>
+    <Code>TraceabilityLink</Code>
+    <Name>Traceability Link</Name>
+    <LocalName>跟踪链接</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {778207DC-DB01-4D1A-BC4E-82BE7E756284}, used in Rqm</Comment>
+    <Code>TraceabilityMatrixView</Code>
+    <Name>Traceability Matrix View</Name>
+    <LocalName>跟踪矩阵视图</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {B537C1A0-D293-11D0-83D9-4445D7010000}, used in Oom</Comment>
+    <Code>TransactionSupport</Code>
+    <Name>Transaction</Name>
+    <LocalName>事务</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {138D1AA8-9369-4A43-A6F3-B4DD4900A746}, used in Obj</Comment>
+    <Code>BaseTransformation</Code>
+    <Name>Transformation</Name>
+    <LocalName>转换</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4607ABCD-663B-4FBB-B96E-DC810B52B9AF}, used in Pdo</Comment>
+    <Code>Transformation</Code>
+    <Name>Transformation</Name>
+    <LocalName>转换</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {FD27D94D-ADE5-4739-AF79-CE81883EB5D2}, used in Ilm</Comment>
+    <Code>TransformationControlFlow</Code>
+    <Name>Transformation Control Flow</Name>
+    <LocalName>转换控制流</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {9832A983-9831-4B46-9FEA-42EB21344290}, used in Ilm</Comment>
+    <Code>TransformationControlFlowDiagram</Code>
+    <Name>Transformation Control Flow Diagram</Name>
+    <LocalName>转换控制流程图</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4D425B11-0B0B-4F5E-8843-B74521B14FD1}, used in Ilm</Comment>
+    <Code>TransformationDecision</Code>
+    <Name>Transformation Decision</Name>
+    <LocalName>转换决策</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {91AD6C94-392C-4783-94F1-263C056327C8}, used in Ilm</Comment>
+    <Code>TransformationEnd</Code>
+    <Name>Transformation End</Name>
+    <LocalName>转换结束</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {43679CB7-4383-4C9B-8FF5-92EF26FD62E5}, used in Ilm</Comment>
+    <Code>TransformationParameter</Code>
+    <Name>Transformation Parameter</Name>
+    <LocalName>转换参数</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {FDD78DB7-82DC-4FFB-826E-3FEBDE1E6D64}, used in Ilm</Comment>
+    <Code>TransformationProcess</Code>
+    <Name>Transformation Process</Name>
+    <LocalName>转换流程</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {224A90D0-6BD4-407C-8917-266588E98D6E}, used in Obj</Comment>
+    <Code>TransformationSource</Code>
+    <Name>Transformation Source</Name>
+    <LocalName>转换源</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {FD6C77ED-4D26-4EB4-977B-8A36C3C35D26}, used in Ilm</Comment>
+    <Code>TransformationStart</Code>
+    <Name>Transformation Start</Name>
+    <LocalName>转换开始</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {F14B6900-E550-422A-9445-C1CC0BA00759}, used in Ilm</Comment>
+    <Code>TransformationStep</Code>
+    <Name>Transformation Step</Name>
+    <LocalName>转换步骤</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {2A4D7457-98FC-4947-AF17-1CA915E0BC30}, used in Ilm</Comment>
+    <Code>TransformationSynchronization</Code>
+    <Name>Transformation Synchronization</Name>
+    <LocalName>转换同步</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {3AF154C1-1E5D-41A7-BE46-74E184615565}, used in Obj</Comment>
+    <Code>TransformationTarget</Code>
+    <Name>Transformation Target</Name>
+    <LocalName>转换目标</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {9CADE5BE-5BCF-48D1-B51D-99521E33C690}, used in Ilm</Comment>
+    <Code>TransformationTaskExecution</Code>
+    <Name>Transformation Task Execution</Name>
+    <LocalName>转换任务执行</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {C2193D75-A834-4F88-88E7-444F5F020000}, used in Bpm</Comment>
+    <Code>TransformationType</Code>
+    <Name>Transformation Type</Name>
+    <LocalName>转换类型</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {CE1BFEEC-CEFE-482D-A545-4161478933BA}, used in Oom</Comment>
+    <Code>Transition</Code>
+    <Name>Transition</Name>
+    <LocalName>转换</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {D4B2DF43-0047-11D2-9952-006097355D9B}, used in Pdo</Comment>
+    <Code>Trigger</Code>
+    <Name>Trigger</Name>
+    <LocalName>触发器</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {D4B2DF41-0047-11D2-9952-006097355D9B}, used in Pdo</Comment>
+    <Code>TriggerItem</Code>
+    <Name>Trigger Item</Name>
+    <LocalName>触发器项目</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {B38B4FB0-D9F8-11D1-9944-0060E31A0000}, used in Pdo</Comment>
+    <Code>Kind</Code>
+    <Name>Trigger Kind</Name>
+    <LocalName>触发器种类</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {D4B2DF42-0047-11D2-9952-006097355D9B}, used in Pdo</Comment>
+    <Code>TriggerTemplate</Code>
+    <Name>Trigger Template</Name>
+    <LocalName>触发器模板</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {B38B4FB0-D9F8-11D1-9944-0060EF140000}, used in Pdo</Comment>
+    <Code>Function</Code>
+    <Name>Type</Name>
+    <LocalName>类型</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {B38B4FB0-D9F8-11D1-9944-0060F3140000}, used in Pdo</Comment>
+    <Code>SequenceType</Code>
+    <Name>Type</Name>
+    <LocalName>类型</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {2B2C2072-3B9C-40D7-959F-BDA20C318406};{3AE32291-18F7-11D3-86B9-0010F80F0000};{6CE9859A-BA73-4EBB-B7D4-8E9141030000};{95383AA3-C9A7-4EA0-9F3B-2A8FBD020000};{95383AA3-C9A7-4EA0-9F3B-2A8FC2020000};{EA5E..., used in Xsm; Obj; Ilm; Rqm; Rqm; Mtm; Mtm; Mtm; Mtm; Iam</Comment>
+    <Code>Type</Code>
+    <Name>Type</Name>
+    <LocalName>类型</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {1811207D-1A4B-11D1-83D9-444553540000}, used in Oom</Comment>
+    <Code>TypeParameter</Code>
+    <Name>Type Parameter</Name>
+    <LocalName>类型参数</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {1811207E-1A4B-11D1-83D9-444553540000}, used in Oom</Comment>
+    <Code>TypeParameterValue</Code>
+    <Name>Type Parameter Value</Name>
+    <LocalName>类型参数值</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {BB63C494-94D1-4A0B-B3AD-2EB9E7BADEA0}, used in Xsm</Comment>
+    <Code>Unique</Code>
+    <Name>Unique</Name>
+    <LocalName>唯一</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {B38B4FB0-D9F8-11D1-9944-0060EC140000}, used in Pdo</Comment>
+    <Code>UpdateConstraint</Code>
+    <Name>Update Constraint</Name>
+    <LocalName>更新约束</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {B38B4FB0-D9F8-11D1-9944-0060E6140000}, used in Pdo</Comment>
+    <Code>ViewUsage</Code>
+    <Name>Usage</Name>
+    <LocalName>用法</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {48E4579B-E243-4114-9EF9-4A8025270000}, used in Xsm</Comment>
+    <Code>Use</Code>
+    <Name>Use</Name>
+    <LocalName>使用</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {18112102-1A4B-11D1-83D9-444553540000}, used in Oom</Comment>
+    <Code>UseCase</Code>
+    <Name>Use Case</Name>
+    <LocalName>用例</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {18112073-1A4B-11D1-83D9-444553540000}, used in Oom</Comment>
+    <Code>UseCaseAssociation</Code>
+    <Name>Use Case Association</Name>
+    <LocalName>用例关联</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {18112100-1A4B-11D1-83D9-444553540000}, used in Oom</Comment>
+    <Code>UseCaseDiagram</Code>
+    <Name>Use Case Diagram</Name>
+    <LocalName>用例图</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {C9B59CA7-912B-471A-9BEE-7FC935B7FD08}, used in Rqm</Comment>
+    <Code>RequirementUser</Code>
+    <Name>User</Name>
+    <LocalName>用户</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {0CF1B425-B175-4E37-B6C7-66D09438A10E};{4BA9F642-DAB1-11D1-9944-006097355D9B}, used in Ilm; Pdo</Comment>
+    <Code>User</Code>
+    <Name>User</Name>
+    <LocalName>用户</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {7B43F750-5128-48BD-9036-05D950D39D10}, used in Rqm</Comment>
+    <Code>UserAllocation</Code>
+    <Name>User Allocation</Name>
+    <LocalName>用户分配</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {61BABB99-4936-4A5B-99A6-C633100ADAC5}, used in Rqm</Comment>
+    <Code>UserAllocationMatrixView</Code>
+    <Name>User Allocation Matrix View</Name>
+    <LocalName>用户分配矩阵视图</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4259C9DC-2CAF-4BDE-A7F9-5924AA15A02B}, used in Ext</Comment>
+    <Code>UserProfile</Code>
+    <Name>User Profile</Name>
+    <LocalName>用户配置文件</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {B38B4FB0-D9F8-11D1-9944-0060F2140000}, used in Pdo</Comment>
+    <Code>ValuesSource</Code>
+    <Name>Values Source</Name>
+    <LocalName>值源</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {5C8AA9BF-FFCE-41CB-998E-67E7CD887357};{CE1BFF09-CEF0-482D-A545-4161478933BA}, used in Bpm; Oom</Comment>
+    <Code>Variable</Code>
+    <Name>Variable</Name>
+    <LocalName>变量</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {95383AA3-C9A7-4EA0-9F3B-2A8FC0020000}, used in Rqm</Comment>
+    <Code>VerificationMethod</Code>
+    <Name>Verification Method</Name>
+    <LocalName>验证方法</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4607ABD1-663B-4FBB-B96E-DC810B52B9AF}, used in Pdo</Comment>
+    <Code>VerticalPartitioning</Code>
+    <Name>Vertical Partitioning</Name>
+    <LocalName>垂直分区</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {55750240-0044-11D2-B00B-0008C702FC49}, used in Pdo</Comment>
+    <Code>View</Code>
+    <Name>View</Name>
+    <LocalName>视图</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {55750248-0044-11D2-B00B-0008C702FC49}, used in Pdo</Comment>
+    <Code>ViewColumn</Code>
+    <Name>View Column</Name>
+    <LocalName>视图列</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4A67C54B-7246-4C92-8969-4F9FEAC26DB4}, used in Pdo</Comment>
+    <Code>ViewIndex</Code>
+    <Name>View Index</Name>
+    <LocalName>视图索引</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4BA9F67C-DAB1-11D1-9944-006097355D9B}, used in Pdo</Comment>
+    <Code>ViewReference</Code>
+    <Name>View Reference</Name>
+    <LocalName>视图引用</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4BA9F67D-DAB1-11D1-9944-006097355D9B}, used in Pdo</Comment>
+    <Code>ViewReferenceJoin</Code>
+    <Name>View Reference Join</Name>
+    <LocalName>视图引用连接</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {B537C1A0-D293-11D0-83D9-4445CC010000}, used in Oom</Comment>
+    <Code>Visibility</Code>
+    <Name>Visibility</Name>
+    <LocalName>可见性</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {D0E0A940-B731-11D1-8898-00A0E9170000}, used in Rpt</Comment>
+    <Code>HtmlWebBrowser</Code>
+    <Name>Web Browser</Name>
+    <LocalName>Web 浏览器</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4607ABDF-663B-4FBB-B96E-DC810B52B9AF}, used in Pdo</Comment>
+    <Code>WebOperation</Code>
+    <Name>Web Operation</Name>
+    <LocalName>Web 操作</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4607ABE0-663B-4FBB-B96E-DC810B52B9AF}, used in Pdo</Comment>
+    <Code>WebOperationParameter</Code>
+    <Name>Web Parameter</Name>
+    <LocalName>Web 参数</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4607ABDE-663B-4FBB-B96E-DC810B52B9AF}, used in Pdo</Comment>
+    <Code>WebService</Code>
+    <Name>Web Service</Name>
+    <LocalName>Web 服务</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {B969A86E-F664-4990-A905-9F706402D15F}, used in Ilm</Comment>
+    <Code>WebServiceInput</Code>
+    <Name>Web Service Input</Name>
+    <LocalName>Web 服务输入</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {B537C1A0-D293-11D0-83D9-44458B050000}, used in Oom</Comment>
+    <Code>WSType</Code>
+    <Name>Web Service Type</Name>
+    <LocalName>Web 服务类型</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4AC86A25-C3E8-482F-8017-E34F5C022474}, used in Xsm</Comment>
+    <Code>WhitespaceFacet</Code>
+    <Name>Whitespace Facet</Name>
+    <LocalName>空白构面</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {166B7158-F3E8-4372-9F1C-AB03F6DE9307}, used in Eam</Comment>
+    <Code>Workstation</Code>
+    <Name>Workstation</Name>
+    <LocalName>工作站</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {B537C1A0-D293-11D0-83D9-444590050000}, used in Oom</Comment>
+    <Code>EncodingStyle</Code>
+    <Name>WSDL Encoding Style</Name>
+    <LocalName>WSDL 编码样式</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {B38B4FB0-D9F8-11D1-9944-0060281B0000}, used in Pdo</Comment>
+    <Code>XMLColumnGenerationMode</Code>
+    <Name>XML Column Generation Mode</Name>
+    <LocalName>XML 列生成模式</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {A4EA4BFA-F118-4E96-B3A3-63396A2C344E}, used in Ilm</Comment>
+    <Code>XMLDocument</Code>
+    <Name>XML Document</Name>
+    <LocalName>XML 文档</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {B537C1A0-D293-11D0-83D9-4445D5020000};{B537C1A0-D293-11D0-83D9-4445D6020000}, used in Oom; Oom</Comment>
+    <Code>XMLGenerationMode</Code>
+    <Name>XML Generation Mode</Name>
+    <LocalName>XML 生成模式</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {B97A5D84-9DFA-4583-BB5C-D01D17A059E5}, used in Ilm</Comment>
+    <Code>XMLInput</Code>
+    <Name>XML Input</Name>
+    <LocalName>XML 输入</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {B38B4FB0-D9F8-11D1-9944-0060261B0000}, used in Pdo</Comment>
+    <Code>XMLKeyGenerationMode</Code>
+    <Name>XML Key Generation Mode</Name>
+    <LocalName>XML 键生成模式</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {40249E0F-D7DA-41DC-8056-6199DCA3A7D8}, used in Xsm</Comment>
+    <Code>SchemaLanguage</Code>
+    <Name>XML Language</Name>
+    <LocalName>XML 语言</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {029EAF0C-06EE-4282-8CB2-D70732085DEF}, used in Xsm</Comment>
+    <Code>Model</Code>
+    <Name>XML Model</Name>
+    <LocalName>XML 模型</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {40249E0C-D7DA-41DC-8056-6199DCA3A7D8}, used in Xsm</Comment>
+    <Code>XMLDiagram</Code>
+    <Name>XML Model Diagram</Name>
+    <LocalName>XML 模型图</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {D26E3DF4-2107-47FA-B2A6-47D6D330CECE}, used in Bpm</Comment>
+    <Code>XmlNamespace</Code>
+    <Name>XML Namespace</Name>
+    <LocalName>XML 命名空间</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {5D535B49-8097-4702-BC56-89B9A4ECE65B}, used in Obj</Comment>
+    <Code>XmlNamespaceBase</Code>
+    <Name>XML Namespace</Name>
+    <LocalName>XML 命名空间</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {B398775C-7F18-4011-83FF-2D722D422711}, used in Ilm</Comment>
+    <Code>XMLOutput</Code>
+    <Name>XML Output</Name>
+    <LocalName>XML 输出</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {B38B4FB0-D9F8-11D1-9944-0060241B0000}, used in Pdo</Comment>
+    <Code>XMLTableGenerationMode</Code>
+    <Name>XML Table Generation Mode</Name>
+    <LocalName>XML 表生成模式</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {D26E3DF5-2107-47FA-B2A6-47D6D330CECE}, used in Bpm</Comment>
+    <Code>XsdDocument</Code>
+    <Name>XSD Document</Name>
+    <LocalName>XSD 文档</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {5D535B3A-10DF-4652-AC86-6CD916D48228}, used in Obj</Comment>
+    <Code>XsdDocumentBase</Code>
+    <Name>XSD Document</Name>
+    <LocalName>XSD 文档</LocalName>
+  </Translation>
+</Translations>

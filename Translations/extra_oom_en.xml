@@ -1,0 +1,1083 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Translations lang="en" extended="yes">
+  <Translation>
+    <Name>%Object1.Name%</Name>
+    <LocalName>%Object1.Name%</LocalName>
+  </Translation>
+  <Translation>
+    <Name>%Object2.Name%</Name>
+    <LocalName>%Object2.Name%</LocalName>
+  </Translation>
+  <Translation>
+    <Name>&lt;&lt;Enum&gt;&gt; Initial value of  Enum Literal  cannot be string</Name>
+    <LocalName>&lt;&lt;Enum&gt;&gt; Initial value of  Enum Literal  cannot be string</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ASP</Name>
+    <LocalName>ASP</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ASP file</Name>
+    <LocalName>ASP file</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Abstract enum</Name>
+    <LocalName>Abstract enum</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Access</Name>
+    <LocalName>Access</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Access type</Name>
+    <LocalName>Access type</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Access</Comment>
+    <Name>Accesses</Name>
+    <LocalName>Accesses</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Active elements, which are capable of doing a certain action. Agents can contain agents, storages, subsystems,components and classes (nesting).</Comment>
+    <Name>Agent</Name>
+    <LocalName>Agent</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>The agent which has a special shape like the word L.</Comment>
+    <Name>Agent L</Name>
+    <LocalName>Agent L</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>If the source object is a agent object and the target object is a storage, the value should be true with string type.</Comment>
+    <Name>Agent to storage</Name>
+    <LocalName>Agent to storage</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>The agent which has a special shape like the word L.</Comment>
+    <Name>AgentL</Name>
+    <LocalName>AgentL</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Active elements, which are capable of doing a certain action. Agents can contain agents, storages, subsystems,components and classes (nesting).</Comment>
+    <Name>Agents</Name>
+    <LocalName>Agents</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Alias name</Name>
+    <LocalName>Alias name</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Annotation</Name>
+    <LocalName>Annotation</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Application icon</Name>
+    <LocalName>Application icon</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Array size</Name>
+    <LocalName>Array size</LocalName>
+  </Translation>
+  <Translation>
+    <Name>As New</Name>
+    <LocalName>As New</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Assembly name</Name>
+    <LocalName>Assembly name</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Assembly version</Name>
+    <LocalName>Assembly version</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>A package bearing this stereotype represents a CLR Assembly</Comment>
+    <Name>Assembly.dll</Name>
+    <LocalName>Assembly.dll</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Associated with Annotation class</Name>
+    <LocalName>Associated with Annotation class</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Associated with EDataType class</Name>
+    <LocalName>Associated with EDataType class</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Associated with Enum class</Name>
+    <LocalName>Associated with Enum class</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Base Initializer</Name>
+    <LocalName>Base Initializer</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Base Integral Type</Name>
+    <LocalName>Base Integral Type</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Base package name</Name>
+    <LocalName>Base package name</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Base package name prefix</Name>
+    <LocalName>Base package name prefix</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Bean class</Name>
+    <LocalName>Bean class</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Bidirectional communication channel.</Comment>
+    <Name>Bidirectional Communication Channel</Name>
+    <LocalName>Bidirectional Communication Channel</LocalName>
+  </Translation>
+  <Translation>
+    <Name>C# keyword</Name>
+    <LocalName>C# keyword</LocalName>
+  </Translation>
+  <Translation>
+    <Name>CLS compliant</Name>
+    <LocalName>CLS compliant</LocalName>
+  </Translation>
+  <Translation>
+    <Name>CLSCompliant</Name>
+    <LocalName>CLSCompliant</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Changeability</Name>
+    <LocalName>Changeability</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Character set</Name>
+    <LocalName>Character set</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Check C# keyword</Name>
+    <LocalName>Check C# keyword</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Check PowerBuilder keyword</Name>
+    <LocalName>Check PowerBuilder keyword</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Check initial value for override attributes</Name>
+    <LocalName>Check initial value for override attributes</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Class Diagram:</Name>
+    <LocalName>Class Diagram:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Class is not under a package</Name>
+    <LocalName>Class is not under a package</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Comment:</Name>
+    <LocalName>Comment:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Common Feature Area</Name>
+    <LocalName>Common Feature Area</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Common Feature Area</Comment>
+    <Name>Common Feature Areas</Name>
+    <LocalName>Common Feature Areas</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Passive elements that are used for communication between agents. All transferred information is volatile. Optionally with request and/or data flow direction.</Comment>
+    <Name>Communication Channel</Name>
+    <LocalName>Communication Channel</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Passive elements that are used for communication between agents. All transferred information is volatile. Optionally with request and/or data flow direction.</Comment>
+    <Name>Communication Channels</Name>
+    <LocalName>Communication Channels</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Communication data type</Name>
+    <LocalName>Communication data type</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Communication protocol</Name>
+    <LocalName>Communication protocol</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Communication type</Name>
+    <LocalName>Communication type</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Company</Name>
+    <LocalName>Company</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Compare</Name>
+    <LocalName>Compare</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Compilation Unit</Name>
+    <LocalName>Compilation Unit</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Composite human agent</Name>
+    <LocalName>Composite human agent</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Composite id is not supported in EMF 2.3.x</Name>
+    <LocalName>Composite id is not supported in EMF 2.3.x</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Configuration</Name>
+    <LocalName>Configuration</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Constructor</Name>
+    <LocalName>Constructor</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Container type:</Name>
+    <LocalName>Container type:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Conversion operator signature</Name>
+    <LocalName>Conversion operator signature</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Conversion operators should be both public and static.</Name>
+    <LocalName>Conversion operators should be both public and static.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Copyright</Name>
+    <LocalName>Copyright</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Culture</Name>
+    <LocalName>Culture</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Custom attributes</Name>
+    <LocalName>Custom attributes</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data type cannot be a class with Annotation stereotype</Name>
+    <LocalName>Data type cannot be a class with Annotation stereotype</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Declare roles</Name>
+    <LocalName>Declare roles</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default</Name>
+    <LocalName>Default</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default HTML page layout</Name>
+    <LocalName>Default HTML page layout</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default alias</Name>
+    <LocalName>Default alias</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default client script</Name>
+    <LocalName>Default client script</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default target schema</Name>
+    <LocalName>Default target schema</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default template</Name>
+    <LocalName>Default template</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Delay sign</Name>
+    <LocalName>Delay sign</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>It indicates that the class defines delegates for the current package</Comment>
+    <Name>Delegate</Name>
+    <LocalName>Delegate</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Deny all roles</Name>
+    <LocalName>Deny all roles</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Description</Name>
+    <LocalName>Description</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Display as double-arc</Name>
+    <LocalName>Display as double-arc</LocalName>
+  </Translation>
+  <Translation>
+    <Name>EDataType</Name>
+    <LocalName>EDataType</LocalName>
+  </Translation>
+  <Translation>
+    <Name>EJB</Name>
+    <LocalName>EJB</LocalName>
+  </Translation>
+  <Translation>
+    <Name>EJB missing component</Name>
+    <LocalName>EJB missing component</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>It indicates that the class defines an enum</Comment>
+    <Name>Enum</Name>
+    <LocalName>Enum</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Exclude class interceptors</Name>
+    <LocalName>Exclude class interceptors</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Exclude default interceptors</Name>
+    <LocalName>Exclude default interceptors</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Exclude superclass listeners</Name>
+    <LocalName>Exclude superclass listeners</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Explicit</Name>
+    <LocalName>Explicit</LocalName>
+  </Translation>
+  <Translation>
+    <Name>External</Name>
+    <LocalName>External</LocalName>
+  </Translation>
+  <Translation>
+    <Name>File version</Name>
+    <LocalName>File version</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Final enum</Name>
+    <LocalName>Final enum</LocalName>
+  </Translation>
+  <Translation>
+    <Name>GUID</Name>
+    <LocalName>GUID</LocalName>
+  </Translation>
+  <Translation>
+    <Name>General</Name>
+    <LocalName>General</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Generate Visual Studio solution file</Name>
+    <LocalName>Generate Visual Studio solution file</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Generate assembly information</Name>
+    <LocalName>Generate assembly information</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Generate project file</Name>
+    <LocalName>Generate project file</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Handles</Name>
+    <LocalName>Handles</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Has generalization link with Annotation class</Name>
+    <LocalName>Has generalization link with Annotation class</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Has generalization link with EDataType class</Name>
+    <LocalName>Has generalization link with EDataType class</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Has generalization link with Enum class</Name>
+    <LocalName>Has generalization link with Enum class</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Active elements, which are capable of doing a certain action. Agents can contain agents, storages, subsystems,components and classes (nesting).</Comment>
+    <Name>Human Agent</Name>
+    <LocalName>Human Agent</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Active elements, which are capable of doing a certain action. Agents can contain agents, storages, subsystems,components and classes (nesting).</Comment>
+    <Name>Human Agents</Name>
+    <LocalName>Human Agents</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Implementation class:</Name>
+    <LocalName>Implementation class:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Imports</Name>
+    <LocalName>Imports</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Included files</Name>
+    <LocalName>Included files</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Initial value</Name>
+    <LocalName>Initial value</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Initial value for override attributes</Name>
+    <LocalName>Initial value for override attributes</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Initialize method</Name>
+    <LocalName>Initialize method</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Initiating agent</Name>
+    <LocalName>Initiating agent</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Instance Class Name:</Name>
+    <LocalName>Instance Class Name:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Interceptor method</Name>
+    <LocalName>Interceptor method</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Interface inner classifiers</Name>
+    <LocalName>Interface inner classifiers</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid agent children</Name>
+    <LocalName>Invalid agent children</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid variable argument</Name>
+    <LocalName>Invalid variable argument</LocalName>
+  </Translation>
+  <Translation>
+    <Name>JSP</Name>
+    <LocalName>JSP</LocalName>
+  </Translation>
+  <Translation>
+    <Name>JSP file</Name>
+    <LocalName>JSP file</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Javadoc</Name>
+    <LocalName>Javadoc</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Javadoc author</Name>
+    <LocalName>Javadoc author</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Javadoc deprecated</Name>
+    <LocalName>Javadoc deprecated</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Javadoc exception</Name>
+    <LocalName>Javadoc exception</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Javadoc misc</Name>
+    <LocalName>Javadoc misc</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Javadoc return</Name>
+    <LocalName>Javadoc return</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Javadoc see</Name>
+    <LocalName>Javadoc see</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Javadoc serial</Name>
+    <LocalName>Javadoc serial</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Javadoc serial data</Name>
+    <LocalName>Javadoc serial data</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Javadoc serial field</Name>
+    <LocalName>Javadoc serial field</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Javadoc since</Name>
+    <LocalName>Javadoc since</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Javadoc throws</Name>
+    <LocalName>Javadoc throws</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Javadoc version</Name>
+    <LocalName>Javadoc version</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Key container name</Name>
+    <LocalName>Key container name</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Key file</Name>
+    <LocalName>Key file</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Key name</Name>
+    <LocalName>Key name</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Library name</Name>
+    <LocalName>Library name</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Local home interface</Name>
+    <LocalName>Local home interface</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Local interface</Name>
+    <LocalName>Local interface</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Make assembly COM-Visible</Name>
+    <LocalName>Make assembly COM-Visible</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Mapped name</Name>
+    <LocalName>Mapped name</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Migrated attribute:</Name>
+    <LocalName>Migrated attribute:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing URI</Name>
+    <LocalName>Missing URI</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing base package name</Name>
+    <LocalName>Missing base package name</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing instance class name</Name>
+    <LocalName>Missing instance class name</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing namespace URI in EMF 2.3.x</Name>
+    <LocalName>Missing namespace URI in EMF 2.3.x</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing namespace prefix in EMF 2.3.x</Name>
+    <LocalName>Missing namespace prefix in EMF 2.3.x</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Modifiers</Name>
+    <LocalName>Modifiers</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Modify access</Comment>
+    <Name>Modify Access</Name>
+    <LocalName>Modify Access</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Multiple</Name>
+    <LocalName>Multiple</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Multiplicity</Name>
+    <LocalName>Multiplicity</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must override</Name>
+    <LocalName>Must override</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Name</Name>
+    <LocalName>Name</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Namespace URI</Name>
+    <LocalName>Namespace URI</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Namespace prefix</Name>
+    <LocalName>Namespace prefix</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Native</Name>
+    <LocalName>Native</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Navigable</Name>
+    <LocalName>Navigable</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Option compare</Name>
+    <LocalName>Option compare</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Option explicit</Name>
+    <LocalName>Option explicit</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Option strict</Name>
+    <LocalName>Option strict</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Ordered</Name>
+    <LocalName>Ordered</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Ordering</Name>
+    <LocalName>Ordering</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Originator key file</Name>
+    <LocalName>Originator key file</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Originator key mode</Name>
+    <LocalName>Originator key mode</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Output type</Name>
+    <LocalName>Output type</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Overloadable operator signature</Name>
+    <LocalName>Overloadable operator signature</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Overloadable operators should be both public and static.</Name>
+    <LocalName>Overloadable operators should be both public and static.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Overridable</Name>
+    <LocalName>Overridable</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Overrides</Name>
+    <LocalName>Overrides</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Permit all</Name>
+    <LocalName>Permit all</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Permit all roles</Name>
+    <LocalName>Permit all roles</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Persistent</Name>
+    <LocalName>Persistent</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Post-activate</Name>
+    <LocalName>Post-activate</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Post-construct</Name>
+    <LocalName>Post-construct</LocalName>
+  </Translation>
+  <Translation>
+    <Name>PowerBuilder keyword</Name>
+    <LocalName>PowerBuilder keyword</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Pre-destroy</Name>
+    <LocalName>Pre-destroy</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Pre-passivate</Name>
+    <LocalName>Pre-passivate</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Primary key class</Name>
+    <LocalName>Primary key class</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Product</Name>
+    <LocalName>Product</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Project GUID</Name>
+    <LocalName>Project GUID</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Project file name</Name>
+    <LocalName>Project file name</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Property</Name>
+    <LocalName>Property</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Property parameters</Name>
+    <LocalName>Property parameters</LocalName>
+  </Translation>
+  <Translation>
+    <Name>References</Name>
+    <LocalName>References</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Remote home interface</Name>
+    <LocalName>Remote home interface</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Remote interface</Name>
+    <LocalName>Remote interface</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Remove method</Name>
+    <LocalName>Remove method</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Request/response communication channel.</Comment>
+    <Name>Request/Response Communication Channel</Name>
+    <LocalName>Request/Response Communication Channel</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Resolve proxies</Name>
+    <LocalName>Resolve proxies</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Responding agent</Name>
+    <LocalName>Responding agent</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Result type mapping</Name>
+    <LocalName>Result type mapping</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Return data type cannot be a class with Annotation stereotype</Name>
+    <LocalName>Return data type cannot be a class with Annotation stereotype</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Return type custom attributes</Name>
+    <LocalName>Return type custom attributes</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Role A</Name>
+    <LocalName>Role A</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Role B</Name>
+    <LocalName>Role B</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Role name</Name>
+    <LocalName>Role name</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Roles allowed</Name>
+    <LocalName>Roles allowed</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Root namespace</Name>
+    <LocalName>Root namespace</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Run-as</Name>
+    <LocalName>Run-as</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Servlet</Name>
+    <LocalName>Servlet</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Servlet class</Name>
+    <LocalName>Servlet class</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Servlet type</Name>
+    <LocalName>Servlet type</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Settings</Name>
+    <LocalName>Settings</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Shadowing</Name>
+    <LocalName>Shadowing</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Shadows</Name>
+    <LocalName>Shadows</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Show arcs</Name>
+    <LocalName>Show arcs</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Show arrows</Name>
+    <LocalName>Show arrows</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Solution file name</Name>
+    <LocalName>Solution file name</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Solution filename</Name>
+    <LocalName>Solution filename</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Startup object</Name>
+    <LocalName>Startup object</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Static</Name>
+    <LocalName>Static</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Passive elements on which agents can act upon. Usually, storages contain data of any kind. Storages can be nested within agents, storages and components/subsystems.</Comment>
+    <Name>Storage</Name>
+    <LocalName>Storage</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Storage format type</Name>
+    <LocalName>Storage format type</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Storage type</Name>
+    <LocalName>Storage type</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Passive elements on which agents can act upon. Usually, storages contain data of any kind. Storages can be nested within agents, storages and components/subsystems.</Comment>
+    <Name>Storages</Name>
+    <LocalName>Storages</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Strict</Name>
+    <LocalName>Strict</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Strictfp</Name>
+    <LocalName>Strictfp</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>It indicates that the class defines a structure</Comment>
+    <Name>Structure</Name>
+    <LocalName>Structure</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Structure constructor</Name>
+    <LocalName>Structure constructor</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Structure members visibility</Name>
+    <LocalName>Structure members visibility</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Synchronized</Name>
+    <LocalName>Synchronized</LocalName>
+  </Translation>
+  <Translation>
+    <Name>This Initializer</Name>
+    <LocalName>This Initializer</LocalName>
+  </Translation>
+  <Translation>
+    <Name>This check ensures that enum literal initial value type is integer.</Name>
+    <LocalName>This check ensures that enum literal initial value type is integer.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>This check ensures that every AnnotationType class should have URI property defined.</Name>
+    <LocalName>This check ensures that every AnnotationType class should have URI property defined.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>This check ensures that every EDatatype class should have instance class name property defined.</Name>
+    <LocalName>This check ensures that every EDatatype class should have instance class name property defined.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>This check ensures that every class should have a package.</Name>
+    <LocalName>This check ensures that every class should have a package.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>This check ensures that structures do not have any attribute, operation and inner classifiers with a protected visibility.</Name>
+    <LocalName>This check ensures that structures do not have any attribute, operation and inner classifiers with a protected visibility.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>This check ensures that the structure does not have a non-shared constructor without parameters</Name>
+    <LocalName>This check ensures that the structure does not have a non-shared constructor without parameters</LocalName>
+  </Translation>
+  <Translation>
+    <Name>This check ensures that the structure does not have any attribute, operation and inner classifiers with a protected visibility.</Name>
+    <LocalName>This check ensures that the structure does not have any attribute, operation and inner classifiers with a protected visibility.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Timeout method</Name>
+    <LocalName>Timeout method</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Title</Name>
+    <LocalName>Title</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Trademark</Name>
+    <LocalName>Trademark</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Transaction Attribute Type</Name>
+    <LocalName>Transaction Attribute Type</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Transaction attribute type</Name>
+    <LocalName>Transaction attribute type</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Transaction management</Name>
+    <LocalName>Transaction management</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Transaction type</Name>
+    <LocalName>Transaction type</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Transaction:</Name>
+    <LocalName>Transaction:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Type</Name>
+    <LocalName>Type</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Type Character</Name>
+    <LocalName>Type Character</LocalName>
+  </Translation>
+  <Translation>
+    <Name>URI</Name>
+    <LocalName>URI</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Unauthorized parent</Name>
+    <LocalName>Unauthorized parent</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Unidirectional access</Comment>
+    <Name>Unidirectional Access</Name>
+    <LocalName>Unidirectional Access</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Unidirectional communication channel.</Comment>
+    <Name>Unidirectional Communication Channel</Name>
+    <LocalName>Unidirectional Communication Channel</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Unique</Name>
+    <LocalName>Unique</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Unsettable</Name>
+    <LocalName>Unsettable</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Use parent namespace on root package</Name>
+    <LocalName>Use parent namespace on root package</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Variable argument parameter</Name>
+    <LocalName>Variable argument parameter</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Version</Name>
+    <LocalName>Version</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Visibility</Name>
+    <LocalName>Visibility</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Volatile</Name>
+    <LocalName>Volatile</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Web Service</Name>
+    <LocalName>Web Service</LocalName>
+  </Translation>
+  <Translation>
+    <Name>abstract</Name>
+    <LocalName>abstract</LocalName>
+  </Translation>
+  <Translation>
+    <Name>const</Name>
+    <LocalName>const</LocalName>
+  </Translation>
+  <Translation>
+    <Name>extern</Name>
+    <LocalName>extern</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Function</Comment>
+    <Name>f_function</Name>
+    <LocalName>f_function</LocalName>
+  </Translation>
+  <Translation>
+    <Name>new</Name>
+    <LocalName>new</LocalName>
+  </Translation>
+  <Translation>
+    <Name>override</Name>
+    <LocalName>override</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Proxy Object</Comment>
+    <Name>p_proxy</Name>
+    <LocalName>p_proxy</LocalName>
+  </Translation>
+  <Translation>
+    <Name>readonly</Name>
+    <LocalName>readonly</LocalName>
+  </Translation>
+  <Translation>
+    <Name>roleAContainer</Name>
+    <LocalName>roleAContainer</LocalName>
+  </Translation>
+  <Translation>
+    <Name>roleAImplementationClass</Name>
+    <LocalName>roleAImplementationClass</LocalName>
+  </Translation>
+  <Translation>
+    <Name>roleBContainer</Name>
+    <LocalName>roleBContainer</LocalName>
+  </Translation>
+  <Translation>
+    <Name>roleBImplementationClass</Name>
+    <LocalName>roleBImplementationClass</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Structure</Comment>
+    <Name>s_structure</Name>
+    <LocalName>s_structure</LocalName>
+  </Translation>
+  <Translation>
+    <Name>scope</Name>
+    <LocalName>scope</LocalName>
+  </Translation>
+  <Translation>
+    <Name>sealed</Name>
+    <LocalName>sealed</LocalName>
+  </Translation>
+  <Translation>
+    <Name>static</Name>
+    <LocalName>static</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>User Object</Comment>
+    <Name>u_userobject</Name>
+    <LocalName>u_userobject</LocalName>
+  </Translation>
+  <Translation>
+    <Name>unsafe</Name>
+    <LocalName>unsafe</LocalName>
+  </Translation>
+  <Translation>
+    <Name>virtual</Name>
+    <LocalName>virtual</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Application</Comment>
+    <Name>w_application</Name>
+    <LocalName>w_application</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>Window</Comment>
+    <Name>w_window</Name>
+    <LocalName>w_window</LocalName>
+  </Translation>
+</Translations>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Module Id="Sybase.Modeling.NMap.Xsd">
+  <AssemblyName>Sybase.Modeling.NMap.Xsd, Version=1.6.5.0, Culture=neutral, PublicKeyToken=65afb196693a8d18</AssemblyName>
+  <RelativePath>Sybase.Modeling.NMap.Xsd.dll</RelativePath>
+  <Extensions>
+    <ExtensionPoint Id="Sybase.Modeling.NMap.Runtime.DomainAdapter">
+      <DomainAdapter Class="Sybase.Modeling.NMap.Xsd.DomainAdapter">
+        <Code>xsd</Code>
+        <IsConst>False</IsConst>
+      </DomainAdapter>
+    </ExtensionPoint>
+  </Extensions>
+  <Configurations />
+</Module>

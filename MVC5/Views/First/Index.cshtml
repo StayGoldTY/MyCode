@@ -1,0 +1,27 @@
+﻿
+@{
+    @model  MVC5.Controllers.Student
+    ViewBag.Title = "IndexFirst";
+}
+
+<h2>IndexFirst</h2>
+
+<h3>ViewBag :@ViewBag.123</h3>
+
+<h3>ViewBag :@ViewBag.abc</h3>
+
+<h3>ViewData :@ViewData["test"] </h3>
+
+<h3>TempData :@TempData["yigeren"]</h3>
+
+<h3>TempData :@TempData["yigeren"]</h3>
+
+<h3>TempData :@Model.ID </h3>
+
+
+@*使用Partial页*@
+@{ Html.RenderPartial("PartialPage", "123");}
+
+@Html.Partial("PartialPage", "123")
+
+@Html.Action("Index","First")

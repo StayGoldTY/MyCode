@@ -1,0 +1,138 @@
+body {
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 10pt;
+   background-color: #F2F5F8;
+   margin-top: 0px; margin-left: 0px; margin-right: 0px;
+}
+
+th {
+   FONT-FAMILY: Arial, Helvetica, sans-serif; font-size: 10pt; FONT-WEIGHT: bold; 
+}
+
+td {
+   FONT-FAMILY: Arial, Helvetica, sans-serif; font-size: 10pt; FONT-WEIGHT: normal; 
+}
+
+a {text-decoration: underline} 
+
+a:visited {color: #003366; text-decoration: underline;}
+
+a:hover {color: #E90649; text-decoration: underline}
+
+a:active {color: #003366; text-decoration: underline}
+
+a.highLightLink:link {color: #E90649}
+
+a.highLightLink:visited {color: #E90649}
+
+a.highLightLink:hover {color: #999999}
+
+a.highLightLink2:link {color: #0099CC}
+
+a.highLightLink2:visited {color: #0099CC}
+
+a.highLightLink2:hover {color: #E90649}
+
+a.highLightLink2:active {color: #0099CC}
+
+.headerText {
+   FONT-FAMILY: Times New Romain, Times, Geneva; font-size: 16pt; FONT-WEIGHT: bold; 
+   COLOR: #003366;
+}
+
+.headerText2 {
+   font-size:20px; 
+   color: #0099CC
+}
+
+.highLightText {
+   color: #E90649
+}
+
+.highLightText2 {
+   color: #0099CC
+}
+
+.errorMessage {
+   color: #E90649
+}
+
+.box {
+   border:2px; 
+   border-color:#999999; 
+   border-style:solid;
+   margin:100;
+}
+
+.headerPage {
+   HEIGHT: 54px;
+   background-image: url(images/BlueHeader.png);
+}
+
+.headerPageTitle { 
+   FONT-FAMILY: Times New Romain, Times, Geneva; FONT-SIZE: 18pt; FONT-WEIGHT: bold; 
+   COLOR: #003366; VERTICAL-ALIGN: center; PADDING-LEFT: 10px; 
+}
+
+.footerPage {
+   HEIGHT: 16px;
+}
+
+.footerPageTitle { 
+   FONT-FAMILY: Times New Romain, Times, Geneva; FONT-SIZE: 10pt; FONT-WEIGHT: normal; 
+   COLOR: #000000; 
+   TEXT-ALIGN: center; VERTICAL-ALIGN: center; PADDING-LEFT: 10px; 
+}
+
+.formPage {
+}
+
+.dataTable {
+ BACKGROUND: #A0C0F0; COLOR: BLACK;
+ MARGIN: 0px; BORDER-COLLAPSE: collapse; 
+ BORDER: 1px solid #A0B3C6;
+ VERTICAL-ALIGN: top; 
+}
+
+.tableHeader {
+   background: #CAE3FA; 
+   border: 1px solid #A0B3C6;
+}
+
+.tableRow1 {
+   background: #FFFFFF; 
+}
+
+.tableRow2 {
+   background: #DEE7FA; 
+}
+
+.tableColumn {
+   border: 1px solid #A0B3C6;
+}
+
+.commandBar { 
+   BORDER-COLLAPSE: collapse; PADDING: 0px; MARGIN: 0px;
+   vertical-align: middle;
+   HEIGHT: 28px; 
+}
+
+.commandLink { 
+   FONT-FAMILY: Arial, Helvetica, Verdana, sans-serif; FONT-SIZE: 10pt; FONT-WEIGHT: normal; 
+   TEXT-DECORATION: underline; TEXT-ALIGN: center; 
+   WIDTH: 70px; HEIGHT: 28px; PADDING-TOP: 2px; PADDING-BOTTOM: 2px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; 
+   background-image: url(images/BlueButton.png);
+}
+
+A.commandLink:LINK { 
+   TEXT-DECORATION: none; COLOR: #003366; 
+}
+
+A.commandLink:VISITED { 
+   TEXT-DECORATION: none; COLOR: #003366; 
+}
+
+A.commandLink:HOVER { 
+   TEXT-DECORATION: underline; COLOR: #FFFFFF; BACKGROUND: #003366; 
+   background-image: url(images/BlueButtonHover.png);
+}

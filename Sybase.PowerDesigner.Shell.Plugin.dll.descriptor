@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Module Id="Sybase.PowerDesigner.Shell.Plugin">
+  <AssemblyName>Sybase.PowerDesigner.Shell.Plugin, Version=16.5.5.4734, Culture=neutral, PublicKeyToken=null</AssemblyName>
+  <RelativePath>Sybase.PowerDesigner.Shell.Plugin.dll</RelativePath>
+  <Extensions>
+    <ExtensionPoint Id="Sybase.Core.Platform.ExtensionPoint">
+      <ExtensionPoint Class="Sybase.PowerDesigner.Shell.Plugin.ShellPluginAttribute" />
+      <ExtensionPoint Class="Sybase.PowerDesigner.Shell.Plugin.ShellPluginResourceManagersAttribute" />
+      <ExtensionPoint Class="Sybase.PowerDesigner.Shell.Plugin.UI.ShellDockableViewAttribute" />
+    </ExtensionPoint>
+  </Extensions>
+  <Configurations />
+</Module>

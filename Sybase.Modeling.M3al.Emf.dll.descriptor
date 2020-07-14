@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Module Id="Sybase.Modeling.M3al.Emf">
+  <AssemblyName>Sybase.Modeling.M3al.Emf, Version=1.6.5.0, Culture=neutral, PublicKeyToken=65afb196693a8d18</AssemblyName>
+  <RelativePath>Sybase.Modeling.M3al.Emf.dll</RelativePath>
+  <Extensions>
+    <ExtensionPoint Id="Sybase.Core.Platform.ConfigurationPoint">
+      <ConfigurationPoint Class="Sybase.Modeling.M3al.Emf.ModelTypeDeclaration" />
+    </ExtensionPoint>
+    <ExtensionPoint Id="Sybase.Modeling.M3al.ExtensionPoints.MetaObjectFacility">
+      <MetaObjectFacility Class="Sybase.Modeling.M3al.Emf.EmfFacility">
+        <Name>EMF</Name>
+        <UrnNamespace>emf</UrnNamespace>
+        <Version>2.4.2</Version>
+      </MetaObjectFacility>
+    </ExtensionPoint>
+  </Extensions>
+  <Configurations />
+</Module>

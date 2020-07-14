@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Module Id="Sybase.PowerDesigner.Reporting.Plugin">
+  <AssemblyName>Sybase.PowerDesigner.Reporting.Plugin, Version=16.5.5.4734, Culture=neutral, PublicKeyToken=null</AssemblyName>
+  <RelativePath>Sybase.PowerDesigner.Reporting.Plugin.dll</RelativePath>
+  <Extensions>
+    <ExtensionPoint Id="Sybase.Core.Platform.ExtensionPoints.PlatformServiceProvider">
+      <PlatformServiceProvider Class="Sybase.PowerDesigner.Reporting.Plugin.ReportShellPlugin" />
+    </ExtensionPoint>
+    <ExtensionPoint Id="Sybase.Modeling.M3al.ExtensionPoints.M2alSupport">
+      <M2alSupport Class="">
+        <AssemblyNames>
+          <string>Sybase.Modeling.Reporting</string>
+        </AssemblyNames>
+      </M2alSupport>
+    </ExtensionPoint>
+    <ExtensionPoint Id="Sybase.PowerDesigner.Shell.Plugin.ShellPluginAttribute">
+      <ShellPluginAttribute Class="Sybase.PowerDesigner.Reporting.Plugin.ReportShellPlugin">
+        <SupportsDelayedStart>False</SupportsDelayedStart>
+        <RequiredThemeResourceDictionaries>Sybase.Core.Windows;Sybase.Modeling.Reporting.Editor;Sybase.Modeling.Windows</RequiredThemeResourceDictionaries>
+      </ShellPluginAttribute>
+    </ExtensionPoint>
+  </Extensions>
+  <Configurations />
+</Module>

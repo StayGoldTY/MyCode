@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Module Id="Sybase.Modeling.Transformation">
+  <AssemblyName>Sybase.Modeling.Transformation, Version=16.5.5.4734, Culture=neutral, PublicKeyToken=null</AssemblyName>
+  <RelativePath>Sybase.Modeling.Transformation.dll</RelativePath>
+  <Extensions>
+    <ExtensionPoint Id="Sybase.Core.Platform.ExtensionPoint">
+      <ExtensionPoint Class="Sybase.Modeling.Transformation.ExtensionPoints.PDExportAdapter" />
+      <ExtensionPoint Class="Sybase.Modeling.Transformation.ExtensionPoints.PDImportAdapter" />
+    </ExtensionPoint>
+  </Extensions>
+  <Configurations />
+</Module>

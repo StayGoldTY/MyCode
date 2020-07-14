@@ -1,0 +1,3526 @@
+using uml = m3al(Metamodels={'urn:emf:http://www.eclipse.org/emf/2002/Ecore', 'urn:emf:http://www.eclipse.org/uml2/2.1.0/UML'});
+
+//@title('Entry: PowerDesigner Model --> UML Package')
+m : pd::PdOOM => u : uml
+{
+	declare rule_Actor_Actor()
+	{
+		src_actor : 'Actor' => 'uml.Actor'
+		(
+			name = Code
+		)
+		{
+			src_actor.ForEach('ChildGeneralizations') => 'uml.Generalization'
+			(
+				general = map ParentObject
+			)
+			{
+				invoke rule_Comment_Comment();
+			}
+			
+			//what about ImplementationClasses ?
+			
+			invoke rule_Comment_Comment();
+		}
+	}
+	
+	declare rule_AssemblyConnector_Connector()
+	{
+		'AssemblyConnector' => dst_connector : 'uml.Connector'
+		(
+			name = Code
+		,	kind = 'assembly'
+		)
+		{
+			_ => 'uml.ConnectorEnd'
+			(
+				dst_connector.end
+			,	role = map ClientObject
+			);
+			
+			_ => 'uml.ConnectorEnd'
+			(
+				dst_connector.end
+			,	role = map SupplierObject
+			);
+			
+			invoke rule_Comment_Comment();
+		}
+	}
+
+	declare rule_Association_Association()
+	{
+		src_assoc : 'Association'.Where( !AssociationClass ) =>  dst_assoc : 'uml.Association'
+		(
+			name = Code
+		)
+		{
+			_ => dst_prop : 'uml.Property'
+			(
+				dst_assoc.ownedEnd
+			,	type = map ClassA
+			,	?RoleANavigability? (name = dst_assoc:AddReference('navigableOwnedEnd', dst_prop) ) : ( )
+			,	name = RoleAName
+			,	visibility = RoleAVisibility : ToVisibilityKind()
+			,	?RoleAMinMultiplicity? lower = RoleAMinMultiplicity : ToInt32()
+			,	?RoleAMaxMultiplicity? upper = RoleAMaxMultiplicity : ToInt32()
+			,	aggregation = RoleBIndicator : ToAggregationKind()
+			,	isOrdered = RoleAOrdering : OrderingToBool()
+			,	isReadOnly = RoleAChangeability : ChangeabilityToBool()
+			,	?RoleAInitialValue? default = RoleAInitialValue
+			);
+			
+			_ => dst_prop : 'uml.Property'
+			(
+				dst_assoc.ownedEnd
+			,	type = map ClassB
+			,	?RoleBNavigability? (name = dst_assoc:AddReference('navigableOwnedEnd', dst_prop) ) : ( )
+			,	name = RoleBName
+			,	visibility = RoleBVisibility : ToVisibilityKind()
+			,	?RoleBMinMultiplicity? lower = RoleBMinMultiplicity : ToInt32()
+			,	?RoleBMaxMultiplicity? upper = RoleBMaxMultiplicity : ToInt32()
+			,	aggregation = RoleAIndicator : ToAggregationKind()
+			,	isOrdered = RoleBOrdering : OrderingToBool()
+			,	isReadOnly = RoleBChangeability : ChangeabilityToBool()
+			,	?RoleBInitialValue? default = RoleBInitialValue
+			);
+			
+			invoke rule_Comment_Comment();
+		}
+	}
+	
+	declare rule_Association_AssociationClass()
+	{
+		src_assoc : 'Association' .Where( AssociationClass ) =>  _
+		{
+			src_class: src_assoc.ForEach('AssociationClass') => dst_associationClass : 'uml.AssociationClass'
+			(
+				name = Code
+			,	visibility = Visibility : ToVisibilityKind()
+			,	isAbstract = Abstract
+			)
+			{
+				_ => dst_prop : 'uml.Property'
+				(
+					dst_associationClass.ownedEnd
+				,	type = map src_assoc.ClassA
+				,	?src_assoc.RoleANavigability? (name = dst_associationClass:AddReference('navigableOwnedEnd', dst_prop) ) : ( )
+				,	name = src_assoc.RoleAName
+				,	visibility = src_assoc.RoleAVisibility : ToVisibilityKind()
+				,	?src_assoc.RoleAMinMultiplicity? lower = src_assoc.RoleAMinMultiplicity : ToInt32()
+				,	?src_assoc.RoleAMaxMultiplicity? upper = src_assoc.RoleAMaxMultiplicity : ToInt32()
+				,	aggregation = src_assoc.RoleBIndicator : ToAggregationKind()
+				,	isOrdered = src_assoc.RoleAOrdering : OrderingToBool()
+				,	isReadOnly = src_assoc.RoleAChangeability : ChangeabilityToBool()
+				,	?src_assoc.RoleAInitialValue? default = src_assoc.RoleAInitialValue
+				);
+				
+				_ => dst_prop : 'uml.Property'
+				(
+					dst_associationClass.ownedEnd
+				,	type = map src_assoc.ClassB
+				,	?src_assoc.RoleBNavigability? (name = dst_associationClass:AddReference('navigableOwnedEnd', dst_prop) ) : ( )
+				,	name = src_assoc.RoleBName
+				,	visibility = src_assoc.RoleBVisibility : ToVisibilityKind()
+				,	?src_assoc.RoleBMinMultiplicity? lower = src_assoc.RoleBMinMultiplicity : ToInt32()
+				,	?src_assoc.RoleBMaxMultiplicity? upper = src_assoc.RoleBMaxMultiplicity : ToInt32()
+				,	aggregation = src_assoc.RoleAIndicator : ToAggregationKind()
+				,	isOrdered = src_assoc.RoleBOrdering : OrderingToBool()
+				,	isReadOnly = src_assoc.RoleBChangeability : ChangeabilityToBool()
+				,	?src_assoc.RoleBInitialValue? default = src_assoc.RoleBInitialValue
+				);
+				
+				src_class.ForEach('ChildGeneralizations') => 'uml.Generalization'
+				(
+					general = map ParentObject
+				)
+				{
+					invoke rule_Comment_Comment();
+				}
+				
+				invoke rule_AssemblyConnector_Connector();
+			
+				invoke rule_Association_Association();
+				
+				invoke rule_Association_AssociationClass();
+				
+				invoke rule_Attribute_Property();
+				
+				invoke rule_Comment_Comment();
+				
+				matchonce
+				{
+					//already mapped in rule_Association_AssociationClass()
+					'Class' .Where( Association ) => _;
+					
+					invoke rule_Class_Enumeration();
+					
+					invoke rule_Class_DataType();
+					
+					invoke rule_Class_PrimitiveType();
+					
+					invoke rule_Class_Stereotype();
+					
+					invoke rule_Class_Class();
+				}
+			
+				invoke rule_DelegationConnector_Connector();
+				
+				matchonce
+				{
+					invoke rule_Dependency_Usage();
+					
+					invoke rule_Dependency_Deployment();
+				
+					invoke rule_Dependency_Dependency();
+				}
+				
+				//FileObject?
+				
+				//'Identifier' => _;
+				
+				invoke rule_Interface_Interface();
+				
+				invoke rule_Operation_Operation();
+				
+				invoke rule_Part_Property();
+				//invoke rule_Part_Port(); //to property?
+				
+				invoke rule_Port_Port();
+				
+				invoke rule_Realization_InterfaceRealization();
+				
+				invoke rule_RequireLink_Usage();
+				
+				invoke rule_Stereotype_Stereotype();
+			}
+		}
+	}
+	
+	declare rule_Attribute_Property()
+	{
+		'Attribute' => 'uml.Property'
+		(
+			name = Code
+		,	visibility = Visibility : ToVisibilityKind()
+		,	?DefaultValue? default = DefaultValue
+		,	isStatic = Static
+		,	isDerived = Derived
+		,	isReadOnly = Readonly
+		,	?Multiplicity? ( upper = Multiplicity : MultiplicityToUpper(), lower = Multiplicity : MultiplicityToLower() ) : ( )
+		,	aggregation = 'none'
+		,	?DataTypeObject? (type = map DataTypeObject) : ( ?DataType? (type = get 'uml.PrimitiveType'[%DataType%]) : ( ) )
+		)
+		{
+			_. Where ( !DataTypeObject && DataType ) => 'uml.PrimitiveType'[%DataType%]
+			(
+				u.packagedElement
+			,	name = DataType
+			);
+			
+			invoke rule_Comment_Comment();
+		}
+	}
+	
+	declare rule_BusinessRule_Constraint()
+	{
+		//Type is constraint  .Where( Type:Equals(5) ), have a bug in pd15
+		src_businessRule : 'BusinessRule' => dst_constraint : 'uml.Constraint'
+		(
+			name = Code
+		,	constrainedElement += map src_businessRule.ForEach('Objects')
+		)
+		{
+			_ .Where( ServerExpression ) => 'uml.LiteralString'
+			(
+				name = 'ServerExpression'
+			,	value = ServerExpression 
+			);
+			
+			_ .Where( !ServerExpression  && ClientExpression ) => 'uml.LiteralString'
+			(
+				name = 'ClientExpression'
+			,	value = ClientExpression 
+			);
+			
+			invoke rule_Comment_Comment();
+		}
+	}
+	
+	declare rule_Class_Class()
+	{
+		src_class : 'Class' => 'uml.Class'
+		(
+			name = Code
+		,	visibility = Visibility : ToVisibilityKind()
+		,	isAbstract = Abstract
+		)
+		{
+			src_class.ForEach('ChildGeneralizations') => 'uml.Generalization'
+			(
+				general = map ParentObject
+			)
+			{
+				invoke rule_Comment_Comment();
+			}
+			
+			invoke rule_AssemblyConnector_Connector();
+			
+			invoke rule_Association_Association();
+			
+			invoke rule_Association_AssociationClass();
+			
+			invoke rule_Attribute_Property();
+			
+			invoke rule_Comment_Comment();
+			
+			matchonce
+			{
+				//already mapped in rule_Association_AssociationClass()
+				'Class' .Where( Association ) => _;
+				
+				invoke rule_Class_Enumeration();
+				
+				invoke rule_Class_DataType();
+				
+				invoke rule_Class_PrimitiveType();
+				
+				invoke rule_Class_Stereotype();
+				
+				invoke rule_Class_Class();
+			}
+		
+			invoke rule_DelegationConnector_Connector();
+			
+			matchonce
+			{
+				invoke rule_Dependency_Usage();
+				
+				invoke rule_Dependency_Deployment();
+			
+				invoke rule_Dependency_Dependency();
+			}
+			
+			//FileObject?
+			
+			//'Identifier' => _;
+			
+			invoke rule_Interface_Interface();
+			
+			invoke rule_Operation_Operation();
+			
+			invoke rule_Part_Property();
+			//invoke rule_Part_Port(); //to property?
+			
+			invoke rule_Port_Port();
+			
+			invoke rule_Realization_InterfaceRealization();
+			
+			invoke rule_RequireLink_Usage();
+			
+			invoke rule_Stereotype_Stereotype();
+		}
+	}
+	
+	declare rule_Class_DataType()
+	{
+		src_class : 'Class'.Where( Stereotype:Equals('DataType') ) => 'uml.DataType'
+		(
+			name = Code
+		,	visibility = Visibility : ToVisibilityKind()
+		,	isAbstract = Abstract
+		)
+		{
+			src_class.ForEach('ChildGeneralizations') => 'uml.Generalization'
+			(
+				general = map ParentObject
+			)
+			{
+				invoke rule_Comment_Comment();
+			}
+			
+			invoke rule_Attribute_Property();
+			
+			invoke rule_Comment_Comment();
+			
+			invoke rule_Operation_Operation();
+			
+			invoke rule_Part_Property();
+			//invoke rule_Part_Port(); //to property?
+			
+			invoke rule_Port_Port();
+		}
+	}
+	
+	declare rule_Class_Enumeration()
+	{
+		src_class : 'Class'.Where( Stereotype:StartsWith('enum') ) => dst_enum : 'uml.Enumeration'
+		(
+			name = Code
+		,	visibility = Visibility : ToVisibilityKind()
+		,	isAbstract = Abstract
+		)
+		{
+			src_class.ForEach('ChildGeneralizations') => 'uml.Generalization'
+			(
+				general = map ParentObject
+			)
+			{
+				invoke rule_Comment_Comment();
+			}
+			
+			'Attribute' =>  'uml.EnumerationLiteral'
+			(
+				name = Code
+			,	visibility = Visibility : ToVisibilityKind()
+			);
+			
+			invoke rule_Comment_Comment();
+			
+			invoke rule_Operation_Operation();
+			
+			invoke rule_Part_Property();
+			//invoke rule_Part_Port(); //to property?
+			
+			invoke rule_Port_Port();
+		}
+	}
+	
+	declare rule_Class_PrimitiveType()
+	{
+		src_class : 'Class'.Where( Stereotype:Equals('PrimitiveType') ) => 'uml.PrimitiveType' //[%Code%]
+		(
+			u.packagedElement
+		,	name = Code 
+		)
+		{
+			src_class.ForEach('ChildGeneralizations') => 'uml.Generalization'
+			(
+				general = map ParentObject
+			)
+			{
+				invoke rule_Comment_Comment();
+			}
+			
+			invoke rule_Attribute_Property();
+			
+			invoke rule_Comment_Comment();
+			
+			invoke rule_Operation_Operation();
+			
+			invoke rule_Part_Property();
+			//invoke rule_Part_Port(); //to property?
+			
+			invoke rule_Port_Port();
+		}
+	}
+	
+	declare rule_Class_Stereotype()
+	{
+		src_class : 'Class' .Where( Stereotype:Equals('Stereotype') ) => 'uml.Stereotype'
+		(
+			name = Code
+		,	visibility = Visibility : ToVisibilityKind()
+		,	isAbstract = Abstract
+		)
+		{
+			src_class.ForEach('ChildGeneralizations') => 'uml.Generalization'
+			(
+				general = map ParentObject
+			)
+			{
+				invoke rule_Comment_Comment();
+			}
+			
+			invoke rule_AssemblyConnector_Connector();
+			
+			invoke rule_Association_Association();
+			
+			invoke rule_Association_AssociationClass();
+			
+			invoke rule_Attribute_Property();
+			
+			invoke rule_Comment_Comment();
+			
+			matchonce
+			{
+				//already mapped in rule_Association_AssociationClass()
+				'Class' .Where( Association ) => _;
+				
+				invoke rule_Class_Enumeration();
+				
+				invoke rule_Class_DataType();
+				
+				invoke rule_Class_PrimitiveType();
+				
+				invoke rule_Class_Stereotype();
+				
+				invoke rule_Class_Class();
+			}
+		
+			invoke rule_DelegationConnector_Connector();
+			
+			matchonce
+			{
+				invoke rule_Dependency_Usage();
+				
+				invoke rule_Dependency_Deployment();
+			
+				invoke rule_Dependency_Dependency();
+			}
+			
+			//FileObject?
+			
+			//'Identifier' => _;
+			
+			invoke rule_Interface_Interface();
+			
+			invoke rule_Operation_Operation();
+			
+			invoke rule_Part_Property();
+			//invoke rule_Part_Port(); //to property?
+			
+			invoke rule_Port_Port();
+			
+			invoke rule_Realization_InterfaceRealization();
+			
+			invoke rule_RequireLink_Usage();
+			
+			//invoke rule_Stereotype_Stereotype();
+		}
+	}
+	
+	declare rule_Comment_Comment()
+	{
+		_ .Where( Comment ) => 'uml.Comment' ( body = Comment );
+	}
+	
+	declare rule_Component_Component()
+	{
+		src_component : 'Component' => 'uml.Component'
+		(
+			name = Code
+		)
+		{
+			src_component.ForEach('OutputLinks').Where( this:IsExactTypeOf('Generalization') ) => 'uml.Generalization'
+			(
+				general = map ParentObject
+			)
+			{
+				invoke rule_Comment_Comment();
+			}
+				
+			invoke rule_AssemblyConnector_Connector();
+			
+			invoke rule_Comment_Comment();
+			
+			invoke rule_DelegationConnector_Connector();
+			
+			invoke rule_Part_Property();
+			
+			invoke rule_Port_Port();
+			
+			invoke rule_Stereotype_Stereotype();
+			
+			//TODO:what about reference relationships?
+		}
+	}
+	
+	declare rule_DelegationConnector_Connector()
+	{
+		'DelegationConnector' => dst_connector :'uml.Connector'
+		(
+			name = Code
+		,	kind = 'delegation'
+		)
+		{
+			_ => 'uml.ConnectorEnd'
+			(
+				dst_connector.end
+			,	role = map ClientObject
+			);
+			
+			_ => 'uml.ConnectorEnd'
+			(
+				dst_connector.end
+			,	role = map SupplierObject
+			);
+			
+			invoke rule_Comment_Comment();
+		}
+	}
+	
+	declare rule_Dependency_Dependency()
+	{
+		'Dependency' => 'uml.Dependency'
+		(
+			name = Code
+		,	supplier += map InfluentObject
+		,	client += map DependentObject
+		)
+		{
+			invoke rule_Comment_Comment();
+		}
+	}
+	
+	declare rule_Dependency_Deployment()
+	{
+		'Dependency'.Where( Stereotype:Equals('Deployment') ) => 'uml.Deployment'
+		(
+			name = Code
+		,	supplier += map InfluentObject
+		,	client += map DependentObject
+		)
+		{
+			invoke rule_Comment_Comment();
+		}
+	}
+		
+	declare rule_Dependency_Usage()
+	{
+		'Dependency'.Where( Stereotype:Equals('use') ) => 'uml.Usage'
+		(
+			name = Code
+		,	supplier += map InfluentObject
+		,	client += map DependentObject
+		)
+		{
+			invoke rule_Comment_Comment();
+		}
+	}
+	
+	declare rule_InstanceLink_InformationFlow()
+	{
+		src : 'InstanceLink' => 'uml.InformationFlow'
+		(
+			name = Code
+		,	informationSource += map ObjectA
+		,	informationTarget += map ObjectB
+		,	?Association? ( ?Association.AssociationClass? (realization += map Association.AssociationClass) : ( realization += map Association ) ) : ( )
+		,	realizingMessage += map src.ForEach('Messages')
+		)
+		{		
+			invoke rule_Comment_Comment();
+		}
+	}
+	
+	declare rule_InteractionFragment_CombinedFragment(dst_container)
+	{
+		 'InteractionFragment' => 'uml.CombinedFragment'
+		(
+			dst_container.fragment
+		,	name = FragmentName
+		,	interactionOperator = FragmentType : ToInteractionOperatorKind()
+		);
+	}
+	
+	declare rule_Interface_Interface()
+	{
+		src_interface : 'Interface' => 'uml.Interface'
+		(
+			name = Code
+		)
+		{
+			src_interface.ForEach('ChildGeneralizations') => 'uml.Generalization'
+			(
+				general = map ParentObject
+			)
+			{
+				invoke rule_Comment_Comment();
+			}
+		
+			invoke rule_Association_Association();
+			
+			invoke rule_Association_AssociationClass();
+			
+			invoke rule_Attribute_Property();
+			
+			matchonce
+			{
+				//already mapped in rule_Association_AssociationClass()
+				'Class' .Where( Association ) => _;
+				
+				invoke rule_Class_Enumeration();
+				
+				invoke rule_Class_DataType();
+				
+				invoke rule_Class_PrimitiveType();
+				
+				invoke rule_Class_Stereotype();
+				
+				invoke rule_Class_Class();
+			}
+			
+			invoke rule_Comment_Comment();
+			
+			matchonce
+			{
+				invoke rule_Dependency_Usage();
+				
+				invoke rule_Dependency_Deployment();
+			
+				invoke rule_Dependency_Dependency();
+			}
+			
+			//FileObject?
+			
+			invoke rule_Interface_Interface();
+			
+			invoke rule_Operation_Operation();
+			
+			invoke rule_Realization_InterfaceRealization();
+			
+			invoke rule_RequireLink_Usage();
+			
+			invoke rule_Stereotype_Stereotype();
+		}
+	}
+	
+	declare rule_Message_Message(dst_interaction)
+	{
+		//Shall we sort message from top to bottom?
+		src_message : 'Message' => dst_message : 'uml.Message'
+		(
+			name = Code
+		,	messageSort = ControlFlow : ToMessageSort()
+		)
+		{
+			_ .Where( OperationArguments ) => 'uml.Expression'
+			(
+				dst_message.argument
+			,	name = OperationArguments
+			);
+			
+			/*
+			_ .Where( Operation ) => 'uml.CallEvent'[%ObjectID%]
+			(
+				u.packagedElement
+			,	name = "%Code%_CallEvent"
+			,	operation = map Operation
+			);
+			*/
+				
+			src_message.ForEach('Sender') => dst_lifeline : 'uml.Lifeline'[%ObjectID%]
+			(
+				dst_interaction.lifeline
+			,	?Code? name = Code
+			)
+			{
+				_ => dst_event : 'uml.MessageOccurrenceSpecification'
+				(
+					dst_interaction.fragment
+				,	name = "%src_message.Code%_src"
+				,	covered += dst_lifeline : SetProperty(dst_message, 'sendEvent', dst_event)
+				,	message = dst_message
+				,	?src_message.Operation? event = get 'uml.CallEvent'[%src_message.ObjectID%]
+				);
+				
+				_ .Where( Class ) => dst_property : 'uml.Property'[%ObjectID%]
+				(
+					dst_interaction.ownedAttribute
+				,	type = dst_interaction : SetProperty(dst_lifeline, 'represents', dst_property)
+				,	type = map Class
+				);
+				
+				_ .Where ( ClassName : Equals('InteractionReference')) => 'uml.InteractionUse'
+				(
+					dst_interaction.fragment
+				,	name = ReferenceName
+				,	refersTo = dst_interaction : SetProperty(dst_lifeline, 'name', ReferenceName)
+				,	covered += dst_lifeline 
+				);
+								
+				_ .Where ( ClassName : Equals('Actor') ) => dst_property : 'uml.Property'[%ObjectID%]
+				(
+					dst_interaction.ownedAttribute
+				,	type = dst_interaction : SetProperty(dst_lifeline, 'represents', dst_property)
+				,	type = map this
+				);
+				
+				invoke rule_Comment_Comment();
+			}
+			
+			src_message.ForEach('Receiver') => dst_lifeline : 'uml.Lifeline'[%ObjectID%]
+			(
+				dst_interaction.lifeline
+			,	?Code? name = Code
+			)
+			{
+				_ => dst_event : 'uml.MessageOccurrenceSpecification'
+				(
+					dst_interaction.fragment
+				,	name = "%src_message.Code%_dst"
+				,	covered += dst_lifeline : SetProperty(dst_message, 'receiveEvent', dst_event)
+				,	message = dst_message
+				,	?src_message.Operation? event = get 'uml.CallEvent'[%src_message.ObjectID%]
+				);
+				
+				_ .Where( Class ) => dst_property : 'uml.Property'[%ObjectID%]
+				(
+					dst_interaction.ownedAttribute
+				,	type = dst_interaction : SetProperty(dst_lifeline, 'represents', dst_property)
+				,	type = map Class
+				);
+				
+				_ .Where ( ClassName : Equals('InteractionReference')) => 'uml.InteractionUse'
+				(
+					dst_interaction.fragment
+				,	name = ReferenceName
+				,	refersTo = dst_interaction : SetProperty(dst_lifeline, 'name', ReferenceName)
+				,	covered += dst_lifeline 
+				);
+				
+				_ .Where ( ClassName : Equals('Actor') ) => dst_property : 'uml.Property'[%ObjectID%]
+				(
+					dst_interaction.ownedAttribute
+				,	type = dst_interaction : SetProperty(dst_lifeline, 'represents', dst_property)
+				,	type = map this
+				);
+				
+				invoke rule_Comment_Comment();
+			}
+			
+			invoke rule_Comment_Comment();
+		}
+	}
+	
+	declare rule_Operation_Operation()
+	{
+		'Operation' => dst_operation : 'uml.Operation'
+		(
+			name = Code
+		,	visibility = Visibility : ToVisibilityKind()
+		,	isStatic = Static
+		,	isAbstract = Abstract
+		,	isQuery = Readonly
+		,	isLeaf = Final
+		)
+		{
+			//raisedException can not be mapped back from string
+			
+			_. Where( PostCondition ) => dst_constraint : 'uml.Constraint'
+			{
+				_ => 'uml.LiteralString'
+				(
+					name = 'PostCondition'
+				,	value = dst_operation : AddReference('postcondition', dst_constraint)
+				,	value = PostCondition 
+				);
+			}
+			
+			_. Where( PreCondition ) => dst_constraint : 'uml.Constraint'
+			{
+				_ => 'uml.LiteralString'
+				(
+					name = 'PreCondition'
+				,	value = dst_operation : AddReference('precondition', dst_constraint)
+				,	value = PreCondition 
+				);
+			}
+			
+			_. Where( TemplateBody ) => dst_constraint : 'uml.Constraint'
+			{
+				_ => 'uml.LiteralString'
+				(
+					name = 'TemplateBody'
+				,	value = dst_operation : SetProperty('bodyCondition', dst_constraint)
+				,	value = TemplateBody 
+				);
+			}
+			
+			'Parameter' => 'uml.Parameter'
+			(
+				name = Code
+			,	?DefaultValue? default = DefaultValue
+			,	direction = ParameterType : ToParameterDirectionKind()
+			,	?DataTypeObject? (type = map DataTypeObject) : ( ?DataType? (type = get 'uml.PrimitiveType'[%DataType%]) : ( ) )
+			)
+			{
+				invoke rule_Comment_Comment();
+				
+				_. Where ( !DataTypeObject && DataType ) => 'uml.PrimitiveType'[%DataType%]
+				(
+					u.packagedElement
+				,	name = DataType
+				);
+			}
+			
+			_.Where( ReturnType ) => 'uml.Parameter'
+			(
+				name = Code
+			,	direction = 'return'
+			,	?ReturnTypeObject? (type = map ReturnTypeObject) : (type = get 'uml.PrimitiveType'[%ReturnType%])
+			,	?Array? upper = -1
+			)
+			{
+				_. Where ( !ReturnTypeObject ) => 'uml.PrimitiveType'[%ReturnType%]
+				(
+					u.packagedElement
+				,	name = ReturnType
+				);
+			}
+			
+			invoke rule_Comment_Comment();
+		}
+	}
+	
+	declare rule_Part_Port()
+	{
+		'Part' => 'uml.Port'
+		(
+			name = Code
+		,	visibility = Visibility : ToVisibilityKind()
+		,	?Multiplicity? ( upper = Multiplicity : MultiplicityToUpper(), lower = Multiplicity : MultiplicityToLower() ) : ( )
+		,	aggregation = 'composite'
+		,	?DataTypeObject? (type = map DataTypeObject) : ( ?DataType? (type = get 'uml.PrimitiveType'[%DataType%]) : ( ) )
+		)
+		{
+			_. Where ( !DataTypeObject && DataType ) => 'uml.PrimitiveType'[%DataType%]
+			(
+				u.packagedElement
+			,	name = DataType
+			);
+			
+			invoke rule_Comment_Comment();
+			
+			invoke rule_Port_Port();
+		}
+	}
+	
+	declare rule_Part_Property()
+	{
+		'Part' => 'uml.Property'
+		(
+			name = Code
+		,	visibility = Visibility : ToVisibilityKind()
+		,	?Multiplicity? ( upper = Multiplicity : MultiplicityToUpper(), lower = Multiplicity : MultiplicityToLower() ) : ( )
+		,	aggregation = 'composite'
+		,	?DataTypeObject? (type = map DataTypeObject) : ( ?DataType? (type = get 'uml.PrimitiveType'[%DataType%]) : ( ) )
+		)
+		{
+			_. Where ( !DataTypeObject && DataType ) => 'uml.PrimitiveType'[%DataType%]
+			(
+				u.packagedElement
+			,	name = DataType
+			);
+			
+			invoke rule_Comment_Comment();
+			
+			invoke rule_Port_Port();
+		}
+	}
+	
+	declare rule_Port_Port()
+	{
+		'Port' => 'uml.Port'
+		(
+			name = Code
+		,	visibility = Visibility : ToVisibilityKind()
+		,	isService = Service
+		,	isBehavior = Behaviour
+		,	?Multiplicity? ( upper = Multiplicity : MultiplicityToUpper(), lower = Multiplicity : MultiplicityToLower() ) : ( )
+		,	aggregation = 'none'
+		,	?DataTypeObject? (type = map DataTypeObject) : ( ?DataType? (type = get 'uml.PrimitiveType'[%DataType%]) : ( ) )
+		)
+		{
+			_. Where ( !DataTypeObject && DataType ) => 'uml.PrimitiveType'[%DataType%]
+			(
+				u.packagedElement
+			,	name = DataType
+			);
+			
+			invoke rule_Comment_Comment();
+		}
+	}
+	
+	declare rule_Realization_InterfaceRealization()
+	{
+		'Realization'  => 'uml.InterfaceRealization'
+		(
+			name = Code
+		,	client += map Class
+		,	supplier += map Interface
+		)
+		{
+			invoke rule_Comment_Comment();
+		}
+	}
+	
+	declare rule_RequireLink_Usage()
+	{
+		'RequireLink' => 'uml.Usage'
+		(
+			name = Code
+		,	supplier += map ParentObject
+		,	client += map ChildObject
+		)
+		{
+			invoke rule_Comment_Comment();
+		}
+	}
+	
+	declare rule_SequenceDiagram_Interaction(src_Container, var_isImportActor)
+	{
+		src_sequenceDiagram : 'SequenceDiagram' => dst_interaction : 'uml.Interaction'
+		(
+			name = Code
+		)
+		{
+			invoke rule_Stereotype_Stereotype();
+			
+			invoke rule_Comment_Comment();
+		
+			_ .Where (var_isImportActor) => _
+			{
+				src_actor : src_Container.ForEach('Actor') => 'uml.Actor'
+				(
+					name = Code
+				)
+				{
+					src_actor.ForEach('ChildGeneralizations') => 'uml.Generalization'
+					(
+						general = map ParentObject
+					)
+					{
+						invoke rule_Comment_Comment();
+					}
+					
+					invoke rule_Comment_Comment();
+				}
+			}
+			
+			src_symbol : src_sequenceDiagram.ForEach('InteractionSymbol') => _
+			{
+				src_interaction : src_symbol.ForEach('Object') => dst_lifeline : 'uml.Lifeline'[_global:%ObjectID%_%src_symbol.Diagram.ObjectID%_%src_symbol.SymbolIndex%]
+				(
+					name = dst_lifeline : SetTraceable(false)
+				,	name = Code : MixSymbolIndex(src_symbol)
+				)
+				{
+					_ => dst_property : 'uml.Property'
+					(
+						dst_interaction.ownedAttribute
+					,	type = dst_interaction : SetProperty(dst_lifeline, 'represents', dst_property)
+					,	name = dst_property : SetTraceable(false)
+					);
+					
+					invoke rule_Comment_Comment();
+				}
+			}
+		
+			src_symbol : src_sequenceDiagram.ForEach('ActorSequenceSymbol') => _
+			{
+				src_act : src_symbol.ForEach('Object') => dst_lifeline : 'uml.Lifeline'[_global:%ObjectID%_%src_symbol.Diagram.ObjectID%_%src_symbol.SymbolIndex%]
+				(
+					name = dst_lifeline : SetTraceable(false)
+				,	name = Code : MixSymbolIndex(src_symbol)
+				)
+				{
+					_ => dst_property : 'uml.Property'
+					(
+						dst_interaction.ownedAttribute
+					,	type = dst_interaction : SetProperty(dst_lifeline, 'represents', dst_property)
+					,	type = map src_act
+					,	name = dst_property : SetTraceable(false)
+					);
+					
+					invoke rule_Comment_Comment();
+				}
+			}
+			
+			src_symbol : src_sequenceDiagram.ForEach('UMLObjectSequenceSymbol') => _
+			{
+				src_symbol.ForEach('Object') => dst_lifeline : 'uml.Lifeline'[_global:%ObjectID%_%src_symbol.Diagram.ObjectID%_%src_symbol.SymbolIndex%]
+				(
+					name = dst_lifeline : SetTraceable(false)
+				,	name = Code : MixSymbolIndex(src_symbol)
+				)
+				{
+					_ .Where( Class ) => dst_property : 'uml.Property'
+					(
+						dst_interaction.ownedAttribute
+					,	type = dst_interaction : SetProperty(dst_lifeline, 'represents', dst_property)
+					,	type = map Class
+					,	name = dst_property : SetTraceable(false)
+					);
+					
+					invoke rule_Comment_Comment();
+				}
+			}
+			
+			src_symbol : src_sequenceDiagram.ForEach('InteractionFragmentSymbol') => _
+			{
+				src_symbol.ForEach('Object') => 'uml.CombinedFragment'
+				(
+					interactionOperator = FragmentType : ToInteractionOperatorKind()
+				,	name = FragmentName
+				);
+			}
+			
+			src_symbol : src_sequenceDiagram.ForEach('InteractionReferenceSymbol') => _
+			{
+				src_symbol.ForEach('Object') => dst_interactionUse : 'uml.InteractionUse'
+				(
+					refersTo = map ReferencedDiagram
+				,	name = ReferenceName
+				)
+				& dst_lifeline : 'uml.Lifeline'[_global:%ObjectID%_%src_symbol.Diagram.ObjectID%_%src_symbol.SymbolIndex%]
+				(
+					coveredBy += dst_interactionUse
+				,	name = ReferenceName
+				);
+			}
+			
+			// SortSequenceDiagramMessages : Sort sequence diagram message symbols according to Y coordinate
+			src_symbol : src_sequenceDiagram.ForEach('MessageSymbol') : SortSequenceDiagramMessages() => _
+			{
+				src_message : src_symbol.ForEach('Object') => dst_message : 'uml.Message' //[_global:%ObjectID%_%src_symbol.Diagram.ObjectID%_%src_symbol.SymbolIndex%]
+				(
+					name = Code : MixSymbolIndex(src_symbol)
+				,	messageSort = ControlFlow : ToMessageSort()
+				)
+				{
+					_ .Where( OperationArguments ) => 'uml.Expression'
+					(
+						dst_message.argument
+					,	name = OperationArguments
+					);
+					
+					/*
+					_ .Where( Operation ) => 'uml.CallEvent'[%ObjectID%]
+					(
+						u.packagedElement
+					,	name = "%Code%_CallEvent"
+					,	operation = map Operation
+					);
+					*/
+					
+					_ .Where( Sender ) => dst_event : 'uml.MessageOccurrenceSpecification'
+					(
+						dst_interaction.fragment
+					,	name = "%src_message.Code%_src"
+					,	covered += get '_global'[%Sender.ObjectID%_%src_symbol.SourceSymbol.Diagram.ObjectID%_%src_symbol.SourceSymbol.SymbolIndex%]
+					,	message = dst_message : SetProperty(dst_message, 'sendEvent', dst_event)
+					,	?src_message.Operation? event = get 'uml.CallEvent'[%src_message.ObjectID%]
+					)
+					{
+						_. Where( src_symbol.SourceSymbol: IsExactTypeOf('ActivationSymbol') ) => _
+						(
+							covered += get '_global'[%Sender.ObjectID%_%src_symbol.SourceSymbol.Parent.Diagram.ObjectID%_%src_symbol.SourceSymbol.Parent.SymbolIndex%]
+						);
+					}
+					
+					_ .Where( Receiver ) => dst_event : 'uml.MessageOccurrenceSpecification'
+					(
+						dst_interaction.fragment
+					,	name = "%src_message.Code%_dst"
+					,	covered += get '_global'[%Receiver.ObjectID%_%src_symbol.DestinationSymbol.Diagram.ObjectID%_%src_symbol.DestinationSymbol.SymbolIndex%]
+					,	message = dst_message : SetProperty(dst_message, 'receiveEvent', dst_event)
+					,	?src_message.Operation? event = get 'uml.CallEvent'[%src_message.ObjectID%]
+					)
+					{
+						_. Where( src_symbol.DestinationSymbol: IsExactTypeOf('ActivationSymbol') ) => _
+						(
+							covered += get '_global'[%Receiver.ObjectID%_%src_symbol.DestinationSymbol.Parent.Diagram.ObjectID%_%src_symbol.DestinationSymbol.Parent.SymbolIndex%]
+						);
+					}
+					
+					invoke rule_Comment_Comment();	
+				}
+			}
+		}
+	}
+	
+	declare rule_Stereotype_Stereotype()
+	{
+		_ .Where( Stereotype ) => 'uml.Stereotype'
+		(
+			name = Stereotype
+		);
+	}
+	
+	//this rule must appear before rule_Message_Message
+	declare rule_UMLObject_InstanceSpecification()
+	{
+		'UMLObject' => 'uml.InstanceSpecification'
+		(
+			name = Code
+		,	classifier += map Class
+		)
+		{
+			invoke rule_Comment_Comment();
+		}
+	}
+	
+	declare rule_UseCase_UseCase()
+	{
+		src_useCase : 'UseCase' => dst_useCase : 'uml.UseCase'
+		(
+			name = Code
+		,	subject += map src_useCase.ForEach('ImplementationClasses')
+		)
+		{
+			src_useCase.ForEach('ChildGeneralizations') => 'uml.Generalization'
+			(
+				general = map ParentObject
+			)
+			{
+				invoke rule_Comment_Comment();
+			}
+			
+			_ .Where( Extension ) => 'uml.ExtensionPoint'
+			(
+				name = Extension
+			);
+			
+			_. Where( PostCondition ) => dst_constraint : 'uml.Constraint'
+			{
+				_ => 'uml.LiteralString'
+				(
+					name = 'PostCondition'
+				,	value = PostCondition 
+				);
+			}
+			
+			_. Where( PreCondition ) => dst_constraint : 'uml.Constraint'
+			{
+				_ => 'uml.LiteralString'
+				(
+					name = 'PreCondition'
+				,	value = PreCondition 
+				);
+			}
+			
+			//not needed
+			//invoke rule_BusinessRule_Constraint(); 
+			
+			invoke rule_Comment_Comment();
+		}
+	}
+	
+	declare rule_UseCaseAssociation_Association()
+	{
+		'UseCaseAssociation' => dst_assoc : 'uml.Association'
+		(
+			name = Code
+		)
+		{
+			_ => dst_prop : 'uml.Property'
+			(
+				type = map Source
+			,	name = dst_assoc:AddReference('navigableOwnedEnd', dst_prop)
+			,	name = 'src'
+			);
+			
+			_ => dst_prop : 'uml.Property'
+			(
+				type = map Destination
+			,	name = dst_assoc:AddReference('navigableOwnedEnd', dst_prop)
+			,	name = 'dst'
+			);
+			
+			invoke rule_Comment_Comment();
+		}
+	}
+	
+	//////////////////////////////////////////////////////////////////////////////////////////////////
+	//declare finished
+	//////////////////////////////////////////////////////////////////////////////////////////////////
+	
+	invoke rule_Actor_Actor();
+	
+	invoke rule_Association_Association();
+	
+	invoke rule_Association_AssociationClass();
+	
+	invoke rule_BusinessRule_Constraint();
+	
+	matchonce
+	{
+		//already mapped in rule_Association_AssociationClass()
+		'Class' .Where( Association ) => _;
+		
+		invoke rule_Class_Enumeration();
+		
+		invoke rule_Class_DataType();
+		
+		invoke rule_Class_PrimitiveType();
+		
+		invoke rule_Class_Stereotype();
+		
+		invoke rule_Class_Class();
+	}
+	
+	invoke rule_Component_Component();
+	
+	matchonce
+	{
+		invoke rule_Dependency_Usage();
+		
+		invoke rule_Dependency_Deployment();
+	
+		invoke rule_Dependency_Dependency();
+	}
+	
+	invoke rule_Event_CallEvent(u, 'packagedElement');
+	
+	invoke rule_InstanceLink_InformationFlow();
+	
+	invoke rule_Interface_Interface();
+	
+	invoke rule_Realization_InterfaceRealization();
+	
+	invoke rule_RequireLink_Usage();
+	
+	invoke rule_UMLObject_InstanceSpecification();
+	
+	invoke rule_UseCase_UseCase();
+	
+	invoke rule_UseCaseAssociation_Association();
+	
+	'Package' .Where( Stereotype:Equals('__ActivityDiagram') ) => dst_activity : 'uml.Activity'
+	(
+		name = Code
+	)
+	{		
+		_. Where ( m.RunOneTime ) => _
+		{
+			src_organizationUnit : m.ForEach('OrganizationUnit').Where( !ParentOrganization ) => dst_activityPartition : 'uml.ActivityPartition'
+			(
+				dst_activity.group
+			,	name = Code
+			,	node += map src_organizationUnit.ForEach('AttachedObjects')
+			,	node += map src_organizationUnit.ForEach('Symbols').ForEach('BaseDecisionSymbol').ForEach('Object')
+			,	node += map src_organizationUnit.ForEach('Symbols').ForEach('BaseSynchronizationSymbol').ForEach('Object')
+			,	node += map src_organizationUnit.ForEach('Symbols').ForEach('StartSymbol').ForEach('Object')
+			,	node += map src_organizationUnit.ForEach('Symbols').ForEach('EndSymbol').ForEach('Object')
+			//,	node += map src_organizationUnit.ForEach('Symbols').ForEach('VariableSymbol').ForEach('Object')
+			,	node += map src_organizationUnit.ForEach('Symbols').ForEach('ObjectNodeSymbol').ForEach('Object')
+			,	edge += map src_organizationUnit.ForEach('Symbols').ForEach('FlowSymbol').ForEach('Object')
+			)
+			{
+				invoke rule_Comment_Comment();
+				
+				invoke rule_SubOrganizationUnit_SubActivityPartition(src_organizationUnit, dst_activityPartition, 'subpartition');
+			}
+		}
+		
+		invoke rule_InteractionActivity_CallBehaviorAction();
+		
+		invoke rule_ActivityMappingHelper(dst_activity, 'group');
+	}
+	
+	invoke rule_ConnectlessSymbolessActivity_Activity();
+	
+	
+	
+	
+	//@supression('not used')
+	declare rule_ActivitySymbol_NodeOrAction(src_symbolCollection, dst_parentActivity, var_collection)
+	{
+		src_activitySymbol : src_symbolCollection.ForEach('ActivitySymbol') => _
+		{
+			matchonce
+			{
+				/* Composite Activity */
+				src_activitySymbol.ForEach('Object').Where( ActionType:Equals('UML_LOOP') ) => dst_node : 'uml.LoopNode'[_global:%ObjectID%_%src_activitySymbol.Diagram.ObjectID%_%src_activitySymbol.SymbolIndex%]
+				(
+					emit ParentCompositeCollection('dst_parentActivity', var_collection)
+				,	name = Code : MixSymbolIndex(src_activitySymbol)
+				)
+				{
+					src_diagram : 'ActivityDiagram' => _
+					{
+						invoke rule_ActivitySymbol_NodeOrAction(src_diagram, dst_node, 'node');
+						
+						invoke rule_ActivityDiagramRelatedSymbol_CorespondingTarget(src_diagram, dst_node);
+					}
+					
+					invoke rule_Activity_Constraint(dst_node);
+					
+					invoke rule_Comment_Comment();
+				}
+				
+				src_activitySymbol.ForEach('Object').Where( ActionType:Equals('UML_REGN') ) => dst_node : 'uml.ExpansionRegion'[_global:%ObjectID%_%src_activitySymbol.Diagram.ObjectID%_%src_activitySymbol.SymbolIndex%]
+				(
+					emit ParentCompositeCollection('dst_parentActivity', var_collection)
+				,	name = Code : MixSymbolIndex(src_activitySymbol)
+				)
+				{
+					src_diagram : 'ActivityDiagram' => _
+					{
+						invoke rule_ActivitySymbol_NodeOrAction(src_diagram, dst_node, 'node');
+						
+						invoke rule_ActivityDiagramRelatedSymbol_CorespondingTarget(src_diagram, dst_node);
+					}
+					
+					invoke rule_Activity_Constraint(dst_node);
+					
+					invoke rule_Comment_Comment();
+				}
+				
+				src_activitySymbol.ForEach('Object').Where( ActionType:Equals('UML_FOREACH') ) => dst_node : 'uml.ConditionalNode'[_global:%ObjectID%_%src_activitySymbol.Diagram.ObjectID%_%src_activitySymbol.SymbolIndex%]
+				(
+					emit ParentCompositeCollection('dst_parentActivity', var_collection)
+				,	name = Code : MixSymbolIndex(src_activitySymbol)
+				)
+				{
+					src_diagram : 'ActivityDiagram' => _
+					{
+						invoke rule_ActivitySymbol_NodeOrAction(src_diagram, dst_node, 'node');
+						
+						invoke rule_ActivityDiagramRelatedSymbol_CorespondingTarget(src_diagram, dst_node);
+					}
+					
+					invoke rule_Activity_Constraint(dst_node);
+					
+					invoke rule_Comment_Comment();
+				}
+				
+				src_activity : src_activitySymbol.ForEach('Object').Where( Composite ) => dst_node : 'uml.StructuredActivityNode'[_global:%ObjectID%_%src_activitySymbol.Diagram.ObjectID%_%src_activitySymbol.SymbolIndex%]
+				(
+					emit ParentCompositeCollection('dst_parentActivity', var_collection)
+				,	name = Code : MixSymbolIndex(src_activitySymbol)
+				,	? Committee ? inPartition += map src_activity.ForEach('Activity').ForEach('OrganizationUnit')
+				)
+				{
+					src_diagram : 'ActivityDiagram' => _
+					{
+						invoke rule_ActivitySymbol_NodeOrAction(src_diagram, dst_node, 'node');
+						
+						invoke rule_ActivityDiagramRelatedSymbol_CorespondingTarget(src_diagram, dst_node);
+					}
+					
+					invoke rule_Activity_Constraint(dst_node);
+					
+					invoke rule_Comment_Comment();
+				}
+			
+				/* Atomic Activity */
+				src_activitySymbol.ForEach('Object').Where( ActionType:Equals('UML_ACCCALL') ) => dst_action : 'uml.AcceptCallAction'[_global:%ObjectID%_%src_activitySymbol.Diagram.ObjectID%_%src_activitySymbol.SymbolIndex%]
+				(
+					dst_parentActivity.node
+				,	name = Code : MixSymbolIndex(src_activitySymbol)
+				)
+				{
+					invoke rule_Activity_Constraint(dst_action);
+					
+					invoke rule_Comment_Comment();
+				}
+				
+				src_activitySymbol.ForEach('Object').Where( ActionType:Equals('UML_CALL') ) => dst_action : 'uml.CallOperationAction'[_global:%ObjectID%_%src_activitySymbol.Diagram.ObjectID%_%src_activitySymbol.SymbolIndex%]
+				(
+					dst_parentActivity.node
+				,	name = Code : MixSymbolIndex(src_activitySymbol)
+				,	operation =? map Operation
+				)
+				{
+					invoke rule_Activity_Constraint(dst_action);
+					
+					invoke rule_Comment_Comment();
+				}
+				
+				src_activitySymbol.ForEach('Object').Where( ActionType:Equals('UML_REPLCALL') ) => dst_action : 'uml.ReplyAction'[_global:%ObjectID%_%src_activitySymbol.Diagram.ObjectID%_%src_activitySymbol.SymbolIndex%]
+				(
+					dst_parentActivity.node
+				,	name = Code : MixSymbolIndex(src_activitySymbol)
+				)
+				{
+					invoke rule_Activity_Constraint(dst_action);
+					
+					invoke rule_Comment_Comment();
+				}
+				
+				src_activitySymbol.ForEach('Object').Where( ActionType:Equals('UML_READATTR') ) => dst_action : 'uml.ReadStructuralFeatureAction'[_global:%ObjectID%_%src_activitySymbol.Diagram.ObjectID%_%src_activitySymbol.SymbolIndex%]
+				(
+					dst_parentActivity.node
+				,	name = Code : MixSymbolIndex(src_activitySymbol)
+				,	structuralFeature = map Attribute
+				)
+				{
+					invoke rule_Activity_Constraint(dst_action);
+					
+					invoke rule_Comment_Comment();
+				}
+			
+				src_activitySymbol.ForEach('Object').Where( ActionType:Equals('UML_WRITATTR') ) => dst_action : 'uml.AddStructuralFeatureValueAction'[_global:%ObjectID%_%src_activitySymbol.Diagram.ObjectID%_%src_activitySymbol.SymbolIndex%]
+				(
+					dst_parentActivity.node
+				,	name = Code : MixSymbolIndex(src_activitySymbol)
+				,	isReplaceAll = true
+				,	structuralFeature = map Attribute
+				)
+				{
+					invoke rule_Activity_Constraint(dst_action);
+					
+					invoke rule_Comment_Comment();
+				}
+			
+				src_activitySymbol.ForEach('Object').Where( ActionType:Equals('UML_READVAR') ) => dst_action : 'uml.ReadVariableAction'[_global:%ObjectID%_%src_activitySymbol.Diagram.ObjectID%_%src_activitySymbol.SymbolIndex%]
+				(
+					dst_parentActivity.node
+				,	name = Code : MixSymbolIndex(src_activitySymbol)
+				,	variable = map Variable
+				)
+				{
+					invoke rule_Activity_Constraint(dst_action);
+					
+					invoke rule_Comment_Comment();
+				}
+			
+				src_activitySymbol.ForEach('Object').Where( ActionType:Equals('UML_WRITVAR') ) => dst_action : 'uml.AddVariableValueAction'[_global:%ObjectID%_%src_activitySymbol.Diagram.ObjectID%_%src_activitySymbol.SymbolIndex%]
+				(
+					dst_parentActivity.node
+				,	name = Code : MixSymbolIndex(src_activitySymbol)
+				,	isReplaceAll = true
+				,	variable = map Variable
+				)
+				{
+					invoke rule_Activity_Constraint(dst_action);
+					
+					invoke rule_Comment_Comment();
+				}
+				
+				src_activitySymbol.ForEach('Object').Where( ActionType:Equals('UML_UNMARSHALL') ) =>  dst_action : 'uml.UnmarshallAction'[_global:%ObjectID%_%src_activitySymbol.Diagram.ObjectID%_%src_activitySymbol.SymbolIndex%]
+				(
+					dst_parentActivity.node
+				,	name = Code : MixSymbolIndex(src_activitySymbol)
+				)
+				{
+					invoke rule_Activity_Constraint(dst_action);
+					
+					invoke rule_Comment_Comment();
+				}
+				
+				src_activitySymbol.ForEach('Object').Where( ActionType:Equals('UML_VALSPEC') ) =>  dst_action : 'uml.ValueSpecificationAction'[_global:%ObjectID%_%src_activitySymbol.Diagram.ObjectID%_%src_activitySymbol.SymbolIndex%]
+				(
+					dst_parentActivity.node
+				,	name = Code : MixSymbolIndex(src_activitySymbol)
+				)
+				{
+					_ .Where( ExpressionText ) => 'uml.Expression'
+					(
+						dst_action.value
+					,	name = ExpressionText
+					);
+				
+					invoke rule_Activity_Constraint(dst_action);
+					
+					invoke rule_Comment_Comment();
+				}
+				
+				src_activitySymbol.ForEach('Object').Where( ActionType:Equals('UML_ACCEVNT') ) =>  dst_action : 'uml.AcceptEventAction'[_global:%ObjectID%_%src_activitySymbol.Diagram.ObjectID%_%src_activitySymbol.SymbolIndex%]
+				(
+					dst_parentActivity.node
+				,	name = Code : MixSymbolIndex(src_activitySymbol)
+				)
+				{
+					_ .Where( Event ) => 'uml.Trigger'
+					(
+						dst_action.trigger
+					,	event = map Event
+					);
+				
+					invoke rule_Activity_Constraint(dst_action);
+					
+					invoke rule_Comment_Comment();
+				}
+				
+				src_activity : src_activitySymbol.ForEach('Object').Where( ActionType:Equals('UML_SENDSIGN') ) =>  dst_action : 'uml.SendSignalAction'[_global:%ObjectID%_%src_activitySymbol.Diagram.ObjectID%_%src_activitySymbol.SymbolIndex%]
+				(
+					dst_parentActivity.node
+				,	name = Code : MixSymbolIndex(src_activitySymbol)
+				,	?Event? signal = get 'uml.Signal'[%Event.Code%]  //need modify
+				)
+				{
+					src_activity.ForEach('Event') => 'uml.Signal'[%Code%]
+					(
+						u.packagedElement
+					,	name = Code
+					)
+					{
+						invoke rule_Comment_Comment();
+					}
+				
+					invoke rule_Activity_Constraint(dst_action);
+					
+					invoke rule_Comment_Comment();
+				}
+				
+				src_activitySymbol.ForEach('Object').Where( ActionType:Equals('UML_CREATOBJ') ) => dst_action : 'uml.CreateObjectAction'[_global:%ObjectID%_%src_activitySymbol.Diagram.ObjectID%_%src_activitySymbol.SymbolIndex%]
+				(
+					dst_parentActivity.node
+				,	name = Code : MixSymbolIndex(src_activitySymbol)
+				)
+				{
+					_.Where ( Classifier ) => 'uml.OutputPin'
+					(
+						dst_action.result
+					,	type = map Classifier
+					);
+					
+					invoke rule_Activity_Constraint(dst_action);
+					
+					invoke rule_Comment_Comment();
+				}
+				
+				src_activitySymbol.ForEach('Object').Where( ActionType:Equals('UML_DESTOBJ') ) => dst_action : 'uml.DestroyObjectAction'[_global:%ObjectID%_%src_activitySymbol.Diagram.ObjectID%_%src_activitySymbol.SymbolIndex%]
+				(
+					dst_parentActivity.node
+				,	name = Code : MixSymbolIndex(src_activitySymbol)
+				)
+				{
+					_.Where ( Classifier ) => 'uml.InputPin'
+					(
+						dst_action.target
+					,	type = map Classifier
+					);
+						
+					invoke rule_Activity_Constraint(dst_action);
+					
+					invoke rule_Comment_Comment();
+				}
+				
+				src_activitySymbol.ForEach('Object') => dst_action : 'uml.OpaqueAction'[_global:%ObjectID%_%src_activitySymbol.Diagram.ObjectID%_%src_activitySymbol.SymbolIndex%]
+				(
+					dst_parentActivity.node
+				,	name = Code : MixSymbolIndex(src_activitySymbol)
+				)
+				{
+					invoke rule_Activity_Constraint(dst_action);
+					
+					invoke rule_Comment_Comment();
+				}
+			}
+		}
+	}
+	
+	
+	//@supression('not used')
+	declare rule_ActivityDiagramRelatedSymbol_CorespondingTarget(src_symbolCollection, dst_parentActivity)
+	{
+		src_symbol : src_symbolCollection.ForEach('BaseDecisionSymbol') => _
+		{
+			src_symbol.ForEach('Object') => 'uml.DecisionNode'[_global:%ObjectID%_%src_symbol.Diagram.ObjectID%_%src_symbol.SymbolIndex%]
+			(
+				dst_parentActivity.node
+			,	name = Code : MixSymbolIndex(src_symbol)
+			)
+			{
+				invoke rule_Comment_Comment();
+			}
+		}
+		
+		src_symbol : src_symbolCollection.ForEach('BaseSynchronizationSymbol') => _
+		{
+			src_symbol.ForEach('Object')  =>  'uml.JoinNode'[_global:%ObjectID%_%src_symbol.Diagram.ObjectID%_%src_symbol.SymbolIndex%]
+			(
+				dst_parentActivity.node
+			,	name = Code : MixSymbolIndex(src_symbol)
+			)
+			{
+				invoke rule_Comment_Comment();
+			}
+		}
+		
+		src_symbol : src_symbolCollection.ForEach('StartSymbol') => _
+		{
+			src_symbol.ForEach('Object')  => 'uml.InitialNode'[_global:%ObjectID%_%src_symbol.Diagram.ObjectID%_%src_symbol.SymbolIndex%]
+			(
+				dst_parentActivity.node
+			,	name = Code : MixSymbolIndex(src_symbol)
+			)
+			{
+				invoke rule_Comment_Comment();
+			}
+		}
+		
+		src_symbol : src_symbolCollection.ForEach('EndSymbol') => _
+		{
+			src_symbol.ForEach('Object').Where( ActivityTermination )  => 'uml.ActivityFinalNode'[_global:%ObjectID%_%src_symbol.Diagram.ObjectID%_%src_symbol.SymbolIndex%]
+			(
+				dst_parentActivity.node
+			,	name = Code : MixSymbolIndex(src_symbol)
+			)
+			{
+				invoke rule_Comment_Comment();
+			}
+			
+			src_symbol.ForEach('Object').Where( !ActivityTermination )  => 'uml.FlowFinalNode'[_global:%ObjectID%_%src_symbol.Diagram.ObjectID%_%src_symbol.SymbolIndex%]
+			(
+				dst_parentActivity.node
+			,	name = Code : MixSymbolIndex(src_symbol)
+			)
+			{
+				invoke rule_Comment_Comment();
+			}
+		}
+		
+		
+		src_symbol : src_symbolCollection.ForEach('VariableSymbol') => _
+		{
+			src_symbol.ForEach('Object')  => 'uml.Variable'[_global:%ObjectID%_%src_symbol.Diagram.ObjectID%_%src_symbol.SymbolIndex%]
+			(
+				dst_parentActivity.variable
+			,	name = Code : MixSymbolIndex(src_symbol)
+			,	?Multiplicity? ( upper = Multiplicity : MultiplicityToUpper(), lower = Multiplicity : MultiplicityToLower() ) : ( )
+			,	?DataTypeObject? (type = map DataTypeObject) : ( ?DataType? (type = get 'uml.PrimitiveType'[%DataType%]) : ( ) )
+			)
+			{
+				_. Where ( !DataTypeObject && DataType ) => 'uml.PrimitiveType'[%DataType%]
+				(
+					u.packagedElement
+				,	name = DataType
+				);
+				
+				invoke rule_Comment_Comment();
+			}
+		}
+		
+		src_symbol : src_symbolCollection.ForEach('ObjectNodeSymbol') => _
+		{
+			src_symbol.ForEach('Object')  => 'uml.DataStoreNode'[_global:%ObjectID%_%src_symbol.Diagram.ObjectID%_%src_symbol.SymbolIndex%]
+			(
+				dst_parentActivity.node
+			,	name = Code : MixSymbolIndex(src_symbol)
+			,	?DataTypeObject? (type = map DataTypeObject) : ( ?DataType? (type = get 'uml.PrimitiveType'[%DataType%]) : ( ) )
+			)
+			{
+				_. Where ( !DataTypeObject && DataType ) => 'uml.PrimitiveType'[%DataType%]
+				(
+					u.packagedElement
+				,	name = DataType
+				);
+				
+				invoke rule_Comment_Comment();
+			}
+		}
+		
+		src_flowSymbol : src_symbolCollection.ForEach('FlowSymbol') => _
+		{
+			src_flow : src_flowSymbol.ForEach('Object') =>  'uml.ControlFlow'[_global:%ObjectID%_%src_flowSymbol.Diagram.ObjectID%_%src_flowSymbol.SymbolIndex%]
+			(
+				dst_parentActivity.edge
+			,	name = Code : MixSymbolIndex(src_flowSymbol)
+			,	source = get '_global'[%Source.ObjectID%_%src_flowSymbol.SourceSymbol.Diagram.ObjectID%_%src_flowSymbol.SourceSymbol.SymbolIndex%]
+			,	target = get '_global'[%Destination.ObjectID%_%src_flowSymbol.DestinationSymbol.Diagram.ObjectID%_%src_flowSymbol.DestinationSymbol.SymbolIndex%]
+			)
+			{
+				invoke rule_Comment_Comment();
+			}
+		}
+	}
+	
+	invoke rule_SequenceDiagram_Interaction(m, false);
+	
+	src_package : 'Package' .Where( Stereotype:Equals('__Interaction') ) => _
+	{
+		invoke rule_SequenceDiagram_Interaction(src_package, true);
+	}
+
+	
+	////////////////////////////////////////////////P2 Features/////////////////////////////////////////////////////////////
+	declare rule_ComponentInstance_Artifact()
+	{
+		'ComponentInstance' => 'uml.Artifact'
+		(
+			name = Code
+		)
+		{
+			_ .Where( Component ) => dst_prop : 'uml.Property'
+			(
+				name = Component.Code
+			,	?Cardinality? ( upper = Cardinality : MultiplicityToUpper(), lower = Cardinality : MultiplicityToLower() )  : ( )
+			,	type = map Component
+			);
+		
+			invoke rule_Comment_Comment();
+		}
+	}
+	
+	declare rule_Node_Node()
+	{
+		'Node' => 'uml.Node'
+		(
+			name = Code
+		)
+		{
+			invoke rule_Comment_Comment();
+			
+			invoke rule_Component_Component();
+			
+			invoke rule_ComponentInstance_Artifact();
+			
+			invoke rule_Stereotype_Stereotype();
+		}
+	}
+	
+	declare rule_Node_Device()
+	{
+		'Node'.Where( Stereotype:Equals('Device') ) => 'uml.Device'
+		(
+			name = Code
+		)
+		{
+			invoke rule_Comment_Comment();
+			
+			invoke rule_Component_Component();
+			
+			invoke rule_ComponentInstance_Artifact();
+		}
+	}
+	
+	declare rule_Node_ExecutionEnvironment()
+	{
+		'Node'.Where( Stereotype:Equals('ExecutionEnvironment') ) => 'uml.ExecutionEnvironment'
+		(
+			name = Code
+		)
+		{
+			invoke rule_Comment_Comment();
+			
+			invoke rule_Component_Component();
+			
+			invoke rule_ComponentInstance_Artifact();
+		}
+	}
+	
+	declare rule_NodeAssociation_CommunicationPath()
+	{
+		'NodeAssociation' => dst_communicationPath : 'uml.CommunicationPath'
+		(
+			name = Code
+		)
+		{
+			_ => dst_prop : 'uml.Property'
+			(
+				dst_communicationPath.ownedEnd
+			,	type = map NodeA
+			,	name = RoleAName
+			,	?RoleAMultiplicity? ( upper = RoleAMultiplicity : MultiplicityToUpper(), lower = RoleAMultiplicity : MultiplicityToLower() ) : ( )
+			);
+			
+			_ => dst_prop : 'uml.Property'
+			(
+				dst_communicationPath.ownedEnd
+			,	type = map NodeB
+			,	name = RoleBName
+			,	?RoleBMultiplicity? ( upper = RoleBMultiplicity : MultiplicityToUpper(), lower = RoleBMultiplicity : MultiplicityToLower() ) : ( )
+			);
+			
+			invoke rule_Comment_Comment();
+		}
+	}
+	
+	
+	matchonce
+	{
+		invoke rule_Node_Device();
+		
+		invoke rule_Node_ExecutionEnvironment();
+	
+		invoke rule_Node_Node();
+	}
+	
+	invoke rule_ComponentInstance_Artifact();
+	
+	invoke rule_NodeAssociation_CommunicationPath();
+	
+	////////////////////////////////////////////////End of P2 Features/////////////////////////////////////////////////////////////
+	
+	
+	
+	
+	
+	/////////////////////////////////////////////////////P3 Features//////////////////////////////////////////////////
+	declare rule_ConnectlessSymbolessState_StateMachine()
+	{
+		src_state : 'State'.Where( !src_state.ForEach('InputLinks').ElementAt(0) 
+										 && !src_state.ForEach('OutputLinks').ElementAt(0) ) => dst_state : 'uml.StateMachine'
+		(
+			name = Code
+		)
+		{
+			_.Where( Composite ) => 'uml.Region'
+			{
+				invoke rule_StateMappingHelper();
+			}
+			
+			invoke rule_Comment_Comment();
+		}
+	}
+	
+	declare rule_State_State()
+	{
+		src_state : 'State' => dst_state : 'uml.State'
+		(
+			name = Code
+		)
+		{
+			src_state.ForEach('DeferredEvents') => dst_trigger : 'uml.Trigger'
+			(
+				dst_state.deferrableTrigger
+			,	name = dst_trigger : SetTraceable(false)
+			,	name = Code
+			,	event = map this
+			);
+			
+			_ .Where( src_state.ForEach('Action').ElementAt(0) ) => 'uml.Activity'
+			(
+				dst_state.doActivity
+			)
+			{
+				//@description('TODO: need further discussion.')
+				'Action' => 'uml.Trigger'
+				(
+					name = Code
+				,	?TriggerEventObject? event = map TriggerEventObject
+				)
+				{
+					invoke rule_Comment_Comment();
+				}
+			}
+			
+			invoke rule_Comment_Comment();
+			
+			_.Where( Composite ) => 'uml.Region'
+			{
+				invoke rule_StateMappingHelper();
+			}
+		}
+	}
+	
+	declare rule_State_FinalState()
+	{
+		src_state : 'State' .Where( Stereotype:Equals('FinalState') ) => dst_state : 'uml.FinalState'
+		(
+			name = Code
+		)
+		{
+			src_state.ForEach('DeferredEvents') => dst_trigger : 'uml.Trigger'
+			(
+				dst_state.deferrableTrigger
+			,	name = dst_trigger : SetTraceable(false)
+			,	name = Code
+			,	event = map this
+			);
+			
+			_ .Where( src_state.ForEach('Action').ElementAt(0) ) => 'uml.Activity'
+			(
+				dst_state.doActivity
+			)
+			{
+				//@description('TODO: need further discussion.')
+				'Action' => 'uml.Trigger'
+				(
+					name = Code
+				,	?TriggerEventObject? event = map TriggerEventObject
+				)
+				{
+					invoke rule_Comment_Comment();
+				}
+			}
+			
+			invoke rule_Comment_Comment();
+			
+			_.Where( Composite ) => 'uml.Region'
+			{
+				invoke rule_StateMappingHelper();
+			}
+		}
+	}
+	
+	declare rule_End_Pseudostate()
+	{
+		src_end : 'End' => 'uml.Pseudostate'
+		(
+			name = Code
+		,	kind = 'terminate'
+		)
+		{
+			invoke rule_Comment_Comment();
+		}
+	}
+	
+	declare rule_Start_Pseudostate()
+	{
+		'Start' => 'uml.Pseudostate'
+		(
+			name = Code
+		,	kind = 'initial'
+		)
+		{
+			invoke rule_Comment_Comment();
+		}
+	}
+	
+	declare rule_JunctionPoint_Pseudostate()
+	{
+		'JunctionPoint' => 'uml.Pseudostate'
+		(
+			name = Code
+		,	kind = 'junction'
+		)
+		{
+			invoke rule_Comment_Comment();
+		}
+	}
+	
+	declare rule_Synchronization_Pseudostate()
+	{
+		'Synchronization' => 'uml.Pseudostate'
+		(
+			name = Code
+		,	kind = 'join'
+		)
+		{
+			_.Where( Type:Equals(2) ) => _ ( kind = 'fork' );
+			
+			invoke rule_Comment_Comment();
+		}
+	}
+	
+	declare rule_Transition_Transition()
+	{
+		'Transition' => dst_transition : 'uml.Transition'
+		(
+			name = Code
+		,	source = map Source
+		,	target = map Destination
+		)
+		{
+			_ .Where( TriggerEvent ) => 'uml.Trigger'
+			(
+				dst_transition.trigger
+			,	name = TriggerEvent.Code
+			,	event = map TriggerEvent
+			);
+		
+			invoke rule_Comment_Comment();
+		}
+	}
+	
+	declare rule_StateMappingHelper()
+	{
+		invoke rule_Event_CallEvent(u, 'packagedElement');
+	
+		matchonce
+		{
+			invoke rule_State_FinalState();
+		
+			invoke rule_State_State();
+		}
+		
+		invoke rule_Start_Pseudostate();
+		
+		invoke rule_End_Pseudostate();
+		
+		invoke rule_JunctionPoint_Pseudostate();
+		
+		invoke rule_Synchronization_Pseudostate();
+		
+		invoke rule_Transition_Transition();
+	}
+	
+	
+	'Package' .Where( Stereotype:Equals('__StatechartDiagram') ) => 'uml.StateMachine'
+	(
+		name = Code
+	)
+	{
+		_ => 'uml.Region'
+		{
+			invoke rule_StateMappingHelper();
+		}
+		
+		invoke rule_Comment_Comment();
+	}
+	
+	invoke rule_ConnectlessSymbolessState_StateMachine();
+	
+	
+	//'DataSource' => _;
+	
+	//'Domain' => _;
+	
+	
+	/* can not create EStringToStringMapEntry
+	'FileObject' => 'ecore.EAnnotation'
+	(
+		source = "http://www.sybase.com/PowerDesigner/OOM/Export/%Code%"
+	);
+	*/
+	/////////////////////////////////////////////////////End of P3 Features//////////////////////////////////////////////////
+	
+	//invoke at last?
+	invoke rule_Package_Package();
+	
+	declare rule_Package_Package()
+	{
+		matchonce
+		{
+			'Package' .Where( Stereotype:Equals('__ActivityDiagram') ) => _;
+			
+			'Package' .Where( Stereotype:Equals('__StatechartDiagram') ) => _;
+			
+			'Package' .Where( Stereotype:Equals('__Interaction') ) => _;
+			
+			src_package : 'Package' => u : 'uml.Package'( name = Code )
+			{
+				/* no generalization in uml2.1 for package
+				src_package.ForEach('OutputLinks').Where( this:IsExactTypeOf('Generalization') ) => 'uml.Generalization'
+				(
+					general = map ParentObject
+				)
+				{
+					invoke rule_Comment_Comment();
+				}
+				*/
+				
+				invoke rule_Actor_Actor();
+		
+				invoke rule_Association_Association();
+				
+				invoke rule_Association_AssociationClass();
+				
+				matchonce
+				{
+					//already mapped in rule_Association_AssociationClass()
+					'Class' .Where( Association ) => _;
+					
+					invoke rule_Class_Enumeration();
+					
+					invoke rule_Class_DataType();
+					
+					invoke rule_Class_PrimitiveType();
+					
+					invoke rule_Class_Stereotype();
+					
+					invoke rule_Class_Class();
+				}
+				
+				invoke rule_Component_Component();
+				
+				matchonce
+				{
+					invoke rule_Dependency_Usage();
+					
+					invoke rule_Dependency_Deployment();
+				
+					invoke rule_Dependency_Dependency();
+				}
+				
+				invoke rule_Event_CallEvent(u, 'packagedElement');
+				
+				invoke rule_InstanceLink_InformationFlow();
+				
+				invoke rule_Interface_Interface();
+				
+				invoke rule_Realization_InterfaceRealization();
+				
+				invoke rule_RequireLink_Usage();
+				
+				invoke rule_UMLObject_InstanceSpecification();
+				
+				invoke rule_UseCase_UseCase();
+				
+				invoke rule_UseCaseAssociation_Association();
+				
+				invoke rule_Stereotype_Stereotype();
+				
+				invoke rule_SequenceDiagram_Interaction(src_package, false);
+				
+				src_package : 'Package' .Where( Stereotype:Equals('__Interaction') ) => _
+				{
+					invoke rule_SequenceDiagram_Interaction(src_package, true);
+				}
+				
+				'Package' .Where( Stereotype:Equals('__StatechartDiagram') ) => 'uml.StateMachine'
+				(
+					name = Code
+				)
+				{
+					_ => 'uml.Region'
+					{
+						invoke rule_StateMappingHelper();
+					}
+					
+					invoke rule_Comment_Comment();
+				}
+				
+				invoke rule_ConnectlessSymbolessState_StateMachine();
+				
+				'Package' .Where( Stereotype:Equals('__ActivityDiagram') ) => dst_activity : 'uml.Activity'
+				(
+					name = Code
+				)
+				{					
+					_. Where ( m.RunOneTime ) => _
+					{
+						src_organizationUnit : m.ForEach('OrganizationUnit').Where( !ParentOrganization ) => dst_activityPartition : 'uml.ActivityPartition'
+						(
+							dst_activity.group
+						,	name = Code
+						,	node += map src_organizationUnit.ForEach('AttachedObjects')
+						,	node += map src_organizationUnit.ForEach('Symbols').ForEach('BaseDecisionSymbol').ForEach('Object')
+						,	node += map src_organizationUnit.ForEach('Symbols').ForEach('BaseSynchronizationSymbol').ForEach('Object')
+						,	node += map src_organizationUnit.ForEach('Symbols').ForEach('StartSymbol').ForEach('Object')
+						,	node += map src_organizationUnit.ForEach('Symbols').ForEach('EndSymbol').ForEach('Object')
+						//,	node += map src_organizationUnit.ForEach('Symbols').ForEach('VariableSymbol').ForEach('Object')
+						,	node += map src_organizationUnit.ForEach('Symbols').ForEach('ObjectNodeSymbol').ForEach('Object')
+						,	edge += map src_organizationUnit.ForEach('Symbols').ForEach('FlowSymbol').ForEach('Object')
+						)
+						{
+							invoke rule_Comment_Comment();
+							
+							invoke rule_SubOrganizationUnit_SubActivityPartition(src_organizationUnit, dst_activityPartition, 'subpartition');
+						}
+					}
+					
+					invoke rule_InteractionActivity_CallBehaviorAction();
+			
+					invoke rule_ActivityMappingHelper(dst_activity, 'group');
+				}
+				
+				invoke rule_ConnectlessSymbolessActivity_Activity();
+				
+				matchonce
+				{
+					invoke rule_Node_Device();
+					
+					invoke rule_Node_ExecutionEnvironment();
+				
+					invoke rule_Node_Node();
+				}
+				
+				invoke rule_ComponentInstance_Artifact();
+				
+				invoke rule_NodeAssociation_CommunicationPath();
+	
+				//invoke at last?
+				invoke rule_Package_Package();
+			}
+		}
+	}
+	
+	declare rule_InteractionActivity_CallBehaviorAction()
+	{
+		'InteractionActivity' => 'uml.CallBehaviorAction'
+		(
+			?ReferencedDiagram? (name = ReferencedDiagram.Code, behavior = map ReferencedDiagram) : ( )
+		);
+	}
+	
+	//////////////////////////////////////////////
+	//Activity to Node
+	//////////////////////////////////////////////
+	declare rule_ConnectlessSymbolessActivity_Activity()
+	{
+		src_activity : 'Activity'.Where( !src_activity.ForEach('InputLinks').ElementAt(0) 
+										 && !src_activity.ForEach('OutputLinks').ElementAt(0) ) => dst_activity : 'uml.Activity'
+		(
+			name = Code
+		)
+		{
+			_. Where ( m.RunOneTime ) => _
+			{
+				src_organizationUnit : m.ForEach('OrganizationUnit').Where( !ParentOrganization ) => dst_activityPartition : 'uml.ActivityPartition'
+				(
+					dst_activity.group
+				,	name = Code
+				,	node += map src_organizationUnit.ForEach('AttachedObjects')
+				,	node += map src_organizationUnit.ForEach('Symbols').ForEach('BaseDecisionSymbol').ForEach('Object')
+				,	node += map src_organizationUnit.ForEach('Symbols').ForEach('BaseSynchronizationSymbol').ForEach('Object')
+				,	node += map src_organizationUnit.ForEach('Symbols').ForEach('StartSymbol').ForEach('Object')
+				,	node += map src_organizationUnit.ForEach('Symbols').ForEach('EndSymbol').ForEach('Object')
+				//,	node += map src_organizationUnit.ForEach('Symbols').ForEach('VariableSymbol').ForEach('Object')
+				,	node += map src_organizationUnit.ForEach('Symbols').ForEach('ObjectNodeSymbol').ForEach('Object')
+				,	edge += map src_organizationUnit.ForEach('Symbols').ForEach('FlowSymbol').ForEach('Object')
+				)
+				{
+					invoke rule_Comment_Comment();
+					
+					invoke rule_SubOrganizationUnit_SubActivityPartition(src_organizationUnit, dst_activityPartition, 'subpartition');
+				}
+			}
+			
+			invoke rule_InputActivityParameter_Parameter();
+			
+			invoke rule_OutputActivityParameter_Parameter();
+		
+			invoke rule_ActivityMappingHelper(dst_activity, 'group');
+		}
+	}
+	
+	declare rule_Activity_OwnedBehavior(dst_container)
+	{
+		'Activity'.Where( Stereotype:Equals('OwnedBehavior') ) => dst_act : 'uml.Activity'
+		(
+			dst_container.ownedBehavior
+		,	name = Code
+		)
+		{
+			invoke rule_Activity_Constraint(dst_act);
+			
+			invoke rule_InputActivityParameter_Parameter();
+			
+			invoke rule_OutputActivityParameter_Parameter();
+			
+			invoke rule_ActivityMappingHelper(dst_act, 'group');
+		}
+	}
+	
+	declare rule_Activity_NestedClassifier(dst_container)
+	{
+		'Activity'.Where( Stereotype:Equals('NestedClassifier') ) => dst_act : 'uml.Activity'
+		(
+			dst_container.nestedClassifier
+		,	name = Code
+		)
+		{
+			invoke rule_Activity_Constraint(dst_act);
+			
+			invoke rule_InputActivityParameter_Parameter();
+			
+			invoke rule_OutputActivityParameter_Parameter();
+			
+			invoke rule_ActivityMappingHelper(dst_act, 'group');
+		}
+	}
+	
+	declare rule_InputActivityParameter_Parameter()
+	{
+		'InputActivityParameter' => 'uml.Parameter'
+		(
+			name = Code
+		,	direction = 'in'
+		,	?DataTypeObject? (type = map DataTypeObject) : ( ?DataType? (type = get 'uml.PrimitiveType'[%DataType%]) : ( ) )
+		)
+		{
+			_. Where ( !DataTypeObject && DataType ) => 'uml.PrimitiveType'[%DataType%]
+			(
+				u.packagedElement
+			,	name = DataType
+			);
+			
+			invoke rule_Comment_Comment();
+		}
+	}
+	
+	declare rule_OutputActivityParameter_Parameter()
+	{
+		'OutputActivityParameter' => 'uml.Parameter'
+		(
+			name = Code
+		,	direction = 'out'
+		,	?DataTypeObject? (type = map DataTypeObject) : ( ?DataType? (type = get 'uml.PrimitiveType'[%DataType%]) : ( ) )
+		)
+		{
+			_. Where ( !DataTypeObject && DataType ) => 'uml.PrimitiveType'[%DataType%]
+			(
+				u.packagedElement
+			,	name = DataType
+			);
+			
+			invoke rule_Comment_Comment();
+		}
+	}
+	
+	//private helper
+	declare rule_ActivityMappingHelper(dst_node, var_collection)
+	{
+		//invoke rule_InteractionActivity_CallBehaviorAction();
+		
+		matchonce
+		{
+			///////////////////////////////////////////////////
+			//Activity to Node
+			///////////////////////////////////////////////////
+			
+			invoke rule_Activity_LoopNode(dst_node, var_collection);
+			
+			invoke rule_Activity_ExpansionRegion(dst_node, var_collection);
+			
+			invoke rule_Activity_ConditionalNode(dst_node, var_collection);
+			
+			invoke rule_Activity_OwnedBehavior(dst_node);
+			
+			invoke rule_Activity_NestedClassifier(dst_node);
+			
+			invoke rule_Activity_StructuredActivityNode(dst_node, var_collection);
+			
+			///////////////////////////////////////////////////
+			//Activity to Action
+			///////////////////////////////////////////////////
+			
+			invoke rule_Activity_AcceptCallAction(dst_node);
+	
+			invoke rule_Activity_CallOperationAction(dst_node);
+			
+			invoke rule_Activity_ReplyAction(dst_node);
+			
+			invoke rule_Activity_ReadStructuralFeatureAction(dst_node);
+			
+			invoke rule_Activity_AddStructuralFeatureValueAction(dst_node);
+			
+			invoke rule_Activity_ReadVariableAction(dst_node);
+			
+			invoke rule_Activity_AddVariableValueAction(dst_node);
+			
+			invoke rule_Activity_UnmarshallAction(dst_node);
+			
+			invoke rule_Activity_ValueSpecificationAction(dst_node);
+			
+			invoke rule_Activity_AcceptEventAction(dst_node);
+			
+			invoke rule_Activity_SendSignalAction(dst_node);
+			
+			invoke rule_Activity_CreateObjectAction(dst_node);
+			
+			invoke rule_Activity_DestroyObjectAction(dst_node);
+			
+			invoke rule_Activity_OpaqueAction(dst_node);
+		}
+		
+		matchonce
+		{
+			invoke rule_ActivityFlow_ObjectFlow(dst_node, 'edge');
+		
+			invoke rule_ActivityFlow_ControlFlow(dst_node, 'edge');
+		}
+		
+		invoke rule_Comment_Comment();
+		
+		matchonce
+		{
+			invoke rule_Decision_MergeNode(dst_node, 'node');
+			
+			invoke rule_Decision_DecisionNode(dst_node, 'node');
+		}
+		
+		invoke rule_End_ActivityFinalNode(dst_node, 'node');
+
+		invoke rule_End_FlowFinalNode(dst_node, 'node');
+		
+		matchonce
+		{
+			//description('Filter the automatcally generated ObjectNode')
+			'ObjectNode'.Where ( ActivityParameter ) => _;
+			
+			invoke rule_ObjectNode_ExpansionNode(dst_node, 'node');
+			
+			invoke rule_ObjectNode_CentralBufferNode(dst_node, 'node');
+			
+			invoke rule_ObjectNode_ActivityParameterNode(dst_node, 'node');
+			
+			invoke rule_ObjectNode_Pin(dst_node, 'node');
+		
+			invoke rule_ObjectNode_DataStoreNode(dst_node, 'node');
+		}
+		
+		invoke rule_Start_InitialNode(dst_node, 'node');
+		
+		matchonce
+		{
+			invoke rule_Synchronization_ForkNode(dst_node, 'node');
+		
+			invoke rule_Synchronization_JoinNode(dst_node, 'node');
+		}
+		
+		invoke rule_Variable_Variable(dst_node, 'variable');
+	}
+	
+	declare rule_Activity_ConditionalNode(dst_container, var_collection)
+	{
+		src_activity : 'Activity' .Where( ActionType:Equals('UML_FOREACH') ) => dst_node : 'uml.ConditionalNode'
+		(
+			emit ParentCompositeCollection('dst_container', var_collection)
+		,	name = Code
+		,	? Committee ? inPartition += map src_activity.ForEach('Activity').ForEach('OrganizationUnit')
+		)
+		{
+			invoke rule_Activity_Constraint(dst_node);
+			
+			invoke rule_ActivityMappingHelper(dst_node, 'node');
+		}
+	}
+	
+	declare rule_Activity_Constraint(dst_container)
+	{
+		_. Where( PreCondition ) => dst_constraint : 'uml.Constraint'
+		(
+			dst_container.localPrecondition
+		)
+		{
+			_ => 'uml.LiteralString'
+			(
+				name = 'PreCondition'
+			,	value = PreCondition 
+			);
+		}
+		
+		_. Where( PostCondition ) => dst_constraint : 'uml.Constraint'
+		(
+			dst_container.localPostcondition
+		)
+		{
+			_ => 'uml.LiteralString'
+			(
+				name = 'PostCondition'
+			,	value = PostCondition 
+			);
+		}
+	}
+	
+	declare rule_Activity_ExpansionRegion(dst_container, var_collection)
+	{
+		src_activity : 'Activity' .Where( ActionType:Equals('UML_REGN') ) => dst_node : 'uml.ExpansionRegion'
+		(
+			emit ParentCompositeCollection('dst_container', var_collection)
+		,	name = Code
+		,	? Committee ? inPartition += map src_activity.ForEach('Activity').ForEach('OrganizationUnit')
+		)
+		{
+			invoke rule_Activity_Constraint(dst_node);
+			
+			invoke rule_ActivityMappingHelper(dst_node, 'node');
+		}
+	}
+	
+	declare rule_Activity_LoopNode(dst_container, var_collection)
+	{
+		src_activity : 'Activity' .Where( ActionType:Equals('UML_LOOP') ) => dst_node : 'uml.LoopNode'
+		(
+			emit ParentCompositeCollection('dst_container', var_collection)
+		,	name = Code
+		,	? Committee ? inPartition += map src_activity.ForEach('Activity').ForEach('OrganizationUnit')
+		)
+		{
+			invoke rule_Activity_Constraint(dst_node);
+			
+			invoke rule_ActivityMappingHelper(dst_node, 'node');
+		}
+	}
+	
+	declare rule_Activity_StructuredActivityNode(dst_container, var_collection)
+	{
+		src_activity : 'Activity' .Where( Composite ) => dst_node : 'uml.StructuredActivityNode'
+		(
+			emit ParentCompositeCollection('dst_container', var_collection)
+		,	name = Code
+		,	? Committee ? inPartition += map src_activity.ForEach('Activity').ForEach('OrganizationUnit')
+		)
+		{
+			invoke rule_Activity_Constraint(dst_node);
+			
+			invoke rule_ActivityMappingHelper(dst_node, 'node');
+		}
+	}
+	
+	
+	///////////////////////////////////////////////////////////////////
+	//Activity to Actions
+	//////////////////////////////////////////////////////////////////
+	
+	declare rule_Activity_AcceptCallAction(dst_container)
+	{
+		'Activity'.Where( ActionType:Equals('UML_ACCCALL') ) => dst_action : 'uml.AcceptCallAction'
+		(
+			dst_container.node
+		,	name = Code
+		)
+		{
+			invoke rule_Activity_Constraint(dst_action);
+			
+			invoke rule_Comment_Comment();
+		}
+	}
+	
+	declare rule_Activity_AcceptEventAction(dst_container)
+	{
+		'Activity'.Where( ActionType:Equals('UML_ACCEVNT') ) => dst_action : 'uml.AcceptEventAction'
+		(
+			dst_container.node
+		,	name = Code
+		)
+		{
+			_ .Where( Event ) => 'uml.Trigger'
+			(
+				dst_action.trigger
+			,	event = map Event
+			);
+			
+			invoke rule_Activity_Constraint(dst_action);
+			
+			invoke rule_Comment_Comment();
+		}
+	}
+	
+	declare rule_Activity_AddStructuralFeatureValueAction(dst_container)
+	{
+		'Activity'.Where( ActionType:Equals('UML_WRITATTR') ) => dst_action : 'uml.AddStructuralFeatureValueAction'
+		(
+			dst_container.node
+		,	name = Code
+		,	isReplaceAll = true
+		,	structuralFeature = map Attribute
+		)
+		{
+			invoke rule_Activity_Constraint(dst_action);
+			
+			invoke rule_Comment_Comment();
+		}
+	}
+	
+	declare rule_Activity_AddVariableValueAction(dst_container)
+	{
+		'Activity'.Where( ActionType:Equals('UML_WRITVAR') ) => dst_action : 'uml.AddVariableValueAction'
+		(
+			dst_container.node
+		,	name = Code
+		,	isReplaceAll = true
+		,	variable = map Variable
+		)
+		{
+			invoke rule_Activity_Constraint(dst_action);
+			
+			invoke rule_Comment_Comment();
+		}
+	}
+	
+	declare rule_Activity_CallOperationAction(dst_container)
+	{
+		'Activity'.Where( ActionType:Equals('UML_CALL') ) => dst_action : 'uml.CallOperationAction'
+		(
+			dst_container.node
+		,	name = Code
+		,	operation =? map Operation
+		)
+		{
+			invoke rule_Activity_Constraint(dst_action);
+			
+			invoke rule_Comment_Comment();
+		}
+	}
+	
+	declare rule_Activity_CreateObjectAction(dst_container)
+	{
+		'Activity'.Where( ActionType:Equals('UML_CREATOBJ') ) => dst_action : 'uml.CreateObjectAction'
+		(
+			dst_container.node
+		,	name = Code
+		)
+		{
+			_.Where ( Classifier ) => 'uml.OutputPin'
+			(
+				dst_action.result
+			,	type = map Classifier
+			);
+			
+			invoke rule_Activity_Constraint(dst_action);
+			
+			invoke rule_Comment_Comment();
+		}
+	}
+	
+	declare rule_Activity_DestroyObjectAction(dst_container)
+	{
+		'Activity'.Where( ActionType:Equals('UML_DESTOBJ') ) => dst_action : 'uml.DestroyObjectAction'
+		(
+			dst_container.node
+		,	name = Code
+		)
+		{
+			_.Where ( Classifier ) => 'uml.InputPin'
+			(
+				dst_action.target
+			,	type = map Classifier
+			);
+			
+			invoke rule_Activity_Constraint(dst_action);
+			
+			invoke rule_Comment_Comment();
+		}
+	}
+			
+	declare rule_Activity_OpaqueAction(dst_container)
+	{
+		'Activity' => dst_action : 'uml.OpaqueAction'
+		(
+			dst_container.node
+		,	name = Code
+		)
+		{
+			invoke rule_Activity_Constraint(dst_action);
+			
+			invoke rule_Comment_Comment();
+		}
+	}
+	
+	declare rule_Activity_ReadStructuralFeatureAction(dst_container)
+	{
+		'Activity'.Where( ActionType:Equals('UML_READATTR') ) => dst_action : 'uml.ReadStructuralFeatureAction'
+		(
+			dst_container.node
+		,	name = Code
+		,	structuralFeature = map Attribute
+		)
+		{
+			invoke rule_Activity_Constraint(dst_action);
+			
+			invoke rule_Comment_Comment();
+		}
+	}
+	
+	declare rule_Activity_ReadVariableAction(dst_container)
+	{
+		'Activity'.Where( ActionType:Equals('UML_READVAR') ) => dst_action : 'uml.ReadVariableAction'
+		(
+			dst_container.node
+		,	name = Code
+		,	variable = map Variable
+		)
+		{
+			invoke rule_Activity_Constraint(dst_action);
+			
+			invoke rule_Comment_Comment();
+		}
+	}
+	
+	declare rule_Activity_ReplyAction(dst_container)
+	{
+		'Activity'.Where( ActionType:Equals('UML_REPLCALL') ) => dst_action : 'uml.ReplyAction'
+		(
+			dst_container.node
+		,	name = Code
+		)
+		{
+			invoke rule_Activity_Constraint(dst_action);
+			
+			invoke rule_Comment_Comment();
+		}
+	}
+	
+	declare rule_Activity_SendSignalAction(dst_container)
+	{
+		src_activity : 'Activity'.Where( ActionType:Equals('UML_SENDSIGN') ) => dst_action : 'uml.SendSignalAction'
+		(
+			dst_container.node
+		,	name = Code
+		,	?Event? signal = get 'uml.Signal'[%Event.Code%]
+		)
+		{
+			src_activity.ForEach('Event') => 'uml.Signal'[%Code%]
+			(
+				u.packagedElement
+			,	name = Code
+			)
+			{
+				invoke rule_Comment_Comment();
+			}
+			
+			invoke rule_Activity_Constraint(dst_action);
+			
+			invoke rule_Comment_Comment();
+		}
+	}
+	
+	declare rule_Activity_UnmarshallAction(dst_container)
+	{
+		'Activity'.Where( ActionType:Equals('UML_UNMARSHALL') ) => dst_action : 'uml.UnmarshallAction'
+		(
+			dst_container.node
+		,	name = Code
+		)
+		{
+			invoke rule_Activity_Constraint(dst_action);
+			
+			invoke rule_Comment_Comment();
+		}
+	}
+	
+	declare rule_Activity_ValueSpecificationAction(dst_container)
+	{
+		'Activity'.Where( ActionType:Equals('UML_VALSPEC') ) => dst_action : 'uml.ValueSpecificationAction'
+		(
+			dst_container.node
+		,	name = Code
+		)
+		{
+			_ .Where( ExpressionText ) => 'uml.Expression'
+			(
+				dst_action.value
+			,	name = ExpressionText
+			);
+			
+			invoke rule_Activity_Constraint(dst_action);
+			
+			invoke rule_Comment_Comment();
+		}
+	}
+	
+	declare rule_ActivityFlow_ControlFlow(dst_container, var_collection)
+	{
+		'ActivityFlow' => 'uml.ControlFlow'
+		(
+			emit ParentCompositeCollection('dst_container', var_collection)
+		,	name = Code
+		,	source = map Source
+		,	target = map Destination
+		)
+		{
+			invoke rule_Comment_Comment();
+		}
+	}
+	
+	declare rule_ActivityFlow_ObjectFlow(dst_container, var_collection)
+	{
+		'ActivityFlow'.Where( Stereotype:Equals('ObjectFlow') ) => 'uml.ObjectFlow'
+		(
+			emit ParentCompositeCollection('dst_container', var_collection)
+		,	name = Code
+		,	source = map Source
+		,	target = map Destination
+		)
+		{
+			invoke rule_Comment_Comment();
+		}
+	}	
+	
+	declare rule_Decision_DecisionNode(dst_container, var_collection)
+	{
+		'Decision' => 'uml.DecisionNode'
+		(
+			emit ParentCompositeCollection('dst_container', var_collection)
+		,	name = Code
+		)
+		{
+			invoke rule_Comment_Comment();
+		}
+	}
+	
+	declare rule_Decision_MergeNode(dst_container, var_collection)
+	{
+		'Decision'.Where( Type:Equals(3) ) => 'uml.MergeNode'
+		(
+			emit ParentCompositeCollection('dst_container', var_collection)
+		,	name = Code
+		)
+		{
+			invoke rule_Comment_Comment();
+		}
+	}
+	
+	declare rule_End_ActivityFinalNode(dst_container, var_collection)
+	{
+		'End' .Where( ActivityTermination ) => 'uml.ActivityFinalNode'
+		(
+			emit ParentCompositeCollection('dst_container', var_collection)
+		,	name = Code
+		)
+		{
+			invoke rule_Comment_Comment();
+		}
+		
+	}
+	
+	declare rule_End_FlowFinalNode(dst_container, var_collection)
+	{
+		'End' .Where( !ActivityTermination ) => 'uml.FlowFinalNode'
+		(
+			emit ParentCompositeCollection('dst_container', var_collection)
+		,	name = Code
+		)
+		{
+			invoke rule_Comment_Comment();
+		}
+	}
+	
+	declare rule_Event_CallEvent(dst_container, var_collection)
+	{
+		'Event' => 'uml.CallEvent'
+		(
+			emit ParentCompositeCollection('dst_container', var_collection)
+		,	name = Code
+		)
+		{
+			invoke rule_Comment_Comment();
+		}
+	}
+	
+	declare rule_ObjectNode_Pin(dst_container, var_collection)
+	{
+		'ObjectNode'.Where( Stereotype:Equals('Pin') ) => 'uml.Pin'
+		(
+			emit ParentCompositeCollection('dst_container', var_collection)
+		,	name = Code
+		,	?StateObject? inState += map StateObject
+		,	?DataTypeObject? (type = map DataTypeObject) : ( ?DataType? (type = get 'uml.PrimitiveType'[%DataType%]) : ( ) )
+		)
+		{
+			_. Where ( !DataTypeObject && DataType ) => 'uml.PrimitiveType'[%DataType%]
+			(
+				u.packagedElement
+			,	name = DataType
+			);
+			
+			invoke rule_Comment_Comment();
+		}
+	}
+	
+	declare rule_ObjectNode_ActivityParameterNode(dst_container, var_collection)
+	{
+		'ObjectNode'.Where( Stereotype:Equals('ActivityParameterNode') ) => 'uml.ActivityParameterNode'
+		(
+			emit ParentCompositeCollection('dst_container', var_collection)
+		,	name = Code
+		,	?StateObject? inState += map StateObject
+		,	?DataTypeObject? (type = map DataTypeObject) : ( ?DataType? (type = get 'uml.PrimitiveType'[%DataType%]) : ( ) )
+		)
+		{
+			_. Where ( !DataTypeObject && DataType ) => 'uml.PrimitiveType'[%DataType%]
+			(
+				u.packagedElement
+			,	name = DataType
+			);
+			
+			invoke rule_Comment_Comment();
+		}
+	}
+	
+	declare rule_ObjectNode_CentralBufferNode(dst_container, var_collection)
+	{
+		'ObjectNode'.Where( Stereotype:Equals('CentralBufferNode') ) => 'uml.CentralBufferNode'
+		(
+			emit ParentCompositeCollection('dst_container', var_collection)
+		,	name = Code
+		,	?StateObject? inState += map StateObject
+		,	?DataTypeObject? (type = map DataTypeObject) : ( ?DataType? (type = get 'uml.PrimitiveType'[%DataType%]) : ( ) )
+		)
+		{
+			_. Where ( !DataTypeObject && DataType ) => 'uml.PrimitiveType'[%DataType%]
+			(
+				u.packagedElement
+			,	name = DataType
+			);
+			
+			invoke rule_Comment_Comment();
+		}
+	}
+	
+	declare rule_ObjectNode_ExpansionNode(dst_container, var_collection)
+	{
+		'ObjectNode'.Where( Stereotype:Equals('ExpansionNode') ) => 'uml.ExpansionNode'
+		(
+			emit ParentCompositeCollection('dst_container', var_collection)
+		,	name = Code
+		,	?StateObject? inState += map StateObject
+		,	?DataTypeObject? (type = map DataTypeObject) : ( ?DataType? (type = get 'uml.PrimitiveType'[%DataType%]) : ( ) )
+		)
+		{
+			_. Where ( !DataTypeObject && DataType ) => 'uml.PrimitiveType'[%DataType%]
+			(
+				u.packagedElement
+			,	name = DataType
+			);
+			
+			invoke rule_Comment_Comment();
+		}
+	}
+	
+	declare rule_ObjectNode_DataStoreNode(dst_container, var_collection)
+	{
+		'ObjectNode' => 'uml.DataStoreNode'
+		(
+			emit ParentCompositeCollection('dst_container', var_collection)
+		,	name = Code
+		,	?StateObject? inState += map StateObject
+		,	?DataTypeObject? (type = map DataTypeObject) : ( ?DataType? (type = get 'uml.PrimitiveType'[%DataType%]) : ( ) )
+		)
+		{
+			_. Where ( !DataTypeObject && DataType ) => 'uml.PrimitiveType'[%DataType%]
+			(
+				u.packagedElement
+			,	name = DataType
+			);
+			
+			invoke rule_Comment_Comment();
+		}
+	}
+	
+	declare rule_OrganizationUnit_ActivityPartition(dst_container, var_collection)
+	{
+		src_organizationUnit : 'OrganizationUnit'.Where( !ParentOrganization ) => dst_activityPartition : 'uml.ActivityPartition'
+		(
+			emit ParentCompositeCollection('dst_container', var_collection)
+		,	name = Code
+		,	node += map src_organizationUnit.ForEach('AttachedObjects')
+			//a bug in pd reader which can be utilized for following statement, 'FlowSymbol' <==> 'BaseSymbol'
+		,	node += map src_organizationUnit.ForEach('Symbols').ForEach('FlowSymbol').ForEach('Object')
+		,	edge += map src_organizationUnit.ForEach('Symbols').ForEach('FlowSymbol').ForEach('Object')
+		)
+		{
+			invoke rule_Comment_Comment();
+			
+			invoke rule_SubOrganizationUnit_SubActivityPartition(src_organizationUnit, dst_activityPartition, 'subpartition');
+		}
+	}
+	
+	declare rule_Start_InitialNode(dst_container, var_collection)
+	{
+		'Start' => 'uml.InitialNode'
+		(
+			emit ParentCompositeCollection('dst_container', var_collection)
+		,	name = Code
+		)
+		{
+			invoke rule_Comment_Comment();
+		}
+	}
+	
+	//private helper
+	declare rule_SubOrganizationUnit_SubActivityPartition(src_container, dst_container, var_collection)
+	{
+		src: src_container.ForEach('ChildOrganizations') => dst : 'uml.ActivityPartition'
+		(
+			emit ParentCompositeCollection('dst_container', var_collection)
+		,	name = Code
+		,	node += map src.ForEach('AttachedObjects')
+		,	node += map src.ForEach('AttachedObjects')
+		,	node += map src.ForEach('Symbols').ForEach('BaseDecisionSymbol').ForEach('Object')
+		,	node += map src.ForEach('Symbols').ForEach('BaseSynchronizationSymbol').ForEach('Object')
+		,	node += map src.ForEach('Symbols').ForEach('StartSymbol').ForEach('Object')
+		,	node += map src.ForEach('Symbols').ForEach('EndSymbol').ForEach('Object')
+		,	node += map src.ForEach('Symbols').ForEach('VariableSymbol').ForEach('Object')
+		,	node += map src.ForEach('Symbols').ForEach('ObjectNodeSymbol').ForEach('Object')
+		,	edge += map src.ForEach('Symbols').ForEach('FlowSymbol').ForEach('Object')
+		)
+		{
+			invoke rule_Comment_Comment();
+			
+			invoke rule_SubOrganizationUnit_SubActivityPartition(src, dst, 'subpartition');
+		}
+	}
+	
+	declare rule_Synchronization_JoinNode(dst_container, var_collection)
+	{
+		'Synchronization' => 'uml.JoinNode'
+		(
+			emit ParentCompositeCollection('dst_container', var_collection)
+		,	name = Code
+		)
+		{
+			invoke rule_Comment_Comment();
+		}
+	}
+	
+	declare rule_Synchronization_ForkNode(dst_container, var_collection)
+	{
+		'Synchronization'.Where( Type:Equals(2) ) => 'uml.ForkNode'
+		(
+			emit ParentCompositeCollection('dst_container', var_collection)
+		,	name = Code
+		)
+		{
+			invoke rule_Comment_Comment();
+		}
+	}
+	
+	declare rule_Variable_Variable(dst_container, var_collection)
+	{
+		'Variable' => 'uml.Variable'
+		(
+			emit ParentCompositeCollection('dst_container', var_collection)
+		,	name = Code
+		,	?Multiplicity? ( upper = Multiplicity : MultiplicityToUpper(), lower = Multiplicity : MultiplicityToLower() ) : ( )
+		,	?DataTypeObject? (type = map DataTypeObject) : ( ?DataType? (type = get 'uml.PrimitiveType'[%DataType%]) : ( ) )
+		)
+		{
+			_. Where ( !DataTypeObject && DataType ) => 'uml.PrimitiveType'[%DataType%]
+			(
+				u.packagedElement
+			,	name = DataType
+			);
+			
+			invoke rule_Comment_Comment();
+		}
+	}
+}
+
+class pd::'PdOOM.Model'
+{{
+	public bool RunOneTime
+	{
+		get
+		{
+			if (runOneTime)
+			{
+				runOneTime = false;
+				return true;
+			}
+			return false;
+		}
+	}
+	
+	private bool runOneTime = true;
+}}
+
+class pd::'PdOOM.InteractionSymbol'
+{{
+	public string SymbolIndex
+	{
+		get
+		{
+			Sybase.Modeling.NMap.Runtime.IModelElement obj = GetProperty("Object") as Sybase.Modeling.NMap.Runtime.IModelElement;
+			Sybase.Modeling.NMap.Runtime.IAbstractModelReader reader = GetModelReader() as Sybase.Modeling.NMap.Runtime.IAbstractModelReader;
+
+			int i = 0;
+			foreach (Sybase.Modeling.NMap.Runtime.IModelElement e in reader.GetCollection(obj, "Symbols"))
+			{
+				if (e.Equals(this))
+					break;
+				i++;
+			}
+			return i.ToString();
+		}
+	}
+}}
+
+class pd::'PdOOM.ActorSequenceSymbol'
+{{
+	public string SymbolIndex
+	{
+		get
+		{
+			Sybase.Modeling.NMap.Runtime.IModelElement obj = GetProperty("Object") as Sybase.Modeling.NMap.Runtime.IModelElement;
+			Sybase.Modeling.NMap.Runtime.IAbstractModelReader reader = GetModelReader() as Sybase.Modeling.NMap.Runtime.IAbstractModelReader;
+
+			int i = 0;
+			foreach (Sybase.Modeling.NMap.Runtime.IModelElement e in reader.GetCollection(obj, "Symbols"))
+			{
+				if (e.Equals(this))
+					break;
+				i++;
+			}
+			return i.ToString();
+		}
+	}
+}}
+
+
+class pd::'PdOOM.UMLObjectSequenceSymbol'
+{{
+	public string SymbolIndex
+	{
+		get
+		{
+			Sybase.Modeling.NMap.Runtime.IModelElement obj = GetProperty("Object") as Sybase.Modeling.NMap.Runtime.IModelElement;
+			Sybase.Modeling.NMap.Runtime.IAbstractModelReader reader = GetModelReader() as Sybase.Modeling.NMap.Runtime.IAbstractModelReader;
+
+			int i = 0;
+			foreach (Sybase.Modeling.NMap.Runtime.IModelElement e in reader.GetCollection(obj, "Symbols"))
+			{
+				if (e.Equals(this))
+					break;
+				i++;
+			}
+			return i.ToString();
+		}
+	}
+}}
+
+class pd::'PdOOM.FlowSymbol'
+{{
+	public string SymbolIndex
+	{
+		get
+		{
+			Sybase.Modeling.NMap.Runtime.IModelElement obj = GetProperty("Object") as Sybase.Modeling.NMap.Runtime.IModelElement;
+			Sybase.Modeling.NMap.Runtime.IAbstractModelReader reader = GetModelReader() as Sybase.Modeling.NMap.Runtime.IAbstractModelReader;
+
+			int i = 0;
+			foreach (Sybase.Modeling.NMap.Runtime.IModelElement e in reader.GetCollection(obj, "Symbols"))
+			{
+				if (e.Equals(this))
+					break;
+				i++;
+			}
+			return i.ToString();
+		}
+	}
+}}
+
+class pd::'PdOOM.ObjectNodeSymbol'
+{{
+	public string SymbolIndex
+	{
+		get
+		{
+			Sybase.Modeling.NMap.Runtime.IModelElement obj = GetProperty("Object") as Sybase.Modeling.NMap.Runtime.IModelElement;
+			Sybase.Modeling.NMap.Runtime.IAbstractModelReader reader = GetModelReader() as Sybase.Modeling.NMap.Runtime.IAbstractModelReader;
+
+			int i = 0;
+			foreach (Sybase.Modeling.NMap.Runtime.IModelElement e in reader.GetCollection(obj, "Symbols"))
+			{
+				if (e.Equals(this))
+					break;
+				i++;
+			}
+			return i.ToString();
+		}
+	}
+}}
+
+class pd::'PdOOM.ActivitySymbol'
+{{
+	public string SymbolIndex
+	{
+		get
+		{
+			Sybase.Modeling.NMap.Runtime.IModelElement obj = GetProperty("Object") as Sybase.Modeling.NMap.Runtime.IModelElement;
+			Sybase.Modeling.NMap.Runtime.IAbstractModelReader reader = GetModelReader() as Sybase.Modeling.NMap.Runtime.IAbstractModelReader;
+
+			int i = 0;
+			foreach (Sybase.Modeling.NMap.Runtime.IModelElement e in reader.GetCollection(obj, "Symbols"))
+			{
+				if (e.Equals(this))
+					break;
+				i++;
+			}
+			return i.ToString();
+		}
+	}
+}}
+
+class pd::'PdCommon.EndSymbol'
+{{
+	public string SymbolIndex
+	{
+		get
+		{
+			Sybase.Modeling.NMap.Runtime.IModelElement obj = GetProperty("Object") as Sybase.Modeling.NMap.Runtime.IModelElement;
+			Sybase.Modeling.NMap.Runtime.IAbstractModelReader reader = GetModelReader() as Sybase.Modeling.NMap.Runtime.IAbstractModelReader;
+
+			int i = 0;
+			foreach (Sybase.Modeling.NMap.Runtime.IModelElement e in reader.GetCollection(obj, "Symbols"))
+			{
+				if (e.Equals(this))
+					break;
+				i++;
+			}
+			return i.ToString();
+		}
+	}
+}}
+
+class pd::'PdCommon.StartSymbol'
+{{
+	public string SymbolIndex
+	{
+		get
+		{
+			Sybase.Modeling.NMap.Runtime.IModelElement obj = GetProperty("Object") as Sybase.Modeling.NMap.Runtime.IModelElement;
+			Sybase.Modeling.NMap.Runtime.IAbstractModelReader reader = GetModelReader() as Sybase.Modeling.NMap.Runtime.IAbstractModelReader;
+
+			int i = 0;
+			foreach (Sybase.Modeling.NMap.Runtime.IModelElement e in reader.GetCollection(obj, "Symbols"))
+			{
+				if (e.Equals(this))
+					break;
+				i++;
+			}
+			return i.ToString();
+		}
+	}
+}}
+
+class pd::'PdCommon.BaseSynchronizationSymbol'
+{{
+	public string SymbolIndex
+	{
+		get
+		{
+			Sybase.Modeling.NMap.Runtime.IModelElement obj = GetProperty("Object") as Sybase.Modeling.NMap.Runtime.IModelElement;
+			Sybase.Modeling.NMap.Runtime.IAbstractModelReader reader = GetModelReader() as Sybase.Modeling.NMap.Runtime.IAbstractModelReader;
+
+			int i = 0;
+			foreach (Sybase.Modeling.NMap.Runtime.IModelElement e in reader.GetCollection(obj, "Symbols"))
+			{
+				if (e.Equals(this))
+					break;
+				i++;
+			}
+			return i.ToString();
+		}
+	}
+}}
+
+class pd::'PdOOM.VariableSymbol'
+{{
+	public string SymbolIndex
+	{
+		get
+		{
+			Sybase.Modeling.NMap.Runtime.IModelElement obj = GetProperty("Object") as Sybase.Modeling.NMap.Runtime.IModelElement;
+			Sybase.Modeling.NMap.Runtime.IAbstractModelReader reader = GetModelReader() as Sybase.Modeling.NMap.Runtime.IAbstractModelReader;
+
+			int i = 0;
+			foreach (Sybase.Modeling.NMap.Runtime.IModelElement e in reader.GetCollection(obj, "Symbols"))
+			{
+				if (e.Equals(this))
+					break;
+				i++;
+			}
+			return i.ToString();
+		}
+	}
+}}
+
+class pd::'PdCommon.BaseDecisionSymbol'
+{{
+	public string SymbolIndex
+	{
+		get
+		{
+			Sybase.Modeling.NMap.Runtime.IModelElement obj = GetProperty("Object") as Sybase.Modeling.NMap.Runtime.IModelElement;
+			Sybase.Modeling.NMap.Runtime.IAbstractModelReader reader = GetModelReader() as Sybase.Modeling.NMap.Runtime.IAbstractModelReader;
+
+			int i = 0;
+			foreach (Sybase.Modeling.NMap.Runtime.IModelElement e in reader.GetCollection(obj, "Symbols"))
+			{
+				if (e.Equals(this))
+					break;
+				i++;
+			}
+			return i.ToString();
+		}
+	}
+}}
+
+
+static 
+{{
+    public static List<IModelElement> SortSequenceDiagramMessages(List<IModelElement> messageSymbols)
+	{
+		// Sort sequence diagram message symbols according to Y coordinate
+	    return messageSymbols.OrderBy(symbol => -((long)(((Tuple)symbol.GetProperty("LinkPosition"))[1].Value)) ).ToList();
+	}
+
+	public static string MixSymbolIndex(string code, IModelElement symbol)
+	{
+		IModelElement obj = symbol.GetProperty("Object") as IModelElement;
+		IAbstractModelReader reader = symbol.GetModelReader() as IAbstractModelReader;
+
+		int i = 0;
+		foreach (IModelElement e in reader.GetCollection(obj, "Symbols"))
+		{
+			if (e.Equals(symbol))
+				break;
+			i++;
+		}
+
+		if (i != 0)
+			code += ":" + i.ToString();
+
+		return code;
+	}
+
+	public new static bool Equals(object o1, object o2)
+	{
+		return o1.Equals(o2);
+	}
+	
+	public static bool StartsWith(string str1, string str2)
+	{
+		return str1.StartsWith(str2, StringComparison.OrdinalIgnoreCase);
+	}
+	
+	public static string ToParameterDirectionKind(string paramType)
+	{
+		switch (paramType)
+		{
+			case "I":
+				return "in";
+			case "O":
+				return "out";
+			case "IO":
+				return "inout";
+			default:
+				return "in";
+		}
+	}
+	
+	public static string ToVisibilityKind(string visibility)
+	{
+		switch (visibility)
+		{
+			case "+":
+				return "public";
+			case "#":
+				return "protected";
+			case "-":
+				return "private";
+			case "*":
+				return "package";
+			default:
+				return "public";
+		}
+	}
+	
+	public static bool IsExactTypeOf(IModelElement e, string s)
+	{
+	     return e.GetConcept().QualifiedName.Equals(s);
+	}
+	
+	public static System.Int32 ToInt32(string s)
+	{
+		int result;
+		if (Int32.TryParse(s, out result))
+			return result;
+		return -1;
+	}
+	
+	public static string ToAggregationKind(string roleIndicator)
+	{
+		switch (roleIndicator)
+		{
+			case "N":
+				return "none";
+			case "A":
+				return "shared";
+			case "C":
+				return "composite";
+			default:
+				return "none";
+		}
+	}
+	
+	public static bool OrderingToBool(string ordering)
+	{
+		if (ordering == "U")
+			return false;
+		return true;
+	}
+	
+	public static bool ChangeabilityToBool(string c)
+	{
+		if (c == "C")
+			return false;
+		return true;
+	}
+	
+	public static string AddReference(IModelElement parent, string collection, IModelElement child)
+	{
+		parent.AddReference(collection, child, false);
+		return string.Empty;
+	}
+	
+	public static string SetProperty(IModelElement parent, string property, object value)
+	{
+		parent.SetProperty(property, value, false);
+		return string.Empty;
+	}
+	
+	public static IModelElement SetProperty(IModelElement e, IModelElement parent, string property, object value)
+	{
+		parent.SetProperty(property, value, false);
+		return e;
+	}
+	
+	public static int MultiplicityToUpper(string mul)
+	{
+		if (mul.Contains(".."))
+		{
+			string result = mul.Split(new char[] { '.' }, System.StringSplitOptions.RemoveEmptyEntries)[1];
+			int num;
+			if (int.TryParse(result, out num))
+				return num;
+		}
+		else if (mul.Trim() == "")
+			return 1;
+		return -1;
+	}
+
+	public static int MultiplicityToLower(string mul)
+	{
+		if (mul.Contains(".."))
+		{
+			string result = mul.Split(new char[] { '.' }, System.StringSplitOptions.RemoveEmptyEntries)[0];
+			int num;
+			if (int.TryParse(result, out num))
+				return num;
+		}
+		return 0;
+	}
+	
+	public static string RuleTypeToString(int type)
+	{
+		return type.ToString();
+	}
+	
+	public static string ParentCompositeCollection(IInterpreterContext context, string container, string collection)
+	{
+		return string.Format("{0}.{1}", container, collection);
+	}
+	
+	public static string ToInteractionOperatorKind(string fragmentType)
+	{
+		switch (fragmentType)
+		{
+			case "opt":
+			case "par":
+			case "loop":
+			case "break":
+			case "neg":
+			case "critical":
+			case "ignore":
+			case "consider":
+			case "assert":
+			case "alt":
+			case "seq":
+			case "strict":
+				return fragmentType;
+			default:
+				return "par";
+		}
+	}
+	
+	
+	public static string ToMessageSort(string controlFlow)
+	{
+		switch (controlFlow)
+		{
+			case "R":
+				return "reply";
+			case "A":
+				return "asynchCall";
+			case "C":
+				return "synchCall";
+			default:
+				return "createMessage";
+		}
+	}
+	
+	public static string GetOneTargetByKindAndSetProperty(AbstractInterpreterContext context,
+			Sybase.Modeling.NMap.Runtime.IModelElement source, string kind, 
+			Sybase.Modeling.NMap.Runtime.IModelElement target, string property,
+			string defaultValue)
+	{
+		foreach (AbstractInterpreterContext.TargetMapping targetMapping in context.GetTargetMappings(source))
+		{
+			if (targetMapping.targetElement.GetConcept().QualifiedName == kind)
+			{
+				target.SetProperty(property, targetMapping.targetElement, false);
+				return string.Empty;
+			}
+		}
+		return defaultValue;
+	}
+	
+	
+	public static string SetTraceable(IModelElement e, bool traceable)
+	{
+		e._IsTraceable = traceable;
+		return string.Empty;
+	}
+}}

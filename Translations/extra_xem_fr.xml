@@ -1,0 +1,3951 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Translations lang="fr" extended="yes">
+  <Translation>
+    <Name>&amp;amp;Test Connection</Name>
+    <LocalName>&amp;amp;Tester la connexion</LocalName>
+  </Translation>
+  <Translation>
+    <Name>.NET Framework Data Provider for ODBC</Name>
+    <LocalName>Fournisseur de données .NET Framework pour ODBC</LocalName>
+  </Translation>
+  <Translation>
+    <Name>.NET Framework Data Provider for OLE DB</Name>
+    <LocalName>Fournisseur de données .NET Framework pour OLE DB</LocalName>
+  </Translation>
+  <Translation>
+    <Name>A Boundary object cannot communicate with another Boundary object. Boundary objects are reserved for external uses (Actors)</Name>
+    <LocalName>Un objet Boundary ne peut pas communiquer avec un autre objet Boundary. Les objets Boundary sont réservés pour des utilisations externes (Actors)</LocalName>
+  </Translation>
+  <Translation>
+    <Name>A Web Service Component has no Web Method operation</Name>
+    <LocalName>Un composant de service Web est dépourvu d'opération Web Method</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ABAP Application Components</Name>
+    <LocalName>Composantes applicatives ABAP</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ABAP Component</Name>
+    <LocalName>Composante ABAP</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ABAP Package</Name>
+    <LocalName>Package ABAP</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ABAP Packages</Name>
+    <LocalName>Packages ABAP</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ABAP data type</Name>
+    <LocalName>Type de données ABAP</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ABAP form name</Name>
+    <LocalName>Nom de formulaire ABAP</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ABAP structure</Name>
+    <LocalName>Structure ABAP</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ABAP table</Name>
+    <LocalName>Table ABAP</LocalName>
+  </Translation>
+  <Translation>
+    <Name>AS Anywhere database file:</Name>
+    <LocalName>Fichier de base de données AS Anywhere :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ASE version</Name>
+    <LocalName>Version d'ASE</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Absence of O/R Mapping support</Name>
+    <LocalName>Absence de prise en charge de correspondance O/R</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Abstract class</Name>
+    <LocalName>Classe abstraite</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Access</Name>
+    <LocalName>Accès</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Access strategy</Name>
+    <LocalName>Stratégie d'accès</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Add Dali support</Name>
+    <LocalName>Ajouter la prise en charge Dali</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Add Specific Column Mapping</Name>
+    <LocalName>Ajouter une correspondance de colonne spécifique</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Add queue</Name>
+    <LocalName>Ajout d'une file d'attente</LocalName>
+  </Translation>
+  <Translation>
+    <Name>All Extended Attributes</Name>
+    <LocalName>Tous les attributs étendus</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Allow saving password</Name>
+    <LocalName>Permettre l'enregistrement du mot de passe</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Allowed roles</Name>
+    <LocalName>Rôles admis</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Alter replication definition options</Name>
+    <LocalName>Options de la commande alter replication definition</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Append structure</Name>
+    <LocalName>Ajout de structure</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Application Server System</Name>
+    <LocalName>Système de serveur d'application</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Application component</Name>
+    <LocalName>Composante applicative</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Application component ID</Name>
+    <LocalName>ID de composante applicative</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Apply To Connection String</Name>
+    <LocalName>Appliquer à la chaîne de connexion</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Article &amp;&amp; Replication Definition</Name>
+    <LocalName>Article &amp;&amp; définition de réplication</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Article:</Name>
+    <LocalName>Article :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Articles &amp;&amp; Function Replication Definitions</Name>
+    <LocalName>Définitions de réplication d'article &amp;&amp; de fonction</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Articles &amp;&amp; Replication Definitions</Name>
+    <LocalName>Articles &amp;&amp; définitions de réplication</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Articles &amp;amp;&amp;amp; Function Replication Definitions</Name>
+    <LocalName>Définitions de réplication d'article &amp;amp;&amp;amp; de fonction</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Articles &amp;amp;&amp;amp; Replication Definitions</Name>
+    <LocalName>Définitions d'article &amp;amp;&amp;amp; de réplication</LocalName>
+  </Translation>
+  <Translation>
+    <Name>As</Name>
+    <LocalName>En tant que</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Association Mapping has not been defined</Name>
+    <LocalName>La correspondance d'association n'a pas été définie</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Association Mapping is not correct</Name>
+    <LocalName>La correspondance d'association n'est pas correcte</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Association between Class and Interface is not supported</Name>
+    <LocalName>L'association entre classe et interface n'est pas supportée</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Association class mapping is not defined</Name>
+    <LocalName>Correspondance de classe d'association non définie</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Association mapping is not correct</Name>
+    <LocalName>Correspondance d'association incorrecte</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Association mapping is not defined</Name>
+    <LocalName>Correspondance d'association non définie</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Association mapping is repeated or not used or target PDM has not been opened</Name>
+    <LocalName>La correspondance d'association est répétée ou n'est pas utilisée, ou bien le MPD cible n'a pas été ouvert</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Association options</Name>
+    <LocalName>Options d'association</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Association should be mapped to references and joined table</Name>
+    <LocalName>L'association doit être mise en correspondance avec des références et une table jointe</LocalName>
+  </Translation>
+  <Translation>
+    <Name>AssociationClass Mapping has not been defined</Name>
+    <LocalName>La correspondance de classe d'association n'a pas été définie</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Attach a database file</Name>
+    <LocalName>Attacher un fichier de base de données</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Attribute</Name>
+    <LocalName>Attribut</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Attribute mapping is not correct</Name>
+    <LocalName>Correspondance d'attribut incorrecte</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Attribute should be public for NHibernate access strategy</Name>
+    <LocalName>L'attribut doit être public pour la stratégie d'accès NHibernate</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Authentication type:</Name>
+    <LocalName>Type d'authentification :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Auto import</Name>
+    <LocalName>Importation automatique</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Auto schema export</Name>
+    <LocalName>Exportation de schéma automatique</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Auto-map columns to properties</Name>
+    <LocalName>Mettre en correspondance automatiquement les colonnes et les propriétés</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Available data type</Name>
+    <LocalName>Type de données disponible</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Available number</Name>
+    <LocalName>Nombre disponible</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Average time</Name>
+    <LocalName>Temps moyen</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Axis custom descriptor</Name>
+    <LocalName>Descripteur personnalisé Axis</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Axis custom namespaces</Name>
+    <LocalName>Espaces de noms personnalisés Axis</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Axis deserializer class</Name>
+    <LocalName>Classe de désérialisation Axis</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Axis serializer class</Name>
+    <LocalName>Classe de sérialisation Axis</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Base domain</Name>
+    <LocalName>Domaine de base</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Base domain code</Name>
+    <LocalName>Code du domaine de base</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Base field</Name>
+    <LocalName>Champ de base</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Base field code</Name>
+    <LocalName>Code du champ de base</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Base table</Name>
+    <LocalName>Table de base</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Base table code</Name>
+    <LocalName>Code de la table de base</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Batch</Name>
+    <LocalName>Lot</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Batch begin</Name>
+    <LocalName>Début de lot</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Batch size</Name>
+    <LocalName>Taille de lot</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Bound Procedures</Name>
+    <LocalName>Procédures liées</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Bound Tables</Name>
+    <LocalName>Tables liées</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Browse...</Name>
+    <LocalName>Parcourir...</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Business description</Name>
+    <LocalName>Description de la société</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Business key</Name>
+    <LocalName>Clé de la société</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Business name</Name>
+    <LocalName>Nom de la société</LocalName>
+  </Translation>
+  <Translation>
+    <Name>CSS style</Name>
+    <LocalName>Style CSS</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Cache size</Name>
+    <LocalName>Taille du cache</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Callback type</Name>
+    <LocalName>Type de rappel</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Capacity</Name>
+    <LocalName>Capacité</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Capital cost</Name>
+    <LocalName>Coût en capital</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Capital cost by unit</Name>
+    <LocalName>Coût en capital par unité</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Cascade persist</Name>
+    <LocalName>Cascade de persistance</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Catalog</Name>
+    <LocalName>Catalogue</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Catalog name</Name>
+    <LocalName>Nom de catalogue</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Change data type to</Name>
+    <LocalName>Changer le type de données en</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Changed by</Name>
+    <LocalName>Modifié par</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Changed on date</Name>
+    <LocalName>Date de modification</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Changed on time</Name>
+    <LocalName>Heure de modification</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Character convert</Name>
+    <LocalName>Conversion de caractères</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Check</Name>
+    <LocalName>Vérification</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Check SQL Statement configure</Name>
+    <LocalName>Vérification de configuration d'instruction SQL</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Check data integrity</Name>
+    <LocalName>Vérifier l'intégrité des données</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Check flag</Name>
+    <LocalName>Indicateur de vérification</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Check locks interval</Name>
+    <LocalName>Intervalle de vérification des verrous</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Check locks times</Name>
+    <LocalName>Nombre de vérification des verrous</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Check the dedicated route is from the primary replication server.</Name>
+    <LocalName>Vérifie que la route dédiée provient du serveur de réplication principal.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Check the default data connection is unique.</Name>
+    <LocalName>Vérifie que la connexion aux données par défaut est unique.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Check there is only one shared route between two replication processes.</Name>
+    <LocalName>Vérifie qu'il n'y a qu'une seule route partagée entre deux processus de réplication.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Check threshold for database replication definition</Name>
+    <LocalName>Vérification du seuil pour la définition de réplication de base de données</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Check threshold for replication definition</Name>
+    <LocalName>Vérification du seuil pour la définition de réplication</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Check whether the primary connection is defined for the subscription.</Name>
+    <LocalName>Vérifie si la connexion principale est définie pour la souscription.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Check whether the table defined in the replication definition is bound to the primary connection of the subscription.</Name>
+    <LocalName>Vérifie si la table définie dans la définition de réplication est liée à la connexion principale de la souscription.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Check whether there is a shared route connected for the dedicated route.</Name>
+    <LocalName>Vérifie la présence d'une route partagée connectée pour la route dédiée.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Checks if database type of PDM supported in Data Services.</Name>
+    <LocalName>Vérifie si le type de base de données de MPD est pris en charge dans Data Services.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Child table cardinality</Name>
+    <LocalName>Cardinalité de table enfant</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Class Mapping does not match with PDM</Name>
+    <LocalName>La correspondance de classe ne correspond pas au MPD</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Class Name</Name>
+    <LocalName>Nom de classe</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Class Options</Name>
+    <LocalName>Options de classe</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Class options</Name>
+    <LocalName>Options de classe</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Class tag options</Name>
+    <LocalName>Options de balise de classe</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Cluster table</Name>
+    <LocalName>Table Cluster</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Collection options</Name>
+    <LocalName>Options de collection</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Collection type</Name>
+    <LocalName>Type de collection</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Color</Name>
+    <LocalName>Couleur</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Column</Name>
+    <LocalName>Colonne</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Column Mapping</Name>
+    <LocalName>Correspondance de colonne</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Column Mappings</Name>
+    <LocalName>Correspondances de colonnes</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Column cannot be flag identity</Name>
+    <LocalName>Une colonne ne peut pas être spécifiée comme colonne d'identité</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Column header</Name>
+    <LocalName>En-tête de colonne</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Column height</Name>
+    <LocalName>Hauteur de colonne</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Column height in cm</Name>
+    <LocalName>Hauteur de colonne (cm)</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Column label</Name>
+    <LocalName>Libellé de colonne</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Column mapped by attribute should not be "Mandatory" in subclass inheritance hierarchy.</Name>
+    <LocalName>La colonne mise en correspondance par un attribut ne peut pas être obligatoire dans la hiérarchie d'héritage de sous-classe.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Column mapped by attribute should not be mandatory in subclass inheritance hierarchy.</Name>
+    <LocalName>Une colonne mise en correspondance par un attribut ne doit pas être obligatoire dans la hiérarchie d'héritage de sous-classe.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Column mapping to the attribute should not be "Mandatory" in subclass inheritance hierarchy.</Name>
+    <LocalName>La correspondance entre colonne et l'attribut ne doit pas pas être "Obligatoire" dans la hiérarchie d'héritage de la sous-classe.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Column name</Name>
+    <LocalName>Nom de colonne</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Column replication type</Name>
+    <LocalName>Type de réplication de colonne</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Column width</Name>
+    <LocalName>Largeur de colonne</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Column width in cm</Name>
+    <LocalName>Largeur de colonne (cm)</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Columns</Name>
+    <LocalName>Colonnes</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Command batch size</Name>
+    <LocalName>Taille de lot de commandes</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Command retry</Name>
+    <LocalName>Nombre de tentatives de relance d'une transaction qui a échoué</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Command separator</Name>
+    <LocalName>Séparateur de commande</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Comment</Name>
+    <LocalName>Commentaire</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Comment:</Name>
+    <LocalName>Commentaire :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Commit control</Name>
+    <LocalName>Contrôle de validation</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ComponentID options</Name>
+    <LocalName>Options ComponentID</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Composite id unsaved value</Name>
+    <LocalName>Valeur non enregistrée d'ID composite</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Connection</Name>
+    <LocalName>Connexion</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Connection Options</Name>
+    <LocalName>Options de connexion</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Connection Profile</Name>
+    <LocalName>Profil de connexion</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Connection Profile Version</Name>
+    <LocalName>Version de profil de connexion</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Connection URL</Name>
+    <LocalName>URL de connexion</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Connection option</Name>
+    <LocalName>Option de connexion</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Connection pool size</Name>
+    <LocalName>Taille de pool de connexions</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Connection profile</Name>
+    <LocalName>Profil de connexion</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Connection profile version</Name>
+    <LocalName>Version de profil de connexion</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Connection string</Name>
+    <LocalName>Chaîne de connexion</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Connection string (using)</Name>
+    <LocalName>Chaîne de connexion (utilisation)</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Connection string:</Name>
+    <LocalName>Chaîne de connexion :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Connection to a database</Name>
+    <LocalName>Connexion à une base de données</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Connection type:</Name>
+    <LocalName>Type de connexion :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Contain the private attribute in value type class</Name>
+    <LocalName>Contient l'attribut private dans la classe de type valeur</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Contain the private primary key attribute</Name>
+    <LocalName>Contient l'attribut de clé primaire privé</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Control Type:</Name>
+    <LocalName>Type de contrôle :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Control type</Name>
+    <LocalName>Type de contrôle</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Conversion routine</Name>
+    <LocalName>Routine de conversion</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Correctness of attribute mapping</Name>
+    <LocalName>Validité de la correspondance des attributs</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Correctness of joined table mapping</Name>
+    <LocalName>Validité de la correspondance des tables jointes</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Correctness of optimistic lock mapping</Name>
+    <LocalName>Existence de colonne pour verrouillage optimiste</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Correctness of table mapping</Name>
+    <LocalName>Validité de correspondance de table</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Cost by time unit</Name>
+    <LocalName>Coût par unité de temps</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Cost by time unit and by unit</Name>
+    <LocalName>Coût unitaire par unité de temps</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Cost by unit</Name>
+    <LocalName>Coût unitaire</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Create LTL character parameter automatically</Name>
+    <LocalName>Création automatique d'un paramètre de caractère LTL</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Create Symbols</Name>
+    <LocalName>Créer les symboles</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Create associated objects if not found</Name>
+    <LocalName>Créer des objets associés s'ils ne sont pas trouvés</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Create if not exist</Name>
+    <LocalName>Créer si n'existe pas</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Create symbols in active diagram</Name>
+    <LocalName>Créer des symboles dans le diagramme actif</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Created by</Name>
+    <LocalName>Créé par</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Created on date</Name>
+    <LocalName>Créé le</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Created on time</Name>
+    <LocalName>Créé à</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Currency code</Name>
+    <LocalName>Code monétaire</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Currency symbol</Name>
+    <LocalName>Symbole monétaire</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Current language is not Java 5.0</Name>
+    <LocalName>Le langage objet courant n'est pas Java 5.0</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Current object language should be C# 2.0 or Visual Basic 2005</Name>
+    <LocalName>Le langage objet courant devrait être C# 2.0 ou Visual Basic 2005</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Custom descriptor</Name>
+    <LocalName>Descripteur personnalisé</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Customized by</Name>
+    <LocalName>Personnalisé par</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DAL Container</Name>
+    <LocalName>Conteneur DAL</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DAL container</Name>
+    <LocalName>Conteneur DAL</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DAL container:</Name>
+    <LocalName>Conteneur DAL :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DAO options</Name>
+    <LocalName>Options DAO</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DB include exclude</Name>
+    <LocalName>Inclusion ou exclusion BD</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DB index name</Name>
+    <LocalName>Nom d'index de BD</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DBMS</Name>
+    <LocalName>SGBD</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DDL Password</Name>
+    <LocalName>Mot de passe de DDL</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DDL User Name</Name>
+    <LocalName>Nom de DDL</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DSI bulk copy</Name>
+    <LocalName>Bulkcopy DSI</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DSI bulk threshold</Name>
+    <LocalName>Seuil de bulkcopy DSI</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DSI command convert</Name>
+    <LocalName>Conversion de commandes DSI</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DSI compile enable</Name>
+    <LocalName>Activation de la compilation DSI</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DSI compile max cmds</Name>
+    <LocalName>Nombre maximal de commandes de compilation DSI</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DSI connector type</Name>
+    <LocalName>Type de connecteur DSI</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DSI isolation level</Name>
+    <LocalName>Niveau d'isolation DSI</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data Connection:</Name>
+    <LocalName>Connexion aux données :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data Connections</Name>
+    <LocalName>Connexions aux données</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data Connections between same Database and Server</Name>
+    <LocalName>Connexions aux données entre le même couple base de données-serveur</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data Dictionary</Name>
+    <LocalName>Dictionnaire de données</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data Elements</Name>
+    <LocalName>Eléments de données</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data Source</Name>
+    <LocalName>Source de données</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data Source:</Name>
+    <LocalName>Source de données :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data Type Mapping</Name>
+    <LocalName>Correspondance de types de données</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data Type Mappings</Name>
+    <LocalName>Correspondances de types de données</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data Type:</Name>
+    <LocalName>Type de données :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data dictionary data type</Name>
+    <LocalName>Type de données du dictionnaire de données</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data element</Name>
+    <LocalName>Elément de données</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data element code</Name>
+    <LocalName>Code d'élément de données</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data font</Name>
+    <LocalName>Police de données</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data justify</Name>
+    <LocalName>Justification des données</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data movement mode</Name>
+    <LocalName>Mode Data movement</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data operation options</Name>
+    <LocalName>Options d'opération de données</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data provider list:</Name>
+    <LocalName>Liste des fournisseurs de données :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data provider:</Name>
+    <LocalName>Fournisseur de données :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data source</Name>
+    <LocalName>Source de données</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data source name</Name>
+    <LocalName>Nom de source de données</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data source specification</Name>
+    <LocalName>Spécification de source de données</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data source:</Name>
+    <LocalName>Source de données :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data type</Name>
+    <LocalName>Type de données</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data types mapping table</Name>
+    <LocalName>Table de correspondance des types de données</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DataType</Name>
+    <LocalName>Type de données</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Database Connection</Name>
+    <LocalName>Connexion de base de données</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Database Options</Name>
+    <LocalName>Options de base de données</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Database code</Name>
+    <LocalName>Code de base de données</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Database connection options</Name>
+    <LocalName>Options de connexion à la base de données</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Database file name:</Name>
+    <LocalName>Nom de fichier de base de données :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Database name</Name>
+    <LocalName>Nom de la base de données</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Database name:</Name>
+    <LocalName>Nom de base de données:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Database type</Name>
+    <LocalName>Type de la base de données</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Database type:</Name>
+    <LocalName>Type de base de données :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Databases</Name>
+    <LocalName>Bases de données</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DatatypeMappings</Name>
+    <LocalName>CorrespondancesTypesDonnées</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Date and time pattern</Name>
+    <LocalName>Format de date et d'heure</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Date display pattern</Name>
+    <LocalName>Format d'affichage de date</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Date format</Name>
+    <LocalName>Format de date</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Dedicated Route Setter</Name>
+    <LocalName>Définition de route dédiée</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default Column Mapping</Name>
+    <LocalName>Correspondance de colonne par défaut</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default access</Name>
+    <LocalName>Accès par défaut</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default access type</Name>
+    <LocalName>Type d'accès par défaut</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default access:</Name>
+    <LocalName>Accès par défaut :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default cascade</Name>
+    <LocalName>Cascade par défaut</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default cascade type</Name>
+    <LocalName>Type de cascade par défaut</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default cascade:</Name>
+    <LocalName>Cascade par défaut :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default command type</Name>
+    <LocalName>Type de commande par défaut</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default command type:</Name>
+    <LocalName>Type de commande par défaut :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default connection</Name>
+    <LocalName>Connexion par défaut</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default data connection uniqueness</Name>
+    <LocalName>Unicité de la connexion aux données par défaut</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default data type</Name>
+    <LocalName>Type de données par défaut</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default name</Name>
+    <LocalName>Nom par défaut</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default options</Name>
+    <LocalName>Options par défaut</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Delete procedure code</Name>
+    <LocalName>Code de procédure de suppression</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Delete table code</Name>
+    <LocalName>Code de suppression de table</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Delivery class</Name>
+    <LocalName>Classe de livraison</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Dependency factor</Name>
+    <LocalName>Facteur de dépendance</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Deployment options</Name>
+    <LocalName>Options de déploiement</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Destination DBMS</Name>
+    <LocalName>SGBD de destination</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Diagram scale</Name>
+    <LocalName>Echelle du diagramme</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Dialect</Name>
+    <LocalName>Dialecte</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Direct connection</Name>
+    <LocalName>Connexion directe</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Discriminator column</Name>
+    <LocalName>Colonne discriminante</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Discriminator column defined does not exist</Name>
+    <LocalName>La colonne discriminante définie n'existe pas</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Discriminator options</Name>
+    <LocalName>Options de discriminant</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Discriminator type</Name>
+    <LocalName>Type de discriminant</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Discriminator value</Name>
+    <LocalName>Valeur de discriminant</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Disk affinity</Name>
+    <LocalName>Affinité de disque</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Display as foreign key label</Name>
+    <LocalName>Afficher comme libellé de clé étrangère</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Display format pattern</Name>
+    <LocalName>Motif de format d'affichage</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Distributor write request limit</Name>
+    <LocalName>Limite pour les demandes d'écriture du distributeur</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Do not use discriminator in insert</Name>
+    <LocalName>Ne pas utiliser de discriminant dans insert</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Domain code</Name>
+    <LocalName>Code de domaine</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Driver class</Name>
+    <LocalName>Classe du pilote</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Dump file directory</Name>
+    <LocalName>Répertoire du fichier de vidage</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Dump file name</Name>
+    <LocalName>Nom du fichier de vidage</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Dump load</Name>
+    <LocalName>Sauvegardes coordonnées</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Dump marker</Name>
+    <LocalName>Marqueur de vidage</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Duplicated shared routes</Name>
+    <LocalName>Routes partagées en double</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Dynamic Web module</Name>
+    <LocalName>Module Web dynamique</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Dynamic insert</Name>
+    <LocalName>Insertion dynamique</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Dynamic sql</Name>
+    <LocalName>Dynamic SQL</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Dynamic sql cache management</Name>
+    <LocalName>Gestion de cache Dynamic SQL</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Dynamic sql cache size</Name>
+    <LocalName>Taille de cache Dynamic SQL</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Dynamic update</Name>
+    <LocalName>Modification dynamique</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Edit style code</Name>
+    <LocalName>Style de code d'édition</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Empty Web Service</Name>
+    <LocalName>Service Web vide</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Enable remote admin</Name>
+    <LocalName>Permettre l'administration à distance</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Enable replication</Name>
+    <LocalName>Activer la réplication</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Encoding</Name>
+    <LocalName>Codage</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Encrypt connection string:</Name>
+    <LocalName>Cryptage de la chaîne de connexion :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Enter a server or file name</Name>
+    <LocalName>Nom de serveur ou de fichier</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Entity name</Name>
+    <LocalName>Nom d'entité</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Error string class</Name>
+    <LocalName>Classe de chaîne d'erreur</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Example</Name>
+    <LocalName>Exemple</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Excel Column Mappings</Name>
+    <LocalName>Correspondances de colonne Excel</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Excel File</Name>
+    <LocalName>Fichier Excel</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Excel Import</Name>
+    <LocalName>Importation Excel</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Excel Import Wizard</Name>
+    <LocalName>Assistant Importation Excel</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Excel Imports</Name>
+    <LocalName>Importations Excel</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Existence of abstract class</Name>
+    <LocalName>Existence de classe abstraite</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Existence of connectivity information</Name>
+    <LocalName>Existence d'informations de connectivité</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Existence of data connection for ODBC</Name>
+    <LocalName>Existence de connexion aux données pour ODBC</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Existence of data source for Proxy</Name>
+    <LocalName>Existence d'une source de données pour un proxy</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Existence of data source mapping</Name>
+    <LocalName>Existence de correspondance de source de données</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Existence of discriminator for subclass inheritance mapping</Name>
+    <LocalName>Existence de colonne discriminante dans la correspondance des sous-classes</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Existence of duplicate column mapping</Name>
+    <LocalName>Existence de correspondance de colonne en double</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Existence of duplicated column mapping</Name>
+    <LocalName>Existence de correspondance de colonne en double</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Existence of master source table</Name>
+    <LocalName>Existence de table source maître</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Existence of non-primary-identifier attribute</Name>
+    <LocalName>Existence d'attribut d'identifiant non-primaire</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Existence of persistence support</Name>
+    <LocalName>Existence de prise en charge de la persistance</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Existence of persistent attribute in primary identifier</Name>
+    <LocalName>Existence d'attribut persistant dans un identifiant primaire</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Existence of primary identifier</Name>
+    <LocalName>Existence d'identifiant primaire</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Existence of reflexive reference in PDM</Name>
+    <LocalName>Existence de référence réflexive dans un MPD</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Existence of unknown attribute</Name>
+    <LocalName>Existence d'attribut inconnu</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Existence of value type class in the association relationship</Name>
+    <LocalName>Existence de classe de type valeur dans la relation d'association</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Existence the illegal keywords</Name>
+    <LocalName>Existence de mots clés illégaux</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Extension Index</Name>
+    <LocalName>Index d'extension</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Extensions file\nfor new extended attributes</Name>
+    <LocalName>Fichier d'extension\npour les nouveaux attributs</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Fade out time</Name>
+    <LocalName>Nombre de secondes d'inactivité</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Fetch</Name>
+    <LocalName>Charger</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Fetch type</Name>
+    <LocalName>Type de chargement</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Field code</Name>
+    <LocalName>Code de champ</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Field delimiter</Name>
+    <LocalName>Délimiteur de champ</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Field type</Name>
+    <LocalName>Type de champ</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Files and libraries</Name>
+    <LocalName>Fichiers et bibliothèques</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Finance capital cost</Name>
+    <LocalName>Coût financier du capital</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Finance cost by time unit</Name>
+    <LocalName>Coût financier par unité de temps</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Finance currency symbol</Name>
+    <LocalName>Symbole monétaire</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Finance overhead cost</Name>
+    <LocalName>Coût fixe financier</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Finance overhead revenue</Name>
+    <LocalName>Revenu fixe financier</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Fixed values</Name>
+    <LocalName>Valeurs fixes</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Footer JSP file</Name>
+    <LocalName>Fichier JSP de pied de page</LocalName>
+  </Translation>
+  <Translation>
+    <Name>For an Xcolumn mapping, source table of root element must be flagged not generated.</Name>
+    <LocalName>Pour une mise en correspondance Xcolumn, la table source de l'élément racine doit être marquée comme n'étant pas générée.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>For new articles</Name>
+    <LocalName>Pour les nouveaux articles</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Force usage of discriminator</Name>
+    <LocalName>Forcer Hibernate à utiliser un discriminant</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Form Options</Name>
+    <LocalName>Options de forme</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Form control width</Name>
+    <LocalName>Largeur du contrôle de formulaire</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Form label width</Name>
+    <LocalName>Largeur du libellé de formulaire</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Format mask code</Name>
+    <LocalName>Code du masque de format</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Format mask text</Name>
+    <LocalName>Texte du masque de format</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Full message service</Name>
+    <LocalName>Service de message complet</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Function Replication Definition</Name>
+    <LocalName>Définition de réplication de fonction</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Function Replication Definitions</Name>
+    <LocalName>Définitions de réplication de fonction</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Function String</Name>
+    <LocalName>Chaîne de fonction</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Function String Options</Name>
+    <LocalName>Options de chaîne de fonction</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Function Strings</Name>
+    <LocalName>Chaînes de fonction</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Function replication definition name</Name>
+    <LocalName>Nom de définition de réplication de fonction</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Function string class</Name>
+    <LocalName>Classe de chaîne de fonction</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Function string class name</Name>
+    <LocalName>Nom de classe de chaîne de fonction</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Function string name</Name>
+    <LocalName>Nom de chaîne de fonction</LocalName>
+  </Translation>
+  <Translation>
+    <Name>General</Name>
+    <LocalName>Général</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Generate</Name>
+    <LocalName>Générer</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Generate Test Method</Name>
+    <LocalName>Générer une méthode de test</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Generate finder</Name>
+    <LocalName>Générer une méthode de recherche</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Generate finder function</Name>
+    <LocalName>Générer une fonction de recherche</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Generate test method</Name>
+    <LocalName>Générer une méthode de test</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Generated function name</Name>
+    <LocalName>Nom de fonction généré</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Generator allocation size</Name>
+    <LocalName>Taille d'allocation de générateur</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Generator class</Name>
+    <LocalName>Classe de générateur</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Generator class (idbag)</Name>
+    <LocalName>Classe de générateur (idbag)</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Generator initial value</Name>
+    <LocalName>Valeur initiale de générateur</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Generator params</Name>
+    <LocalName>Paramètres de générateur</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Generator params (idbag)</Name>
+    <LocalName>Paramètres de générateur (idbag)</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Generic Import</Name>
+    <LocalName>Importation générique</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Global options</Name>
+    <LocalName>Options globales</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Group size</Name>
+    <LocalName>Taille de groupe</LocalName>
+  </Translation>
+  <Translation>
+    <Name>HTTP get port type</Name>
+    <LocalName>Type de port HTTP get</LocalName>
+  </Translation>
+  <Translation>
+    <Name>HTTP post port type</Name>
+    <LocalName>Type de port HTTP post</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Halt simulation at limit</Name>
+    <LocalName>Interruption de simulation à la limite</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Has bitmap</Name>
+    <LocalName>Contient un bitmap</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Header JSP file</Name>
+    <LocalName>Fichier JSP d'en-tête</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Header font</Name>
+    <LocalName>Police de l'en-tête</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Header justify</Name>
+    <LocalName>Justification de l'en-tête</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Hibernate type</Name>
+    <LocalName>Type Hibernate</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Hidden</Name>
+    <LocalName>Caché</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Homogeneous Routes</Name>
+    <LocalName>Routes homogènes</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Host name</Name>
+    <LocalName>Nom d'hôte</LocalName>
+  </Translation>
+  <Translation>
+    <Name>IP Address</Name>
+    <LocalName>Adresse IP</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Id unsaved value</Name>
+    <LocalName>Valeur non enregistrée d'Id</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Identifier options</Name>
+    <LocalName>Options d'identificateur</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Identity</Name>
+    <LocalName>Identité</LocalName>
+  </Translation>
+  <Translation>
+    <Name>If message show, it means that you have not map class into table or association into reference</Name>
+    <LocalName>Si le message s'affiche, cela signifie que vous n'avez pas mis en correspondance une classe avec une table ou une association avec une référence</LocalName>
+  </Translation>
+  <Translation>
+    <Name>If the message is shown, it means that you have not mapped class with table, or association with reference</Name>
+    <LocalName>Ce message s'affiche si vous n'avez pas mis en correspondance une classe avec une table, ou une association avec un référence</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Ignore underscore name</Name>
+    <LocalName>Ignorer les noms avec un tiret bas</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Import</Name>
+    <LocalName>Importation</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Import Column</Name>
+    <LocalName>Importer la colonne</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Import Options</Name>
+    <LocalName>Options d'importation</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Import Table</Name>
+    <LocalName>Importer la table</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Import as</Name>
+    <LocalName>Importer comme</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Import column</Name>
+    <LocalName>Importer la colonne</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Import table</Name>
+    <LocalName>Importer la table</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Imported Kind</Name>
+    <LocalName>Type importé</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Imported Stereotype</Name>
+    <LocalName>Stéréotype importé</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Imported Type</Name>
+    <LocalName>Type importé</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Imported class name</Name>
+    <LocalName>Nom de classe importée</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Imported file</Name>
+    <LocalName>Fichier importé</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Include structure</Name>
+    <LocalName>Inclure la structure</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Include structure code</Name>
+    <LocalName>Inclure le code de structure</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Inconsistent inputs</Name>
+    <LocalName>Entrées incohérentes</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Inconsistent with inputs</Name>
+    <LocalName>Incohérent avec les entrées</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Incorrect Actor Association</Name>
+    <LocalName>Association d'acteur incorrecte</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Incorrect Actor Collaboration</Name>
+    <LocalName>Lien invalide pour un objet Acteur</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Incorrect Boundary to Boundary Link</Name>
+    <LocalName>Lien invalide entre deux objets Boundary</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Incorrect Entity Access</Name>
+    <LocalName>Lien invalide sur un objet Entité</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Incorrectness of column type</Name>
+    <LocalName>Type de colonne incorrect</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Index column</Name>
+    <LocalName>Colonne d'index</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Initial catalog:</Name>
+    <LocalName>Catalogue initial :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Initial item count</Name>
+    <LocalName>Nombre initial d'éléments</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Initial value</Name>
+    <LocalName>Valeur initiale</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Inner class can be instantiated</Name>
+    <LocalName>La classe interne doit être instanciée</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Input HTTP get message name</Name>
+    <LocalName>Nom de message HTTP get d'entrée</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Input HTTP post message name</Name>
+    <LocalName>Nom de message HTTP post d'entrée</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Input SOAP body parts</Name>
+    <LocalName>Parties de corps SOAP d'entrée</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Input SOAP body use</Name>
+    <LocalName>Utilisation de corps SOAP d'entrée</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Input SOAP message name</Name>
+    <LocalName>Nom de message SOAP d'entrée</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Input help</Name>
+    <LocalName>Aide à la saisie</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Insert</Name>
+    <LocalName>Insertion</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Insert procedure code</Name>
+    <LocalName>Code de procédure d'insertion</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Insert table code</Name>
+    <LocalName>Code d'insertion de table</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Insertable</Name>
+    <LocalName>Insérable</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Inter-arrival time</Name>
+    <LocalName>Ecart des arrivées</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Internal classification</Name>
+    <LocalName>Classification interne</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid "or" in lookup script</Name>
+    <LocalName>"or" incorrect dans un script de recherche</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid "|" in source expression</Name>
+    <LocalName>"|" incorrect dans une expression source</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid Group by clause in lookup script</Name>
+    <LocalName>Clause Group by incorrecte dans un script de recherche</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid Mapping of DAD</Name>
+    <LocalName>Correspondance incorrecte pour un DAD</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid XSD file</Name>
+    <LocalName>Fichier XSD incorrect</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid bound procedures</Name>
+    <LocalName>Procédures liées invalides</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid bound tables</Name>
+    <LocalName>Tables liées invalides</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid data connections</Name>
+    <LocalName>Connexions aux données invalides</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid data structure columns</Name>
+    <LocalName>Colonnes de structure de données incorrectes</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid dedicated route</Name>
+    <LocalName>Route dédiée invalide</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid default logical connection</Name>
+    <LocalName>Connexion logique par défaut incorrecte</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid kind of data type</Name>
+    <LocalName>Type de données invalide</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid lookup column</Name>
+    <LocalName>Colonne de recherche incorrecte</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid lookup mode</Name>
+    <LocalName>Mode de recherche incorrect</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid non-"select" statement in lookup script</Name>
+    <LocalName>Instruction non-"Select" incorrecte dans le script de recherche</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid placement of data structure column in Where clause</Name>
+    <LocalName>Emplacement de colonne de structure de données incorrect dans une clause Where</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid placement of lookup table column in Where clause</Name>
+    <LocalName>Emplacement de colonne de table de recherche incorrect dans une clause Where</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid placement of lookup table in Where clause</Name>
+    <LocalName>Emplacement de table de recherche incorrect dans une clause Where</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid primary logical connection</Name>
+    <LocalName>Connexion logique principale incorrecte</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Inverse collection</Name>
+    <LocalName>Collection inverse</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Inverse side</Name>
+    <LocalName>Côté opposé</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Is element from DTD</Name>
+    <LocalName>Est un élément de DTD ?</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Is extended</Name>
+    <LocalName>Est étendue</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Is key</Name>
+    <LocalName>Est une clé</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Is sub-object</Name>
+    <LocalName>Est un sous-objet</LocalName>
+  </Translation>
+  <Translation>
+    <Name>JDBC driver Jar</Name>
+    <LocalName>Fichier jar du pilote JDBC</LocalName>
+  </Translation>
+  <Translation>
+    <Name>JDBC driver class</Name>
+    <LocalName>Classe du pilote JDBC</LocalName>
+  </Translation>
+  <Translation>
+    <Name>JSF configuration</Name>
+    <LocalName>Configuration JSF</LocalName>
+  </Translation>
+  <Translation>
+    <Name>JSF runtime</Name>
+    <LocalName>Bibliothèque JSF</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Joined table mapping is not correct</Name>
+    <LocalName>Correspondance de table jointe incorrecte</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Keep triggers</Name>
+    <LocalName>Conserver les triggers</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Key access</Name>
+    <LocalName>Accès clé</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Key column should be defined for ordered collection</Name>
+    <LocalName>La colonne de clé doit être définie pour une collection triée</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Key generation mode</Name>
+    <LocalName>Mode de génération des clés</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Key in Collection has not been defined</Name>
+    <LocalName>La clé de la Collection n'a pas été définie</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Keywords</Name>
+    <LocalName>Mots clés</LocalName>
+  </Translation>
+  <Translation>
+    <Name>LTI write request limit</Name>
+    <LocalName>Mémoire disponible pour le LTI</LocalName>
+  </Translation>
+  <Translation>
+    <Name>LTL character case</Name>
+    <LocalName>Casse de caractères LTL</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Label font</Name>
+    <LocalName>Police de libellé</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Label justify</Name>
+    <LocalName>Justification du libellé</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Large message</Name>
+    <LocalName>Message volumineux</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Lazy</Name>
+    <LocalName>A la demande</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Lazy loading</Name>
+    <LocalName>Chargement à la demande</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Length</Name>
+    <LocalName>Longueur</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Length:</Name>
+    <LocalName>Longueur :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Limit</Name>
+    <LocalName>Limite</LocalName>
+  </Translation>
+  <Translation>
+    <Name>List Separator</Name>
+    <LocalName>Séparateur de liste</LocalName>
+  </Translation>
+  <Translation>
+    <Name>List name</Name>
+    <LocalName>Nom de liste</LocalName>
+  </Translation>
+  <Translation>
+    <Name>List of database system 1</Name>
+    <LocalName>Liste de systèmes de base de données 1</LocalName>
+  </Translation>
+  <Translation>
+    <Name>List of database system 2</Name>
+    <LocalName>Liste de systèmes de base de données 2</LocalName>
+  </Translation>
+  <Translation>
+    <Name>List of database system 3</Name>
+    <LocalName>Liste de systèmes de base de données 3</LocalName>
+  </Translation>
+  <Translation>
+    <Name>List of database system 4</Name>
+    <LocalName>Liste de systèmes de base de données 4</LocalName>
+  </Translation>
+  <Translation>
+    <Name>List of extended sub-objects</Name>
+    <LocalName>Liste des sous-objets étendus</LocalName>
+  </Translation>
+  <Translation>
+    <Name>List of instantiable classes</Name>
+    <LocalName>Liste des classes instanciables</LocalName>
+  </Translation>
+  <Translation>
+    <Name>List of objects</Name>
+    <LocalName>Liste d'objets</LocalName>
+  </Translation>
+  <Translation>
+    <Name>List value separator</Name>
+    <LocalName>Séparateur de liste de valeurs</LocalName>
+  </Translation>
+  <Translation>
+    <Name>List values method</Name>
+    <LocalName>Méthode de valeurs de liste</LocalName>
+  </Translation>
+  <Translation>
+    <Name>List-index column for ListCollection is not defined</Name>
+    <LocalName>La colonne List-index pour ListCollection n'est pas définie</LocalName>
+  </Translation>
+  <Translation>
+    <Name>List-index column in ListCollection has not been defined</Name>
+    <LocalName>La colonne List-index n'a pas été définie dans ListCollection</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Load file directory</Name>
+    <LocalName>Répertoire de chargement des fichiers</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Local user name</Name>
+    <LocalName>Nom d'utilisateur local</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Location of output on device:</Name>
+    <LocalName>Emplacement du résultat sur le périphérique :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Location:</Name>
+    <LocalName>Emplacement :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Lock mode</Name>
+    <LocalName>Mode de verrouillage</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Log on to the server</Name>
+    <LocalName>Connexion au serveur</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Log type</Name>
+    <LocalName>Type de journal</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Logging File</Name>
+    <LocalName>Fichier journal</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Logging Options</Name>
+    <LocalName>Options de connexion</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Logging Type</Name>
+    <LocalName>Type de consignation</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Logging type:</Name>
+    <LocalName>Type de connexion :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Logical Connection</Name>
+    <LocalName>Connexion logique</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Logical Connections</Name>
+    <LocalName>Connexions logiques</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Logical Path</Name>
+    <LocalName>Chemin logique</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Logical Path Setter</Name>
+    <LocalName>Définition de chemin logique</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Logical Paths</Name>
+    <LocalName>Chemins logiques</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Logical name</Name>
+    <LocalName>Nom logique</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Logical name:</Name>
+    <LocalName>Nom logique :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Login Information</Name>
+    <LocalName>Informations de connexion</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Login information</Name>
+    <LocalName>Information de connexion</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Login:</Name>
+    <LocalName>Identifiant :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Lookup table</Name>
+    <LocalName>Table de recherche</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Lookup table code</Name>
+    <LocalName>Code de table de recherche</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Lower bound</Name>
+    <LocalName>Limite basse</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Lower bound time</Name>
+    <LocalName>Limite basse du temps</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Lowercase</Name>
+    <LocalName>Minuscules</LocalName>
+  </Translation>
+  <Translation>
+    <Name>MSSQL mobile database file:</Name>
+    <LocalName>Fichier de base de données MSSQL mobile :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Main package</Name>
+    <LocalName>Package principal</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Maintenance status</Name>
+    <LocalName>Statut de maintenance</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Maintenance user should not be a DDL User</Name>
+    <LocalName>L'utilisateur de maintenance ne doit pas être un utilisateur de DDL</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Maintenance user should not be a Replication Agent User</Name>
+    <LocalName>L'utilisateur de maintenance ne doit pas être un utilisateur de Replication Agent</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Mandatory</Name>
+    <LocalName>Obligatoire</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Manufacturer</Name>
+    <LocalName>Fabricant</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Many-to-Many association must have the middle table in PDM</Name>
+    <LocalName>L'association plusieurs-plusieurs doit avoir une table intermédiaire dans le MPD</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Many-to-Many operation side</Name>
+    <LocalName>Extrémité plusieurs-plusieurs de l'opération</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Many-to-Many self association is not supported by Hibernate</Name>
+    <LocalName>L'association réflexive plusieurs-plusieurs n'est pas prise en charge par Hibernate</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Many-to-Many self association is not supported by NHibernate</Name>
+    <LocalName>Les associations réflexives plusieurs-plusieurs ne sont pas prises en charge dans NHibernate</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Map data type from</Name>
+    <LocalName>Faire correspondre le type de données depuis</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Mapped by default to:</Name>
+    <LocalName>Correspond par défaut à :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Mapping</Name>
+    <LocalName>Correspondance</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Mapping Description</Name>
+    <LocalName>Description de la correspondance</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Mapping definition type</Name>
+    <LocalName>Type de définition de correspondance</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Mapping description</Name>
+    <LocalName>Description de correspondance</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Mapping for association with association class is not supported</Name>
+    <LocalName>La mise en correspondance d'une association et d'une classe d'association n'est pas prise en charge</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Mapping specific column</Name>
+    <LocalName>Mise en correspondances d'une colonne particulière</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Mapping type</Name>
+    <LocalName>Type de correspondance</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Mappings</Name>
+    <LocalName>Correspondances</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Materialization</Name>
+    <LocalName>Matérialisation</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Materialization save interval</Name>
+    <LocalName>Intervalle de sauvegarde de matérialisation</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Max check locks times</Name>
+    <LocalName>Nombre maximal de vérification de blocage</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Maximum Number of resources</Name>
+    <LocalName>Nombre maximum de ressources</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Maximum image or text size</Name>
+    <LocalName>Taille maximum de texte ou d'image</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Maximum length</Name>
+    <LocalName>Longueur maximale</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Maximum length for parameter name</Name>
+    <LocalName>Longueur maximale d'un nom de paramètre</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Memory</Name>
+    <LocalName>Mémoire</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Message confidentiality</Name>
+    <LocalName>Confidentialité de message</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Message integrity</Name>
+    <LocalName>Intégrité de message</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Message origin check</Name>
+    <LocalName>Vérification de l'origine du message</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Message replay detection</Name>
+    <LocalName>Détection de réponse au message</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Message sequence check</Name>
+    <LocalName>Vérification de séquence de messages</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Message service URL</Name>
+    <LocalName>URL de service de message</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Method of persistence entity class must not be final</Name>
+    <LocalName>La méthode de classe d'entité de persistance ne doit pas être de type final</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Microsoft SQL Server Database File (SqlClient)</Name>
+    <LocalName>Fichier de base de données Microsoft SQL Server (SqlClient)</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Microsoft SQL Server Mobile Edition (.NET Framework Data Provider for SQL Server CE)</Name>
+    <LocalName>Microsoft SQL Server Mobile Edition (Fournisseur de données .NET Framework pour SQL Server CE)</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Minimum Number of resources</Name>
+    <LocalName>Nombre minimum de ressources</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Minimum length</Name>
+    <LocalName>Longueur minimale</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Minimum wait time</Name>
+    <LocalName>Temps d'attente minimum</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing ODBC connection information</Name>
+    <LocalName>Informations de connexion ODBC manquante</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing XML file or XSD file</Name>
+    <LocalName>Fichier XML ou XSD manquant</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing data connection</Name>
+    <LocalName>Connexion aux données manquante</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing data mapping</Name>
+    <LocalName>Correspondance de données manquante</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing data type</Name>
+    <LocalName>Type de données manquant</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing direct connection username</Name>
+    <LocalName>Nom d'utilisateur de connexion directe manquant</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing output column data mapping</Name>
+    <LocalName>Correspondance de données de colonne de sortie manquante</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing output table primary key data mapping</Name>
+    <LocalName>Correspondance de données de clé primaire de table de sortie manquante</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing shared route for dedicated route</Name>
+    <LocalName>Route partagée manquante pour la route dédiée</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing source expression</Name>
+    <LocalName>Expression source manquante</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing target object</Name>
+    <LocalName>Objet cible manquant</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing the column length</Name>
+    <LocalName>Longueur de colonne non spécifiée</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Mobile type:</Name>
+    <LocalName>Type mobile :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Modify the default data type mapping for this column.</Name>
+    <LocalName>Modifie la correspondance de type de données par défaut pour cette colonne.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Modify the default mapping for this data type.</Name>
+    <LocalName>Modifie la correspondance par défaut pour ce type de données.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Modify the default mappings of data types between the current and target DBMS</Name>
+    <LocalName>Modifie les correspondances par défaut de types de données entre les SGBD courant et cible</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Multiple data connection groups</Name>
+    <LocalName>Plusieurs groupes de connexions aux données</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Multiple owner</Name>
+    <LocalName>Propriétaires multiples</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must not have unreachable data model in data source</Name>
+    <LocalName>La source de données ne doit pas comporter un modèle de données inaccessible</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Mutable</Name>
+    <LocalName>Modifiable</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Mutual authorization</Name>
+    <LocalName>Autorisation mutuelle</LocalName>
+  </Translation>
+  <Translation>
+    <Name>NHibernate type</Name>
+    <LocalName>Type NHibernate</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Name</Name>
+    <LocalName>Nom</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Namespace</Name>
+    <LocalName>Espace nom</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Namespaces</Name>
+    <LocalName>Espaces de noms</LocalName>
+  </Translation>
+  <Translation>
+    <Name>New Attribute</Name>
+    <LocalName>Nouvel attribut</LocalName>
+  </Translation>
+  <Translation>
+    <Name>New Object List</Name>
+    <LocalName>Nouvelle liste d'objets</LocalName>
+  </Translation>
+  <Translation>
+    <Name>New Object Type</Name>
+    <LocalName>Nouveau type d'objet</LocalName>
+  </Translation>
+  <Translation>
+    <Name>New object type...</Name>
+    <LocalName>Nouveau type d'objet...</LocalName>
+  </Translation>
+  <Translation>
+    <Name>New...</Name>
+    <LocalName>Nouveau...</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Next site</Name>
+    <LocalName>Site suivant</LocalName>
+  </Translation>
+  <Translation>
+    <Name>No inherit</Name>
+    <LocalName>Pas d'héritage</LocalName>
+  </Translation>
+  <Translation>
+    <Name>No reference table in association</Name>
+    <LocalName>Aucune table de référence dans l'association</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Not defined mandatory on foreign-key when value type collection</Name>
+    <LocalName>Clé étrangère non définie comme obligatoire en cas de collection de types valeur</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Not found</Name>
+    <LocalName>Non trouvé</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Not supported Association Class</Name>
+    <LocalName>Classe d'association non prise en charge</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Not supported index column collection on multiple side</Name>
+    <LocalName>Collection de colonnes d'index sur plusieurs côtés</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Not supported user-defined collection type</Name>
+    <LocalName>Type de collection non supporté</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Number</Name>
+    <LocalName>Nombre</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Number of bytes in log</Name>
+    <LocalName>Nombre d'octets dans le journal</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Number of commands in log</Name>
+    <LocalName>Nombre de commandes dans le journal</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Number of commands per timeslide</Name>
+    <LocalName>Nombre de commandes par cycle processeur</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Number of data connections</Name>
+    <LocalName>Nombre de connexions aux données</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Number of lines</Name>
+    <LocalName>Nombre de lignes</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Number of parallel threads</Name>
+    <LocalName>Nombre de threads en mode parallèle</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Number of rows in DataGridView</Name>
+    <LocalName>Nombre de lignes dans DataGridView</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Number of rows in table</Name>
+    <LocalName>Nombre de lignes dans la table</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Number of threads</Name>
+    <LocalName>Nombre de threads</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Number of transactions in group</Name>
+    <LocalName>Nombre de transactions par groupe</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Number of transactions in log</Name>
+    <LocalName>Nombre de transactions dans le journal</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Number of visible characters</Name>
+    <LocalName>Nombre de caractères visibles</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ODBC source name:</Name>
+    <LocalName>Nom de source ODBC :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>OLE DB Provider:</Name>
+    <LocalName>Fournisseur OLE DB:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Object</Name>
+    <LocalName>Objet</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Object Binding Setter</Name>
+    <LocalName>Définition de liaison d'objets</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Object type</Name>
+    <LocalName>Type d'objet</LocalName>
+  </Translation>
+  <Translation>
+    <Name>One-to-many association is mapped to reference with incorrect direction</Name>
+    <LocalName>L'association un-plusieurs est mise en correspondance avec une référence dont l'orientation est incorrecte</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Operating System</Name>
+    <LocalName>Système d'exploitation</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Operation options</Name>
+    <LocalName>Options d'opération</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Optimistic lock</Name>
+    <LocalName>Verrouillage optimiste</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Optimistic lock mapping is not correct</Name>
+    <LocalName>Correspondance de verrouillage optimiste incorrecte</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Optimistic lock options</Name>
+    <LocalName>Options de verrouillage optimiste</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Oracle Database (OracleClient)</Name>
+    <LocalName>Base de données Oracle (OracleClient)</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Order by</Name>
+    <LocalName>Tri par</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Original data type</Name>
+    <LocalName>Type de données d'origine</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Original language</Name>
+    <LocalName>Langue d'origine</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Original type</Name>
+    <LocalName>Type d'origine</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Other options</Name>
+    <LocalName>Autres options</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Outer join</Name>
+    <LocalName>Jointure externe</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Output HTTP get message name</Name>
+    <LocalName>Nom de message HTTP get de sortie</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Output HTTP post message name</Name>
+    <LocalName>Nom de message HTTP post de sortie</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Output SOAP body parts</Name>
+    <LocalName>Parties de corps SOAP de sortie</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Output SOAP body use</Name>
+    <LocalName>Partie de corps SOAP de sortie</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Output SOAP message name</Name>
+    <LocalName>Nom de message SOAP de sortie</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Output file folder:</Name>
+    <LocalName>Dossier du fichier de résultats :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Output length</Name>
+    <LocalName>Longueur de sortie</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Overwrite function class</Name>
+    <LocalName>Redéfinition de classe de fonction</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Owner</Name>
+    <LocalName>Propriétaire</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Owner of extended attribute system tables</Name>
+    <LocalName>Propriétaire des tables système d'attributs étendus</LocalName>
+  </Translation>
+  <Translation>
+    <Name>PDM does not match with inheritance requirements of NHibernate</Name>
+    <LocalName>Le MPD n'est pas conforme aux exigences relatives aux héritages de NHibernate</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Package code</Name>
+    <LocalName>Code de package</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Package options</Name>
+    <LocalName>Options de package</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Package prefix</Name>
+    <LocalName>Préfixe de package</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Packet size</Name>
+    <LocalName>Taille de paquet</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Page options</Name>
+    <LocalName>Options de page</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Parallel DSI</Name>
+    <LocalName>DSI en mode parallèle</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Parameter support</Name>
+    <LocalName>Prise en charge de paramètre</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Parent entity</Name>
+    <LocalName>Entité parent</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Parent package</Name>
+    <LocalName>Package parent</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Parent table cardinality</Name>
+    <LocalName>Cardinalité de la table parent</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Partitioning rule</Name>
+    <LocalName>Règle de partitionnement</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Password</Name>
+    <LocalName>Mot de passe</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Password:</Name>
+    <LocalName>Mot de passe :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Path:</Name>
+    <LocalName>Chemin :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Persistence entity class should be mapped to table</Name>
+    <LocalName>La classe d'entité de persistance doit être mise en correspondance avec une table</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Persistence provider</Name>
+    <LocalName>Fournisseur de persistance</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Persistent Data Source</Name>
+    <LocalName>Source de données persistante</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Persistent association should be mapped</Name>
+    <LocalName>Une association persistante doit être mise en correspondance</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Persistent attribute should not be final</Name>
+    <LocalName>L'attribut persistant ne doit pas être final</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Persistent class in default package</Name>
+    <LocalName>Classe persistante dans un package par défaut</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Persistent class should not be defined in default package</Name>
+    <LocalName>Une classe persistante ne doit pas être définie dans un package par défaut</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Persistent entity class should be top level class</Name>
+    <LocalName>La classe d'entité persistante doit être une classe de niveau racine</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Persistent entity class should not be final</Name>
+    <LocalName>Une classe d'entité persistante ne doit pas être finale</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Persister class</Name>
+    <LocalName>Classe de persistance</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Persister class name</Name>
+    <LocalName>Nom de classe persistante</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Phone number</Name>
+    <LocalName>Numéro de téléphone</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Physical Table</Name>
+    <LocalName>Table physique</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Physical table</Name>
+    <LocalName>Table physique</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Physical table code</Name>
+    <LocalName>Code de table physique</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Physical tables</Name>
+    <LocalName>Tables physiques</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Picture library path</Name>
+    <LocalName>Chemin d'accès de bibliothèque d'images</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Plural</Name>
+    <LocalName>Pluriel</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Plural name</Name>
+    <LocalName>Nom pluriel</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Polymorphism</Name>
+    <LocalName>Polymorphisme</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Pooled table</Name>
+    <LocalName>Table pool</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Port number</Name>
+    <LocalName>Numéro de port</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Port type</Name>
+    <LocalName>Type de port</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Port type name</Name>
+    <LocalName>Nom du type de port</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Port:</Name>
+    <LocalName>Port :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Post condition</Name>
+    <LocalName>Post-condition</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Pre condition</Name>
+    <LocalName>Pré-condition</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Precision</Name>
+    <LocalName>Précision</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Precision:</Name>
+    <LocalName>Précision :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Primary Connection</Name>
+    <LocalName>Connexion principale</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Primary Connection Object</Name>
+    <LocalName>Objet de connexion principale</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Primary Data Connections</Name>
+    <LocalName>Connexions aux données principales</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Primary Logical Connection</Name>
+    <LocalName>Connexion logique principale</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Primary Logical Connection Object</Name>
+    <LocalName>Objet de connexion logique principale</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Primary database password</Name>
+    <LocalName>Mot de passe de base de données principale</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Primary database port number</Name>
+    <LocalName>Numéro de port de la base de données principale</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Primary database user name</Name>
+    <LocalName>Nom d'utilisateur de base de données principale</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Primary identifier must be defined</Name>
+    <LocalName>L'identifiant principal doit être défini</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Primary identifier must contain persistent attribute</Name>
+    <LocalName>L'identifiant principal doit contenir l'attribut persistant</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Primary key</Name>
+    <LocalName>Clé primaire</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Primary key join does not exist</Name>
+    <LocalName>La jointure de clé primaire n'existe pas</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Primary procedure name</Name>
+    <LocalName>Nom de procédure primaire</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Primary table name</Name>
+    <LocalName>Nom de table primaire</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Priority</Name>
+    <LocalName>Priorité</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Procedure Binding Matrix</Name>
+    <LocalName>Matrice de liaison de procédure</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Procedure lacks of owner information</Name>
+    <LocalName>Les informations sur le propriétaire font défaut dans la procédure</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Procedure option</Name>
+    <LocalName>Option de procédure</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Procedures</Name>
+    <LocalName>Procédures</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Process:</Name>
+    <LocalName>Processus :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Processors</Name>
+    <LocalName>Processeurs</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Properties</Name>
+    <LocalName>Propriétés</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Property access</Name>
+    <LocalName>Accès à la propriété</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Property attribute cannot be mapped to column</Name>
+    <LocalName>L'attribut de propriété ne peut pas être mis en correspondance avec une colonne</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Provider style</Name>
+    <LocalName>Style de fournisseur</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Proxy Server Connection Information</Name>
+    <LocalName>Informations de connexion au serveur proxy</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Proxy name</Name>
+    <LocalName>Nom de proxy</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Proxy table is child of reference</Name>
+    <LocalName>La table proxy est un enfant d'une référence</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Publication:</Name>
+    <LocalName>Publication :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Publications &amp;&amp; Replication Definitions</Name>
+    <LocalName>Publications &amp;&amp; définitions de réplication</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Publications &amp;amp;&amp;amp; Replication Definitions</Name>
+    <LocalName>Définitions de publication &amp;amp;&amp;amp; de réplication</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Qualified Separator</Name>
+    <LocalName>séparateur pour les noms qualifiés.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Qualified name separator</Name>
+    <LocalName>Séparateur de noms qualifiés</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Queue</Name>
+    <LocalName>File d'attente</LocalName>
+  </Translation>
+  <Translation>
+    <Name>RSI batch size</Name>
+    <LocalName>Taille du lot RSI</LocalName>
+  </Translation>
+  <Translation>
+    <Name>RSI fadeout time</Name>
+    <LocalName>Durée d'inactivité avant fermeture d'une connexion</LocalName>
+  </Translation>
+  <Translation>
+    <Name>RSI packet size</Name>
+    <LocalName>Taille de paquet RSI</LocalName>
+  </Translation>
+  <Translation>
+    <Name>RSI synchronize interval</Name>
+    <LocalName>Intervalle de synchronisation RSI</LocalName>
+  </Translation>
+  <Translation>
+    <Name>RSSD character set</Name>
+    <LocalName>Jeu de caractères RSSD</LocalName>
+  </Translation>
+  <Translation>
+    <Name>RSSD character set is blank</Name>
+    <LocalName>Le jeu de caractères RSSD est vide</LocalName>
+  </Translation>
+  <Translation>
+    <Name>RSSD database options</Name>
+    <LocalName>Options de base de données RSSD</LocalName>
+  </Translation>
+  <Translation>
+    <Name>RSSD password</Name>
+    <LocalName>Mot de passe RSSD</LocalName>
+  </Translation>
+  <Translation>
+    <Name>RSSD user name</Name>
+    <LocalName>Nom d'utilisateur RSSD</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Read-only Name</Name>
+    <LocalName>Nom en lecture seule</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Redundant flow</Name>
+    <LocalName>Flux redondant</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Reference associated objects by</Name>
+    <LocalName>Référencer les objets associés par</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Reference field</Name>
+    <LocalName>Champ de référence</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Reference field code</Name>
+    <LocalName>Code de champ de référence</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Reference kind</Name>
+    <LocalName>Type de référence</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Reference table</Name>
+    <LocalName>Table de référence</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Reference table code</Name>
+    <LocalName>Code de table de référence</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Referenced Attribute</Name>
+    <LocalName>Attribut de référence</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Referenced class name</Name>
+    <LocalName>Nom de classe de référence</LocalName>
+  </Translation>
+  <Translation>
+    <Name>References</Name>
+    <LocalName>Références</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Release</Name>
+    <LocalName>Libération</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Release notes by</Name>
+    <LocalName>Notes d'édition par</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Released</Name>
+    <LocalName>Publié</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Remote Column:</Name>
+    <LocalName>Colonne distante :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Remote data type</Name>
+    <LocalName>Type de données distant</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Remote database name</Name>
+    <LocalName>Nom de base de données distante</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Remote server directory</Name>
+    <LocalName>Répertoire du serveur distant</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Remote server name</Name>
+    <LocalName>Nom de serveur distant</LocalName>
+  </Translation>
+  <Translation>
+    <Name>RepAgent Options</Name>
+    <LocalName>Options RepAgent</LocalName>
+  </Translation>
+  <Translation>
+    <Name>RepAgent name</Name>
+    <LocalName>Nom RepAgent</LocalName>
+  </Translation>
+  <Translation>
+    <Name>RepAgent password</Name>
+    <LocalName>Mot de passe RepAgent</LocalName>
+  </Translation>
+  <Translation>
+    <Name>RepAgent port number</Name>
+    <LocalName>Numéro de port RepAgent</LocalName>
+  </Translation>
+  <Translation>
+    <Name>RepAgent type</Name>
+    <LocalName>Type RepAgent</LocalName>
+  </Translation>
+  <Translation>
+    <Name>RepAgent user name</Name>
+    <LocalName>Nom d'utilisateur RepAgent</LocalName>
+  </Translation>
+  <Translation>
+    <Name>RepServer Connection</Name>
+    <LocalName>Connexion RepServer</LocalName>
+  </Translation>
+  <Translation>
+    <Name>RepServer Options</Name>
+    <LocalName>Options RepServer</LocalName>
+  </Translation>
+  <Translation>
+    <Name>RepServer character set</Name>
+    <LocalName>Jeu de caractères RepServer</LocalName>
+  </Translation>
+  <Translation>
+    <Name>RepServer character set is blank</Name>
+    <LocalName>Le jeu de caractères RepServer est vide</LocalName>
+  </Translation>
+  <Translation>
+    <Name>RepServer password</Name>
+    <LocalName>Mot de passe RepServer</LocalName>
+  </Translation>
+  <Translation>
+    <Name>RepServer user name</Name>
+    <LocalName>Nom d'utilisateur RepServer</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Replicate</Name>
+    <LocalName>Réplication</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Replicate DDL</Name>
+    <LocalName>Réplication de DDL</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Replicate DDL requires same type of database</Name>
+    <LocalName>La DDL répliquée requiert le même type de base de données</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Replicate SQLDML</Name>
+    <LocalName>Répliquer SQLDML</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Replicate Table</Name>
+    <LocalName>Tables répliquées</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Replicate Tables</Name>
+    <LocalName>Tables répliquées</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Replicate connection</Name>
+    <LocalName>Connexion répliquée</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Replicate function</Name>
+    <LocalName>Réplication de fonction</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Replicate minimal columns</Name>
+    <LocalName>Répliquer les colonnes minimales</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Replicate system procedure</Name>
+    <LocalName>Réplication de procédure système</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Replicate table</Name>
+    <LocalName>Réplication de table</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Replicate transaction</Name>
+    <LocalName>Réplication de transaction</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Replication</Name>
+    <LocalName>Réplication</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Replication DDL</Name>
+    <LocalName>DDL de réplication</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Replication Definition</Name>
+    <LocalName>Définition de réplication</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Replication Definition name uniqueness</Name>
+    <LocalName>Unicité du nom de définition de réplication</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Replication Definitions</Name>
+    <LocalName>Définitions de réplication</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Replication Server connection options</Name>
+    <LocalName>Options de connexion à Replication Server</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Replication definition name</Name>
+    <LocalName>Nom de définition de réplication</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Replication minimum columns</Name>
+    <LocalName>Colonnes minimales de réplication</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Request</Name>
+    <LocalName>A la demande</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Request alter from primary database</Name>
+    <LocalName>Demande à partir de la base de données principale</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Request stored procedure</Name>
+    <LocalName>Invocation de procédures stockées</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Required resource</Name>
+    <LocalName>Exigence en ressource</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Resolution</Name>
+    <LocalName>Résolution</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Resource</Name>
+    <LocalName>Ressource</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ResultColumn support</Name>
+    <LocalName>Prise en charge de colonne de résultats</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Return MIME type</Name>
+    <LocalName>Type de retour MIME</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Return name</Name>
+    <LocalName>Nom de résultat</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Revenue per unit</Name>
+    <LocalName>Revenu par unité</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Role A cascade</Name>
+    <LocalName>Rôle A - cascade</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Role A fetch</Name>
+    <LocalName>Rôle A - fetch</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Role A order by</Name>
+    <LocalName>Rôle A - order by</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Role B cascade</Name>
+    <LocalName>Rôle B - cascade</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Role B fetch</Name>
+    <LocalName>Rôle B - fetch</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Role B order by</Name>
+    <LocalName>Rôle B - order by</LocalName>
+  </Translation>
+  <Translation>
+    <Name>RoleA options</Name>
+    <LocalName>Options du rôle A</LocalName>
+  </Translation>
+  <Translation>
+    <Name>RoleB options</Name>
+    <LocalName>Options du rôle B</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Root table</Name>
+    <LocalName>Table racine</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Root table code</Name>
+    <LocalName>Code de la table racine</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Route Options</Name>
+    <LocalName>Options de route</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Routing Out Percent</Name>
+    <LocalName>Pourcentage de flux sortant</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Row delimiter</Name>
+    <LocalName>Délimiteur de ligne</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Row id</Name>
+    <LocalName>ID de ligne</LocalName>
+  </Translation>
+  <Translation>
+    <Name>SOAP Binding Style</Name>
+    <LocalName>Style de Binding SOAP</LocalName>
+  </Translation>
+  <Translation>
+    <Name>SOAP action</Name>
+    <LocalName>Action SOAP</LocalName>
+  </Translation>
+  <Translation>
+    <Name>SOAP binding style</Name>
+    <LocalName>Style de binding SOAP</LocalName>
+  </Translation>
+  <Translation>
+    <Name>SOAP binding transport</Name>
+    <LocalName>Lien de transport SOAP</LocalName>
+  </Translation>
+  <Translation>
+    <Name>SOAP body namespace</Name>
+    <LocalName>Espace du nom du corps SOAP</LocalName>
+  </Translation>
+  <Translation>
+    <Name>SOAP operation style</Name>
+    <LocalName>Style d'opération SOAP</LocalName>
+  </Translation>
+  <Translation>
+    <Name>SOAP port type</Name>
+    <LocalName>Type de port SOAP</LocalName>
+  </Translation>
+  <Translation>
+    <Name>SQL Anywhere version</Name>
+    <LocalName>Version de SQL Anywhere</LocalName>
+  </Translation>
+  <Translation>
+    <Name>SQL data style</Name>
+    <LocalName>Mise en forme des types de données SQL</LocalName>
+  </Translation>
+  <Translation>
+    <Name>SQL type consistency among complex types</Name>
+    <LocalName>Cohérence de type SQL entre les types complexes</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Same maintenance user for all connections</Name>
+    <LocalName>Utilisateur de maintenance identique pour toutes les connexions</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Save interval</Name>
+    <LocalName>Intervalle de sauvegarde</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Scan template</Name>
+    <LocalName>Balayage du template</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Schema</Name>
+    <LocalName>Schéma</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Schema name</Name>
+    <LocalName>Nom du schéma</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Schema namespace</Name>
+    <LocalName>Espace de noms du schéma</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Script output type</Name>
+    <LocalName>Type de script résultat</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Search for referenced objects in other models</Name>
+    <LocalName>Rechercher des objets référencés dans d'autres modèles</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Searchable</Name>
+    <LocalName>Recherche possible</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Secondary table must have reference key referring to primary table</Name>
+    <LocalName>La table secondaire doit avoir une clé de référence qui pointe vers une table primaire</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Security</Name>
+    <LocalName>Sécurité</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Security mechanism</Name>
+    <LocalName>Mécanisme de sécurité</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Select File</Name>
+    <LocalName>Sélection du fichier</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Select before update</Name>
+    <LocalName>Sélection avant modification</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Select the PowerDesigner attribute or list that is contained in this column.\nFor lists or attributes that reference other objects,\nyou must also specify the associated PowerDesigner object.</Name>
+    <LocalName>Sélectionnez l'attribut ou la liste PowerAMC contenu dans cette colonne.\nPour les listes ou les attributs qui font référence à d'autres objets,\nvous devez également spécifier l'objet PowerAMC associé.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Select the data source to import:</Name>
+    <LocalName>Sélectionnez la source de données à importer :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Selected</Name>
+    <LocalName>Sélectionné</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Send standby columns</Name>
+    <LocalName>Envoi de colonnes à la base de données en attente</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Send trucate table</Name>
+    <LocalName>Envoi des tables tronquées</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Serialization method</Name>
+    <LocalName>Méthode de sérialisation</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Server class</Name>
+    <LocalName>Classe de serveur</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Server code</Name>
+    <LocalName>Code de serveur</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Server must be defined</Name>
+    <LocalName>Le serveur doit être défini</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Server name</Name>
+    <LocalName>Nom de serveur</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Server name:</Name>
+    <LocalName>Nom de serveur :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Server or file name:</Name>
+    <LocalName>Nom de serveur ou de fichier :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Service description</Name>
+    <LocalName>Description de service</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Service key</Name>
+    <LocalName>Clé de service</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Service name</Name>
+    <LocalName>Nom de service</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Service port name</Name>
+    <LocalName>Nom de port du service</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Service scope</Name>
+    <LocalName>Portée du service</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Show SQL</Name>
+    <LocalName>Affichage du code SQL</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Signed</Name>
+    <LocalName>Signé</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Simulation Running Time</Name>
+    <LocalName>Durée d'exécution de simulation</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Simulation limit</Name>
+    <LocalName>Limite de simulation</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Single Data Connection with read access type</Name>
+    <LocalName>Connexion aux données unique avec type d'accès en lecture</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Skip Import</Name>
+    <LocalName>Omettre l'importation</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Soap binding transport</Name>
+    <LocalName>Lien de transport SOAP</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Soap body namespace</Name>
+    <LocalName>Espace de noms de corps SOAP</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Software component</Name>
+    <LocalName>Composante logicielle</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Sort</Name>
+    <LocalName>Tri</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Source Column:</Name>
+    <LocalName>Colonne source :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Source table</Name>
+    <LocalName>Table source</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Source tables flagged "generated"</Name>
+    <LocalName>Tables source marquées comme "générées"</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Specific column</Name>
+    <LocalName>Colonne particulière</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Specify DDL User and Password for Replication Agent</Name>
+    <LocalName>Spécifiez le nom d'utilisateur et le mot de passe de DDL pour Replication Agent</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Specify a name and a data type for your attribute,\nalong with the kind of PowerDesigner object if the data type is object.</Name>
+    <LocalName>Spécifiez un nom et un type de données pour votre attribut,\nainsi que le type d'objet PowerAMC si le type de données est OBJECT.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Specify a name and plural name for your new object type.</Name>
+    <LocalName>Spécifiez un nom au singulier et un nom au pluriel pour votre nouveau type d'objet.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Specify a name for your list, along with the kind of PowerDesigner object it will contain.</Name>
+    <LocalName>Spécifiez un nom pour votre liste, ainsi que le type d'objet PowerAMC qu'elle va contenir.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Standard attribute</Name>
+    <LocalName>Attribut standard</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Standard deviation</Name>
+    <LocalName>Ecart-type</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Standard deviation for timing distribution</Name>
+    <LocalName>Ecart type pour distribution du temps</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Standby type</Name>
+    <LocalName>Type d'attente</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Status</Name>
+    <LocalName>Etat</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Stereotype</Name>
+    <LocalName>Stéréotype</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Stereotype:</Name>
+    <LocalName>Stéréotype :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Stop unsupported commands</Name>
+    <LocalName>Arrêter les commandes non prises en charge</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Stored procedure option</Name>
+    <LocalName>Option de procédure stockée</LocalName>
+  </Translation>
+  <Translation>
+    <Name>String for 'True' value</Name>
+    <LocalName>Chaîne pour la valeur 'True'</LocalName>
+  </Translation>
+  <Translation>
+    <Name>String literal for 'True' value</Name>
+    <LocalName>Littéral de chaîne pour la valeur 'True'</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Structure class</Name>
+    <LocalName>Classe de structure</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Stylesheet CSS file</Name>
+    <LocalName>Fichier CSS de feuille de style</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Subdirectory:</Name>
+    <LocalName>Sous-répertoire:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Subscribe for truncated tables</Name>
+    <LocalName>Souscription pour les tables tronquées</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Subscription name length</Name>
+    <LocalName>Longueur du nom de souscription</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Subscription name uniqueness</Name>
+    <LocalName>Unicité du nom de souscription</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Subscription of request procedure</Name>
+    <LocalName>Souscription de procédure de requête</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Subscription write request limit</Name>
+    <LocalName>Mémoire disponible pour les souscriptions</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Subscriptions</Name>
+    <LocalName>Souscriptions</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Subselect</Name>
+    <LocalName>Sous-sélection</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Support update in Sybase IQ</Name>
+    <LocalName>Prendre en charge la mise à jour dans Sybase IQ</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Suspend replication</Name>
+    <LocalName>Suspension de la réplication</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Sybase SQL Anywhere Database (AsaClient)</Name>
+    <LocalName>Base de données Sybase SQL Anywhere (AsaClient)</LocalName>
+  </Translation>
+  <Translation>
+    <Name>System procedure</Name>
+    <LocalName>Procédure système</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Table Binding Matrix</Name>
+    <LocalName>Matrice de liaisons de table</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Table Mapping</Name>
+    <LocalName>Correspondance de table</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Table Mappings</Name>
+    <LocalName>Correspondances de tables</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Table class</Name>
+    <LocalName>Classe de table</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Table column width</Name>
+    <LocalName>Largeur de colonne de table</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Table generation mode</Name>
+    <LocalName>Mode de génération des tables</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Table not bound to primary connection</Name>
+    <LocalName>Table non liée à la connexion principale</LocalName>
+  </Translation>
+  <Translation>
+    <Name>TableColumn is not defined in Association Mapping</Name>
+    <LocalName>TableColumn n'est pas défini dans la correspondance d'association</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Target IDE</Name>
+    <LocalName>IDE cible</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Target data type</Name>
+    <LocalName>Type de données cible</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Target device:</Name>
+    <LocalName>Périphérique cible :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Target runtime</Name>
+    <LocalName>Exécution cible</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Test Connection</Name>
+    <LocalName>Tester la connexion</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Test method</Name>
+    <LocalName>Méthode de test</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Text convert multiplier</Name>
+    <LocalName>Multiplicateur pour la conversion des types text</LocalName>
+  </Translation>
+  <Translation>
+    <Name>The column is selected from generation source model</Name>
+    <LocalName>La colonne est sélectionnée dans le modèle source de la génération</LocalName>
+  </Translation>
+  <Translation>
+    <Name>The name of package conflicts with the name of namespace</Name>
+    <LocalName>Il y a un conflit entre le nom du package et celui de l'espace de noms</LocalName>
+  </Translation>
+  <Translation>
+    <Name>The primary key attribute should be public</Name>
+    <LocalName>L'attribut de clé primaire devrait être public</LocalName>
+  </Translation>
+  <Translation>
+    <Name>The value of database parameter dsi_compile_max_cmds should not be less than 100.</Name>
+    <LocalName>La valeur du paramètre de base de données dsi_compile_max_cmds ne doit pas être inférieure à 100.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>The wizard has found a table to import. Select the kind of\nPowerDesigner object you want to create for each table row.</Name>
+    <LocalName>L'Assistant a trouvé une table à importer. Sélectionnez le type d'objet\nPowerAMC à créer pour chaque ligne de table.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>This check ensures that in a warm standby environment all logical connections in a group agree on which of them is the primary logical connection.</Name>
+    <LocalName>Cette vérification s'assure que dans un environnement à reprise semi-automatique toutes les connexions d'un groupe s'accordent sur celle qui est la connexion logique principale.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>This check ensures that the data connections of the logical path are linked to correct data store.</Name>
+    <LocalName>Cette vérification s'assure que les connexions aux données du chemin logique sont liées au magasin de données approprié.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>This check ensures that the data source mapping is defined.</Name>
+    <LocalName>Cette vérification s'assure que la correspondance de source de données est définie.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>This check ensures that the primary logical connection is correct.</Name>
+    <LocalName>Cette vérification s'assure que la connexion logique principale est correcte.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Threshold</Name>
+    <LocalName>Seuil</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Time</Name>
+    <LocalName>Temps</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Time display pattern</Name>
+    <LocalName>Format d'affichage de l'heure</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Time distribution type</Name>
+    <LocalName>Type de distribution de temps</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Time format</Name>
+    <LocalName>Format d'heure</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Time unit</Name>
+    <LocalName>Unité de temps</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Time zone</Name>
+    <LocalName>Fuseau horaire</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Timing</Name>
+    <LocalName>Temporisation</LocalName>
+  </Translation>
+  <Translation>
+    <Name>To set a data type for an individual column, click the Add Specific Column Mapping button.</Name>
+    <LocalName>Pour définir un type de données pour une colonne individuelle, cliquez sur le bouton Ajouter une correspondance de colonne spécifique.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Too few inputs</Name>
+    <LocalName>Pas assez d'entrées</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Too many data mappings</Name>
+    <LocalName>Trop de correspondances de données</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Too many lookup columns</Name>
+    <LocalName>Trop de colonnes de recherche</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Too many lookup tables</Name>
+    <LocalName>Trop de tables de recherche</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Transaction Options</Name>
+    <LocalName>Options de transaction</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Transaction set</Name>
+    <LocalName>Jeu de transactions</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Transaction type</Name>
+    <LocalName>Type de transaction</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Transform type:</Name>
+    <LocalName>Type de transformation :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Transparent table</Name>
+    <LocalName>Table transparente</LocalName>
+  </Translation>
+  <Translation>
+    <Name>UDDI operator URL</Name>
+    <LocalName>URL d'opérateur UDDI</LocalName>
+  </Translation>
+  <Translation>
+    <Name>UltraLite database file:</Name>
+    <LocalName>Fichier de base de données UltraLite :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Undefined default connection</Name>
+    <LocalName>Connexion aux données indéfinie</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Undefined primary connection</Name>
+    <LocalName>Connexion principale non définie</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Undefined separator</Name>
+    <LocalName>Séparateur non défini</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Undefined user name</Name>
+    <LocalName>Nom d'utilisateur non défini</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Unidirectional one-to-one association is mapped to reference with incorrect direction</Name>
+    <LocalName>Une association un-un unidirectionnelle est mise en correspondance avec une référence dont le sens est incorrect</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Unified login</Name>
+    <LocalName>Ouverture de session unifiée</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Unknown container type in RoleA</Name>
+    <LocalName>Type de conteneur incorrect dans RoleA</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Unknown container type in RoleB</Name>
+    <LocalName>Type de conteneur incorrect dans RoleB</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Unsaved value</Name>
+    <LocalName>Valeur non enregistrée</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Unsupported Web service input</Name>
+    <LocalName>Entrée de service Web non prise en charge</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Unsupported direct connection</Name>
+    <LocalName>Connexion directe non prise en charge</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Unsupported nested element</Name>
+    <LocalName>Elément imbriqué non pris en charge</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Unsupported object language</Name>
+    <LocalName>Langage objet non pris en charge</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Unsupported xs:NOTATION element</Name>
+    <LocalName>Elément xs:NOTATION non pris en charge</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Updatable</Name>
+    <LocalName>Modifiable</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Update</Name>
+    <LocalName>Mise à jour</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Update procedure code</Name>
+    <LocalName>Code de procédure de mise à jour</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Update table code</Name>
+    <LocalName>Code de mise à jour de table</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Upper bound</Name>
+    <LocalName>Limite haute</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Upper bound time</Name>
+    <LocalName>Limite haute du temps</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Use NT integrated security</Name>
+    <LocalName>Utiliser la sécurité intégrée NT</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Use Windows NT integrated security</Name>
+    <LocalName>Utiliser la sécurité intégrée Windows NT</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Use batch markers</Name>
+    <LocalName>Utiliser des marqueurs par lots</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Use insert table in Sybase IQ</Name>
+    <LocalName>Utiliser une table d'insertion dans Sybase IQ</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Use master-detail page</Name>
+    <LocalName>Utiliser la page maître-détails</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Use replication agent</Name>
+    <LocalName>Utilisation d'un agent de réplication</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Use resource bundle</Name>
+    <LocalName>Utiliser le bundle de ressources</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Use security services</Name>
+    <LocalName>Utilisation des services de sécurité</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Use stored procedure for function strings</Name>
+    <LocalName>Utiliser des procédures stockées pour les chaînes de fonction</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Use this attribute as foreign key label</Name>
+    <LocalName>Utiliser cet attribut comme libellé de clé étrangère</LocalName>
+  </Translation>
+  <Translation>
+    <Name>User name</Name>
+    <LocalName>Nom d'utilisateur</LocalName>
+  </Translation>
+  <Translation>
+    <Name>User name:</Name>
+    <LocalName>Nom d'utilisateur :</LocalName>
+  </Translation>
+  <Translation>
+    <Name>User-defined collection type is not supported</Name>
+    <LocalName>Type de collection défini par l'utilisateur non pris en charge</LocalName>
+  </Translation>
+  <Translation>
+    <Name>User-defined mapping</Name>
+    <LocalName>Correspondance définie par l'utilisateur</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Validation rule</Name>
+    <LocalName>Règle de validation</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Validation rule code</Name>
+    <LocalName>Code de règle de validation</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Validation rule error message</Name>
+    <LocalName>Message d'erreur de règle de validation</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Validation rule text</Name>
+    <LocalName>Texte de règle de validation</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Value table</Name>
+    <LocalName>Table de valeurs</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Value table code</Name>
+    <LocalName>Code de la table de valeurs</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Verify that each data connection is only attached to one data connection group.</Name>
+    <LocalName>Vérifie que chaque connexion aux données n'est attachée qu'à un seul groupe de connexions aux données.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Verify that the bound procedures are from the primary databases.</Name>
+    <LocalName>Vérifie que les procédures liées proviennent des bases de données principales.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Verify that the bound tables are from the primary databases.</Name>
+    <LocalName>Vérifie que les tables liées proviennent des bases de données principales.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Verify the bound procedures are from the primary databases.</Name>
+    <LocalName>Vérifie que les procédures liées proviennent de bases de données principales.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Verify the bound tables are from the primary databases.</Name>
+    <LocalName>Vérifie que les tables liées proviennent de bases de données principales.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Version attribute</Name>
+    <LocalName>Attribut de version</LocalName>
+  </Translation>
+  <Translation>
+    <Name>View structure</Name>
+    <LocalName>Affichage de structure</LocalName>
+  </Translation>
+  <Translation>
+    <Name>View type</Name>
+    <LocalName>Type de vue</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Web method type</Name>
+    <LocalName>Type de méthode Web</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Welcome to the Excel Import Wizard. This wizard guides you\nthrough importing tables of objects defined in an Excel spreadsheet.\nTo get started, select an Excel file to import.</Name>
+    <LocalName>Bienvenue dans l'Assistant Importation depuis Excel. Cet Assistant vous aide\nà importer des tables d'objets définies dans une feuille de calcul Excel.\nPour commencer, sélectionnez un fichier Excel à importer.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>What would be generated</Name>
+    <LocalName>Ce qui serait généré</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Where clause</Name>
+    <LocalName>Clause where</LocalName>
+  </Translation>
+  <Translation>
+    <Name>XML Generation</Name>
+    <LocalName>Génération XML</LocalName>
+  </Translation>
+  <Translation>
+    <Name>XML generation mode</Name>
+    <LocalName>Mode de génération XML</LocalName>
+  </Translation>
+  <Translation>
+    <Name>by selecting new types in the Target data type column.</Name>
+    <LocalName>en sélectionnant de nouveaux types dans la colonne Type de données cible.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>caption</Name>
+    <LocalName>Libellé</LocalName>
+  </Translation>
+  <Translation>
+    <Name>delete</Name>
+    <LocalName>DELETE</LocalName>
+  </Translation>
+  <Translation>
+    <Name>dsi_compile_max_cmds should not be less than 100</Name>
+    <LocalName>dsi_compile_max_cmds ne doit pas être inférieur à 100</LocalName>
+  </Translation>
+  <Translation>
+    <Name>function string</Name>
+    <LocalName>chaîne de fonction</LocalName>
+  </Translation>
+  <Translation>
+    <Name>insert select</Name>
+    <LocalName>INSERT SELECT</LocalName>
+  </Translation>
+  <Translation>
+    <Name>label</Name>
+    <LocalName>Libellé</LocalName>
+  </Translation>
+  <Translation>
+    <Name>of table</Name>
+    <LocalName>de la table</LocalName>
+  </Translation>
+  <Translation>
+    <Name>on</Name>
+    <LocalName>le</LocalName>
+  </Translation>
+  <Translation>
+    <Name>select into</Name>
+    <LocalName>SELECT INTO</LocalName>
+  </Translation>
+  <Translation>
+    <Name>tModel URL</Name>
+    <LocalName>URL tModel</LocalName>
+  </Translation>
+  <Translation>
+    <Name>tModel key</Name>
+    <LocalName>Clé tModel</LocalName>
+  </Translation>
+  <Translation>
+    <Name>tModel name</Name>
+    <LocalName>Nom tModel</LocalName>
+  </Translation>
+  <Translation>
+    <Name>to</Name>
+    <LocalName>avec</LocalName>
+  </Translation>
+  <Translation>
+    <Name>update</Name>
+    <LocalName>UPDATE</LocalName>
+  </Translation>
+  <Translation>
+    <Name>with DSI_suspended</Name>
+    <LocalName>Paramètre with DSI_suspended</LocalName>
+  </Translation>
+</Translations>

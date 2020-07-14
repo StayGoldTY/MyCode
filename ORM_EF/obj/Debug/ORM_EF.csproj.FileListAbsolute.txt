@@ -1,0 +1,13 @@
+E:\学习不止\ORM_EF\bin\Debug\ORM_EF.exe.config
+E:\学习不止\ORM_EF\bin\Debug\ORM_EF.exe
+E:\学习不止\ORM_EF\bin\Debug\ORM_EF.pdb
+E:\学习不止\ORM_EF\bin\Debug\EntityFramework.dll
+E:\学习不止\ORM_EF\bin\Debug\EntityFramework.SqlServer.dll
+E:\学习不止\ORM_EF\bin\Debug\EntityFramework.xml
+E:\学习不止\ORM_EF\bin\Debug\EntityFramework.SqlServer.xml
+E:\学习不止\ORM_EF\bin\Debug\zh-Hans\EntityFramework.resources.dll
+E:\学习不止\ORM_EF\obj\Debug\ORM_EF.csprojAssemblyReference.cache
+E:\学习不止\ORM_EF\obj\Debug\ORM_EF.csproj.CoreCompileInputs.cache
+E:\学习不止\ORM_EF\obj\Debug\ORM_EF.csproj.CopyComplete
+E:\学习不止\ORM_EF\obj\Debug\ORM_EF.exe
+E:\学习不止\ORM_EF\obj\Debug\ORM_EF.pdb

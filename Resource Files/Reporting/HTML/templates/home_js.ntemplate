@@ -1,0 +1,9 @@
+﻿.// Copyright (c) 2012 SAP SE or an SAP affiliate company.
+.// Author:  Gabriel Kevorkian
+.// @scope(Sybase.Modeling.Reporting.Html.Runtime.Generation.HtmlGenerationVisitor)
+%(JsonContentStart)
+.if (%(CustomHomePageJson))
+%(CustomHomePageJson)
+.else
+.endif
+%(JsonContentEnd)

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configurations>
+  <ConfigurationPoint Id="Sybase.Modeling.M3al.Emf.ModelTypeDeclaration">
+    <ModelTypeDeclaration>
+      <AssemblyPath>org.eclipse.bpmn2.dll</AssemblyPath>
+      <PackageDeclaration uri="http://www.omg.org/spec/BPMN/20100524/MODEL" class="org.eclipse.bpmn2.Bpmn2Package" />
+      <ResourceFactories>
+        <ResourceFactoryDeclaration extension=".bpmn2" class="org.eclipse.bpmn2.util.Bpmn2ResourceFactoryImpl" />
+        <ResourceFactoryDeclaration extension=".bpmn2xmi" class="org.eclipse.bpmn2.util.Bpmn2XMIResourceFactoryImpl" />
+      </ResourceFactories>
+    </ModelTypeDeclaration>
+	<ModelTypeDeclaration>
+      <AssemblyPath>org.eclipse.bpmn2.dll</AssemblyPath>
+      <PackageDeclaration uri="http://www.omg.org/spec/BPMN/20100524/DI" class="org.eclipse.bpmn2.di.BpmnDiPackage" name="bpmn2_di" />
+      <ResourceFactories>
+        <ResourceFactoryDeclaration extension=".bpmn2" class="org.eclipse.bpmn2.di.util.BpmnDiResourceFactoryImpl" />
+      </ResourceFactories>
+    </ModelTypeDeclaration>
+	<ModelTypeDeclaration>
+      <AssemblyPath>org.eclipse.bpmn2.dll</AssemblyPath>
+      <PackageDeclaration uri="http://www.omg.org/spec/DD/20100524/DI" class="org.eclipse.dd.di.DiPackage" />
+      <ResourceFactories>
+        <ResourceFactoryDeclaration extension=".bpmn2" class="org.eclipse.dd.di.util.DiResourceFactoryImpl" />
+      </ResourceFactories>
+    </ModelTypeDeclaration>
+	<ModelTypeDeclaration>
+      <AssemblyPath>org.eclipse.bpmn2.dll</AssemblyPath>
+      <PackageDeclaration uri="http://www.omg.org/spec/DD/20100524/DC" class="org.eclipse.dd.dc.DcPackage" />
+      <ResourceFactories>
+        <ResourceFactoryDeclaration extension=".bpmn2" class="org.eclipse.dd.dc.util.DcResourceFactoryImpl" />
+      </ResourceFactories>
+    </ModelTypeDeclaration>
+  </ConfigurationPoint>
+</Configurations>

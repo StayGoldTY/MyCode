@@ -1,0 +1,30 @@
+﻿.// Copyright (c) 2012 SAP SE or an SAP affiliate company.
+.// Author:  Gabriel Kevorkian
+.// @scope(Sybase.Modeling.Reporting.Html.Runtime.Generation.HtmlGenerationVisitor)
+\<!DOCTYPE html>
+<html<.if (%(IsRTL))> dir=rtl<.endif>>
+  <head>
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="styles/site.css" />
+    <link rel="stylesheet" href="styles/report.css" />
+.if (%(CustomCssFileName))
+    <link rel="stylesheet" href="styles/%(CustomCssFileName)" />
+.endif
+    <link rel="stylesheet" href="library/sybase.modeling.reporting.html.css" />
+    <script type="text/javascript" src="library/jquery-1.8.0.min.js" ></script>
+    <script type="text/javascript" src="library/sybase.modeling.reporting.data.js"></script>
+    <script type="text/javascript" src="library/sybase.modeling.reporting.html.js"></script>
+.if (%(HasSeenCharts))
+    <script type="text/javascript" src="library/viz/d3.v2.js"></script>
+    <script type="text/javascript" src="library/viz/json2.js"></script>
+    <script type="text/javascript" src="library/viz/sap.viz.js"></script>
+.endif
+    <script type="text/javascript">
+      $(function(){ $("div[class=dynamic]").jreport(); })
+    </script>
+  </head>
+  <body>
+      <div id="body" class="dynamic"></div>
+  </body>
+</html>

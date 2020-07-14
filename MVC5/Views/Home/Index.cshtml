@@ -1,0 +1,60 @@
+﻿<div class="row">
+    <input id="Get1" type="button" value="buttonGet" />
+    <input id="btnGet1" type="button" value="button" />
+    <input id="btnPost1" type="button" value="buttonpost" />
+    <input id="btnPut1" type="button" value="buttonput" />
+    <input id="btnDelete1" type="button" value="buttonpost" />
+</div>
+<script src="~/Scripts/jquery-3.5.1.js"></script>
+<script>
+    $(function () {
+        $("#Get1").on("click", function () {//单个参数 指向接口，参数匹配的，大小写不区分
+            $.ajax({
+                url: "/api/users/'Superman'/v2",
+                type: "get",
+                success: function (data) { alert(data); console.log(data); },
+                datatype: "json"
+            });
+        });
+
+             ////get请求 参数拼装到url  Get最长是1024 参数不要太多
+            $("#btnGet1").on("click", function () {//单个参数 指向接口，参数匹配的，大小写不区分
+                $.ajax({
+                    url: "/api/users/GetuserByName",
+                    type: "get", data: { "userName": "Superman" },
+                    success: function (data) { alert(data); console.log(data); },
+                    datatype: "json"
+                });
+            });
+
+        $("#btnPost1").on("click", function () {//单个参数 指向接口，参数匹配的，大小写不区分
+            $.ajax({
+                url: "/api/users/1",
+                type: "POST",
+                data: { "UserID": 4, "UserName": "test", "UserEmail": "Parry@cnblogs.com" },
+                success: function (data) { alert(JSON.stringify(data)); }
+            });
+
+        });
+
+
+        $("#btnPut1").on("click", function () {//单个参数 指向接口，参数匹配的，大小写不区分
+            $.ajax({
+                url: "/api/users/2",
+                type: "PUT",
+                data: { "UserID": 4, "UserName": "test", "UserEmailPUT": "Parry@cnblogs.com" },
+                success: function (data) { alert(JSON.stringify(data)); }
+            });
+
+        });
+
+        $("#btnDelete1").on("click", function () {//单个参数 指向接口，参数匹配的，大小写不区分
+            $.ajax({
+                url: "/api/users/1",
+                type: "DELETE",
+                success: function (data) { alert(JSON.stringify(data)); }
+            });
+
+        });
+    });
+</script>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Module Id="Sybase.Modeling.NMap.Pmd">
+  <AssemblyName>Sybase.Modeling.NMap.Pmd, Version=1.6.5.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+  <RelativePath>Sybase.Modeling.NMap.Pmd.dll</RelativePath>
+  <Extensions>
+    <ExtensionPoint Id="Sybase.Modeling.NMap.Runtime.DomainAdapter">
+      <DomainAdapter Class="Sybase.Modeling.NMap.Pmd.DomainAdapter">
+        <Code>pd</Code>
+        <IsConst>False</IsConst>
+      </DomainAdapter>
+    </ExtensionPoint>
+  </Extensions>
+  <Configurations />
+</Module>

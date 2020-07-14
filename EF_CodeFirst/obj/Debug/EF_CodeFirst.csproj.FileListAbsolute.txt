@@ -1,0 +1,12 @@
+E:\学习不止\EF_CodeFirst\bin\Debug\EF_CodeFirst.exe.config
+E:\学习不止\EF_CodeFirst\bin\Debug\EF_CodeFirst.exe
+E:\学习不止\EF_CodeFirst\bin\Debug\EF_CodeFirst.pdb
+E:\学习不止\EF_CodeFirst\bin\Debug\EntityFramework.dll
+E:\学习不止\EF_CodeFirst\bin\Debug\EntityFramework.SqlServer.dll
+E:\学习不止\EF_CodeFirst\bin\Debug\EntityFramework.xml
+E:\学习不止\EF_CodeFirst\bin\Debug\EntityFramework.SqlServer.xml
+E:\学习不止\EF_CodeFirst\obj\Debug\EF_CodeFirst.csprojAssemblyReference.cache
+E:\学习不止\EF_CodeFirst\obj\Debug\EF_CodeFirst.csproj.CoreCompileInputs.cache
+E:\学习不止\EF_CodeFirst\obj\Debug\EF_CodeFirst.csproj.CopyComplete
+E:\学习不止\EF_CodeFirst\obj\Debug\EF_CodeFirst.exe
+E:\学习不止\EF_CodeFirst\obj\Debug\EF_CodeFirst.pdb

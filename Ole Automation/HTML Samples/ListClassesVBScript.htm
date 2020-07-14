@@ -1,0 +1,190 @@
+<html xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+
+<script language="VBScript" Runat="Client">
+'
+' This VB Script shows how to display the properties of the first five classes defined in the active OOM model and
+' subpackages in the output window of PowerDesigner.
+' It also shows how to convert RTF description into ASCII text.
+'
+Option Explicit
+
+' Define the PdOOM constants
+' For other constants, see the VBScriptConstants.vbs file
+const PdOOM_Model                                   = 403775584      ' Object-Oriented Model
+const PdOOM_Class                                   = 403775587      ' Class
+const PdOOM_Attribute                               = 403775589      ' Attribute
+const PdOOM_Operation                               = 403775590      ' Operation
+
+Sub ListClasses()
+
+    On Error Resume Next
+
+    ' PowerDesigner server connection (it must not be reset until client is over)
+    Dim PD
+
+    ' Get Application object
+    Set PD = CreateObject("PowerDesigner.Application.16.5")
+
+    If Not PD Is Nothing Then
+       ' Get the current active model
+       Dim model
+       Set model = PD.ActiveModel
+       If model is Nothing Then
+          MsgBox "There is no active model in PowerDesigner."
+       Elseif (Not model.IsKindOf(PdOOM_Model)) Then
+          MsgBox "The current model '" + model.Name + "' is not an OOM."
+       Else
+          ' Display number of classes
+          PD.Output "The model '" + model.Name + "' contains " + CStr(model.Classes.Count) + " classe(s)."
+          PD.Output ""
+
+          ' Display OOM properties
+          ShowProperties PD, model
+
+          MsgBox "The OOM model '" + model.name + "' properties has been successfully displayed in the PowerDesigner output window."
+       End If
+
+       ' Clean Up
+       Set PD = Nothing
+
+    Else
+       MsgBox "Cannot create PowerDesigner Application object.  Please verify that PowerDesigner is installed properly."
+    End If
+
+End Sub
+
+' Show properties of classes
+Sub ShowProperties(PD, package)
+   ' Show classes of the current model/package
+   Dim cls
+   Dim noClass
+   noClass = 1
+   ' For each class
+   For Each cls In package.Classes
+      ShowClass PD, cls, noClass
+      noClass = noClass + 1
+      If noClass >= 5 Then
+         Exit For
+      End If
+   Next
+
+   ' Show classes in the sub-packages
+   Dim subpackage
+   For Each subpackage In package.Packages
+      ShowProperties PD, subpackage
+   Next
+
+End Sub
+
+' Show class properties
+Sub ShowClass(PD, cls, noClass)
+   If IsObject(cls) Then
+      ' Show properties
+      PD.Output "================================"
+      PD.Output "Class " + CStr(noClass) + ":"
+      PD.Output "================================"
+      PD.Output "ObjectID: " + cls.ObjectID
+      PD.Output "Name: " + cls.Name
+      PD.Output "Code: " + cls.Code
+      If IsObject(cls.parent) Then
+         PD.Output "Parent: " + cls.parent.Name
+      Else
+         PD.Output "Parent: " + "<None>"
+      End If
+      PD.Output "DisplayName: " + cls.DisplayName
+      PD.Output "ObjectType: " + cls.ObjectType
+      PD.Output "CreationDate: " + CStr(cls.CreationDate)
+      PD.Output "Creator: " + cls.Creator
+      PD.Output "ModificationDate: " + CStr(cls.ModificationDate)
+      PD.Output "Modifier: " + cls.Modifier
+      PD.Output "Comment: " + cls.Comment
+      PD.Output "Description: " + PD.Rtf2Ascii(cls.Description)
+      PD.Output ""
+
+      ' Show attributes
+      ShowAttributes PD, cls
+
+      ' Show operations
+      ShowOperations PD, cls
+
+   Else
+      MsgBox "It is not an object!"
+   End If
+End Sub
+
+' Show class attributes
+Sub ShowAttributes(PD, cls)
+   Dim attr
+   Dim noAttr
+   noAttr = 1
+   If IsObject(cls) Then
+      For Each attr In cls.Attributes
+         PD.Output "   Attribute " + CStr(noAttr) + ":"
+         PD.Output "   --------------------------------"
+         PD.Output "   Name: " + attr.Name
+         PD.Output "   Code: " + attr.Code
+         If IsObject(attr.parent) Then
+            PD.Output "   Parent: " + attr.parent.Name
+         Else
+            PD.Output "   Parent: " + "<None>"
+         End If
+         PD.Output "   DateType: " + attr.DataType
+         PD.Output "   Persistent: " + CStr(attr.Persistent)
+         PD.Output "   PersistentDataType: " + attr.PersistentDataType
+         PD.Output "   PersistentLength: " + CStr(attr.PersistentLength)
+         PD.Output "   Comment: " + attr.Comment
+         PD.Output "   Description: " + PD.Rtf2Ascii(attr.Description)
+         PD.Output ""
+         noAttr = noAttr + 1
+      Next
+   End If
+End Sub
+
+' Show class operations
+Sub ShowOperations(PD, cls)
+   Dim oper
+   Dim noOper
+   noOper = 1
+   If IsObject(cls) Then
+      For Each oper In cls.Operations
+         PD.Output "   Operation " + CStr(noOper) + ":"
+         PD.Output "   --------------------------------"
+         PD.Output "   Name: " + oper.Name
+         PD.Output "   Code: " + oper.Code
+         If IsObject(oper.parent) Then
+            PD.Output "   Parent: " + oper.parent.Name
+         Else
+            PD.Output "   Parent: " + "<None>"
+         End If
+         PD.Output "   Visibility: " + oper.Visibility
+         PD.Output "   RetunType: " + oper.ReturnType
+         PD.Output "   Signature: " + oper.Signature
+         PD.Output "   Body: " + oper.body
+         PD.Output "   Comment: " + oper.Comment
+         PD.Output "   Description: " + PD.Rtf2Ascii(oper.Description)
+         PD.Output ""
+         noOper = noOper + 1
+      Next
+   End If
+End Sub
+</script>
+
+</head>
+
+<body bgcolor="#ccffff">
+
+<h1>PowerDesigner OLE Automation Using VB Script in a HTML Page</h1>
+
+<p>This page uses a <b>VB Script</b> function and the <b>OLE automation</b> feature of <b>PowerDesigner</b>
+to display the properties of the first five classes defined in the active OOM model and subpackages in the output window of PowerDesigner.</p>
+
+<p>Click on this button to show the properties in PowerDesigner output window:</p>
+
+<form method="Get" enctype="application/x-www-form-urlencoded">
+<input type="SUBMIT" value="Show Properties" id=showProp onclick="ListClasses()">
+</form>
+
+</body>
+
+</html>

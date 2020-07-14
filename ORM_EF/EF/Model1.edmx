@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="TYDBModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2012" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="TYDBModelStoreContainer">
+    <EntitySet Name="DS_TCategory" EntityType="TYDBModel.Store.DS_TCategory" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ModelFIrsts" EntityType="TYDBModel.Store.ModelFIrsts" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ModelFirstTwoes" EntityType="TYDBModel.Store.ModelFirstTwoes" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="ModelFIrstModelFirstTwo" Association="TYDBModel.Store.ModelFIrstModelFirstTwo">
+      <End Role="ModelFIrst" EntitySet="ModelFIrsts" />
+      <End Role="ModelFirstTwo" EntitySet="ModelFirstTwoes" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="DS_TCategory">
+    <Key>
+      <PropertyRef Name="CategoryID" />
+    </Key>
+    <Property Name="CategoryID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CategoryName" Type="varchar" Nullable="false" MaxLength="20" />
+    <Property Name="QCount" Type="int" Nullable="true" />
+    <Property Name="Show1" Type="int" Nullable="true" />
+    <Property Name="Description" Type="varchar" Nullable="true" MaxLength="500" />
+  </EntityType>
+  <EntityType Name="ModelFIrsts">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" Nullable="true" MaxLength="32" />
+    <Property Name="Time1" Type="time" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ModelFirstTwoes">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ModelFIrstId" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="ModelFIrstModelFirstTwo">
+    <End Role="ModelFIrst" Type="TYDBModel.Store.ModelFIrsts" Multiplicity="1" />
+    <End Role="ModelFirstTwo" Type="TYDBModel.Store.ModelFirstTwoes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ModelFIrst">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ModelFirstTwo">
+        <PropertyRef Name="ModelFIrstId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="TYDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="DS_TCategory">
+          <Key>
+            <PropertyRef Name="CategoryID" />
+          </Key>
+          <Property Name="CategoryID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CategoryName" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="QCount" Type="Int32" />
+          <Property Name="Show1" Type="Int32" />
+          <Property Name="Description" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityContainer Name="TYDBEntities2" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="DS_TCategory" EntityType="Self.DS_TCategory" />
+          <EntitySet Name="ModelFIrsts" EntityType="TYDBModel.ModelFIrst" />
+          <EntitySet Name="ModelFirstTwoes" EntityType="TYDBModel.ModelFirstTwo" />
+          <AssociationSet Name="ModelFIrstModelFirstTwo" Association="TYDBModel.ModelFIrstModelFirstTwo">
+            <End Role="ModelFIrst" EntitySet="ModelFIrsts" />
+            <End Role="ModelFirstTwo" EntitySet="ModelFirstTwoes" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="ModelFIrst">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" Nullable="true" MaxLength="32" />
+          <Property Name="Time1" Type="Time" Nullable="false" />
+          <NavigationProperty Name="ModelFirstTwoes" Relationship="TYDBModel.ModelFIrstModelFirstTwo" FromRole="ModelFIrst" ToRole="ModelFirstTwo" />
+        </EntityType>
+        <EntityType Name="ModelFirstTwo">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <NavigationProperty Name="ModelFIrst" Relationship="TYDBModel.ModelFIrstModelFirstTwo" FromRole="ModelFirstTwo" ToRole="ModelFIrst" />
+          <Property Name="ModelFIrstId" Type="Int32" Nullable="false" />
+        </EntityType>
+        <Association Name="ModelFIrstModelFirstTwo">
+          <End Type="TYDBModel.ModelFIrst" Role="ModelFIrst" Multiplicity="1" />
+          <End Type="TYDBModel.ModelFirstTwo" Role="ModelFirstTwo" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ModelFIrst">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="ModelFirstTwo">
+              <PropertyRef Name="ModelFIrstId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+    <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="TYDBModelStoreContainer" CdmEntityContainer="TYDBEntities2">
+    <EntitySetMapping Name="DS_TCategory">
+      <EntityTypeMapping TypeName="IsTypeOf(TYDBModel.DS_TCategory)">
+        <MappingFragment StoreEntitySet="DS_TCategory">
+          <ScalarProperty Name="CategoryID" ColumnName="CategoryID" />
+          <ScalarProperty Name="CategoryName" ColumnName="CategoryName" />
+          <ScalarProperty Name="QCount" ColumnName="QCount" />
+          <ScalarProperty Name="Show1" ColumnName="Show1" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ModelFIrsts">
+      <EntityTypeMapping TypeName="IsTypeOf(TYDBModel.ModelFIrst)">
+        <MappingFragment StoreEntitySet="ModelFIrsts">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Time1" ColumnName="Time1" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ModelFirstTwoes">
+      <EntityTypeMapping TypeName="IsTypeOf(TYDBModel.ModelFirstTwo)">
+        <MappingFragment StoreEntitySet="ModelFirstTwoes">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ModelFIrstId" ColumnName="ModelFIrstId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping></edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="False" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="无" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

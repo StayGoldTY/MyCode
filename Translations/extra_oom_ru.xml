@@ -1,0 +1,1055 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Translations lang="ru" extended="yes">
+  <Translation>
+    <Name>%Object1.Name%</Name>
+    <LocalName>%Object1.Name%</LocalName>
+  </Translation>
+  <Translation>
+    <Name>%Object2.Name%</Name>
+    <LocalName>%Object2.Name%</LocalName>
+  </Translation>
+  <Translation>
+    <Name>&lt;&lt;Enum&gt;&gt; Initial value of  Enum Literal  cannot be string</Name>
+    <LocalName>&lt;&lt;Enum&gt;&gt; Начальное значение литерала перечисления не может быть строкой</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ASP</Name>
+    <LocalName>ASP</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ASP file</Name>
+    <LocalName>Файл ASP</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Abstract enum</Name>
+    <LocalName>Абстрактное перечисление</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Access</Name>
+    <LocalName>Доступ</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Access type</Name>
+    <LocalName>Тип доступа</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Accesses</Name>
+    <LocalName>Доступы</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Agent</Name>
+    <LocalName>Агент</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Agent L</Name>
+    <LocalName>Агент L</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Agent to storage</Name>
+    <LocalName>Агент хранилища</LocalName>
+  </Translation>
+  <Translation>
+    <Name>AgentL</Name>
+    <LocalName>AgentL</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Agents</Name>
+    <LocalName>Агенты</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Alias name</Name>
+    <LocalName>Псевдоним</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Annotation</Name>
+    <LocalName>Аннотация</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Application icon</Name>
+    <LocalName>Значок приложения</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Array size</Name>
+    <LocalName>Размер массива</LocalName>
+  </Translation>
+  <Translation>
+    <Name>As New</Name>
+    <LocalName>Как новый</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Assembly name</Name>
+    <LocalName>Имя узла</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Assembly version</Name>
+    <LocalName>Версия узла</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Assembly.dll</Name>
+    <LocalName>Assembly.dll</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Associated with Annotation class</Name>
+    <LocalName>Связано с классом Annotation</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Associated with EDataType class</Name>
+    <LocalName>Связано с классом EDataType</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Associated with Enum class</Name>
+    <LocalName>Связано с классом Enum</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Base Initializer</Name>
+    <LocalName>Базовый инициализатор</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Base Integral Type</Name>
+    <LocalName>Базовый интегральный тип</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Base package name</Name>
+    <LocalName>Имя базового пакета</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Base package name prefix</Name>
+    <LocalName>Префикс имени базового пакета</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Bean class</Name>
+    <LocalName>Класс Bean</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Bidirectional Communication Channel</Name>
+    <LocalName>Канал двусторонней связи</LocalName>
+  </Translation>
+  <Translation>
+    <Name>C# keyword</Name>
+    <LocalName>Ключевое слово C#</LocalName>
+  </Translation>
+  <Translation>
+    <Name>CLS compliant</Name>
+    <LocalName>Соответствует CLS</LocalName>
+  </Translation>
+  <Translation>
+    <Name>CLSCompliant</Name>
+    <LocalName>CLSCompliant</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Changeability</Name>
+    <LocalName>Изменяемость</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Character set</Name>
+    <LocalName>Набор символов</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Check C# keyword</Name>
+    <LocalName>Проверить ключевое слово C#</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Check PowerBuilder keyword</Name>
+    <LocalName>Проверить ключевое слово PowerBuilder</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Check initial value for override attributes</Name>
+    <LocalName>Проверить начальное значение для переопределения атрибутов</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Class Diagram:</Name>
+    <LocalName>Диаграмма классов:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Class is not under a package</Name>
+    <LocalName>Класс отсутствует в пакете</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Comment:</Name>
+    <LocalName>Комментарий:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Common Feature Area</Name>
+    <LocalName>Область общих функций</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Common Feature Areas</Name>
+    <LocalName>Области общих функций</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Communication Channel</Name>
+    <LocalName>Канал связи</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Communication Channels</Name>
+    <LocalName>Каналы связи</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Communication data type</Name>
+    <LocalName>Тип данных связи</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Communication protocol</Name>
+    <LocalName>Протокол связи</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Communication type</Name>
+    <LocalName>Тип связи</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Company</Name>
+    <LocalName>Компания</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Compare</Name>
+    <LocalName>Сравнить</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Compilation Unit</Name>
+    <LocalName>Единица компиляции</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Composite human agent</Name>
+    <LocalName>Композитный пользовательский агент</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Composite id is not supported in EMF 2.3.x</Name>
+    <LocalName>Композитный ид. не поддерживается в EMF 2.3.x</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Configuration</Name>
+    <LocalName>Конфигурация</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Constructor</Name>
+    <LocalName>Конструктор</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Container type:</Name>
+    <LocalName>Тип контейнера:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Conversion operator signature</Name>
+    <LocalName>Подпись оператора преобразования</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Conversion operators should be both public and static.</Name>
+    <LocalName>Операторы преобразования должны быть общедоступными и статическими.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Copyright</Name>
+    <LocalName>Авторские права</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Culture</Name>
+    <LocalName>Язык и региональные параметры</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Custom attributes</Name>
+    <LocalName>Пользовательские атрибуты</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data type cannot be a class with Annotation stereotype</Name>
+    <LocalName>Тип данных не может быть классом со стереотипом &lt;&lt;Annotation&gt;&gt;</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Declare roles</Name>
+    <LocalName>Объявить роли</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default</Name>
+    <LocalName>По умолчанию</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default HTML page layout</Name>
+    <LocalName>Макет страницы HTML по умолчанию</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default alias</Name>
+    <LocalName>Псевдоним по умолчанию</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default client script</Name>
+    <LocalName>Скрипт клиента по умолчанию</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default target schema</Name>
+    <LocalName>Целевая схема по умолчанию</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default template</Name>
+    <LocalName>Шаблон по умолчанию</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Delay sign</Name>
+    <LocalName>Знак задержки</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Delegate</Name>
+    <LocalName>Делегат</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Deny all roles</Name>
+    <LocalName>Отклонить все роли</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Description</Name>
+    <LocalName>Описание</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Display as double-arc</Name>
+    <LocalName>Отобразить как двойную дугу</LocalName>
+  </Translation>
+  <Translation>
+    <Name>EDataType</Name>
+    <LocalName>EDataType</LocalName>
+  </Translation>
+  <Translation>
+    <Name>EJB</Name>
+    <LocalName>EJB</LocalName>
+  </Translation>
+  <Translation>
+    <Name>EJB missing component</Name>
+    <LocalName>Отсутствует компонент EJB</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Enum</Name>
+    <LocalName>Enum</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Exclude class interceptors</Name>
+    <LocalName>Исключить перехватчики классов</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Exclude default interceptors</Name>
+    <LocalName>Исключить перехватчики по умолчанию</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Exclude superclass listeners</Name>
+    <LocalName>Исключить прослушиватели главного класса</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Explicit</Name>
+    <LocalName>Явно</LocalName>
+  </Translation>
+  <Translation>
+    <Name>External</Name>
+    <LocalName>Внешн.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>File version</Name>
+    <LocalName>Версия файла</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Final enum</Name>
+    <LocalName>Финальное перечисление</LocalName>
+  </Translation>
+  <Translation>
+    <Name>GUID</Name>
+    <LocalName>GUID</LocalName>
+  </Translation>
+  <Translation>
+    <Name>General</Name>
+    <LocalName>Общие</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Generate Visual Studio solution file</Name>
+    <LocalName>Сгенерировать файл решения Visual Studio</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Generate assembly information</Name>
+    <LocalName>Сгенерировать сведения узла</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Generate project file</Name>
+    <LocalName>Сгенерировать файл проекта</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Handles</Name>
+    <LocalName>Номера</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Has generalization link with Annotation class</Name>
+    <LocalName>Имеет отношение генерализации с классом Annotation</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Has generalization link with EDataType class</Name>
+    <LocalName>Имеет отношение генерализации с классом EDataType</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Has generalization link with Enum class</Name>
+    <LocalName>Имеет отношение генерализации с классом Enum</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Human Agent</Name>
+    <LocalName>Пользовательский агент</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Human Agents</Name>
+    <LocalName>Пользовательские агенты</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Implementation class:</Name>
+    <LocalName>Класс реализации:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Imports</Name>
+    <LocalName>Импорты</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Included files</Name>
+    <LocalName>Включенные файлы</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Initial value</Name>
+    <LocalName>Начальное значение</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Initial value for override attributes</Name>
+    <LocalName>Начальное значение для переопределения атрибутов</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Initialize method</Name>
+    <LocalName>Инициализировать метод</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Initiating agent</Name>
+    <LocalName>Инициирующий агент</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Instance Class Name:</Name>
+    <LocalName>Имя класса инстанции:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Interceptor method</Name>
+    <LocalName>Метод перехватчика</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Interface inner classifiers</Name>
+    <LocalName>Внутренние классификаторы интерфейса</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid agent children</Name>
+    <LocalName>Недействительные нижестоящие объекты агента</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid variable argument</Name>
+    <LocalName>Недействительный переменный аргумент</LocalName>
+  </Translation>
+  <Translation>
+    <Name>JSP</Name>
+    <LocalName>JSP</LocalName>
+  </Translation>
+  <Translation>
+    <Name>JSP file</Name>
+    <LocalName>Файл JSP</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Javadoc</Name>
+    <LocalName>Javadoc</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Javadoc author</Name>
+    <LocalName>Javadoc author</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Javadoc deprecated</Name>
+    <LocalName>Javadoc deprecated</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Javadoc exception</Name>
+    <LocalName>Javadoc exception</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Javadoc misc</Name>
+    <LocalName>Javadoc misc</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Javadoc return</Name>
+    <LocalName>Javadoc return</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Javadoc see</Name>
+    <LocalName>Javadoc see</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Javadoc serial</Name>
+    <LocalName>Javadoc serial</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Javadoc serial data</Name>
+    <LocalName>Данные Javadoc serial</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Javadoc serial field</Name>
+    <LocalName>Поле Javadoc serial</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Javadoc since</Name>
+    <LocalName>Javadoc since</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Javadoc throws</Name>
+    <LocalName>Javadoc throws</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Javadoc version</Name>
+    <LocalName>Javadoc version</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Key container name</Name>
+    <LocalName>Имя контейнера ключа</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Key file</Name>
+    <LocalName>Файл ключа</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Key name</Name>
+    <LocalName>Имя ключа</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Library name</Name>
+    <LocalName>Имя библиотеки</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Local home interface</Name>
+    <LocalName>Локальный домашний интерфейс</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Local interface</Name>
+    <LocalName>Локальный интерфейс</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Make assembly COM-Visible</Name>
+    <LocalName>Сделать узел видимым для COM</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Mapped name</Name>
+    <LocalName>Присвоенное имя</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Migrated attribute:</Name>
+    <LocalName>Перенесенный атрибут:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing URI</Name>
+    <LocalName>Отсутствует URI</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing base package name</Name>
+    <LocalName>Отсутствует имя базового пакета</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing instance class name</Name>
+    <LocalName>Отсутствует имя класса инстанции</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing namespace URI in EMF 2.3.x</Name>
+    <LocalName>Отсутствует URI области имен в EMF 2.3.x</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing namespace prefix in EMF 2.3.x</Name>
+    <LocalName>Отсутствует префикс области имен в EMF 2.3.x</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Modifiers</Name>
+    <LocalName>Модификаторы</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Modify Access</Name>
+    <LocalName>Изменить доступ</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Multiple</Name>
+    <LocalName>Множественный</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Multiplicity</Name>
+    <LocalName>Множественность</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must override</Name>
+    <LocalName>Необходимо переопределить</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Name</Name>
+    <LocalName>Имя</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Namespace URI</Name>
+    <LocalName>URI области имен</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Namespace prefix</Name>
+    <LocalName>Префикс области имен</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Native</Name>
+    <LocalName>Native</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Navigable</Name>
+    <LocalName>Есть связь</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Option compare</Name>
+    <LocalName>Опция &quot;Сравнить&quot;</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Option explicit</Name>
+    <LocalName>Опция &quot;Явно&quot;</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Option strict</Name>
+    <LocalName>Опция &quot;Строго&quot;</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Ordered</Name>
+    <LocalName>Упорядочено</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Ordering</Name>
+    <LocalName>Последовательность</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Originator key file</Name>
+    <LocalName>Файл ключа инициатора</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Originator key mode</Name>
+    <LocalName>Режим ключа инициатора</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Output type</Name>
+    <LocalName>Тип вывода</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Overloadable operator signature</Name>
+    <LocalName>Подпись перегружаемого оператора</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Overloadable operators should be both public and static.</Name>
+    <LocalName>Перегружаемые операторы должны быть общедоступными и статическими.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Overridable</Name>
+    <LocalName>Переопределяемый</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Overrides</Name>
+    <LocalName>Переопределяет</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Permit all</Name>
+    <LocalName>Разрешить все</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Permit all roles</Name>
+    <LocalName>Разрешить все роли</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Persistent</Name>
+    <LocalName>Устойчивый</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Post-activate</Name>
+    <LocalName>После активации</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Post-construct</Name>
+    <LocalName>После создания</LocalName>
+  </Translation>
+  <Translation>
+    <Name>PowerBuilder keyword</Name>
+    <LocalName>Ключевое слово PowerBuilder</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Pre-destroy</Name>
+    <LocalName>Перед удалением</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Pre-passivate</Name>
+    <LocalName>Перед отключением</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Primary key class</Name>
+    <LocalName>Класс первичного ключа</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Product</Name>
+    <LocalName>Продукт</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Project GUID</Name>
+    <LocalName>GUID проекта</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Project file name</Name>
+    <LocalName>Имя файла проекта</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Property</Name>
+    <LocalName>Свойство</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Property parameters</Name>
+    <LocalName>Параметры свойства</LocalName>
+  </Translation>
+  <Translation>
+    <Name>References</Name>
+    <LocalName>Ссылки</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Remote home interface</Name>
+    <LocalName>Дистанционный домашний интерфейс</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Remote interface</Name>
+    <LocalName>Дистанционный интерфейс</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Remove method</Name>
+    <LocalName>Метод удаления</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Request/Response Communication Channel</Name>
+    <LocalName>Канал связи &quot;запрос/ответ&quot;</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Resolve proxies</Name>
+    <LocalName>Разрешить прокси</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Responding agent</Name>
+    <LocalName>Отвечающий агент</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Result type mapping</Name>
+    <LocalName>Сопоставление типов результатов</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Return data type cannot be a class with Annotation stereotype</Name>
+    <LocalName>Тип данных возврата не может быть классом со стереотипом &lt;&lt;Annotation&gt;&gt;</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Return type custom attributes</Name>
+    <LocalName>Пользовательские атрибуты типа возврата</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Role A</Name>
+    <LocalName>Роль A</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Role B</Name>
+    <LocalName>Роль B</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Role name</Name>
+    <LocalName>Имя роли</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Roles allowed</Name>
+    <LocalName>Разрешенные роли</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Root namespace</Name>
+    <LocalName>Корневая область имен</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Run-as</Name>
+    <LocalName>Run-as</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Servlet</Name>
+    <LocalName>Сервлет</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Servlet class</Name>
+    <LocalName>Класс сервлета</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Servlet type</Name>
+    <LocalName>Тип сервлета</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Settings</Name>
+    <LocalName>Параметры</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Shadowing</Name>
+    <LocalName>Затенение</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Shadows</Name>
+    <LocalName>Затеняет</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Show arcs</Name>
+    <LocalName>Показывать дуги</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Show arrows</Name>
+    <LocalName>Показывать стрелки</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Solution file name</Name>
+    <LocalName>Имя файла решения</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Solution filename</Name>
+    <LocalName>Имя файла решения</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Startup object</Name>
+    <LocalName>Объект запуска</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Static</Name>
+    <LocalName>Статический</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Storage</Name>
+    <LocalName>Хранилище</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Storage format type</Name>
+    <LocalName>Тип формата хранилища</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Storage type</Name>
+    <LocalName>Тип хранилища</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Storages</Name>
+    <LocalName>Хранилища</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Strict</Name>
+    <LocalName>Строго</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Strictfp</Name>
+    <LocalName>Strictfp</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Structure</Name>
+    <LocalName>Структура</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Structure constructor</Name>
+    <LocalName>Конструктор структуры</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Structure members visibility</Name>
+    <LocalName>Видимость элементов структуры</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Synchronized</Name>
+    <LocalName>Синхронизировано</LocalName>
+  </Translation>
+  <Translation>
+    <Name>This Initializer</Name>
+    <LocalName>Этот инициализатор</LocalName>
+  </Translation>
+  <Translation>
+    <Name>This check ensures that enum literal initial value type is integer.</Name>
+    <LocalName>Эта проверка гарантирует, что начальное значение литерала перечисления является целым числом.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>This check ensures that every AnnotationType class should have URI property defined.</Name>
+    <LocalName>Эта проверка гарантирует, что для каждого класса AnnotationType определено свойство URI.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>This check ensures that every EDatatype class should have instance class name property defined.</Name>
+    <LocalName>Эта проверка гарантирует, что для каждого класса EDatatype определено свойство имени класса инстанции.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>This check ensures that every class should have a package.</Name>
+    <LocalName>Эта проверка гарантирует наличие пакета для каждого класса.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>This check ensures that structures do not have any attribute, operation and inner classifiers with a protected visibility.</Name>
+    <LocalName>Эта проверка гарантирует отсутствие у структур атрибутов, операций и внутренних классификаторов с защищенной видимостью.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>This check ensures that the structure does not have a non-shared constructor without parameters</Name>
+    <LocalName>Эта проверка гарантирует отсутствие у данной структуры необщего конструктора без параметров</LocalName>
+  </Translation>
+  <Translation>
+    <Name>This check ensures that the structure does not have any attribute, operation and inner classifiers with a protected visibility.</Name>
+    <LocalName>Эта проверка гарантирует отсутствие у данной структуры атрибутов, операций и внутренних классификаторов с защищенной видимостью.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Timeout method</Name>
+    <LocalName>Метод тайм-аута</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Title</Name>
+    <LocalName>Название</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Trademark</Name>
+    <LocalName>Товарный знак</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Transaction Attribute Type</Name>
+    <LocalName>Тип атрибута транзакции</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Transaction attribute type</Name>
+    <LocalName>Тип атрибута транзакции</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Transaction management</Name>
+    <LocalName>Управление транзакциями</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Transaction type</Name>
+    <LocalName>Тип транзакции</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Transaction:</Name>
+    <LocalName>Транзакция:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Type</Name>
+    <LocalName>Тип</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Type Character</Name>
+    <LocalName>Символ</LocalName>
+  </Translation>
+  <Translation>
+    <Name>URI</Name>
+    <LocalName>URI</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Unauthorized parent</Name>
+    <LocalName>Неавторизованный вышестоящий объект</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Unidirectional Access</Name>
+    <LocalName>Односторонний доступ</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Unidirectional Communication Channel</Name>
+    <LocalName>Канал односторонней связи</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Unique</Name>
+    <LocalName>Уникальный</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Unsettable</Name>
+    <LocalName>Сбрасываемый</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Use parent namespace on root package</Name>
+    <LocalName>Использовать вышестоящую область имен для корневого пакета</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Variable argument parameter</Name>
+    <LocalName>Параметр переменного аргумента</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Version</Name>
+    <LocalName>Версия</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Visibility</Name>
+    <LocalName>Видимость</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Volatile</Name>
+    <LocalName>Изменяемые</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Web Service</Name>
+    <LocalName>Веб-сервис</LocalName>
+  </Translation>
+  <Translation>
+    <Name>abstract</Name>
+    <LocalName>abstract</LocalName>
+  </Translation>
+  <Translation>
+    <Name>const</Name>
+    <LocalName>const</LocalName>
+  </Translation>
+  <Translation>
+    <Name>extern</Name>
+    <LocalName>extern</LocalName>
+  </Translation>
+  <Translation>
+    <Name>f_function</Name>
+    <LocalName>f_function</LocalName>
+  </Translation>
+  <Translation>
+    <Name>new</Name>
+    <LocalName>new</LocalName>
+  </Translation>
+  <Translation>
+    <Name>override</Name>
+    <LocalName>override</LocalName>
+  </Translation>
+  <Translation>
+    <Name>p_proxy</Name>
+    <LocalName>p_proxy</LocalName>
+  </Translation>
+  <Translation>
+    <Name>readonly</Name>
+    <LocalName>readonly</LocalName>
+  </Translation>
+  <Translation>
+    <Name>roleAContainer</Name>
+    <LocalName>roleAContainer</LocalName>
+  </Translation>
+  <Translation>
+    <Name>roleAImplementationClass</Name>
+    <LocalName>roleAImplementationClass</LocalName>
+  </Translation>
+  <Translation>
+    <Name>roleBContainer</Name>
+    <LocalName>roleBContainer</LocalName>
+  </Translation>
+  <Translation>
+    <Name>roleBImplementationClass</Name>
+    <LocalName>roleBImplementationClass</LocalName>
+  </Translation>
+  <Translation>
+    <Name>s_structure</Name>
+    <LocalName>s_structure</LocalName>
+  </Translation>
+  <Translation>
+    <Name>scope</Name>
+    <LocalName>scope</LocalName>
+  </Translation>
+  <Translation>
+    <Name>sealed</Name>
+    <LocalName>sealed</LocalName>
+  </Translation>
+  <Translation>
+    <Name>static</Name>
+    <LocalName>static</LocalName>
+  </Translation>
+  <Translation>
+    <Name>u_userobject</Name>
+    <LocalName>u_userobject</LocalName>
+  </Translation>
+  <Translation>
+    <Name>unsafe</Name>
+    <LocalName>unsafe</LocalName>
+  </Translation>
+  <Translation>
+    <Name>virtual</Name>
+    <LocalName>virtual</LocalName>
+  </Translation>
+  <Translation>
+    <Name>w_application</Name>
+    <LocalName>w_application</LocalName>
+  </Translation>
+  <Translation>
+    <Name>w_window</Name>
+    <LocalName>w_window</LocalName>
+  </Translation>
+</Translations>

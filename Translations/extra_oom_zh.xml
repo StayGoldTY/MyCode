@@ -1,0 +1,1055 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Translations lang="zh" extended="yes">
+  <Translation>
+    <Name>%Object1.Name%</Name>
+    <LocalName>%Object1.Name%</LocalName>
+  </Translation>
+  <Translation>
+    <Name>%Object2.Name%</Name>
+    <LocalName>%Object2.Name%</LocalName>
+  </Translation>
+  <Translation>
+    <Name>&lt;&lt;Enum&gt;&gt; Initial value of  Enum Literal  cannot be string</Name>
+    <LocalName>枚举文字的 &lt;&lt;Enum&gt;&gt; 初始值不能为字符串</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ASP</Name>
+    <LocalName>ASP</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ASP file</Name>
+    <LocalName>ASP 文件</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Abstract enum</Name>
+    <LocalName>抽象枚举</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Access</Name>
+    <LocalName>访问</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Access type</Name>
+    <LocalName>访问类型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Accesses</Name>
+    <LocalName>访问</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Agent</Name>
+    <LocalName>代理</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Agent L</Name>
+    <LocalName>代理 L</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Agent to storage</Name>
+    <LocalName>代理到存储</LocalName>
+  </Translation>
+  <Translation>
+    <Name>AgentL</Name>
+    <LocalName>代理 L</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Agents</Name>
+    <LocalName>代理</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Alias name</Name>
+    <LocalName>别名名称</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Annotation</Name>
+    <LocalName>注释</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Application icon</Name>
+    <LocalName>应用程序图标</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Array size</Name>
+    <LocalName>数组大小</LocalName>
+  </Translation>
+  <Translation>
+    <Name>As New</Name>
+    <LocalName>新建</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Assembly name</Name>
+    <LocalName>程序集名称</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Assembly version</Name>
+    <LocalName>程序集版本</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Assembly.dll</Name>
+    <LocalName>Assembly.dll</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Associated with Annotation class</Name>
+    <LocalName>与注释类关联</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Associated with EDataType class</Name>
+    <LocalName>与 EDataType 类关联</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Associated with Enum class</Name>
+    <LocalName>与枚举类关联</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Base Initializer</Name>
+    <LocalName>基础初始化程序</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Base Integral Type</Name>
+    <LocalName>基础整型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Base package name</Name>
+    <LocalName>基础包名称</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Base package name prefix</Name>
+    <LocalName>基础包名称前缀</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Bean class</Name>
+    <LocalName>Bean 类</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Bidirectional Communication Channel</Name>
+    <LocalName>双向通信通道</LocalName>
+  </Translation>
+  <Translation>
+    <Name>C# keyword</Name>
+    <LocalName>C# 关键字</LocalName>
+  </Translation>
+  <Translation>
+    <Name>CLS compliant</Name>
+    <LocalName>与 CLS 兼容</LocalName>
+  </Translation>
+  <Translation>
+    <Name>CLSCompliant</Name>
+    <LocalName>CLSCompliant</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Changeability</Name>
+    <LocalName>可更改性</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Character set</Name>
+    <LocalName>字符集</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Check C# keyword</Name>
+    <LocalName>检查 C# 关键字</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Check PowerBuilder keyword</Name>
+    <LocalName>检查 PowerBuilder 关键字</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Check initial value for override attributes</Name>
+    <LocalName>检查覆盖属性的初始值</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Class Diagram:</Name>
+    <LocalName>类图：</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Class is not under a package</Name>
+    <LocalName>类不在包下</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Comment:</Name>
+    <LocalName>注释：</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Common Feature Area</Name>
+    <LocalName>常用功能区域</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Common Feature Areas</Name>
+    <LocalName>常用功能区域</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Communication Channel</Name>
+    <LocalName>通信通道</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Communication Channels</Name>
+    <LocalName>通信通道</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Communication data type</Name>
+    <LocalName>通信数据类型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Communication protocol</Name>
+    <LocalName>通信协议</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Communication type</Name>
+    <LocalName>通信类型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Company</Name>
+    <LocalName>公司</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Compare</Name>
+    <LocalName>比较</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Compilation Unit</Name>
+    <LocalName>编译单元</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Composite human agent</Name>
+    <LocalName>复合人工代理</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Composite id is not supported in EMF 2.3.x</Name>
+    <LocalName>EMF 2.3.x 不支持复合 id</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Configuration</Name>
+    <LocalName>配置</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Constructor</Name>
+    <LocalName>构造方法</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Container type:</Name>
+    <LocalName>容器类型：</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Conversion operator signature</Name>
+    <LocalName>转换运算符签名</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Conversion operators should be both public and static.</Name>
+    <LocalName>转换运算符应为公共的和静态的。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Copyright</Name>
+    <LocalName>版权所有</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Culture</Name>
+    <LocalName>文化</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Custom attributes</Name>
+    <LocalName>自定义属性</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data type cannot be a class with Annotation stereotype</Name>
+    <LocalName>数据类型不能是具有 Annotation 构造型的类</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Declare roles</Name>
+    <LocalName>声明角色</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default</Name>
+    <LocalName>缺省值</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default HTML page layout</Name>
+    <LocalName>缺省 HTML 页面布局</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default alias</Name>
+    <LocalName>缺省别名</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default client script</Name>
+    <LocalName>缺省客户端脚本</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default target schema</Name>
+    <LocalName>缺省目标模式</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default template</Name>
+    <LocalName>缺省模板</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Delay sign</Name>
+    <LocalName>延迟签名</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Delegate</Name>
+    <LocalName>委派</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Deny all roles</Name>
+    <LocalName>拒绝所有角色</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Description</Name>
+    <LocalName>描述</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Display as double-arc</Name>
+    <LocalName>显示为双弧线</LocalName>
+  </Translation>
+  <Translation>
+    <Name>EDataType</Name>
+    <LocalName>EDataType</LocalName>
+  </Translation>
+  <Translation>
+    <Name>EJB</Name>
+    <LocalName>EJB</LocalName>
+  </Translation>
+  <Translation>
+    <Name>EJB missing component</Name>
+    <LocalName>EJB 缺少组件</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Enum</Name>
+    <LocalName>枚举</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Exclude class interceptors</Name>
+    <LocalName>排除类拦截器</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Exclude default interceptors</Name>
+    <LocalName>排除缺省拦截器</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Exclude superclass listeners</Name>
+    <LocalName>排除超类监听器</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Explicit</Name>
+    <LocalName>显式</LocalName>
+  </Translation>
+  <Translation>
+    <Name>External</Name>
+    <LocalName>外部</LocalName>
+  </Translation>
+  <Translation>
+    <Name>File version</Name>
+    <LocalName>文件版本</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Final enum</Name>
+    <LocalName>最终枚举</LocalName>
+  </Translation>
+  <Translation>
+    <Name>GUID</Name>
+    <LocalName>GUID</LocalName>
+  </Translation>
+  <Translation>
+    <Name>General</Name>
+    <LocalName>常规</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Generate Visual Studio solution file</Name>
+    <LocalName>生成 Visual Studio 解决方案文件</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Generate assembly information</Name>
+    <LocalName>生成程序集信息</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Generate project file</Name>
+    <LocalName>生成项目文件</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Handles</Name>
+    <LocalName>句柄</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Has generalization link with Annotation class</Name>
+    <LocalName>具有含注释类的一般化链接</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Has generalization link with EDataType class</Name>
+    <LocalName>具有含 EDataType 类的一般化链接</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Has generalization link with Enum class</Name>
+    <LocalName>具有含枚举类的一般化链接</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Human Agent</Name>
+    <LocalName>人工代理</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Human Agents</Name>
+    <LocalName>人工代理</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Implementation class:</Name>
+    <LocalName>实现类：</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Imports</Name>
+    <LocalName>导入</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Included files</Name>
+    <LocalName>包含的文件</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Initial value</Name>
+    <LocalName>初始值</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Initial value for override attributes</Name>
+    <LocalName>覆盖属性的初始值</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Initialize method</Name>
+    <LocalName>初始化方法</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Initiating agent</Name>
+    <LocalName>初始化代理</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Instance Class Name:</Name>
+    <LocalName>实例类名称：</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Interceptor method</Name>
+    <LocalName>拦截器方法</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Interface inner classifiers</Name>
+    <LocalName>接口内部分类器</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid agent children</Name>
+    <LocalName>代理子项无效</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid variable argument</Name>
+    <LocalName>变量参数无效</LocalName>
+  </Translation>
+  <Translation>
+    <Name>JSP</Name>
+    <LocalName>JSP</LocalName>
+  </Translation>
+  <Translation>
+    <Name>JSP file</Name>
+    <LocalName>JSP 文件</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Javadoc</Name>
+    <LocalName>Javadoc</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Javadoc author</Name>
+    <LocalName>Javadoc author</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Javadoc deprecated</Name>
+    <LocalName>Javadoc deprecated</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Javadoc exception</Name>
+    <LocalName>Javadoc exception</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Javadoc misc</Name>
+    <LocalName>Javadoc misc</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Javadoc return</Name>
+    <LocalName>Javadoc return</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Javadoc see</Name>
+    <LocalName>Javadoc see</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Javadoc serial</Name>
+    <LocalName>Javadoc serial</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Javadoc serial data</Name>
+    <LocalName>Javadoc serial data</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Javadoc serial field</Name>
+    <LocalName>Javadoc serial field</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Javadoc since</Name>
+    <LocalName>Javadoc since</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Javadoc throws</Name>
+    <LocalName>Javadoc throws</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Javadoc version</Name>
+    <LocalName>Javadoc version</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Key container name</Name>
+    <LocalName>键容器名称</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Key file</Name>
+    <LocalName>密钥文件</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Key name</Name>
+    <LocalName>键名称</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Library name</Name>
+    <LocalName>库名称</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Local home interface</Name>
+    <LocalName>本地主接口</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Local interface</Name>
+    <LocalName>本地接口</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Make assembly COM-Visible</Name>
+    <LocalName>使程序集 COM 可见</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Mapped name</Name>
+    <LocalName>映射名称</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Migrated attribute:</Name>
+    <LocalName>迁移属性：</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing URI</Name>
+    <LocalName>缺少 URI</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing base package name</Name>
+    <LocalName>缺少基础包名称</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing instance class name</Name>
+    <LocalName>缺少实例类名称</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing namespace URI in EMF 2.3.x</Name>
+    <LocalName>EMF 2.3.x 中缺少命名空间 URI</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing namespace prefix in EMF 2.3.x</Name>
+    <LocalName>EMF 2.3.x 中缺少命名空间前缀</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Modifiers</Name>
+    <LocalName>修饰符</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Modify Access</Name>
+    <LocalName>修改访问</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Multiple</Name>
+    <LocalName>多重</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Multiplicity</Name>
+    <LocalName>多重性</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must override</Name>
+    <LocalName>必须覆盖</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Name</Name>
+    <LocalName>名称</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Namespace URI</Name>
+    <LocalName>命名空间 URI</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Namespace prefix</Name>
+    <LocalName>命名空间前缀</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Native</Name>
+    <LocalName>本地</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Navigable</Name>
+    <LocalName>可导航</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Option compare</Name>
+    <LocalName>Option compare</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Option explicit</Name>
+    <LocalName>Option explicit</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Option strict</Name>
+    <LocalName>Option strict</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Ordered</Name>
+    <LocalName>已排序</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Ordering</Name>
+    <LocalName>排序</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Originator key file</Name>
+    <LocalName>发出方密钥文件</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Originator key mode</Name>
+    <LocalName>发出方键模式</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Output type</Name>
+    <LocalName>输出类型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Overloadable operator signature</Name>
+    <LocalName>可重载运算符签名</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Overloadable operators should be both public and static.</Name>
+    <LocalName>可重载运算符应为公共的和静态的。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Overridable</Name>
+    <LocalName>可覆盖</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Overrides</Name>
+    <LocalName>覆盖</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Permit all</Name>
+    <LocalName>全部允许</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Permit all roles</Name>
+    <LocalName>允许全部角色</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Persistent</Name>
+    <LocalName>持久</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Post-activate</Name>
+    <LocalName>后激活</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Post-construct</Name>
+    <LocalName>后构建</LocalName>
+  </Translation>
+  <Translation>
+    <Name>PowerBuilder keyword</Name>
+    <LocalName>PowerBuilder 关键字</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Pre-destroy</Name>
+    <LocalName>预销毁</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Pre-passivate</Name>
+    <LocalName>预钝化</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Primary key class</Name>
+    <LocalName>主键类</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Product</Name>
+    <LocalName>产品</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Project GUID</Name>
+    <LocalName>项目 GUID</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Project file name</Name>
+    <LocalName>项目文件名称</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Property</Name>
+    <LocalName>属性</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Property parameters</Name>
+    <LocalName>属性参数</LocalName>
+  </Translation>
+  <Translation>
+    <Name>References</Name>
+    <LocalName>引用</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Remote home interface</Name>
+    <LocalName>远程主接口</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Remote interface</Name>
+    <LocalName>远程接口</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Remove method</Name>
+    <LocalName>删除方法</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Request/Response Communication Channel</Name>
+    <LocalName>请求/响应通信通道</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Resolve proxies</Name>
+    <LocalName>解析代理</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Responding agent</Name>
+    <LocalName>响应代理</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Result type mapping</Name>
+    <LocalName>结果类型映射</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Return data type cannot be a class with Annotation stereotype</Name>
+    <LocalName>返回数据类型不能是具有 Annotation 构造型的类</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Return type custom attributes</Name>
+    <LocalName>返回类型自定义属性</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Role A</Name>
+    <LocalName>角色 A</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Role B</Name>
+    <LocalName>角色 B</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Role name</Name>
+    <LocalName>角色名称</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Roles allowed</Name>
+    <LocalName>允许的角色</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Root namespace</Name>
+    <LocalName>根命名空间</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Run-as</Name>
+    <LocalName>Run-as</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Servlet</Name>
+    <LocalName>Servlet</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Servlet class</Name>
+    <LocalName>Servlet 类</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Servlet type</Name>
+    <LocalName>Servlet 类型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Settings</Name>
+    <LocalName>设置</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Shadowing</Name>
+    <LocalName>阴影</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Shadows</Name>
+    <LocalName>影子</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Show arcs</Name>
+    <LocalName>显示弧线</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Show arrows</Name>
+    <LocalName>显示箭头</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Solution file name</Name>
+    <LocalName>解决方案文件名</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Solution filename</Name>
+    <LocalName>解决方案文件名</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Startup object</Name>
+    <LocalName>启动对象</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Static</Name>
+    <LocalName>静态</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Storage</Name>
+    <LocalName>存储</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Storage format type</Name>
+    <LocalName>存储格式类型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Storage type</Name>
+    <LocalName>存储类型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Storages</Name>
+    <LocalName>存储</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Strict</Name>
+    <LocalName>严格</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Strictfp</Name>
+    <LocalName>Strictfp</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Structure</Name>
+    <LocalName>结构</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Structure constructor</Name>
+    <LocalName>结构构造方法</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Structure members visibility</Name>
+    <LocalName>结构成员可见性</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Synchronized</Name>
+    <LocalName>已同步</LocalName>
+  </Translation>
+  <Translation>
+    <Name>This Initializer</Name>
+    <LocalName>此初始化程序</LocalName>
+  </Translation>
+  <Translation>
+    <Name>This check ensures that enum literal initial value type is integer.</Name>
+    <LocalName>此检查确保枚举文字的初始值类型为整数。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>This check ensures that every AnnotationType class should have URI property defined.</Name>
+    <LocalName>此检查确保每个 AnnotationType 类都已定义 URI 属性。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>This check ensures that every EDatatype class should have instance class name property defined.</Name>
+    <LocalName>此检查确保每个 EDatatype 类都已定义实例类名称属性。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>This check ensures that every class should have a package.</Name>
+    <LocalName>此检查确保每个类都有包。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>This check ensures that structures do not have any attribute, operation and inner classifiers with a protected visibility.</Name>
+    <LocalName>此检查确保结构不含任何具有受保护可见性的属性、操作和内部分类器。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>This check ensures that the structure does not have a non-shared constructor without parameters</Name>
+    <LocalName>此检查确保结构不含无参数的非共享构造方法</LocalName>
+  </Translation>
+  <Translation>
+    <Name>This check ensures that the structure does not have any attribute, operation and inner classifiers with a protected visibility.</Name>
+    <LocalName>此检查确保结构不含任何具有受保护可见性的属性、操作和内部分类器。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Timeout method</Name>
+    <LocalName>超时方法</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Title</Name>
+    <LocalName>标题</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Trademark</Name>
+    <LocalName>商标</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Transaction Attribute Type</Name>
+    <LocalName>事务属性类型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Transaction attribute type</Name>
+    <LocalName>事务属性类型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Transaction management</Name>
+    <LocalName>事务管理</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Transaction type</Name>
+    <LocalName>事务类型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Transaction:</Name>
+    <LocalName>事务：</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Type</Name>
+    <LocalName>类型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Type Character</Name>
+    <LocalName>类型字符</LocalName>
+  </Translation>
+  <Translation>
+    <Name>URI</Name>
+    <LocalName>URI</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Unauthorized parent</Name>
+    <LocalName>未授权的父项</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Unidirectional Access</Name>
+    <LocalName>单向访问</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Unidirectional Communication Channel</Name>
+    <LocalName>单向通信通道</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Unique</Name>
+    <LocalName>唯一</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Unsettable</Name>
+    <LocalName>不可取消设置</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Use parent namespace on root package</Name>
+    <LocalName>使用根包上的父命名空间</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Variable argument parameter</Name>
+    <LocalName>变量参数</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Version</Name>
+    <LocalName>版本</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Visibility</Name>
+    <LocalName>可见性</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Volatile</Name>
+    <LocalName>易变</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Web Service</Name>
+    <LocalName>Web 服务</LocalName>
+  </Translation>
+  <Translation>
+    <Name>abstract</Name>
+    <LocalName>抽象</LocalName>
+  </Translation>
+  <Translation>
+    <Name>const</Name>
+    <LocalName>const</LocalName>
+  </Translation>
+  <Translation>
+    <Name>extern</Name>
+    <LocalName>外部</LocalName>
+  </Translation>
+  <Translation>
+    <Name>f_function</Name>
+    <LocalName>f_function</LocalName>
+  </Translation>
+  <Translation>
+    <Name>new</Name>
+    <LocalName>新</LocalName>
+  </Translation>
+  <Translation>
+    <Name>override</Name>
+    <LocalName>覆盖</LocalName>
+  </Translation>
+  <Translation>
+    <Name>p_proxy</Name>
+    <LocalName>p_proxy</LocalName>
+  </Translation>
+  <Translation>
+    <Name>readonly</Name>
+    <LocalName>只读</LocalName>
+  </Translation>
+  <Translation>
+    <Name>roleAContainer</Name>
+    <LocalName>roleAContainer</LocalName>
+  </Translation>
+  <Translation>
+    <Name>roleAImplementationClass</Name>
+    <LocalName>roleAImplementationClass</LocalName>
+  </Translation>
+  <Translation>
+    <Name>roleBContainer</Name>
+    <LocalName>roleBContainer</LocalName>
+  </Translation>
+  <Translation>
+    <Name>roleBImplementationClass</Name>
+    <LocalName>roleBImplementationClass</LocalName>
+  </Translation>
+  <Translation>
+    <Name>s_structure</Name>
+    <LocalName>s_structure</LocalName>
+  </Translation>
+  <Translation>
+    <Name>scope</Name>
+    <LocalName>范围</LocalName>
+  </Translation>
+  <Translation>
+    <Name>sealed</Name>
+    <LocalName>已封装</LocalName>
+  </Translation>
+  <Translation>
+    <Name>static</Name>
+    <LocalName>静态</LocalName>
+  </Translation>
+  <Translation>
+    <Name>u_userobject</Name>
+    <LocalName>u_userobject</LocalName>
+  </Translation>
+  <Translation>
+    <Name>unsafe</Name>
+    <LocalName>不安全</LocalName>
+  </Translation>
+  <Translation>
+    <Name>virtual</Name>
+    <LocalName>虚拟</LocalName>
+  </Translation>
+  <Translation>
+    <Name>w_application</Name>
+    <LocalName>w_application</LocalName>
+  </Translation>
+  <Translation>
+    <Name>w_window</Name>
+    <LocalName>w_window</LocalName>
+  </Translation>
+</Translations>

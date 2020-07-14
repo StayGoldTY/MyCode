@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Module Id="Sybase.Modeling.Language.Templating">
+  <AssemblyName>Sybase.Modeling.Language.Templating, Version=1.6.5.0, Culture=neutral, PublicKeyToken=65afb196693a8d18</AssemblyName>
+  <RelativePath>Sybase.Modeling.Language.Templating.dll</RelativePath>
+  <Extensions>
+    <ExtensionPoint Id="Sybase.Core.Platform.ExtensionPoint">
+      <ExtensionPoint Class="Sybase.Modeling.Language.Templating.Runtime.ExtensionPoints.Operation" />
+      <ExtensionPoint Class="Sybase.Modeling.Language.Templating.Runtime.ExtensionPoints.Directive" />
+    </ExtensionPoint>
+    <ExtensionPoint Id="Sybase.Modeling.Data.Expressions.ExtensionPoints.ExpressionLanguageProvider">
+      <ExpressionLanguageProvider Class="Sybase.Modeling.Language.Templating.LanguageProvider">
+        <LanguageName>NTemplate</LanguageName>
+      </ExpressionLanguageProvider>
+    </ExtensionPoint>
+    <ExtensionPoint Id="Sybase.Modeling.Language.Templating.Runtime.ExtensionPoints.Operation">
+      <Operation Class="Sybase.Modeling.Language.Templating.Runtime.Operations.AnyOperator">
+        <Name>any</Name>
+      </Operation>
+      <Operation Class="Sybase.Modeling.Language.Templating.Runtime.Operations.FirstOperator">
+        <Name>first</Name>
+      </Operation>
+      <Operation Class="Sybase.Modeling.Language.Templating.Runtime.Operations.OfTypeOperator">
+        <Name>oftype</Name>
+      </Operation>
+      <Operation Class="Sybase.Modeling.Language.Templating.Runtime.Operations.OrderByOperator">
+        <Name>orderBy</Name>
+      </Operation>
+      <Operation Class="Sybase.Modeling.Language.Templating.Runtime.Operations.SelectOperator">
+        <Name>select</Name>
+      </Operation>
+      <Operation Class="Sybase.Modeling.Language.Templating.Runtime.Operations.SelectManyOperator">
+        <Name>selectMany</Name>
+      </Operation>
+      <Operation Class="Sybase.Modeling.Language.Templating.Runtime.Operations.ElementAtOperator">
+        <Name>elementAt</Name>
+      </Operation>
+      <Operation Class="Sybase.Modeling.Language.Templating.Runtime.Operations.CountOperator">
+        <Name>count</Name>
+      </Operation>
+      <Operation Class="Sybase.Modeling.Language.Templating.Runtime.Operations.WhereOperator">
+        <Name>where</Name>
+      </Operation>
+      <Operation Class="Sybase.Modeling.Language.Templating.Runtime.Operations.ToUpperFormatter">
+        <Name>upper</Name>
+      </Operation>
+      <Operation Class="Sybase.Modeling.Language.Templating.Runtime.Operations.ToLowerFormatter">
+        <Name>lower</Name>
+      </Operation>
+    </ExtensionPoint>
+    <ExtensionPoint Id="Sybase.Modeling.Language.Templating.Runtime.ExtensionPoints.Directive">
+      <Directive Class="Sybase.Modeling.Language.Templating.Runtime.Directives.NextDirective">
+        <Name>next</Name>
+        <Matches>Sybase.Modeling.Language.Templating.Runtime.Directives.ForeachDirective, Sybase.Modeling.Language.Templating, Version=1.6.5.0, Culture=neutral, PublicKeyToken=65afb196693a8d18</Matches>
+      </Directive>
+      <Directive Class="Sybase.Modeling.Language.Templating.Runtime.Directives.ForeachDirective">
+        <Name>foreach</Name>
+      </Directive>
+      <Directive Class="Sybase.Modeling.Language.Templating.Runtime.Directives.ElseIfDirective">
+        <Matches>Sybase.Modeling.Language.Templating.Runtime.Directives.IfDirective, Sybase.Modeling.Language.Templating, Version=1.6.5.0, Culture=neutral, PublicKeyToken=65afb196693a8d18</Matches>
+        <Name>elseif</Name>
+      </Directive>
+      <Directive Class="Sybase.Modeling.Language.Templating.Runtime.Directives.ElseDirective">
+        <Matches>Sybase.Modeling.Language.Templating.Runtime.Directives.IfDirective, Sybase.Modeling.Language.Templating, Version=1.6.5.0, Culture=neutral, PublicKeyToken=65afb196693a8d18</Matches>
+        <Name>else</Name>
+      </Directive>
+      <Directive Class="Sybase.Modeling.Language.Templating.Runtime.Directives.EndIfDirective">
+        <Matches>Sybase.Modeling.Language.Templating.Runtime.Directives.IfDirective, Sybase.Modeling.Language.Templating, Version=1.6.5.0, Culture=neutral, PublicKeyToken=65afb196693a8d18</Matches>
+        <Name>endif</Name>
+      </Directive>
+      <Directive Class="Sybase.Modeling.Language.Templating.Runtime.Directives.IfDirective">
+        <Name>if</Name>
+      </Directive>
+    </ExtensionPoint>
+  </Extensions>
+  <Configurations />
+</Module>

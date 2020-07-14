@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Module Id="Sybase.Modeling.Pd.Oom.Xmi">
+  <AssemblyName>Sybase.Modeling.Pd.Oom.Xmi, Version=16.5.5.4734, Culture=neutral, PublicKeyToken=null</AssemblyName>
+  <RelativePath>Sybase.Modeling.Pd.Oom.Xmi.dll</RelativePath>
+  <Extensions>
+    <ExtensionPoint Id="Sybase.Modeling.Transformation.ExtensionPoints.PDExportAdapter">
+      <PDExportAdapter Class="Sybase.Modeling.Oom.Xmi.PDToXmiTransformer">
+        <Code>xmi</Code>
+      </PDExportAdapter>
+    </ExtensionPoint>
+    <ExtensionPoint Id="Sybase.Modeling.Transformation.ExtensionPoints.PDImportAdapter">
+      <PDImportAdapter Class="Sybase.Modeling.Oom.Xmi.XmiToPdTransformer">
+        <Code>xmi</Code>
+      </PDImportAdapter>
+    </ExtensionPoint>
+  </Extensions>
+  <Configurations />
+</Module>

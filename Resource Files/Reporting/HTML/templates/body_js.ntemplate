@@ -1,0 +1,74 @@
+﻿.// Copyright (c) 2012-2013 SAP SE or an SAP affiliate company.
+.// Author:  Gabriel Kevorkian
+.// @scope(Sybase.Modeling.Reporting.Html.Runtime.Generation.HtmlGenerationVisitor)
+%(JsonContentStart)
+{DockPanel:{
+    orientation: "Vertical",
+    panes:
+    [
+        {
+            size: %(HeaderHeight),
+            content: {ContentPresenter:{id:"header", borderThickness:[0,0,0,1], border:"#e0e0e0"}}
+        },
+        {
+            content:
+
+            {SplitPanel:{
+                ratio: %(ContentBrowserPaneRatio),
+                panes:
+                [
+                    {
+                        minSize: 0,
+                        overflow: "auto",
+                        classes: ["browser-pane"],
+                        content: {ContentBrowser:{roots: ["%(CurrentContent.ContentId)"]}}
+                    },
+                    {
+                        minSize: 300,
+                        content:
+
+                        {DockPanel:{
+                            orientation: "Vertical",
+                            panes:
+                            [
+                                {
+                                    size: 25,
+                                    content:
+
+                                    {DockPanel:{
+                                        orientation: "Horizontal",
+                                        borderThickness: [0,0,0,1],
+                                        border: "#ccc",
+                                        panes:
+                                        [
+                                            {
+                                                overflow: "auto",
+                                                content: {ContentBreadCrumbs:{padding: [4,8,0,0]}}
+                                            },
+                                            {
+                                                size: 140,
+                                                content: {NavigationBar:{padding: [0,4,4,0], pageCount: 1}}
+                                            }
+                                        ]
+                                    }}
+                                },
+                                {
+                                    overflow: "auto",
+                                    content: {ContentHolder:{padding: [5,2,5,0]}}
+                                }
+                            ],
+                            classes: ["content-pane"]
+                        }}
+                    }
+                ]
+            }}
+        },
+
+        {
+            size: %(FooterHeight),
+            content: {ContentPresenter:{id:"footer", borderThickness:[0,1,0,0], border:"#e0e0e0"}}
+        }
+
+    ]
+}}
+%(JsonContentEnd)

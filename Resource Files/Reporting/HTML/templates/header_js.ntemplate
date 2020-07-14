@@ -1,0 +1,28 @@
+﻿.// Copyright (c) 2012-2013 SAP SE or an SAP affiliate company.
+.// Author:  Gabriel Kevorkian
+.// @scope(Sybase.Modeling.Reporting.Html.Runtime.Generation.HtmlGenerationVisitor)
+%(JsonContentStart)
+.if (%(CustomHeaderJson))
+%(CustomHeaderJson)
+.else
+{DockPanel:{
+    width:"100%",
+    orientation: "Horizontal",
+    panes:
+    [
+        null,
+        {
+            size: 400,
+            content:
+            {StackPanel:{
+                alignment: "right",
+                orientation: "Horizontal",
+                panes: [
+                    {ImageView:{source:"resources/company.logo.jpg"}}
+                ]
+            }}
+        }
+    ]
+}}
+.endif
+%(JsonContentEnd)

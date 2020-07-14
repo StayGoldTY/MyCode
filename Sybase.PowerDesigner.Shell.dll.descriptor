@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Module Id="Sybase.PowerDesigner.Shell">
+  <AssemblyName>Sybase.PowerDesigner.Shell, Version=16.5.5.4734, Culture=neutral, PublicKeyToken=null</AssemblyName>
+  <RelativePath>Sybase.PowerDesigner.Shell.dll</RelativePath>
+  <Extensions>
+    <ExtensionPoint Id="Sybase.Core.Platform.ExtensionPoints.PlatformServiceProvider">
+      <PlatformServiceProvider Class="Sybase.PowerDesigner.Shell.ApplicationServiceProvider" />
+    </ExtensionPoint>
+    <ExtensionPoint Id="Sybase.Core.Platform.ExtensionPoints.CommandLineSwitch">
+      <CommandLineSwitch Class="Sybase.PowerDesigner.Shell.Commands.UnregisterSwitch">
+        <SwitchName>UnregServer</SwitchName>
+        <ShortAliases>
+          <string />
+        </ShortAliases>
+        <Help>unregister OLE server and type libraries.</Help>
+        <AllowMultiple>False</AllowMultiple>
+        <ExitAtEnd>False</ExitAtEnd>
+        <Hidden>False</Hidden>
+        <Mandatory>False</Mandatory>
+        <ParameterCount>0</ParameterCount>
+      </CommandLineSwitch>
+      <CommandLineSwitch Class="Sybase.PowerDesigner.Shell.Commands.RegisterSwitch">
+        <SwitchName>RegServer</SwitchName>
+        <ShortAliases>
+          <string />
+        </ShortAliases>
+        <Help>(re-)register OLE server and type libraries.</Help>
+        <Hidden>False</Hidden>
+        <ParameterCount>0</ParameterCount>
+        <Mandatory>False</Mandatory>
+        <AllowMultiple>False</AllowMultiple>
+        <ExitAtEnd>False</ExitAtEnd>
+      </CommandLineSwitch>
+      <CommandLineSwitch Class="Sybase.PowerDesigner.Shell.Commands.ExecuteSwitch">
+        <SwitchName>Execute</SwitchName>
+        <ShortAliases>
+          <string>X</string>
+        </ShortAliases>
+        <Help>Execute the VB script located in specified filename and exit.</Help>
+        <Hidden>False</Hidden>
+        <ShortAlias>X</ShortAlias>
+        <Syntax>&lt;filename&gt;</Syntax>
+        <ParameterCount>1</ParameterCount>
+        <Mandatory>False</Mandatory>
+        <AllowMultiple>False</AllowMultiple>
+        <ExitAtEnd>False</ExitAtEnd>
+      </CommandLineSwitch>
+      <CommandLineSwitch Class="Sybase.PowerDesigner.Shell.Commands.RunSwitch">
+        <SwitchName>RunScript</SwitchName>
+        <ShortAliases>
+          <string>R</string>
+        </ShortAliases>
+        <Help>Run the VB script located in specified filename and display the application window.</Help>
+        <Hidden>False</Hidden>
+        <ShortAlias>R</ShortAlias>
+        <Syntax>&lt;filename&gt;</Syntax>
+        <ParameterCount>1</ParameterCount>
+        <Mandatory>False</Mandatory>
+        <AllowMultiple>False</AllowMultiple>
+        <ExitAtEnd>False</ExitAtEnd>
+      </CommandLineSwitch>
+      <CommandLineSwitch Class="Sybase.PowerDesigner.Shell.Commands.WorkspaceSwitch">
+        <SwitchName>Workspace</SwitchName>
+        <ShortAliases>
+          <string>W</string>
+        </ShortAliases>
+        <Help>Load the specified workspace file as default application workspace.</Help>
+        <Hidden>False</Hidden>
+        <ShortAlias>W</ShortAlias>
+        <Syntax>&lt;filename&gt;</Syntax>
+        <ParameterCount>1</ParameterCount>
+        <Mandatory>False</Mandatory>
+        <AllowMultiple>False</AllowMultiple>
+        <ExitAtEnd>False</ExitAtEnd>
+      </CommandLineSwitch>
+      <CommandLineSwitch Class="Sybase.PowerDesigner.Shell.Commands.PostbuildSwitch">
+        <SwitchName>PostBuild</SwitchName>
+        <ShortAliases>
+          <string>P</string>
+        </ShortAliases>
+        <Help>Perform some internal post-build steps</Help>
+        <Hidden>True</Hidden>
+        <ShortAlias>P</ShortAlias>
+        <ParameterCount>0</ParameterCount>
+        <Mandatory>False</Mandatory>
+        <AllowMultiple>False</AllowMultiple>
+        <ExitAtEnd>False</ExitAtEnd>
+      </CommandLineSwitch>
+      <CommandLineSwitch Class="Sybase.PowerDesigner.Shell.Commands.VerboseSwitch">
+        <SwitchName>Verbose</SwitchName>
+        <ShortAliases>
+          <string>v</string>
+        </ShortAliases>
+        <Help>Display messages in the console</Help>
+        <Hidden>True</Hidden>
+        <ShortAlias>v</ShortAlias>
+        <ParameterCount>0</ParameterCount>
+        <Mandatory>False</Mandatory>
+        <AllowMultiple>False</AllowMultiple>
+        <ExitAtEnd>False</ExitAtEnd>
+      </CommandLineSwitch>
+      <CommandLineSwitch Class="Sybase.PowerDesigner.Shell.Commands.MinimizedSwitch">
+        <SwitchName>Minimized</SwitchName>
+        <ShortAliases />
+        <Help>The application is opened minimized in the status bar</Help>
+        <Hidden>True</Hidden>
+        <ParameterCount>0</ParameterCount>
+        <Mandatory>False</Mandatory>
+        <AllowMultiple>False</AllowMultiple>
+        <ExitAtEnd>False</ExitAtEnd>
+      </CommandLineSwitch>
+      <CommandLineSwitch Class="Sybase.PowerDesigner.Shell.Commands.AutomationSwitch">
+        <SwitchName>Automation</SwitchName>
+        <ShortAliases />
+        <Help>Activates the internal automation specific mode</Help>
+        <Hidden>True</Hidden>
+        <ParameterCount>0</ParameterCount>
+        <Mandatory>False</Mandatory>
+        <AllowMultiple>False</AllowMultiple>
+        <ExitAtEnd>False</ExitAtEnd>
+      </CommandLineSwitch>
+      <CommandLineSwitch Class="Sybase.PowerDesigner.Shell.Commands.EmbeddingSwitch">
+        <SwitchName>Embedding</SwitchName>
+        <ShortAliases />
+        <Help>The application is embedded in another one</Help>
+        <Hidden>True</Hidden>
+        <ParameterCount>0</ParameterCount>
+        <Mandatory>False</Mandatory>
+        <AllowMultiple>False</AllowMultiple>
+        <ExitAtEnd>False</ExitAtEnd>
+      </CommandLineSwitch>
+      <CommandLineSwitch Class="Sybase.PowerDesigner.Shell.Commands.NamedActionSwitch">
+        <SwitchName>Do:</SwitchName>
+        <ShortAliases />
+        <Help>Executes an internal predefined named action (Compare, Merge...)</Help>
+        <Hidden>True</Hidden>
+        <Syntax>&lt;named action&gt;</Syntax>
+        <ParameterCount>1</ParameterCount>
+        <Mandatory>False</Mandatory>
+        <AllowMultiple>False</AllowMultiple>
+        <ExitAtEnd>False</ExitAtEnd>
+      </CommandLineSwitch>
+      <CommandLineSwitch Class="Sybase.PowerDesigner.Shell.Commands.InActionParamSwitch">
+        <SwitchName>In:</SwitchName>
+        <ShortAliases />
+        <Help>Associated with a Do: switch, this one provides a first parameter to the action</Help>
+        <Hidden>True</Hidden>
+        <Syntax>&lt;action parameter&gt;</Syntax>
+        <ParameterCount>1</ParameterCount>
+        <Mandatory>False</Mandatory>
+        <AllowMultiple>False</AllowMultiple>
+        <ExitAtEnd>False</ExitAtEnd>
+      </CommandLineSwitch>
+      <CommandLineSwitch Class="Sybase.PowerDesigner.Shell.Commands.ToActionParamSwitch">
+        <SwitchName>To:</SwitchName>
+        <ShortAliases />
+        <Help>Associated with a Do: switch, this one provides a second parameter to the action</Help>
+        <Hidden>True</Hidden>
+        <Syntax>&lt;action parameter&gt;</Syntax>
+        <ParameterCount>1</ParameterCount>
+        <Mandatory>False</Mandatory>
+        <AllowMultiple>False</AllowMultiple>
+        <ExitAtEnd>False</ExitAtEnd>
+      </CommandLineSwitch>
+      <CommandLineSwitch Class="Sybase.PowerDesigner.Shell.Commands.WithActionParamSwitch">
+        <SwitchName>With:</SwitchName>
+        <ShortAliases />
+        <Help>Associated with a Do: switch, this one indicates the module (like OBJ) that implements the action</Help>
+        <Hidden>True</Hidden>
+        <Syntax>&lt;module&gt;</Syntax>
+        <ParameterCount>1</ParameterCount>
+        <Mandatory>False</Mandatory>
+        <AllowMultiple>False</AllowMultiple>
+        <ExitAtEnd>False</ExitAtEnd>
+      </CommandLineSwitch>
+      <CommandLineSwitch Class="Sybase.PowerDesigner.Shell.Commands.ViewerSwitch">
+        <SwitchName>Viewer</SwitchName>
+        <ShortAliases />
+        <Help>Enforce usage of viewer libraries</Help>
+        <Hidden>True</Hidden>
+        <ParameterCount>0</ParameterCount>
+        <Mandatory>False</Mandatory>
+        <AllowMultiple>False</AllowMultiple>
+        <ExitAtEnd>False</ExitAtEnd>
+      </CommandLineSwitch>
+    </ExtensionPoint>
+    <ExtensionPoint Id="Sybase.PowerDesigner.Shell.Plugin.ShellPluginAttribute">
+      <ShellPluginAttribute Class="Sybase.PowerDesigner.Shell.Contexts.CustomizationContextManager+ShellContextManagerPlugin">
+        <SupportsDelayedStart>False</SupportsDelayedStart>
+      </ShellPluginAttribute>
+      <ShellPluginAttribute Class="Sybase.PowerDesigner.Shell.ApplicationPlugin.ApplicationPlugin">
+        <SupportsDelayedStart>False</SupportsDelayedStart>
+      </ShellPluginAttribute>
+      <ShellPluginAttribute Class="Sybase.PowerDesigner.Shell.Contexts.ShellContextManager+ShellContextManagerPlugin">
+        <SupportsDelayedStart>False</SupportsDelayedStart>
+      </ShellPluginAttribute>
+    </ExtensionPoint>
+    <ExtensionPoint Id="Sybase.PowerDesigner.Shell.Plugin.ShellPluginResourceManagersAttribute">
+      <ShellPluginResourceManagersAttribute Class="Sybase.PowerDesigner.Shell.UI.PluginResources" />
+    </ExtensionPoint>
+    <ExtensionPoint Id="Sybase.PowerDesigner.Shell.Plugin.UI.ShellDockableViewAttribute">
+      <ShellDockableViewAttribute Class="Sybase.PowerDesigner.Shell.UI.ShellView.OutlineView">
+        <CommandName>View_Outline</CommandName>
+        <CanDockAsDocument>False</CanDockAsDocument>
+        <DockingSize>30</DockingSize>
+        <HiddenMode>False</HiddenMode>
+        <DockingAutoHideMode>False</DockingAutoHideMode>
+        <DockingIconResourceName>OutlineView</DockingIconResourceName>
+      </ShellDockableViewAttribute>
+      <ShellDockableViewAttribute Class="Sybase.PowerDesigner.Shell.UI.ShellView.PropertyView">
+        <DockingSize>30</DockingSize>
+        <DockingAutoHideMode>False</DockingAutoHideMode>
+        <DockingIconResourceName>PropertiesView</DockingIconResourceName>
+        <DockSubSide>Right</DockSubSide>
+        <HiddenMode>True</HiddenMode>
+        <CommandName>View_Property</CommandName>
+      </ShellDockableViewAttribute>
+      <ShellDockableViewAttribute Class="Sybase.PowerDesigner.Shell.UI.ToolBoxView">
+        <DockSide>Right</DockSide>
+        <DockingSize>30</DockingSize>
+        <DockingAutoHideMode>False</DockingAutoHideMode>
+        <DockingIconResourceName>ToolBoxView</DockingIconResourceName>
+        <CanDockAsDocument>False</CanDockAsDocument>
+        <HiddenMode>False</HiddenMode>
+        <CommandName>View_ToolBox</CommandName>
+      </ShellDockableViewAttribute>
+    </ExtensionPoint>
+  </Extensions>
+  <Configurations />
+</Module>

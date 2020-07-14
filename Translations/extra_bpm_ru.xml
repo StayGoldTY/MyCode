@@ -1,0 +1,2411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Translations lang="ru" extended="yes">
+  <Translation>
+    <Name>A fault must be caught by a single fault handler</Name>
+    <LocalName>Ошибка должна быть обнаружена одним обработчиком ошибок</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Abstract process</Name>
+    <LocalName>Абстрактный процесс</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Activities and intermediate events must not have more than one default outgoing flow.</Name>
+    <LocalName>Действия и промежуточные события должны иметь не более одного исходящего потока по умолчанию.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Ad-Hoc Sub-Process</Name>
+    <LocalName>Настраиваемый подпроцесс</LocalName>
+  </Translation>
+  <Translation>
+    <Name>AdHocSubProcess</Name>
+    <LocalName>AdHocSubProcess</LocalName>
+  </Translation>
+  <Translation>
+    <Name>All the message flows associated with a single conversation node must specify the same correlation key as the node.</Name>
+    <LocalName>Все потоки сообщений, связанные с одним узлом диалога, должны указывать в качестве узла один и тот же ключ корреляции.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Archive model</Name>
+    <LocalName>Архивная модель</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Archive model path</Name>
+    <LocalName>Путь к архивной модели</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Artifact:</Name>
+    <LocalName>Артефакт:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Automated Process</Name>
+    <LocalName>Автоматизированный процесс</LocalName>
+  </Translation>
+  <Translation>
+    <Name>AutomatedProcess</Name>
+    <LocalName>AutomatedProcess</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Available Data Objects</Name>
+    <LocalName>Доступные объекты данных</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Available Source Items</Name>
+    <LocalName>Доступные исходные элементы</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Available Target Items</Name>
+    <LocalName>Доступные целевые элементы</LocalName>
+  </Translation>
+  <Translation>
+    <Name>BPEL Static Analysis Fault Code: SA00005</Name>
+    <LocalName>Код ошибки статического анализа BPEL: SA00005</LocalName>
+  </Translation>
+  <Translation>
+    <Name>BPEL Static Analysis Fault Code: SA00006</Name>
+    <LocalName>Код ошибки статического анализа BPEL: SA00006</LocalName>
+  </Translation>
+  <Translation>
+    <Name>BPEL Static Analysis Fault Code: SA00015</Name>
+    <LocalName>Код ошибки статического анализа BPEL: SA00015</LocalName>
+  </Translation>
+  <Translation>
+    <Name>BPEL Static Analysis Fault Code: SA00016</Name>
+    <LocalName>Код ошибки статического анализа BPEL: SA00016</LocalName>
+  </Translation>
+  <Translation>
+    <Name>BPEL Static Analysis Fault Code: SA00035</Name>
+    <LocalName>Код ошибки статического анализа BPEL: SA00035</LocalName>
+  </Translation>
+  <Translation>
+    <Name>BPEL Static Analysis Fault Code: SA00036</Name>
+    <LocalName>Код ошибки статического анализа BPEL: SA00036</LocalName>
+  </Translation>
+  <Translation>
+    <Name>BPEL Static Analysis Fault Code: SA00037</Name>
+    <LocalName>Код ошибки статического анализа BPEL: SA00037</LocalName>
+  </Translation>
+  <Translation>
+    <Name>BPEL Static Analysis Fault Code: SA00047</Name>
+    <LocalName>Код ошибки статического анализа BPEL: SA00047</LocalName>
+  </Translation>
+  <Translation>
+    <Name>BPEL Static Analysis Fault Code: SA00053</Name>
+    <LocalName>Код ошибки статического анализа BPEL: SA00053</LocalName>
+  </Translation>
+  <Translation>
+    <Name>BPEL Static Analysis Fault Code: SA00076</Name>
+    <LocalName>Код ошибки статического анализа BPEL: SA00076</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Blueprint relevant</Name>
+    <LocalName>Релевантно для концептуального проекта</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Blueprint relevant value</Name>
+    <LocalName>Релевантное для концептуального проекта значение</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Boundary Events</Name>
+    <LocalName>Крайние события</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Business Process</Name>
+    <LocalName>Бизнес-процесс</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Business Processes</Name>
+    <LocalName>Бизнес-процессы</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Business Rule Task</Name>
+    <LocalName>Задача бизнес-правил</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Business Scenario</Name>
+    <LocalName>Бизнес-сценарий</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Business Scenarios</Name>
+    <LocalName>Бизнес-сценарии</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Business processes ID</Name>
+    <LocalName>Ид. бизнес-процессов</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Business scenarios ID</Name>
+    <LocalName>Ид. бизнес-сценариев</LocalName>
+  </Translation>
+  <Translation>
+    <Name>BusinessProcess</Name>
+    <LocalName>BusinessProcess</LocalName>
+  </Translation>
+  <Translation>
+    <Name>BusinessRuleTask</Name>
+    <LocalName>BusinessRuleTask</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Call Activities</Name>
+    <LocalName>Действия вызова</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Call Activity</Name>
+    <LocalName>Действие вызова</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Call activities must have an implementation type of Reuse process.</Name>
+    <LocalName>Действия вызова должны иметь тип реализации &quot;Повторно использовать процесс&quot;.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>CallActivity</Name>
+    <LocalName>CallActivity</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Callable objects</Name>
+    <LocalName>Вызываемые объекты</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Called model</Name>
+    <LocalName>Вызванная модель</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Called object</Name>
+    <LocalName>Вызванный объект</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Cancel</Name>
+    <LocalName>Отменить</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Cancel End Event</Name>
+    <LocalName>Конечное событие отмены</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Cancel Event Definition</Name>
+    <LocalName>Определение события отмены</LocalName>
+  </Translation>
+  <Translation>
+    <Name>CancelEnd</Name>
+    <LocalName>CancelEnd</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Cannot have outgoing flow</Name>
+    <LocalName>Наличие исходящего потока невозможно</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Capacity</Name>
+    <LocalName>Емкость</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Child flow balancing.</Name>
+    <LocalName>Балансировка подчиненных потоков.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Choreography Task</Name>
+    <LocalName>Задача хореографии</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Choreography task linked to inappropriate start or end events</Name>
+    <LocalName>Задача хореографии, связанная с неподходящим стартовым или конечным событием</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Choreography tasks can only be linked to start events of type Timer, Conditional, Signal, or Multiple and to end events of type Terminal.</Name>
+    <LocalName>Задачи хореографии могут быть связаны только со стартовыми событиями типа &quot;Таймер&quot;, &quot;Условное&quot;, &quot;Сигнал&quot; или &quot;Множественное&quot; и с конечными событиями типа &quot;Завершение&quot;.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Choreography tasks must not have more than one default outgoing flow.</Name>
+    <LocalName>Задачи хореографии должны иметь не более одного исходящего потока по умолчанию.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ChoreographyTask</Name>
+    <LocalName>ChoreographyTask</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Class</Name>
+    <LocalName>Класс</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Code</Name>
+    <LocalName>Код</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Collection</Name>
+    <LocalName>Выбор</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Comment:</Name>
+    <LocalName>Комментарий:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Compensate activity used out of event handler scope</Name>
+    <LocalName>Использованное действие компенсации вне области обработчика события</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Compensation</Name>
+    <LocalName>Компенсация</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Compensation End Event</Name>
+    <LocalName>Конечное событие компенсации</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Compensation Event Definition</Name>
+    <LocalName>Определение события компенсации</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Compensation Intermediate Throw Event</Name>
+    <LocalName>Промежуточное событие-результат компенсации</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Compensation Start Event</Name>
+    <LocalName>Стартовое событие компенсации</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Compensation activities must not have incoming sequence flows that are not of type Compensation.</Name>
+    <LocalName>Действия компенсации не должны иметь входящих потоков операций с типом, отличным от &quot;Компенсация&quot;.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Compensation activities must not have outgoing sequence flows.</Name>
+    <LocalName>Действия компенсации не должны иметь исходящих потоков операций.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>CompensationEnd</Name>
+    <LocalName>CompensationEnd</LocalName>
+  </Translation>
+  <Translation>
+    <Name>CompensationStart</Name>
+    <LocalName>CompensationStart</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Completion quantity</Name>
+    <LocalName>Количество выполнения</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Complex Gateway</Name>
+    <LocalName>Комплексный шлюз</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ComplexGateway</Name>
+    <LocalName>ComplexGateway</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Composite status \tDecomposed process\tAtomic task</Name>
+    <LocalName>Композитный статус \tРазложенный процесс\tРазделенная задача</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Condition</Name>
+    <LocalName>Условие</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Conditional</Name>
+    <LocalName>Условное</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Conditional Event Definition</Name>
+    <LocalName>Определение условного события</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Conditional Intermediate Catch Event</Name>
+    <LocalName>Условное промежуточное событие-инициатор</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Conditional Start Event</Name>
+    <LocalName>Условное стартовое событие</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ConditionalStart</Name>
+    <LocalName>ConditionalStart</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Conversation Link</Name>
+    <LocalName>Ссылка на диалог</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Conversation Node</Name>
+    <LocalName>Узел диалога</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ConversationLink</Name>
+    <LocalName>ConversationLink</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ConversationNode</Name>
+    <LocalName>ConversationNode</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Correlation Properties</Name>
+    <LocalName>Свойства корреляции</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Correlation Property</Name>
+    <LocalName>Свойство корреляции</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Correlation key</Name>
+    <LocalName>Ключ корреляции</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Correlation keys must not contain correlation properties that do not bear the stereotype Property.</Name>
+    <LocalName>Ключи корреляции не должны содержать свойства корреляции без стереотипа &lt;&lt;property&gt;&gt;.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Correlation property</Name>
+    <LocalName>Свойство корреляции</LocalName>
+  </Translation>
+  <Translation>
+    <Name>CorrelationProperty</Name>
+    <LocalName>CorrelationProperty</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Correlations</Name>
+    <LocalName>Корреляции</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Counter name</Name>
+    <LocalName>Имя счетчика</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Create instance</Name>
+    <LocalName>Создать инстанцию</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data</Name>
+    <LocalName>Данные</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data Association</Name>
+    <LocalName>Присвоение данных</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data Associations</Name>
+    <LocalName>Присвоения данных</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data Input</Name>
+    <LocalName>Ввод данных</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data Inputs</Name>
+    <LocalName>Ввод данных</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data Object</Name>
+    <LocalName>Объект данных</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data Object Reference</Name>
+    <LocalName>Ссылка на объект данных</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data Object References</Name>
+    <LocalName>Ссылки на объекты данных</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data Objects</Name>
+    <LocalName>Объекты данных</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data Output</Name>
+    <LocalName>Вывод данных</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data Outputs</Name>
+    <LocalName>Выводы данных</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data Store</Name>
+    <LocalName>Хранилище данных</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data Stores</Name>
+    <LocalName>Хранилища данных</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data associations with a transformation type of Input must specify an item-aware element (of type Data Input) from among those defined on their target activity, which will be transferred to the activity from the data.</Name>
+    <LocalName>Присвоения данных с типом трансформации &quot;Ввод&quot; должны указывать элемент с поддержкой элементов (типа &quot;Ввод данных&quot;) из числа определенных в целевом действии, который будет перенесен в действие из данных.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data associations with a transformation type of Output must specify an item-aware element (of type Data Output) from among those defined on their source activity, which will be transferred from the activity to the data.</Name>
+    <LocalName>Присвоения данных с типом трансформации &quot;Вывод&quot; должны указывать элемент с поддержкой элементов (типа &quot;Вывод данных&quot;) из числа определенных в исходном действии, который будет перенесен из действия в данные.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data object</Name>
+    <LocalName>Объект данных</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data object references are not permitted in tasks or events</Name>
+    <LocalName>Ссылки на объекты данных не разрешены в задачах или событиях</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data object references must reference valid data objects.</Name>
+    <LocalName>Ссылки на объекты данных должны указывать на действительные объекты данных.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data object references must specify the data object to which they are a reference.</Name>
+    <LocalName>Ссылки на объекты данных должны указывать объекты данных, на которые они ссылаются.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data objects are not permitted in tasks or events</Name>
+    <LocalName>Объекты данных не разрешены в задачах или событиях</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data schema target namespace</Name>
+    <LocalName>Целевая область имен схемы данных</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DataAssociation</Name>
+    <LocalName>DataAssociation</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DataInput</Name>
+    <LocalName>DataInput</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DataObject</Name>
+    <LocalName>DataObject</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DataObjectReference</Name>
+    <LocalName>DataObjectReference</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DataOutput</Name>
+    <LocalName>DataOutput</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DataStore</Name>
+    <LocalName>DataStore</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default Flow</Name>
+    <LocalName>Поток по умолчанию</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default diagram</Name>
+    <LocalName>Диаграмма по умолчанию</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default diagram:</Name>
+    <LocalName>Диаграмма по умолчанию:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default flow</Name>
+    <LocalName>Поток по умолчанию</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Definition namespace</Name>
+    <LocalName>Область имен определения</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Definition namespace prefix</Name>
+    <LocalName>Префикс области имен определения</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Definition target namespace</Name>
+    <LocalName>Целевая область имен определения</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Destination of flow must be a receive activity</Name>
+    <LocalName>Местом назначения потока должно быть действие получения</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Direction</Name>
+    <LocalName>Направление</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Document ID</Name>
+    <LocalName>Ид. документа</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Document Status</Name>
+    <LocalName>Статус документа</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Document Statuses</Name>
+    <LocalName>Статусы документов</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Document Type</Name>
+    <LocalName>Тип документа</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Document Types</Name>
+    <LocalName>Типы документов</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Document type</Name>
+    <LocalName>Тип документа</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Document type text</Name>
+    <LocalName>Текст типа документа</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DocumentStatus</Name>
+    <LocalName>DocumentStatus</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DocumentType</Name>
+    <LocalName>DocumentType</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Documentation</Name>
+    <LocalName>Документация</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Documentations</Name>
+    <LocalName>Документации</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Duration:</Name>
+    <LocalName>Продолжительность:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Each Pick activity must include at least one onMessage event</Name>
+    <LocalName>Каждое действие комплектации должно включать минимум одно событие onMessage</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Each activity or intermediate event must not have more than one default flow.</Name>
+    <LocalName>Каждое действие или промежуточное событие должно иметь не более одного потока по умолчанию.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Each choreography task must not have more than one default flow.</Name>
+    <LocalName>Каждая задача хореографии должна иметь не более одного потока по умолчанию.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Each gateway must not have more than one default flow.</Name>
+    <LocalName>Каждый шлюз должен иметь не более одного потока по умолчанию.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Enable instance compensation</Name>
+    <LocalName>Активировать компенсацию инстанции</LocalName>
+  </Translation>
+  <Translation>
+    <Name>End Event</Name>
+    <LocalName>Конечное событие</LocalName>
+  </Translation>
+  <Translation>
+    <Name>End Events</Name>
+    <LocalName>Конечные события</LocalName>
+  </Translation>
+  <Translation>
+    <Name>End events of type Cancel are not permitted at the top level or in event sub-processes. They are only permitted in transactions.</Name>
+    <LocalName>Конечные события с типом &quot;Отмена&quot; не разрешены на верхнем уровне или в подпроцессах событий. Они разрешены только в транзакциях.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>End point reference</Name>
+    <LocalName>Ссылка на конечную точку</LocalName>
+  </Translation>
+  <Translation>
+    <Name>EndEvent</Name>
+    <LocalName>EndEvent</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Error</Name>
+    <LocalName>Ошибка</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Error End Event</Name>
+    <LocalName>Конечное событие ошибки</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Error Event Definition</Name>
+    <LocalName>Определение события ошибки</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Error Start Event</Name>
+    <LocalName>Стартовое событие ошибки</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Error code</Name>
+    <LocalName>Код ошибки</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ErrorEnd</Name>
+    <LocalName>ErrorEnd</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ErrorStart</Name>
+    <LocalName>ErrorStart</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Escalation</Name>
+    <LocalName>Эскалация</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Escalation End Event</Name>
+    <LocalName>Конечное событие эскалации</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Escalation Event Definition</Name>
+    <LocalName>Определение события эскалации</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Escalation Intermediate Throw Event</Name>
+    <LocalName>Промежуточное событие-результат эскалации</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Escalation Start Event</Name>
+    <LocalName>Стартовое событие эскалации</LocalName>
+  </Translation>
+  <Translation>
+    <Name>EscalationEnd</Name>
+    <LocalName>EscalationEnd</LocalName>
+  </Translation>
+  <Translation>
+    <Name>EscalationStart</Name>
+    <LocalName>EscalationStart</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Event Definition</Name>
+    <LocalName>Определение события</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Event Definitions</Name>
+    <LocalName>Определения событий</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Event Sub-Process</Name>
+    <LocalName>Подпроцесс события</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Event sub-processes must have exactly one start event.</Name>
+    <LocalName>Подпроцессы событий должны иметь ровно одно стартовое событие.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Event sub-processes must not have any incoming flows.</Name>
+    <LocalName>Подпроцессы событий не должны иметь входящих потоков.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Event sub-processes must not have any outgoing flows.</Name>
+    <LocalName>Подпроцессы событий не должны иметь исходящих потоков.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Event-Based Gateway</Name>
+    <LocalName>Шлюз, основанный на событиях</LocalName>
+  </Translation>
+  <Translation>
+    <Name>EventBasedGateway</Name>
+    <LocalName>EventBasedGateway</LocalName>
+  </Translation>
+  <Translation>
+    <Name>EventDefinition</Name>
+    <LocalName>EventDefinition</LocalName>
+  </Translation>
+  <Translation>
+    <Name>EventSubProcess</Name>
+    <LocalName>EventSubProcess</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Events and tasks must only contain item-aware objects of type Data Input or Data Output.</Name>
+    <LocalName>События и задачи должны содержать только объекты с поддержкой элементов, имеющие тип &quot;Ввод данных&quot; или &quot;Вывод данных&quot;.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Events must not be decomposed. They must not contain other objects.</Name>
+    <LocalName>События не должны подвергаться декомпозиции. Они не должны содержать другие объекты.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Events must not be specified as reusable.</Name>
+    <LocalName>События не должны указываться как повторно используемые.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Exception</Name>
+    <LocalName>Особая ситуация</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Exclusive Event-Based Gateway</Name>
+    <LocalName>Эксклюзивный, основанный на событиях шлюз</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Exclusive Gateway</Name>
+    <LocalName>Эксклюзивный шлюз</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ExclusiveEventBasedGateway</Name>
+    <LocalName>ExclusiveEventBasedGateway</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ExclusiveGateway</Name>
+    <LocalName>ExclusiveGateway</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Existence of Else flow</Name>
+    <LocalName>Существование потока &quot;Иначе&quot;</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Existence of compensation handler</Name>
+    <LocalName>Существование обработчика компенсации</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Existence of receive activity</Name>
+    <LocalName>Существование действия получения</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Existence of reply activity</Name>
+    <LocalName>Существование действия ответа</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Exit on standard fault</Name>
+    <LocalName>Выход при стандартной ошибке</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Expected organization unit defined as partner link</Name>
+    <LocalName>Ожидается организационная единица, определенная как ссылка на партнера</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Expected variable for fault handling</Name>
+    <LocalName>Ожидается переменная для обработки ошибки</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Expression language</Name>
+    <LocalName>Язык выражения</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Extended ID</Name>
+    <LocalName>Расширенный ид.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Extension:</Name>
+    <LocalName>Расширение:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>File extension</Name>
+    <LocalName>Расширение файла</LocalName>
+  </Translation>
+  <Translation>
+    <Name>File extension value</Name>
+    <LocalName>Значение расширения файла</LocalName>
+  </Translation>
+  <Translation>
+    <Name>File name:</Name>
+    <LocalName>Имя файла:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Final counter expression</Name>
+    <LocalName>Финальное выражение для счетчика</LocalName>
+  </Translation>
+  <Translation>
+    <Name>First correlation pattern</Name>
+    <LocalName>Первый образец корреляции</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Flow Nodes</Name>
+    <LocalName>Узлы потока</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Flow data balancing.</Name>
+    <LocalName>Балансировка данных потока</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Flow type</Name>
+    <LocalName>Тип потока</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Gateway</Name>
+    <LocalName>Шлюз</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Gateways</Name>
+    <LocalName>Шлюзы</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Gateways must not have more than one default outgoing flow.</Name>
+    <LocalName>Шлюзы должны иметь не более одного исходящего потока по умолчанию.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>General</Name>
+    <LocalName>Общие</LocalName>
+  </Translation>
+  <Translation>
+    <Name>General Documentation</Name>
+    <LocalName>Общая документация</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Generate:</Name>
+    <LocalName>Сгенерировать:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Global</Name>
+    <LocalName>Глобально</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Global value</Name>
+    <LocalName>Глобальное значение</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Hidden</Name>
+    <LocalName>Скрыто</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Human Process</Name>
+    <LocalName>Пользовательский процесс</LocalName>
+  </Translation>
+  <Translation>
+    <Name>HumanProcess</Name>
+    <LocalName>HumanProcess</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ID</Name>
+    <LocalName>Ид.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Implementation</Name>
+    <LocalName>Реализация</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Implementation technology</Name>
+    <LocalName>Технология реализации</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Imported wsdl content</Name>
+    <LocalName>Импортированное содержимое WSDL</LocalName>
+  </Translation>
+  <Translation>
+    <Name>In scope</Name>
+    <LocalName>В области</LocalName>
+  </Translation>
+  <Translation>
+    <Name>InScope</Name>
+    <LocalName>InScope</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Inclusive Gateway</Name>
+    <LocalName>Неэксклюзивный шлюз</LocalName>
+  </Translation>
+  <Translation>
+    <Name>InclusiveGateway</Name>
+    <LocalName>InclusiveGateway</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Inconsistent correlation keys</Name>
+    <LocalName>Противоречивые ключи корреляции</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Inconsistent correlation properties</Name>
+    <LocalName>Противоречивые свойства корреляции</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Initialize Partner Role</Name>
+    <LocalName>Инициализировать роль партнера</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Initiate correlation</Name>
+    <LocalName>Инициировать корреляцию</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Initiate input correlation</Name>
+    <LocalName>Инициировать корреляцию ввода</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Initiate output correlation</Name>
+    <LocalName>Инициировать корреляцию вывода</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Initiating and return messages must share the same correlation property of the same correlation key.</Name>
+    <LocalName>Сообщения инициирования и возврата должны использовать общее свойство корреляции одного и того же ключа корреляции.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Initiating and return messages with inconsistent correlation settings</Name>
+    <LocalName>Сообщения инициирования и возврата с противоречивыми настройками корреляции</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Initiating message not message flow</Name>
+    <LocalName>Сообщение инициирования вне потока сообщений</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Initiating messages must be of stereotype &quot;Message Flow&quot;.</Name>
+    <LocalName>Сообщения инициирования должны иметь стереотип &lt;&lt;message flow&gt;&gt;.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Initiating messages must bear the stereotype Message Flow.</Name>
+    <LocalName>Сообщения инициирования должны иметь стереотип &lt;&lt;message flow&gt;&gt;.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Instantiate</Name>
+    <LocalName>Создать инстанцию</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Intermediate</Name>
+    <LocalName>Промежуточное</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Intermediate Catch Event</Name>
+    <LocalName>Промежуточное событие-инициатор</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Intermediate Catch Events</Name>
+    <LocalName>Промежуточные события-инициаторы</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Intermediate Event</Name>
+    <LocalName>Промежуточное событие</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Intermediate Events</Name>
+    <LocalName>Промежуточные события</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Intermediate Throw Event</Name>
+    <LocalName>Промежуточное событие-результат</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Intermediate Throw Events</Name>
+    <LocalName>Промежуточные события-результаты</LocalName>
+  </Translation>
+  <Translation>
+    <Name>IntermediateEvent</Name>
+    <LocalName>IntermediateEvent</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Interrupting</Name>
+    <LocalName>Прерывание</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Interrupting multiple boundary events can only contain Message, Timer, Escalation, Conditional, Error, Cancel, Compensation, and Signal event definitions.
+Non-interrupting multiple boundary events can only contain Message, Timer, Escalation, Conditional, and Signal event definitions.</Name>
+    <LocalName>Прерывающие множественные граничные события могут содержать только определения событий сообщения, таймера, эскалации, условных событий, событий ошибки, отмены, компенсации и сигнала.
+Непрерывающие множественные граничные события могут содержать только определения событий сообщения, таймера, эскалации, условных событий, событий ошибки, отмены, компенсации и сигнала.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Interrupting parallel multiple boundary events can only contain Message, Timer, Escalation, Conditional, Error, Cancel, Compensation, and Signal event definitions.
+Non-interrupting parallel multiple boundary events can only contain Message, Timer, Escalation, Conditional, and Signal event definitions.</Name>
+    <LocalName>Прерывающие параллельные множественные граничные события могут содержать только определения событий сообщения, таймера, эскалации, условных событий, событий ошибки, отмены, компенсации и сигнала.
+Непрерывающие параллельные множественные граничные события могут содержать только определения событий сообщения, таймера, эскалации, условных событий, событий ошибки, отмены, компенсации и сигнала.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid correlation properties</Name>
+    <LocalName>Недействительные свойства корреляции</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid correlation property</Name>
+    <LocalName>Недействительное свойство корреляции</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid data object</Name>
+    <LocalName>Недействительный объект данных</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid decomposition</Name>
+    <LocalName>Недействительная декомпозиция</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid destination</Name>
+    <LocalName>Недействительное место назначения</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid document status</Name>
+    <LocalName>Недействительный статус документа</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid document type</Name>
+    <LocalName>Недействительный тип документа</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid event definitions</Name>
+    <LocalName>Недействительные определения событий</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid implementation type</Name>
+    <LocalName>Недействительный тип реализации</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid incoming flows</Name>
+    <LocalName>Недействительные входящие потоки</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid initiating message stereotype</Name>
+    <LocalName>Недействительный стереотип сообщения инициирования</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid item-aware elements</Name>
+    <LocalName>Недействительные элементы с поддержкой элементов</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid message format</Name>
+    <LocalName>Недействительный формат сообщения</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid outgoing flows</Name>
+    <LocalName>Недействительные исходящие потоки</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid return message stereotype</Name>
+    <LocalName>Недействительный стереотип сообщения возврата</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid reusability</Name>
+    <LocalName>Недействительная возможность повторного использования</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid source</Name>
+    <LocalName>Недействительный источник</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid source item</Name>
+    <LocalName>Недействительный исходный элемент</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid target item</Name>
+    <LocalName>Недействительный целевой элемент</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid transactions collection</Name>
+    <LocalName>Недействительный выбор транзакций</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid type of operation</Name>
+    <LocalName>Недействительный тип операции</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Is Entity:</Name>
+    <LocalName>Сущность:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Is message flow</Name>
+    <LocalName>Поток сообщений</LocalName>
+  </Translation>
+  <Translation>
+    <Name>IsTakeOver</Name>
+    <LocalName>IsTakeOver</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Isolated</Name>
+    <LocalName>Изолировано</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Isolated object.</Name>
+    <LocalName>Изолированный объект.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Isolated shortcut of object.</Name>
+    <LocalName>Изолированный ярлык объекта.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Item-Aware Elements</Name>
+    <LocalName>Элементы с поддержкой элементов</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Item-aware elements of type Data Input are not permitted in intermediate catch events.</Name>
+    <LocalName>Элементы с поддержкой элементов, имеющие тип &quot;Ввод данных&quot;, не разрешены в событиях-инициаторах.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Item-aware elements of type Data Input are not permitted in message start events.</Name>
+    <LocalName>Элементы с поддержкой элементов, имеющие тип &quot;Ввод данных&quot;, не разрешены в событиях-инициаторах.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Item-aware elements of type Data Output are not permitted in intermediate throw events.</Name>
+    <LocalName>Элементы с поддержкой элементов, имеющие тип &quot;Вывод данных&quot;, не разрешены в событиях-результатах.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Item-aware elements of type Data Output are not permitted in message end events.</Name>
+    <LocalName>Элементы с поддержкой элементов, имеющие тип &quot;Вывод данных&quot;, не разрешены в сообщениях и событиях.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Join condition</Name>
+    <LocalName>Условие соединения</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Keep source element name</Name>
+    <LocalName>Сохранить имя исходного элемента</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Keywords</Name>
+    <LocalName>Ключевые слова</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Lane</Name>
+    <LocalName>Дорожка</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Lanes</Name>
+    <LocalName>Дорожки</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Language</Name>
+    <LocalName>Язык</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Language R</Name>
+    <LocalName>Язык R</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Link</Name>
+    <LocalName>Ссылка</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Link Event Definition</Name>
+    <LocalName>Определение события ссылки</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Link Intermediate Catch Event</Name>
+    <LocalName>Промежуточное событие-инициатор ссылки</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Link Intermediate Throw Event</Name>
+    <LocalName>Промежуточное событие-результат ссылки</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Local Variables</Name>
+    <LocalName>Локальные переменные</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Location Type:</Name>
+    <LocalName>Тип местоположения:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Location:</Name>
+    <LocalName>Местоположение:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Logical Component</Name>
+    <LocalName>Логический компонент</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Logical Components</Name>
+    <LocalName>Логические компоненты</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Logical component</Name>
+    <LocalName>Логический компонент</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Logical component R</Name>
+    <LocalName>Логический компонент R</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Logical component:</Name>
+    <LocalName>Логический компонент:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Logical components created in PowerDesigner cannot be exported</Name>
+    <LocalName>Логические компоненты, созданные в PowerDesigner, невозможно экспортировать</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Logical components created in PowerDesigner cannot be exported to Solution Manager</Name>
+    <LocalName>Логические компоненты, созданные в PowerDesigner, невозможно экспортировать в Solution Manager</LocalName>
+  </Translation>
+  <Translation>
+    <Name>LogicalComponent</Name>
+    <LocalName>LogicalComponent</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Loop characteristics</Name>
+    <LocalName>Признаки цикла</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Mandatory loop expression</Name>
+    <LocalName>Обязательное выражение цикла</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Manual Task</Name>
+    <LocalName>Задача ручного выполнения</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ManualTask</Name>
+    <LocalName>ManualTask</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Master Data</Name>
+    <LocalName>Основные данные</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Message</Name>
+    <LocalName>Сообщение</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Message End Event</Name>
+    <LocalName>Конечное событие сообщения</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Message End Events</Name>
+    <LocalName>Конечные события сообщений</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Message Event Definition</Name>
+    <LocalName>Определение события сообщения</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Message Flow</Name>
+    <LocalName>Поток сообщений</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Message Flow Matrices</Name>
+    <LocalName>Матрицы потока сообщений</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Message Flow Matrix</Name>
+    <LocalName>Матрица потока сообщений</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Message Flows</Name>
+    <LocalName>Потоки сообщений</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Message Intermediate Catch Event</Name>
+    <LocalName>Промежуточное событие-инициатор сообщения</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Message Intermediate Throw Event</Name>
+    <LocalName>Промежуточное событие-результат сообщения</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Message Start Event</Name>
+    <LocalName>Стартовое событие сообщения</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Message Start Events</Name>
+    <LocalName>Стартовые события сообщений</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Message flows can only go from (have as sources) activities, pools, throwing message intermediate events, or message end events.</Name>
+    <LocalName>Потоки сообщений могут исходить (в качестве источников) только из действий, пулов, промежуточных событий-результатов сообщений или сообщений и событий.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Message flows can only point to (have as destinations) activities, pools, catching message intermediate events, or  message start events.</Name>
+    <LocalName>Потоки сообщений могут указывать (в качестве мест назначения) только на действия, пулы, промежуточные события-результаты сообщений или сообщения и события.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Message flows can only point to (have as destinations) activities, pools, catching message intermediate events, or message start events.</Name>
+    <LocalName>Потоки сообщений могут указывать (в качестве мест назначения) только на действия, пулы, промежуточные события-результаты сообщений или сообщения и события.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Message flows must specify a correlation property from among those defined in their correlation key.</Name>
+    <LocalName>Потоки сообщений  должны указывать свойство корреляции из числа определенных в соответствующем ключе корреляции.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Message format</Name>
+    <LocalName>Формат сообщения</LocalName>
+  </Translation>
+  <Translation>
+    <Name>MessageEnd</Name>
+    <LocalName>MessageEnd</LocalName>
+  </Translation>
+  <Translation>
+    <Name>MessageFlow</Name>
+    <LocalName>MessageFlow</LocalName>
+  </Translation>
+  <Translation>
+    <Name>MessageFlowMatrix</Name>
+    <LocalName>MessageFlowMatrix</LocalName>
+  </Translation>
+  <Translation>
+    <Name>MessageStart</Name>
+    <LocalName>MessageStart</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Migrated flow balancing</Name>
+    <LocalName>Балансировка перенесенного потока</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing Receive activity after the top-level start</Name>
+    <LocalName>Отсутствует действие получения после запуска верхнего уровня</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing data object</Name>
+    <LocalName>Отсутствует объект данных</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing source item</Name>
+    <LocalName>Отсутствует исходный элемент</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing target item</Name>
+    <LocalName>Отсутствует целевой элемент</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Multi-Instance</Name>
+    <LocalName>Множественная инстанция</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Multi-Instance:</Name>
+    <LocalName>Множественная инстанция:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Multiple</Name>
+    <LocalName>Множественный</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Multiple End Event</Name>
+    <LocalName>Множественное конечное событие</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Multiple Intermediate Catch Event</Name>
+    <LocalName>Множественное промежуточное событие-инициатор</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Multiple Intermediate Throw Event</Name>
+    <LocalName>Множественное промежуточное событие-результат</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Multiple Start Event</Name>
+    <LocalName>Множественное стартовое событие</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Multiple correlation</Name>
+    <LocalName>Множественная корреляция</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Multiple correlations</Name>
+    <LocalName>Множественные корреляции</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Multiple end events can only contain Message, Error, Escalation, Cancel, Compensation, Signal, and Terminate event definitions.</Name>
+    <LocalName>Множественные конечные события могут содержать только определения событий сообщения, ошибки, эскалации, отмены, компенсации, сигнала и завершения.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Multiple events must contain at least two event definitions.</Name>
+    <LocalName>Множественные события должны содержать только два определения событий.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Multiple intermediate catching events can only contain Message, Timer, Conditional, Link, and Signal event definitions.</Name>
+    <LocalName>Множественные промежуточные события-инициаторы могут содержать только определения событий сообщения, таймера, условных событий, событий ссылки и сигнала.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Multiple intermediate throwing events can only contain Message, Escalation, Link, Compensation, and Signal event definitions.</Name>
+    <LocalName>Множественные промежуточные события-результаты могут содержать только определения событий сообщения, эскалации, ссылки, компенсации и сигнала.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Multiple start events at the top level can only contain Message, Timer, Conditional, Error, and Signal event definitions. 
+Interrupting multiple start events in an event sub-process can only contain Message, Timer, Escalation, Conditional, Error, Compensation, and Signal event definitions.
+Non-interrupting multiple start events in an event sub-process can only contain Message, Timer, Escalation, Conditional, and Signal event definitions.</Name>
+    <LocalName>Множественные стартовые события на верхнем уровне могут содержать только определения событий сообщения, таймера, условных событий и событий сигнала. 
+Прерывающие множественные стартовые события могут содержать только определения событий сообщения, таймера, эскалации, условных событий, событий ошибки, компенсации и сигнала.
+Непрерывающие множественные стартовые события могут содержать только определения событий сообщения, таймера, эскалации, условных событий и событий сигнала.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Multiple value</Name>
+    <LocalName>Множественное значение</LocalName>
+  </Translation>
+  <Translation>
+    <Name>MultipleEnd</Name>
+    <LocalName>MultipleEnd</LocalName>
+  </Translation>
+  <Translation>
+    <Name>MultipleStart</Name>
+    <LocalName>MultipleStart</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must be an assigned variable of a data transformation with the &lt;&lt;propertyAlias&gt;&gt; stereotype.</Name>
+    <LocalName>Необходима назначенная переменная преобразования данных со стереотипом &lt;&lt;propertyAlias&gt;&gt;.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must be composite</Name>
+    <LocalName>Должно быть композитным</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must be implemented by a compensation event</Name>
+    <LocalName>Должно быть реализовано событием компенсации</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must be implemented by a fault event</Name>
+    <LocalName>Должно быть реализовано событием ошибки</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must be implemented by a timer event</Name>
+    <LocalName>Должно быть реализовано событием-таймером</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must be used within a fault handler</Name>
+    <LocalName>Должно использоваться в обработчике ошибки</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must contain assignments with assignment variable compatible with the partner role</Name>
+    <LocalName>Должно содержать назначения с переменной назначения, совместимой с ролью партнера</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must contain assignments with input variable compatible with the partner role</Name>
+    <LocalName>Должно содержать назначения с переменной ввода, совместимой с ролью партнера</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must contain assignments with input variable compatible with the process role</Name>
+    <LocalName>Должно содержать назначения с переменной ввода, совместимой с ролью процесса</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must contain at least one data transformation</Name>
+    <LocalName>Должно содержать минимум одно преобразование данных</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must contain at least one variable</Name>
+    <LocalName>Должно содержать минимум одну переменную</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must execute an operation which is compatible with the organization unit</Name>
+    <LocalName>Должно выполнять операцию, совместимую с организационной единицей</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must have Data Store stereotype</Name>
+    <LocalName>Должно иметь стереотип &lt;&lt;Data Store&gt;&gt;</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must have Split/Merge stereotype</Name>
+    <LocalName>Должно иметь стереотип &lt;&lt;Split/Merge&gt;&gt;</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must have a single compensation handler</Name>
+    <LocalName>Должно иметь один обработчик компенсации</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must have a single default fault handler</Name>
+    <LocalName>Должно иметь один обработчик ошибки по умолчанию</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must have a single incoming flow</Name>
+    <LocalName>Должно иметь один входящий поток</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must have a single success output flow</Name>
+    <LocalName>Должно иметь один поток вывода сообщения об успешном выполнении</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must have the &lt;&lt;repeatuntil&gt;&gt; stereotype</Name>
+    <LocalName>Должно иметь стереотип &lt;&lt;repeatuntil&gt;&gt;</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must have the Foreach stereotype</Name>
+    <LocalName>Должно иметь стереотип &lt;&lt;Foreach&gt;&gt;</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must have the compensate stereotype</Name>
+    <LocalName>Должно иметь стереотип &lt;&lt;compensate&gt;&gt;</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must have the if stereotype</Name>
+    <LocalName>Должно иметь стереотип &lt;&lt;If&gt;&gt;</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must have the invoke stereotype</Name>
+    <LocalName>Должно иметь стереотип &lt;&lt;invoke&gt;&gt;</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must have the pick stereotype</Name>
+    <LocalName>Должно иметь стереотип &lt;&lt;pick&gt;&gt;</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must have the property stereotype</Name>
+    <LocalName>Должно иметь стереотип &lt;&lt;property&gt;&gt;</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must have the propertyAlias stereotype</Name>
+    <LocalName>Должно иметь стереотип &lt;&lt;propertyAlias&gt;&gt;</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must have the receive stereotype</Name>
+    <LocalName>Должно иметь стереотип &lt;&lt;receive&gt;&gt;</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must have the reply stereotype</Name>
+    <LocalName>Должно иметь стереотип &lt;&lt;reply&gt;&gt;</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must have the replyFault stereotype</Name>
+    <LocalName>Должно иметь стереотип &lt;&lt;replyFault&gt;&gt;</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must have the throw stereotype</Name>
+    <LocalName>Должно иметь стереотип &lt;&lt;replyFault&gt;&gt;</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must have the wait stereotype</Name>
+    <LocalName>Должно иметь стереотип &lt;&lt;wait&gt;&gt;</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must have the while stereotype</Name>
+    <LocalName>Должно иметь стереотип &lt;&lt;while&gt;&gt;</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must have valid assignments</Name>
+    <LocalName>Должно иметь действительные назначения</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must not contain assignments</Name>
+    <LocalName>Не должно иметь назначений</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must not use the same variable as the counter variable</Name>
+    <LocalName>Используемая переменная должна отличаться от переменной счетчика</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must specify the myRole or the partnerRole, or both.</Name>
+    <LocalName>Необходимо указать myRole и/или partnerRole.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must target receive or pick activity</Name>
+    <LocalName>Должно быть нацелено на действие получения или комплектации</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must use global variable as assigned variable</Name>
+    <LocalName>В качестве назначенной переменной должна использоваться глобальная переменная</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must use message format as input variable</Name>
+    <LocalName>В качестве переменной ввода должен использоваться формат сообщения</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must use operation defined under the service provider representing the process interface</Name>
+    <LocalName>Должна использоваться операция, определенная в поставщике услуг, представляющем интерфейс процесса</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must use variables defined under the model</Name>
+    <LocalName>Должны использоваться переменные, определенные в данной модели</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must use variables with the &lt;&lt;property&gt;&gt; stereotype</Name>
+    <LocalName>Должны использоваться переменные со стереотипом &lt;&lt;property&gt;&gt;</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Name</Name>
+    <LocalName>Имя</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Namespace prefix to use</Name>
+    <LocalName>Префикс области имен для использования</LocalName>
+  </Translation>
+  <Translation>
+    <Name>No more than two outgoing flows</Name>
+    <LocalName>Не более двух исходящих потоков</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Node ID</Name>
+    <LocalName>Ид. узла</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Not permitted at top level</Name>
+    <LocalName>Не разрешено на верхнем уровне</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Not permitted in ad-hoc sub-process</Name>
+    <LocalName>Не разрешено в настраиваемых подпроцессах</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Not permitted in event sub-process</Name>
+    <LocalName>Не разрешено в подпроцессах событий</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Not permitted in intermediate catch events</Name>
+    <LocalName>Не разрешено в промежуточных событиях-инициаторах</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Not permitted in intermediate throw events</Name>
+    <LocalName>Не разрешено в промежуточных событиях-результатах</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Not permitted in message end events</Name>
+    <LocalName>Не разрешено в конечных событиях сообщений</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Not permitted in message start events</Name>
+    <LocalName>Не разрешено в стартовых событиях сообщений</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Not permitted in sub-process</Name>
+    <LocalName>Не разрешено в подпроцессах</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Not permitted in tasks or events</Name>
+    <LocalName>Не разрешено в задачах или событиях</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Not permitted in transaction</Name>
+    <LocalName>Не разрешено в транзакциях</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Number ID:</Name>
+    <LocalName>Ид. номера:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Object</Name>
+    <LocalName>Объект</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Object R</Name>
+    <LocalName>Объект R</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Only permitted in transactions</Name>
+    <LocalName>Разрешено только в транзакциях</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Organization Unit role</Name>
+    <LocalName>Роль организационной единицы</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Organization Units</Name>
+    <LocalName>Организационные единицы</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Original name</Name>
+    <LocalName>Исходное имя</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Out of scope compensate activity</Name>
+    <LocalName>Действие компенсации вне области</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Owner</Name>
+    <LocalName>Владелец</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Package</Name>
+    <LocalName>Пакет</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Page scale:</Name>
+    <LocalName>Масштаб страницы:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Pairs of initiating and return messages must specify the same correlation property of the same correlation key.</Name>
+    <LocalName>Пары сообщений инициирования и возврата должны указывать одно и то же свойство корреляции одного и того же ключа корреляции.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Parallel</Name>
+    <LocalName>Параллельный</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Parallel Event-Based Gateway</Name>
+    <LocalName>Параллельный, основанный на событиях шлюз</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Parallel Gateway</Name>
+    <LocalName>Параллельный шлюз</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Parallel Multiple</Name>
+    <LocalName>Параллельный множественный</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Parallel Multiple Intermediate Catch Event</Name>
+    <LocalName>Параллельное множественное промежуточное событие-инициатор</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Parallel Multiple Start Event</Name>
+    <LocalName>Стартовое событие - параллельный множественный</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Parallel multiple intermediate catching events can only contain Message, Timer, Conditional, Link, and Signal event definitions.</Name>
+    <LocalName>Параллельные множественные промежуточные события-инициаторы могут содержать только определения событий сообщения, таймера, условных событий, событий ссылки и сигнала.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Parallel multiple start events at the top level can only contain Message, Timer, Conditional, Error, and Signal event definitions. 
+Interrupting parallel multiple start events in an event sub-process can only contain Message, Timer, Escalation, Conditional, Error, Compensation, and Signal event definitions.
+Non-interrupting parallel multiple start events in an event sub-process can only contain Message, Timer, Escalation, Conditional, and Signal event definitions.</Name>
+    <LocalName>Параллельные множественные стартовые события на верхнем уровне могут содержать только определения событий сообщения, таймера, условных событий и событий сигнала. 
+Прерывающие параллельные множественные стартовые события могут содержать только определения событий сообщения, таймера, эскалации, условных событий, событий ошибки, компенсации и сигнала.
+Непрерывающие параллельные множественные стартовые события могут содержать только определения событий сообщения, таймера, эскалации, условных событий и событий сигнала.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ParallelEventBasedGateway</Name>
+    <LocalName>ParallelEventBasedGateway</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ParallelGateway</Name>
+    <LocalName>ParallelGateway</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ParallelMultiple</Name>
+    <LocalName>ParallelMultiple</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ParallelMultipleStart</Name>
+    <LocalName>ParallelMultipleStart</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Parent flow balancing.</Name>
+    <LocalName>Балансировка вышестоящего потока.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Parent:</Name>
+    <LocalName>Вышестоящий элемент:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Participant</Name>
+    <LocalName>Участник</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Partner Port Type</Name>
+    <LocalName>Тип порта партнера</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Partner link type</Name>
+    <LocalName>Тип ссылки на партнера</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Partners role</Name>
+    <LocalName>Роль партнера</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Person responsible</Name>
+    <LocalName>Ответственный</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Pool</Name>
+    <LocalName>Пул</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Pools</Name>
+    <LocalName>Пулы</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Process</Name>
+    <LocalName>Процесс</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Process Port Type</Name>
+    <LocalName>Тип порта процесса</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Process Step</Name>
+    <LocalName>Шаг процесса</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Process Steps</Name>
+    <LocalName>Шаги процесса</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Process role</Name>
+    <LocalName>Роль процесса</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Process step references a logical component not present in Solution Manager</Name>
+    <LocalName>Шаг процесса ссылается на логический компонент, отсутствующий в Solution Manager</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Process step references no logical component</Name>
+    <LocalName>Шаг процесса не ссылается на логические компоненты</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Process step references no logical component.</Name>
+    <LocalName>Шаг процесса не ссылается на логические компоненты.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Process steps ID</Name>
+    <LocalName>Ид. шагов процесса</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Process:</Name>
+    <LocalName>Процесс:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ProcessStep</Name>
+    <LocalName>ProcessStep</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Processing type</Name>
+    <LocalName>Тип обработки</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Processing type value</Name>
+    <LocalName>Значение типа обработки</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Product ID</Name>
+    <LocalName>Ид. продукта</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Product instance ID</Name>
+    <LocalName>Ид. инстанции процесса</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Product instance name</Name>
+    <LocalName>Имя инстанции продукта</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Product name</Name>
+    <LocalName>Имя продукта</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Product version ID</Name>
+    <LocalName>Ид. версии продукта</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Product version name</Name>
+    <LocalName>Имя версии продукта</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Project Documentation</Name>
+    <LocalName>Документация проекта</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Project ID</Name>
+    <LocalName>Ид. проекта</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Properties</Name>
+    <LocalName>Свойства</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Property</Name>
+    <LocalName>Свойство</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Query language</Name>
+    <LocalName>Язык запроса</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Query on the assigned variable</Name>
+    <LocalName>Запрос по назначенной переменной</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Receive Task</Name>
+    <LocalName>Задача получения сообщения</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ReceiveTask</Name>
+    <LocalName>ReceiveTask</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Repeat every expression</Name>
+    <LocalName>Повторять каждое выражение</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Repository:</Name>
+    <LocalName>Репозитарий:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Resource:</Name>
+    <LocalName>Ресурс:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Responsible ID</Name>
+    <LocalName>Ид. ответственного</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Responsible person</Name>
+    <LocalName>Ответственный</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Responsible person (read-only)</Name>
+    <LocalName>Ответственный (только чтение)</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Return message not message flow</Name>
+    <LocalName>Сообщение возврата вне потока сообщений</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Return messages must be of stereotype &quot;Message Flow&quot;.</Name>
+    <LocalName>Сообщения возврата должны иметь стереотип &lt;&lt;message flow&gt;&gt;.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Return messages must bear the stereotype Message Flow.</Name>
+    <LocalName>Сообщения возврата должны иметь стереотип &lt;&lt;message flow&gt;&gt;.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Reusable Process</Name>
+    <LocalName>Повторно используемый процесс</LocalName>
+  </Translation>
+  <Translation>
+    <Name>SA00022</Name>
+    <LocalName>SA00022</LocalName>
+  </Translation>
+  <Translation>
+    <Name>SA00062</Name>
+    <LocalName>SA00062</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Scenario Flow Diagram</Name>
+    <LocalName>Диаграмма потока сценария</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Screen text</Name>
+    <LocalName>Экранный текст</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Script</Name>
+    <LocalName>Скрипт</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Script Task</Name>
+    <LocalName>Задача-сценарий</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Script language</Name>
+    <LocalName>Язык скрипта</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ScriptTask</Name>
+    <LocalName>ScriptTask</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Second  correlation pattern</Name>
+    <LocalName>Второй образец корреляции</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Select document status</Name>
+    <LocalName>Выбрать статус документа</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Select document type</Name>
+    <LocalName>Выбрать тип документа</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Select transaction type</Name>
+    <LocalName>Выбрать тип транзакции</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Send Task</Name>
+    <LocalName>Задача отправки сообщения</LocalName>
+  </Translation>
+  <Translation>
+    <Name>SendTask</Name>
+    <LocalName>SendTask</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Sequence Flow</Name>
+    <LocalName>Поток операций</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Sequence Flows</Name>
+    <LocalName>Потоки операций</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Sequence flows must not have message formats attached to them.</Name>
+    <LocalName>Потоки операций не должны иметь вложенных форматов сообщений.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>SequenceFlow</Name>
+    <LocalName>SequenceFlow</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Service Provider</Name>
+    <LocalName>Поставщик услуг</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Service Task</Name>
+    <LocalName>Сервисная задача</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ServiceProvider</Name>
+    <LocalName>ServiceProvider</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ServiceTask</Name>
+    <LocalName>ServiceTask</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Shortcut</Name>
+    <LocalName>Ярлык</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Shortcut of process step references different logical component</Name>
+    <LocalName>Ярлык шага процесса ссылается на другой логический компонент</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Should be the first activity of the business process</Name>
+    <LocalName>Должно быть первым действием бизнес-процесса</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Signal</Name>
+    <LocalName>Сигнал</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Signal End Event</Name>
+    <LocalName>Конечное событие-сигнал</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Signal Event Definition</Name>
+    <LocalName>Определение события-сигнала</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Signal Intermediate Catch Event</Name>
+    <LocalName>Промежуточное событие-инициатор сигнала</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Signal Intermediate Throw Event</Name>
+    <LocalName>Промежуточное событие-результат сигнала</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Signal Start Event</Name>
+    <LocalName>Стартовое событие-сигнал</LocalName>
+  </Translation>
+  <Translation>
+    <Name>SignalEnd</Name>
+    <LocalName>SignalEnd</LocalName>
+  </Translation>
+  <Translation>
+    <Name>SignalStart</Name>
+    <LocalName>SignalStart</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Source</Name>
+    <LocalName>Источник</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Source ID</Name>
+    <LocalName>Ид. источника</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Source item</Name>
+    <LocalName>Исходный элемент</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Source location</Name>
+    <LocalName>Исходное местоположение</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Source location ID</Name>
+    <LocalName>Ид. исходного местоположения</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Source location R</Name>
+    <LocalName>Исходное местоположение R</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Source location text</Name>
+    <LocalName>Текст исходного местоположения</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Source process step missing</Name>
+    <LocalName>Отсутствует исходный шаг процесса</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Source type</Name>
+    <LocalName>Исходный тип</LocalName>
+  </Translation>
+  <Translation>
+    <Name>SourceR</Name>
+    <LocalName>SourceR</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Standard</Name>
+    <LocalName>Стандартный</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Start Event</Name>
+    <LocalName>Стартовое событие</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Start Events</Name>
+    <LocalName>Стартовые события</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Start and end events are not permitted in ad-hoc sub-processes.</Name>
+    <LocalName>Стартовые и конечные события не разрешены в настраиваемых подпроцессах.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Start counter expression</Name>
+    <LocalName>Выражение запуска счетчика</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Start events of type Compensation are only permitted in event sub-processes.</Name>
+    <LocalName>Стартовые события типа &quot;Компенсация&quot; не разрешены в подпроцессах событий.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Start events of type Error are only permitted in event sub-processes.</Name>
+    <LocalName>Стартовые события с типом &quot;Ошибка&quot; не разрешены в подпроцессах событий.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Start events of type Escalation are only permitted in event sub-processes.</Name>
+    <LocalName>Стартовые события с типом &quot;Эскалация&quot; не разрешены в подпроцессах событий.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Start events of type Standard are not permitted in event sub-processes.</Name>
+    <LocalName>Стартовые события с типом &quot;Стандартный&quot; не разрешены в подпроцессах событий.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Start events that are not of type Standard are not permitted in sub-processes.</Name>
+    <LocalName>Стартовые события с типом, отличным от &quot;Стандартный&quot;, не разрешены в подпроцессах.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Start events that are not of type Standard are not permitted in transactions.</Name>
+    <LocalName>Стартовые события с типом, отличным от &quot;Стандартный&quot;, не разрешены в транзакциях.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Start quantity</Name>
+    <LocalName>Начальное количество</LocalName>
+  </Translation>
+  <Translation>
+    <Name>StartEvent</Name>
+    <LocalName>StartEvent</LocalName>
+  </Translation>
+  <Translation>
+    <Name>State</Name>
+    <LocalName>Статус</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Status</Name>
+    <LocalName>Статус</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Status code</Name>
+    <LocalName>Код статуса</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Status text</Name>
+    <LocalName>Текст статуса</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Stereotype</Name>
+    <LocalName>Стереотип</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Stereotype:</Name>
+    <LocalName>Стереотип:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Sub-Process</Name>
+    <LocalName>Подпроцесс</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Sub-Processes</Name>
+    <LocalName>Подпроцессы</LocalName>
+  </Translation>
+  <Translation>
+    <Name>SubProcess</Name>
+    <LocalName>SubProcess</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Successful branches only</Name>
+    <LocalName>Только выполненные ветви</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Suppress join failure</Name>
+    <LocalName>Подавить ошибку соединения</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Symbol ID</Name>
+    <LocalName>Ид. символа</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Synchronization link cannot connect non-parallel activities</Name>
+    <LocalName>Ссылка синхронизации не может соединять непараллельные действия</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Synchronization link cannot connect two activities belonging to different event branches</Name>
+    <LocalName>Ссылка синхронизации не может соединять два действия, относящиеся к разным ветвям событий</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Synchronization link must not cross BPEL4WS serializable scope boundary</Name>
+    <LocalName>Ссылка синхронизации не должна пересекать границу сериализуемой области BPEL4WS</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Synchronization link must not cross loop boundary</Name>
+    <LocalName>Ссылка синхронизации не должна пересекать границу цикла</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Target item</Name>
+    <LocalName>Целевой элемент</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Target namespace</Name>
+    <LocalName>Целевая область имен</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Task</Name>
+    <LocalName>Задача</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Tasks</Name>
+    <LocalName>Задачи</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Tasks must not contain other objects. Only sub-processes and other composite activities can contain other objects.</Name>
+    <LocalName>Задачи не должны содержать другие объекты. Только подпроцессы и другие композитные действия могут содержать другие объекты.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Terminate End Event</Name>
+    <LocalName>Конечное событие-завершение</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Terminate Event Definition</Name>
+    <LocalName>Определение события-завершения</LocalName>
+  </Translation>
+  <Translation>
+    <Name>TerminateEnd</Name>
+    <LocalName>TerminateEnd</LocalName>
+  </Translation>
+  <Translation>
+    <Name>The assigned variable must have the &lt;&lt;property&gt;&gt; stereotype.</Name>
+    <LocalName>Назначенная переменная должна иметь стереотип &lt;&lt;property&gt;&gt;.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>The composite process should have valid stereotype</Name>
+    <LocalName>Композитный процесс должен иметь действительный стереотип</LocalName>
+  </Translation>
+  <Translation>
+    <Name>The emission correlation must be coherent with the emission message mapping variable.</Name>
+    <LocalName>Корреляция выдачи должна быть согласована с переменной сопоставления сообщения выдачи.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>The reception correlation must be coherent with the reception message mapping variable.</Name>
+    <LocalName>Корреляция получения должна быть согласована с переменной сопоставления сообщения получения.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>TheType</Name>
+    <LocalName>TheType</LocalName>
+  </Translation>
+  <Translation>
+    <Name>This check ensures that all properties have a stereotype &quot;Correlation Property&quot;</Name>
+    <LocalName>Эта проверка гарантирует, что все свойства имеют стереотип &quot;Correlation Property&quot;</LocalName>
+  </Translation>
+  <Translation>
+    <Name>This check ensures that the document status of project documentation objects are correct.</Name>
+    <LocalName>Эта проверка гарантирует правильность статуса документа объекта документации проекта.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>This check ensures that the document type of project documentation objects are correct.</Name>
+    <LocalName>Эта проверка гарантирует правильность типа документа объекта документации проекта.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>This check ensures that the logical component of a process step shortcut is the same as the source process step object.</Name>
+    <LocalName>Эта проверка гарантирует, что логический компонент ярлыка шага процесса совпадает с исходным объектом шага процесса.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>This check warns if the source process step is not in the current model.</Name>
+    <LocalName>Эта проверка предупреждает, если шаг процесса находится не в текущей модели.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Timeout:</Name>
+    <LocalName>Тайм-аут:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Timer</Name>
+    <LocalName>Таймер</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Timer Event Definition</Name>
+    <LocalName>Определение события-таймера</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Timer Intermediate Catch Event</Name>
+    <LocalName>Промежуточное событие-инициатор таймера</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Timer Start Event</Name>
+    <LocalName>Стартовое событие-таймер</LocalName>
+  </Translation>
+  <Translation>
+    <Name>TimerStart</Name>
+    <LocalName>TimerStart</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Title</Name>
+    <LocalName>Название</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Token ID</Name>
+    <LocalName>Ид. токена</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Too few event definitions</Name>
+    <LocalName>Слишком мало определений событий</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Too many default flows</Name>
+    <LocalName>Слишком много потоков по умолчанию</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Too many start events</Name>
+    <LocalName>Слишком много стартовых событий</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Transaction</Name>
+    <LocalName>Транзакция</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Transaction Type</Name>
+    <LocalName>Тип транзакции</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Transaction Types</Name>
+    <LocalName>Типы транзакций</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Transaction references different logical component</Name>
+    <LocalName>Транзакция ссылается на другой логический компонент</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Transaction with inappropriate start events</Name>
+    <LocalName>Транзакция с неподходящими стартовыми событиями</LocalName>
+  </Translation>
+  <Translation>
+    <Name>TransactionType</Name>
+    <LocalName>TransactionType</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Transactions</Name>
+    <LocalName>Транзакции</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Transactions can only contain start events with the stereotype &quot;Start Event&quot;</Name>
+    <LocalName>Транзакции могут содержать только стартовые события со стереотипом &lt;&lt;start event&gt;&gt;</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Transactions must reference the same logical component as the master data to which they belong.</Name>
+    <LocalName>Транзакции должны ссылаться на тот же логический компонент, что и основные данные, к которым они относятся.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Transactions must reference the same logical component as the process step to which they belong.</Name>
+    <LocalName>Транзакции должны ссылаться на тот же логический компонент, что и шаг процесса, к которому они относятся.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Transformation type</Name>
+    <LocalName>Тип преобразования</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Transport</Name>
+    <LocalName>Перенос</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Type</Name>
+    <LocalName>Тип</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Type code</Name>
+    <LocalName>Код типа</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Type name</Name>
+    <LocalName>Имя типа</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Type name R</Name>
+    <LocalName>Имя типа R</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Type:</Name>
+    <LocalName>Тип:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Undefined type of operation</Name>
+    <LocalName>Неопределенный тип операции</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Uniqueness of receive activity</Name>
+    <LocalName>Неоднозначность действия получения</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Unlimited</Name>
+    <LocalName>Без ограничений</LocalName>
+  </Translation>
+  <Translation>
+    <Name>User Task</Name>
+    <LocalName>Пользовательская задача</LocalName>
+  </Translation>
+  <Translation>
+    <Name>UserTask</Name>
+    <LocalName>UserTask</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Validate</Name>
+    <LocalName>Проверить</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Value</Name>
+    <LocalName>Значение</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Variable access serializable</Name>
+    <LocalName>Сериализуемый доступ к переменной</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Variable must be defined under the model</Name>
+    <LocalName>Переменная должна быть определена в данной модели</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Version:</Name>
+    <LocalName>Версия:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>_Type</Name>
+    <LocalName>_Тип</LocalName>
+  </Translation>
+</Translations>

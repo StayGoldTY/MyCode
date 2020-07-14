@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Config xmlns="http://www.sybase.com/bpmn2config.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Import>
+    <Scale>72</Scale>
+    <XAxisInversion>false</XAxisInversion>
+    <YAxisInversion>true</YAxisInversion>
+    <NoBoundaryPropertyName>boundaryNotVisibleProperty</NoBoundaryPropertyName>
+	<ProcessNotContainerPropertyName>processNotContainerProperty</ProcessNotContainerPropertyName>
+  </Import>
+  <Export>
+    <Scale>72</Scale>
+    <XAxisInversion>false</XAxisInversion>
+    <YAxisInversion>true</YAxisInversion>
+    <BoundaryEventShapeOption>true</BoundaryEventShapeOption>
+    <FixedEventShapeSize>60</FixedEventShapeSize>
+    <FixedDataShapeSize>52</FixedDataShapeSize>
+  </Export>
+</Config>

@@ -1,0 +1,9 @@
+E:\学习不止\MyAttribute\bin\Debug\netstandard2.0\MyAttribute.deps.json
+E:\学习不止\MyAttribute\bin\Debug\netstandard2.0\MyAttribute.dll
+E:\学习不止\MyAttribute\bin\Debug\netstandard2.0\MyAttribute.pdb
+E:\学习不止\MyAttribute\obj\Debug\netstandard2.0\MyAttribute.csprojAssemblyReference.cache
+E:\学习不止\MyAttribute\obj\Debug\netstandard2.0\MyAttribute.csproj.CoreCompileInputs.cache
+E:\学习不止\MyAttribute\obj\Debug\netstandard2.0\MyAttribute.AssemblyInfoInputs.cache
+E:\学习不止\MyAttribute\obj\Debug\netstandard2.0\MyAttribute.AssemblyInfo.cs
+E:\学习不止\MyAttribute\obj\Debug\netstandard2.0\MyAttribute.dll
+E:\学习不止\MyAttribute\obj\Debug\netstandard2.0\MyAttribute.pdb

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Translations lang="fr" extended="yes">
+  <Translation>
+    <Name>Incorrect attribute details</Name>
+    <LocalName>Détails d'attribut incorrects</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid cardinality</Name>
+    <LocalName>Cardinalité incorrecte</LocalName>
+  </Translation>
+</Translations>

@@ -1,0 +1,4717 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Translations lang="ru" extended="yes">
+  <Translation>
+    <Name>&amp;amp;Test Connection</Name>
+    <LocalName>&amp;amp;Тестовое подключение</LocalName>
+  </Translation>
+  <Translation>
+    <Name>.NET Framework Data Provider for ODBC</Name>
+    <LocalName>Поставщик данных .NET Framework для OLE DB</LocalName>
+  </Translation>
+  <Translation>
+    <Name>.NET Framework Data Provider for OLE DB</Name>
+    <LocalName>Поставщик данных .NET Framework для OLE DB</LocalName>
+  </Translation>
+  <Translation>
+    <Name>A Boundary object cannot communicate with another Boundary object. Boundary objects are reserved for external uses (Actors)</Name>
+    <LocalName>Объект Boundary не может взаимодействовать с другим объектом Boundary. Объекты Boundary зарезервированы для внешних пользователей (акторов)</LocalName>
+  </Translation>
+  <Translation>
+    <Name>A Web Service Component has no Web Method operation</Name>
+    <LocalName>У компонента веб-службы нет операции Web Method</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ABAP Application Components</Name>
+    <LocalName>Компоненты приложения ABAP</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ABAP Component</Name>
+    <LocalName>Компонент ABAP</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ABAP Package</Name>
+    <LocalName>Пакет ABAP</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ABAP Packages</Name>
+    <LocalName>Пакеты ABAP</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ABAP data type</Name>
+    <LocalName>Тип данных ABAP</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ABAP form name</Name>
+    <LocalName>Имя формы ABAP</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ABAP structure</Name>
+    <LocalName>Структура ABAP</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ABAP table</Name>
+    <LocalName>Таблица ABAP</LocalName>
+  </Translation>
+  <Translation>
+    <Name>AS Anywhere database file:</Name>
+    <LocalName>Файл базы данных AS Anywhere:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ASE version</Name>
+    <LocalName>Версия ASE</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Absence of O/R Mapping support</Name>
+    <LocalName>Отсутствие поддержки объектно-реляционного отображения</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Abstract class</Name>
+    <LocalName>Абстрактный класс</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Access</Name>
+    <LocalName>Доступ</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Access strategy</Name>
+    <LocalName>Стратегия доступа</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Actors or Boundary objects cannot access directly to an Entity object.
+It requires an intermediate Control object.
+Entity to entity access is also forbidden.</Name>
+    <LocalName>Акторы и объекты Boundary не могут напрямую получать доступ к объекту Entity.
+Для этого требуется промежуточный объект Control.
+Доступ одного объекта Entity к другому также запрещен.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Add Dali support</Name>
+    <LocalName>Добавить поддержку Dali</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Add Specific Column Mapping</Name>
+    <LocalName>Добавить определенное присвоение поля</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Add queue</Name>
+    <LocalName>Добавить очередь</LocalName>
+  </Translation>
+  <Translation>
+    <Name>All Extended Attributes</Name>
+    <LocalName>Все расширенные атрибуты</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Allow saving password</Name>
+    <LocalName>Разрешить сохранение пароля</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Allowed roles</Name>
+    <LocalName>Разрешенные роли</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Alter replication definition options</Name>
+    <LocalName>Изменить параметры определения тиражирования</LocalName>
+  </Translation>
+  <Translation>
+    <Name>An Actor cannot access directly to a Control or Entity object.
+It requires an intermediate Boundary object.</Name>
+    <LocalName>Актор не может напрямую получать доступ к объекту Control или Entity.
+Для этого требуется промежуточный объект Boundary.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Append structure</Name>
+    <LocalName>Добавить структуру</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Application Server System</Name>
+    <LocalName>Система сервера приложений</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Application component</Name>
+    <LocalName>Компонент приложения</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Application component ID</Name>
+    <LocalName>Идентификатор компонента приложения</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Apply To Connection String</Name>
+    <LocalName>Применить к строке подключения</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Article &amp;&amp; Replication Definition</Name>
+    <LocalName>Статья и определение тиражирования</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Article:</Name>
+    <LocalName>Статья:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Articles &amp;&amp; Function Replication Definitions</Name>
+    <LocalName>Статьи и определения тиражирования функций</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Articles &amp;&amp; Replication Definitions</Name>
+    <LocalName>Статьи и определения тиражирования</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Articles &amp;amp;&amp;amp; Function Replication Definitions</Name>
+    <LocalName>Статьи и определения тиражирования функций</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Articles &amp;amp;&amp;amp; Replication Definitions</Name>
+    <LocalName>Статьи и определения тиражирования</LocalName>
+  </Translation>
+  <Translation>
+    <Name>As</Name>
+    <LocalName>Как</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Association Mapping has not been defined</Name>
+    <LocalName>Присвоение ассоциаций не определено</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Association Mapping is not correct</Name>
+    <LocalName>Присвоение ассоциаций неверное</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Association between Class and Interface is not supported</Name>
+    <LocalName>Ассоциация класса и интерфейса не поддерживается</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Association class mapping is not defined</Name>
+    <LocalName>Присвоение класса ассоциаций не определено</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Association mapping is not correct</Name>
+    <LocalName>Присвоение ассоциаций неверное</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Association mapping is not defined</Name>
+    <LocalName>Присвоение ассоциаций не определено</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Association mapping is repeated or not used or target PDM has not been opened</Name>
+    <LocalName>Присвоение ассоциаций повторяется, не используется, или целевой PDM не открывался</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Association options</Name>
+    <LocalName>Опции ассоциации</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Association should be mapped to references and joined table</Name>
+    <LocalName>Ассоциация должна быть присвоена ссылкам или объединенной таблице</LocalName>
+  </Translation>
+  <Translation>
+    <Name>AssociationClass Mapping has not been defined</Name>
+    <LocalName>Присвоение AssociationClass не определено</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Attach a database file</Name>
+    <LocalName>Присоединить файл базы данных</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Attribute</Name>
+    <LocalName>Атрибут</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Attribute mapping is not correct</Name>
+    <LocalName>Присвоение атрибута неверное</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Attribute should be public for NHibernate access strategy</Name>
+    <LocalName>Атрибут должен быть общим для стратегии доступа NHibernate</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Authentication type:</Name>
+    <LocalName>Тип аутентификации:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Auto import</Name>
+    <LocalName>Автоматический импорт</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Auto schema export</Name>
+    <LocalName>Экспорт автоматической схемы</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Auto-map columns to properties</Name>
+    <LocalName>Автоматическое присвоение столбцов свойствам</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Available data type</Name>
+    <LocalName>Доступный тип данных</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Available number</Name>
+    <LocalName>Доступное число</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Average time</Name>
+    <LocalName>Среднее время</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Axis custom descriptor</Name>
+    <LocalName>Определенный пользователем дескриптор оси</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Axis custom namespaces</Name>
+    <LocalName>Определенные пользователем области имен оси</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Axis deserializer class</Name>
+    <LocalName>Класс десериализатора оси</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Axis serializer class</Name>
+    <LocalName>Класс сериализатора оси</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Base domain</Name>
+    <LocalName>Базовый домен</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Base domain code</Name>
+    <LocalName>Код базового домена</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Base field</Name>
+    <LocalName>Базовое поле</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Base field code</Name>
+    <LocalName>Код базового поля</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Base table</Name>
+    <LocalName>Базовая таблица</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Base table code</Name>
+    <LocalName>Код базовой таблицы</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Batch</Name>
+    <LocalName>Пакет</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Batch begin</Name>
+    <LocalName>Начало пакета</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Batch size</Name>
+    <LocalName>Размер пакета</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Bound Procedures</Name>
+    <LocalName>Связанные процедуры</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Bound Tables</Name>
+    <LocalName>Связанные таблицы</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Browse...</Name>
+    <LocalName>Обзор...</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Business description</Name>
+    <LocalName>Описание компании</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Business key</Name>
+    <LocalName>Ключ компании</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Business name</Name>
+    <LocalName>Название компании</LocalName>
+  </Translation>
+  <Translation>
+    <Name>CSS style</Name>
+    <LocalName>Стиль CSS</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Cache size</Name>
+    <LocalName>Размер кэша</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Callback type</Name>
+    <LocalName>Тип обратного вызова</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Capacity</Name>
+    <LocalName>Емкость</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Capital cost</Name>
+    <LocalName>Капитальные затраты</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Capital cost by unit</Name>
+    <LocalName>Капитальные затраты по единицам</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Cascade</Name>
+    <LocalName>Каскад</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Cascade persist</Name>
+    <LocalName>Каскадное устойчивость</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Catalog</Name>
+    <LocalName>Каталог</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Catalog name</Name>
+    <LocalName>Имя каталога</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Change data type to</Name>
+    <LocalName>Изменить тип данных на</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Changed by</Name>
+    <LocalName>Изменено</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Changed on date</Name>
+    <LocalName>Дата изменения</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Changed on time</Name>
+    <LocalName>Время изменения</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Character convert</Name>
+    <LocalName>Преобразование символов</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Check</Name>
+    <LocalName>Проверка</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Check SQL Statement configure</Name>
+    <LocalName>Проверка настройки утверждения SQL</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Check data integrity</Name>
+    <LocalName>Проверка целостности данных</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Check flag</Name>
+    <LocalName>Проверка флага</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Check locks interval</Name>
+    <LocalName>Проверка интервала блокировки</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Check locks times</Name>
+    <LocalName>Проверка времени блокировки</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Check the dedicated route is from the primary replication server.</Name>
+    <LocalName>Проверьте, начинается ли выделенный маршрут на основном сервере тиражирования.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Check the default data connection is unique.</Name>
+    <LocalName>Проверьте, уникальна ли стандартная привязка данных.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Check there is only one shared route between two replication processes.</Name>
+    <LocalName>Убедитесь, что между двумя процессами тиражирования есть только один общий маршрут.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Check threshold for database replication definition</Name>
+    <LocalName>Проверьте пороговое значение для определения тиражирования базы данных</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Check threshold for replication definition</Name>
+    <LocalName>Проверьте пороговое значение для определения тиражирования</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Check whether the primary connection is defined for the subscription.</Name>
+    <LocalName>Проверьте, определено ли основное подключение для подписки.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Check whether the table defined in the replication definition is bound to the primary connection of the subscription.</Name>
+    <LocalName>Проверьте, привязана ли таблица, определенная в определении тиражирования, к основному подключению подписки.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Check whether there is a shared route connected for the dedicated route.</Name>
+    <LocalName>Проверьте, существует ли подключенный общий маршрут для выделенного маршрута.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Checks if database type of PDM supported in Data Services.</Name>
+    <LocalName>Проверьте, поддерживается ли тип базы данных PDM в службах данных.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Child table cardinality</Name>
+    <LocalName>Кардинальность дочерней таблицы</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Class Mapping does not match with PDM</Name>
+    <LocalName>Присвоение класса не соответствует PDM</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Class Name</Name>
+    <LocalName>Имя класса</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Class Options</Name>
+    <LocalName>Опции класса</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Class options</Name>
+    <LocalName>Опции класса</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Class tag options</Name>
+    <LocalName>Опции тегов класса</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Cluster table</Name>
+    <LocalName>Кластерная таблица</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Code</Name>
+    <LocalName>Код</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Collection options</Name>
+    <LocalName>Опции коллекции</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Collection type</Name>
+    <LocalName>Тип коллекции</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Color</Name>
+    <LocalName>Цвет</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Column</Name>
+    <LocalName>Столбец</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Column Mapping</Name>
+    <LocalName>Присвоение поля</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Column Mappings</Name>
+    <LocalName>Присвоения полей</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Column cannot be flag identity</Name>
+    <LocalName>Столбец не может являться флагом</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Column header</Name>
+    <LocalName>Заголовок столбца</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Column height</Name>
+    <LocalName>Высота столбца</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Column height in cm</Name>
+    <LocalName>Высота столбца в см</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Column label</Name>
+    <LocalName>Метка столбца</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Column mapped by attribute should not be &quot;Mandatory&quot; in subclass inheritance hierarchy.</Name>
+    <LocalName>Столбец, привязанный по атрибуту, не должен быть обязательным в иерархии наследования подклассов.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Column mapped by attribute should not be mandatory in subclass inheritance hierarchy.</Name>
+    <LocalName>Столбец, привязанный по атрибуту, не должен быть обязательным в иерархии наследования подклассов.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Column mapping to the attribute should not be &quot;Mandatory&quot; in subclass inheritance hierarchy.</Name>
+    <LocalName>Столбец, привязанный к атрибуту, не должен быть обязательным в иерархии наследования подклассов.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Column name</Name>
+    <LocalName>Имя столбца</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Column replication type</Name>
+    <LocalName>Тип тиражирования столбца</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Column width</Name>
+    <LocalName>Ширина столбца</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Column width in cm</Name>
+    <LocalName>Ширина столбца в см</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Columns</Name>
+    <LocalName>Столбцы</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Command batch size</Name>
+    <LocalName>Размер пакета команд</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Command retry</Name>
+    <LocalName>Повторная попытка команды</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Command separator</Name>
+    <LocalName>Разделитель команд</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Comment</Name>
+    <LocalName>Комментарий</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Comment:</Name>
+    <LocalName>Комментарий:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Commit control</Name>
+    <LocalName>Управляющий элемент &quot;Отправить&quot;</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ComponentID options</Name>
+    <LocalName>Опции ComponentID</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Composite id unsaved value</Name>
+    <LocalName>Несохраненное значение составного идентификатора</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Connection</Name>
+    <LocalName>Соединение</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Connection Options</Name>
+    <LocalName>Опции соединения</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Connection Profile</Name>
+    <LocalName>Профиль соединения</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Connection Profile Version</Name>
+    <LocalName>Версия профиля соединения</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Connection URL</Name>
+    <LocalName>URL соединения</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Connection option</Name>
+    <LocalName>Опция соединения</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Connection pool size</Name>
+    <LocalName>Размер пула соединений</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Connection profile</Name>
+    <LocalName>Профиль соединения</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Connection profile version</Name>
+    <LocalName>Версия профиля соединения</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Connection string</Name>
+    <LocalName>Строка подключения</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Connection string (using)</Name>
+    <LocalName>Строка подключения (используется)</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Connection string:</Name>
+    <LocalName>Строка подключения:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Connection to a database</Name>
+    <LocalName>Подключение к базе данных</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Connection type:</Name>
+    <LocalName>Тип соединения:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Contain the private attribute in value type class</Name>
+    <LocalName>Содержит частный атрибут класса типа значения</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Contain the private primary key attribute</Name>
+    <LocalName>Содержит частный атрибут первичного ключа</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Control Type:</Name>
+    <LocalName>Тип управляющего элемента:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Control type</Name>
+    <LocalName>Тип управляющего элемента</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Conversion routine</Name>
+    <LocalName>Подпрограмма преобразования</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Correctness of attribute mapping</Name>
+    <LocalName>Правильность присвоения атрибута</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Correctness of joined table mapping</Name>
+    <LocalName>Правильность присвоения объединенной таблицы</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Correctness of optimistic lock mapping</Name>
+    <LocalName>Правильность присвоения оптимистичной блокировки</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Correctness of table mapping</Name>
+    <LocalName>Правильность присвоения таблицы</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Cost by time unit</Name>
+    <LocalName>Затраты на единицу времени</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Cost by time unit and by unit</Name>
+    <LocalName>Затраты на единицу времени и на единицу</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Cost by unit</Name>
+    <LocalName>Затраты на единицу</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Create LTL character parameter automatically</Name>
+    <LocalName>Автоматически создавать параметр для символов LTL</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Create Symbols</Name>
+    <LocalName>Создать символы</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Create associated objects if not found</Name>
+    <LocalName>Создавать сопоставленные объекты, если они не найдены</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Create if not exist</Name>
+    <LocalName>Создать, если не существует</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Create symbols in active diagram</Name>
+    <LocalName>Создать символы в активной схеме</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Created by</Name>
+    <LocalName>Создано</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Created on date</Name>
+    <LocalName>Дата создания</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Created on time</Name>
+    <LocalName>Время создания</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Currency code</Name>
+    <LocalName>Код валюты</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Currency symbol</Name>
+    <LocalName>Символ валюты</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Current language is not Java 5.0</Name>
+    <LocalName>Текущий язык отличается от Java 5.0</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Current object language should be C# 2.0 or Visual Basic 2005</Name>
+    <LocalName>Текущим объектным языком должен быть C# 2.0 или Visual Basic 2005</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Custom descriptor</Name>
+    <LocalName>Определенный пользователем дескриптор</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Customized by</Name>
+    <LocalName>Настроено</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DAL Container</Name>
+    <LocalName>Контейнер DAL</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DAL container</Name>
+    <LocalName>Контейнер DAL</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DAL container:</Name>
+    <LocalName>Контейнер DAL:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DAO options</Name>
+    <LocalName>Опции DAO</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DB include exclude</Name>
+    <LocalName>Включения и исключения базы данных</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DB index name</Name>
+    <LocalName>Имя индекса базы данных</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DBMS</Name>
+    <LocalName>DBMS</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DDL Password</Name>
+    <LocalName>Пароль DDL</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DDL User Name</Name>
+    <LocalName>Имя пользователя DDL</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DSI bulk copy</Name>
+    <LocalName>Массовое копирование DSI</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DSI bulk threshold</Name>
+    <LocalName>Пороговое значение для массовых операций DSI</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DSI command convert</Name>
+    <LocalName>Преобразование команд DSI</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DSI compile enable</Name>
+    <LocalName>Включение компиляции DSI</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DSI compile max cmds</Name>
+    <LocalName>Макс. число команд для компиляции DSI</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DSI connector type</Name>
+    <LocalName>Тип соединителя DSI</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DSI dataserver make</Name>
+    <LocalName>Марка сервера данных DSI</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DSI isolation level</Name>
+    <LocalName>Уровень изоляции DSI</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data Connection:</Name>
+    <LocalName>Привязка данных:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data Connections</Name>
+    <LocalName>Привязки данных</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data Connections between same Database and Server</Name>
+    <LocalName>Привязки данных между одной и той же базой данных и сервером</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data Dictionary</Name>
+    <LocalName>Словарь данных</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data Elements</Name>
+    <LocalName>Элементы данных</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data Source</Name>
+    <LocalName>Источник данных</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data Source:</Name>
+    <LocalName>Источник данных:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data Type Mapping</Name>
+    <LocalName>Присвоение типа данных</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data Type Mappings</Name>
+    <LocalName>Присвоения типов данных</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data Type:</Name>
+    <LocalName>Тип данных:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data dictionary data type</Name>
+    <LocalName>Тип данных словаря данных</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data element</Name>
+    <LocalName>Элемент данных</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data element code</Name>
+    <LocalName>Код элемента данных</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data font</Name>
+    <LocalName>Шрифт данных</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data justify</Name>
+    <LocalName>Выравнивание данных</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data movement mode</Name>
+    <LocalName>Режим движения данных</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data operation options</Name>
+    <LocalName>Опции операций с данными</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data provider list:</Name>
+    <LocalName>Список поставщиков данных:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data provider:</Name>
+    <LocalName>Поставщик данных:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data source</Name>
+    <LocalName>Источник данных</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data source name</Name>
+    <LocalName>Имя источника данных</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data source specification</Name>
+    <LocalName>Спецификация источника данных</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data source:</Name>
+    <LocalName>Источник данных:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data type</Name>
+    <LocalName>Тип данных</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data types mapping table</Name>
+    <LocalName>Таблица присвоения типов данных</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DataElement</Name>
+    <LocalName>DataElement</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DataType</Name>
+    <LocalName>DataType</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Database Connection</Name>
+    <LocalName>Подключение к базе данных</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Database Options</Name>
+    <LocalName>Опции базы данных</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Database code</Name>
+    <LocalName>Код базы данных</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Database connection options</Name>
+    <LocalName>Опции подключения к базе данных</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Database file name:</Name>
+    <LocalName>Имя файла базы данных:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Database name</Name>
+    <LocalName>Имя базы данных</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Database name:</Name>
+    <LocalName>Имя базы данных:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Database type</Name>
+    <LocalName>Тип базы данных</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Database type:</Name>
+    <LocalName>Тип базы данных:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Databases</Name>
+    <LocalName>Базы данных</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DatatypeMappings</Name>
+    <LocalName>DatatypeMappings</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Date and time pattern</Name>
+    <LocalName>Шаблон даты и времени</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Date display pattern</Name>
+    <LocalName>Шаблон отображения даты</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Date format</Name>
+    <LocalName>Формат даты</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Dedicated Route Setter</Name>
+    <LocalName>Назначение выделенного маршрута</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default Column Mapping</Name>
+    <LocalName>Стандартное присвоение полей</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default access</Name>
+    <LocalName>Доступ по умолчанию</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default access type</Name>
+    <LocalName>Тип доступа по умолчанию</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default access:</Name>
+    <LocalName>Доступ по умолчанию:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default cascade</Name>
+    <LocalName>Каскад по умолчанию</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default cascade type</Name>
+    <LocalName>Тип каскада по умолчанию</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default cascade:</Name>
+    <LocalName>Каскад по умолчанию:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default command type</Name>
+    <LocalName>Тип команды по умолчанию</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default command type:</Name>
+    <LocalName>Тип команды по умолчанию:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default connection</Name>
+    <LocalName>Соединение по умолчанию</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default data connection uniqueness</Name>
+    <LocalName>Уникальность привязки данных по умолчанию</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default data type</Name>
+    <LocalName>Тип данных по умолчанию</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default name</Name>
+    <LocalName>Имя по умолчанию</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default options</Name>
+    <LocalName>Опции по умолчанию</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Delete procedure code</Name>
+    <LocalName>Удалить код процедуры</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Delete table code</Name>
+    <LocalName>Удалить код таблицы</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Delivery class</Name>
+    <LocalName>Класс доставки</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Dependency factor</Name>
+    <LocalName>Фактор зависимости</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Deployment options</Name>
+    <LocalName>Опции развертывания</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Destination DBMS</Name>
+    <LocalName>Конечная DBMS</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Diagram scale</Name>
+    <LocalName>Шкала схемы</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Dialect</Name>
+    <LocalName>Диалект</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Direct connection</Name>
+    <LocalName>Соединение напрямую</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Discriminator column</Name>
+    <LocalName>Столбец дискриминатора</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Discriminator column defined does not exist</Name>
+    <LocalName>Определенный столбец дискриминатора не существует</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Discriminator options</Name>
+    <LocalName>Опции дискриминатора</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Discriminator type</Name>
+    <LocalName>Тип дискриминатора</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Discriminator value</Name>
+    <LocalName>Значение дискриминатора</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Disk affinity</Name>
+    <LocalName>Привязка к дискам</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Display as foreign key label</Name>
+    <LocalName>Отображать как метку внешнего ключа</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Display format pattern</Name>
+    <LocalName>Отображать шаблон формата</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Distribution</Name>
+    <LocalName>Распространение</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Distributor write request limit</Name>
+    <LocalName>Лимит запросов на запись распределителя</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Do not use discriminator in insert</Name>
+    <LocalName>Не использовать дискриминатор при вставке</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Domain code</Name>
+    <LocalName>Код домена</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Driver class</Name>
+    <LocalName>Класс драйвера</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Dump file directory</Name>
+    <LocalName>Каталог файлов дампа</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Dump file name</Name>
+    <LocalName>Имя файла дампа</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Dump load</Name>
+    <LocalName>Загрузка дампа</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Dump marker</Name>
+    <LocalName>Маркер дампа</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Duplicated shared routes</Name>
+    <LocalName>Повторяющиеся общие маршруты</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Dynamic SQL</Name>
+    <LocalName>Динамический SQL</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Dynamic Web module</Name>
+    <LocalName>Динамический веб-модуль</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Dynamic insert</Name>
+    <LocalName>Динамическая вставка</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Dynamic sql</Name>
+    <LocalName>Динамический SQL</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Dynamic sql cache management</Name>
+    <LocalName>Управление кэшем динамического SQL</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Dynamic sql cache size</Name>
+    <LocalName>Размер кэша динамического SQL</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Dynamic update</Name>
+    <LocalName>Динамическое обновление</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Edit style code</Name>
+    <LocalName>Изменить код стиля</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Empty Web Service</Name>
+    <LocalName>Пустая веб-служба</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Enable remote admin</Name>
+    <LocalName>Включить удаленное администрирование</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Enable replication</Name>
+    <LocalName>Включить тиражирование</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Encoding</Name>
+    <LocalName>Кодировка</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Encrypt connection string:</Name>
+    <LocalName>Зашифровать строку подключения:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Enter a server or file name</Name>
+    <LocalName>Введите имя сервера или файла</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Entity name</Name>
+    <LocalName>Имя объекта</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Error string class</Name>
+    <LocalName>Класс строк ошибок</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Example</Name>
+    <LocalName>Пример</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Excel</Name>
+    <LocalName>Excel</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Excel Column Mappings</Name>
+    <LocalName>Присвоения полей Excel</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Excel File</Name>
+    <LocalName>Файл Excel</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Excel Import</Name>
+    <LocalName>Импорт из Excel</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Excel Import Wizard</Name>
+    <LocalName>Мастер импорта из Excel</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Excel Imports</Name>
+    <LocalName>Операции импорта из Excel</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Existence of abstract class</Name>
+    <LocalName>Наличие абстрактного класса</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Existence of connectivity information</Name>
+    <LocalName>Наличие сведений о подключении</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Existence of data connection for ODBC</Name>
+    <LocalName>Наличие привязки данных для ODBC</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Existence of data source for Proxy</Name>
+    <LocalName>Наличие источника данных для прокси</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Existence of data source mapping</Name>
+    <LocalName>Наличие привязки источника данных</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Existence of discriminator for subclass inheritance mapping</Name>
+    <LocalName>Наличие дискриминатора для присвоения наследования подклассов</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Existence of duplicate column mapping</Name>
+    <LocalName>Наличие повторяющегося присвоения полей</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Existence of duplicated column mapping</Name>
+    <LocalName>Наличие повторяющегося присвоения полей</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Existence of master source table</Name>
+    <LocalName>Наличие основной исходной таблицы</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Existence of non-primary-identifier attribute</Name>
+    <LocalName>Наличие атрибута неосновного идентификатора</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Existence of persistence support</Name>
+    <LocalName>Наличие поддержки устойчивости</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Existence of persistent attribute in primary identifier</Name>
+    <LocalName>Наличие устойчивого атрибута в основном идентификаторе</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Existence of primary identifier</Name>
+    <LocalName>Наличие основного идентификатора</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Existence of reflexive reference in PDM</Name>
+    <LocalName>Наличие рефлексивной ссылки в PDM</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Existence of unknown attribute</Name>
+    <LocalName>Наличие неизвестного атрибута</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Existence of value type class in the association relationship</Name>
+    <LocalName>Наличие класса типа значения в отношении ассоциации</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Existence the illegal keywords</Name>
+    <LocalName>Наличие недопустимых ключевых слов</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Extension</Name>
+    <LocalName>Расширение</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Extension Index</Name>
+    <LocalName>Индекс расширений</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Extensions file\nfor new extended attributes</Name>
+    <LocalName>Файл расширений\nдля новых расширенных атрибутов</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Fade out time</Name>
+    <LocalName>Время угасания</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Fetch</Name>
+    <LocalName>Получение</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Fetch type</Name>
+    <LocalName>Тип получения</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Field code</Name>
+    <LocalName>Код поля</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Field delimiter</Name>
+    <LocalName>Разделитель полей</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Field type</Name>
+    <LocalName>Тип поля</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Files and libraries</Name>
+    <LocalName>Файлы и библиотеки</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Finance</Name>
+    <LocalName>Финансы</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Finance capital cost</Name>
+    <LocalName>Капитальные финансовые затраты</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Finance cost by time unit</Name>
+    <LocalName>Финансовые затраты на единицу времени</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Finance currency symbol</Name>
+    <LocalName>Символ финансовой валюты</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Finance overhead cost</Name>
+    <LocalName>Накладные финансовые расходы</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Finance overhead revenue</Name>
+    <LocalName>Непроизводственная финансовая прибыль</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Fixed values</Name>
+    <LocalName>Фиксированные значения</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Footer JSP file</Name>
+    <LocalName>JSP-файл нижнего колонтитула</LocalName>
+  </Translation>
+  <Translation>
+    <Name>For an Xcolumn mapping, source table of root element must be flagged not generated.</Name>
+    <LocalName>Для привязки Xcolumn исходная таблица корневого элемента должна быть помечена, а не сгенерирована.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>For new articles</Name>
+    <LocalName>Новые статьи</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Force usage of discriminator</Name>
+    <LocalName>Принудительно использовать дискриминатор</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Form Options</Name>
+    <LocalName>Опции формы</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Form control width</Name>
+    <LocalName>Ширина управляющего элемента формы</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Form label width</Name>
+    <LocalName>Ширина метки формы</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Format mask code</Name>
+    <LocalName>Код маски формата</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Format mask text</Name>
+    <LocalName>Текст маски формата</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Full message service</Name>
+    <LocalName>Служба полных сообщений</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Function Replication Definition</Name>
+    <LocalName>Определение тиражирования функции</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Function Replication Definitions</Name>
+    <LocalName>Определения тиражирования функций</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Function String</Name>
+    <LocalName>Строка функции</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Function String Options</Name>
+    <LocalName>Опции строки функции</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Function Strings</Name>
+    <LocalName>Строки функций</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Function replication definition name</Name>
+    <LocalName>Имя определения тиражирования функции</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Function string class</Name>
+    <LocalName>Класс строки функции</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Function string class name</Name>
+    <LocalName>Имя класса строки функции</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Function string name</Name>
+    <LocalName>Имя строки функции</LocalName>
+  </Translation>
+  <Translation>
+    <Name>General</Name>
+    <LocalName>Общие</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Generate</Name>
+    <LocalName>Сгенерировать</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Generate Test Method</Name>
+    <LocalName>Сгенерировать тестовый метод</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Generate finder</Name>
+    <LocalName>Сгенерировать средство поиска</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Generate finder function</Name>
+    <LocalName>Сгенерировать функцию поиска</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Generate test method</Name>
+    <LocalName>Сгенерировать тестовый метод</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Generated function name</Name>
+    <LocalName>Сгенерированное имя функции</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Generator allocation size</Name>
+    <LocalName>Выделяемый размер для генератора</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Generator class</Name>
+    <LocalName>Класс генератора</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Generator class (idbag)</Name>
+    <LocalName>Класс генератора (idbag)</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Generator initial value</Name>
+    <LocalName>Начальное значение генератора</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Generator params</Name>
+    <LocalName>Параметры генератора</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Generator params (idbag)</Name>
+    <LocalName>Параметры генератора (idbag)</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Generic Import</Name>
+    <LocalName>Общий импорт</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Global options</Name>
+    <LocalName>Глобальные опции</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Group size</Name>
+    <LocalName>Размер группы</LocalName>
+  </Translation>
+  <Translation>
+    <Name>HTTP get port type</Name>
+    <LocalName>Тип порта для HTTP get</LocalName>
+  </Translation>
+  <Translation>
+    <Name>HTTP post port type</Name>
+    <LocalName>Тип порта для HTTP post</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Halt simulation at limit</Name>
+    <LocalName>Останавливать моделирование при достижении лимита</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Has bitmap</Name>
+    <LocalName>Есть битовая карта</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Header JSP file</Name>
+    <LocalName>JSP-файл верхнего колонтитула</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Header font</Name>
+    <LocalName>Шрифт верхнего колонтитула</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Header justify</Name>
+    <LocalName>Выравнивание верхнего колонтитула</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Hibernate type</Name>
+    <LocalName>Тип гибернации</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Hidden</Name>
+    <LocalName>Скрыто</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Homogeneous Routes</Name>
+    <LocalName>Гомогенные маршруты</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Host name</Name>
+    <LocalName>Имя хоста</LocalName>
+  </Translation>
+  <Translation>
+    <Name>IP Address</Name>
+    <LocalName>IP-адрес</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Id unsaved value</Name>
+    <LocalName>Несохраненное значение идентификатора</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Identifier options</Name>
+    <LocalName>Опции идентификатора</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Identity</Name>
+    <LocalName>Идентичность</LocalName>
+  </Translation>
+  <Translation>
+    <Name>If message show, it means that you have not map class into table or association into reference</Name>
+    <LocalName>Если появится сообщение, это значит, что вы не привязали класс к таблице или ассоциацию к ссылке</LocalName>
+  </Translation>
+  <Translation>
+    <Name>If the message is shown, it means that you have not mapped class with table, or association with reference</Name>
+    <LocalName>Если появится сообщение, это значит, что вы не привязали класс к таблице или ассоциацию к ссылке</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Ignore underscore name</Name>
+    <LocalName>Игнорировать имена с символами подчеркивания</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Import</Name>
+    <LocalName>Импорт</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Import Column</Name>
+    <LocalName>Импортировать столбец</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Import Options</Name>
+    <LocalName>Опции импорта</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Import Table</Name>
+    <LocalName>Импортировать таблицу</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Import as</Name>
+    <LocalName>Импортировать как</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Import column</Name>
+    <LocalName>Импортировать столбец</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Import table</Name>
+    <LocalName>Импортировать таблицу</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Imported Kind</Name>
+    <LocalName>Импортированный вид</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Imported Stereotype</Name>
+    <LocalName>Импортированный стереотип</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Imported Type</Name>
+    <LocalName>Импортированный тип</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Imported class name</Name>
+    <LocalName>Импортированное имя класса</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Imported file</Name>
+    <LocalName>Импортированный файл</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Include structure</Name>
+    <LocalName>Включать структуру</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Include structure code</Name>
+    <LocalName>Включать код структуры</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Inconsistent inputs</Name>
+    <LocalName>Противоречивые входные данные</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Inconsistent with inputs</Name>
+    <LocalName>Противоречит входным данным</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Incorrect Actor Association</Name>
+    <LocalName>Неправильная ассоциация актора</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Incorrect Actor Collaboration</Name>
+    <LocalName>Неправильное взаимодействие акторов</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Incorrect Boundary to Boundary Link</Name>
+    <LocalName>Неправильная связь объектов Boundary</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Incorrect Entity Access</Name>
+    <LocalName>Неправильный доступ к объекту</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Incorrectness of column type</Name>
+    <LocalName>Неправильность типа столбца</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Index column</Name>
+    <LocalName>Столбец индекса</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Initial catalog:</Name>
+    <LocalName>Исходный каталог:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Initial item count</Name>
+    <LocalName>Исходное число элементов</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Initial value</Name>
+    <LocalName>Начальное значение</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Inner class can be instantiated</Name>
+    <LocalName>Можно создать экземпляр внутреннего класса</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Input HTTP get message name</Name>
+    <LocalName>Имя входящего сообщения HTTP get</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Input HTTP post message name</Name>
+    <LocalName>Имя входящего сообщения HTTP post</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Input SOAP body parts</Name>
+    <LocalName>Элементы текста входящего сообщения SOAP</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Input SOAP body use</Name>
+    <LocalName>Использование текста входящего сообщения SOAP</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Input SOAP message name</Name>
+    <LocalName>Имя входящего сообщения SOAP</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Input help</Name>
+    <LocalName>Справка по вводу</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Insert</Name>
+    <LocalName>Вставить</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Insert procedure code</Name>
+    <LocalName>Вставить код процедуры</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Insert table code</Name>
+    <LocalName>Вставить код таблицы</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Insertable</Name>
+    <LocalName>Поддерживает вставку</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Inter-arrival time</Name>
+    <LocalName>Время между получением</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Internal classification</Name>
+    <LocalName>Внутренняя классификация</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid &quot;or&quot; in lookup script</Name>
+    <LocalName>Недействительное &quot;or&quot; в скрипте поиска</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid &quot;|&quot; in source expression</Name>
+    <LocalName>Недействительное &quot;|&quot; в исходном выражении</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid Group by clause in lookup script</Name>
+    <LocalName>Недействительное утверждение Group by в скрипте поиска</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid Mapping of DAD</Name>
+    <LocalName>Недопустимая привязка DAD</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid XSD file</Name>
+    <LocalName>Недействительный XSD-файл</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid bound procedures</Name>
+    <LocalName>Недопустимые связанные процедуры</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid bound tables</Name>
+    <LocalName>Недопустимые связанные таблицы</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid data connections</Name>
+    <LocalName>Недопустимые привязки данных</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid data structure columns</Name>
+    <LocalName>Недействительные столбцы структуры данных</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid dedicated route</Name>
+    <LocalName>Недопустимый выделенный маршрут</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid default logical connection</Name>
+    <LocalName>Недопустимое логическое соединение по умолчанию</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid kind of data type</Name>
+    <LocalName>Недопустимый вид типа данных</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid lookup column</Name>
+    <LocalName>Недействительный столбец поиска</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid lookup mode</Name>
+    <LocalName>Недействительный режим поиска</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid non-&quot;select&quot; statement in lookup script</Name>
+    <LocalName>Недействительная отличная от &quot;select&quot; инструкция в скрипте поиска</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid placement of data structure column in Where clause</Name>
+    <LocalName>Недействительное размещение столбца структуры данных в утверждении Where</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid placement of lookup table column in Where clause</Name>
+    <LocalName>Недействительное размещение столбца таблицы поиска в утверждении Where</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid placement of lookup table in Where clause</Name>
+    <LocalName>Недействительное размещение таблицы поиска в утверждении Where</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid primary logical connection</Name>
+    <LocalName>Недопустимое основное логическое соединение</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Inverse collection</Name>
+    <LocalName>Обратная коллекция</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Inverse side</Name>
+    <LocalName>Обратная сторона</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Is element from DTD</Name>
+    <LocalName>Относится ли элемент к DTD</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Is extended</Name>
+    <LocalName>Является ли расширенной</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Is key</Name>
+    <LocalName>Является ли ключевым</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Is sub-object</Name>
+    <LocalName>Является ли подобъектом</LocalName>
+  </Translation>
+  <Translation>
+    <Name>JDBC driver Jar</Name>
+    <LocalName>JAR-файл драйвера JDBC</LocalName>
+  </Translation>
+  <Translation>
+    <Name>JDBC driver class</Name>
+    <LocalName>Класс драйвера JDBC</LocalName>
+  </Translation>
+  <Translation>
+    <Name>JSF configuration</Name>
+    <LocalName>Конфигурация JSF</LocalName>
+  </Translation>
+  <Translation>
+    <Name>JSF runtime</Name>
+    <LocalName>Время выполнения JSF</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Joined table mapping is not correct</Name>
+    <LocalName>Привязка объединенной таблицы неправильная</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Keep triggers</Name>
+    <LocalName>Сохранять триггеры</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Key access</Name>
+    <LocalName>Доступ к ключу</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Key column should be defined for ordered collection</Name>
+    <LocalName>Для упорядоченной коллекции необходимо определить ключевой столбец</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Key generation mode</Name>
+    <LocalName>Режим генерации ключей</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Key in Collection has not been defined</Name>
+    <LocalName>Ключ в коллекции не определен</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Keywords</Name>
+    <LocalName>Ключевые слова</LocalName>
+  </Translation>
+  <Translation>
+    <Name>LTI write request limit</Name>
+    <LocalName>Лимит запросов на запись LTI</LocalName>
+  </Translation>
+  <Translation>
+    <Name>LTL character case</Name>
+    <LocalName>Регистр символов LTL</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Label font</Name>
+    <LocalName>Шрифт метки</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Label justify</Name>
+    <LocalName>Выравнивание метки</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Large message</Name>
+    <LocalName>Длинное сообщение</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Lazy</Name>
+    <LocalName>Ленивый</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Lazy loading</Name>
+    <LocalName>Ленивая загрузка</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Length</Name>
+    <LocalName>Длина</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Length:</Name>
+    <LocalName>Длина:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Limit</Name>
+    <LocalName>Лимит</LocalName>
+  </Translation>
+  <Translation>
+    <Name>List Separator</Name>
+    <LocalName>Разделитель элементов списка</LocalName>
+  </Translation>
+  <Translation>
+    <Name>List name</Name>
+    <LocalName>Имя списка</LocalName>
+  </Translation>
+  <Translation>
+    <Name>List of database system 1</Name>
+    <LocalName>Список систем БД 1</LocalName>
+  </Translation>
+  <Translation>
+    <Name>List of database system 2</Name>
+    <LocalName>Список систем БД 2</LocalName>
+  </Translation>
+  <Translation>
+    <Name>List of database system 3</Name>
+    <LocalName>Список систем БД 3</LocalName>
+  </Translation>
+  <Translation>
+    <Name>List of database system 4</Name>
+    <LocalName>Список систем БД 4</LocalName>
+  </Translation>
+  <Translation>
+    <Name>List of extended sub-objects</Name>
+    <LocalName>Список расширенных подобъектов</LocalName>
+  </Translation>
+  <Translation>
+    <Name>List of instantiable classes</Name>
+    <LocalName>Список классов, допускающих создание экземпляров</LocalName>
+  </Translation>
+  <Translation>
+    <Name>List of objects</Name>
+    <LocalName>Список объектов</LocalName>
+  </Translation>
+  <Translation>
+    <Name>List value separator</Name>
+    <LocalName>Разделитель значений списка</LocalName>
+  </Translation>
+  <Translation>
+    <Name>List values method</Name>
+    <LocalName>Метод перечисления значений</LocalName>
+  </Translation>
+  <Translation>
+    <Name>List-index column for ListCollection is not defined</Name>
+    <LocalName>Столбец индекса списка для ListCollection не определен</LocalName>
+  </Translation>
+  <Translation>
+    <Name>List-index column in ListCollection has not been defined</Name>
+    <LocalName>Столбец индекса списка в ListCollection не определен</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Load file directory</Name>
+    <LocalName>Загрузить каталог файлов</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Local user name</Name>
+    <LocalName>Имя локального пользователя</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Locale</Name>
+    <LocalName>Языковая версия</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Location of output on device:</Name>
+    <LocalName>Местоположение выхода на устройстве:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Location:</Name>
+    <LocalName>Местоположение:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Lock mode</Name>
+    <LocalName>Режим блокировки</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Log on to the server</Name>
+    <LocalName>Вход на сервер</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Log type</Name>
+    <LocalName>Тип журнала</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Logging File</Name>
+    <LocalName>Файл журнала</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Logging Options</Name>
+    <LocalName>Опции журнала</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Logging Type</Name>
+    <LocalName>Тип журнала</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Logging type:</Name>
+    <LocalName>Тип журнала:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Logical Connection</Name>
+    <LocalName>Логическое соединение</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Logical Connections</Name>
+    <LocalName>Логические соединения</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Logical Path</Name>
+    <LocalName>Логический путь</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Logical Path Setter</Name>
+    <LocalName>Назначение логического пути</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Logical Paths</Name>
+    <LocalName>Логические пути</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Logical name</Name>
+    <LocalName>Логическое имя</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Logical name:</Name>
+    <LocalName>Логическое имя:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Logical_Path</Name>
+    <LocalName>Логический_путь</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Login Information</Name>
+    <LocalName>Сведения для входа в систему</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Login information</Name>
+    <LocalName>Сведения для входа в систему</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Login:</Name>
+    <LocalName>Вход:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Lookup table</Name>
+    <LocalName>Таблица поиска</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Lookup table code</Name>
+    <LocalName>Код таблицы поиска</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Lower bound</Name>
+    <LocalName>Нижняя граница</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Lower bound time</Name>
+    <LocalName>Время нижней границы</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Lowercase</Name>
+    <LocalName>Нижний регистр</LocalName>
+  </Translation>
+  <Translation>
+    <Name>MSSQL mobile database file:</Name>
+    <LocalName>Файл мобильной базы данных MSSQL:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Main package</Name>
+    <LocalName>Основной пакет</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Maintenance status</Name>
+    <LocalName>Статус обслуживания</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Maintenance user should not be a DDL User</Name>
+    <LocalName>Пользователь, выполняющий обслуживание, не должен быть пользователем DDL</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Maintenance user should not be a Replication Agent User</Name>
+    <LocalName>Пользователь, выполняющий обслуживание, не должен быть пользователем агента тиражирования</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Mandatory</Name>
+    <LocalName>Обязательно</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Manufacturer</Name>
+    <LocalName>Изготовитель</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Many-to-Many association must have the middle table in PDM</Name>
+    <LocalName>Для ассоциации &quot;многие ко многим&quot; в PDM должна быть промежуточная таблица</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Many-to-Many operation side</Name>
+    <LocalName>Сторона операции &quot;многие ко многим&quot;</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Many-to-Many self association is not supported by Hibernate</Name>
+    <LocalName>Ассоциация &quot;многие ко многим&quot; объекта с самим собой не поддерживается Hibernate</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Many-to-Many self association is not supported by NHibernate</Name>
+    <LocalName>Ассоциация &quot;многие ко многим&quot; объекта с самим собой не поддерживается NHibernate</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Map data type from</Name>
+    <LocalName>Присвоить тип данных из</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Mapped by default to:</Name>
+    <LocalName>По умолчанию присвоено:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Mapping</Name>
+    <LocalName>Присвоение</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Mapping Description</Name>
+    <LocalName>Описание присвоения</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Mapping definition type</Name>
+    <LocalName>Тип определения присвоения</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Mapping description</Name>
+    <LocalName>Описание присвоения</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Mapping for association with association class is not supported</Name>
+    <LocalName>Присвоение ассоциации классу ассоциаций не поддерживается</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Mapping specific column</Name>
+    <LocalName>Присвоение определенного столбца</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Mapping type</Name>
+    <LocalName>Тип присвоения</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Mappings</Name>
+    <LocalName>Присвоения</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Materialization</Name>
+    <LocalName>Материализация</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Materialization save interval</Name>
+    <LocalName>Интервал сохранения материализации</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Max check locks times</Name>
+    <LocalName>Макс. время проверки блокировки</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Maximum Number of resources</Name>
+    <LocalName>Максимальное число ресурсов</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Maximum image or text size</Name>
+    <LocalName>Максимальный размер изображения или текста</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Maximum length</Name>
+    <LocalName>Максимальная длина</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Maximum length for parameter name</Name>
+    <LocalName>Максимальная длина имени параметра</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Memory</Name>
+    <LocalName>Память</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Message confidentiality</Name>
+    <LocalName>Конфиденциальность сообщений</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Message integrity</Name>
+    <LocalName>Целостность сообщений</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Message origin check</Name>
+    <LocalName>Проверка источника сообщений</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Message replay detection</Name>
+    <LocalName>Определение повторения сообщений</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Message sequence check</Name>
+    <LocalName>Проверка последовательности сообщений</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Message service URL</Name>
+    <LocalName>URL службы сообщений</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Method of persistence entity class must not be final</Name>
+    <LocalName>Метод класса объектов устойчивости не должен быть окончательным</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Microsoft SQL Server Database File (SqlClient)</Name>
+    <LocalName>Файл базы данных Microsoft SQL Server (SqlClient)</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Microsoft SQL Server Mobile Edition (.NET Framework Data Provider for SQL Server CE)</Name>
+    <LocalName>Microsoft SQL Server, выпуск для мобильных устройств (поставщик данных .NET Framework для SQL Server CE)</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Minimum Number of resources</Name>
+    <LocalName>Минимальное число ресурсов</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Minimum length</Name>
+    <LocalName>Минимальная длина</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Minimum wait time</Name>
+    <LocalName>Минимальное время ожидания</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing ODBC connection information</Name>
+    <LocalName>Нет информации о соединении ODBC</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing XML file or XSD file</Name>
+    <LocalName>Отсутствует XML-файл или XSD-файл</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing data connection</Name>
+    <LocalName>Отсутствует соединение данных</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing data mapping</Name>
+    <LocalName>Отсутствует присвоение данных</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing data type</Name>
+    <LocalName>Отсутствует тип данных</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing direct connection username</Name>
+    <LocalName>Отсутствует имя пользователя соединения напрямую</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing output column data mapping</Name>
+    <LocalName>Отсутствует присвоение данных столбца вывода</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing output table primary key data mapping</Name>
+    <LocalName>Отсутствует присвоение данных первичного ключа таблицы вывода</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing shared route for dedicated route</Name>
+    <LocalName>Отсутствует общий маршрут для выделенного маршрута</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing source expression</Name>
+    <LocalName>Отсутствует исходное выражение</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing target object</Name>
+    <LocalName>Отсутствует целевой объект</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing the column length</Name>
+    <LocalName>Отсутствует длина столбца</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Mobile type:</Name>
+    <LocalName>Мобильный тип:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Modify the default data type mapping for this column.</Name>
+    <LocalName>Изменение стандартного присвоения типа данных для этого столбца.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Modify the default mapping for this data type.</Name>
+    <LocalName>Изменение стандартного присвоения для этого типа данных.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Modify the default mappings of data types between the current and target DBMS</Name>
+    <LocalName>Изменение стандартных присвоений типов данных между текущей и целевой DBMS</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Multiple data connection groups</Name>
+    <LocalName>Несколько групп привязки данных</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Multiple owner</Name>
+    <LocalName>Несколько владельцев</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must not have unreachable data model in data source</Name>
+    <LocalName>В источнике данных не должно быть недоступных моделей данных</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Mutable</Name>
+    <LocalName>Изменяемый</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Mutual authorization</Name>
+    <LocalName>Взаимная авторизация</LocalName>
+  </Translation>
+  <Translation>
+    <Name>NHibernate type</Name>
+    <LocalName>Тип NHibernate</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Name</Name>
+    <LocalName>Имя</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Namespace</Name>
+    <LocalName>Область имен</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Namespaces</Name>
+    <LocalName>Области имен</LocalName>
+  </Translation>
+  <Translation>
+    <Name>New Attribute</Name>
+    <LocalName>Новый атрибут</LocalName>
+  </Translation>
+  <Translation>
+    <Name>New Object List</Name>
+    <LocalName>Новый список объектов</LocalName>
+  </Translation>
+  <Translation>
+    <Name>New Object Type</Name>
+    <LocalName>Новый тип объекта</LocalName>
+  </Translation>
+  <Translation>
+    <Name>New object type...</Name>
+    <LocalName>Новый тип объекта...</LocalName>
+  </Translation>
+  <Translation>
+    <Name>New...</Name>
+    <LocalName>Создать...</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Next site</Name>
+    <LocalName>Следующий сайт</LocalName>
+  </Translation>
+  <Translation>
+    <Name>No inherit</Name>
+    <LocalName>Без наследования</LocalName>
+  </Translation>
+  <Translation>
+    <Name>No reference table in association</Name>
+    <LocalName>В ассоциации нет ссылочной таблицы</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Not defined mandatory on foreign-key when value type collection</Name>
+    <LocalName>Внешний ключ не определен как обязательный при сборе типов значений</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Not found</Name>
+    <LocalName>Не найдено</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Not supported Association Class</Name>
+    <LocalName>Класс ассоциаций не поддерживается</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Not supported index column collection on multiple side</Name>
+    <LocalName>Сбор столбцов индекса с нескольких сторон не поддерживается</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Not supported user-defined collection type</Name>
+    <LocalName>Пользовательские типы коллекций не поддерживаются</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Number</Name>
+    <LocalName>Номер</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Number of bytes in log</Name>
+    <LocalName>Число байтов в журнале</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Number of commands in log</Name>
+    <LocalName>Число команд в журнале</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Number of commands per timeslide</Name>
+    <LocalName>Число команд на отрезок времени</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Number of data connections</Name>
+    <LocalName>Число привязок данных</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Number of lines</Name>
+    <LocalName>Число строк</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Number of parallel threads</Name>
+    <LocalName>Число параллельных потоков</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Number of rows in DataGridView</Name>
+    <LocalName>Число строк в DataGridView</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Number of rows in table</Name>
+    <LocalName>Число строк в таблице</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Number of threads</Name>
+    <LocalName>Число потоков</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Number of transactions in group</Name>
+    <LocalName>Число транзакций в группе</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Number of transactions in log</Name>
+    <LocalName>Число транзакций в журнале</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Number of visible characters</Name>
+    <LocalName>Число видимых символов</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ODBC</Name>
+    <LocalName>ODBC</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ODBC source name:</Name>
+    <LocalName>Имя источника ODBC:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>OLE DB Provider:</Name>
+    <LocalName>Поставщик OLE DB:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Object</Name>
+    <LocalName>Объект</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Object Binding Setter</Name>
+    <LocalName>Назначение привязки объекта</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Object type</Name>
+    <LocalName>Тип объекта</LocalName>
+  </Translation>
+  <Translation>
+    <Name>One-to-many association is mapped to reference with incorrect direction</Name>
+    <LocalName>Ассоциация &quot;один ко многим&quot; присвоена ссылке с неправильным направлением</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Operating System</Name>
+    <LocalName>Операционная система</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Operation options</Name>
+    <LocalName>Опции операции</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Optimistic lock</Name>
+    <LocalName>Оптимистичная блокировка</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Optimistic lock mapping is not correct</Name>
+    <LocalName>Присвоение оптимистичной блокировки неправильное</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Optimistic lock options</Name>
+    <LocalName>Опции оптимистичной блокировки</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Options</Name>
+    <LocalName>Опции</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Options...</Name>
+    <LocalName>Опции...</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Oracle Database (OracleClient)</Name>
+    <LocalName>База данных Oracle (OracleClient)</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Order by</Name>
+    <LocalName>Упорядочить по</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Original data type</Name>
+    <LocalName>Исходный тип данных</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Original language</Name>
+    <LocalName>Исходный язык</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Original type</Name>
+    <LocalName>Исходный тип</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Other options</Name>
+    <LocalName>Другие опции</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Outer join</Name>
+    <LocalName>Внешнее соединение</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Output HTTP get message name</Name>
+    <LocalName>Имя исходящего сообщения HTTP get</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Output HTTP post message name</Name>
+    <LocalName>Имя исходящего сообщения HTTP post</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Output SOAP body parts</Name>
+    <LocalName>Элементы текста исходящего сообщения SOAP</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Output SOAP body use</Name>
+    <LocalName>Использование текста исходящего сообщения SOAP</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Output SOAP message name</Name>
+    <LocalName>Имя исходящего сообщения SOAP</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Output file folder:</Name>
+    <LocalName>Папка выходных файлов:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Output length</Name>
+    <LocalName>Длина выходных данных</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Overwrite function class</Name>
+    <LocalName>Перезаписать класс функции</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Owner</Name>
+    <LocalName>Владелец</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Owner of extended attribute system tables</Name>
+    <LocalName>Владелец системных таблиц расширенных атрибутов</LocalName>
+  </Translation>
+  <Translation>
+    <Name>PDM does not match with inheritance requirements of NHibernate</Name>
+    <LocalName>PDM не соответствует требованиям NHibernate к наследованию</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Package code</Name>
+    <LocalName>Код пакета</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Package options</Name>
+    <LocalName>Опции пакета</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Package prefix</Name>
+    <LocalName>Префикс пакета</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Packet size</Name>
+    <LocalName>Размер пакета</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Page options</Name>
+    <LocalName>Опции страницы</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Parallel DSI</Name>
+    <LocalName>Параллельный DSI</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Parameter support</Name>
+    <LocalName>Поддержка параметров</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Parent</Name>
+    <LocalName>Вышестоящий элемент</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Parent entity</Name>
+    <LocalName>Вышестоящий объект</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Parent package</Name>
+    <LocalName>Вышестоящий пакет</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Parent table cardinality</Name>
+    <LocalName>Кардинальность вышестоящей таблицы</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Partitioning rule</Name>
+    <LocalName>Правило разделения</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Password</Name>
+    <LocalName>Пароль</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Password:</Name>
+    <LocalName>Пароль:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Path:</Name>
+    <LocalName>Путь:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Permission</Name>
+    <LocalName>Разрешение</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Persistence entity class should be mapped to table</Name>
+    <LocalName>Класс объектов устойчивости должен быть присвоен таблице</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Persistence provider</Name>
+    <LocalName>Поставщик устойчивости</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Persistent Data Source</Name>
+    <LocalName>Устойчивый источник данных</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Persistent association should be mapped</Name>
+    <LocalName>Устойчивая ассоциация должна быть присвоена</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Persistent attribute should not be final</Name>
+    <LocalName>Устойчивый атрибут не должен быть окончательным</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Persistent class in default package</Name>
+    <LocalName>Устойчивый класс в пакете по умолчанию</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Persistent class should not be defined in default package</Name>
+    <LocalName>Устойчивый класс не должен быть определен в пакете по умолчанию</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Persistent entity class should be top level class</Name>
+    <LocalName>Класс устойчивых объектов должен быть классом верхнего уровня</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Persistent entity class should not be final</Name>
+    <LocalName>Класс устойчивых объектов не должен быть окончательным</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Persister class</Name>
+    <LocalName>Класс устойчивости</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Persister class name</Name>
+    <LocalName>Имя класса устойчивости</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Phone number</Name>
+    <LocalName>Телефон</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Physical Table</Name>
+    <LocalName>Физическая таблица</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Physical table</Name>
+    <LocalName>Физическая таблица</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Physical table code</Name>
+    <LocalName>Код физической таблицы</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Physical tables</Name>
+    <LocalName>Физические таблицы</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Picture library path</Name>
+    <LocalName>Путь к библиотеке рисунков</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Plural</Name>
+    <LocalName>Множественное</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Plural name</Name>
+    <LocalName>Имя во множественном числе</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Polymorphism</Name>
+    <LocalName>Полиморфизм</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Pooled table</Name>
+    <LocalName>Таблица в пуле</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Port number</Name>
+    <LocalName>Номер порта</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Port type</Name>
+    <LocalName>Тип порта</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Port type name</Name>
+    <LocalName>Имя типа порта</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Port:</Name>
+    <LocalName>Порт:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Post condition</Name>
+    <LocalName>Последующее условие</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Pre condition</Name>
+    <LocalName>Предварительное условие</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Precision</Name>
+    <LocalName>Точность</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Precision:</Name>
+    <LocalName>Точность:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Primary Connection</Name>
+    <LocalName>Основное подключение</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Primary Connection Object</Name>
+    <LocalName>Объект основного подключения</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Primary Data Connections</Name>
+    <LocalName>Основные привязки данных</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Primary Logical Connection</Name>
+    <LocalName>Основное логическое подключение</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Primary Logical Connection Object</Name>
+    <LocalName>Объект основного логического подключения</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Primary database password</Name>
+    <LocalName>Пароль основной базы данных</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Primary database port number</Name>
+    <LocalName>Номер порта основной базы данных</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Primary database user name</Name>
+    <LocalName>Имя пользователя основной базы данных</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Primary identifier must be defined</Name>
+    <LocalName>Должен быть определен основной идентификатор</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Primary identifier must contain persistent attribute</Name>
+    <LocalName>Основной идентификатор должен содержать устойчивый атрибут</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Primary key</Name>
+    <LocalName>Первичный ключ</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Primary key join does not exist</Name>
+    <LocalName>Соединение первичного ключа не существует</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Primary procedure name</Name>
+    <LocalName>Имя основной процедуры</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Primary table name</Name>
+    <LocalName>Имя основной таблицы</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Priority</Name>
+    <LocalName>Приоритет</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Procedure Binding Matrix</Name>
+    <LocalName>Матрица привязки процедур</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Procedure lacks of owner information</Name>
+    <LocalName>В процедуре нет сведений о владельце</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Procedure option</Name>
+    <LocalName>Опция процедуры</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ProcedureBindingMatrix</Name>
+    <LocalName>ProcedureBindingMatrix</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Procedures</Name>
+    <LocalName>Процедуры</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Process:</Name>
+    <LocalName>Процесс:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Processors</Name>
+    <LocalName>Процессоры</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Properties</Name>
+    <LocalName>Свойства</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Property access</Name>
+    <LocalName>Доступ к свойствам</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Property attribute cannot be mapped to column</Name>
+    <LocalName>Атрибут свойства невозможно присвоить столбцу</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Provider style</Name>
+    <LocalName>Стиль поставщика</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Proxy Server Connection Information</Name>
+    <LocalName>Сведения о подключении к прокси-серверу</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Proxy name</Name>
+    <LocalName>Имя прокси</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Proxy table is child of reference</Name>
+    <LocalName>Прокси-таблица является дочерним объектом ссылки</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Publication:</Name>
+    <LocalName>Публикация:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Publications &amp;&amp; Replication Definitions</Name>
+    <LocalName>Публикации и определения тиражирования</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Publications &amp;amp;&amp;amp; Replication Definitions</Name>
+    <LocalName>Публикации и определения тиражирования</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Qualified Separator</Name>
+    <LocalName>Разделитель специфицированного имени</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Qualified name separator</Name>
+    <LocalName>Разделитель специфицированного имени</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Queue</Name>
+    <LocalName>Очередь</LocalName>
+  </Translation>
+  <Translation>
+    <Name>RSI batch size</Name>
+    <LocalName>Размер пакета RSI</LocalName>
+  </Translation>
+  <Translation>
+    <Name>RSI fadeout time</Name>
+    <LocalName>Время угасания RSI</LocalName>
+  </Translation>
+  <Translation>
+    <Name>RSI packet size</Name>
+    <LocalName>Размер партии RSI</LocalName>
+  </Translation>
+  <Translation>
+    <Name>RSI synchronize interval</Name>
+    <LocalName>Интервал синхронизации RSI</LocalName>
+  </Translation>
+  <Translation>
+    <Name>RSSD character set</Name>
+    <LocalName>Набор символов RSSD</LocalName>
+  </Translation>
+  <Translation>
+    <Name>RSSD character set is blank</Name>
+    <LocalName>Набор символов RSSD пустой</LocalName>
+  </Translation>
+  <Translation>
+    <Name>RSSD database options</Name>
+    <LocalName>Опции базы данных RSSD</LocalName>
+  </Translation>
+  <Translation>
+    <Name>RSSD password</Name>
+    <LocalName>Пароль RSSD</LocalName>
+  </Translation>
+  <Translation>
+    <Name>RSSD user name</Name>
+    <LocalName>Имя пользователя RSSD</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Read-only Name</Name>
+    <LocalName>Имя только для чтения</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Redundant flow</Name>
+    <LocalName>Избыточный поток</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Reference associated objects by</Name>
+    <LocalName>Ссылаться на сопоставленные объекты по</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Reference field</Name>
+    <LocalName>Поле ссылки</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Reference field code</Name>
+    <LocalName>Код поля ссылки</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Reference kind</Name>
+    <LocalName>Вид ссылки</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Reference table</Name>
+    <LocalName>Ссылочная таблица</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Reference table code</Name>
+    <LocalName>Код ссылочной таблицы</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Referenced Attribute</Name>
+    <LocalName>Атрибут объекта со ссылкой</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Referenced class name</Name>
+    <LocalName>Имя класса объекта со ссылкой</LocalName>
+  </Translation>
+  <Translation>
+    <Name>References</Name>
+    <LocalName>Ссылки</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Release</Name>
+    <LocalName>Выпуск</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Release notes by</Name>
+    <LocalName>Автор заметок о выпуске</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Released</Name>
+    <LocalName>Выпущено</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Remote Column:</Name>
+    <LocalName>Удаленный столбец:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Remote data type</Name>
+    <LocalName>Тип удаленных данных</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Remote database name</Name>
+    <LocalName>Имя удаленной базы данных</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Remote server directory</Name>
+    <LocalName>Каталог удаленного сервера</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Remote server name</Name>
+    <LocalName>Имя удаленного сервера</LocalName>
+  </Translation>
+  <Translation>
+    <Name>RepAgent</Name>
+    <LocalName>RepAgent</LocalName>
+  </Translation>
+  <Translation>
+    <Name>RepAgent Options</Name>
+    <LocalName>Опции RepAgent</LocalName>
+  </Translation>
+  <Translation>
+    <Name>RepAgent name</Name>
+    <LocalName>Имя RepAgent</LocalName>
+  </Translation>
+  <Translation>
+    <Name>RepAgent password</Name>
+    <LocalName>Пароль RepAgent</LocalName>
+  </Translation>
+  <Translation>
+    <Name>RepAgent port number</Name>
+    <LocalName>Номер порта RepAgent</LocalName>
+  </Translation>
+  <Translation>
+    <Name>RepAgent type</Name>
+    <LocalName>Тип RepAgent</LocalName>
+  </Translation>
+  <Translation>
+    <Name>RepAgent user name</Name>
+    <LocalName>Имя пользователя RepAgent</LocalName>
+  </Translation>
+  <Translation>
+    <Name>RepServer Connection</Name>
+    <LocalName>Подключение RepServer</LocalName>
+  </Translation>
+  <Translation>
+    <Name>RepServer Options</Name>
+    <LocalName>Опции RepServer</LocalName>
+  </Translation>
+  <Translation>
+    <Name>RepServer character set</Name>
+    <LocalName>Набор символов RepServer</LocalName>
+  </Translation>
+  <Translation>
+    <Name>RepServer character set is blank</Name>
+    <LocalName>Набор символов RepServer пустой</LocalName>
+  </Translation>
+  <Translation>
+    <Name>RepServer password</Name>
+    <LocalName>Пароль RepServer</LocalName>
+  </Translation>
+  <Translation>
+    <Name>RepServer user name</Name>
+    <LocalName>Имя пользователя RepServer</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Replicate</Name>
+    <LocalName>Тиражировать</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Replicate DDL</Name>
+    <LocalName>Тиражировать DDL</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Replicate DDL requires same type of database</Name>
+    <LocalName>Для тиражирования DDL требуется тот же тип базы данных</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Replicate SQLDML</Name>
+    <LocalName>Тиражировать SQLDML</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Replicate Table</Name>
+    <LocalName>Тиражировать таблицу</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Replicate Tables</Name>
+    <LocalName>Тиражировать таблицы</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Replicate connection</Name>
+    <LocalName>Тиражировать подключение</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Replicate function</Name>
+    <LocalName>Тиражировать функцию</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Replicate minimal columns</Name>
+    <LocalName>Тиражировать минимальные столбцы</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Replicate system procedure</Name>
+    <LocalName>Тиражировать системную процедуру</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Replicate table</Name>
+    <LocalName>Тиражировать таблицу</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Replicate transaction</Name>
+    <LocalName>Тиражировать транзакцию</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Replication</Name>
+    <LocalName>Тиражирование</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Replication DDL</Name>
+    <LocalName>Тиражирование DDL</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Replication Definition</Name>
+    <LocalName>Определение тиражирования</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Replication Definition name uniqueness</Name>
+    <LocalName>Уникальность имени определения тиражирования</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Replication Definitions</Name>
+    <LocalName>Определения тиражирования</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Replication Server connection options</Name>
+    <LocalName>Опции подключения к серверу тиражирования</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Replication definition name</Name>
+    <LocalName>Имя определения тиражирования</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Replication minimum columns</Name>
+    <LocalName>Тиражирование минимальных столбцов</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Request</Name>
+    <LocalName>Запрос</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Request alter from primary database</Name>
+    <LocalName>Запрос на изменение из основной базы данных</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Request stored procedure</Name>
+    <LocalName>Запрос хранимой процедуры</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Required resource</Name>
+    <LocalName>Требуемый ресурс</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Resolution</Name>
+    <LocalName>Разрешение</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Resource</Name>
+    <LocalName>Ресурс</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ResultColumn support</Name>
+    <LocalName>Поддержка ResultColumn</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Return MIME type</Name>
+    <LocalName>Тип возврата MIME</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Return name</Name>
+    <LocalName>Имя возврата</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Revenue per unit</Name>
+    <LocalName>Доход с единицы</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Role A cascade</Name>
+    <LocalName>Каскад роли A</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Role A fetch</Name>
+    <LocalName>Получение роли A</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Role A order by</Name>
+    <LocalName>Упорядочение роли A по</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Role B cascade</Name>
+    <LocalName>Каскад роли B</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Role B fetch</Name>
+    <LocalName>Получение роли B</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Role B order by</Name>
+    <LocalName>Упорядочение роли B по</LocalName>
+  </Translation>
+  <Translation>
+    <Name>RoleA options</Name>
+    <LocalName>Опции роли A</LocalName>
+  </Translation>
+  <Translation>
+    <Name>RoleB options</Name>
+    <LocalName>Опции роли B</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Root table</Name>
+    <LocalName>Корневая таблица</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Root table code</Name>
+    <LocalName>Код корневой таблицы</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Route Options</Name>
+    <LocalName>Опции маршрутизации</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Routing Out Percent</Name>
+    <LocalName>Процент исходящей маршрутизации</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Row delimiter</Name>
+    <LocalName>Разделитель строки</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Row id</Name>
+    <LocalName>Идентификатор строки</LocalName>
+  </Translation>
+  <Translation>
+    <Name>SOAP Binding Style</Name>
+    <LocalName>Стиль привязки SOAP</LocalName>
+  </Translation>
+  <Translation>
+    <Name>SOAP action</Name>
+    <LocalName>Операция SOAP</LocalName>
+  </Translation>
+  <Translation>
+    <Name>SOAP binding style</Name>
+    <LocalName>Стиль привязки SOAP</LocalName>
+  </Translation>
+  <Translation>
+    <Name>SOAP binding transport</Name>
+    <LocalName>Транспорт привязки SOAP</LocalName>
+  </Translation>
+  <Translation>
+    <Name>SOAP body namespace</Name>
+    <LocalName>Область имен текста сообщения SOAP</LocalName>
+  </Translation>
+  <Translation>
+    <Name>SOAP operation style</Name>
+    <LocalName>Стиль операции SOAP</LocalName>
+  </Translation>
+  <Translation>
+    <Name>SOAP port type</Name>
+    <LocalName>Тип порта SOAP</LocalName>
+  </Translation>
+  <Translation>
+    <Name>SQL Anywhere version</Name>
+    <LocalName>Версия SQL Anywhere</LocalName>
+  </Translation>
+  <Translation>
+    <Name>SQL data style</Name>
+    <LocalName>Стиль данных SQL</LocalName>
+  </Translation>
+  <Translation>
+    <Name>SQL type consistency among complex types</Name>
+    <LocalName>Единообразие типов SQL среди сложных типов</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Same maintenance user for all connections</Name>
+    <LocalName>Все подключения обслуживает один и тот же пользователь</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Save interval</Name>
+    <LocalName>Сохранить интервал</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Scan template</Name>
+    <LocalName>Проверить шаблон</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Schema</Name>
+    <LocalName>Схема</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Schema name</Name>
+    <LocalName>Имя схемы</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Schema namespace</Name>
+    <LocalName>Область имен схемы</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Script output type</Name>
+    <LocalName>Тип вывода скрипта</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Search for referenced objects in other models</Name>
+    <LocalName>Поиск объектов со ссылками в других моделях</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Searchable</Name>
+    <LocalName>Поддерживает поиск</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Secondary table must have reference key referring to primary table</Name>
+    <LocalName>Дополнительная таблица должна содержать ключ, ссылающийся на основную таблицу</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Security</Name>
+    <LocalName>Безопасность</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Security mechanism</Name>
+    <LocalName>Механизм обеспечения безопасности</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Select File</Name>
+    <LocalName>Выбрать файл</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Select before update</Name>
+    <LocalName>Выбрать перед обновлением</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Select the PowerDesigner attribute or list that is contained in this column.\nFor lists or attributes that reference other objects,\nyou must also specify the associated PowerDesigner object.</Name>
+    <LocalName>Выберите атрибут PowerDesigner или список,содержащийся в этом столбце.\для списков или атрибутов, которые ссылаются на другие объекты,\также нужно указать сопоставленный объект PowerDesigner.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Select the data source to import:</Name>
+    <LocalName>Выберите источник данных для импорта:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Selected</Name>
+    <LocalName>Выбрано</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Send standby columns</Name>
+    <LocalName>Отправить резервные столбцы</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Send trucate table</Name>
+    <LocalName>Отправить таблицу обрезки</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Serialization method</Name>
+    <LocalName>Метод сериализации</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Server class</Name>
+    <LocalName>Класс сервера</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Server code</Name>
+    <LocalName>Код сервера</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Server must be defined</Name>
+    <LocalName>Должен быть определен сервер</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Server name</Name>
+    <LocalName>Имя сервера</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Server name:</Name>
+    <LocalName>Имя сервера:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Server or file name:</Name>
+    <LocalName>Имя сервера или файла:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Service description</Name>
+    <LocalName>Описание сервиса</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Service key</Name>
+    <LocalName>Ключ сервиса</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Service name</Name>
+    <LocalName>Имя сервиса</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Service port name</Name>
+    <LocalName>Имя порта сервиса</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Service scope</Name>
+    <LocalName>Область сервиса</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Show SQL</Name>
+    <LocalName>Показать SQL</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Signed</Name>
+    <LocalName>Подписано</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Simulation Running Time</Name>
+    <LocalName>Время выполнения моделирования</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Simulation limit</Name>
+    <LocalName>Лимит моделирования</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Single Data Connection with read access type</Name>
+    <LocalName>Одна привязка данных с типом доступа &quot;чтение&quot;</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Skip Import</Name>
+    <LocalName>Пропустить импорт</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Soap binding transport</Name>
+    <LocalName>Транспорт привязки SOAP</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Soap body namespace</Name>
+    <LocalName>Область имен текста сообщения SOAP</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Software component</Name>
+    <LocalName>Программный компонент</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Sort</Name>
+    <LocalName>Отсортировать</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Source Column:</Name>
+    <LocalName>Исходный столбец:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Source table</Name>
+    <LocalName>Исходная таблица</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Source tables flagged &quot;generated&quot;</Name>
+    <LocalName>Исходные таблицы с флагом &quot;сгенерирована&quot;</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Specific column</Name>
+    <LocalName>Определенный столбец</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Specify DDL User and Password for Replication Agent</Name>
+    <LocalName>Указать пользователя и пароль DDL для агента тиражирования</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Specify a name and a data type for your attribute,\nalong with the kind of PowerDesigner object if the data type is object.</Name>
+    <LocalName>Укажите имя и тип данных атрибута,\nа также вид объекта PowerDesigner, если типом данных является объект.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Specify a name and plural name for your new object type.</Name>
+    <LocalName>Укажите для нового типа объекта имя и имя во множественном числе.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Specify a name for your list, along with the kind of PowerDesigner object it will contain.</Name>
+    <LocalName>Укажите имя списка, а также вид объектов PowerDesigner, которые он будет содержать.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Standard attribute</Name>
+    <LocalName>Стандартный атрибут</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Standard deviation</Name>
+    <LocalName>Стандартное отклонение</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Standard deviation for timing distribution</Name>
+    <LocalName>Стандартное отклонение для распределения времени</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Standby type</Name>
+    <LocalName>Тип ожидания</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Status</Name>
+    <LocalName>Статус</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Stereotype</Name>
+    <LocalName>Стереотип</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Stereotype:</Name>
+    <LocalName>Стереотип:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Stop unsupported commands</Name>
+    <LocalName>Останавливать неподдерживаемые команды</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Stored procedure option</Name>
+    <LocalName>Опция хранимой процедуры</LocalName>
+  </Translation>
+  <Translation>
+    <Name>String for &#39;True&#39; value</Name>
+    <LocalName>Строка для значения &quot;Истина&quot;</LocalName>
+  </Translation>
+  <Translation>
+    <Name>String literal for &#39;True&#39; value</Name>
+    <LocalName>Литерал строки для значения &quot;Истина&quot;</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Structure class</Name>
+    <LocalName>Класс структуры</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Structures</Name>
+    <LocalName>Структуры</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Stylesheet CSS file</Name>
+    <LocalName>CSS-файл таблицы стилей</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Subdirectory:</Name>
+    <LocalName>Подкаталог:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Subscribe for truncated tables</Name>
+    <LocalName>Подписаться на обрезанные таблицы</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Subscription name length</Name>
+    <LocalName>Длина имени подписки</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Subscription name uniqueness</Name>
+    <LocalName>Уникальность имени подписки</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Subscription of request procedure</Name>
+    <LocalName>Подписка процедуры запроса</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Subscription write request limit</Name>
+    <LocalName>Лимит запросов на запись для подписки</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Subscriptions</Name>
+    <LocalName>Подписки</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Subselect</Name>
+    <LocalName>Дополнительный выбор</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Support desktop</Name>
+    <LocalName>Поддержка клиента для ПК</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Support update in Sybase IQ</Name>
+    <LocalName>Поддержка обновления в Sybase IQ</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Support web</Name>
+    <LocalName>Поддержка веб-портала</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Suspend replication</Name>
+    <LocalName>Приостановить тиражирование</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Sybase SQL Anywhere Database (AsaClient)</Name>
+    <LocalName>База данных Sybase SQL Anywhere (AsaClient)</LocalName>
+  </Translation>
+  <Translation>
+    <Name>System procedure</Name>
+    <LocalName>Системная процедура</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Table</Name>
+    <LocalName>Таблица</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Table Binding Matrix</Name>
+    <LocalName>Матрица привязки таблиц</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Table Mapping</Name>
+    <LocalName>Присвоение таблиц</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Table Mappings</Name>
+    <LocalName>Присвоения таблиц</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Table class</Name>
+    <LocalName>Класс таблицы</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Table column width</Name>
+    <LocalName>Ширина столбца таблицы</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Table generation mode</Name>
+    <LocalName>Режим генерации таблиц</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Table not bound to primary connection</Name>
+    <LocalName>Таблица не привязана к основному подключению</LocalName>
+  </Translation>
+  <Translation>
+    <Name>TableBindingMatrix</Name>
+    <LocalName>TableBindingMatrix</LocalName>
+  </Translation>
+  <Translation>
+    <Name>TableColumn is not defined in Association Mapping</Name>
+    <LocalName>Значение TableColumn не определено при присвоении ассоциаций</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Tables</Name>
+    <LocalName>Таблицы</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Target IDE</Name>
+    <LocalName>Целевой IDE</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Target data type</Name>
+    <LocalName>Целевой тип данных</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Target device:</Name>
+    <LocalName>Целевое устройство:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Target runtime</Name>
+    <LocalName>Целевое время выполнения</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Test Connection</Name>
+    <LocalName>Тестовое подключение</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Test method</Name>
+    <LocalName>Тестовый метод</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Text convert multiplier</Name>
+    <LocalName>Множитель для преобразования текста</LocalName>
+  </Translation>
+  <Translation>
+    <Name>The column is selected from generation source model</Name>
+    <LocalName>Столбец выбран из исходной модели генерации</LocalName>
+  </Translation>
+  <Translation>
+    <Name>The name of package conflicts with the name of namespace</Name>
+    <LocalName>Имя пакета конфликтует с именем области имен</LocalName>
+  </Translation>
+  <Translation>
+    <Name>The primary key attribute should be public</Name>
+    <LocalName>Атрибут первичного ключа должен быть открытым</LocalName>
+  </Translation>
+  <Translation>
+    <Name>The user name, password, server name or data source name is not specified.
+To defined user name and password, open the data source properties, select ODBC page.
+To defined server name and data source name, open the data source properties, select Data Movement page.</Name>
+    <LocalName>Не указано имя пользователя, пароль, имя сервера или имя источника данных.
+Чтобы определить имя пользователя и пароль, откройте свойства источника данных и выберите страницу ODBC.
+Чтобы определить имя сервера и имя источника данных, откройте свойства источника данных и выберите страницу &quot;Движение данных&quot;.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>The value of database parameter dsi_compile_max_cmds should not be less than 100.</Name>
+    <LocalName>Значение параметра базы данных dsi_compile_max_cmds не должно быть меньше 100.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>The wizard has found a table to import. Select the kind of\nPowerDesigner object you want to create for each table row.</Name>
+    <LocalName>Мастер обнаружил таблицу для импорта. Выберите вид объекта\nPowerDesigner, который нужно создать для каждой строки таблицы.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>This check ensures that in a warm standby environment all logical connections in a group agree on which of them is the primary logical connection.</Name>
+    <LocalName>Проверяется, для всех ли логических подключений в группе в среде горячего ожидания указано одно и то же основное логическое подключение.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>This check ensures that the data connections of the logical path are linked to correct data store.</Name>
+    <LocalName>Проверяется, связаны ли привязки данных для логического пути с правильным хранилищем данных.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>This check ensures that the data source mapping is defined.</Name>
+    <LocalName>Проверяется, определено ли присвоение источника данных.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>This check ensures that the primary logical connection is correct.</Name>
+    <LocalName>Проверяется правильность основного логического подключения.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Threshold</Name>
+    <LocalName>Пороговое значение</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Time</Name>
+    <LocalName>Время</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Time display pattern</Name>
+    <LocalName>Шаблон отображения времени</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Time distribution type</Name>
+    <LocalName>Тип распределения времени</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Time format</Name>
+    <LocalName>Формат времени</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Time unit</Name>
+    <LocalName>Единица времени</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Time zone</Name>
+    <LocalName>Часовой пояс</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Timing</Name>
+    <LocalName>Время</LocalName>
+  </Translation>
+  <Translation>
+    <Name>To set a data type for an individual column, click the Add Specific Column Mapping button.</Name>
+    <LocalName>Чтобы задать тип данных для отдельного столбца, нажмите кнопку &quot;Добавить определенное присвоение поля&quot;.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Too few inputs</Name>
+    <LocalName>Слишком мало входных данных</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Too many data mappings</Name>
+    <LocalName>Слишком много присвоений данных</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Too many lookup columns</Name>
+    <LocalName>Слишком много столбцов поиска</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Too many lookup tables</Name>
+    <LocalName>Слишком много таблиц поиска</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Transaction Options</Name>
+    <LocalName>Опции транзакции</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Transaction set</Name>
+    <LocalName>Набор транзакций</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Transaction type</Name>
+    <LocalName>Тип транзакции</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Transparent table</Name>
+    <LocalName>Прозрачная таблица</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Type</Name>
+    <LocalName>Тип</LocalName>
+  </Translation>
+  <Translation>
+    <Name>UDDI operator URL</Name>
+    <LocalName>URL оператора UDDI</LocalName>
+  </Translation>
+  <Translation>
+    <Name>UltraLite database file:</Name>
+    <LocalName>Файл базы данных UltraLite:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Undefined default connection</Name>
+    <LocalName>Подключение по умолчанию не определено</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Undefined primary connection</Name>
+    <LocalName>Основное подключение не определено</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Undefined separator</Name>
+    <LocalName>Неопределенный разделитель</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Undefined user name</Name>
+    <LocalName>Имя пользователя не определено</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Unidirectional one-to-one association is mapped to reference with incorrect direction</Name>
+    <LocalName>Односторонняя ассоциация &quot;один к одному&quot; присвоена ссылке с неправильным направлением</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Unified login</Name>
+    <LocalName>Единый вход</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Unknown container type in RoleA</Name>
+    <LocalName>Неизвестный тип контейнера в роли A</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Unknown container type in RoleB</Name>
+    <LocalName>Неизвестный тип контейнера в роли B</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Unsaved value</Name>
+    <LocalName>Несохраненное значение</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Unsupported Web service input</Name>
+    <LocalName>Неподдерживаемый ввод веб-службы</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Unsupported direct connection</Name>
+    <LocalName>Неподдерживаемое соединение напрямую</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Unsupported nested element</Name>
+    <LocalName>Неподдерживаемый вложенный элемент</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Unsupported object language</Name>
+    <LocalName>Неподдерживаемый объектный язык</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Unsupported xs:NOTATION element</Name>
+    <LocalName>Неподдерживаемый элемент xs:NOTATION</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Updatable</Name>
+    <LocalName>Обновляемо</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Update</Name>
+    <LocalName>Обновить</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Update procedure code</Name>
+    <LocalName>Обновить код процедуры</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Update table code</Name>
+    <LocalName>Обновить код таблицы</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Upper bound</Name>
+    <LocalName>Верхняя граница</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Upper bound time</Name>
+    <LocalName>Время верхней границы</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Use NT integrated security</Name>
+    <LocalName>Использовать интегрированную безопасность NT</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Use Windows NT integrated security</Name>
+    <LocalName>Использовать интегрированную безопасность Windows NT</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Use batch markers</Name>
+    <LocalName>Использовать маркеры пакетов</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Use insert table in Sybase IQ</Name>
+    <LocalName>Использовать вставку таблиц в Sybase IQ</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Use master-detail page</Name>
+    <LocalName>Использовать основную страницу сведений</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Use replication agent</Name>
+    <LocalName>Использовать агент тиражирования</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Use resource bundle</Name>
+    <LocalName>Использовать пакет ресурсов</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Use security services</Name>
+    <LocalName>Использовать сервисы безопасности</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Use stored procedure for function strings</Name>
+    <LocalName>Использовать хранимую процедуру для строк функций</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Use this attribute as foreign key label</Name>
+    <LocalName>Использовать этот атрибут как метку внешнего ключа</LocalName>
+  </Translation>
+  <Translation>
+    <Name>User name</Name>
+    <LocalName>Имя пользователя</LocalName>
+  </Translation>
+  <Translation>
+    <Name>User name:</Name>
+    <LocalName>Имя пользователя:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>User-defined collection type is not supported</Name>
+    <LocalName>Пользовательский тип коллекции не поддерживается</LocalName>
+  </Translation>
+  <Translation>
+    <Name>User-defined mapping</Name>
+    <LocalName>Пользовательское присвоение</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Validation rule</Name>
+    <LocalName>Правило проверки</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Validation rule code</Name>
+    <LocalName>Код правила проверки</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Validation rule error message</Name>
+    <LocalName>Сообщение об ошибке для правила проверки</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Validation rule text</Name>
+    <LocalName>Текст правила проверки</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Value table</Name>
+    <LocalName>Таблица значений</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Value table code</Name>
+    <LocalName>Код таблицы значений</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Verify that each data connection is only attached to one data connection group.</Name>
+    <LocalName>Убедитесь, что каждая привязка данных связана только с одной группой привязок данных.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Verify that the bound procedures are from the primary databases.</Name>
+    <LocalName>Убедитесь, что связанные процедуры получены из основных баз данных.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Verify that the bound tables are from the primary databases.</Name>
+    <LocalName>Убедитесь, что связанные таблицы получены из основных баз данных.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Verify the bound procedures are from the primary databases.</Name>
+    <LocalName>Убедитесь, что связанные процедуры получены из основных баз данных.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Verify the bound tables are from the primary databases.</Name>
+    <LocalName>Убедитесь, что связанные таблицы получены из основных баз данных.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Version attribute</Name>
+    <LocalName>Атрибут версии</LocalName>
+  </Translation>
+  <Translation>
+    <Name>View structure</Name>
+    <LocalName>Просмотреть структуру</LocalName>
+  </Translation>
+  <Translation>
+    <Name>View type</Name>
+    <LocalName>Тип представления</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Visible</Name>
+    <LocalName>Видим</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Web method type</Name>
+    <LocalName>Тип веб-метода</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Welcome to the Excel Import Wizard. This wizard guides you\nthrough importing tables of objects defined in an Excel spreadsheet.\nTo get started, select an Excel file to import.</Name>
+    <LocalName>Вас приветствует мастер импорта из Excel. Он поможет вам\nимпортировать таблицы объектов, определенные в электронной таблице Excel.\nДля начала выберите файл Excel, который нужно импортировать.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>What would be generated</Name>
+    <LocalName>Что будет сгенерировано</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Where clause</Name>
+    <LocalName>Предложение Where</LocalName>
+  </Translation>
+  <Translation>
+    <Name>XML</Name>
+    <LocalName>XML</LocalName>
+  </Translation>
+  <Translation>
+    <Name>XML Generation</Name>
+    <LocalName>Генерация XML</LocalName>
+  </Translation>
+  <Translation>
+    <Name>XML generation mode</Name>
+    <LocalName>Режим генерации XML</LocalName>
+  </Translation>
+  <Translation>
+    <Name>by selecting new types in the Target data type column.</Name>
+    <LocalName>путем выбора новых типов в столбце &quot;Целевой тип данных&quot;.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>caption</Name>
+    <LocalName>подпись</LocalName>
+  </Translation>
+  <Translation>
+    <Name>delete</Name>
+    <LocalName>удалить</LocalName>
+  </Translation>
+  <Translation>
+    <Name>dsi_compile_max_cmds should not be less than 100</Name>
+    <LocalName>Значение dsi_compile_max_cmds должно быть меньше 100</LocalName>
+  </Translation>
+  <Translation>
+    <Name>function string</Name>
+    <LocalName>строка функции</LocalName>
+  </Translation>
+  <Translation>
+    <Name>insert select</Name>
+    <LocalName>вставить select</LocalName>
+  </Translation>
+  <Translation>
+    <Name>label</Name>
+    <LocalName>метка</LocalName>
+  </Translation>
+  <Translation>
+    <Name>of table</Name>
+    <LocalName>таблицы</LocalName>
+  </Translation>
+  <Translation>
+    <Name>on</Name>
+    <LocalName>дата:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>select into</Name>
+    <LocalName>выбрать в</LocalName>
+  </Translation>
+  <Translation>
+    <Name>tModel URL</Name>
+    <LocalName>URL tModel</LocalName>
+  </Translation>
+  <Translation>
+    <Name>tModel key</Name>
+    <LocalName>Ключ tModel</LocalName>
+  </Translation>
+  <Translation>
+    <Name>tModel name</Name>
+    <LocalName>Имя tModel</LocalName>
+  </Translation>
+  <Translation>
+    <Name>table=uid_table,column=next_hi_value_column</Name>
+    <LocalName>table=uid_table,column=next_hi_value_column</LocalName>
+  </Translation>
+  <Translation>
+    <Name>to</Name>
+    <LocalName>на</LocalName>
+  </Translation>
+  <Translation>
+    <Name>update</Name>
+    <LocalName>обновить</LocalName>
+  </Translation>
+  <Translation>
+    <Name>with DSI_suspended</Name>
+    <LocalName>с DSI_suspended</LocalName>
+  </Translation>
+  <Translation>
+    <Name>A value must be defined for attribute Name</Name>
+    <LocalName>Должно быть определено значение для атрибута имени</LocalName>
+  </Translation>
+  <Translation>
+    <Name>A value must be defined for attribute Title</Name>
+    <LocalName>Должно быть определено значение для атрибута должности</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Activities and intermediate events must not have more than one default outgoing flow.</Name>
+    <LocalName>Действия и промежуточные события должны иметь не более одного исходящего потока по умолчанию.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Activities/processes cannot be implemented by an activity/process that is, itself, implemented.</Name>
+    <LocalName>Действия/процессы не могут быть реализованы действиями/процессами, то есть самими собой.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Activities/processes must have at least one incoming flow.</Name>
+    <LocalName>Действия/процессы должны иметь минимум один входящий поток.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>All the message flows associated with a single conversation node must specify the same correlation key as the node.</Name>
+    <LocalName>Все потоки сообщений, связанные с одним узлом взаимодействия, должны указывать в качестве узла один и тот же ключ корреляции.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>An activity/process must have at least one outgoing flow.</Name>
+    <LocalName>Действие/процесс должны иметь минимум один исходящий поток.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Call activities must have an implementation type of Reuse process.</Name>
+    <LocalName>Действия вызова должны иметь тип реализации &quot;Повторно использовать процесс&quot;.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Compensation activities must not have incoming sequence flows that are not of type Compensation.</Name>
+    <LocalName>Действия компенсации не должны иметь входящих потоков операций с типом, отличным от &quot;Компенсация&quot;.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Compensation activities must not have outgoing sequence flows.</Name>
+    <LocalName>Действия компенсации не должны иметь исходящих потоков операций.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Correlation Key name uniqueness</Name>
+    <LocalName>Уникальность имени ключа корреляции</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Correlation keys must be used by a correlated conversation node.</Name>
+    <LocalName>Ключи корреляции должны использоваться коррелированным узлом взаимодействия.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Correlation keys must be used by an input correlated process.</Name>
+    <LocalName>Ключи корреляции должны использоваться коррелированным процессом ввода.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Correlation keys must be used by an output correlated process.</Name>
+    <LocalName>Ключи корреляции должны использоваться коррелированным процессом вывода.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Correlation keys must contain at least one variable.</Name>
+    <LocalName>Ключи корреляции должны содержать минимум одну переменную.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data associations with a transformation type of Input must specify an item-aware element (of type Data Input) from among those defined on their target activity, which will be transferred to the activity from the data.</Name>
+    <LocalName>Присвоения данных с типом трансформации &quot;Ввод&quot; должны указывать элемент с поддержкой элементов (типа &quot;Ввод данных&quot;) из числа определенных в целевом действии, который будет перенесен в действие из данных.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data associations with a transformation type of Output must specify an item-aware element (of type Data Output) from among those defined on their source activity, which will be transferred from the activity to the data.</Name>
+    <LocalName>Присвоения данных с типом трансформации &quot;Вывод&quot; должны указывать элемент с поддержкой элементов (типа &quot;Вывод данных&quot;) из числа определенных в исходном действии, который будет перенесен из действия в данные.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data associations/resource flows must go from an activity/process or from a data object/resource.</Name>
+    <LocalName>Присвоения данных/потоки ресурсов должны исходить из действий/процессов или из объектов данных/ресурсов.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data associations/resource flows must point to (have as a destination) an activity/process or a data object/resource.</Name>
+    <LocalName>Присвоения данных/потоки ресурсов должны указывать (как на место назначения) на действия/процессы или объекты данных/ресурсы.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data object references are not permitted in tasks or events</Name>
+    <LocalName>Ссылки на объекты данных не разрешены в задачах или событиях</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data object references must reference valid data objects.</Name>
+    <LocalName>Ссылки на объекты данных должны указывать на действительные объекты данных.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data object references must specify the data object to which they are a reference.</Name>
+    <LocalName>Ссылки на объекты данных должны указывать объекты данных, на которые они ссылаются.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data objects are not permitted in tasks or events</Name>
+    <LocalName>Объекты данных не разрешены в задачах или событиях</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data objects/resources must be linked to at least one activity/process.</Name>
+    <LocalName>Объекты данных/ресурсы должны быть связаны минимум с одним действием/процессом.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data transformations must specify a target variable to receive the result of the transformation.</Name>
+    <LocalName>Преобразования данных должны указывать целевую переменную для получения результата преобразования.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data transformations must specify an XPath or XSLT transformation expression.</Name>
+    <LocalName>Преобразования данных должны указывать выражение преобразования XPath или XSLT.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Decision name uniqueness</Name>
+    <LocalName>Уникальном имени решения</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Duplicate definition</Name>
+    <LocalName>Дублированное определение</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Each activity or intermediate event must not have more than one default flow.</Name>
+    <LocalName>Каждое действие или промежуточное событие должно иметь не более одного потока по умолчанию.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Each choreography task must not have more than one default flow.</Name>
+    <LocalName>Каждая задача хореографии должна иметь не более одного потока по умолчанию.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Each gateway must not have more than one default flow.</Name>
+    <LocalName>Каждый шлюз должен иметь не более одного потока по умолчанию.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>End events of type Cancel are not permitted at the top level or in event sub-processes. They are only permitted in transactions.</Name>
+    <LocalName>Конечные события с типом &quot;Отмена&quot; не разрешены на верхнем уровне или в подпроцессах событий. Они разрешены только в транзакциях.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>End name uniqueness</Name>
+    <LocalName>Уникальность имени окончания</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Ends must have at least one input flow.</Name>
+    <LocalName>Окончания должны иметь минимум один поток ввода.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Event name uniqueness</Name>
+    <LocalName>Уникальность имени события</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Event sub-processes must have exactly one start event.</Name>
+    <LocalName>Подпроцессы событий должны иметь ровно одно стартовое событие.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Event sub-processes must not have any incoming flows.</Name>
+    <LocalName>Подпроцессы событий не должны иметь входящих потоков.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Event sub-processes must not have any outgoing flows.</Name>
+    <LocalName>Подпроцессы событий не должны иметь исходящих потоков.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Events and tasks must only contain item-aware objects of type Data Input or Data Output.</Name>
+    <LocalName>События и задачи должны содержать только объекты с поддержкой элементов, имеющие тип &quot;Ввод данных&quot; или &quot;Вывод данных&quot;.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Events must bear a stereotype to define what type of event it is.</Name>
+    <LocalName>События должны иметь стереотипы, определяющий тип события.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Events must not be decomposed. They must not contain other objects.</Name>
+    <LocalName>События не должны подвергаться декомпозиции. Они не должны содержать другие объекты.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Events must not be specified as reusable.</Name>
+    <LocalName>События не должны указываться как повторно используемые.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Flow name uniqueness</Name>
+    <LocalName>Уникальность имени потока</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Flows must either specify a message format or have their message format set to &lt;None&gt;.</Name>
+    <LocalName>Потоки должны либо указывать формат сообщения, либо для них должен быть установлен формат сообщений &lt;Нет&gt;.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Flows must have both a source and a destination object.</Name>
+    <LocalName>Потоки должны иметь как исходный объект, так и объект назначения.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Gateways must not have more than one default outgoing flow.</Name>
+    <LocalName>Шлюзы должны иметь не более одного исходящего потока по умолчанию.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Gateways/decisions must have more than one output flow to represent a split (conditional branch) or more than one input flow to represent a merge.</Name>
+    <LocalName>Шлюзы/решения должны иметь более одного потока вывода, чтобы представлять разделение (условную ветвь), или более одного потока ввода, чтобы представлять объединение.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Inconsistent correlation keys</Name>
+    <LocalName>Противоречивые ключи корреляции</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Initiating and return messages must share the same correlation property of the same correlation key.</Name>
+    <LocalName>Сообщения инициирования и возврата должны использовать общее свойство корреляции одного и того же ключа корреляции.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Initiating and return messages with inconsistent correlation settings</Name>
+    <LocalName>Сообщения инициирования и возврата с противоречивыми настройками корреляции</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Initiating message not message flow</Name>
+    <LocalName>Сообщение инициирования вне потока сообщений</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Initiating messages must be of stereotype &quot;Message Flow&quot;.</Name>
+    <LocalName>Сообщения инициирования должны иметь стереотип &lt;&lt;message flow&gt;&gt;.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Interfaces must contain at least one operation.</Name>
+    <LocalName>Интерфейсы должны содержать минимум одну операцию.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid correlation properties</Name>
+    <LocalName>Недействительные свойства корреляции</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid correlation property</Name>
+    <LocalName>Недействительное свойство корреляции</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid data object</Name>
+    <LocalName>Недействительный объект данных</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid decomposition</Name>
+    <LocalName>Недействительная декомпозиция</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid destination</Name>
+    <LocalName>Недействительное место назначения</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid event definitions</Name>
+    <LocalName>Недействительные определения событий</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid for export</Name>
+    <LocalName>Недействительно для экспорта</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid implementation</Name>
+    <LocalName>Недействительная реализация</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid implementation type</Name>
+    <LocalName>Недействительный тип реализации</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid incoming flows</Name>
+    <LocalName>Недействительные входящие потоки</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid item-aware elements</Name>
+    <LocalName>Недействительные элементы с поддержкой элементов</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid message format</Name>
+    <LocalName>Недействительный формат сообщения</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid outgoing flows</Name>
+    <LocalName>Недействительные исходящие потоки</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid reusability</Name>
+    <LocalName>Недействительная возможность повторного использования</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid source</Name>
+    <LocalName>Недействительный источник</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid source item</Name>
+    <LocalName>Недействительный исходный элемент</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid target item</Name>
+    <LocalName>Недействительный целевой элемент</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Item-aware elements of type Data Input are not permitted in intermediate catch events.</Name>
+    <LocalName>Элементы с поддержкой элементов, имеющие тип &quot;Ввод данных&quot;, не разрешены в событиях-инициаторах.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Item-aware elements of type Data Input are not permitted in message start events.</Name>
+    <LocalName>Элементы с поддержкой элементов, имеющие тип &quot;Ввод данных&quot;, не разрешены в событиях-инициаторах.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Item-aware elements of type Data Output are not permitted in intermediate throw events.</Name>
+    <LocalName>Элементы с поддержкой элементов, имеющие тип &quot;Вывод данных&quot;, не разрешены в событиях-результатах.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Item-aware elements of type Data Output are not permitted in message end events.</Name>
+    <LocalName>Элементы с поддержкой элементов, имеющие тип &quot;Вывод данных&quot;, не разрешены в сообщениях и событиях.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Manual tasks cannot be exported to a NetWeaver BPMN2 file.</Name>
+    <LocalName>Задачи ручного выполнения невозможно экспортировать в файл BPMN2 NetWeaver.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Message Format name uniqueness</Name>
+    <LocalName>Уникальность имени формата сообщения</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Message flows can only go from (have as sources) activities, pools, throwing message intermediate events, or message end events.</Name>
+    <LocalName>Потоки сообщений могут исходить (в качестве источников) только из действий, пулов, промежуточных событий-результатов сообщений или сообщений и событий.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Message flows can only point to (have as destinations) activities, pools, catching message intermediate events, or  message start events.</Name>
+    <LocalName>Потоки сообщений могут указывать (в качестве мест назначения) только на действия, пулы, промежуточные события-результаты сообщений или сообщения и события.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Message flows can only point to (have as destinations) activities, pools, catching message intermediate events, or message start events.</Name>
+    <LocalName>Потоки сообщений могут указывать (в качестве мест назначения) только на действия, пулы, промежуточные события-результаты сообщений или сообщения и события.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Message flows must be connected to a maximum of one (not reusable) initiating and one return choreography task.</Name>
+    <LocalName>Потоки сообщений должны быть соединены не более чем с одной (не используемой повторно) инициирующей и одной возвратной задачей хореографии.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Message flows must specify a correlation property from among those defined in their correlation key.</Name>
+    <LocalName>Потоки сообщений  должны указывать свойство корреляции из числа определенных в соответствующем ключе корреляции.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Message formats must not have the same definition as another message format.</Name>
+    <LocalName>Определения форматов сообщений не должны совпадать с определениями других форматов сообщений.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing assigned variable</Name>
+    <LocalName>Отсутствует назначенная переменная</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing data object</Name>
+    <LocalName>Отсутствует объект данных</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing destination</Name>
+    <LocalName>Отсутствует место назначения</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing end</Name>
+    <LocalName>Отсутствует окончание</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing incoming flow</Name>
+    <LocalName>Отсутствует входящий поток</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing input message (One-Way)</Name>
+    <LocalName>Отсутствует сообщение ввода (одностороннее)</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing input message (Request-Response)</Name>
+    <LocalName>Отсутствует сообщение ввода (запрос-ответ)</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing input message (Solicit Response)</Name>
+    <LocalName>Отсутствует сообщение ввода (запрос ответа)</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing interfaces</Name>
+    <LocalName>Отсутствуют интерфейсы</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing operations</Name>
+    <LocalName>Отсутствуют операции</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing outgoing flow</Name>
+    <LocalName>Отсутствует исходящий поток</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing output message (Notification)</Name>
+    <LocalName>Отсутствует сообщение вывода (уведомление)</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing output message (Request-Response)</Name>
+    <LocalName>Отсутствует сообщение вывода (запрос-ответ)</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing output message (Solicit Response)</Name>
+    <LocalName>Отсутствует сообщение вывода (запрос ответа)</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing source</Name>
+    <LocalName>Отсутствует источник</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing source item</Name>
+    <LocalName>Отсутствует исходный элемент</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing start</Name>
+    <LocalName>Отсутствует начало</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing stereotype</Name>
+    <LocalName>Отсутствует стереотип</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing target item</Name>
+    <LocalName>Отсутствует целевой элемент</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing transformation expression</Name>
+    <LocalName>Отсутствует выражение преобразования</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing variables</Name>
+    <LocalName>Отсутствуют переменные</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Multiple end events can only contain Message, Error, Escalation, Cancel, Compensation, Signal, and Terminate event definitions.</Name>
+    <LocalName>Множественные конечные события могут содержать только определения событий сообщения, ошибки, эскалации, отмены, компенсации, сигнала и завершения.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Multiple events must contain at least two event definitions.</Name>
+    <LocalName>Множественные события должны содержать только два определения событий.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Multiple intermediate catching events can only contain Message, Timer, Conditional, Link, and Signal event definitions.</Name>
+    <LocalName>Множественные промежуточные события-инициаторы могут содержать только определения событий сообщения, таймера, условных событий, событий ссылки и сигнала.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Multiple intermediate throwing events can only contain Message, Escalation, Link, Compensation, and Signal event definitions.</Name>
+    <LocalName>Множественные промежуточные события-результаты могут содержать только определения событий сообщения, эскалации, ссылки, компенсации и сигнала.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Not permitted at top level</Name>
+    <LocalName>Не разрешено на верхнем уровне</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Not permitted in ad-hoc sub-process</Name>
+    <LocalName>Не разрешено в настраиваемых подпроцессах</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Not permitted in event sub-process</Name>
+    <LocalName>Не разрешено в подпроцессах событий</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Not permitted in intermediate catch events</Name>
+    <LocalName>Не разрешено в промежуточных событиях-инициаторах</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Not permitted in intermediate throw events</Name>
+    <LocalName>Не разрешено в промежуточных событиях-результатах</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Not permitted in message end events</Name>
+    <LocalName>Не разрешено в конечных событиях сообщений</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Not permitted in message start events</Name>
+    <LocalName>Не разрешено в стартовых событиях сообщений</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Not permitted in sub-process</Name>
+    <LocalName>Не разрешено в подпроцессах</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Not permitted in tasks or events</Name>
+    <LocalName>Не разрешено в задачах или событиях</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Notification operations must specify an output message.</Name>
+    <LocalName>Операции уведомления должны указывать сообщение вывода.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Object names and codes must be unique for objects of the same type in the namespace.</Name>
+    <LocalName>Имена и коды объектов должны быть уникальными для объектов одного типа в области имен.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>One-way operations must specify an input message.</Name>
+    <LocalName>Односторонние операции должны указывать сообщение ввода.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Only permitted in transactions</Name>
+    <LocalName>Разрешено только в транзакциях</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Operation name uniqueness</Name>
+    <LocalName>Уникальном имени операции</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Organization Unit name uniqueness</Name>
+    <LocalName>Уникальность имени организационной единицы</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Parallel multiple intermediate catching events can only contain Message, Timer, Conditional, Link, and Signal event definitions.</Name>
+    <LocalName>Параллельные множественные промежуточные события-инициаторы могут содержать только определения событий сообщения, таймера, условных событий, событий ссылки и сигнала.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Process name uniqueness</Name>
+    <LocalName>Уникальность имени процесса</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Request-response operations must specify both an input and an output message.</Name>
+    <LocalName>Операции вопрос-ответ должны указывать сообщения ввода и вывода.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Resource Flow name uniqueness</Name>
+    <LocalName>Уникальность имени потока ресурсов</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Resource flows must specify one or more CRUD (Create, Read, Update, or Delete) access modes to show how the resource will be used.</Name>
+    <LocalName>Потоки ресурсов должны указывать один или несколько режимов CRUD (создание, чтение, обновление или удаление), показывающих способ использования ресурса.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Resource name uniqueness</Name>
+    <LocalName>Уникальность имени ресурса</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Return message not message flow</Name>
+    <LocalName>Сообщение возврата вне потока сообщений</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Return messages must be of stereotype &quot;Message Flow&quot;.</Name>
+    <LocalName>Сообщения возврата должны иметь стереотип &lt;&lt;message flow&gt;&gt;.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Sequence flows must not have message formats attached to them.</Name>
+    <LocalName>Потоки операций не должны иметь вложенных форматов сообщений.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Service Interface name uniqueness</Name>
+    <LocalName>Уникальность имени сервисного интерфейса</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Service Provider name uniqueness</Name>
+    <LocalName>Уникальность имени поставщика услуг</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Service providers must contain at least one interface.</Name>
+    <LocalName>Поставщики услуг должны содержать минимум один интерфейс.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Solicit response operations must specify both an input and an output message.</Name>
+    <LocalName>Операции запроса ответа должны указывать сообщения ввода и вывода.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Start and end events are not permitted in ad-hoc sub-processes.</Name>
+    <LocalName>Стартовые и конечные события не разрешены в настраиваемых подпроцессах.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Start events of type Compensation are only permitted in event sub-processes.</Name>
+    <LocalName>Стартовые события типа &quot;Компенсация&quot; не разрешены в подпроцессах событий.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Start events of type Error are only permitted in event sub-processes.</Name>
+    <LocalName>Стартовые события с типом &quot;Ошибка&quot; не разрешены в подпроцессах событий.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Start events of type Escalation are only permitted in event sub-processes.</Name>
+    <LocalName>Стартовые события с типом &quot;Эскалация&quot; не разрешены в подпроцессах событий.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Start events of type Standard are not permitted in event sub-processes.</Name>
+    <LocalName>Стартовые события с типом &quot;Стандартный&quot; не разрешены в подпроцессах событий.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Start events that are not of type Standard are not permitted in sub-processes.</Name>
+    <LocalName>Стартовые события с типом, отличным от &quot;Стандартный&quot;, не разрешены в подпроцессах.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Start name uniqueness</Name>
+    <LocalName>Уникальность имени начала</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Starts must have at least one output flow.</Name>
+    <LocalName>Начала должны иметь минимум один поток ввода.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Sub-processes/composite processes must have at least one end.</Name>
+    <LocalName>Подпроцессы/композитные процессы должны иметь минимум одно окончание.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Sub-processes/composite processes must have at least one start.</Name>
+    <LocalName>Подпроцессы/композитные процессы должны иметь минимум одно начало.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Tasks must not contain other objects. Only sub-processes and other composite activities can contain other objects.</Name>
+    <LocalName>Задачи не должны содержать другие объекты. Только подпроцессы и другие композитные действия могут содержать другие объекты.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>This check ensures that all properties have a stereotype &quot;Correlation Property&quot;</Name>
+    <LocalName>Эта проверка гарантирует, что все свойства имеют стереотип &quot;Correlation Property&quot;</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Too few event definitions</Name>
+    <LocalName>Слишком мало определений событий</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Too few input or output flows</Name>
+    <LocalName>Слишком мало потоков ввода или вывода</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Too many choreography tasks</Name>
+    <LocalName>Слишком много задач хореографии</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Too many default flows</Name>
+    <LocalName>Слишком много потоков по умолчанию</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Too many start events</Name>
+    <LocalName>Слишком много стартовых событий</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Undefined access mode</Name>
+    <LocalName>Неопределенный режим доступа</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Undefined message format</Name>
+    <LocalName>Неопределенный формат сообщения</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Unused correlation key in correlated conversation nodes</Name>
+    <LocalName>Неиспользуемый ключ корреляции в коррелированных узлах взаимодействия</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Unused correlation key in input correlated processes</Name>
+    <LocalName>Неиспользуемый ключ корреляции в коррелированных процессах ввода</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Unused correlation key in output correlated processes</Name>
+    <LocalName>Неиспользуемый ключ корреляции в коррелированных процессах вывода</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Unused resource</Name>
+    <LocalName>Неиспользуемый ресурс</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Variable name uniqueness</Name>
+    <LocalName>Уникальность имени переменной</LocalName>
+  </Translation>
+</Translations>

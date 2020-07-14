@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Translations lang="zh" extended="yes">
+  <Translation>
+    <Name>Incorrect attribute details</Name>
+    <LocalName>属性详细信息不正确</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid cardinality</Name>
+    <LocalName>无效基数</LocalName>
+  </Translation>
+</Translations>

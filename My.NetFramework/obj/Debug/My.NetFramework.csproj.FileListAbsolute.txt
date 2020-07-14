@@ -1,0 +1,9 @@
+E:\学习不止\My.NetFramework\bin\Debug\My.NetFramework.dll
+E:\学习不止\My.NetFramework\bin\Debug\My.NetFramework.pdb
+E:\学习不止\My.NetFramework\bin\Debug\log4net.dll
+E:\学习不止\My.NetFramework\bin\Debug\log4net.xml
+E:\学习不止\My.NetFramework\obj\Debug\My.NetFramework.csprojAssemblyReference.cache
+E:\学习不止\My.NetFramework\obj\Debug\My.NetFramework.csproj.CoreCompileInputs.cache
+E:\学习不止\My.NetFramework\obj\Debug\My.NetFramework.csproj.CopyComplete
+E:\学习不止\My.NetFramework\obj\Debug\My.NetFramework.dll
+E:\学习不止\My.NetFramework\obj\Debug\My.NetFramework.pdb

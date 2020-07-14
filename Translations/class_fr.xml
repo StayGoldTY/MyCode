@@ -1,0 +1,3963 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Translations type="class" lang="fr">
+  <Translation>
+    <Comment>CLSID: {55A3BFD4-9D14-438C-A4F1-A8D57096AB1F}, used in Multi-Model Report</Comment>
+    <Code>BaseDialogView</Code>
+    <Name>Abstract Base Dialog View</Name>
+    <LocalName>Vue abstraite Dialogue de base</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {0445C144-D10E-4EA1-9FD4-F7DDCA50646E}, used in Multi-Model Report</Comment>
+    <Code>BaseExtensibleDialogView</Code>
+    <Name>Abstract Base Extensible Dialog View</Name>
+    <LocalName>Vue extensible abstraite Dialogue de base</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {0445C143-D10E-4EA1-9FD4-F7DDCA50646E}, used in Multi-Model Report</Comment>
+    <Code>BaseListView</Code>
+    <Name>Abstract Base List View</Name>
+    <LocalName>Vue liste de base abstraite</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4BA9F649-DAB1-11D1-9944-006097355D9B}, used in Pdo</Comment>
+    <Code>AbstractDataType</Code>
+    <Name>Abstract Data Type</Name>
+    <LocalName>Type de données abstrait</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4BA9F650-DAB1-11D1-9944-006097355D9B}, used in Pdo</Comment>
+    <Code>AbstractDataTypeAttribute</Code>
+    <Name>Abstract Data Type Attribute</Name>
+    <LocalName>Attribut de type de données abstrait</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4BA9F652-DAB1-11D1-9944-006097355D9B}, used in Pdo</Comment>
+    <Code>AbstractDataTypeProcedure</Code>
+    <Name>Abstract Data Type Procedure</Name>
+    <LocalName>Procédure de type de données abstrait</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {5A41A3BF-DD32-44F9-8EF8-2A39611997B2}, used in Multi-Model Report</Comment>
+    <Code>AbstractRequirement</Code>
+    <Name>Abstract Requirement</Name>
+    <LocalName>Exigence abstraite</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {3AE32291-18F7-11D3-86B9-0010ED130000};{6CE9859A-BA73-4EBB-B7D4-8E918A020000}, used in Multi-Model Report; Data Movement Model</Comment>
+    <Code>AccessType</Code>
+    <Name>Access Type</Name>
+    <LocalName>Type d'accès</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {18112704-1A4B-11D1-83D9-444553540000};{5992B0B2-44D8-4E3D-915E-2D19C680C531};{B537C1A0-D293-11D0-83D9-4445D5010000}, used in Object-Oriented Model; Merise Process Model; Object-Oriented Model</Comment>
+    <Code>Action</Code>
+    <Name>Action</Name>
+    <LocalName>Action</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4F0361AA-491C-4B09-BA2A-AC355D56598C}, used in Project</Comment>
+    <Code>FrameworkAction</Code>
+    <Name>Action</Name>
+    <LocalName>Action</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {CE1BFEE6-CEFE-482D-A545-4161478933BA}, used in Object-Oriented Model</Comment>
+    <Code>Activity</Code>
+    <Name>Activity</Name>
+    <LocalName>Activité</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {CE1BFEE2-CEFE-482D-A545-4161478933BA}, used in Ooo</Comment>
+    <Code>BaseActivity</Code>
+    <Name>Activity</Name>
+    <LocalName>Activité</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {18112400-1A4B-11D1-83D9-444553540000}, used in Object-Oriented Model</Comment>
+    <Code>ActivityDiagram</Code>
+    <Name>Activity Diagram</Name>
+    <LocalName>Diagramme d'activités</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {CE1BFF04-CEF0-482D-A545-4161478933BA}, used in Object-Oriented Model</Comment>
+    <Code>ActivityParameter</Code>
+    <Name>Activity Parameter</Name>
+    <LocalName>Paramètre d'activité</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {18112101-1A4B-11D1-83D9-444553540000};{5992B0B0-44D8-4E3D-915E-2D19C680C531}, used in Object-Oriented Model; Merise Process Model</Comment>
+    <Code>Actor</Code>
+    <Name>Actor</Name>
+    <LocalName>Acteur</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {9A36315A-8097-4652-B67D-8EA57C693301}, used in Impact Analysis Model</Comment>
+    <Code>ImpactAnalysisObject</Code>
+    <Name>Analysis Object</Name>
+    <LocalName>Objet d'analyse</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {2909DEB5-FEB5-490C-A046-74D3DC92D81B}, used in Impact Analysis Model</Comment>
+    <Code>AnalysisRule</Code>
+    <Name>Analysis Rule Set</Name>
+    <LocalName>Jeu de règles d'analyse</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {F2C80A9E-0B6E-4EEA-8829-31D75F522866}, used in XML Model</Comment>
+    <Code>AnnotatedComponent</Code>
+    <Name>Annotated Component</Name>
+    <LocalName>Composant annoté</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {18112091-1A4B-11D1-83D9-444553540000};{6C51FB26-DFC2-465A-A783-C3EF6450FD6E}, used in Object-Oriented Model; XML Model</Comment>
+    <Code>Annotation</Code>
+    <Name>Annotation</Name>
+    <LocalName>Annotation</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {E906524F-E160-4021-9A9E-64A91DBAF851}, used in XML Model</Comment>
+    <Code>AnnotationItem</Code>
+    <Name>Annotation Item</Name>
+    <LocalName>Item d'annotation</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {B1363265-0166-4E2E-95A4-E0A3ABD53FD9}, used in XML Model</Comment>
+    <Code>Any</Code>
+    <Name>Any</Name>
+    <LocalName>Any</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {599E7DF6-9C3A-4DB0-89C2-85CB7C5A86AB}, used in XML Model</Comment>
+    <Code>AnyAttribute</Code>
+    <Name>Any Attribute</Name>
+    <LocalName>Attribut Any</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {DC848BAD-661D-41C5-9649-56A5AA43F261}, used in XML Model</Comment>
+    <Code>AppInfo</Code>
+    <Name>AppInfo</Name>
+    <LocalName>Informations d'application</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {D061C53A-C65F-4365-AD6B-E223BC6E095E}, used in Enterprise Architecture Model</Comment>
+    <Code>EnterpriseApplication</Code>
+    <Name>Application</Name>
+    <LocalName>Application</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4E4BF2EE-831A-49C5-AF00-D94DC58D0A9C}, used in Enterprise Architecture Model</Comment>
+    <Code>ApplicationArchitectureDiagram</Code>
+    <Name>Application Architecture Diagram</Name>
+    <LocalName>Diagramme d'architecture d'application</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {65DCBFD5-66EB-46C1-A55F-55013F2A2691}, used in Enterprise Architecture Model</Comment>
+    <Code>ApplicationConcept</Code>
+    <Name>Application Concept</Name>
+    <LocalName>Concept d'application</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {F2C693F4-E303-4CA6-AB4C-F263BAD012D1}, used in Enterprise Architecture Model</Comment>
+    <Code>ApplicationLink</Code>
+    <Name>Application Link</Name>
+    <LocalName>Lien d'application</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {3DA9ECDC-CBF7-41F1-9034-89B8E9887B54}, used in Enterprise Architecture Model</Comment>
+    <Code>ApplicationService</Code>
+    <Name>Application Service</Name>
+    <LocalName>Service d'application</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {6614DCDB-CE8C-4F78-A6FB-929A426BFC0E}, used in Enterprise Architecture Model</Comment>
+    <Code>ArchitectureArea</Code>
+    <Name>Architecture Area</Name>
+    <LocalName>Zone d'architecture</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4F87C7AB-251E-11D1-83D9-444553540000}, used in Multi-Model Report</Comment>
+    <Code>BaseArea</Code>
+    <Name>Area</Name>
+    <LocalName>Zone</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {037630BA-AAC4-4037-A6FF-88C5450A3671}, used in Data Movement Model</Comment>
+    <Code>Article</Code>
+    <Name>Article</Name>
+    <LocalName>Article</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {A48E8B81-B647-4F7C-95C8-CCEB800A9BCB}, used in Data Movement Model</Comment>
+    <Code>ArticleColumn</Code>
+    <Name>Article Column</Name>
+    <LocalName>Colonne d'article</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {8F0BAAB3-1FE2-4B12-8380-A1D6A7E62CC1}, used in Multi-Model Report</Comment>
+    <Code>Artifact</Code>
+    <Name>Artifact</Name>
+    <LocalName>Artefact</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {54ADC1A6-45DF-49BA-B6B7-8D1C8DA25E42}, used in Multi-Model Report</Comment>
+    <Code>ArtifactFolder</Code>
+    <Name>Artifact Folder</Name>
+    <LocalName>Dossier d'artefact</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {1811207B-1A4B-11D1-83D9-444553540000}, used in Object-Oriented Model</Comment>
+    <Code>AssemblyConnector</Code>
+    <Name>Assembly Connector</Name>
+    <LocalName>Connecteur d'assemblage</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {0026F2D1-F179-11D2-B6A0-0008C7EA8BFF};{1811206A-1A4B-11D1-83D9-444553540000}, used in Conceptual Data Model; Object-Oriented Model</Comment>
+    <Code>Association</Code>
+    <Name>Association</Name>
+    <LocalName>Association</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4BA9F671-DAB1-11D1-9944-006097355D9B}, used in Pdo</Comment>
+    <Code>CubeDimensionAssociation</Code>
+    <Name>Association</Name>
+    <LocalName>Association</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {0026F2D3-F179-11D2-B6A0-0008C7EA8BFF}, used in Conceptual Data Model</Comment>
+    <Code>AssociationAttribute</Code>
+    <Name>Association Attribute</Name>
+    <LocalName>Attribut d'association</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {690D5F8A-9C45-4B53-8F82-029BAC3522AA}, used in Conceptual Data Model</Comment>
+    <Code>AssociationAttributeMapping</Code>
+    <Name>Association Attribute Mapping</Name>
+    <LocalName>Correspondance d'attribut d'association</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {0026F2D2-F179-11D2-B6A0-0008C7EA8BFF}, used in Conceptual Data Model</Comment>
+    <Code>AssociationLink</Code>
+    <Name>Association Link</Name>
+    <LocalName>Lien d'association</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4F87C7A8-251E-11D1-83D9-444553540000}, used in Multi-Model Report</Comment>
+    <Code>BaseAssociationMapping</Code>
+    <Name>Association Map</Name>
+    <LocalName>Correspondance d'association</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {93B6CBAF-ACA0-440A-901E-2B6AE5F4C0DF}, used in Multi-Model Report</Comment>
+    <Code>DefaultAssociationMapping</Code>
+    <Name>Association Map</Name>
+    <LocalName>Correspondance d'association</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {18112805-1A4B-11D1-83D9-444553540000};{5F497B16-5F75-40D7-BC13-30E81166B088}, used in Object-Oriented Model; Conceptual Data Model</Comment>
+    <Code>AssociationMapping</Code>
+    <Name>Association Mapping</Name>
+    <LocalName>Correspondance d'association</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {18112075-1A4B-11D1-83D9-444553540000}, used in Object-Oriented Model</Comment>
+    <Code>AssociationClassLink</Code>
+    <Name>Association-Class link</Name>
+    <LocalName>Lien association-classe</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {18112065-1A4B-11D1-83D9-444553540000};{3535EE08-23C6-446F-82BF-8FA40317DDCE}, used in Object-Oriented Model; XML Model</Comment>
+    <Code>Attribute</Code>
+    <Name>Attribute</Name>
+    <LocalName>Attribut</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {A941B37C-FAEE-4E6C-9520-81A20BC0EFE4}, used in XML Model</Comment>
+    <Code>AttributeBase</Code>
+    <Name>Attribute</Name>
+    <LocalName>Attribut</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4BA9F675-DAB1-11D1-9944-006097355D9B}, used in Pdo</Comment>
+    <Code>DimensionAttribute</Code>
+    <Name>Attribute</Name>
+    <LocalName>Attribut</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {026C5D8C-A25B-439A-999F-590480FB982C}, used in Logical Data Model</Comment>
+    <Code>LogicalAttribute</Code>
+    <Name>Attribute</Name>
+    <LocalName>Attribut</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {48E4579B-E243-4114-9EF9-4A80FC260000}, used in XML Model</Comment>
+    <Code>Form</Code>
+    <Name>Attribute Form</Name>
+    <LocalName>Forme d'attribut</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {88B7D48F-4F38-43C4-BF37-D1F2405255DB}, used in XML Model</Comment>
+    <Code>AttributeGroup</Code>
+    <Name>Attribute Group</Name>
+    <LocalName>Groupe d'attributs</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {18112802-1A4B-11D1-83D9-444553540000};{4607ABC5-663B-4FBB-B96E-DC810B52B9AF};{96CFB006-ED53-49DC-82D5-B6D3F177421C}, used in Object-Oriented Model; Pdo; XML Model</Comment>
+    <Code>AttributeMapping</Code>
+    <Name>Attribute Mapping</Name>
+    <LocalName>Correspondance d'attribut</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {18112911-1A4B-11D1-83D9-444553540000}, used in Object-Oriented Model</Comment>
+    <Code>AttributeValue</Code>
+    <Name>Attribute Value</Name>
+    <LocalName>Valeur d'attribut</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {5992B0C0-44D8-4E3D-915E-2D19C680C531}, used in Merise Process Model</Comment>
+    <Code>BaseAction</Code>
+    <Name>Base Action</Name>
+    <LocalName>Action de base</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {18112072-1A4B-11D1-83D9-444553540000}, used in Object-Oriented Model</Comment>
+    <Code>BaseAssociation</Code>
+    <Name>Base association</Name>
+    <LocalName>Association de base</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4B0AE4B1-5A2A-4C0E-956C-D65F83CE9A04}, used in Conceptual Data Model</Comment>
+    <Code>BaseAttributeMapping</Code>
+    <Name>Base Attribute Mapping</Name>
+    <LocalName>Correspondance de propriété</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {6081657A-C285-44EE-B3B4-D98595A05C31}, used in Pdo</Comment>
+    <Code>BaseColumn</Code>
+    <Name>Base Column</Name>
+    <LocalName>Colonne de base</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {9A3B839A-F7F4-4441-A475-D1B36E862CC8}, used in Enterprise Architecture Model</Comment>
+    <Code>EnterpriseComposite</Code>
+    <Name>Base Composite Object</Name>
+    <LocalName>Objet composite de base</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {7D988ED4-37B2-4708-9F57-477E4679CFB8}, used in Multi-Model Report</Comment>
+    <Code>BaseEditorMetaClassDefinition</Code>
+    <Name>Base Editor Definition</Name>
+    <LocalName>Définition de l'éditeur de base</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {7D3EF5A2-9C88-47AE-A210-3E929A0E991B}, used in Multi-Model Report</Comment>
+    <Code>BaseFileObject</Code>
+    <Name>Base File</Name>
+    <LocalName>Fichier de base</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {9802DD8F-6F2B-45D1-A427-535B3CD60F74}, used in Project</Comment>
+    <Code>BaseFramework</Code>
+    <Name>Base Framework</Name>
+    <LocalName>Cadre d'architecture de base</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {6AAB6AFC-F6BA-400D-A7E5-CD62B2B1C604}, used in Project</Comment>
+    <Code>BaseFrameworkCell</Code>
+    <Name>Base Framework Cell</Name>
+    <LocalName>Cellule de base</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {CFC1DB31-1353-4145-B411-71CE3FF3C642}, used in Multi-Model Report</Comment>
+    <Code>BaseImpactAnalysisObject</Code>
+    <Name>Base Impact Analysis Object</Name>
+    <LocalName>Objet de base d'analyse d'impact</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {7930EABC-E684-4D73-8656-1573CFEEAABB}, used in Pdo</Comment>
+    <Code>BaseIndex</Code>
+    <Name>Base Index</Name>
+    <LocalName>Index de base</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {3D2E1636-5644-4264-81C4-A69C1839FBB0}, used in Object-Oriented Model</Comment>
+    <Code>BaseInteractionFragment</Code>
+    <Name>Base Interaction Fragment</Name>
+    <LocalName>Fragment d'interaction de base</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {9AB2E606-F38F-4C26-A37F-78B5E98052AC}, used in Business Process Model</Comment>
+    <Code>BaseDataMapping</Code>
+    <Name>Base Mapping</Name>
+    <LocalName>Correspondance de base</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {EECD8537-6BA4-41E4-8497-B7F3E17AFEF1}, used in Multi-Model Report</Comment>
+    <Code>BaseMatrixView</Code>
+    <Name>Base Matrix Dialog View</Name>
+    <LocalName>Vue abstraite Matrice de base</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {C5BBB541-6C28-40FE-BB4A-218708AFA087}, used in Multi-Model Report</Comment>
+    <Code>BaseMetaClassDefinition</Code>
+    <Name>Base Metaclass Definition</Name>
+    <LocalName>Définition de la métaclasse de base</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {CE1BFF02-CEF0-482D-A545-4161478933BA}, used in Object-Oriented Model</Comment>
+    <Code>BaseNode</Code>
+    <Name>Base Node</Name>
+    <LocalName>Noeud de base</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {362D41E0-9D82-11D1-8E5D-444553540000}, used in Rep</Comment>
+    <Code>BaseObject</Code>
+    <Name>Base Object</Name>
+    <LocalName>Objet de base</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {CE1BFEE0-CEFE-482D-A545-4161478933BA}, used in Ooo</Comment>
+    <Code>BehavioralModel</Code>
+    <Name>Base Object Oriented Model</Name>
+    <LocalName>Modèle orienté objet de base</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {5992B0BD-44D8-4E3D-915E-2D19C680C531}, used in Merise Process Model</Comment>
+    <Code>BaseOperation</Code>
+    <Name>Base Operation</Name>
+    <LocalName>Opération de base</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {5992B0BE-44D8-4E3D-915E-2D19C680C531}, used in Merise Process Model</Comment>
+    <Code>BaseOperationTriggering</Code>
+    <Name>Base Operation Triggering</Name>
+    <LocalName>Déclenchement d'opération de base</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4607ABDC-663B-4FBB-B96E-DC810B52B9AF}, used in Pdo</Comment>
+    <Code>BaseProcedure</Code>
+    <Name>Base Procedure</Name>
+    <LocalName>Procédure de base</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {03C110EB-2913-49DA-BD97-B22B0B77DAA8}, used in Enterprise Architecture Model</Comment>
+    <Code>BaseService</Code>
+    <Name>Base Service</Name>
+    <LocalName>Service de base</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {24A2EF9E-C1F9-4558-819D-E5E8060B5E2D}, used in Rep</Comment>
+    <Code>ShortcutBase</Code>
+    <Name>Base Shortcut</Name>
+    <LocalName>Raccourci de base</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {9E55EE5A-29B2-4814-8EFF-2AD6A969454E}, used in Pdo</Comment>
+    <Code>BaseTable</Code>
+    <Name>Base Table</Name>
+    <LocalName>Table de base</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {34E7B2CD-CC0F-4BC6-8639-DBE60B790DD5}, used in Multi-Model Report</Comment>
+    <Code>BaseTermObject</Code>
+    <Name>Base Term Object</Name>
+    <LocalName>Objet terme de base</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {D4B2DF45-0047-11D2-9952-006097355D9B}, used in Pdo</Comment>
+    <Code>BaseTrigger</Code>
+    <Name>Base Trigger</Name>
+    <LocalName>Trigger de base</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4F87C7A7-251E-11D1-83D9-444553540000}, used in Multi-Model Report</Comment>
+    <Code>BaseMappingBehavioralFeatureMapping</Code>
+    <Name>Behavioral Feature Map</Name>
+    <LocalName>Correspondance d'élément comportemental</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {A31C54A6-632D-4686-960D-9DA043541766}, used in Multi-Model Report</Comment>
+    <Code>DefaultBehavioralFeatureMapping</Code>
+    <Name>Behavioral Feature Mapping</Name>
+    <LocalName>Correspondance d'élément comportemental</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {CE1BFEEE-CEFE-482D-A545-4161478933BA}, used in Ooo</Comment>
+    <Code>BehavioralNamedObject</Code>
+    <Name>Behavioral Named Object</Name>
+    <LocalName>Objet comportemental nommé</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {48E4579B-E243-4114-9EF9-4A8003270000};{48E4579B-E243-4114-9EF9-4A80FD260000}, used in XML Model; XML Model</Comment>
+    <Code>Block</Code>
+    <Name>Block</Name>
+    <LocalName>Bloc</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {D470674C-6598-4149-B0EF-E93C8E6F6BB5}, used in Enterprise Architecture Model</Comment>
+    <Code>BusinessCommunicationDiagram</Code>
+    <Name>Business Communication Diagram</Name>
+    <LocalName>Diagramme de communications métiers</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {C571E973-C0DE-4275-811F-A5B36B8630B0}, used in Enterprise Architecture Model</Comment>
+    <Code>BusinessConcept</Code>
+    <Name>Business Concept</Name>
+    <LocalName>Concept métiers</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {E4256BA4-31B6-4448-B88B-074465978FB1}, used in Enterprise Architecture Model</Comment>
+    <Code>BusinessFlow</Code>
+    <Name>Business Flow</Name>
+    <LocalName>Flux métiers</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {7F55EE42-CAC0-4928-82B6-B5CA1A87F8F0}, used in Enterprise Architecture Model</Comment>
+    <Code>BusinessFunction</Code>
+    <Name>Business Function</Name>
+    <LocalName>Fonction métiers</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {1A837247-6E51-4532-94CB-8938BBFB8C48}, used in Data Movement Model</Comment>
+    <Code>BusinessProcess</Code>
+    <Name>Business Process</Name>
+    <LocalName>Processus métiers</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {D26E3D70-15C6-47FA-B2A6-47D6D330CECE}, used in Business Process Model</Comment>
+    <Code>BusinessProcessDiagram</Code>
+    <Name>Business Process Diagram</Name>
+    <LocalName>Diagramme de processus métiers</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {3D3C409C-B60D-430E-A1C4-B880653AC634}, used in Business Process Model</Comment>
+    <Code>Model</Code>
+    <Name>Business Process Model</Name>
+    <LocalName>Modèle de Processus Métiers</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4F87C70A-251E-11D1-83D9-444553540000}, used in Multi-Model Report</Comment>
+    <Code>BusinessRule</Code>
+    <Name>Business Rule</Name>
+    <LocalName>Règle de gestion</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {0A5095C6-F4DD-4314-A344-4B62485C27D7}, used in Enterprise Architecture Model</Comment>
+    <Code>BusinessService</Code>
+    <Name>Business Service</Name>
+    <LocalName>Service métiers</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {B38B4FB0-D9F8-11D1-9944-0060EB140000}, used in Pdo</Comment>
+    <Code>Cardinality</Code>
+    <Name>Cardinality</Name>
+    <LocalName>Cardinalité</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {1176FDE1-9351-11D1-AB3C-0020E7140000}, used in Conceptual Data Model</Comment>
+    <Code>Cardinality</Code>
+    <Name>Cardinality of Role</Name>
+    <LocalName>Cardinalité du rôle</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {1176FDE1-9351-11D1-AB3C-0020E9160000};{3AE32291-18F7-11D3-86B9-00100A280000};{B38B4FB0-D9F8-11D1-9944-0060F4140000}, used in Conceptual Data Model; Multi-Model Report; Pdo</Comment>
+    <Code>CharacterCase</Code>
+    <Name>Case</Name>
+    <LocalName>Casse</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {CD2F5C71-2CA9-4B74-9BBA-50786D1D88EF}, used in Glossary Model</Comment>
+    <Code>Category</Code>
+    <Name>Category</Name>
+    <LocalName>Catégorie</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {F315FD80-5534-4687-B235-BBB08FD899D7}, used in Project</Comment>
+    <Code>FrameworkCell</Code>
+    <Name>Cell</Name>
+    <LocalName>Cellule</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {DCA86B34-F89E-413D-AF5F-755A263FB135}, used in Rmg</Comment>
+    <Code>RepositoryChangeList</Code>
+    <Name>Change List</Name>
+    <LocalName>Change List</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {B537C1A0-D293-11D0-83D9-4445CD010000}, used in Object-Oriented Model</Comment>
+    <Code>Frozen</Code>
+    <Name>Changeability</Name>
+    <LocalName>Variabilité</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4F87C70B-251E-11D1-83D9-444553540000}, used in Multi-Model Report</Comment>
+    <Code>ConstrainedNamedObject</Code>
+    <Name>Check</Name>
+    <LocalName>Contrôle</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {45321953-B213-4092-BB53-31532E967F73}, used in Multi-Model Report</Comment>
+    <Code>BaseCheckNamedClassifier</Code>
+    <Name>Check Named Classifier</Name>
+    <LocalName>Classifier nommé</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {E5ED6A53-8374-4D15-94BD-A83CD4CCF2D1}, used in Business Process Model</Comment>
+    <Code>ChoreographyDiagram</Code>
+    <Name>Choreography Diagram</Name>
+    <LocalName>Diagramme de chorégraphie</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {E5ED6A55-8374-4D15-94BD-A83CD4CCF2D1}, used in Business Process Model</Comment>
+    <Code>ChoreographyTask</Code>
+    <Name>Choreography Task</Name>
+    <LocalName>Tâche de chorégraphie</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {30AC4D91-42D9-4C73-B270-34317BF8501F}, used in Enterprise Architecture Model</Comment>
+    <Code>CityPlanningDiagram</Code>
+    <Name>City Planning Diagram</Name>
+    <LocalName>Diagramme d'urbanisation</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {18112063-1A4B-11D1-83D9-444553540000}, used in Object-Oriented Model</Comment>
+    <Code>Class</Code>
+    <Name>Class</Name>
+    <LocalName>Classe</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {573AD882-8834-4AE4-99CF-B9CE2A0F8E05};{B339FDBA-963E-4B40-9682-52D3FF983CF5}, used in Conceptual Data Model; XML Model</Comment>
+    <Code>ClassAttributeMapping</Code>
+    <Name>Class Attribute Mapping</Name>
+    <LocalName>Correspondance d'attribut de classe</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {18112062-1A4B-11D1-83D9-444553540000}, used in Object-Oriented Model</Comment>
+    <Code>ClassDiagram</Code>
+    <Name>Class Diagram</Name>
+    <LocalName>Diagramme de classes</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {18112801-1A4B-11D1-83D9-444553540000};{573AD881-8834-4AE4-99CF-B9CE2A0F8E05};{5C3AE43A-EBEB-4865-91AF-9819C2AA693F}, used in Object-Oriented Model; Conceptual Data Model; XML Model</Comment>
+    <Code>ClassMapping</Code>
+    <Name>Class Mapping</Name>
+    <LocalName>Correspondance de classe</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {1811206B-1A4B-11D1-83D9-444553540000}, used in Object-Oriented Model</Comment>
+    <Code>Classifier</Code>
+    <Name>Class/Interface</Name>
+    <LocalName>Classe/Interface</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4BA9F678-DAB1-11D1-9944-006097355D9B}, used in Pdo</Comment>
+    <Code>ClassifierMapping</Code>
+    <Name>Classifier Map</Name>
+    <LocalName>Correspondance de classificateur</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {B537C1A0-D293-11D0-83D9-4445CE010000}, used in Object-Oriented Model</Comment>
+    <Code>Type</Code>
+    <Name>Classifier Type</Name>
+    <LocalName>Type de classificateur</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {380BAA41-0042-11D2-BD28-00A02478ECC9}, used in Pdo</Comment>
+    <Code>Column</Code>
+    <Name>Column</Name>
+    <LocalName>Colonne</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {A9D4FEF7-BBC2-46A4-AD40-0408472EBB19}, used in Project</Comment>
+    <Code>FrameworkColumn</Code>
+    <Name>Column</Name>
+    <LocalName>Colonne</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {2F6539CA-803C-41F7-B9CB-40DE615F6907};{4607ABC1-663B-4FBB-B96E-DC810B52B9AF}, used in Object-Oriented Model; Pdo</Comment>
+    <Code>ColumnMapping</Code>
+    <Name>Column Mapping</Name>
+    <LocalName>Correspondance de colonne</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {18112500-1A4B-11D1-83D9-444553540000}, used in Object-Oriented Model</Comment>
+    <Code>CommunicationDiagram</Code>
+    <Name>Communication Diagram</Name>
+    <LocalName>Diagramme de communication</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {ACD05876-2DDF-4197-89C1-24F08E1FD007}, used in XML Model</Comment>
+    <Code>ComplexContent</Code>
+    <Name>Complex Content</Name>
+    <LocalName>Contenu complexe</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {00A125CF-82C7-47EC-A28B-4601C7626067}, used in XML Model</Comment>
+    <Code>ComplexType</Code>
+    <Name>Complex Type</Name>
+    <LocalName>Type complexe</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {0D02372F-5481-4949-85F3-5A221C880D65}, used in XML Model</Comment>
+    <Code>ComplexTypeMapping</Code>
+    <Name>Complex Type Mapping</Name>
+    <LocalName>Correspondance de type complexe</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {18112301-1A4B-11D1-83D9-444553540000};{CC40888B-C0A7-4111-977A-C36172C2995A};{F6D35BB0-2A3A-49C4-BAB7-7DC3645DDB7E}, used in Object-Oriented Model; Enterprise Architecture Model; XML Model</Comment>
+    <Code>Component</Code>
+    <Name>Component</Name>
+    <LocalName>Composant</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {18112300-1A4B-11D1-83D9-444553540000}, used in Object-Oriented Model</Comment>
+    <Code>ComponentDiagram</Code>
+    <Name>Component Diagram</Name>
+    <LocalName>Diagramme de composants</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {18112602-1A4B-11D1-83D9-444553540000}, used in Object-Oriented Model</Comment>
+    <Code>ComponentInstance</Code>
+    <Name>Component Instance</Name>
+    <LocalName>Instance de composant</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {B537C1A0-D293-11D0-83D9-4445D6010000}, used in Object-Oriented Model</Comment>
+    <Code>Type</Code>
+    <Name>Component Type</Name>
+    <LocalName>Type de composant</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4F87C7A9-251E-11D1-83D9-444553540000}, used in Multi-Model Report</Comment>
+    <Code>BaseComposite</Code>
+    <Name>Composite</Name>
+    <LocalName>Composite</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4F87C703-251E-11D1-83D9-444553540000}, used in Multi-Model Report</Comment>
+    <Code>BaseCompositeClassifier</Code>
+    <Name>Composite Classifier</Name>
+    <LocalName>Classifier composite</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {3647BA92-24C1-4715-A29C-F14F890271B8}, used in Cdo</Comment>
+    <Code>BaseCompositeDataStructure</Code>
+    <Name>Composite Data Structure</Name>
+    <LocalName>Structure composite de données</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {1811291A-1A4B-11D1-83D9-444553540000}, used in Object-Oriented Model</Comment>
+    <Code>CompositeDiagram</Code>
+    <Name>Composite Structure Diagram</Name>
+    <LocalName>Diagramme de structures composites</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {26F7EB88-DA71-4885-B6AD-C7FE1E5374B9}, used in Multi-Model Report</Comment>
+    <Code>CompositionLink</Code>
+    <Name>Composition Link</Name>
+    <LocalName>Lien de composition</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {3647BA86-24C1-4715-A29C-F14F890271B8}, used in Cdo</Comment>
+    <Code>BaseLogicalModel</Code>
+    <Name>Conceptual Data Model</Name>
+    <LocalName>Modèle Conceptuel de Données</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {1E597170-9350-11D1-AB3C-0020AF71E433}, used in Conceptual Data Model</Comment>
+    <Code>Model</Code>
+    <Name>Conceptual Data Model</Name>
+    <LocalName>Modèle Conceptuel de Données</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {3647BA94-24C1-4715-A29C-F14F890271B8}, used in Cdo</Comment>
+    <Code>BaseLogicalConceptualDiagram</Code>
+    <Name>Conceptual Diagram</Name>
+    <LocalName>Diagramme conceptuel</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {1E597183-9350-11D1-AB3C-0020AF71E433};{9AD58811-8309-4AD8-B25F-982BE3029675}, used in Conceptual Data Model; Merise Process Model</Comment>
+    <Code>ConceptualDiagram</Code>
+    <Name>Conceptual Diagram</Name>
+    <LocalName>Diagramme conceptuel</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {CE1BFEEF-CEFE-482D-A545-4161478933BA}, used in Ooo</Comment>
+    <Code>ConditionalLink</Code>
+    <Name>Condition Link</Name>
+    <LocalName>Lien de condition</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {7353ECDA-D76C-456F-9FE7-73DA9CD5BA1A}, used in Data Movement Model</Comment>
+    <Code>Connection</Code>
+    <Name>Connection</Name>
+    <LocalName>Connexion</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4F87C70C-251E-11D1-83D9-444553540000}, used in Multi-Model Report</Comment>
+    <Code>DataContainer</Code>
+    <Name>Container</Name>
+    <LocalName>Conteneur</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {9381D3F6-56C4-4C26-8F12-DDC78C7FD6A6}, used in XML Model</Comment>
+    <Code>Content</Code>
+    <Name>Content</Name>
+    <LocalName>Contenu</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {05A516F1-ECA0-43BC-864E-D7753DBCF056}, used in Enterprise Architecture Model</Comment>
+    <Code>Contract</Code>
+    <Name>Contract</Name>
+    <LocalName>Contrat</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {578F4D1E-8BA7-4801-A136-CB79A3DAA6F5};{B537C1A0-D293-11D0-83D9-4445D4010000}, used in Data Movement Model; Object-Oriented Model</Comment>
+    <Code>ControlFlow</Code>
+    <Name>Control Flow</Name>
+    <LocalName>Flux de contrôle</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {E5ED6A54-8374-4D15-94BD-A83CD4CCF2D1}, used in Business Process Model</Comment>
+    <Code>ConversationDiagram</Code>
+    <Name>Conversation Diagram</Name>
+    <LocalName>Diagramme de conversation</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {E5ED6A57-8374-4D15-94BD-A83CD4CCF2D1}, used in Business Process Model</Comment>
+    <Code>ConversationLink</Code>
+    <Name>Conversation Link</Name>
+    <LocalName>Lien de conversation</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {E5ED6A56-8374-4D15-94BD-A83CD4CCF2D1}, used in Business Process Model</Comment>
+    <Code>ConversationNode</Code>
+    <Name>Conversation Node</Name>
+    <LocalName>Noeud de conversation</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {D4FA660F-F1EE-4787-AA5D-6137BBFD71E3}, used in Business Process Model</Comment>
+    <Code>Correlation</Code>
+    <Name>Correlation Key</Name>
+    <LocalName>Clé de corrélation</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {50E34E0C-19DF-43BF-88C5-F2782FF43880}, used in Pdo</Comment>
+    <Code>CostSaving</Code>
+    <Name>Cost Saving</Name>
+    <LocalName>Réduction des coûts</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4BA9F670-DAB1-11D1-9944-006097355D9B}, used in Pdo</Comment>
+    <Code>Cube</Code>
+    <Name>Cube</Name>
+    <LocalName>Cube</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4607ABC6-663B-4FBB-B96E-DC810B52B9AF}, used in Pdo</Comment>
+    <Code>CubeMapping</Code>
+    <Name>Cube Mapping</Name>
+    <LocalName>Correspondance de cube</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {B38B4FB0-D9F8-11D1-9944-0060021B0000}, used in Pdo</Comment>
+    <Code>TotalSavingCurrency</Code>
+    <Name>Currency</Name>
+    <LocalName>Monnaie</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4F52F88E-026B-4F1A-8D53-E0F05E64EBA9}, used in Multi-Model Report</Comment>
+    <Code>BaseData</Code>
+    <Name>Data</Name>
+    <LocalName>Donnée</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {5992B0BB-44D8-4E3D-915E-2D19C680C531};{D26E3DE0-15C6-47FA-B2A6-47D6D330CECE};{EC834A5C-BE9F-40AC-A951-E2761F7ABA08}, used in Merise Process Model; Business Process Model; Enterprise Architecture Model</Comment>
+    <Code>Data</Code>
+    <Name>Data</Name>
+    <LocalName>Donnée</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {5992B0BC-44D8-4E3D-915E-2D19C680C531};{D26E3DE1-15C6-47FA-B2A6-47D6D330CECE}, used in Merise Process Model; Business Process Model</Comment>
+    <Code>DataAccess</Code>
+    <Name>Data Access</Name>
+    <LocalName>Accès aux données</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {5D1520A3-F9CF-404C-8A87-545319CD72FB}, used in Data Movement Model</Comment>
+    <Code>DataAggregation</Code>
+    <Name>Data Aggregation</Name>
+    <LocalName>Agrégation de données</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {31A35703-D203-4A45-989A-220E6F6C7693}, used in Data Movement Model</Comment>
+    <Code>DataCalculator</Code>
+    <Name>Data Calculator</Name>
+    <LocalName>Calculateur de données</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {17CFC282-6A1E-4801-B3D2-0984C3F4E04E}, used in Data Movement Model</Comment>
+    <Code>DataConnection</Code>
+    <Name>Data Connection</Name>
+    <LocalName>Connexion aux données</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {48A9010A-55C9-424C-9D2D-5794B7243CD7}, used in Data Movement Model</Comment>
+    <Code>DataConnectionGroup</Code>
+    <Name>Data Connection Group</Name>
+    <LocalName>Groupe de connexions aux données</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4279725A-F85B-44D0-BBEC-5B079F146008}, used in Data Movement Model</Comment>
+    <Code>DataFilter</Code>
+    <Name>Data Filter</Name>
+    <LocalName>Filtre de données</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {6BA2EB5F-9848-47D4-ADC9-8ADDE821F7D8}, used in Data Movement Model</Comment>
+    <Code>DataFlow</Code>
+    <Name>Data Flow</Name>
+    <LocalName>Flux de données</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {87838331-7AC0-4C99-8C0D-1589923DE779}, used in Multi-Model Report</Comment>
+    <Code>DataFormat</Code>
+    <Name>Data Format</Name>
+    <LocalName>Format de données</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {EA69EA98-8B77-41DD-8278-943AB9538FAB}, used in Data Movement Model</Comment>
+    <Code>DataInput</Code>
+    <Name>Data Input</Name>
+    <LocalName>Entrée de données</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {1E597171-9350-11D1-AB3C-0020AF71E433}, used in Conceptual Data Model</Comment>
+    <Code>DataItem</Code>
+    <Name>Data Item</Name>
+    <LocalName>Information</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {07F14D2C-87F4-4629-971C-96AD08B0582F}, used in Conceptual Data Model</Comment>
+    <Code>DataItemMapping</Code>
+    <Name>Data Item Mapping</Name>
+    <LocalName>Correspondance d'information</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {F3700A01-2AA7-4C2D-AC42-4FF0C64D45DC}, used in Data Movement Model</Comment>
+    <Code>DataJoin</Code>
+    <Name>Data Join</Name>
+    <LocalName>Jointure de données</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {C939634A-0923-4207-A296-CCB5A04F60C8}, used in Data Movement Model</Comment>
+    <Code>DataLookup</Code>
+    <Name>Data Lookup</Name>
+    <LocalName>Recherche de données</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {A0A65420-AE01-49DC-BC00-417C699AEC01}, used in Data Movement Model</Comment>
+    <Code>DataMerge</Code>
+    <Name>Data Merge</Name>
+    <LocalName>Fusion de données</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {3F2F058B-DAAF-4F26-A0A5-8A6D0F972C3F}, used in Data Movement Model</Comment>
+    <Code>DataMovementDiagram</Code>
+    <Name>Data Movement Diagram</Name>
+    <LocalName>Diagramme de fluidité de l'information</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {3F78E634-A98C-4FB7-994C-DD5DE09F2C44}, used in Data Movement Model</Comment>
+    <Code>Model</Code>
+    <Name>Data Movement Model</Name>
+    <LocalName>Modèle de Fluidité de l'Information</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {8A891920-8F38-48A5-83AB-BFA511D2C7FD}, used in Data Movement Model</Comment>
+    <Code>DataOutput</Code>
+    <Name>Data Output</Name>
+    <LocalName>Sortie de données</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {31A35613-D203-4A45-989A-220E6F6C7693}, used in Data Movement Model</Comment>
+    <Code>DataProjection</Code>
+    <Name>Data Projection</Name>
+    <LocalName>Projection de données</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {6060F7FE-48A3-4C5F-8951-36146BC5D0A7}, used in Data Movement Model</Comment>
+    <Code>DataQueryExecution</Code>
+    <Name>Data Query Execution</Name>
+    <LocalName>Exécution de requête de données</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {A6C567BF-7A1C-4CCD-8862-68EFC50CFBA6}, used in Data Movement Model</Comment>
+    <Code>DataQueryTransform</Code>
+    <Name>Data Query Transform</Name>
+    <LocalName>Transformation de requête de données</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {FF4048D0-8285-4000-AADB-9C252E9D07C6}, used in Data Movement Model</Comment>
+    <Code>DataSort</Code>
+    <Name>Data Sort</Name>
+    <LocalName>Tri de données</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4F87C7A1-251E-11D1-83D9-444553540000}, used in Multi-Model Report</Comment>
+    <Code>BaseDataSource</Code>
+    <Name>Data Source</Name>
+    <LocalName>Source de données</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {18112800-1A4B-11D1-83D9-444553540000};{4BA9F677-DAB1-11D1-9944-006097355D9B};{D3BC018E-93A0-48AE-97DB-876A7D0797F0};{DEF4793C-FAC3-49D6-93A4-53973BB3F438}, used in Object-Oriented Model; Pdo; Conceptual Data Model; XML Model</Comment>
+    <Code>DataSource</Code>
+    <Name>Data Source</Name>
+    <LocalName>Source de données</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {E1FA9EEA-37B4-45CD-9A13-1911C1B213C1}, used in Multi-Model Report</Comment>
+    <Code>DefaultDataSource</Code>
+    <Name>Data Source</Name>
+    <LocalName>Source de données</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {1569DBC8-256F-4C45-AE53-617AE35DA890}, used in Data Movement Model</Comment>
+    <Code>DataSplit</Code>
+    <Name>Data Split</Name>
+    <LocalName>Scission de données</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {24DEDFE2-DE61-490B-81BE-B036F0041C2C}, used in Data Movement Model</Comment>
+    <Code>DataStore</Code>
+    <Name>Data Store</Name>
+    <LocalName>Stockage de données</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {0016F2D2-F179-11D2-B6A0-0008C7EA8BFF}, used in Cdo</Comment>
+    <Code>BaseLogicalDataStructure</Code>
+    <Name>Data Structure</Name>
+    <LocalName>Structure de données</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {F578063F-B91F-419D-9201-EAD1DDFB11FC}, used in Data Movement Model</Comment>
+    <Code>DataStructureColumn</Code>
+    <Name>Data Structure Column</Name>
+    <LocalName>Colonne de structure de données</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {D49C866B-E1CD-4015-AAC9-6CD9B2348B35}, used in Data Movement Model</Comment>
+    <Code>DataStructureJoin</Code>
+    <Name>Data Structure Join</Name>
+    <LocalName>Jointure de structures de données</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {8B62FAA7-D635-4775-B11F-6CD75A0306A7}, used in Conceptual Data Model</Comment>
+    <Code>DataStructureMapping</Code>
+    <Name>Data Structure Mapping</Name>
+    <LocalName>Correspondance de structure de données</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {1F24179D-176F-4729-8982-339418295D4C}, used in Data Movement Model</Comment>
+    <Code>DataStructureSortedColumn</Code>
+    <Name>Data Structure Sorted Column</Name>
+    <LocalName>Colonne triée de structure de données</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {C616870A-194E-4360-B5D7-C05A622D763E}, used in Business Process Model</Comment>
+    <Code>DataTransformation</Code>
+    <Name>Data Transformation</Name>
+    <LocalName>Transformation de données</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {AC4931BD-9447-468B-A114-F7B8D18EB441}, used in Data Movement Model</Comment>
+    <Code>DataTransformationAction</Code>
+    <Name>Data Transformation Action</Name>
+    <LocalName>Action de transformation de données</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4C930DDE-058F-4A69-826F-1A79D75EBB6F}, used in Data Movement Model</Comment>
+    <Code>TransformationDiagram</Code>
+    <Name>Data Transformation Diagram</Name>
+    <LocalName>Diagramme de transformation des données</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {8C562FE6-A95D-44AE-B4C7-561732017A85}, used in Data Movement Model</Comment>
+    <Code>DataTransformationTask</Code>
+    <Name>Data Transformation Task</Name>
+    <LocalName>Tâche de transformation de données</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {31A35203-D203-4A45-989A-220E6F6C7693};{4BA9F648-DAB1-11D1-9944-006097355D9B};{56711B61-34A6-4785-B973-0C659AA85F78}, used in Data Movement Model; Pdo; Enterprise Architecture Model</Comment>
+    <Code>Database</Code>
+    <Name>Database</Name>
+    <LocalName>Base de données</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {A8830222-1A6E-43F9-A996-631543A950BC}, used in Data Movement Model</Comment>
+    <Code>DatabaseInput</Code>
+    <Name>Database Input</Name>
+    <LocalName>Entrées de base de données</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {FAC6F6CA-0696-4D15-93C4-A479BCE1325C}, used in Data Movement Model</Comment>
+    <Code>DatabaseOutput</Code>
+    <Name>Database Output</Name>
+    <LocalName>Sortie de base de données</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4607ABC8-663B-4FBB-B96E-DC810B52B9AF}, used in Pdo</Comment>
+    <Code>DatabasePackage</Code>
+    <Name>Database Package</Name>
+    <LocalName>Package de base de données</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4607ABD8-663B-4FBB-B96E-DC810B52B9AF}, used in Pdo</Comment>
+    <Code>DatabasePackageCursor</Code>
+    <Name>Database Package Cursor</Name>
+    <LocalName>Curseur de package de base de données</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4607ABD9-663B-4FBB-B96E-DC810B52B9AF}, used in Pdo</Comment>
+    <Code>DatabasePackageException</Code>
+    <Name>Database Package Exception</Name>
+    <LocalName>Exception de package de base de données</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4607ABDB-663B-4FBB-B96E-DC810B52B9AF}, used in Pdo</Comment>
+    <Code>DatabasePackageProcedure</Code>
+    <Name>Database Package Procedure</Name>
+    <LocalName>Procédure de package de base de données</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {0890ED3D-5DDB-4D26-9C37-791943C29EE7}, used in Pdo</Comment>
+    <Code>DatabasePackageTemplate</Code>
+    <Name>Database Package Template</Name>
+    <LocalName>Modèle de package de base de donnée</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4607ABD7-663B-4FBB-B96E-DC810B52B9AF}, used in Pdo</Comment>
+    <Code>DatabasePackageType</Code>
+    <Name>Database Package Type</Name>
+    <LocalName>Type de package de base de données</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4607ABD5-663B-4FBB-B96E-DC810B52B9AF}, used in Pdo</Comment>
+    <Code>DatabasePackageVariable</Code>
+    <Name>Database Package Variable</Name>
+    <LocalName>Variable de package de base de données</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4BA9F647-DAB1-11D1-9944-006097355D9B}, used in Pdo</Comment>
+    <Code>DBMS</Code>
+    <Name>DBMS</Name>
+    <LocalName>SGBD</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {585CBB04-C940-11D1-BD0D-00A02478ECC9}, used in Multi-Model Report</Comment>
+    <Code>GenerationTargetDefinition</Code>
+    <Name>DBMS</Name>
+    <LocalName>Cible</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {D4B2DF46-0047-11D2-9952-006097355D9B}, used in Pdo</Comment>
+    <Code>DBMSTrigger</Code>
+    <Name>DBMS Trigger</Name>
+    <LocalName>Trigger de SGBD</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {CE1BFEF0-CEFE-482D-A545-4161478933BA}, used in Ooo</Comment>
+    <Code>BaseDecision</Code>
+    <Name>Decision</Name>
+    <LocalName>Décision</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {CE1BFEEA-CEFE-482D-A545-4161478933BA};{D26E3D76-15C6-47FA-B2A6-47D6D330CECE}, used in Object-Oriented Model; Business Process Model</Comment>
+    <Code>Decision</Code>
+    <Name>Decision</Name>
+    <LocalName>Décision</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4607ABDD-663B-4FBB-B96E-DC810B52B9AF}, used in Pdo</Comment>
+    <Code>PhysicalDefault</Code>
+    <Name>Default</Name>
+    <LocalName>Défaut</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {1811207C-1A4B-11D1-83D9-444553540000}, used in Object-Oriented Model</Comment>
+    <Code>DelegationConnector</Code>
+    <Name>Delegation Connector</Name>
+    <LocalName>Connecteur de délégation</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {18112069-1A4B-11D1-83D9-444553540000}, used in Object-Oriented Model</Comment>
+    <Code>Dependency</Code>
+    <Name>Dependency</Name>
+    <LocalName>Dépendance</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {0A863DCD-EA02-47A1-AF04-CC3BDD576613}, used in Project</Comment>
+    <Code>DependencyLink</Code>
+    <Name>Dependency Link</Name>
+    <LocalName>Lien de dépendance</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {55A3BFD5-9D14-438C-A4F1-A8D57096AB1F}, used in Multi-Model Report</Comment>
+    <Code>DependencyMatrix</Code>
+    <Name>Dependency Matrix</Name>
+    <LocalName>Matrice de dépendances</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {18112600-1A4B-11D1-83D9-444553540000}, used in Object-Oriented Model</Comment>
+    <Code>DeploymentDiagram</Code>
+    <Name>Deployment Diagram</Name>
+    <LocalName>Diagramme de déploiement</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {DBB5502B-9031-4BBE-A7B3-7572E8CCFD47}, used in Enterprise Architecture Model</Comment>
+    <Code>DeploymentInstance</Code>
+    <Name>Deployment Instance</Name>
+    <LocalName>Instance de déploiement</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {F6448C2A-AD3A-40BE-9ECC-99EA557722FD}, used in XML Model</Comment>
+    <Code>Derivation</Code>
+    <Name>Derivation</Name>
+    <LocalName>Dérivation</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {36083F6D-1A49-11D1-83D9-444553540000}, used in Sym</Comment>
+    <Code>BaseDiagram</Code>
+    <Name>Diagram</Name>
+    <LocalName>Diagramme</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4F87C702-251E-11D1-83D9-444553540000}, used in Multi-Model Report</Comment>
+    <Code>PackageDiagram</Code>
+    <Name>Diagram</Name>
+    <LocalName>Diagramme</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {B52C1A38-9726-47F7-9236-D06056846583}, used in Project</Comment>
+    <Code>DiagramDocument</Code>
+    <Name>Diagram Document</Name>
+    <LocalName>Document de type diagramme</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4BA9F674-DAB1-11D1-9944-006097355D9B}, used in Pdo</Comment>
+    <Code>Dimension</Code>
+    <Name>Dimension</Name>
+    <LocalName>Dimension</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4607ABC4-663B-4FBB-B96E-DC810B52B9AF}, used in Pdo</Comment>
+    <Code>DimensionMapping</Code>
+    <Name>Dimension Mapping</Name>
+    <LocalName>Correspondance de dimension</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {B38B4FB0-D9F8-11D1-9944-0060F0140000}, used in Pdo</Comment>
+    <Code>DimensionalType</Code>
+    <Name>Dimensional Type</Name>
+    <LocalName>Type dimensionnel</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {B38B4FB0-D9F8-11D1-9944-0060E7140000}, used in Pdo</Comment>
+    <Code>DistinctValues</Code>
+    <Name>Distinct Values</Name>
+    <LocalName>Valeurs distinctes</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {7DE51B1C-F5A4-4AA6-B82F-F667EA30FEDD}, used in Enterprise Architecture Model</Comment>
+    <Code>Document</Code>
+    <Name>Document</Name>
+    <LocalName>Document</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {91449976-7A75-4B89-B582-96FA7D3853CD}, used in Enterprise Architecture Model</Comment>
+    <Code>DocumentObject</Code>
+    <Name>Document Object</Name>
+    <LocalName>Objet document</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {EE2E407B-912E-4915-A3B0-B4BEB27AD3F1}, used in XML Model</Comment>
+    <Code>Documentation</Code>
+    <Name>Documentation</Name>
+    <LocalName>Documentation</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4F87C708-251E-11D1-83D9-444553540000}, used in Multi-Model Report</Comment>
+    <Code>BaseDomain</Code>
+    <Name>Domain</Name>
+    <LocalName>Domaine</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {3647BA8E-24C1-4715-A29C-F14F890271B8}, used in Cdo</Comment>
+    <Code>BaseLogicalDomain</Code>
+    <Name>Domain</Name>
+    <LocalName>Domaine</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {1811206F-1A4B-11D1-83D9-444553540000};{1E597176-9350-11D1-AB3C-0020AF71E433};{6D67A705-8877-4490-B819-7D3AA9F502D1}, used in Object-Oriented Model; Conceptual Data Model; Logical Data Model</Comment>
+    <Code>Domain</Code>
+    <Name>Domain</Name>
+    <LocalName>Domaine</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4BA9F646-DAB1-11D1-9944-006097355D9B}, used in Pdo</Comment>
+    <Code>PhysicalDomain</Code>
+    <Name>Domain</Name>
+    <LocalName>Domaine</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {2ECAEC7D-40E2-4FDD-B534-25DA9F60C7D7}, used in XML Model</Comment>
+    <Code>Element</Code>
+    <Name>Element</Name>
+    <LocalName>Elément</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {3853866D-5D2F-489E-AA70-8B657D7255D4}, used in XML Model</Comment>
+    <Code>ElementMapping</Code>
+    <Name>Element Mapping</Name>
+    <LocalName>Correspondance d'élément</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {CA882B31-83BF-462C-9215-F6B07328B598}, used in Business Process Model</Comment>
+    <Code>EmissionDataMapping</Code>
+    <Name>Emission Mapping</Name>
+    <LocalName>Correspondance d'émission</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {5992B0B5-44D8-4E3D-915E-2D19C680C531}, used in Merise Process Model</Comment>
+    <Code>EmissionRule</Code>
+    <Name>Emission Rule</Name>
+    <LocalName>Règle d'émission</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {CE1BFEE7-CEFE-482D-A545-4161478933BA}, used in Ooo</Comment>
+    <Code>BaseEnd</Code>
+    <Name>End</Name>
+    <LocalName>Fin</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {CE1BFEE9-CEFE-482D-A545-4161478933BA}, used in Object-Oriented Model</Comment>
+    <Code>End</Code>
+    <Name>End</Name>
+    <LocalName>Fin</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {D26E3D7D-15C6-47FA-B2A6-47D6D330CECE}, used in Business Process Model</Comment>
+    <Code>ProcessEnd</Code>
+    <Name>End</Name>
+    <LocalName>Fin</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {6CE9859A-BA73-4EBB-B7D4-8E912E030000}, used in Data Movement Model</Comment>
+    <Code>EndType</Code>
+    <Name>End Type</Name>
+    <LocalName>Type de fin</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {9AD6C342-A330-4693-9A45-0E52F02A8C7F}, used in Enterprise Architecture Model</Comment>
+    <Code>EnterpriseArchitectureDiagram</Code>
+    <Name>Enterprise Architecture Diagram</Name>
+    <LocalName>Diagramme d'architecture d'entreprise</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {5215C79E-A9A1-4738-A627-36DA432EFE29}, used in Enterprise Architecture Model</Comment>
+    <Code>Model</Code>
+    <Name>Enterprise Architecture Model</Name>
+    <LocalName>Modèle d'architecture d'entreprise</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {3647BA8A-24C1-4715-A29C-F14F890271B8}, used in Cdo</Comment>
+    <Code>BaseLogicalEntity</Code>
+    <Name>Entity</Name>
+    <LocalName>Entité</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {1E597172-9350-11D1-AB3C-0020AF71E433};{D86B0751-A544-42AE-AAA6-6E32C602F706};{EC7A6873-111C-42CA-90AB-F6FD414B8930}, used in Conceptual Data Model; Logical Data Model; XML Model</Comment>
+    <Code>Entity</Code>
+    <Name>Entity</Name>
+    <LocalName>Entité</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {5D365E56-DB15-4130-8114-67CFD0130000}, used in Cdo</Comment>
+    <Code>Entity1ToEntity2RoleCardinality</Code>
+    <Name>Entity 1 -&gt; Entity 2 Role Cardinality</Name>
+    <LocalName>Cardinalité du rôle Entité 1 -&gt; Entité 2</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {1E597174-9350-11D1-AB3C-0020AF71E433};{E1690028-F3DD-4986-B6CB-1509A400BE2B}, used in Conceptual Data Model; Logical Data Model</Comment>
+    <Code>EntityAttribute</Code>
+    <Name>Entity Attribute</Name>
+    <LocalName>Attribut d'entité</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {27D8D518-6EE3-4CAD-AE98-D485E5A54748}, used in Conceptual Data Model</Comment>
+    <Code>EntityAttributeMapping</Code>
+    <Name>Entity Attribute Mapping</Name>
+    <LocalName>Correspondance d'attribut d'entité</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {A1FB6EB2-CA2C-4A3D-8A3D-2925C1F57BE6}, used in Conceptual Data Model</Comment>
+    <Code>EntityMapping</Code>
+    <Name>Entity Mapping</Name>
+    <LocalName>Correspondance d'entité</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {2CAF78CD-917E-45E4-9A02-446E25CF3796}, used in XML Model</Comment>
+    <Code>EnumerationFacet</Code>
+    <Name>Enumeration Facet</Name>
+    <LocalName>Facette Enumération</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {2822F97C-644C-43DA-B14D-73BFE65E2986}, used in Enterprise Architecture Model</Comment>
+    <Code>ETLJob</Code>
+    <Name>ETL Job</Name>
+    <LocalName>Travail ETL</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {18112703-1A4B-11D1-83D9-444553540000};{230F671F-D62A-43C8-80B3-B89C9D77B8C0};{5992B0B3-44D8-4E3D-915E-2D19C680C531}, used in Object-Oriented Model; Business Process Model; Merise Process Model</Comment>
+    <Code>Event</Code>
+    <Name>Event</Name>
+    <LocalName>Evénement</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {5992B0B7-44D8-4E3D-915E-2D19C680C531}, used in Merise Process Model</Comment>
+    <Code>EventEmission</Code>
+    <Name>Event Emission</Name>
+    <LocalName>Emission d'événements</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {32F16481-2B4B-45C0-9102-AF3DC45DDA7A}, used in Data Movement Model</Comment>
+    <Code>EventScript</Code>
+    <Name>Event Script</Name>
+    <LocalName>Script d'événement</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {0CC2E10A-1231-43AA-8862-C0E05F08E4B9}, used in Multi-Model Report</Comment>
+    <Code>ExtendedBaseCollection</Code>
+    <Name>Extended Base Collection</Name>
+    <LocalName>Collection étendue de base</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {9FAFDA19-FEE0-4A6C-A8C5-0A586E27D2BC}, used in Multi-Model Report</Comment>
+    <Code>ExtendedCollection</Code>
+    <Name>Extended Collection</Name>
+    <LocalName>Collection étendue</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {14D1BE62-F482-4660-9B0F-F9BCAF4F2055}, used in Multi-Model Report</Comment>
+    <Code>ExtendedComposition</Code>
+    <Name>Extended Composition</Name>
+    <LocalName>Composition étendue</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {33C7DA5B-2446-49ED-84AB-320C7A0BAC97}, used in Multi-Model Report</Comment>
+    <Code>ExtendedLink</Code>
+    <Name>Extended Link</Name>
+    <LocalName>Lien étendu</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {8AF1C3D1-6782-4EBD-A539-2A16C7F61969}, used in Multi-Model Report</Comment>
+    <Code>ExtendedObject</Code>
+    <Name>Extended Object</Name>
+    <LocalName>Objet étendu</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {E66E5B1D-A046-4482-ADC2-5D6CCF8CBB85}, used in Multi-Model Report</Comment>
+    <Code>ExtendedSubObject</Code>
+    <Name>Extended Sub-Object</Name>
+    <LocalName>Sous-objet étendu</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4F87C70D-251E-11D1-83D9-444553540000}, used in Multi-Model Report</Comment>
+    <Code>ExtensibleObject</Code>
+    <Name>Extensible Object</Name>
+    <LocalName>Objet extensible</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {186C8AC3-D3DC-11D3-881C-00508B03C75C}, used in Model Extension</Comment>
+    <Code>ExtendedModelDefinition</Code>
+    <Name>Extension</Name>
+    <LocalName>Extension</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {37F59AA2-C5E8-41CE-95DC-313F03D93390}, used in XML Model</Comment>
+    <Code>Extension</Code>
+    <Name>Extension</Name>
+    <LocalName>Extension</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {1E19FB3A-1A63-41FD-A4DD-47FBA084B88D}, used in XML Model</Comment>
+    <Code>External</Code>
+    <Name>External</Name>
+    <LocalName>Composant externe</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {E4591038-E2B3-4B1C-B68E-3E3D073DFCF4}, used in Conceptual Data Model</Comment>
+    <Code>ExternalAssociationAttributeMapping</Code>
+    <Name>External Association Attribute Mapping</Name>
+    <LocalName>Correspondance d'attribut d'association externe</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {08722A75-4722-4A21-A449-2CC80EC16631}, used in Conceptual Data Model</Comment>
+    <Code>ExternalAssociationMapping</Code>
+    <Name>External Association Mapping</Name>
+    <LocalName>Correspondance d'association externe</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4CCC35FC-BEC0-487B-B77F-40D438E51E66}, used in XML Model</Comment>
+    <Code>ExternalAttributeMapping</Code>
+    <Name>External Attribute Mapping</Name>
+    <LocalName>Correspondance d'attribut externe</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {46129529-AB70-43C9-A6AB-4E2A9AF30139}, used in Conceptual Data Model</Comment>
+    <Code>ExternalBaseAttributeMapping</Code>
+    <Name>External Base Attribute Mapping</Name>
+    <LocalName>Correspondance de propriété externe</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {D5A1A7B2-BC94-4F68-A2EA-AD8D1000FB1F}, used in Pdo</Comment>
+    <Code>ExternalColumnMapping</Code>
+    <Name>External Column Mapping</Name>
+    <LocalName>Correspondance de colonne externe</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {B0450F07-05A2-4C30-8446-574DD98069EA}, used in XML Model</Comment>
+    <Code>ExternalComplexTypeMapping</Code>
+    <Name>External Complex Type Mapping</Name>
+    <LocalName>Correspondance de type complexe externe</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {2A28E770-9684-4F7A-9980-BDE7AC1C95BA}, used in Conceptual Data Model</Comment>
+    <Code>ExternalDataItemMapping</Code>
+    <Name>External Data Item Mapping</Name>
+    <LocalName>Correspondance d'information externe</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {DEFA454C-D53A-4F81-9EFD-D56592487BF5}, used in Conceptual Data Model</Comment>
+    <Code>ExternalDataStructureMapping</Code>
+    <Name>External Data Structure Mapping</Name>
+    <LocalName>Correspondance de structure de données</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {5D2353FD-0AA4-4A54-BFCB-0EFEB0426724}, used in XML Model</Comment>
+    <Code>ExternalElementMapping</Code>
+    <Name>External Element Mapping</Name>
+    <LocalName>Correspondance d'élément externe</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {31420D5A-30EA-457D-8390-B9C7EDAFF411}, used in Conceptual Data Model</Comment>
+    <Code>ExternalEntityAttributeMapping</Code>
+    <Name>External Entity Attribute Mapping</Name>
+    <LocalName>Correspondance d'attribut d'entité externe</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {DE1F5B20-7E5E-4B68-98A3-081685AA47AC}, used in Conceptual Data Model</Comment>
+    <Code>ExternalEntityMapping</Code>
+    <Name>External Entity Mapping</Name>
+    <LocalName>Correspondance d'entité externe</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {CDCBFFEE-C248-494C-BB8B-38744C772DB4}, used in Model Extension</Comment>
+    <Code>ExternalFileDescriptor</Code>
+    <Name>External File Descriptor</Name>
+    <LocalName>Descripteur de fichier externe</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {573AD880-8834-4AE4-99CF-B9CE2A0F8E05}, used in Conceptual Data Model</Comment>
+    <Code>ExternalInheritanceAttributeMapping</Code>
+    <Name>External Inheritance Attribute Mapping</Name>
+    <LocalName>Correspondance d'attribut d'héritage externe</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {870E0642-56EE-4B40-A0AC-706404DA78B7}, used in Conceptual Data Model</Comment>
+    <Code>ExternalInheritanceMapping</Code>
+    <Name>External Inheritance Mapping</Name>
+    <LocalName>Correspondance d'héritage externe</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {5DB5FEDB-5366-446B-B02C-DAC21C962D10}, used in Multi-Model Report</Comment>
+    <Code>ExternalModelConnection</Code>
+    <Name>External Model Connection</Name>
+    <LocalName>Connexion au modèle externe</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {74BE8384-C52B-48E9-9E6A-5484FA229E52}, used in Multi-Model Report</Comment>
+    <Code>ExternalModelLink</Code>
+    <Name>External Model Link</Name>
+    <LocalName>Lien de modèle externe</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {DC4DD267-D8A3-494F-AB4F-89C5A16ED109}, used in Pdo</Comment>
+    <Code>ExternalTableMapping</Code>
+    <Name>External Table Mapping</Name>
+    <LocalName>Correspondance de table externe</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {98E59A19-2DDE-426A-A485-6807E5326FA7}, used in XML Model</Comment>
+    <Code>Facet</Code>
+    <Name>Facet</Name>
+    <LocalName>Facette</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4BA9F672-DAB1-11D1-9944-006097355D9B}, used in Pdo</Comment>
+    <Code>Fact</Code>
+    <Name>Fact</Name>
+    <LocalName>Fait</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {58FB68B4-4A03-42CE-A098-F8B9A56A2761}, used in Pdo</Comment>
+    <Code>FactAttribute</Code>
+    <Name>Fact Attribute</Name>
+    <LocalName>Attribut de fait</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {F57551BD-705E-462C-8572-0CEACDDD2548}, used in Pdo</Comment>
+    <Code>FactAttributeMapping</Code>
+    <Name>Fact Attribute Mapping</Name>
+    <LocalName>Correspondance d'attribut de fait</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4607ABC2-663B-4FBB-B96E-DC810B52B9AF}, used in Pdo</Comment>
+    <Code>FactMapping</Code>
+    <Name>Fact Mapping</Name>
+    <LocalName>Correspondance de fait</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {D26E3DE5-15C6-47FA-B2A6-47D6D330CECE}, used in Business Process Model</Comment>
+    <Code>FaultMessage</Code>
+    <Name>Fault</Name>
+    <LocalName>Erreur</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4F87C70E-251E-11D1-83D9-444553540000}, used in Multi-Model Report</Comment>
+    <Code>BaseCheckNamedStructuralFeature</Code>
+    <Name>Feature</Name>
+    <LocalName>Elément</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {8EFE63AA-A8C1-40ED-82C5-A7B13EE8BC39}, used in XML Model</Comment>
+    <Code>Field</Code>
+    <Name>Field</Name>
+    <LocalName>Champ</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {2F1C7294-2803-4689-BC9E-8A637912F07B}, used in Project</Comment>
+    <Code>FileDocument</Code>
+    <Name>File</Name>
+    <LocalName>Fichier</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4F87C717-251E-11D1-83D9-444553540000}, used in Multi-Model Report</Comment>
+    <Code>FileObject</Code>
+    <Name>File</Name>
+    <LocalName>Fichier</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {48E4579B-E243-4114-9EF9-4A80FE260000};{48E4579B-E243-4114-9EF9-4A80FF260000}, used in XML Model; XML Model</Comment>
+    <Code>Final</Code>
+    <Name>Final</Name>
+    <LocalName>Final</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {31A35343-D203-4A45-989A-220E6F6C7693}, used in Data Movement Model</Comment>
+    <Code>FlatFile</Code>
+    <Name>Flat File</Name>
+    <LocalName>Fichier plat</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {31A35433-D203-4A45-989A-220E6F6C7693}, used in Data Movement Model</Comment>
+    <Code>FlatFileInput</Code>
+    <Name>Flat File Input</Name>
+    <LocalName>Entrée de fichier plat</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {31A35523-D203-4A45-989A-220E6F6C7693}, used in Data Movement Model</Comment>
+    <Code>FlatFileOutput</Code>
+    <Name>Flat File Output</Name>
+    <LocalName>Sortie de fichier plat</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {CE1BFF01-CEF0-482D-A545-4161478933BA}, used in Object-Oriented Model</Comment>
+    <Code>ActivityFlow</Code>
+    <Name>Flow</Name>
+    <LocalName>Flux</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {5992B0B1-44D8-4E3D-915E-2D19C680C531};{D26E3D75-15C6-47FA-B2A6-47D6D330CECE}, used in Merise Process Model; Business Process Model</Comment>
+    <Code>Flow</Code>
+    <Name>Flow</Name>
+    <LocalName>Flux</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {9AD58810-8309-4AD8-B25F-982BE3029675}, used in Merise Process Model</Comment>
+    <Code>FlowDiagram</Code>
+    <Name>Flow Diagram</Name>
+    <LocalName>Diagramme de flux</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {CE1BFF03-CEF0-482D-A545-4161478933BA}, used in Object-Oriented Model</Comment>
+    <Code>FlowMappingParameter</Code>
+    <Name>Flow Mapping</Name>
+    <LocalName>Correspondance de flux</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {CE1BFF00-CEF0-482D-A545-4161478933BA}, used in Object-Oriented Model</Comment>
+    <Code>FlowLink</Code>
+    <Name>FlowLink</Name>
+    <LocalName>Lien de flux</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {B0303847-10B9-4F44-BE8C-6F71CBAAC240}, used in Project</Comment>
+    <Code>ProjectFolder</Code>
+    <Name>Folder</Name>
+    <LocalName>Dossier</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4F8096B1-FA73-4B33-9211-42FC53BBE6EE}, used in Enterprise Architecture Model</Comment>
+    <Code>Form</Code>
+    <Name>Form</Name>
+    <LocalName>Formulaire</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {DD530274-C462-4893-9F5F-5AE170A04F13}, used in XML Model</Comment>
+    <Code>FractionDigitsFacet</Code>
+    <Name>Fraction Digits Facet</Name>
+    <LocalName>Facette Chiffres après la virgule</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {B537C1A0-D293-11D0-83D9-4445C7150000}, used in Object-Oriented Model</Comment>
+    <Code>FragmentType</Code>
+    <Name>Fragment Type</Name>
+    <LocalName>Type de fragment</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {DC993A7F-F747-4284-9B10-C65EC2613D49}, used in Project</Comment>
+    <Code>Framework</Code>
+    <Name>Framework</Name>
+    <LocalName>Cadre d'architecture</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {F16B2141-95C7-4227-BC87-A4AB39820CB2}, used in Project</Comment>
+    <Code>FrameworkArea</Code>
+    <Name>Framework Area</Name>
+    <LocalName>Zone du cadre de travail</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {00F78ADE-039B-49A0-A664-B6B5C6FA2D2D}, used in Project</Comment>
+    <Code>FrameworkDiagram</Code>
+    <Name>Framework Diagram</Name>
+    <LocalName>Diagramme de cadre d'architecture</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {BB7FBEE0-EF03-4AC7-84A8-36DF1215B8AE}, used in Project</Comment>
+    <Code>FrameworkLink</Code>
+    <Name>Framework Link</Name>
+    <LocalName>Lien d'architecture</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {5956CDF3-119B-4867-B230-CD4C2CE93EB5}, used in Project</Comment>
+    <Code>FrameworkMatrix</Code>
+    <Name>Framework Matrix</Name>
+    <LocalName>Matrice de cadre d'architecture</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {B8692B82-9443-4701-A995-0004C1C664BF}, used in Project</Comment>
+    <Code>FrameworkMatrixDiagram</Code>
+    <Name>Framework Matrix Diagram</Name>
+    <LocalName>Diagramme de matrice de cadre d'architecture</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {D0D0B2C0-6A7C-4BCC-82C8-6940312EEA9A}, used in Project</Comment>
+    <Code>FrameworkNode</Code>
+    <Name>Framework Node</Name>
+    <LocalName>Noeud de cadre d'architecture</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {44590C93-C293-4EFC-BF99-78EBC1BE1E83}, used in Free Model</Comment>
+    <Code>FreeDiagram</Code>
+    <Name>Free Diagram</Name>
+    <LocalName>Diagramme libre</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {A3D646C2-7F72-4197-8A31-32275EB456B4}, used in Free Model</Comment>
+    <Code>Model</Code>
+    <Name>Free Model</Name>
+    <LocalName>Modèle libre</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {B6288BD4-75A6-4CF5-B2A5-5B68138DA8F1}, used in Enterprise Architecture Model</Comment>
+    <Code>Fulfillment</Code>
+    <Name>Fulfillment</Name>
+    <LocalName>Atteinte</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {18112067-1A4B-11D1-83D9-444553540000}, used in Object-Oriented Model</Comment>
+    <Code>Generalization</Code>
+    <Name>Generalization</Name>
+    <LocalName>Généralisation</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {A7061922-995F-11D1-8057-006005160000}, used in Rep</Comment>
+    <Code>GenerationType</Code>
+    <Name>Generation Type</Name>
+    <LocalName>Type de génération</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {820B3586-827C-449E-88BA-8EB02828EECE}, used in Data Movement Model</Comment>
+    <Code>GenericAction</Code>
+    <Name>Generic Action</Name>
+    <LocalName>Action générique</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {D30517CD-7081-4751-991C-4E4E2B5B2A01}, used in Data Movement Model</Comment>
+    <Code>GenericDataInput</Code>
+    <Name>Generic Data Input</Name>
+    <LocalName>Entrée de données génériques</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {E5AEE1A4-1709-45A7-9401-C46C65DBE36B}, used in Data Movement Model</Comment>
+    <Code>GenericDataOutput</Code>
+    <Name>Generic Data Output</Name>
+    <LocalName>Sortie de données génériques</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {CBB6AE6F-E01D-4BEC-AEF7-8BC86BDF914C}, used in Glossary Model</Comment>
+    <Code>Model</Code>
+    <Name>Glossary Model</Name>
+    <LocalName>Modèle de glossaire</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {A885C3DD-A8D7-43D8-BD64-8EAF6C4E3D96}, used in Requirements Model</Comment>
+    <Code>GlossaryTerm</Code>
+    <Name>Glossary Term</Name>
+    <LocalName>Terme de glossaire</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {9CA6646A-FBBC-4528-9EFE-E70B836D21DE}, used in Glossary Model</Comment>
+    <Code>GlossaryTermsList</Code>
+    <Name>Glossary Terms List</Name>
+    <LocalName>Liste des termes de glossaire</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {CD66F1CD-28E9-47DC-A0EB-761AF3313FF8}, used in Enterprise Architecture Model</Comment>
+    <Code>Goal</Code>
+    <Name>Goal</Name>
+    <LocalName>But</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4607ABCA-663B-4FBB-B96E-DC810B52B9AF};{53705746-500D-4B82-B65F-91F4A54CB94A}, used in Pdo; XML Model</Comment>
+    <Code>Group</Code>
+    <Name>Group</Name>
+    <LocalName>Groupe</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {EF810B60-F5E3-4AFB-93C5-243D9C6BE1CE}, used in Requirements Model</Comment>
+    <Code>RequirementGroup</Code>
+    <Name>Group</Name>
+    <LocalName>Groupe</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {5251B23D-1E07-4EA7-BBDF-BA7936F23313}, used in Requirements Model</Comment>
+    <Code>BaseUser</Code>
+    <Name>Group or User</Name>
+    <LocalName>Utilisateur ou groupe</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {81D9A354-B484-434B-B3D8-50C74C8F666B}, used in XML Model</Comment>
+    <Code>GroupParticle</Code>
+    <Name>Group Particle</Name>
+    <LocalName>Particule de groupe</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {48E4579B-E243-4114-9EF9-4A8046270000}, used in XML Model</Comment>
+    <Code>GroupType</Code>
+    <Name>Group Type</Name>
+    <LocalName>Type de groupe</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {994DA4A8-2D20-4131-A2B2-A3AF9EF9AD1B}, used in Enterprise Architecture Model</Comment>
+    <Code>HardwareAsset</Code>
+    <Name>Hardware Asset</Name>
+    <LocalName>Actif matériel</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {AC7552DF-5433-4B1B-AC89-8DFD8D7F558D}, used in Enterprise Architecture Model</Comment>
+    <Code>HardwarePlatform</Code>
+    <Name>Hardware Platform</Name>
+    <LocalName>Plateforme matérielle</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {6B556C17-3FE5-4A3F-8B90-F8D70580A063}, used in Enterprise Architecture Model</Comment>
+    <Code>HardwareServer</Code>
+    <Name>Hardware Server</Name>
+    <LocalName>Serveur matériel</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4BA9F676-DAB1-11D1-9944-006097355D9B}, used in Pdo</Comment>
+    <Code>DimensionHierarchy</Code>
+    <Name>Hierarchy</Name>
+    <LocalName>Hiérarchie</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4607ABD0-663B-4FBB-B96E-DC810B52B9AF}, used in Pdo</Comment>
+    <Code>HorizontalPartitioning</Code>
+    <Name>Horizontal Partitioning</Name>
+    <LocalName>Partitionnement horizontal</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {D0E0A940-B731-11D1-8898-00A09A170000}, used in Report Template</Comment>
+    <Code>HtmlImageFormat</Code>
+    <Name>HTML Image Format</Name>
+    <LocalName>Format d'image pour les rapports HTML</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {362D41EA-9D82-11D1-8E5D-444553540000}, used in Rep</Comment>
+    <Code>IdentifiedObject</Code>
+    <Name>Identified Object</Name>
+    <LocalName>Objet identifié</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {3647BA8D-24C1-4715-A29C-F14F890271B8}, used in Cdo</Comment>
+    <Code>BaseLogicalIdentifier</Code>
+    <Name>Identifier</Name>
+    <LocalName>Identifiant</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {040810A2-4B62-45C1-9C8B-5EABC249838B};{18112070-1A4B-11D1-83D9-444553540000};{1E597175-9350-11D1-AB3C-0020AF71E433}, used in Logical Data Model; Object-Oriented Model; Conceptual Data Model</Comment>
+    <Code>Identifier</Code>
+    <Name>Identifier</Name>
+    <LocalName>Identifiant</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {6C25C1F2-D61E-4BC4-8827-B06D396FAFA1}, used in XML Model</Comment>
+    <Code>IdentityConstraint</Code>
+    <Name>Identity Constraint</Name>
+    <LocalName>Contrainte d'identité</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {C42D09B7-0AEB-4783-A894-F44D2B712B91}, used in Enterprise Architecture Model</Comment>
+    <Code>Impact</Code>
+    <Name>Impact</Name>
+    <LocalName>Impact</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {5D535B48-10DF-4612-A921-B04CE1AD77A7}, used in Impact Analysis Model</Comment>
+    <Code>ImpactAnalysisCategory</Code>
+    <Name>Impact Analysis Category</Name>
+    <LocalName>Catégorie d'analyse d'impact</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {32A498B2-8494-4753-92A1-5A408FDD0F82}, used in Impact Analysis Model</Comment>
+    <Code>ImpactAnalysisDiagram</Code>
+    <Name>Impact Analysis Diagram</Name>
+    <LocalName>Diagramme d'analyse d'impact</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {D511651A-C436-4108-ACF8-1B2F97B3A51F}, used in Impact Analysis Model</Comment>
+    <Code>ImpactAnalysisImpactedModel</Code>
+    <Name>Impact Analysis Impacted Model</Name>
+    <LocalName>Modèle impacté par l'analyse d'impact</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {E76C14C6-992E-4E51-89E0-45EFBA0EBED3}, used in Impact Analysis Model</Comment>
+    <Code>ImpactAnalysisModel</Code>
+    <Name>Impact Analysis Model</Name>
+    <LocalName>Modèle d'analyse d'impact</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {AD0014F6-B1B8-41D0-B196-78B3D9130000}, used in Enterprise Architecture Model</Comment>
+    <Code>Level</Code>
+    <Name>Impact Level</Name>
+    <LocalName>Niveau d'impact</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {B38B4FB0-D9F8-11D1-9944-0060ED140000}, used in Pdo</Comment>
+    <Code>ImplementationType</Code>
+    <Name>Implementation</Name>
+    <LocalName>Mise en oeuvre</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {C2193D75-A834-4F88-88E7-444FED000000}, used in Business Process Model</Comment>
+    <Code>ImplementationMode</Code>
+    <Name>Implementation Type</Name>
+    <LocalName>Type de mise en oeuvre</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {E2546C8D-3EB0-4D48-AA4F-D94D68770AB8}, used in XML Model</Comment>
+    <Code>Import</Code>
+    <Name>Import</Name>
+    <LocalName>Import</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {8AA6A731-5C59-4103-A865-850F0D2C1CB2}, used in XML Model</Comment>
+    <Code>Include</Code>
+    <Name>Include</Name>
+    <LocalName>Inclusion</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {380BAA42-0042-11D2-BD28-00A02478ECC9}, used in Pdo</Comment>
+    <Code>Index</Code>
+    <Name>Index</Name>
+    <LocalName>Index</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {380BAA43-0042-11D2-BD28-00A02478ECC9}, used in Pdo</Comment>
+    <Code>IndexColumn</Code>
+    <Name>Index Column</Name>
+    <LocalName>Colonne d'index</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {B537C1A0-D293-11D0-83D9-4445D0010000}, used in Object-Oriented Model</Comment>
+    <Code>RoleAIndicator</Code>
+    <Name>Indicator A</Name>
+    <LocalName>Indicateur A</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {7F1D57FC-CDFE-4A40-86F9-632C8A6C1583}, used in Enterprise Architecture Model</Comment>
+    <Code>InfrastructureConcept</Code>
+    <Name>Infrastructure Concept</Name>
+    <LocalName>Concept d'infrastructure</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {7735031A-D1C2-40D8-8F42-81B21F149B12}, used in Enterprise Architecture Model</Comment>
+    <Code>InfrastructureLink</Code>
+    <Name>Infrastructure Link</Name>
+    <LocalName>Lien d'infrastructure</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {3647BA90-24C1-4715-A29C-F14F890271B8}, used in Cdo</Comment>
+    <Code>BaseLogicalInheritance</Code>
+    <Name>Inheritance</Name>
+    <LocalName>Héritage</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {1E597178-9350-11D1-AB3C-0020AF71E433};{57FC6925-A813-4847-AADC-AFAFA8EA7752}, used in Conceptual Data Model; Logical Data Model</Comment>
+    <Code>Inheritance</Code>
+    <Name>Inheritance</Name>
+    <LocalName>Héritage</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {1E597181-9350-11D1-AB3C-0020AF71E433};{E29B9CEF-D4E6-47EA-987F-04FE2BF3F636}, used in Conceptual Data Model; Logical Data Model</Comment>
+    <Code>InheritanceAttribute</Code>
+    <Name>Inheritance Attribute</Name>
+    <LocalName>Attribut d'héritage</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {62C968A0-2679-42D9-B330-9D735799CF20}, used in Conceptual Data Model</Comment>
+    <Code>InheritanceAttributeMapping</Code>
+    <Name>Inheritance Attribute Mapping</Name>
+    <LocalName>Correspondance d'attribut d'héritage</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {3647BA91-24C1-4715-A29C-F14F890271B8}, used in Cdo</Comment>
+    <Code>BaseLogicalInheritanceLink</Code>
+    <Name>Inheritance Link</Name>
+    <LocalName>Lien d'héritage</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {19173FC1-90F4-4013-8D7C-B0529B48BFA8};{1E597180-9350-11D1-AB3C-0020AF71E433}, used in Logical Data Model; Conceptual Data Model</Comment>
+    <Code>InheritanceLink</Code>
+    <Name>Inheritance Link</Name>
+    <LocalName>Lien d'héritage</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {6363AF76-D624-4E76-9DF7-A1426D0D1DC4}, used in Conceptual Data Model</Comment>
+    <Code>InheritanceMapping</Code>
+    <Name>Inheritance Mapping</Name>
+    <LocalName>Correspondance d'héritage</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {75ADC0F2-6103-4CB3-8D1C-710F978FDC5E}, used in Enterprise Architecture Model</Comment>
+    <Code>Initiative</Code>
+    <Name>Initiative</Name>
+    <LocalName>Initiative </LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {18112077-1A4B-11D1-83D9-444553540000}, used in Object-Oriented Model</Comment>
+    <Code>InnerLink</Code>
+    <Name>Inner Link</Name>
+    <LocalName>Lien interne</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {CE1BFF05-CEF0-482D-A545-4161478933BA}, used in Object-Oriented Model</Comment>
+    <Code>InputActivityParameter</Code>
+    <Name>Input Parameter</Name>
+    <LocalName>Paramètre d'entrée</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {585CBB39-C940-11D1-BD0D-00A02478ECC9}, used in Multi-Model Report</Comment>
+    <Code>Instance</Code>
+    <Name>Instance</Name>
+    <LocalName>Instance</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {18112910-1A4B-11D1-83D9-444553540000}, used in Object-Oriented Model</Comment>
+    <Code>InstanceLink</Code>
+    <Name>Instance Link</Name>
+    <LocalName>Lien entre objets</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {F5F49F00-6E8F-43AD-9AC1-E9154E3480C7}, used in Object-Oriented Model</Comment>
+    <Code>InteractionActivity</Code>
+    <Name>Interaction Activity</Name>
+    <LocalName>Activité d'interaction</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {F5F49FEE-6E8F-43AD-9AC1-E9154E3480C7}, used in Object-Oriented Model</Comment>
+    <Code>InteractionFragment</Code>
+    <Name>Interaction Fragment</Name>
+    <LocalName>Fragment d'interaction</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {18112930-1A4B-11D1-83D9-444553540000}, used in Object-Oriented Model</Comment>
+    <Code>InteractionOverviewDiagram</Code>
+    <Name>Interaction Overview Diagram</Name>
+    <LocalName>Diagramme d'interactions</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {D9C7DFEC-14AF-46FA-ADDC-EC51829D4776}, used in Object-Oriented Model</Comment>
+    <Code>InteractionReference</Code>
+    <Name>Interaction Reference</Name>
+    <LocalName>Référence d'interaction</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {18112064-1A4B-11D1-83D9-444553540000}, used in Object-Oriented Model</Comment>
+    <Code>Interface</Code>
+    <Name>Interface</Name>
+    <LocalName>Interface</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {585CBB27-C940-11D1-BD0D-00A02478ECC9}, used in Report Template</Comment>
+    <Code>IntraModelReport</Code>
+    <Name>Intra-Model Report</Name>
+    <LocalName>Rapport interne à un modèle</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {380BAA45-0042-11D2-BD28-00A02478ECC9}, used in Pdo</Comment>
+    <Code>JoinIndex</Code>
+    <Name>Join Index</Name>
+    <LocalName>Join index</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {380BAA46-0042-11D2-BD28-00A02478ECC9}, used in Pdo</Comment>
+    <Code>JoinIndexReference</Code>
+    <Name>Join Index Reference</Name>
+    <LocalName>Référence de join index</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {18112702-1A4B-11D1-83D9-444553540000}, used in Object-Oriented Model</Comment>
+    <Code>JunctionPoint</Code>
+    <Name>Junction Point</Name>
+    <LocalName>Point de jonction</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4F87C709-251E-11D1-83D9-444553540000}, used in Multi-Model Report</Comment>
+    <Code>BaseKey</Code>
+    <Name>Key</Name>
+    <LocalName>Clé</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {380BAA44-0042-11D2-BD28-00A02478ECC9};{5A97926D-99B8-4395-A5B8-0DC9E177531C}, used in Pdo; XML Model</Comment>
+    <Code>Key</Code>
+    <Name>Key</Name>
+    <LocalName>Clé</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {50644FB9-524B-4EA1-9A58-48AA0A2EF0C0}, used in XML Model</Comment>
+    <Code>KeyRef</Code>
+    <Name>Keyref</Name>
+    <LocalName>Contrainte Keyref</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {FC2A43EB-5F60-407A-9949-EA47E523A75C}, used in Multi-Model Report</Comment>
+    <Code>Keyword</Code>
+    <Name>Keyword</Name>
+    <LocalName>Mot clé</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {B38B4FB0-D9F8-11D1-9944-0060F5140000}, used in Pdo</Comment>
+    <Code>Length</Code>
+    <Name>Length</Name>
+    <LocalName>Type de longueur</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {F53CAC33-41FA-4B61-A0FD-70852B1870BE}, used in XML Model</Comment>
+    <Code>LengthFacet</Code>
+    <Name>Length Facet</Name>
+    <LocalName>Facette Longueur</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {23020FDF-65E2-4D1E-84C8-7EF4CCCB0D29}, used in Pdo</Comment>
+    <Code>Lifecycle</Code>
+    <Name>Lifecycle</Name>
+    <LocalName>Cycle de vie</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4F87C705-251E-11D1-83D9-444553540000}, used in Multi-Model Report</Comment>
+    <Code>BaseLinkObject</Code>
+    <Name>Link</Name>
+    <LocalName>Lien</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {18112071-1A4B-11D1-83D9-444553540000}, used in Object-Oriented Model</Comment>
+    <Code>UMLLinkBase</Code>
+    <Name>Link</Name>
+    <LocalName>Lien</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {95383AA3-C9A7-4EA0-9F3B-2A8FC3020000}, used in Requirements Model</Comment>
+    <Code>LinkObjectType</Code>
+    <Name>Link Object Type</Name>
+    <LocalName>Type d'objet lien</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {95383AA3-C9A7-4EA0-9F3B-2A8FC1020000}, used in Requirements Model</Comment>
+    <Code>LinkType</Code>
+    <Name>Link Type</Name>
+    <LocalName>Type de lien</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {43F13BEB-E43C-4820-B95E-843A5614F8F1}, used in Project</Comment>
+    <Code>ListDocument</Code>
+    <Name>List Document</Name>
+    <LocalName>Document de type liste</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {163EE9C4-9E89-4F4E-8119-F10E5DE2436D}, used in Multi-Model Report</Comment>
+    <Code>ListReport</Code>
+    <Name>List Report</Name>
+    <LocalName>Rapport tabulaire</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {2B180021-37A3-4945-8772-1854B6CD2201}, used in Multi-Model Report</Comment>
+    <Code>ListReportResultSet</Code>
+    <Name>List Report Result Set</Name>
+    <LocalName>Jeu de résultats de rapport tabulaire</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {5F45F978-C4F3-4E35-A3FC-AF3318663A0F}, used in Logical Data Model</Comment>
+    <Code>Model</Code>
+    <Name>Logical Data Model</Name>
+    <LocalName>Modèle Logique de Données</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4C883674-1CDD-4F67-A7BA-27B4CC6D601D}, used in Logical Data Model</Comment>
+    <Code>LogicalDiagram</Code>
+    <Name>Logical Diagram</Name>
+    <LocalName>Diagramme logique</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {C2193D75-A834-4F88-88E7-444F12070000}, used in Business Process Model</Comment>
+    <Code>LoopCharacteristics</Code>
+    <Name>Loop Characteristics</Name>
+    <LocalName>Caractéristiques de boucle</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {C2193D75-A834-4F88-88E7-444FE6000000}, used in Business Process Model</Comment>
+    <Code>LoopType</Code>
+    <Name>Loop Type</Name>
+    <LocalName>Type de boucle</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4F87C7A2-251E-11D1-83D9-444553540000}, used in Multi-Model Report</Comment>
+    <Code>BaseClassifierMapping</Code>
+    <Name>Mapping</Name>
+    <LocalName>Correspondance</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {E32D93EC-027C-4FD9-976E-3A94CD0AB996}, used in Multi-Model Report</Comment>
+    <Code>BaseObjectMapping</Code>
+    <Name>Mapping</Name>
+    <LocalName>Correspondance</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {95FD7FC7-0132-4694-A59B-3B039628FC89}, used in XML Model</Comment>
+    <Code>ClassifierMapping</Code>
+    <Name>Mapping</Name>
+    <LocalName>Correspondance</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {B84ED3A8-38CD-44B7-93D3-029ABB673F6C}, used in Multi-Model Report</Comment>
+    <Code>DefaultObjectMapping</Code>
+    <Name>Mapping</Name>
+    <LocalName>Correspondance</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4F87C7A0-251E-11D1-83D9-444553540000}, used in Multi-Model Report</Comment>
+    <Code>MappingClassifier</Code>
+    <Name>Mapping Classifier</Name>
+    <LocalName>Classificateur de correspondance</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {693DCD02-82B0-4D68-B44D-C64CBA2FEC29}, used in XML Model</Comment>
+    <Code>MaxExclusiveFacet</Code>
+    <Name>Maximum Exclusive Facet</Name>
+    <LocalName>Facette Supérieur</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {62ACB609-1CB0-4817-ABC1-2C92E0568084}, used in XML Model</Comment>
+    <Code>MaxInclusiveFacet</Code>
+    <Name>Maximum Inclusive Facet</Name>
+    <LocalName>Facette Supérieur ou égal</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {9F704B5E-90F5-4EE5-8501-DB4D3B7A9315}, used in XML Model</Comment>
+    <Code>MaxLengthFacet</Code>
+    <Name>Maximum Length Facet</Name>
+    <LocalName>Facette Longueur maximale</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {48E4579B-E243-4114-9EF9-4A80D3260000}, used in XML Model</Comment>
+    <Code>MaxOccurs</Code>
+    <Name>Maximum Occurrences</Name>
+    <LocalName>Nombre maximum d'occurrences</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {88C54403-0510-4B0A-86EE-9D22EB8FB426}, used in Multi-Model Report</Comment>
+    <Code>MDATransformation</Code>
+    <Name>MDA Transformation</Name>
+    <LocalName>Transformation MDA</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4BA9F673-DAB1-11D1-9944-006097355D9B}, used in Pdo</Comment>
+    <Code>FactMeasure</Code>
+    <Name>Measure</Name>
+    <LocalName>Mesure</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4607ABC3-663B-4FBB-B96E-DC810B52B9AF}, used in Pdo</Comment>
+    <Code>MeasureMapping</Code>
+    <Name>Measure Mapping</Name>
+    <LocalName>Correspondance de mesure</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {43EF1AE0-B5EF-41B7-853D-4C4DEBA41155}, used in Merise Process Model</Comment>
+    <Code>MeriseTreatmentDiagram</Code>
+    <Name>Merise Process Diagram</Name>
+    <LocalName>Diagramme de traitements Merise</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {8B5D3680-2056-4280-8B77-FBE8472CB1A8}, used in Merise Process Model</Comment>
+    <Code>Model</Code>
+    <Name>Merise Process Model</Name>
+    <LocalName>Modèle de Traitements Merise</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {18112202-1A4B-11D1-83D9-444553540000}, used in Object-Oriented Model</Comment>
+    <Code>Message</Code>
+    <Name>Message</Name>
+    <LocalName>Message</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {D26E3D7E-15C6-47FA-B2A6-47D6D330CECE}, used in Business Process Model</Comment>
+    <Code>MessageFlow</Code>
+    <Name>Message Flow</Name>
+    <LocalName>Flux de message</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {D26E3D77-15C6-47FA-B2A6-47D6D330CECE}, used in Business Process Model</Comment>
+    <Code>MessageFormat</Code>
+    <Name>Message Format</Name>
+    <LocalName>Format de message</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {C2193D75-A834-4F88-88E7-444FEC000000}, used in Business Process Model</Comment>
+    <Code>Type</Code>
+    <Name>Message Format Type</Name>
+    <LocalName>Type de format de message</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {5627002D-D079-4220-BA93-36615685D6B3}, used in Business Process Model</Comment>
+    <Code>MessagePart</Code>
+    <Name>Message Part</Name>
+    <LocalName>Partie de message</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {1E3E8E91-00BF-4A79-9221-C1A100F05514}, used in Model Extension</Comment>
+    <Code>PermissionProfile</Code>
+    <Name>Metadata Permission Profile</Name>
+    <LocalName>Profil de permissions de métadonnées</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {80E1BE62-1131-4953-941F-8C54220A5487}, used in XML Model</Comment>
+    <Code>MinExclusiveFacet</Code>
+    <Name>Minimum Exclusive Facet</Name>
+    <LocalName>Facette Inférieur</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {A29D81FA-B209-43C7-874D-19F094567A20}, used in XML Model</Comment>
+    <Code>MinInclusiveFacet</Code>
+    <Name>Minimum Inclusive Facet</Name>
+    <LocalName>Facette Inférieur ou égal</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {11BE4024-B0E5-4EBE-9673-294AF9A21C7C}, used in XML Model</Comment>
+    <Code>MinLengthFacet</Code>
+    <Name>Minimum Length Facet</Name>
+    <LocalName>Facette Longueur minimale</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {846E084D-24EB-42FE-B7EC-C36502656962}, used in Enterprise Architecture Model</Comment>
+    <Code>MobileDevice</Code>
+    <Name>Mobile Device</Name>
+    <LocalName>Périphérique mobile</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {6CE9859A-BA73-4EBB-B7D4-8E9127030000};{6CE9859A-BA73-4EBB-B7D4-8E9188020000}, used in Data Movement Model; Data Movement Model</Comment>
+    <Code>Mode</Code>
+    <Name>Mode</Name>
+    <LocalName>Mode</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4F87C701-251E-11D1-83D9-444553540000}, used in Multi-Model Report</Comment>
+    <Code>BaseModel</Code>
+    <Name>Model</Name>
+    <LocalName>Modèle</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {D81D2DCA-E2C8-4C66-A57F-BC80C8985048}, used in Project</Comment>
+    <Code>ModelDocument</Code>
+    <Name>Model</Name>
+    <LocalName>Modèle</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {22CE6773-D0BC-44DA-A53E-6D422DC1D840}, used in Model Extension</Comment>
+    <Code>ModelCategorySet</Code>
+    <Name>Model Category Set</Name>
+    <LocalName>Jeu de catégories de modèle</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {058134FE-93B2-4ADD-AB0C-DEB4DC7DD389}, used in Data Movement Model</Comment>
+    <Code>ModelConnector</Code>
+    <Name>Model Connector</Name>
+    <LocalName>Liaison de modèles</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {46656ACD-6B3A-49CD-AC25-8366D205C52B}, used in Model Extension</Comment>
+    <Code>BaseModelCreationDescriptor</Code>
+    <Name>Model Creation Descriptor</Name>
+    <LocalName>Descripteur de création de modèle</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {919DB75B-E483-45D7-A6B7-E9585DBC4B19}, used in Multi-Model Report</Comment>
+    <Code>ModelLanguage</Code>
+    <Name>Model Language</Name>
+    <LocalName>Langage de modèle</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {5992B0B8-44D8-4E3D-915E-2D19C680C531}, used in Merise Process Model</Comment>
+    <Code>Module</Code>
+    <Name>Module</Name>
+    <LocalName>Module</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {585CBB28-C940-11D1-BD0D-00A02478ECC9}, used in Report Template</Comment>
+    <Code>MultiModelReport</Code>
+    <Name>Multi-Model Report</Name>
+    <LocalName>Rapport multimodèle</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {CDE44E23-9669-11D1-9914-006097355D9B}, used in Physical Data Model</Comment>
+    <Code>MultidimensionalDiagram</Code>
+    <Name>Multidimensional Diagram</Name>
+    <LocalName>Diagramme multidimensionnel</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {87C4D7B3-1820-4D93-82AF-ED5EBA2A9496}, used in Multi-Model Report</Comment>
+    <Code>BehaviouralFeature</Code>
+    <Name>Named Behavioral Feature</Name>
+    <LocalName>Elément de comportement nommé</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {93D26E19-A381-4FF4-89DA-27CE493E5218}, used in Multi-Model Report</Comment>
+    <Code>NamedClassifier</Code>
+    <Name>Named Classifier</Name>
+    <LocalName>Classifier nommé</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {1CA52933-C759-4303-9BA4-B35978171665}, used in Multi-Model Report</Comment>
+    <Code>MixedFeature</Code>
+    <Name>Named Hybrid Feature</Name>
+    <LocalName>Elément hybride nommé</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {63D4E4FD-A2B4-49D3-98FA-994CE90BBA83}, used in Multi-Model Report</Comment>
+    <Code>NamedLinkMappableObject</Code>
+    <Name>Named Link</Name>
+    <LocalName>Lien nommé</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4F87C707-251E-11D1-83D9-444553540000}, used in Multi-Model Report</Comment>
+    <Code>NamedLinkObject</Code>
+    <Name>Named Link</Name>
+    <LocalName>Lien nommé</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4F87C706-251E-11D1-83D9-444553540000}, used in Multi-Model Report</Comment>
+    <Code>NamedObject</Code>
+    <Name>Named Object</Name>
+    <LocalName>Objet nommé</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {1CA52932-C759-4303-9BA4-B35978171665}, used in Multi-Model Report</Comment>
+    <Code>StructuralFeature</Code>
+    <Name>Named Structural Feature</Name>
+    <LocalName>Elément structurel nommé</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4607ABE1-663B-4FBB-B96E-DC810B52B9AF};{48E4579B-E243-4114-9EF9-4A8006270000}, used in Pdo; XML Model</Comment>
+    <Code>Namespace</Code>
+    <Name>Namespace</Name>
+    <LocalName>Espace de nom</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {B849F70A-0979-492E-9128-3CD645FA9246}, used in XML Model</Comment>
+    <Code>XmlNamespace</Code>
+    <Name>Namespace</Name>
+    <LocalName>Espace de noms</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {97AD6350-8853-427E-B1B2-FB8CEAF0468F}, used in Enterprise Architecture Model</Comment>
+    <Code>Network</Code>
+    <Name>Network</Name>
+    <LocalName>Réseau</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {F53FC453-31F2-4F8D-A57B-FCB29BF80684}, used in Enterprise Architecture Model</Comment>
+    <Code>NetworkNode</Code>
+    <Name>Network Node</Name>
+    <LocalName>Noeud réseau</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {18112601-1A4B-11D1-83D9-444553540000}, used in Object-Oriented Model</Comment>
+    <Code>Node</Code>
+    <Name>Node</Name>
+    <LocalName>Noeud</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {18112603-1A4B-11D1-83D9-444553540000}, used in Object-Oriented Model</Comment>
+    <Code>NodeAssociation</Code>
+    <Name>Node Association</Name>
+    <LocalName>Association de noeuds</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {88A567A4-D097-4930-BB03-297C732FCA12}, used in XML Model</Comment>
+    <Code>Notation</Code>
+    <Name>Notation</Name>
+    <LocalName>Notation</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {B38B4FB0-D9F8-11D1-9944-0060E8140000}, used in Pdo</Comment>
+    <Code>NullValuesRate</Code>
+    <Name>Null Values Rate</Name>
+    <LocalName>Pourcentage de valeurs NULL</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {42EF6704-385D-462D-81E4-5A83EE79DB20}, used in XML Model</Comment>
+    <Code>NumericFacet</Code>
+    <Name>Numeric Facet</Name>
+    <LocalName>Facette Numérique</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {18112201-1A4B-11D1-83D9-444553540000}, used in Object-Oriented Model</Comment>
+    <Code>UMLObject</Code>
+    <Name>Object</Name>
+    <LocalName>Objet</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {18112074-1A4B-11D1-83D9-444553540000}, used in Object-Oriented Model</Comment>
+    <Code>BaseUMLDiagram</Code>
+    <Name>Object Diagram</Name>
+    <LocalName>Diagramme d'objets</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {18112900-1A4B-11D1-83D9-444553540000}, used in Object-Oriented Model</Comment>
+    <Code>ObjectDiagram</Code>
+    <Name>Object Diagram</Name>
+    <LocalName>Diagramme d'objets</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {921DC16A-CBC2-427E-B97B-D7D6C5E14A51}, used in Multi-Model Report</Comment>
+    <Code>ObjectGenerationCommand</Code>
+    <Name>Object Generation Command</Name>
+    <LocalName>Commande de génération d'objet</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {1811206C-1A4B-11D1-83D9-444553540000}, used in Object-Oriented Model</Comment>
+    <Code>ObjectLanguage</Code>
+    <Name>Object Language</Name>
+    <LocalName>Langage objet</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {CE1BFEE5-CEFE-482D-A545-4161478933BA}, used in Object-Oriented Model</Comment>
+    <Code>ObjectNode</Code>
+    <Name>Object Node</Name>
+    <LocalName>Noeud d'objet</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {18112060-1A4B-11D1-83D9-444553540000}, used in Object-Oriented Model</Comment>
+    <Code>Model</Code>
+    <Name>Object-Oriented Model</Name>
+    <LocalName>Modèle orienté objet</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {18112066-1A4B-11D1-83D9-444553540000};{5992B0B4-44D8-4E3D-915E-2D19C680C531};{C4A7D8CB-4AC0-4890-AEA7-564212174E57};{D26E3DE4-15C6-47FA-B2A6-47D6D330CECE}, used in Object-Oriented Model; Merise Process Model; Enterprise Architecture Model; Business Process Model</Comment>
+    <Code>Operation</Code>
+    <Name>Operation</Name>
+    <LocalName>Opération</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {5992B0C1-44D8-4E3D-915E-2D19C680C531}, used in Merise Process Model</Comment>
+    <Code>OperationEmission</Code>
+    <Name>Operation Emission</Name>
+    <LocalName>Emission d'opération</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {18112804-1A4B-11D1-83D9-444553540000}, used in Object-Oriented Model</Comment>
+    <Code>OperationMapping</Code>
+    <Name>Operation Mapping</Name>
+    <LocalName>Correspondance d'opération</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {5992B0B6-44D8-4E3D-915E-2D19C680C531}, used in Merise Process Model</Comment>
+    <Code>OperationTriggering</Code>
+    <Name>Operation Triggering</Name>
+    <LocalName>Déclenchement d'opération</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {C2193D75-A834-4F88-88E7-444FD9000000}, used in Business Process Model</Comment>
+    <Code>Type</Code>
+    <Name>Operation Type</Name>
+    <LocalName>Type d'opération</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {585CBB00-C940-11D1-BD0D-00A02478ECC9}, used in Multi-Model Report</Comment>
+    <Code>ListOfOptions</Code>
+    <Name>Options List</Name>
+    <LocalName>Liste d'options</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {6CE9859A-BA73-4EBB-B7D4-8E912F030000}, used in Data Movement Model</Comment>
+    <Code>Order</Code>
+    <Name>Order</Name>
+    <LocalName>Ordre</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {B537C1A0-D293-11D0-83D9-4445D1010000}, used in Object-Oriented Model</Comment>
+    <Code>RoleAOrdering</Code>
+    <Name>Ordering A</Name>
+    <LocalName>Ordre A</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {AC1E58DB-EF4B-48C3-9762-3254579BF59B}, used in Enterprise Architecture Model</Comment>
+    <Code>OrganizationChartDiagram</Code>
+    <Name>Organization Chart</Name>
+    <LocalName>Diagramme d'organisation</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {CE1BFEF2-CEFE-482D-A545-4161478933BA}, used in Ooo</Comment>
+    <Code>BaseOrganizationUnit</Code>
+    <Name>Organization Unit</Name>
+    <LocalName>Unité d'organisation</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {0B881120-9307-4F16-B5FE-218CF7091698};{CE1BFEED-CEFE-482D-A545-4161478933BA};{D26E3D7F-15C6-47FA-B2A6-47D6D330CECE}, used in Enterprise Architecture Model; Object-Oriented Model; Business Process Model</Comment>
+    <Code>OrganizationUnit</Code>
+    <Name>Organization Unit</Name>
+    <LocalName>Unité d'organisation</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {9AD58812-8309-4AD8-B25F-982BE3029675}, used in Merise Process Model</Comment>
+    <Code>OrganizationalDiagram</Code>
+    <Name>Organizational Diagram</Name>
+    <LocalName>Diagramme organisationnel</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {CE1BFF06-CEF0-482D-A545-4161478933BA}, used in Object-Oriented Model</Comment>
+    <Code>OutputActivityParameter</Code>
+    <Name>Output Parameter</Name>
+    <LocalName>Paramètre de sortie</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4F87C700-251E-11D1-83D9-444553540000}, used in Multi-Model Report</Comment>
+    <Code>BaseFolder</Code>
+    <Name>Package</Name>
+    <LocalName>Package</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {3647BA87-24C1-4715-A29C-F14F890271B8}, used in Cdo</Comment>
+    <Code>BaseLogicalPackage</Code>
+    <Name>Package</Name>
+    <LocalName>Package</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4F87C7AA-251E-11D1-83D9-444553540000}, used in Multi-Model Report</Comment>
+    <Code>BasePackage</Code>
+    <Name>Package</Name>
+    <LocalName>Package</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4BA9F641-DAB1-11D1-9944-006097355D9B}, used in Pdo</Comment>
+    <Code>BasePhysicalPackage</Code>
+    <Name>Package</Name>
+    <LocalName>Package</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {CE1BFEE1-CEFE-482D-A545-4161478933BA}, used in Ooo</Comment>
+    <Code>BehavioralPackage</Code>
+    <Name>Package</Name>
+    <LocalName>Package</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {0016F2D1-F179-11D2-B6A0-0008C7EA8BFF};{18112061-1A4B-11D1-83D9-444553540000};{3D3C409D-B60D-430E-A1C4-B880653AC634};{3F78E635-A98C-4FB7-994C-DD5DE09F2C44};{41B45741-FC18-41B7-8FC6-36BEEFDE7EEE};{8B5D3681-2056-4280-8B77-FBE8472CB1A8};{AFEDCB26-89A2-4A8E-8EC1-581E9E793ED0};{B5EF366F-4A41-4748-975C-7315A2252CA8};{CDE44E22-9669-11D1-9914-006097355D9B};{F82A1A1A-1A24-4B8C-8F62-5ED7C519F722}, used in Conceptual Data Model; Object-Oriented Model; Business Process Model; Data Movement Model; Enterprise Architecture Model; Merise Process Model; Requirements Model; Logical Data Model; Physical Data Model; Free Model</Comment>
+    <Code>Package</Code>
+    <Name>Package</Name>
+    <LocalName>Package</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {18112920-1A4B-11D1-83D9-444553540000}, used in Object-Oriented Model</Comment>
+    <Code>UMLPackageDiagram</Code>
+    <Name>Package Diagram</Name>
+    <LocalName>Diagramme de packages</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {A6BAC8D3-B730-11D1-8898-00A02455633B}, used in Report Template</Comment>
+    <Code>ReportParagraphContainer</Code>
+    <Name>Paragraph container</Name>
+    <LocalName>Conteneur de paragraphe</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {1811206D-1A4B-11D1-83D9-444553540000};{4607ABDA-663B-4FBB-B96E-DC810B52B9AF};{F6B53A07-FB20-499A-AB99-2AE04BE39FA4}, used in Object-Oriented Model; Pdo; Data Movement Model</Comment>
+    <Code>Parameter</Code>
+    <Name>Parameter</Name>
+    <LocalName>Paramètre</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {B38B4FB0-D9F8-11D1-9944-006000150000};{B537C1A0-D293-11D0-83D9-4445D2010000}, used in Pdo; Object-Oriented Model</Comment>
+    <Code>ParameterType</Code>
+    <Name>Parameter Type</Name>
+    <LocalName>Type de paramètre</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {18112080-1A4B-11D1-83D9-444553540000}, used in Object-Oriented Model</Comment>
+    <Code>Part</Code>
+    <Name>Part</Name>
+    <LocalName>Partie</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {37129E6D-C479-46ED-BC85-F4879FAEB471}, used in XML Model</Comment>
+    <Code>Particle</Code>
+    <Name>Particle</Name>
+    <LocalName>Particule</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4607ABCF-663B-4FBB-B96E-DC810B52B9AF}, used in Pdo</Comment>
+    <Code>Partition</Code>
+    <Name>Partition</Name>
+    <LocalName>Table de la partition</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {B38B4FB0-D9F8-11D1-9944-0060011B0000}, used in Pdo</Comment>
+    <Code>PartitionRangeUnit</Code>
+    <Name>Partition range time unit</Name>
+    <LocalName>Unité de temps pour la plage de partitions</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4607ABCE-663B-4FBB-B96E-DC810B52B9AF}, used in Pdo</Comment>
+    <Code>Partitioning</Code>
+    <Name>Partitioning</Name>
+    <LocalName>Partitionnement</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {CA86D4E8-0B8A-4DFD-A132-FA65EF7821F7}, used in XML Model</Comment>
+    <Code>PatternFacet</Code>
+    <Name>Pattern Facet</Name>
+    <LocalName>Facette Pattern</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4607ABCB-663B-4FBB-B96E-DC810B52B9AF}, used in Pdo</Comment>
+    <Code>Permission</Code>
+    <Name>Permission</Name>
+    <LocalName>Permission</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {B537C1A0-D293-11D0-83D9-4445CF010000}, used in Object-Oriented Model</Comment>
+    <Code>Persistence</Code>
+    <Name>Persistence</Name>
+    <LocalName>Persistance</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {B537C1A0-D293-11D0-83D9-4445D3010000}, used in Object-Oriented Model</Comment>
+    <Code>PersistentClassGeneration</Code>
+    <Name>Persistent Class Generation</Name>
+    <LocalName>Génération de classe persistante</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {48E4579B-E243-4114-9EF9-4A80A7C80000}, used in XML Model</Comment>
+    <Code>HiddenGenMode</Code>
+    <Name>Persistent Generation Mode</Name>
+    <LocalName>Mode de génération de la persistence</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {B537C1A0-D293-11D0-83D9-444591020000}, used in Object-Oriented Model</Comment>
+    <Code>PersistentGenerationMode</Code>
+    <Name>Persistent Generation Mode</Name>
+    <LocalName>Mode de génération de la persistence</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {585CBB3A-C940-11D1-BD0D-00A02478ECC9}, used in Multi-Model Report</Comment>
+    <Code>PersistentSelection</Code>
+    <Name>Persistent Selection</Name>
+    <LocalName>Sélection persistante</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {FD2273F7-DA7C-45C8-A41E-7D87EAA86E33}, used in Multi-Model Report</Comment>
+    <Code>PersistentSelectionManager</Code>
+    <Name>Persistent selection</Name>
+    <LocalName>Sélections persistantes</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {6641B234-86D9-4B93-9FF0-28A6BFCE9FCE}, used in Enterprise Architecture Model</Comment>
+    <Code>Person</Code>
+    <Name>Person</Name>
+    <LocalName>Personne</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {268C30CC-EE7B-4A12-AD7E-B4135E6F0839};{5992B0BA-44D8-4E3D-915E-2D19C680C531};{5C937D24-8CC3-42CA-993F-09B3C34E7633}, used in Pdo; Merise Process Model; Enterprise Architecture Model</Comment>
+    <Code>Phase</Code>
+    <Name>Phase</Name>
+    <LocalName>Phase</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {5992B0C2-44D8-4E3D-915E-2D19C680C531}, used in Merise Process Model</Comment>
+    <Code>PhaseEmission</Code>
+    <Name>Phase Emission</Name>
+    <LocalName>Emission de phase</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {5992B0BF-44D8-4E3D-915E-2D19C680C531}, used in Merise Process Model</Comment>
+    <Code>PhaseTriggering</Code>
+    <Name>Phase Triggering</Name>
+    <LocalName>Déclenchement de phase</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4BA9F640-DAB1-11D1-9944-006097355D9B}, used in Pdo</Comment>
+    <Code>BasePhysicalModel</Code>
+    <Name>Physical Data Model</Name>
+    <LocalName>Modèle physique</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {CDE44E21-9669-11D1-9914-006097355D9B}, used in Physical Data Model</Comment>
+    <Code>Model</Code>
+    <Name>Physical Data Model</Name>
+    <LocalName>Modèle Physique de Données</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {CDE44E20-9669-11D1-9914-006097355D9B}, used in Physical Data Model</Comment>
+    <Code>PhysicalDiagram</Code>
+    <Name>Physical Diagram</Name>
+    <LocalName>Diagramme physique</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {36083F84-1A49-11D1-83D9-444553540000}, used in Sym</Comment>
+    <Code>PictureFile</Code>
+    <Name>Picture File</Name>
+    <LocalName>Fichier d'image</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {B38B4FB0-D9F8-11D1-9944-0060171B0000}, used in Pdo</Comment>
+    <Code>PolicyType</Code>
+    <Name>Policy type</Name>
+    <LocalName>Type de politique</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {1811207F-1A4B-11D1-83D9-444553540000}, used in Object-Oriented Model</Comment>
+    <Code>Port</Code>
+    <Name>Port</Name>
+    <LocalName>Port</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {B537C1A0-D293-11D0-83D9-444557020000}, used in Object-Oriented Model</Comment>
+    <Code>PredefinedEvent</Code>
+    <Name>Predefined Event</Name>
+    <LocalName>Evénement prédéfini</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {95383AA3-C9A7-4EA0-9F3B-2A8FC4020000}, used in Requirements Model</Comment>
+    <Code>Priority</Code>
+    <Name>Priority</Name>
+    <LocalName>Priorité</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {6B5132AA-B685-482C-8061-071DA7A582D0};{D4B2DF40-0047-11D2-9952-006097355D9B}, used in Data Movement Model; Pdo</Comment>
+    <Code>Procedure</Code>
+    <Name>Procedure</Name>
+    <LocalName>Procédure</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {D4B2DF44-0047-11D2-9952-006097355D9B}, used in Pdo</Comment>
+    <Code>ProcedureTemplate</Code>
+    <Name>Procedure Template</Name>
+    <LocalName>Modèle de procédure</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {5D0E7E07-756C-4878-AE9C-E3268359B0F4}, used in Data Movement Model</Comment>
+    <Code>DataMovementProcess</Code>
+    <Name>Process</Name>
+    <LocalName>Processus</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {B9FD98A2-EFD3-4345-877D-BF5031D5D39B};{D26E3D74-15C6-47FA-B2A6-47D6D330CECE}, used in Enterprise Architecture Model; Business Process Model</Comment>
+    <Code>Process</Code>
+    <Name>Process</Name>
+    <LocalName>Processus</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {020A5FC9-4378-4D8F-B452-9A1E1DD4B291}, used in Data Movement Model</Comment>
+    <Code>ProcessConnection</Code>
+    <Name>Process Connection</Name>
+    <LocalName>Connexion de processus</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {48E4579B-E243-4114-9EF9-4A80C9260000}, used in XML Model</Comment>
+    <Code>ProcessContents</Code>
+    <Name>Process Contents</Name>
+    <LocalName>Contenu de processus</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {D26E3D60-15C6-47FA-B2A6-47D6D330CECE}, used in Business Process Model</Comment>
+    <Code>ProcessHierarchyDiagram</Code>
+    <Name>Process Hierarchy Diagram</Name>
+    <LocalName>Diagramme de hiérarchie de processus</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {7141CE88-2107-423A-A5D4-23B73A90B769}, used in Business Process Model</Comment>
+    <Code>ProcessLanguage</Code>
+    <Name>Process Language</Name>
+    <LocalName>Langage de processus</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {75AA5273-5F89-4B5F-B3B1-C99018F73179}, used in Enterprise Architecture Model</Comment>
+    <Code>ProcessMapDiagram</Code>
+    <Name>Process Map</Name>
+    <LocalName>Diagramme de cartographie des processus</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {5E85CDFE-22A1-422B-9540-E9C4F0F803C2}, used in Business Process Model</Comment>
+    <Code>ProcessServiceDiagram</Code>
+    <Name>Process Service Diagram</Name>
+    <LocalName>Diagramme de services de processus</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {B38B4FB0-D9F8-11D1-9944-0060E9140000}, used in Pdo</Comment>
+    <Code>ProfileClass</Code>
+    <Name>Profile Class</Name>
+    <LocalName>Classe de profil</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {747529FD-3882-4096-8DA6-40D9AB637C6B}, used in Enterprise Architecture Model</Comment>
+    <Code>Program</Code>
+    <Name>Program</Name>
+    <LocalName>Programme</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {2F5AF134-AA1A-4FA6-8DC2-134573C7A449};{FF4B6538-9856-42CF-B9B9-304ED370CEAA}, used in Enterprise Architecture Model; Project</Comment>
+    <Code>Project</Code>
+    <Name>Project</Name>
+    <LocalName>Projet</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {73B5A8EB-0020-48B2-A48F-79F83763EB45}, used in Project</Comment>
+    <Code>ProjectDiagram</Code>
+    <Name>Project Diagram</Name>
+    <LocalName>Diagramme de projet</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {ADB3BE28-E395-4818-9E90-237C6BA4E8E2}, used in Project</Comment>
+    <Code>BaseProjectDocument</Code>
+    <Name>Project Document</Name>
+    <LocalName>Document de projet</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {1E597173-9350-11D1-AB3C-0020AF71E433}, used in Conceptual Data Model</Comment>
+    <Code>BaseAttribute</Code>
+    <Name>Property</Name>
+    <LocalName>Propriété</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {00DFA0F0-5FD7-4DA1-BD1F-9D7F7475E71F}, used in Data Movement Model</Comment>
+    <Code>Publication</Code>
+    <Name>Publication</Name>
+    <LocalName>Publication</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {18112068-1A4B-11D1-83D9-444553540000}, used in Object-Oriented Model</Comment>
+    <Code>Realization</Code>
+    <Name>Realization</Name>
+    <LocalName>Réalisation</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {01B381ED-F9A9-4668-83DD-7199F5AB8E61}, used in Business Process Model</Comment>
+    <Code>ReceptionDataMapping</Code>
+    <Name>Reception Mapping</Name>
+    <LocalName>Correspondance de réception</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {67B6352B-B178-442F-BF06-F0C322417A1D}, used in XML Model</Comment>
+    <Code>Redefine</Code>
+    <Name>Redefine</Name>
+    <LocalName>Redéfinition</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {6E6C7340-0044-11D2-A252-006008700815}, used in Pdo</Comment>
+    <Code>Reference</Code>
+    <Name>Reference</Name>
+    <LocalName>Référence</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {6E6C7341-0044-11D2-A252-006008700815}, used in Pdo</Comment>
+    <Code>ReferenceJoin</Code>
+    <Name>Reference Join</Name>
+    <LocalName>Jointure de référence</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {3647BA8F-24C1-4715-A29C-F14F890271B8}, used in Cdo</Comment>
+    <Code>BaseLogicalRelationship</Code>
+    <Name>Relationship</Name>
+    <LocalName>Relation</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {1E597177-9350-11D1-AB3C-0020AF71E433};{DAF1F7A3-F461-44A8-94DF-65B89B700DF3}, used in Conceptual Data Model; Logical Data Model</Comment>
+    <Code>Relationship</Code>
+    <Name>Relationship</Name>
+    <LocalName>Relation</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {EBA99BE4-DFB7-44F9-8847-31F8B39B8B21}, used in Logical Data Model</Comment>
+    <Code>RelationshipJoin</Code>
+    <Name>Relationship Join</Name>
+    <LocalName>Jointure de relation</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {362D41EF-9D82-11D1-8E5D-444553540000}, used in Rep</Comment>
+    <Code>BaseReplication</Code>
+    <Name>Replication</Name>
+    <LocalName>Réplication de base</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {362D41F1-9D82-11D1-8E5D-444553540000}, used in Rep</Comment>
+    <Code>Replication</Code>
+    <Name>Replication</Name>
+    <LocalName>Réplication</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {7DA70915-E84D-4DC4-9708-29100E521180}, used in Data Movement Model</Comment>
+    <Code>ReplicationProcess</Code>
+    <Name>Replication Process</Name>
+    <LocalName>Processus de réplication</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {585CBB24-C940-11D1-BD0D-00A02478ECC9}, used in Report Template</Comment>
+    <Code>BaseModelReport</Code>
+    <Name>Report</Name>
+    <LocalName>Rapport</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {A6BAC8D0-B730-11D1-8898-00A02455633B}, used in Report Template</Comment>
+    <Code>ReportBaseClass</Code>
+    <Name>Report Base Class</Name>
+    <LocalName>Classe de base de rapport</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {D3A4388C-6667-4F99-A6A6-366003E3E463}, used in Enterprise Architecture Model</Comment>
+    <Code>ReportDocument</Code>
+    <Name>Report Document</Name>
+    <LocalName>Document de rapport</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {585CBB37-C940-11D1-BD0D-00A02478ECC9}, used in Model Extension</Comment>
+    <Code>ReportLanguage</Code>
+    <Name>Report Language</Name>
+    <LocalName>Langue de rapport</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {A6BAC8D1-B730-11D1-8898-00A02455633B}, used in Report Template</Comment>
+    <Code>BaseReport</Code>
+    <Name>Report Template</Name>
+    <LocalName>Modèle de rapport</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {07C28985-8768-4A85-942C-16BDA4BF384B}, used in Rmg</Comment>
+    <Code>RepositoryBranchFolder</Code>
+    <Name>Repository Branch</Name>
+    <LocalName>Repository Branch</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4B6CF042-A80F-11D3-9C47-0008C7693015}, used in Rmg</Comment>
+    <Code>RepositoryFolder</Code>
+    <Name>Repository Folder</Name>
+    <LocalName>Repository Folder</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {1811207A-1A4B-11D1-83D9-444553540000}, used in Object-Oriented Model</Comment>
+    <Code>RequireLink</Code>
+    <Name>Require Link</Name>
+    <LocalName>Lien de prérequis</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {160851D8-8FBA-42E6-A889-A9747E4A7965}, used in Requirements Model</Comment>
+    <Code>Requirement</Code>
+    <Name>Requirement</Name>
+    <LocalName>Exigence</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {9453AEF1-7EB1-4D2E-BAE9-D396B24CF703}, used in Requirements Model</Comment>
+    <Code>RequirementsDocumentView</Code>
+    <Name>Requirements Document View</Name>
+    <LocalName>Vue Document des exigences</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {DABA1E0A-0922-4B05-B7F0-B0BD7A73FD33}, used in Requirements Model</Comment>
+    <Code>Model</Code>
+    <Name>Requirements Model</Name>
+    <LocalName>Modèle de gestion des exigences</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {D26E3D7A-15C6-47FA-B2A6-47D6D330CECE}, used in Business Process Model</Comment>
+    <Code>Resource</Code>
+    <Name>Resource</Name>
+    <LocalName>Ressource</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {D26E3D7B-15C6-47FA-B2A6-47D6D330CECE}, used in Business Process Model</Comment>
+    <Code>ResourceFlow</Code>
+    <Name>Resource Flow</Name>
+    <LocalName>Flux de ressource</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {62CBBB8E-B793-48C3-B86A-1F6CCED34AB1}, used in XML Model</Comment>
+    <Code>Restriction</Code>
+    <Name>Restriction</Name>
+    <LocalName>Restriction</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4B6C59FB-09DF-42CC-9A50-1044DEF31B47}, used in Pdo</Comment>
+    <Code>MeasureRestriction</Code>
+    <Name>Restriction Link</Name>
+    <LocalName>Lien de restriction</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4607ABE2-663B-4FBB-B96E-DC810B52B9AF}, used in Pdo</Comment>
+    <Code>ResultColumn</Code>
+    <Name>Result Column</Name>
+    <LocalName>Colonne de résultats</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {C646130E-8F4F-48BD-8C6F-AB2EFE38277D}, used in Multi-Model Report</Comment>
+    <Code>BaseReverseObjectMapping</Code>
+    <Name>Reverse Mapping</Name>
+    <LocalName>Correspondance inverse</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {5D18B9FA-B384-4073-ADD0-9E56C1A7F6DA}, used in Multi-Model Report</Comment>
+    <Code>DefaultReverseObjectMapping</Code>
+    <Name>Reverse Mapping</Name>
+    <LocalName>Correspondance inverse</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {95383AA3-C9A7-4EA0-9F3B-2A8FBF020000}, used in Requirements Model</Comment>
+    <Code>Risk</Code>
+    <Name>Risk</Name>
+    <LocalName>Risque</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {2B58BF55-6BD4-43A5-99F0-47626031A057};{4607ABC9-663B-4FBB-B96E-DC810B52B9AF}, used in Enterprise Architecture Model; Pdo</Comment>
+    <Code>Role</Code>
+    <Name>Role</Name>
+    <LocalName>Rôle</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {5FE554B9-8075-41A3-818B-1656AAEBBEF0};{65B21BF0-2B86-4BE8-9363-6EDA3EA6149E}, used in Enterprise Architecture Model; Business Process Model</Comment>
+    <Code>RoleAssociation</Code>
+    <Name>Role Association</Name>
+    <LocalName>Association de rôle</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {93EA828D-C111-4247-BFFB-AC0B4BF67D41}, used in Enterprise Architecture Model</Comment>
+    <Code>RolePlayer</Code>
+    <Name>Role Player</Name>
+    <LocalName>Joueur de rôle</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {362D41EE-9D82-11D1-8E5D-444553540000}, used in Rep</Comment>
+    <Code>RootObject</Code>
+    <Name>Root Object</Name>
+    <LocalName>Objet racine</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {18472FF9-029A-486C-88DE-A8773C2DACA1}, used in Project</Comment>
+    <Code>FrameworkRow</Code>
+    <Name>Row</Name>
+    <LocalName>Ligne</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {3AE32291-18F7-11D3-86B9-0010EF130000}, used in Multi-Model Report</Comment>
+    <Code>Type</Code>
+    <Name>Rule Type</Name>
+    <LocalName>Type de règle</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {65EEE853-F745-40CC-84FD-BB8C39B2794C}, used in Data Movement Model</Comment>
+    <Code>ScriptExecution</Code>
+    <Name>Script Execution</Name>
+    <LocalName>Exécution de script</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {82239530-B595-4AE4-849E-DB4393981BAB}, used in XML Model</Comment>
+    <Code>Selector</Code>
+    <Name>Selector</Name>
+    <LocalName>Sélecteur</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4BA9F660-DAB1-11D1-9944-006097355D9B}, used in Pdo</Comment>
+    <Code>Sequence</Code>
+    <Name>Sequence</Name>
+    <LocalName>Séquence</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {18112200-1A4B-11D1-83D9-444553540000}, used in Object-Oriented Model</Comment>
+    <Code>SequenceDiagram</Code>
+    <Name>Sequence Diagram</Name>
+    <LocalName>Diagramme de séquence</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {D836B297-721C-4EF5-8A7F-D0646A44BA9F}, used in Data Movement Model</Comment>
+    <Code>Server</Code>
+    <Name>Server</Name>
+    <LocalName>Serveur</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {D26E3DE3-15C6-47FA-B2A6-47D6D330CECE}, used in Business Process Model</Comment>
+    <Code>ServiceInterface</Code>
+    <Name>Service Interface</Name>
+    <LocalName>Interface de service</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {AC2F8120-1EBE-4304-8B22-BDF966C43FAF}, used in Enterprise Architecture Model</Comment>
+    <Code>ServiceOrientedDiagram</Code>
+    <Name>Service Oriented Diagram</Name>
+    <LocalName>Diagramme orienté service</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {D26E3DE2-15C6-47FA-B2A6-47D6D330CECE}, used in Business Process Model</Comment>
+    <Code>ServiceProvider</Code>
+    <Name>Service Provider</Name>
+    <LocalName>Fournisseur de services</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {D2A67B60-828F-49CC-A1C8-E300F1331BD6}, used in Multi-Model Report</Comment>
+    <Code>Settings</Code>
+    <Name>Settings</Name>
+    <LocalName>Paramètres</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {362D41EC-9D82-11D1-8E5D-444553540000}, used in Rep</Comment>
+    <Code>Shortcut</Code>
+    <Name>Shortcut</Name>
+    <LocalName>Raccourci</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {B8A4EBF3-4578-4198-8380-C5927D240D80}, used in XML Model</Comment>
+    <Code>SimpleContent</Code>
+    <Name>Simple Content</Name>
+    <LocalName>Contenu simple</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {A38AEC6F-A6CA-4C66-8D1E-B9683544ECFC}, used in XML Model</Comment>
+    <Code>SimpleType</Code>
+    <Name>Simple Type</Name>
+    <LocalName>Type simple</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {79628DFC-A161-4017-B85A-A4ED49707837}, used in XML Model</Comment>
+    <Code>SimpleTypeList</Code>
+    <Name>Simple Type List</Name>
+    <LocalName>Liste des types simples</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {F376FF09-F4B0-4C72-938C-E752C5EB01E5}, used in XML Model</Comment>
+    <Code>SimpleTypeUnion</Code>
+    <Name>Simple Type Union</Name>
+    <LocalName>Union de type simple</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {DC20E639-23DC-419F-8C81-7BF75DE34828}, used in Enterprise Architecture Model</Comment>
+    <Code>Site</Code>
+    <Name>Site</Name>
+    <LocalName>Site</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {F2150A64-C04E-49F5-8164-287380A7DDF0}, used in Enterprise Architecture Model</Comment>
+    <Code>SoftwareServer</Code>
+    <Name>Software Server</Name>
+    <LocalName>Serveur logiciel</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {B38B4FB0-D9F8-11D1-9944-0060141B0000}, used in Pdo</Comment>
+    <Code>SourceScope</Code>
+    <Name>Source</Name>
+    <LocalName>Source</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {CE1BFEE4-CEFE-482D-A545-4161478933BA}, used in Ooo</Comment>
+    <Code>BaseStart</Code>
+    <Name>Start</Name>
+    <LocalName>Début</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {D26E3D7C-15C6-47FA-B2A6-47D6D330CECE}, used in Business Process Model</Comment>
+    <Code>ProcessStart</Code>
+    <Name>Start</Name>
+    <LocalName>Début</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {CE1BFEE8-CEFE-482D-A545-4161478933BA}, used in Object-Oriented Model</Comment>
+    <Code>Start</Code>
+    <Name>Start</Name>
+    <LocalName>Début</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {18112701-1A4B-11D1-83D9-444553540000}, used in Object-Oriented Model</Comment>
+    <Code>State</Code>
+    <Name>State</Name>
+    <LocalName>Etat</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {CE1BFEE3-CEFE-482D-A545-4161478933BA}, used in Ooo</Comment>
+    <Code>ObjectStateVertex</Code>
+    <Name>State Vertex</Name>
+    <LocalName>Sommet-état</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {18112700-1A4B-11D1-83D9-444553540000}, used in Object-Oriented Model</Comment>
+    <Code>StatechartDiagram</Code>
+    <Name>Statechart Diagram</Name>
+    <LocalName>Diagramme d'états-transitions</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {95383AA3-C9A7-4EA0-9F3B-2A8FBE020000};{AD0014F6-B1B8-41D0-B196-78B327150000}, used in Requirements Model; Enterprise Architecture Model</Comment>
+    <Code>Status</Code>
+    <Name>Status</Name>
+    <LocalName>Etat</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4BA9F644-DAB1-11D1-9944-006097355D9B}, used in Pdo</Comment>
+    <Code>Storage</Code>
+    <Name>Storage</Name>
+    <LocalName>Storage</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4B6CF045-A80F-11D3-9C47-0008C7693015}, used in Rmg</Comment>
+    <Code>Document</Code>
+    <Name>Stored Document</Name>
+    <LocalName>Stored Document</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4B6CF043-A80F-11D3-9C47-0008C7693015}, used in Rmg</Comment>
+    <Code>RepositoryModel</Code>
+    <Name>Stored Model</Name>
+    <LocalName>Stored Model</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4B6CF044-A80F-11D3-9C47-0008C7693015}, used in Rmg</Comment>
+    <Code>RepositoryReport</Code>
+    <Name>Stored Report</Name>
+    <LocalName>Stored Report</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4BA9F679-DAB1-11D1-9944-006097355D9B}, used in Pdo</Comment>
+    <Code>StructuralFeatureMapping</Code>
+    <Name>Structural Feature Map</Name>
+    <LocalName>Correspondance d'élément structurel</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4F87C7A4-251E-11D1-83D9-444553540000}, used in Multi-Model Report</Comment>
+    <Code>BaseStructuralFeatureMapping</Code>
+    <Name>Sub-object mapping</Name>
+    <LocalName>Correspondance de sous-objets</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {248AE09D-7F4F-4654-AF92-8186EBC114B5}, used in Multi-Model Report</Comment>
+    <Code>DefaultStructuralFeatureMapping</Code>
+    <Name>Sub-object mapping</Name>
+    <LocalName>Correspondance de sous-objets</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {362D41F0-9D82-11D1-8E5D-444553540000}, used in Rep</Comment>
+    <Code>SubReplication</Code>
+    <Name>Sub-Replication</Name>
+    <LocalName>Sous-réplication</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {3645F036-DADF-4105-BE58-FD98DB23DB17}, used in Data Movement Model</Comment>
+    <Code>Subscription</Code>
+    <Name>Subscription</Name>
+    <LocalName>Souscription</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {CE1BFEF1-CEFE-482D-A545-4161478933BA}, used in Ooo</Comment>
+    <Code>BaseSynchronization</Code>
+    <Name>Synchronization</Name>
+    <LocalName>Synchronisation</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {CE1BFEEB-CEFE-482D-A545-4161478933BA};{D26E3D79-15C6-47FA-B2A6-47D6D330CECE}, used in Object-Oriented Model; Business Process Model</Comment>
+    <Code>Synchronization</Code>
+    <Name>Synchronization</Name>
+    <LocalName>Synchronisation</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4607ABC7-663B-4FBB-B96E-DC810B52B9AF};{9CA66469-FBBC-4528-9EFE-E70B836D21DE}, used in Pdo; Glossary Model</Comment>
+    <Code>Synonym</Code>
+    <Name>Synonym</Name>
+    <LocalName>Synonyme</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {11C46C28-3C92-4F58-BE25-D15360126CCC}, used in Enterprise Architecture Model</Comment>
+    <Code>System</Code>
+    <Name>System</Name>
+    <LocalName>Système</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {380BAA40-0042-11D2-BD28-00A02478ECC9}, used in Pdo</Comment>
+    <Code>Table</Code>
+    <Name>Table</Name>
+    <LocalName>Table</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4607ABD2-663B-4FBB-B96E-DC810B52B9AF}, used in Pdo</Comment>
+    <Code>TableCollapsing</Code>
+    <Name>Table Collapsing</Name>
+    <LocalName>Fusion de tables</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {99022F42-35B8-47B9-82BB-5FA790990465}, used in XML Model</Comment>
+    <Code>TableColumnMapping</Code>
+    <Name>Table Column Mapping</Name>
+    <LocalName>Correspondance de colonne de table</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {158B81C8-1418-447A-B491-BECD06E85666};{21A03551-B3CB-4A27-814F-C700D3C4C2A9};{4607ABC0-663B-4FBB-B96E-DC810B52B9AF}, used in Object-Oriented Model; XML Model; Pdo</Comment>
+    <Code>TableMapping</Code>
+    <Name>Table Mapping</Name>
+    <LocalName>Correspondance de table</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4BA9F645-DAB1-11D1-9944-006097355D9B}, used in Pdo</Comment>
+    <Code>Tablespace</Code>
+    <Name>Tablespace</Name>
+    <LocalName>Tablespace</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {362D41ED-9D82-11D1-8E5D-444553540000}, used in Rep</Comment>
+    <Code>TargetModel</Code>
+    <Name>Target model reference</Name>
+    <LocalName>Référence à un modèle cible</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4607ABD3-663B-4FBB-B96E-DC810B52B9AF}, used in Pdo</Comment>
+    <Code>TargetTable</Code>
+    <Name>Target Table</Name>
+    <LocalName>Table cible</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {5992B0B9-44D8-4E3D-915E-2D19C680C531}, used in Merise Process Model</Comment>
+    <Code>Task</Code>
+    <Name>Task</Name>
+    <LocalName>Tâche</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {B6E8E0A3-4C6A-4B43-A4E8-8515F14E9B11}, used in Enterprise Architecture Model</Comment>
+    <Code>TechnologyInfrastructureDiagram</Code>
+    <Name>Technology Infrastructure Diagram</Name>
+    <LocalName>Diagramme d'infrastructure de technologie</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {EBE946CF-7218-4FAC-B85E-4AB922930494}, used in Glossary Model</Comment>
+    <Code>Term</Code>
+    <Name>Term</Name>
+    <LocalName>Terme</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4BA9F643-DAB1-11D1-9944-006097355D9B}, used in Pdo</Comment>
+    <Code>TestDataProfile</Code>
+    <Name>Test Data Profile</Name>
+    <LocalName>Profil de données de test</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {B38B4FB0-D9F8-11D1-9944-0060031B0000}, used in Pdo</Comment>
+    <Code>TimeUnit</Code>
+    <Name>Time unit</Name>
+    <LocalName>Unité de temps</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {2F3BFB43-8608-4F23-A99A-CB4801E49D82}, used in Enterprise Architecture Model</Comment>
+    <Code>TimelineDiagram</Code>
+    <Name>Timeline Diagram</Name>
+    <LocalName>Diagramme chronologique</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {D9612717-785D-4E96-ADDC-D7ED6EE71B4B}, used in XML Model</Comment>
+    <Code>TotalDigitFacet</Code>
+    <Name>Total Digit Facet</Name>
+    <LocalName>Facette Nombre de chiffres</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4F87C716-251E-11D1-83D9-444553540000}, used in Multi-Model Report</Comment>
+    <Code>ExtendedDependency</Code>
+    <Name>Traceability Link</Name>
+    <LocalName>Lien de traçabilité</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {AEEB5F2F-B67F-4217-85E5-15ACFB2DA467}, used in Requirements Model</Comment>
+    <Code>TraceabilityLink</Code>
+    <Name>Traceability Link</Name>
+    <LocalName>Lien de traçabilité</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {778207DC-DB01-4D1A-BC4E-82BE7E756284}, used in Requirements Model</Comment>
+    <Code>TraceabilityMatrixView</Code>
+    <Name>Traceability Matrix View</Name>
+    <LocalName>Vue Matrice de traçabilité</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {B537C1A0-D293-11D0-83D9-4445D7010000}, used in Object-Oriented Model</Comment>
+    <Code>TransactionSupport</Code>
+    <Name>Transaction</Name>
+    <LocalName>Transaction</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {138D1AA8-9369-4A43-A6F3-B4DD4900A746}, used in Multi-Model Report</Comment>
+    <Code>BaseTransformation</Code>
+    <Name>Transformation</Name>
+    <LocalName>Transformation</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4607ABCD-663B-4FBB-B96E-DC810B52B9AF}, used in Pdo</Comment>
+    <Code>Transformation</Code>
+    <Name>Transformation</Name>
+    <LocalName>Transformation</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {FD27D94D-ADE5-4739-AF79-CE81883EB5D2}, used in Data Movement Model</Comment>
+    <Code>TransformationControlFlow</Code>
+    <Name>Transformation Control Flow</Name>
+    <LocalName>Flux de contrôle de transformation</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {9832A983-9831-4B46-9FEA-42EB21344290}, used in Data Movement Model</Comment>
+    <Code>TransformationControlFlowDiagram</Code>
+    <Name>Transformation Control Flow Diagram</Name>
+    <LocalName>Diagramme de flux de contrôle de transformation</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4D425B11-0B0B-4F5E-8843-B74521B14FD1}, used in Data Movement Model</Comment>
+    <Code>TransformationDecision</Code>
+    <Name>Transformation Decision</Name>
+    <LocalName>Décision de transformations</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {91AD6C94-392C-4783-94F1-263C056327C8}, used in Data Movement Model</Comment>
+    <Code>TransformationEnd</Code>
+    <Name>Transformation End</Name>
+    <LocalName>Fin de transformation</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {43679CB7-4383-4C9B-8FF5-92EF26FD62E5}, used in Data Movement Model</Comment>
+    <Code>TransformationParameter</Code>
+    <Name>Transformation Parameter</Name>
+    <LocalName>Paramètre de transformation</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {FDD78DB7-82DC-4FFB-826E-3FEBDE1E6D64}, used in Data Movement Model</Comment>
+    <Code>TransformationProcess</Code>
+    <Name>Transformation Process</Name>
+    <LocalName>Processus de transformation</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {224A90D0-6BD4-407C-8917-266588E98D6E}, used in Multi-Model Report</Comment>
+    <Code>TransformationSource</Code>
+    <Name>Transformation Source</Name>
+    <LocalName>Source de la transformation</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {FD6C77ED-4D26-4EB4-977B-8A36C3C35D26}, used in Data Movement Model</Comment>
+    <Code>TransformationStart</Code>
+    <Name>Transformation Start</Name>
+    <LocalName>Début de transformation</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {F14B6900-E550-422A-9445-C1CC0BA00759}, used in Data Movement Model</Comment>
+    <Code>TransformationStep</Code>
+    <Name>Transformation Step</Name>
+    <LocalName>Etape de transformation des données</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {2A4D7457-98FC-4947-AF17-1CA915E0BC30}, used in Data Movement Model</Comment>
+    <Code>TransformationSynchronization</Code>
+    <Name>Transformation Synchronization</Name>
+    <LocalName>Synchronisation de transformations</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {3AF154C1-1E5D-41A7-BE46-74E184615565}, used in Multi-Model Report</Comment>
+    <Code>TransformationTarget</Code>
+    <Name>Transformation Target</Name>
+    <LocalName>Cible de la transformation</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {9CADE5BE-5BCF-48D1-B51D-99521E33C690}, used in Data Movement Model</Comment>
+    <Code>TransformationTaskExecution</Code>
+    <Name>Transformation Task Execution</Name>
+    <LocalName>Exécution de tâche de transformation</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {C2193D75-A834-4F88-88E7-444F5F020000}, used in Business Process Model</Comment>
+    <Code>TransformationType</Code>
+    <Name>Transformation Type</Name>
+    <LocalName>Type de transformation</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {CE1BFEEC-CEFE-482D-A545-4161478933BA}, used in Object-Oriented Model</Comment>
+    <Code>Transition</Code>
+    <Name>Transition</Name>
+    <LocalName>Transition</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {D4B2DF43-0047-11D2-9952-006097355D9B}, used in Pdo</Comment>
+    <Code>Trigger</Code>
+    <Name>Trigger</Name>
+    <LocalName>Trigger</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {D4B2DF41-0047-11D2-9952-006097355D9B}, used in Pdo</Comment>
+    <Code>TriggerItem</Code>
+    <Name>Trigger Item</Name>
+    <LocalName>Elément de trigger</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {B38B4FB0-D9F8-11D1-9944-0060E31A0000}, used in Pdo</Comment>
+    <Code>Kind</Code>
+    <Name>Trigger Kind</Name>
+    <LocalName>Type de trigger</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {D4B2DF42-0047-11D2-9952-006097355D9B}, used in Pdo</Comment>
+    <Code>TriggerTemplate</Code>
+    <Name>Trigger Template</Name>
+    <LocalName>Modèle de trigger</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {B38B4FB0-D9F8-11D1-9944-0060EF140000}, used in Pdo</Comment>
+    <Code>Function</Code>
+    <Name>Type</Name>
+    <LocalName>Type</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {B38B4FB0-D9F8-11D1-9944-0060F3140000}, used in Pdo</Comment>
+    <Code>SequenceType</Code>
+    <Name>Type</Name>
+    <LocalName>Type</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {2B2C2072-3B9C-40D7-959F-BDA20C318406};{3AE32291-18F7-11D3-86B9-0010F80F0000};{6CE9859A-BA73-4EBB-B7D4-8E9141030000};{95383AA3-C9A7-4EA0-9F3B-2A8FBD020000};{95383AA3-C9A7-4EA0-9F3B-2A8FC2020000};{EA5E3A6D-ABD7-4BBB-9042-F3E3EA010000};{EA5E3A6D-ABD7-4BBB-9042-F3E3EB010000};{EA5E3A6D-ABD7-4BBB-9042-F3E3EC010000};{EA5E3A6D-ABD7-4BBB-9042-F3E3ED010000};{FF2F6034-9419-46B1-9CAB-714811010000}, used in XML Model; Multi-Model Report; Data Movement Model; Requirements Model; Requirements Model; Merise Process Model; Merise Process Model; Merise Process Model; Merise Process Model; Impact Analysis Model</Comment>
+    <Code>Type</Code>
+    <Name>Type</Name>
+    <LocalName>Type</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {1811207D-1A4B-11D1-83D9-444553540000}, used in Object-Oriented Model</Comment>
+    <Code>TypeParameter</Code>
+    <Name>Type Parameter</Name>
+    <LocalName>Paramètre type</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {1811207E-1A4B-11D1-83D9-444553540000}, used in Object-Oriented Model</Comment>
+    <Code>TypeParameterValue</Code>
+    <Name>Type Parameter Value</Name>
+    <LocalName>Valeur de paramètre type</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {BB63C494-94D1-4A0B-B3AD-2EB9E7BADEA0}, used in XML Model</Comment>
+    <Code>Unique</Code>
+    <Name>Unique</Name>
+    <LocalName>Contrainte Unique</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {B38B4FB0-D9F8-11D1-9944-0060EC140000}, used in Pdo</Comment>
+    <Code>UpdateConstraint</Code>
+    <Name>Update Constraint</Name>
+    <LocalName>Contrainte de modification</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {B38B4FB0-D9F8-11D1-9944-0060E6140000}, used in Pdo</Comment>
+    <Code>ViewUsage</Code>
+    <Name>Usage</Name>
+    <LocalName>Utilisation</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {48E4579B-E243-4114-9EF9-4A8025270000}, used in XML Model</Comment>
+    <Code>Use</Code>
+    <Name>Use</Name>
+    <LocalName>Utilisation</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {18112102-1A4B-11D1-83D9-444553540000}, used in Object-Oriented Model</Comment>
+    <Code>UseCase</Code>
+    <Name>Use Case</Name>
+    <LocalName>Cas d'utilisation</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {18112073-1A4B-11D1-83D9-444553540000}, used in Object-Oriented Model</Comment>
+    <Code>UseCaseAssociation</Code>
+    <Name>Use Case Association</Name>
+    <LocalName>Association (diag. de cas d'utilisation)</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {18112100-1A4B-11D1-83D9-444553540000}, used in Object-Oriented Model</Comment>
+    <Code>UseCaseDiagram</Code>
+    <Name>Use Case Diagram</Name>
+    <LocalName>Diagramme de cas d'utilisation</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {C9B59CA7-912B-471A-9BEE-7FC935B7FD08}, used in Requirements Model</Comment>
+    <Code>RequirementUser</Code>
+    <Name>User</Name>
+    <LocalName>Utilisateur</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {0CF1B425-B175-4E37-B6C7-66D09438A10E};{4BA9F642-DAB1-11D1-9944-006097355D9B}, used in Data Movement Model; Pdo</Comment>
+    <Code>User</Code>
+    <Name>User</Name>
+    <LocalName>Utilisateur</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {7B43F750-5128-48BD-9036-05D950D39D10}, used in Requirements Model</Comment>
+    <Code>UserAllocation</Code>
+    <Name>User Allocation</Name>
+    <LocalName>Allocation d'utilisateur</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {61BABB99-4936-4A5B-99A6-C633100ADAC5}, used in Requirements Model</Comment>
+    <Code>UserAllocationMatrixView</Code>
+    <Name>User Allocation Matrix View</Name>
+    <LocalName>Vue Matrice des affectations des utilisateurs</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4259C9DC-2CAF-4BDE-A7F9-5924AA15A02B}, used in Model Extension</Comment>
+    <Code>UserProfile</Code>
+    <Name>User Profile</Name>
+    <LocalName>Profil utilisateur</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {B38B4FB0-D9F8-11D1-9944-0060F2140000}, used in Pdo</Comment>
+    <Code>ValuesSource</Code>
+    <Name>Values Source</Name>
+    <LocalName>Source de valeurs</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {5C8AA9BF-FFCE-41CB-998E-67E7CD887357};{CE1BFF09-CEF0-482D-A545-4161478933BA}, used in Business Process Model; Object-Oriented Model</Comment>
+    <Code>Variable</Code>
+    <Name>Variable</Name>
+    <LocalName>Variable</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {95383AA3-C9A7-4EA0-9F3B-2A8FC0020000}, used in Requirements Model</Comment>
+    <Code>VerificationMethod</Code>
+    <Name>Verification Method</Name>
+    <LocalName>Méthode de vérification</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4607ABD1-663B-4FBB-B96E-DC810B52B9AF}, used in Pdo</Comment>
+    <Code>VerticalPartitioning</Code>
+    <Name>Vertical Partitioning</Name>
+    <LocalName>Partitionnement vertical</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {55750240-0044-11D2-B00B-0008C702FC49}, used in Pdo</Comment>
+    <Code>View</Code>
+    <Name>View</Name>
+    <LocalName>Vue</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {55750248-0044-11D2-B00B-0008C702FC49}, used in Pdo</Comment>
+    <Code>ViewColumn</Code>
+    <Name>View Column</Name>
+    <LocalName>Colonne de vue</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4A67C54B-7246-4C92-8969-4F9FEAC26DB4}, used in Pdo</Comment>
+    <Code>ViewIndex</Code>
+    <Name>View Index</Name>
+    <LocalName>Index de vue</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4BA9F67C-DAB1-11D1-9944-006097355D9B}, used in Pdo</Comment>
+    <Code>ViewReference</Code>
+    <Name>View Reference</Name>
+    <LocalName>Référence de vue</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4BA9F67D-DAB1-11D1-9944-006097355D9B}, used in Pdo</Comment>
+    <Code>ViewReferenceJoin</Code>
+    <Name>View Reference Join</Name>
+    <LocalName>Jointure de référence de vue</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {B537C1A0-D293-11D0-83D9-4445CC010000}, used in Object-Oriented Model</Comment>
+    <Code>Visibility</Code>
+    <Name>Visibility</Name>
+    <LocalName>Visibilité</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {D0E0A940-B731-11D1-8898-00A0E9170000}, used in Report Template</Comment>
+    <Code>HtmlWebBrowser</Code>
+    <Name>Web Browser</Name>
+    <LocalName>Navigateur Web</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4607ABDF-663B-4FBB-B96E-DC810B52B9AF}, used in Pdo</Comment>
+    <Code>WebOperation</Code>
+    <Name>Web Operation</Name>
+    <LocalName>Opération Web</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4607ABE0-663B-4FBB-B96E-DC810B52B9AF}, used in Pdo</Comment>
+    <Code>WebOperationParameter</Code>
+    <Name>Web Parameter</Name>
+    <LocalName>Paramètre Web</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4607ABDE-663B-4FBB-B96E-DC810B52B9AF}, used in Pdo</Comment>
+    <Code>WebService</Code>
+    <Name>Web Service</Name>
+    <LocalName>Service Web</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {B969A86E-F664-4990-A905-9F706402D15F}, used in Data Movement Model</Comment>
+    <Code>WebServiceInput</Code>
+    <Name>Web Service Input</Name>
+    <LocalName>Entrée de service Web</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {B537C1A0-D293-11D0-83D9-44458B050000}, used in Object-Oriented Model</Comment>
+    <Code>WSType</Code>
+    <Name>Web Service Type</Name>
+    <LocalName>Type de service Web</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {4AC86A25-C3E8-482F-8017-E34F5C022474}, used in XML Model</Comment>
+    <Code>WhitespaceFacet</Code>
+    <Name>Whitespace Facet</Name>
+    <LocalName>Facette Espaces</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {166B7158-F3E8-4372-9F1C-AB03F6DE9307}, used in Enterprise Architecture Model</Comment>
+    <Code>Workstation</Code>
+    <Name>Workstation</Name>
+    <LocalName>Postes de travail</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {B537C1A0-D293-11D0-83D9-444590050000}, used in Object-Oriented Model</Comment>
+    <Code>EncodingStyle</Code>
+    <Name>WSDL Encoding Style</Name>
+    <LocalName>Style de codage WSDL</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {B38B4FB0-D9F8-11D1-9944-0060281B0000}, used in Pdo</Comment>
+    <Code>XMLColumnGenerationMode</Code>
+    <Name>XML Column Generation Mode</Name>
+    <LocalName>Mode de génération de colonne</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {A4EA4BFA-F118-4E96-B3A3-63396A2C344E}, used in Data Movement Model</Comment>
+    <Code>XMLDocument</Code>
+    <Name>XML Document</Name>
+    <LocalName>Document XML</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {B537C1A0-D293-11D0-83D9-4445D5020000};{B537C1A0-D293-11D0-83D9-4445D6020000}, used in Object-Oriented Model; Object-Oriented Model</Comment>
+    <Code>XMLGenerationMode</Code>
+    <Name>XML Generation Mode</Name>
+    <LocalName>Mode de génération XML</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {B97A5D84-9DFA-4583-BB5C-D01D17A059E5}, used in Data Movement Model</Comment>
+    <Code>XMLInput</Code>
+    <Name>XML Input</Name>
+    <LocalName>Entrée XML</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {B38B4FB0-D9F8-11D1-9944-0060261B0000}, used in Pdo</Comment>
+    <Code>XMLKeyGenerationMode</Code>
+    <Name>XML Key Generation Mode</Name>
+    <LocalName>Mode de génération clé</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {40249E0F-D7DA-41DC-8056-6199DCA3A7D8}, used in XML Model</Comment>
+    <Code>SchemaLanguage</Code>
+    <Name>XML Language</Name>
+    <LocalName>Langage XML</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {029EAF0C-06EE-4282-8CB2-D70732085DEF}, used in XML Model</Comment>
+    <Code>Model</Code>
+    <Name>XML Model</Name>
+    <LocalName>Modèle XML</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {40249E0C-D7DA-41DC-8056-6199DCA3A7D8}, used in XML Model</Comment>
+    <Code>XMLDiagram</Code>
+    <Name>XML Model Diagram</Name>
+    <LocalName>Diagramme de modèle XML</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {D26E3DF4-2107-47FA-B2A6-47D6D330CECE}, used in Business Process Model</Comment>
+    <Code>XmlNamespace</Code>
+    <Name>XML Namespace</Name>
+    <LocalName>Espace de noms XML</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {5D535B49-8097-4702-BC56-89B9A4ECE65B}, used in Multi-Model Report</Comment>
+    <Code>XmlNamespaceBase</Code>
+    <Name>XML Namespace</Name>
+    <LocalName>Espace de noms XML</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {B398775C-7F18-4011-83FF-2D722D422711}, used in Data Movement Model</Comment>
+    <Code>XMLOutput</Code>
+    <Name>XML Output</Name>
+    <LocalName>Sortie XML</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {B38B4FB0-D9F8-11D1-9944-0060241B0000}, used in Pdo</Comment>
+    <Code>XMLTableGenerationMode</Code>
+    <Name>XML Table Generation Mode</Name>
+    <LocalName>Mode de génération de table</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {D26E3DF5-2107-47FA-B2A6-47D6D330CECE}, used in Business Process Model</Comment>
+    <Code>XsdDocument</Code>
+    <Name>XSD Document</Name>
+    <LocalName>Document XSD</LocalName>
+  </Translation>
+  <Translation>
+    <Comment>CLSID: {5D535B3A-10DF-4652-AC86-6CD916D48228}, used in Multi-Model Report</Comment>
+    <Code>XsdDocumentBase</Code>
+    <Name>XSD Document</Name>
+    <LocalName>Document XSD</LocalName>
+  </Translation>
+</Translations>

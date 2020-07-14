@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT Profile (Shared? | Metaclass*)>
+<!ELEMENT Shared (GlobalScript?, Menus? , Methods?)>
+<!ELEMENT GlobalScript (#PCDATA)>
+<!ELEMENT Menus (Menu)*>
+<!ELEMENT Menu (Popup | Command | Separator)*>
+<!ATTLIST Menu
+	Location (Object | FileImport | FileExport | Reverse | Tools | Help) "Object"
+>
+<!ELEMENT Methods (Method)*>
+<!ELEMENT Method (#PCDATA)>
+<!ATTLIST Method
+	Name CDATA #REQUIRED
+	Criteria CDATA #IMPLIED
+>
+<!ELEMENT Metaclass (Menus?, Methods?)>
+<!ATTLIST Metaclass
+	Name CDATA #REQUIRED
+>
+<!ELEMENT Popup (Command | Popup | Separator)*>
+<!ATTLIST Popup
+	Name CDATA #REQUIRED
+	Caption CDATA #IMPLIED
+>
+<!ELEMENT Command (#PCDATA)>
+<!ATTLIST Command
+	Name CDATA #REQUIRED
+	Caption CDATA #IMPLIED
+>
+<!ELEMENT Separator EMPTY>

@@ -1,0 +1,1055 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Translations lang="de" extended="yes">
+  <Translation>
+    <Name>%Object1.Name%</Name>
+    <LocalName>%Object1.Name%</LocalName>
+  </Translation>
+  <Translation>
+    <Name>%Object2.Name%</Name>
+    <LocalName>%Object2.Name%</LocalName>
+  </Translation>
+  <Translation>
+    <Name>&lt;&lt;Enum&gt;&gt; Initial value of  Enum Literal  cannot be string</Name>
+    <LocalName>&lt;&lt;Enum&gt;&gt; Anfänglicher Wert von Enum-Literal darf keine Zeichenfolge sein</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ASP</Name>
+    <LocalName>ASP</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ASP file</Name>
+    <LocalName>ASP-Datei</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Abstract enum</Name>
+    <LocalName>Abstrakte Enumeration</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Access</Name>
+    <LocalName>Zugriff</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Access type</Name>
+    <LocalName>Zugriffstyp</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Accesses</Name>
+    <LocalName>Zugriffe</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Agent</Name>
+    <LocalName>Agent</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Agent L</Name>
+    <LocalName>Agent L</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Agent to storage</Name>
+    <LocalName>Agent zu Speicher</LocalName>
+  </Translation>
+  <Translation>
+    <Name>AgentL</Name>
+    <LocalName>AgentL</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Agents</Name>
+    <LocalName>Agenten</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Alias name</Name>
+    <LocalName>Aliasname</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Annotation</Name>
+    <LocalName>Anmerkung</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Application icon</Name>
+    <LocalName>Anwendungssymbol</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Array size</Name>
+    <LocalName>Array-Größe</LocalName>
+  </Translation>
+  <Translation>
+    <Name>As New</Name>
+    <LocalName>Als neu</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Assembly name</Name>
+    <LocalName>Assemblyname</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Assembly version</Name>
+    <LocalName>Assemblyversion</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Assembly.dll</Name>
+    <LocalName>Assembly.dll</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Associated with Annotation class</Name>
+    <LocalName>Klasse Annotation zugeordnet</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Associated with EDataType class</Name>
+    <LocalName>Klasse EDataType zugeordnet</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Associated with Enum class</Name>
+    <LocalName>Klasse Enum zugeordnet</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Base Initializer</Name>
+    <LocalName>Basisinitialisierer</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Base Integral Type</Name>
+    <LocalName>Ganzzahliger Basistyp</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Base package name</Name>
+    <LocalName>Basispaketname</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Base package name prefix</Name>
+    <LocalName>Präfix für Basispaketname</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Bean class</Name>
+    <LocalName>Bean-Klasse</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Bidirectional Communication Channel</Name>
+    <LocalName>Bidirektionaler Kommunikationskanal</LocalName>
+  </Translation>
+  <Translation>
+    <Name>C# keyword</Name>
+    <LocalName>C#-Schlüsselwort</LocalName>
+  </Translation>
+  <Translation>
+    <Name>CLS compliant</Name>
+    <LocalName>CLS-kompatibel</LocalName>
+  </Translation>
+  <Translation>
+    <Name>CLSCompliant</Name>
+    <LocalName>CLSCompliant</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Changeability</Name>
+    <LocalName>Änderbarkeit</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Character set</Name>
+    <LocalName>Zeichensatz</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Check C# keyword</Name>
+    <LocalName>C#-Schlüsselwort prüfen</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Check PowerBuilder keyword</Name>
+    <LocalName>PowerBuilder-Schlüsselwort prüfen</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Check initial value for override attributes</Name>
+    <LocalName>Anfänglichen Wert für Überschreibungsattribute prüfen</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Class Diagram:</Name>
+    <LocalName>Klassendiagramm:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Class is not under a package</Name>
+    <LocalName>Klasse ist keinem Paket untergeordnet</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Comment:</Name>
+    <LocalName>Kommentar:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Common Feature Area</Name>
+    <LocalName>Bereich für gemeinsame Funktionen</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Common Feature Areas</Name>
+    <LocalName>Bereiche für gemeinsame Funktionen</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Communication Channel</Name>
+    <LocalName>Kommunikationskanal</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Communication Channels</Name>
+    <LocalName>Kommunikationskanäle</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Communication data type</Name>
+    <LocalName>Kommunikationsdatentyp</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Communication protocol</Name>
+    <LocalName>Kommunikationsprotokoll</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Communication type</Name>
+    <LocalName>Kommunikationstyp</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Company</Name>
+    <LocalName>Unternehmen</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Compare</Name>
+    <LocalName>Vergleichen</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Compilation Unit</Name>
+    <LocalName>Kompilationseinheit</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Composite human agent</Name>
+    <LocalName>Zusammengesetzter menschlicher Agent</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Composite id is not supported in EMF 2.3.x</Name>
+    <LocalName>Zusammengesetzte ID wird in EMF 2.3.x nicht unterstützt</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Configuration</Name>
+    <LocalName>Konfiguration</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Constructor</Name>
+    <LocalName>Konstruktor</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Container type:</Name>
+    <LocalName>Containertyp:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Conversion operator signature</Name>
+    <LocalName>Signatur von Konvertierungsoperator</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Conversion operators should be both public and static.</Name>
+    <LocalName>Konvertierungsoperatoren müssen sowohl öffentlich auch als statisch sein.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Copyright</Name>
+    <LocalName>Copyright</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Culture</Name>
+    <LocalName>Regionale Einstellungen</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Custom attributes</Name>
+    <LocalName>Benutzerdefinierte Attribute</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data type cannot be a class with Annotation stereotype</Name>
+    <LocalName>Datentyp darf keine Klasse mit Anmerkungsstereotyp sein</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Declare roles</Name>
+    <LocalName>Rollen deklarieren</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default</Name>
+    <LocalName>Standard</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default HTML page layout</Name>
+    <LocalName>HTML-Standardseitenlayout</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default alias</Name>
+    <LocalName>Standardalias</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default client script</Name>
+    <LocalName>Standardclientskript</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default target schema</Name>
+    <LocalName>Standardzielschema</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default template</Name>
+    <LocalName>Standardvorlage</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Delay sign</Name>
+    <LocalName>Verzögerungszeichen</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Delegate</Name>
+    <LocalName>Delegat</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Deny all roles</Name>
+    <LocalName>Alle Rollen ablehnen</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Description</Name>
+    <LocalName>Beschreibung</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Display as double-arc</Name>
+    <LocalName>Als Doppelbogen anzeigen</LocalName>
+  </Translation>
+  <Translation>
+    <Name>EDataType</Name>
+    <LocalName>EDataType</LocalName>
+  </Translation>
+  <Translation>
+    <Name>EJB</Name>
+    <LocalName>EJB</LocalName>
+  </Translation>
+  <Translation>
+    <Name>EJB missing component</Name>
+    <LocalName>Komponente für EJB fehlt</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Enum</Name>
+    <LocalName>Enum</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Exclude class interceptors</Name>
+    <LocalName>Klassen-Interceptors ausschließen</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Exclude default interceptors</Name>
+    <LocalName>Standard-Interceptors ausschließen</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Exclude superclass listeners</Name>
+    <LocalName>Oberklassen-Listener ausschließen</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Explicit</Name>
+    <LocalName>Explizit</LocalName>
+  </Translation>
+  <Translation>
+    <Name>External</Name>
+    <LocalName>Extern</LocalName>
+  </Translation>
+  <Translation>
+    <Name>File version</Name>
+    <LocalName>Dateiversion</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Final enum</Name>
+    <LocalName>Finale Enumeration</LocalName>
+  </Translation>
+  <Translation>
+    <Name>GUID</Name>
+    <LocalName>GUID</LocalName>
+  </Translation>
+  <Translation>
+    <Name>General</Name>
+    <LocalName>Allgemein</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Generate Visual Studio solution file</Name>
+    <LocalName>Visual-Studio-Projektmappendatei generieren</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Generate assembly information</Name>
+    <LocalName>Assemblyinformationen generieren</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Generate project file</Name>
+    <LocalName>Projektdatei generieren</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Handles</Name>
+    <LocalName>Handles</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Has generalization link with Annotation class</Name>
+    <LocalName>Weist Generalisierungslink mit Klasse Annotation auf</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Has generalization link with EDataType class</Name>
+    <LocalName>Weist Generalisierungslink mit Klasse EDataType auf</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Has generalization link with Enum class</Name>
+    <LocalName>Weist Generalisierungslink mit Klasse Enum auf</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Human Agent</Name>
+    <LocalName>Menschlicher Agent</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Human Agents</Name>
+    <LocalName>Menschliche Agenten</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Implementation class:</Name>
+    <LocalName>Implementierungsklasse:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Imports</Name>
+    <LocalName>Importe</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Included files</Name>
+    <LocalName>Enthaltene Dateien</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Initial value</Name>
+    <LocalName>Anfänglicher Wert</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Initial value for override attributes</Name>
+    <LocalName>Anfänglicher Wert für Überschreibungsattribute</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Initialize method</Name>
+    <LocalName>Initialisierungsmethode</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Initiating agent</Name>
+    <LocalName>Agent wird initiiert</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Instance Class Name:</Name>
+    <LocalName>Instanzklassenname:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Interceptor method</Name>
+    <LocalName>Interceptor-Methode</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Interface inner classifiers</Name>
+    <LocalName>Innere Klassifizierer von Schnittstelle</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid agent children</Name>
+    <LocalName>Ungültige untergeordnete Agenten</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid variable argument</Name>
+    <LocalName>Ungültiges variables Argument</LocalName>
+  </Translation>
+  <Translation>
+    <Name>JSP</Name>
+    <LocalName>JSP</LocalName>
+  </Translation>
+  <Translation>
+    <Name>JSP file</Name>
+    <LocalName>JSP-Datei</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Javadoc</Name>
+    <LocalName>Javadoc</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Javadoc author</Name>
+    <LocalName>Javadoc author</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Javadoc deprecated</Name>
+    <LocalName>Javadoc deprecated</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Javadoc exception</Name>
+    <LocalName>Javadoc exception</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Javadoc misc</Name>
+    <LocalName>Javadoc misc</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Javadoc return</Name>
+    <LocalName>Javadoc return</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Javadoc see</Name>
+    <LocalName>Javadoc see</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Javadoc serial</Name>
+    <LocalName>Javadoc serial</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Javadoc serial data</Name>
+    <LocalName>Javadoc serial data</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Javadoc serial field</Name>
+    <LocalName>Javadoc serial field</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Javadoc since</Name>
+    <LocalName>Javadoc since</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Javadoc throws</Name>
+    <LocalName>Javadoc throws</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Javadoc version</Name>
+    <LocalName>Javadoc version</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Key container name</Name>
+    <LocalName>Schlüsselcontainername</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Key file</Name>
+    <LocalName>Schlüsseldatei</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Key name</Name>
+    <LocalName>Schlüsselname</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Library name</Name>
+    <LocalName>Bibliotheksname</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Local home interface</Name>
+    <LocalName>Lokale Home-Schnittstelle</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Local interface</Name>
+    <LocalName>Lokale Schnittstelle</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Make assembly COM-Visible</Name>
+    <LocalName>Assembly für COM sichtbar machen</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Mapped name</Name>
+    <LocalName>Zugeordneter Name</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Migrated attribute:</Name>
+    <LocalName>Migriertes Attribut:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing URI</Name>
+    <LocalName>Fehlender URI</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing base package name</Name>
+    <LocalName>Fehlender Basispaketname</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing instance class name</Name>
+    <LocalName>Fehlender Instanzklassenname</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing namespace URI in EMF 2.3.x</Name>
+    <LocalName>Fehlender Namensbereich-URI in EMF 2.3.x</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing namespace prefix in EMF 2.3.x</Name>
+    <LocalName>Fehlendes Namensbereichspräfix in EMF 2.3.x</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Modifiers</Name>
+    <LocalName>Modifikatoren</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Modify Access</Name>
+    <LocalName>Zugriff ändern</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Multiple</Name>
+    <LocalName>Mehrfach</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Multiplicity</Name>
+    <LocalName>Vielfachheit</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must override</Name>
+    <LocalName>Überschreibung erforderlich</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Name</Name>
+    <LocalName>Name</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Namespace URI</Name>
+    <LocalName>Namensbereich-URI</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Namespace prefix</Name>
+    <LocalName>Namensbereichspräfix</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Native</Name>
+    <LocalName>Nativ</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Navigable</Name>
+    <LocalName>Navigierbar</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Option compare</Name>
+    <LocalName>Option compare</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Option explicit</Name>
+    <LocalName>Option explicit</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Option strict</Name>
+    <LocalName>Option strict</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Ordered</Name>
+    <LocalName>Geordnet</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Ordering</Name>
+    <LocalName>Reihenfolge</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Originator key file</Name>
+    <LocalName>Ursprungsschlüsseldatei</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Originator key mode</Name>
+    <LocalName>Ursprungsschlüsselmodus</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Output type</Name>
+    <LocalName>Ausgabeart</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Overloadable operator signature</Name>
+    <LocalName>Signatur von überladbarem Operator</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Overloadable operators should be both public and static.</Name>
+    <LocalName>Überladbare Operatoren müssen sowohl öffentlich auch als statisch sein.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Overridable</Name>
+    <LocalName>Überschreibbar</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Overrides</Name>
+    <LocalName>Überschreibt</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Permit all</Name>
+    <LocalName>Alle zulassen</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Permit all roles</Name>
+    <LocalName>Alle Rollen zulassen</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Persistent</Name>
+    <LocalName>Persistent</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Post-activate</Name>
+    <LocalName>Nach Aktivierung</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Post-construct</Name>
+    <LocalName>Nach Konstrukt</LocalName>
+  </Translation>
+  <Translation>
+    <Name>PowerBuilder keyword</Name>
+    <LocalName>PowerBuilder-Schlüsselwort</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Pre-destroy</Name>
+    <LocalName>Vor Entfernen</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Pre-passivate</Name>
+    <LocalName>Vor Passivierung</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Primary key class</Name>
+    <LocalName>Primärschlüsselklasse</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Product</Name>
+    <LocalName>Produkt</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Project GUID</Name>
+    <LocalName>Projekt-GUID</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Project file name</Name>
+    <LocalName>Projektdateiname</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Property</Name>
+    <LocalName>Eigenschaft</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Property parameters</Name>
+    <LocalName>Eigenschaftenparameter</LocalName>
+  </Translation>
+  <Translation>
+    <Name>References</Name>
+    <LocalName>Referenzen</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Remote home interface</Name>
+    <LocalName>Entfernte Home-Schnittstelle</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Remote interface</Name>
+    <LocalName>Entfernte Schnittstelle</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Remove method</Name>
+    <LocalName>Entfernungsmethode</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Request/Response Communication Channel</Name>
+    <LocalName>Kommunikationskanal für Anforderung/Antwort</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Resolve proxies</Name>
+    <LocalName>Proxys auflösen</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Responding agent</Name>
+    <LocalName>Antwortender Agent</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Result type mapping</Name>
+    <LocalName>Mapping Ergebnistyp</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Return data type cannot be a class with Annotation stereotype</Name>
+    <LocalName>Rückgabedatentyp darf keine Klasse mit Anmerkungsstereotyp sein</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Return type custom attributes</Name>
+    <LocalName>Benutzerdefinierte Attribute für Rückgabetyp</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Role A</Name>
+    <LocalName>Rolle A</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Role B</Name>
+    <LocalName>Rolle B</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Role name</Name>
+    <LocalName>Rollenname</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Roles allowed</Name>
+    <LocalName>Rollen zulässig</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Root namespace</Name>
+    <LocalName>Stammnamensbereich</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Run-as</Name>
+    <LocalName>Ausführen als</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Servlet</Name>
+    <LocalName>Servlet</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Servlet class</Name>
+    <LocalName>Servlet-Klasse</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Servlet type</Name>
+    <LocalName>Servlet-Typ</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Settings</Name>
+    <LocalName>Einstellungen</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Shadowing</Name>
+    <LocalName>Shadowing</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Shadows</Name>
+    <LocalName>Schatten</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Show arcs</Name>
+    <LocalName>Bogen anzeigen</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Show arrows</Name>
+    <LocalName>Pfeile anzeigen</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Solution file name</Name>
+    <LocalName>Name der Projektmappendatei</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Solution filename</Name>
+    <LocalName>Name der Projektmappendatei</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Startup object</Name>
+    <LocalName>Startobjekt</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Static</Name>
+    <LocalName>Statisch</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Storage</Name>
+    <LocalName>Speicher</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Storage format type</Name>
+    <LocalName>Speicherformattyp</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Storage type</Name>
+    <LocalName>Speichertyp</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Storages</Name>
+    <LocalName>Speicher</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Strict</Name>
+    <LocalName>Streng</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Strictfp</Name>
+    <LocalName>Strictfp</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Structure</Name>
+    <LocalName>Struktur</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Structure constructor</Name>
+    <LocalName>Strukturkonstruktor</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Structure members visibility</Name>
+    <LocalName>Sichtbarkeit von Strukturelementen</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Synchronized</Name>
+    <LocalName>Synchronisiert</LocalName>
+  </Translation>
+  <Translation>
+    <Name>This Initializer</Name>
+    <LocalName>Dieser Initialisierer</LocalName>
+  </Translation>
+  <Translation>
+    <Name>This check ensures that enum literal initial value type is integer.</Name>
+    <LocalName>Durch diese Prüfung wird sichergestellt, dass der anfängliche Wert des Enum-Literals den Typ integer aufweist.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>This check ensures that every AnnotationType class should have URI property defined.</Name>
+    <LocalName>Durch diese Prüfung wird sichergestellt, dass für jede AnnotationType-Klasse die URI-Eigenschaft definiert ist.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>This check ensures that every EDatatype class should have instance class name property defined.</Name>
+    <LocalName>Durch diese Prüfung wird sichergestellt, dass für jede EDatatype-Klasse die Instanzklassennamen-Eigenschaft definiert ist.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>This check ensures that every class should have a package.</Name>
+    <LocalName>Durch diese Prüfung wird sichergestellt, dass jede Klasse ein Paket aufweist.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>This check ensures that structures do not have any attribute, operation and inner classifiers with a protected visibility.</Name>
+    <LocalName>Durch diese Prüfung wird sichergestellt, dass Strukturen keine Attribute, Vorgänge und inneren Klassifizierer mit geschützter Sichtbarkeit aufweisen.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>This check ensures that the structure does not have a non-shared constructor without parameters</Name>
+    <LocalName>Durch diese Prüfung wird sichergestellt, dass die Struktur keinen nicht gemeinsam genutzten Konstruktor ohne Parameter aufweist</LocalName>
+  </Translation>
+  <Translation>
+    <Name>This check ensures that the structure does not have any attribute, operation and inner classifiers with a protected visibility.</Name>
+    <LocalName>Durch diese Prüfung wird sichergestellt, dass die Struktur keine Attribute, Vorgänge und inneren Klassifizierer mit geschützter Sichtbarkeit aufweist.</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Timeout method</Name>
+    <LocalName>Timeout-Methode</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Title</Name>
+    <LocalName>Titel</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Trademark</Name>
+    <LocalName>Marke</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Transaction Attribute Type</Name>
+    <LocalName>Transaktionsattributtyp</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Transaction attribute type</Name>
+    <LocalName>Transaktionsattributtyp</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Transaction management</Name>
+    <LocalName>Transaktionsverwaltung</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Transaction type</Name>
+    <LocalName>Transaktionstyp</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Transaction:</Name>
+    <LocalName>Transaktion:</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Type</Name>
+    <LocalName>Typ</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Type Character</Name>
+    <LocalName>Typzeichen</LocalName>
+  </Translation>
+  <Translation>
+    <Name>URI</Name>
+    <LocalName>URI</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Unauthorized parent</Name>
+    <LocalName>Nicht autorisiertes übergeordnetes Element</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Unidirectional Access</Name>
+    <LocalName>Unidirektionaler Zugriff</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Unidirectional Communication Channel</Name>
+    <LocalName>Unidirektionaler Kommunikationskanal</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Unique</Name>
+    <LocalName>Eindeutig</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Unsettable</Name>
+    <LocalName>Kann nicht festgelegt werden</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Use parent namespace on root package</Name>
+    <LocalName>Übergeordneten Namensbereich für Wurzelpaket verwenden</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Variable argument parameter</Name>
+    <LocalName>Parameter variables Argument</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Version</Name>
+    <LocalName>Version</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Visibility</Name>
+    <LocalName>Sichtbarkeit</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Volatile</Name>
+    <LocalName>Volatil</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Web Service</Name>
+    <LocalName>Webservice</LocalName>
+  </Translation>
+  <Translation>
+    <Name>abstract</Name>
+    <LocalName>Abstrakt</LocalName>
+  </Translation>
+  <Translation>
+    <Name>const</Name>
+    <LocalName>const</LocalName>
+  </Translation>
+  <Translation>
+    <Name>extern</Name>
+    <LocalName>extern</LocalName>
+  </Translation>
+  <Translation>
+    <Name>f_function</Name>
+    <LocalName>f_function</LocalName>
+  </Translation>
+  <Translation>
+    <Name>new</Name>
+    <LocalName>new</LocalName>
+  </Translation>
+  <Translation>
+    <Name>override</Name>
+    <LocalName>override</LocalName>
+  </Translation>
+  <Translation>
+    <Name>p_proxy</Name>
+    <LocalName>p_proxy</LocalName>
+  </Translation>
+  <Translation>
+    <Name>readonly</Name>
+    <LocalName>readonly</LocalName>
+  </Translation>
+  <Translation>
+    <Name>roleAContainer</Name>
+    <LocalName>roleAContainer</LocalName>
+  </Translation>
+  <Translation>
+    <Name>roleAImplementationClass</Name>
+    <LocalName>roleAImplementationClass</LocalName>
+  </Translation>
+  <Translation>
+    <Name>roleBContainer</Name>
+    <LocalName>roleBContainer</LocalName>
+  </Translation>
+  <Translation>
+    <Name>roleBImplementationClass</Name>
+    <LocalName>roleBImplementationClass</LocalName>
+  </Translation>
+  <Translation>
+    <Name>s_structure</Name>
+    <LocalName>s_structure</LocalName>
+  </Translation>
+  <Translation>
+    <Name>scope</Name>
+    <LocalName>scope</LocalName>
+  </Translation>
+  <Translation>
+    <Name>sealed</Name>
+    <LocalName>sealed</LocalName>
+  </Translation>
+  <Translation>
+    <Name>static</Name>
+    <LocalName>static</LocalName>
+  </Translation>
+  <Translation>
+    <Name>u_userobject</Name>
+    <LocalName>u_userobject</LocalName>
+  </Translation>
+  <Translation>
+    <Name>unsafe</Name>
+    <LocalName>unsafe</LocalName>
+  </Translation>
+  <Translation>
+    <Name>virtual</Name>
+    <LocalName>virtual</LocalName>
+  </Translation>
+  <Translation>
+    <Name>w_application</Name>
+    <LocalName>w_application</LocalName>
+  </Translation>
+  <Translation>
+    <Name>w_window</Name>
+    <LocalName>w_window</LocalName>
+  </Translation>
+</Translations>

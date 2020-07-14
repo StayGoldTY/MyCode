@@ -1,0 +1,2411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Translations lang="zh" extended="yes">
+  <Translation>
+    <Name>A fault must be caught by a single fault handler</Name>
+    <LocalName>故障必须由单个故障处理程序捕获</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Abstract process</Name>
+    <LocalName>抽象流程</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Activities and intermediate events must not have more than one default outgoing flow.</Name>
+    <LocalName>活动和中间事件不能有多个缺省传出流。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Ad-Hoc Sub-Process</Name>
+    <LocalName>即席子流程</LocalName>
+  </Translation>
+  <Translation>
+    <Name>AdHocSubProcess</Name>
+    <LocalName>即席子流程</LocalName>
+  </Translation>
+  <Translation>
+    <Name>All the message flows associated with a single conversation node must specify the same correlation key as the node.</Name>
+    <LocalName>与单个会话节点关联的所有消息流都必须指定相同相关键作为节点。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Archive model</Name>
+    <LocalName>存档模型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Archive model path</Name>
+    <LocalName>存档模型路径</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Artifact:</Name>
+    <LocalName>部件：</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Automated Process</Name>
+    <LocalName>自动化流程</LocalName>
+  </Translation>
+  <Translation>
+    <Name>AutomatedProcess</Name>
+    <LocalName>自动化流程</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Available Data Objects</Name>
+    <LocalName>可用数据对象</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Available Source Items</Name>
+    <LocalName>可用源项目</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Available Target Items</Name>
+    <LocalName>可用目标项目</LocalName>
+  </Translation>
+  <Translation>
+    <Name>BPEL Static Analysis Fault Code: SA00005</Name>
+    <LocalName>BPEL 静态分析故障代码： SA00005</LocalName>
+  </Translation>
+  <Translation>
+    <Name>BPEL Static Analysis Fault Code: SA00006</Name>
+    <LocalName>BPEL 静态分析故障代码： SA00006</LocalName>
+  </Translation>
+  <Translation>
+    <Name>BPEL Static Analysis Fault Code: SA00015</Name>
+    <LocalName>BPEL 静态分析故障代码： SA00015</LocalName>
+  </Translation>
+  <Translation>
+    <Name>BPEL Static Analysis Fault Code: SA00016</Name>
+    <LocalName>BPEL 静态分析故障代码： SA00016</LocalName>
+  </Translation>
+  <Translation>
+    <Name>BPEL Static Analysis Fault Code: SA00035</Name>
+    <LocalName>BPEL 静态分析故障代码： SA00035</LocalName>
+  </Translation>
+  <Translation>
+    <Name>BPEL Static Analysis Fault Code: SA00036</Name>
+    <LocalName>BPEL 静态分析故障代码： SA00036</LocalName>
+  </Translation>
+  <Translation>
+    <Name>BPEL Static Analysis Fault Code: SA00037</Name>
+    <LocalName>BPEL 静态分析故障代码： SA00037</LocalName>
+  </Translation>
+  <Translation>
+    <Name>BPEL Static Analysis Fault Code: SA00047</Name>
+    <LocalName>BPEL 静态分析故障代码： SA00047</LocalName>
+  </Translation>
+  <Translation>
+    <Name>BPEL Static Analysis Fault Code: SA00053</Name>
+    <LocalName>BPEL 静态分析故障代码： SA00053</LocalName>
+  </Translation>
+  <Translation>
+    <Name>BPEL Static Analysis Fault Code: SA00076</Name>
+    <LocalName>BPEL 静态分析故障代码： SA00076</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Blueprint relevant</Name>
+    <LocalName>蓝图相关</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Blueprint relevant value</Name>
+    <LocalName>蓝图相关值</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Boundary Events</Name>
+    <LocalName>边界事件</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Business Process</Name>
+    <LocalName>业务流程</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Business Processes</Name>
+    <LocalName>业务流程</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Business Rule Task</Name>
+    <LocalName>业务规则任务</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Business Scenario</Name>
+    <LocalName>业务场景</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Business Scenarios</Name>
+    <LocalName>业务场景</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Business processes ID</Name>
+    <LocalName>业务流程 ID</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Business scenarios ID</Name>
+    <LocalName>业务场景 ID</LocalName>
+  </Translation>
+  <Translation>
+    <Name>BusinessProcess</Name>
+    <LocalName>业务流程</LocalName>
+  </Translation>
+  <Translation>
+    <Name>BusinessRuleTask</Name>
+    <LocalName>业务规则任务</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Call Activities</Name>
+    <LocalName>调用活动</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Call Activity</Name>
+    <LocalName>调用活动</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Call activities must have an implementation type of Reuse process.</Name>
+    <LocalName>调用活动必须具有重用流程的实现类型。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>CallActivity</Name>
+    <LocalName>调用活动</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Callable objects</Name>
+    <LocalName>可调用对象</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Called model</Name>
+    <LocalName>已调用模型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Called object</Name>
+    <LocalName>已调用对象</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Cancel</Name>
+    <LocalName>取消</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Cancel End Event</Name>
+    <LocalName>取消结束事件</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Cancel Event Definition</Name>
+    <LocalName>取消事件定义</LocalName>
+  </Translation>
+  <Translation>
+    <Name>CancelEnd</Name>
+    <LocalName>取消结束事件</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Cannot have outgoing flow</Name>
+    <LocalName>不能含有传出流</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Capacity</Name>
+    <LocalName>容量</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Child flow balancing.</Name>
+    <LocalName>子流平衡。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Choreography Task</Name>
+    <LocalName>设计任务</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Choreography task linked to inappropriate start or end events</Name>
+    <LocalName>链接到不合适的开始或者结束事件的设计任务</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Choreography tasks can only be linked to start events of type Timer, Conditional, Signal, or Multiple and to end events of type Terminal.</Name>
+    <LocalName>设计任务只能链接到类型为“计时器”、“条件”、“信号”或“多重”的开始事件以及类型为“终止”的结束事件。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Choreography tasks must not have more than one default outgoing flow.</Name>
+    <LocalName>设计任务不能有多个缺省传出流。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ChoreographyTask</Name>
+    <LocalName>设计任务</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Class</Name>
+    <LocalName>类</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Code</Name>
+    <LocalName>代码</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Collection</Name>
+    <LocalName>集合</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Comment:</Name>
+    <LocalName>注释：</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Compensate activity used out of event handler scope</Name>
+    <LocalName>在事件处理程序范围之外使用的补偿活动</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Compensation</Name>
+    <LocalName>补偿</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Compensation End Event</Name>
+    <LocalName>补偿结束事件</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Compensation Event Definition</Name>
+    <LocalName>补偿事件定义</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Compensation Intermediate Throw Event</Name>
+    <LocalName>补偿中间抛出事件</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Compensation Start Event</Name>
+    <LocalName>补偿开始事件</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Compensation activities must not have incoming sequence flows that are not of type Compensation.</Name>
+    <LocalName>补偿活动不能有类型不是“补偿”的传入顺序流。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Compensation activities must not have outgoing sequence flows.</Name>
+    <LocalName>补偿活动不能有传出顺序流。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>CompensationEnd</Name>
+    <LocalName>补偿结束事件</LocalName>
+  </Translation>
+  <Translation>
+    <Name>CompensationStart</Name>
+    <LocalName>补偿开始事件</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Completion quantity</Name>
+    <LocalName>完成数量</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Complex Gateway</Name>
+    <LocalName>复杂网关</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ComplexGateway</Name>
+    <LocalName>复杂网关</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Composite status \tDecomposed process\tAtomic task</Name>
+    <LocalName>复合状态\t分解流程\t原子任务</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Condition</Name>
+    <LocalName>条件</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Conditional</Name>
+    <LocalName>条件</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Conditional Event Definition</Name>
+    <LocalName>条件事件定义</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Conditional Intermediate Catch Event</Name>
+    <LocalName>条件中间捕获事件</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Conditional Start Event</Name>
+    <LocalName>条件开始事件</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ConditionalStart</Name>
+    <LocalName>条件开始事件</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Conversation Link</Name>
+    <LocalName>会话链接</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Conversation Node</Name>
+    <LocalName>会话节点</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ConversationLink</Name>
+    <LocalName>会话链接</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ConversationNode</Name>
+    <LocalName>会话节点</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Correlation Properties</Name>
+    <LocalName>相关属性</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Correlation Property</Name>
+    <LocalName>相关属性</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Correlation key</Name>
+    <LocalName>相关键</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Correlation keys must not contain correlation properties that do not bear the stereotype Property.</Name>
+    <LocalName>相关键不能包含不具有“属性”构造型的相关属性。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Correlation property</Name>
+    <LocalName>相关属性</LocalName>
+  </Translation>
+  <Translation>
+    <Name>CorrelationProperty</Name>
+    <LocalName>相关属性</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Correlations</Name>
+    <LocalName>相关</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Counter name</Name>
+    <LocalName>计数器名称</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Create instance</Name>
+    <LocalName>创建实例</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data</Name>
+    <LocalName>数据</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data Association</Name>
+    <LocalName>数据关联</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data Associations</Name>
+    <LocalName>数据关联</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data Input</Name>
+    <LocalName>数据输入</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data Inputs</Name>
+    <LocalName>数据输入</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data Object</Name>
+    <LocalName>数据对象</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data Object Reference</Name>
+    <LocalName>数据对象引用</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data Object References</Name>
+    <LocalName>数据对象引用</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data Objects</Name>
+    <LocalName>数据对象</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data Output</Name>
+    <LocalName>数据输出</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data Outputs</Name>
+    <LocalName>数据输出</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data Store</Name>
+    <LocalName>数据存储</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data Stores</Name>
+    <LocalName>数据存储</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data associations with a transformation type of Input must specify an item-aware element (of type Data Input) from among those defined on their target activity, which will be transferred to the activity from the data.</Name>
+    <LocalName>具有“输入”转换类型的数据关联必须指定在其目标活动上定义的元素中的项目感知元素（类型为数据输入），该元素将从数据传输到活动。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data associations with a transformation type of Output must specify an item-aware element (of type Data Output) from among those defined on their source activity, which will be transferred from the activity to the data.</Name>
+    <LocalName>具有“输出”转换类型的数据关联必须指定在其源活动上定义的元素中的项目感知元素（类型为数据输出），该元素将从活动传输到数据。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data object</Name>
+    <LocalName>数据对象</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data object references are not permitted in tasks or events</Name>
+    <LocalName>数据对象引用不允许出现在任务或事件中</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data object references must reference valid data objects.</Name>
+    <LocalName>数据对象引用必须引用有效的数据对象。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data object references must specify the data object to which they are a reference.</Name>
+    <LocalName>数据对象引用必须指定将其作为引用的数据对象。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data objects are not permitted in tasks or events</Name>
+    <LocalName>数据对象不允许出现在任务或事件中</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Data schema target namespace</Name>
+    <LocalName>数据模式目标命名空间</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DataAssociation</Name>
+    <LocalName>数据关联</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DataInput</Name>
+    <LocalName>数据输入</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DataObject</Name>
+    <LocalName>数据对象</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DataObjectReference</Name>
+    <LocalName>数据对象引用</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DataOutput</Name>
+    <LocalName>数据输出</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DataStore</Name>
+    <LocalName>数据存储</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default Flow</Name>
+    <LocalName>缺省流</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default diagram</Name>
+    <LocalName>缺省图</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default diagram:</Name>
+    <LocalName>缺省图：</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Default flow</Name>
+    <LocalName>缺省流</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Definition namespace</Name>
+    <LocalName>定义命名空间</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Definition namespace prefix</Name>
+    <LocalName>定义命名空间前缀</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Definition target namespace</Name>
+    <LocalName>定义目标命名空间</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Destination of flow must be a receive activity</Name>
+    <LocalName>流目标必须是接收活动</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Direction</Name>
+    <LocalName>方向</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Document ID</Name>
+    <LocalName>文档 ID</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Document Status</Name>
+    <LocalName>文档状态</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Document Statuses</Name>
+    <LocalName>文档状态</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Document Type</Name>
+    <LocalName>文档类型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Document Types</Name>
+    <LocalName>文档类型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Document type</Name>
+    <LocalName>文档类型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Document type text</Name>
+    <LocalName>文档类型文本</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DocumentStatus</Name>
+    <LocalName>文档状态</LocalName>
+  </Translation>
+  <Translation>
+    <Name>DocumentType</Name>
+    <LocalName>文档类型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Documentation</Name>
+    <LocalName>文档</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Documentations</Name>
+    <LocalName>文档</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Duration:</Name>
+    <LocalName>持续时间：</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Each Pick activity must include at least one onMessage event</Name>
+    <LocalName>每个 Pick 活动必须至少包含一个 onMessage 事件</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Each activity or intermediate event must not have more than one default flow.</Name>
+    <LocalName>每个活动或中间事件不能有多个缺省流。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Each choreography task must not have more than one default flow.</Name>
+    <LocalName>每个设计任务不能有多个缺省流。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Each gateway must not have more than one default flow.</Name>
+    <LocalName>每个网关不能有多个缺省流。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Enable instance compensation</Name>
+    <LocalName>启用实例补偿</LocalName>
+  </Translation>
+  <Translation>
+    <Name>End Event</Name>
+    <LocalName>结束事件</LocalName>
+  </Translation>
+  <Translation>
+    <Name>End Events</Name>
+    <LocalName>结束事件</LocalName>
+  </Translation>
+  <Translation>
+    <Name>End events of type Cancel are not permitted at the top level or in event sub-processes. They are only permitted in transactions.</Name>
+    <LocalName>类型为“取消”的结束事件不允许出现在顶级或事件子流程中。 只允许出现在事务中。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>End point reference</Name>
+    <LocalName>结束点引用</LocalName>
+  </Translation>
+  <Translation>
+    <Name>EndEvent</Name>
+    <LocalName>结束事件</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Error</Name>
+    <LocalName>错误</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Error End Event</Name>
+    <LocalName>错误结束事件</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Error Event Definition</Name>
+    <LocalName>错误事件定义</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Error Start Event</Name>
+    <LocalName>错误开始事件</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Error code</Name>
+    <LocalName>错误代码</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ErrorEnd</Name>
+    <LocalName>错误结束事件</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ErrorStart</Name>
+    <LocalName>错误开始事件</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Escalation</Name>
+    <LocalName>升级</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Escalation End Event</Name>
+    <LocalName>升级结束事件</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Escalation Event Definition</Name>
+    <LocalName>升级事件定义</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Escalation Intermediate Throw Event</Name>
+    <LocalName>升级中间抛出事件</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Escalation Start Event</Name>
+    <LocalName>升级开始事件</LocalName>
+  </Translation>
+  <Translation>
+    <Name>EscalationEnd</Name>
+    <LocalName>升级结束事件</LocalName>
+  </Translation>
+  <Translation>
+    <Name>EscalationStart</Name>
+    <LocalName>升级开始事件</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Event Definition</Name>
+    <LocalName>事件定义</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Event Definitions</Name>
+    <LocalName>事件定义</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Event Sub-Process</Name>
+    <LocalName>事件子流程</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Event sub-processes must have exactly one start event.</Name>
+    <LocalName>事件子流程必须只有一个开始事件。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Event sub-processes must not have any incoming flows.</Name>
+    <LocalName>事件子流程不能有任何传入流。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Event sub-processes must not have any outgoing flows.</Name>
+    <LocalName>事件子流程不能有任何传出流。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Event-Based Gateway</Name>
+    <LocalName>基于事件的网关</LocalName>
+  </Translation>
+  <Translation>
+    <Name>EventBasedGateway</Name>
+    <LocalName>基于事件的网关</LocalName>
+  </Translation>
+  <Translation>
+    <Name>EventDefinition</Name>
+    <LocalName>事件定义</LocalName>
+  </Translation>
+  <Translation>
+    <Name>EventSubProcess</Name>
+    <LocalName>事件子流程</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Events and tasks must only contain item-aware objects of type Data Input or Data Output.</Name>
+    <LocalName>事件和任务必须仅包含类型为“数据输入”或“数据输出”的项目感知对象。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Events must not be decomposed. They must not contain other objects.</Name>
+    <LocalName>事件不得分解。 不得包含其他对象。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Events must not be specified as reusable.</Name>
+    <LocalName>事件不能指定为可重用。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Exception</Name>
+    <LocalName>异常</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Exclusive Event-Based Gateway</Name>
+    <LocalName>基于事件的排他网关</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Exclusive Gateway</Name>
+    <LocalName>排他网关</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ExclusiveEventBasedGateway</Name>
+    <LocalName>基于事件的排他网关</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ExclusiveGateway</Name>
+    <LocalName>排他网关</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Existence of Else flow</Name>
+    <LocalName>存在 Else 流</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Existence of compensation handler</Name>
+    <LocalName>存在补偿处理程序</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Existence of receive activity</Name>
+    <LocalName>存在接收活动</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Existence of reply activity</Name>
+    <LocalName>存在回复活动</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Exit on standard fault</Name>
+    <LocalName>在出现标准故障时退出</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Expected organization unit defined as partner link</Name>
+    <LocalName>定义为合作伙伴链接的预期组织单位</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Expected variable for fault handling</Name>
+    <LocalName>故障处理的预期变量</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Expression language</Name>
+    <LocalName>表达式语言</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Extended ID</Name>
+    <LocalName>扩展 ID</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Extension:</Name>
+    <LocalName>扩展名：</LocalName>
+  </Translation>
+  <Translation>
+    <Name>File extension</Name>
+    <LocalName>文件扩展名</LocalName>
+  </Translation>
+  <Translation>
+    <Name>File extension value</Name>
+    <LocalName>文件扩展名值</LocalName>
+  </Translation>
+  <Translation>
+    <Name>File name:</Name>
+    <LocalName>文件名：</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Final counter expression</Name>
+    <LocalName>最终计数器表达式</LocalName>
+  </Translation>
+  <Translation>
+    <Name>First correlation pattern</Name>
+    <LocalName>第一个相关模式</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Flow Nodes</Name>
+    <LocalName>流节点</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Flow data balancing.</Name>
+    <LocalName>流数据平衡。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Flow type</Name>
+    <LocalName>流类型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Gateway</Name>
+    <LocalName>网关</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Gateways</Name>
+    <LocalName>网关</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Gateways must not have more than one default outgoing flow.</Name>
+    <LocalName>网关不能有多个缺省传出流。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>General</Name>
+    <LocalName>常规</LocalName>
+  </Translation>
+  <Translation>
+    <Name>General Documentation</Name>
+    <LocalName>常规文档</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Generate:</Name>
+    <LocalName>生成：</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Global</Name>
+    <LocalName>全局</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Global value</Name>
+    <LocalName>全局值</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Hidden</Name>
+    <LocalName>隐藏</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Human Process</Name>
+    <LocalName>人工流程</LocalName>
+  </Translation>
+  <Translation>
+    <Name>HumanProcess</Name>
+    <LocalName>人工流程</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ID</Name>
+    <LocalName>ID</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Implementation</Name>
+    <LocalName>实现</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Implementation technology</Name>
+    <LocalName>实现技术</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Imported wsdl content</Name>
+    <LocalName>导入的 wsdl 内容</LocalName>
+  </Translation>
+  <Translation>
+    <Name>In scope</Name>
+    <LocalName>在范围中</LocalName>
+  </Translation>
+  <Translation>
+    <Name>InScope</Name>
+    <LocalName>在范围中</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Inclusive Gateway</Name>
+    <LocalName>包含网关</LocalName>
+  </Translation>
+  <Translation>
+    <Name>InclusiveGateway</Name>
+    <LocalName>包含网关</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Inconsistent correlation keys</Name>
+    <LocalName>不一致相关键</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Inconsistent correlation properties</Name>
+    <LocalName>不一致相关属性</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Initialize Partner Role</Name>
+    <LocalName>初始化合作伙伴角色</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Initiate correlation</Name>
+    <LocalName>启动相关</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Initiate input correlation</Name>
+    <LocalName>启动输入相关</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Initiate output correlation</Name>
+    <LocalName>启动输出相关</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Initiating and return messages must share the same correlation property of the same correlation key.</Name>
+    <LocalName>启动消息和返回消息必须共享相同相关键的相同相关属性。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Initiating and return messages with inconsistent correlation settings</Name>
+    <LocalName>相关设置不一致的启动和返回消息</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Initiating message not message flow</Name>
+    <LocalName>启动消息不是消息流</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Initiating messages must be of stereotype &quot;Message Flow&quot;.</Name>
+    <LocalName>启动消息的构造型必须为“消息流”。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Initiating messages must bear the stereotype Message Flow.</Name>
+    <LocalName>启动消息必须具有构造型“消息流”。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Instantiate</Name>
+    <LocalName>实例化</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Intermediate</Name>
+    <LocalName>中间</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Intermediate Catch Event</Name>
+    <LocalName>中间捕获事件</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Intermediate Catch Events</Name>
+    <LocalName>中间捕获事件</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Intermediate Event</Name>
+    <LocalName>中间事件</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Intermediate Events</Name>
+    <LocalName>中间事件</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Intermediate Throw Event</Name>
+    <LocalName>中间抛出事件</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Intermediate Throw Events</Name>
+    <LocalName>中间抛出事件</LocalName>
+  </Translation>
+  <Translation>
+    <Name>IntermediateEvent</Name>
+    <LocalName>中间事件</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Interrupting</Name>
+    <LocalName>中断</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Interrupting multiple boundary events can only contain Message, Timer, Escalation, Conditional, Error, Cancel, Compensation, and Signal event definitions.
+Non-interrupting multiple boundary events can only contain Message, Timer, Escalation, Conditional, and Signal event definitions.</Name>
+    <LocalName>中断多重边界事件只能包含消息、计时器、升级、条件、错误、取消、补偿和信号事件定义。
+非中断多重边界事件只能包含消息、计时器、升级、条件和信号事件定义。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Interrupting parallel multiple boundary events can only contain Message, Timer, Escalation, Conditional, Error, Cancel, Compensation, and Signal event definitions.
+Non-interrupting parallel multiple boundary events can only contain Message, Timer, Escalation, Conditional, and Signal event definitions.</Name>
+    <LocalName>中断并行多重边界事件只能包含消息、计时器、升级、条件、错误、取消、补偿和信号事件定义。
+非中断并行多重边界事件只能包含消息、计时器、升级、条件和信号事件定义。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid correlation properties</Name>
+    <LocalName>无效相关属性</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid correlation property</Name>
+    <LocalName>无效相关属性</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid data object</Name>
+    <LocalName>无效数据对象</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid decomposition</Name>
+    <LocalName>无效分解</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid destination</Name>
+    <LocalName>无效目标</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid document status</Name>
+    <LocalName>无效文档状态</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid document type</Name>
+    <LocalName>无效文档类型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid event definitions</Name>
+    <LocalName>无效事件定义</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid implementation type</Name>
+    <LocalName>无效实现类型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid incoming flows</Name>
+    <LocalName>无效传入流</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid initiating message stereotype</Name>
+    <LocalName>无效启动消息构造型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid item-aware elements</Name>
+    <LocalName>无效项目感知元素</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid message format</Name>
+    <LocalName>无效消息格式</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid outgoing flows</Name>
+    <LocalName>无效传出流</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid return message stereotype</Name>
+    <LocalName>无效返回消息构造型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid reusability</Name>
+    <LocalName>无效可重用性</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid source</Name>
+    <LocalName>无效源</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid source item</Name>
+    <LocalName>无效源项目</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid target item</Name>
+    <LocalName>无效目标项目</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid transactions collection</Name>
+    <LocalName>无效事务集合</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Invalid type of operation</Name>
+    <LocalName>无效操作类型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Is Entity:</Name>
+    <LocalName>是实体：</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Is message flow</Name>
+    <LocalName>是消息流</LocalName>
+  </Translation>
+  <Translation>
+    <Name>IsTakeOver</Name>
+    <LocalName>IsTakeOver</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Isolated</Name>
+    <LocalName>已隔离</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Isolated object.</Name>
+    <LocalName>已隔离对象。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Isolated shortcut of object.</Name>
+    <LocalName>已隔离对象快捷方式。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Item-Aware Elements</Name>
+    <LocalName>项目感知元素</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Item-aware elements of type Data Input are not permitted in intermediate catch events.</Name>
+    <LocalName>类型为“数据输入”的项目感知元素不允许出现在中间捕获事件中。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Item-aware elements of type Data Input are not permitted in message start events.</Name>
+    <LocalName>类型为“数据输入”的项目感知元素不允许出现在消息开始事件中。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Item-aware elements of type Data Output are not permitted in intermediate throw events.</Name>
+    <LocalName>类型为“数据输出”的项目感知元素不允许出现在中间抛出事件中。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Item-aware elements of type Data Output are not permitted in message end events.</Name>
+    <LocalName>类型为“数据输出”的项目感知元素不允许出现在消息结束事件中。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Join condition</Name>
+    <LocalName>连接条件</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Keep source element name</Name>
+    <LocalName>保留源元素名称</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Keywords</Name>
+    <LocalName>关键字</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Lane</Name>
+    <LocalName>区</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Lanes</Name>
+    <LocalName>区</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Language</Name>
+    <LocalName>语言</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Language R</Name>
+    <LocalName>语言 R</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Link</Name>
+    <LocalName>链接</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Link Event Definition</Name>
+    <LocalName>链接事件定义</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Link Intermediate Catch Event</Name>
+    <LocalName>链接中间捕获事件</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Link Intermediate Throw Event</Name>
+    <LocalName>链接中间抛出事件</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Local Variables</Name>
+    <LocalName>本地变量</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Location Type:</Name>
+    <LocalName>位置类型：</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Location:</Name>
+    <LocalName>位置：</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Logical Component</Name>
+    <LocalName>逻辑组件</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Logical Components</Name>
+    <LocalName>逻辑组件</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Logical component</Name>
+    <LocalName>逻辑组件</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Logical component R</Name>
+    <LocalName>逻辑组件 R</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Logical component:</Name>
+    <LocalName>逻辑组件：</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Logical components created in PowerDesigner cannot be exported</Name>
+    <LocalName>在 PowerDesigner 中创建的逻辑组件无法导出</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Logical components created in PowerDesigner cannot be exported to Solution Manager</Name>
+    <LocalName>在 PowerDesigner 中创建的逻辑组件无法导出至 Solution Manager</LocalName>
+  </Translation>
+  <Translation>
+    <Name>LogicalComponent</Name>
+    <LocalName>逻辑组件</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Loop characteristics</Name>
+    <LocalName>循环特征</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Mandatory loop expression</Name>
+    <LocalName>必需循环表达式</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Manual Task</Name>
+    <LocalName>手动任务</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ManualTask</Name>
+    <LocalName>手动任务</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Master Data</Name>
+    <LocalName>主数据</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Message</Name>
+    <LocalName>消息</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Message End Event</Name>
+    <LocalName>消息结束事件</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Message End Events</Name>
+    <LocalName>消息结束事件</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Message Event Definition</Name>
+    <LocalName>消息事件定义</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Message Flow</Name>
+    <LocalName>消息流</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Message Flow Matrices</Name>
+    <LocalName>消息流矩阵</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Message Flow Matrix</Name>
+    <LocalName>消息流矩阵</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Message Flows</Name>
+    <LocalName>消息流</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Message Intermediate Catch Event</Name>
+    <LocalName>消息中间捕获事件</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Message Intermediate Throw Event</Name>
+    <LocalName>消息中间抛出事件</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Message Start Event</Name>
+    <LocalName>消息开始事件</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Message Start Events</Name>
+    <LocalName>消息开始事件</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Message flows can only go from (have as sources) activities, pools, throwing message intermediate events, or message end events.</Name>
+    <LocalName>消息流只能来自（将其作为源）活动、池、抛出消息中间事件或消息结束事件。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Message flows can only point to (have as destinations) activities, pools, catching message intermediate events, or  message start events.</Name>
+    <LocalName>消息流只能指向（将其作为目标）活动、池、捕获消息中间事件或消息开始事件。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Message flows can only point to (have as destinations) activities, pools, catching message intermediate events, or message start events.</Name>
+    <LocalName>消息流只能指向（将其作为目标）活动、池、捕获消息中间事件或消息开始事件。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Message flows must specify a correlation property from among those defined in their correlation key.</Name>
+    <LocalName>消息流必须指定在其相关键中定义的相关属性。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Message format</Name>
+    <LocalName>消息格式</LocalName>
+  </Translation>
+  <Translation>
+    <Name>MessageEnd</Name>
+    <LocalName>消息结束事件</LocalName>
+  </Translation>
+  <Translation>
+    <Name>MessageFlow</Name>
+    <LocalName>消息流</LocalName>
+  </Translation>
+  <Translation>
+    <Name>MessageFlowMatrix</Name>
+    <LocalName>消息流矩阵</LocalName>
+  </Translation>
+  <Translation>
+    <Name>MessageStart</Name>
+    <LocalName>消息开始事件</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Migrated flow balancing</Name>
+    <LocalName>迁移流平衡</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing Receive activity after the top-level start</Name>
+    <LocalName>在顶级开始事件后缺少接收活动</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing data object</Name>
+    <LocalName>缺少数据对象</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing source item</Name>
+    <LocalName>缺少源项目</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Missing target item</Name>
+    <LocalName>缺少目标项目</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Multi-Instance</Name>
+    <LocalName>多实例</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Multi-Instance:</Name>
+    <LocalName>多实例：</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Multiple</Name>
+    <LocalName>多重</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Multiple End Event</Name>
+    <LocalName>多重结束事件</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Multiple Intermediate Catch Event</Name>
+    <LocalName>多重中间捕获事件</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Multiple Intermediate Throw Event</Name>
+    <LocalName>多重中间抛出事件</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Multiple Start Event</Name>
+    <LocalName>多重开始事件</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Multiple correlation</Name>
+    <LocalName>多重相关</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Multiple correlations</Name>
+    <LocalName>多重相关</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Multiple end events can only contain Message, Error, Escalation, Cancel, Compensation, Signal, and Terminate event definitions.</Name>
+    <LocalName>多重结束事件只能包含消息、错误、升级、取消、补偿、信号和终止事件定义。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Multiple events must contain at least two event definitions.</Name>
+    <LocalName>多重事件必须至少包含两个事件定义。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Multiple intermediate catching events can only contain Message, Timer, Conditional, Link, and Signal event definitions.</Name>
+    <LocalName>多重中间捕获事件只能包含消息、计时器、条件、链接和信号事件定义。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Multiple intermediate throwing events can only contain Message, Escalation, Link, Compensation, and Signal event definitions.</Name>
+    <LocalName>多重中间抛出事件只能包含消息、升级、链接、补偿和信号事件定义。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Multiple start events at the top level can only contain Message, Timer, Conditional, Error, and Signal event definitions. 
+Interrupting multiple start events in an event sub-process can only contain Message, Timer, Escalation, Conditional, Error, Compensation, and Signal event definitions.
+Non-interrupting multiple start events in an event sub-process can only contain Message, Timer, Escalation, Conditional, and Signal event definitions.</Name>
+    <LocalName>顶级多重开始事件只能包含消息、计时器、条件、错误和信号事件定义。 
+事件子流程中的中断多重开始事件只能包含消息、计时器、升级、条件、错误、补偿和信号事件定义。
+事件子流程中的非中断多重开始事件只能包含消息、计时器、升级、条件和信号事件定义。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Multiple value</Name>
+    <LocalName>多重值</LocalName>
+  </Translation>
+  <Translation>
+    <Name>MultipleEnd</Name>
+    <LocalName>多重结束事件</LocalName>
+  </Translation>
+  <Translation>
+    <Name>MultipleStart</Name>
+    <LocalName>多重开始事件</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must be an assigned variable of a data transformation with the &lt;&lt;propertyAlias&gt;&gt; stereotype.</Name>
+    <LocalName>必须是具有 &lt;&lt;属性别名&gt;&gt; 构造型的数据转换的已分配变量。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must be composite</Name>
+    <LocalName>必须为复合</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must be implemented by a compensation event</Name>
+    <LocalName>必须由补偿事件实现</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must be implemented by a fault event</Name>
+    <LocalName>必须由故障事件实现</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must be implemented by a timer event</Name>
+    <LocalName>必须由计时器事件实现</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must be used within a fault handler</Name>
+    <LocalName>必须在故障处理程序内使用</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must contain assignments with assignment variable compatible with the partner role</Name>
+    <LocalName>必须包含与合作伙伴角色兼容的分配变量的分配</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must contain assignments with input variable compatible with the partner role</Name>
+    <LocalName>必须包含与合作伙伴角色兼容的输入变量的分配</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must contain assignments with input variable compatible with the process role</Name>
+    <LocalName>必须包含与流程角色兼容的输入变量的分配</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must contain at least one data transformation</Name>
+    <LocalName>必须至少包含一个数据转换</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must contain at least one variable</Name>
+    <LocalName>必须至少包含一个变量</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must execute an operation which is compatible with the organization unit</Name>
+    <LocalName>必须执行与组织单位兼容的操作</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must have Data Store stereotype</Name>
+    <LocalName>必须具有数据存储构造型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must have Split/Merge stereotype</Name>
+    <LocalName>必须具有拆分/合并构造型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must have a single compensation handler</Name>
+    <LocalName>必须含有单个补偿处理程序</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must have a single default fault handler</Name>
+    <LocalName>必须含有单个缺省故障处理程序</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must have a single incoming flow</Name>
+    <LocalName>必须含有单个传入流</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must have a single success output flow</Name>
+    <LocalName>必须含有单个成功输出流</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must have the &lt;&lt;repeatuntil&gt;&gt; stereotype</Name>
+    <LocalName>必须具有 &lt;&lt;重复至&gt;&gt; 构造型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must have the Foreach stereotype</Name>
+    <LocalName>必须具有 Foreach 构造型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must have the compensate stereotype</Name>
+    <LocalName>必须具有补偿构造型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must have the if stereotype</Name>
+    <LocalName>必须具有 if 构造型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must have the invoke stereotype</Name>
+    <LocalName>必须具有调用构造型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must have the pick stereotype</Name>
+    <LocalName>必须具有选取构造型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must have the property stereotype</Name>
+    <LocalName>必须具有属性构造型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must have the propertyAlias stereotype</Name>
+    <LocalName>必须具有属性别名构造型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must have the receive stereotype</Name>
+    <LocalName>必须具有接收构造型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must have the reply stereotype</Name>
+    <LocalName>必须具有回复构造型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must have the replyFault stereotype</Name>
+    <LocalName>必须具有回复故障构造型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must have the throw stereotype</Name>
+    <LocalName>必须具有抛出构造型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must have the wait stereotype</Name>
+    <LocalName>必须具有等待构造型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must have the while stereotype</Name>
+    <LocalName>必须具有 while 构造型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must have valid assignments</Name>
+    <LocalName>必须含有有效分配</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must not contain assignments</Name>
+    <LocalName>不得包含分配</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must not use the same variable as the counter variable</Name>
+    <LocalName>不得使用与计数器变量相同的变量</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must specify the myRole or the partnerRole, or both.</Name>
+    <LocalName>必须指定 myRole 或者 partnerRole，或二者皆指定。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must target receive or pick activity</Name>
+    <LocalName>必须以接收活动或者 pick 活动为目标</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must use global variable as assigned variable</Name>
+    <LocalName>必须将全局变量用作已分配变量</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must use message format as input variable</Name>
+    <LocalName>必须将消息格式用作输入变量</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must use operation defined under the service provider representing the process interface</Name>
+    <LocalName>必须使用代表流程接口的服务提供程序下定义的操作</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must use variables defined under the model</Name>
+    <LocalName>必须使用模型下定义的变量</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Must use variables with the &lt;&lt;property&gt;&gt; stereotype</Name>
+    <LocalName>必须使用具有 &lt;&lt;属性&gt;&gt; 构造型的变量</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Name</Name>
+    <LocalName>名称</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Namespace prefix to use</Name>
+    <LocalName>要使用的命名空间前缀</LocalName>
+  </Translation>
+  <Translation>
+    <Name>No more than two outgoing flows</Name>
+    <LocalName>传出流不得超过两个</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Node ID</Name>
+    <LocalName>节点 ID</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Not permitted at top level</Name>
+    <LocalName>不允许在顶级</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Not permitted in ad-hoc sub-process</Name>
+    <LocalName>不允许在即席子流程中</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Not permitted in event sub-process</Name>
+    <LocalName>不允许在事件子流程中</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Not permitted in intermediate catch events</Name>
+    <LocalName>不允许在中间捕获事件中</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Not permitted in intermediate throw events</Name>
+    <LocalName>不允许在中间抛出事件中</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Not permitted in message end events</Name>
+    <LocalName>不允许在消息结束事件中</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Not permitted in message start events</Name>
+    <LocalName>不允许在消息开始事件中</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Not permitted in sub-process</Name>
+    <LocalName>不允许在子流程中</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Not permitted in tasks or events</Name>
+    <LocalName>不允许在任务或事件中</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Not permitted in transaction</Name>
+    <LocalName>不允许在事务中</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Number ID:</Name>
+    <LocalName>数量 ID：</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Object</Name>
+    <LocalName>对象</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Object R</Name>
+    <LocalName>对象 R</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Only permitted in transactions</Name>
+    <LocalName>仅允许在事务中</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Organization Unit role</Name>
+    <LocalName>组织单位角色</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Organization Units</Name>
+    <LocalName>组织单位</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Original name</Name>
+    <LocalName>原始名称</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Out of scope compensate activity</Name>
+    <LocalName>范围外补偿活动</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Owner</Name>
+    <LocalName>所有者</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Package</Name>
+    <LocalName>包</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Page scale:</Name>
+    <LocalName>页面比例：</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Pairs of initiating and return messages must specify the same correlation property of the same correlation key.</Name>
+    <LocalName>启动消息和返回消息对必须指定相同相关键的相同相关属性。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Parallel</Name>
+    <LocalName>并行</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Parallel Event-Based Gateway</Name>
+    <LocalName>基于事件的并行网关</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Parallel Gateway</Name>
+    <LocalName>并行网关</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Parallel Multiple</Name>
+    <LocalName>并行多重</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Parallel Multiple Intermediate Catch Event</Name>
+    <LocalName>并行多重中间捕获事件</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Parallel Multiple Start Event</Name>
+    <LocalName>并行多重开始事件</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Parallel multiple intermediate catching events can only contain Message, Timer, Conditional, Link, and Signal event definitions.</Name>
+    <LocalName>并行多重中间捕获事件只能包含消息、计时器、条件、链接和信号事件定义。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Parallel multiple start events at the top level can only contain Message, Timer, Conditional, Error, and Signal event definitions. 
+Interrupting parallel multiple start events in an event sub-process can only contain Message, Timer, Escalation, Conditional, Error, Compensation, and Signal event definitions.
+Non-interrupting parallel multiple start events in an event sub-process can only contain Message, Timer, Escalation, Conditional, and Signal event definitions.</Name>
+    <LocalName>顶级并行多重开始事件只能包含消息、计时器、条件、错误和信号事件定义。 
+事件子流程中的中断并行多重开始事件只能包含消息、计时器、升级、条件、错误、补偿和信号事件定义。
+事件子流程中的非中断并行多重开始事件只能包含消息、计时器、升级、条件和信号事件定义。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ParallelEventBasedGateway</Name>
+    <LocalName>基于事件的并行网关</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ParallelGateway</Name>
+    <LocalName>并行网关</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ParallelMultiple</Name>
+    <LocalName>并行多重</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ParallelMultipleStart</Name>
+    <LocalName>并行多重开始事件</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Parent flow balancing.</Name>
+    <LocalName>父流平衡。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Parent:</Name>
+    <LocalName>父项：</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Participant</Name>
+    <LocalName>参与者</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Partner Port Type</Name>
+    <LocalName>合作伙伴端口类型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Partner link type</Name>
+    <LocalName>合作伙伴链接类型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Partners role</Name>
+    <LocalName>合作伙伴角色</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Person responsible</Name>
+    <LocalName>负责人</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Pool</Name>
+    <LocalName>池</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Pools</Name>
+    <LocalName>池</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Process</Name>
+    <LocalName>流程</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Process Port Type</Name>
+    <LocalName>流程端口类型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Process Step</Name>
+    <LocalName>流程步骤</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Process Steps</Name>
+    <LocalName>流程步骤</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Process role</Name>
+    <LocalName>流程角色</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Process step references a logical component not present in Solution Manager</Name>
+    <LocalName>流程步骤引用的逻辑组件在 Solution Manager 中不存在</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Process step references no logical component</Name>
+    <LocalName>流程步骤未引用逻辑组件</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Process step references no logical component.</Name>
+    <LocalName>流程步骤未引用逻辑组件。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Process steps ID</Name>
+    <LocalName>流程步骤 ID</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Process:</Name>
+    <LocalName>流程：</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ProcessStep</Name>
+    <LocalName>流程步骤</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Processing type</Name>
+    <LocalName>处理类型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Processing type value</Name>
+    <LocalName>处理类型值</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Product ID</Name>
+    <LocalName>产品 ID</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Product instance ID</Name>
+    <LocalName>产品实例 ID</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Product instance name</Name>
+    <LocalName>产品实例名称</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Product name</Name>
+    <LocalName>产品名称</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Product version ID</Name>
+    <LocalName>产品版本 ID</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Product version name</Name>
+    <LocalName>产品版本名称</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Project Documentation</Name>
+    <LocalName>项目文档</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Project ID</Name>
+    <LocalName>项目 ID</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Properties</Name>
+    <LocalName>属性</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Property</Name>
+    <LocalName>属性</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Query language</Name>
+    <LocalName>查询语言</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Query on the assigned variable</Name>
+    <LocalName>已分配变量上的查询</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Receive Task</Name>
+    <LocalName>接收任务</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ReceiveTask</Name>
+    <LocalName>接收任务</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Repeat every expression</Name>
+    <LocalName>重复每个表达式</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Repository:</Name>
+    <LocalName>存储库：</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Resource:</Name>
+    <LocalName>资源：</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Responsible ID</Name>
+    <LocalName>负责人 ID</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Responsible person</Name>
+    <LocalName>负责人</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Responsible person (read-only)</Name>
+    <LocalName>负责人（只读）</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Return message not message flow</Name>
+    <LocalName>返回消息不是消息流</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Return messages must be of stereotype &quot;Message Flow&quot;.</Name>
+    <LocalName>返回消息的构造型必须为“消息流”。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Return messages must bear the stereotype Message Flow.</Name>
+    <LocalName>返回消息必须具有构造型“消息流”。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Reusable Process</Name>
+    <LocalName>可重用流程</LocalName>
+  </Translation>
+  <Translation>
+    <Name>SA00022</Name>
+    <LocalName>SA00022</LocalName>
+  </Translation>
+  <Translation>
+    <Name>SA00062</Name>
+    <LocalName>SA00062</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Scenario Flow Diagram</Name>
+    <LocalName>场景流图</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Screen text</Name>
+    <LocalName>屏幕文本</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Script</Name>
+    <LocalName>脚本</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Script Task</Name>
+    <LocalName>脚本任务</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Script language</Name>
+    <LocalName>脚本语言</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ScriptTask</Name>
+    <LocalName>脚本任务</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Second  correlation pattern</Name>
+    <LocalName>第二个相关模式</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Select document status</Name>
+    <LocalName>选择文档状态</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Select document type</Name>
+    <LocalName>选择文档状态</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Select transaction type</Name>
+    <LocalName>选择事务类型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Send Task</Name>
+    <LocalName>发送任务</LocalName>
+  </Translation>
+  <Translation>
+    <Name>SendTask</Name>
+    <LocalName>发送任务</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Sequence Flow</Name>
+    <LocalName>顺序流</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Sequence Flows</Name>
+    <LocalName>顺序流</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Sequence flows must not have message formats attached to them.</Name>
+    <LocalName>顺序流不能附加消息格式。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>SequenceFlow</Name>
+    <LocalName>顺序流</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Service Provider</Name>
+    <LocalName>服务提供程序</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Service Task</Name>
+    <LocalName>服务任务</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ServiceProvider</Name>
+    <LocalName>服务提供程序</LocalName>
+  </Translation>
+  <Translation>
+    <Name>ServiceTask</Name>
+    <LocalName>服务任务</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Shortcut</Name>
+    <LocalName>快捷方式</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Shortcut of process step references different logical component</Name>
+    <LocalName>流程步骤快捷方式引用不同逻辑组件</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Should be the first activity of the business process</Name>
+    <LocalName>应为业务流程的第一个活动</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Signal</Name>
+    <LocalName>信号</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Signal End Event</Name>
+    <LocalName>信号结束事件</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Signal Event Definition</Name>
+    <LocalName>信号事件定义</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Signal Intermediate Catch Event</Name>
+    <LocalName>信号中间捕获事件</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Signal Intermediate Throw Event</Name>
+    <LocalName>信号中间抛出事件</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Signal Start Event</Name>
+    <LocalName>信号开始事件</LocalName>
+  </Translation>
+  <Translation>
+    <Name>SignalEnd</Name>
+    <LocalName>信号结束事件</LocalName>
+  </Translation>
+  <Translation>
+    <Name>SignalStart</Name>
+    <LocalName>信号开始事件</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Source</Name>
+    <LocalName>源</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Source ID</Name>
+    <LocalName>源 ID</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Source item</Name>
+    <LocalName>源项目</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Source location</Name>
+    <LocalName>源位置</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Source location ID</Name>
+    <LocalName>源位置 ID</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Source location R</Name>
+    <LocalName>源位置 R</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Source location text</Name>
+    <LocalName>源位置文本</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Source process step missing</Name>
+    <LocalName>缺少源流程步骤</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Source type</Name>
+    <LocalName>源类型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>SourceR</Name>
+    <LocalName>源 R</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Standard</Name>
+    <LocalName>标准</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Start Event</Name>
+    <LocalName>开始事件</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Start Events</Name>
+    <LocalName>开始事件</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Start and end events are not permitted in ad-hoc sub-processes.</Name>
+    <LocalName>开始事件和结束事件不允许出现在即席子流程中。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Start counter expression</Name>
+    <LocalName>开始计数器表达式</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Start events of type Compensation are only permitted in event sub-processes.</Name>
+    <LocalName>类型为“补偿”的开始事件只允许出现在事件子流程中。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Start events of type Error are only permitted in event sub-processes.</Name>
+    <LocalName>类型为“错误”的开始事件只允许出现在事件子流程中。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Start events of type Escalation are only permitted in event sub-processes.</Name>
+    <LocalName>类型为“升级”的开始事件只允许出现在事件子流程中。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Start events of type Standard are not permitted in event sub-processes.</Name>
+    <LocalName>类型为“标准”的开始事件不允许出现在事件子流程中。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Start events that are not of type Standard are not permitted in sub-processes.</Name>
+    <LocalName>类型不是“标准”的开始事件不允许出现在子流程中。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Start events that are not of type Standard are not permitted in transactions.</Name>
+    <LocalName>类型不是“标准”的开始事件不允许出现在事务中。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Start quantity</Name>
+    <LocalName>开始数量</LocalName>
+  </Translation>
+  <Translation>
+    <Name>StartEvent</Name>
+    <LocalName>开始事件</LocalName>
+  </Translation>
+  <Translation>
+    <Name>State</Name>
+    <LocalName>状态</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Status</Name>
+    <LocalName>状态</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Status code</Name>
+    <LocalName>状态代码</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Status text</Name>
+    <LocalName>状态文本</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Stereotype</Name>
+    <LocalName>构造型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Stereotype:</Name>
+    <LocalName>构造型：</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Sub-Process</Name>
+    <LocalName>子流程</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Sub-Processes</Name>
+    <LocalName>子流程</LocalName>
+  </Translation>
+  <Translation>
+    <Name>SubProcess</Name>
+    <LocalName>子流程</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Successful branches only</Name>
+    <LocalName>仅成功分支</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Suppress join failure</Name>
+    <LocalName>禁止连接失败</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Symbol ID</Name>
+    <LocalName>符号 ID</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Synchronization link cannot connect non-parallel activities</Name>
+    <LocalName>同步链接无法连接非并行活动</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Synchronization link cannot connect two activities belonging to different event branches</Name>
+    <LocalName>同步链接无法连接属于不同事件分支的两个活动</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Synchronization link must not cross BPEL4WS serializable scope boundary</Name>
+    <LocalName>同步链接不得跨过 BPEL4WS 可序列化范围边界</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Synchronization link must not cross loop boundary</Name>
+    <LocalName>同步链接不得跨过循环边界</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Target item</Name>
+    <LocalName>目标项目</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Target namespace</Name>
+    <LocalName>目标命名空间</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Task</Name>
+    <LocalName>任务</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Tasks</Name>
+    <LocalName>任务</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Tasks must not contain other objects. Only sub-processes and other composite activities can contain other objects.</Name>
+    <LocalName>任务不得包含其他对象。 只有子流程和其他复合活动可以包含其他对象。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Terminate End Event</Name>
+    <LocalName>终止结束事件</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Terminate Event Definition</Name>
+    <LocalName>终止事件定义</LocalName>
+  </Translation>
+  <Translation>
+    <Name>TerminateEnd</Name>
+    <LocalName>终止结束事件</LocalName>
+  </Translation>
+  <Translation>
+    <Name>The assigned variable must have the &lt;&lt;property&gt;&gt; stereotype.</Name>
+    <LocalName>已分配变量必须具有 &lt;&lt;属性&gt;&gt; 构造型。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>The composite process should have valid stereotype</Name>
+    <LocalName>复合流程应具有有效构造型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>The emission correlation must be coherent with the emission message mapping variable.</Name>
+    <LocalName>发送相关必须与发送消息映射变量一致。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>The reception correlation must be coherent with the reception message mapping variable.</Name>
+    <LocalName>接收相关必须与接收消息映射变量一致。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>TheType</Name>
+    <LocalName>类型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>This check ensures that all properties have a stereotype &quot;Correlation Property&quot;</Name>
+    <LocalName>此检查确保所有属性均具有构造型“相关属性”</LocalName>
+  </Translation>
+  <Translation>
+    <Name>This check ensures that the document status of project documentation objects are correct.</Name>
+    <LocalName>此检查确保项目文档对象的文档状态正确。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>This check ensures that the document type of project documentation objects are correct.</Name>
+    <LocalName>此检查确保项目文档对象的文档类型正确。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>This check ensures that the logical component of a process step shortcut is the same as the source process step object.</Name>
+    <LocalName>此检查确保流程步骤快捷方式的逻辑组件与源流程步骤对象相同。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>This check warns if the source process step is not in the current model.</Name>
+    <LocalName>此检查会在源流程步骤不在当前模型中时发出警告。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Timeout:</Name>
+    <LocalName>超时：</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Timer</Name>
+    <LocalName>计时器</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Timer Event Definition</Name>
+    <LocalName>计时器事件定义</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Timer Intermediate Catch Event</Name>
+    <LocalName>计时器中间捕获事件</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Timer Start Event</Name>
+    <LocalName>计时器开始事件</LocalName>
+  </Translation>
+  <Translation>
+    <Name>TimerStart</Name>
+    <LocalName>计时器开始事件</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Title</Name>
+    <LocalName>标题</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Token ID</Name>
+    <LocalName>令牌 ID</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Too few event definitions</Name>
+    <LocalName>事件定义过少</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Too many default flows</Name>
+    <LocalName>缺省流过多</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Too many start events</Name>
+    <LocalName>开始事件过多</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Transaction</Name>
+    <LocalName>事务</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Transaction Type</Name>
+    <LocalName>事务类型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Transaction Types</Name>
+    <LocalName>事务类型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Transaction references different logical component</Name>
+    <LocalName>事务引用不同逻辑组件</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Transaction with inappropriate start events</Name>
+    <LocalName>含不合适开始事件的事务</LocalName>
+  </Translation>
+  <Translation>
+    <Name>TransactionType</Name>
+    <LocalName>事务类型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Transactions</Name>
+    <LocalName>事务</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Transactions can only contain start events with the stereotype &quot;Start Event&quot;</Name>
+    <LocalName>事务只能包含构造型为“开始事件”的开始事件</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Transactions must reference the same logical component as the master data to which they belong.</Name>
+    <LocalName>事务必须引用与其所属的主数据相同的逻辑组件。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Transactions must reference the same logical component as the process step to which they belong.</Name>
+    <LocalName>事务必须引用与其所属的流程步骤相同的逻辑组件。</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Transformation type</Name>
+    <LocalName>转换类型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Transport</Name>
+    <LocalName>传输</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Type</Name>
+    <LocalName>类型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Type code</Name>
+    <LocalName>类型代码</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Type name</Name>
+    <LocalName>类型名称</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Type name R</Name>
+    <LocalName>类型名称 R</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Type:</Name>
+    <LocalName>类型：</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Undefined type of operation</Name>
+    <LocalName>未定义的操作类型</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Uniqueness of receive activity</Name>
+    <LocalName>接收活动的唯一性</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Unlimited</Name>
+    <LocalName>无限制</LocalName>
+  </Translation>
+  <Translation>
+    <Name>User Task</Name>
+    <LocalName>用户任务</LocalName>
+  </Translation>
+  <Translation>
+    <Name>UserTask</Name>
+    <LocalName>用户任务</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Validate</Name>
+    <LocalName>验证</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Value</Name>
+    <LocalName>值</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Variable access serializable</Name>
+    <LocalName>变量访问可序列化</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Variable must be defined under the model</Name>
+    <LocalName>变量必须在模型下定义</LocalName>
+  </Translation>
+  <Translation>
+    <Name>Version:</Name>
+    <LocalName>版本：</LocalName>
+  </Translation>
+  <Translation>
+    <Name>_Type</Name>
+    <LocalName>_Type</LocalName>
+  </Translation>
+</Translations>

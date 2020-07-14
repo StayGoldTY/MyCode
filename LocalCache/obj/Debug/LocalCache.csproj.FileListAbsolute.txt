@@ -1,0 +1,7 @@
+E:\学习不止\LocalCache\bin\Debug\LocalCache.exe.config
+E:\学习不止\LocalCache\bin\Debug\LocalCache.exe
+E:\学习不止\LocalCache\bin\Debug\LocalCache.pdb
+E:\学习不止\LocalCache\obj\Debug\LocalCache.csprojAssemblyReference.cache
+E:\学习不止\LocalCache\obj\Debug\LocalCache.csproj.CoreCompileInputs.cache
+E:\学习不止\LocalCache\obj\Debug\LocalCache.exe
+E:\学习不止\LocalCache\obj\Debug\LocalCache.pdb

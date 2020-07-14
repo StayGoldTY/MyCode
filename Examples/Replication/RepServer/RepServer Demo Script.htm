@@ -1,0 +1,366 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=Generator content="Microsoft Word 11 (filtered)">
+<title>Introduction</title>
+
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+h1
+	{margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:0cm;
+	page-break-after:avoid;
+	font-size:16.0pt;
+	font-family:Arial;}
+h3
+	{margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:0cm;
+	page-break-after:avoid;
+	font-size:13.0pt;
+	font-family:Arial;}
+p.MsoDocumentMap, li.MsoDocumentMap, div.MsoDocumentMap
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	background:navy;
+	font-size:12.0pt;
+	font-family:Tahoma;}
+p.bullet, li.bullet, div.bullet
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	text-indent:-18.0pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.bullet2, li.bullet2, div.bullet2
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:72.0pt;
+	margin-bottom:.0001pt;
+	text-indent:-18.0pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+ins
+	{text-decoration:none;}
+span.msoIns
+	{text-decoration:underline;}
+span.msoDel
+	{text-decoration:line-through;
+	color:red;}
+@page Section1
+	{size:595.3pt 841.9pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+
+</head>
+
+<body lang=EN-US>
+
+<div class=Section1>
+
+<h1>Introduction</h1>
+
+<p class=MsoNormal>This sample shows you how to use the Data Movement 
+Model to define and generate Sybase Replication Server definition for a
+customer contact management database.  The primary and remote databases are
+Sybase Adaptive Server Enterprise.  To run this sample, you need to install a
+primary Sybase AS Enterprise database, a remote Sybase AS Enterprise database
+and a Replication Server 12.5 or 12.6.</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<h1>Setup</h1>
+
+<ul style='margin-top:0cm' type=disc>
+ <li class=MsoNormal>Create a primary database in Sybase AS Enterprise.</li>
+ <li class=MsoNormal>Create a remote database in Sybase AS Enterprise.</li>
+ <li class=MsoNormal>Install RepServer 12.5 or 12.6.  The RepServer name is
+     &lt;RepServerName&gt; and the RSSD database name is
+     &lt;RSSDDatabaseName&gt;.</li>
+ <li class=MsoNormal>Create an ODBC data source for the primary database using
+     the name &lt;PrimaryServerName&gt;_&lt;PrimaryDatabaseName&gt;.</li>
+ <li class=MsoNormal>Create an ODBC data source for the remote database using
+     the name &lt;RemoteServerName&gt;_&lt;RemoteDatabaseName&gt;.</li>
+ <li class=MsoNormal>Define a server entry &lt;RepServerName&gt; using DSEDIT. 
+     This is used by isql to generate RepServer script.</li>
+ <li class=MsoNormal>Prepare the primary database:</li>
+</ul>
+
+<p class=bullet2><span style='font-family:"Courier New"'>o<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span>Run
+the create_source.sql file in the primary database or use the Primary.pdm to
+create the following tables: Product, Customer, Contact, and SalesRep.</p>
+
+<p class=bullet2><span style='font-family:"Courier New"'>o<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span>Use
+the insert_source.sql file to insert sample data.</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<h1>Simple Replication</h1>
+
+<h3>Create a new Data Movement Model (DMM)</h3>
+
+<p class=bullet><span style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>Select File &gt; New Data Movement Model.</p>
+
+<p class=bullet><span style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>Type ContactDemo in the Model name box.</p>
+
+<p class=bullet><span style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>Select Replication Server 12.6 in the Extended Model Definitions page.</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<h3>Define the replication using the Replication Wizard</h3>
+
+<p class=bullet><span style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>Select Tools &gt; Replication Wizard.</p>
+
+<p class=bullet><span style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>In the source database selection page, type the primary database
+name using the syntax: &lt;PrimaryServerName&gt;.&lt;PrimaryDatabaseName&gt;.</p>
+
+<p class=bullet><span style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>In the source physical data model selection page, select the “Create
+a new Physical Data Model” option.  Select the DBMS Sybase AS Enterprise.  Select
+the ODBC data source &lt;PrimaryServerName&gt;_&lt;PrimaryDatabaseName&gt;.</p>
+
+<p class=bullet><span style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>In the Database Reverse Engineering window, click OK.</p>
+
+<p class=bullet><span style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>In the ODBC Reverse Engineering window, select the tables
+Product, Customer, Contact, SalesRep, and the UpdateProductPrice stored procedure.</p>
+
+<p class=bullet><span style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>In the replication process page, type the replication process
+name: &lt;RepServerName&gt;.</p>
+
+<p class=bullet><span style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>In the publication selection page, select the “Create or select a
+single publication to gather replicated tables” option.  Select the
+“publication” type.  Type the publication name: Contact.</p>
+
+<p class=bullet><span style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>In the replicated objects selection page, select the following
+tables: Product, Customer, Contact, SalesRep, and the stored procedure
+UpdateProductPrice.</p>
+
+<p class=bullet><span style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>In the remote database connection page, enter the remote database
+name using the syntax: &lt;RemoteServerName&gt;.&lt;RemoteDatabaseName&gt;.</p>
+
+<p class=bullet><span style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>In the remote Physical Data Model selection page, select the
+“Create a new Physical Data Model” option.  Select the DBMS Sybase AS Enterprise.</p>
+
+<p class=bullet><span style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>In the congratulations page, select Update remote database.  Click
+Finish.</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<h3>Define replication server and databases properties</h3>
+
+<p class=bullet><span style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>Define RepServer user name and password:</p>
+
+<p class=bullet2><span style='font-family:"Courier New"'>o<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span>Double-click
+the RepServer process symbol to open the property sheet.</p>
+
+<p class=bullet2><span style='font-family:"Courier New"'>o<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span>Select
+the RepServer Connection page.</p>
+
+<p class=bullet2><span style='font-family:"Courier New"'>o<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span>Define
+the RepServer user name and password.  There are used by isql to generate
+RepServer definition.</p>
+
+<p class=bullet><span style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>In the Subscriptions page, open the subscription properties.  Rename
+the subscription to SubContact.</p>
+
+<p class=bullet><span style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>You could add function strings (select, insert, update, delete)
+in the Replication Definition property sheet.</p>
+
+<p class=bullet><span style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>Define maintenance user for the primary database:</p>
+
+<p class=bullet2><span style='font-family:"Courier New"'>o<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span>Double-click
+the primary Data Connection.</p>
+
+<p class=bullet2><span style='font-family:"Courier New"'>o<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span>Select
+the Connection page.</p>
+
+<p class=bullet2><span style='font-family:"Courier New"'>o<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span>Define
+the maintenance user name and password for the primary database.</p>
+
+<p class=bullet><span style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>Define maintenance user for the remote database:</p>
+
+<p class=bullet2><span style='font-family:"Courier New"'>o<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span>Double-click
+the remote Data Connection:</p>
+
+<p class=bullet2><span style='font-family:"Courier New"'>o<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span>Select
+the Connection page.</p>
+
+<p class=bullet2><span style='font-family:"Courier New"'>o<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span>Define
+the maintenance user name and password for the remote database.</p>
+
+<p class=bullet2><span style='font-family:"Courier New"'>o<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span>Set
+the Connection option to empty.</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<h3>Define ODBC data sources</h3>
+
+<p class=bullet><span style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>In the primary database property sheet, select the ODBC page and
+select the primary database data source
+&lt;PrimaryServerName&gt;_&lt;PrimaryDatabaseName&gt;.<br>
+You also need to define the user name and password if they are not defined in
+the data source .</p>
+
+<p class=bullet><span style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>In the remote database property sheet, select the ODBC page and
+select the remote database data source
+&lt;RemoteServerName&gt;.&lt;RemoteDatabaseName&gt;.<br>
+You also need to define the user name and password if they are not defined in
+the data source.</p>
+
+<p class=bullet><span style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>In the replication server property sheet, select the ODBC page
+and select the RSSD ODBC data source.<br>
+You also need to define the user name and password for the RSSD database.</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<h3>Verify the replication definition with Mapping Editor</h3>
+
+<ul style='margin-top:0cm' type=disc>
+ <li class=MsoNormal>Right-click the replication process.</li>
+ <li class=MsoNormal>Select Mapping Editor.</li>
+ <li class=MsoNormal>Verify the primary database tables and columns to remote
+     database tables and columns mapping.</li>
+</ul>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<h3>Preview the generated scripts</h3>
+
+<ul style='margin-top:0cm' type=disc>
+ <li class=MsoNormal>Right-click the replication process.</li>
+ <li class=MsoNormal>Select the Preview page.</li>
+</ul>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<h3>Generate Replication Server definition</h3>
+
+<p class=bullet><span style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>Mark source tables as replicable and define permissions for
+primary tables:</p>
+
+<p class=bullet2><span style='font-family:"Courier New"'>o<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span>Right-click
+the primary database symbol and select Generate by ODBC.</p>
+
+<p class=bullet2><span style='font-family:"Courier New"'>o<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span>Run
+the generated scripts using the ODBC data source
+&lt;PrimaryServerName&gt;_&lt;PrimaryDatabaseName&gt;.</p>
+
+<p class=bullet><span style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>Generate the remote database:</p>
+
+<p class=bullet2><span style='font-family:"Courier New"'>o<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span>Right-click
+the remote database symbol, select Generate Database and select the ODBC data
+source &lt;RemoteServerName&gt;_&lt;RemoteDatabaseName&gt;.</p>
+
+<p class=bullet2><span style='font-family:"Courier New"'>o<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span>Run
+the database creation script.</p>
+
+<p class=bullet><span style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>Generate the Replication Server definition:</p>
+
+<p class=bullet2><span style='font-family:"Courier New"'>o<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span>Right-click
+the Replication Server symbol and select Generate by Script. In the generation
+window, verify the generation options, in the Tasks page, select Execute
+generated scripts in Replication Server.<br>
+Note: The generation by ODBC does not work if the RSSD is Sybase AS Anywhere. 
+This is why you need to use the Execute generated scripts in Replication Server
+task to use isql to execute the script.  The isql command should be accessible
+in your path.</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<h3>Test the replication</h3>
+
+<p class=bullet><span style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>Open the source PDM and right-click the SalesRep table, select
+View Data in the contextual menu to display the query for retrieving data.</p>
+
+<p class=bullet><span style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>Start Replication Server agent.</p>
+
+<p class=bullet><span style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>You may need to perform the materialization.</p>
+
+<p class=bullet><span style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>Modify some data in the primary database (insert, update,
+delete).</p>
+
+<p class=bullet><span style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>Open the remote PDM and right-click a table, select View Data in
+the contextual menu. You should see the original data and the inserted,
+modified data.</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+</div>
+
+</body>
+
+</html>
